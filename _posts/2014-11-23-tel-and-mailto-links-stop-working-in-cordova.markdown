@@ -63,7 +63,7 @@ Android, which wasn't required in previous versions of Cordova:
 > behaviour can be overridden by plugins.
 
 Consulting the documentation (protip: ALWAYS make sure you are looking at 
-the Cordova documentation corresponding to the Cordova veersion you're 
+the Cordova documentation corresponding to the Cordova version you're 
 actually using) I realized there were new settings in config.xml that control 
 this behavior on Android:
 
