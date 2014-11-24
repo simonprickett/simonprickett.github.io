@@ -2,7 +2,7 @@
 layout: post
 title:  "tel and mailto Links Stopped Working in Your Android Cordova/PhoneGap App?"
 date:   2014-11-23 21:20:12
-categories: cordova phonegap android security
+categories: cordova phonegap android security javascript
 ---
 I recently upgraded an app I've been working on for some time from Apache 
 Cordova 3.0.0 to 3.6.3.  This app runs on both iOS and Android, and the 
