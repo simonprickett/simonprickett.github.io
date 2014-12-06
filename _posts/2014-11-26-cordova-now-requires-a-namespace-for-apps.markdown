@@ -16,7 +16,8 @@ simon$ cordova -version
 3.6.3-0.2.13
 
 simon$ cordova create doge
-Creating a new cordova project with name "HelloCordova" and id "io.cordova.hellocordova" at location "/Users/simon/projects/doge"
+Creating a new cordova project with name "HelloCordova" 
+and id "io.cordova.hellocordova" at location "/Users/simon/projects/doge"
 {% endhighlight %}
 
 Note that "io.cordova" is prefixed onto the ID by the CLI.
@@ -40,7 +41,8 @@ Let's try starting another new project, and give it an explicit ID... with a . i
 
 {% highlight bash %}
 simon$ cordova create suchproject doge.suchproject
-Creating a new cordova project with name "HelloCordova" and id "doge.suchproject" at location "/Users/simon/projects/doge/suchproject"
+Creating a new cordova project with name "HelloCordova" 
+and id "doge.suchproject" at location "/Users/simon/projects/doge/suchproject"
 simon$ cd suchproject
 simon$ cordova platform add android
 Creating android project...
@@ -57,7 +59,8 @@ So that's also good.  Now, let's try specifying an ID, without a . in it...
 
 {% highlight bash %}
 simon$ cordova create sobroken doge
-Creating a new cordova project with name "HelloCordova" and id "doge" at location "/Users/simon/projects/doge/suchproject/sobroken"
+Creating a new cordova project with name "HelloCordova" 
+and id "doge" at location "/Users/simon/projects/doge/suchproject/sobroken"
 simon$ cd sobroken
 simon$ cordova platform add android
 Creating android project...
