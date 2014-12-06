@@ -69,7 +69,9 @@ this behavior on Android:
 
 {% highlight xml %}
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.whatever.myapp" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="com.whatever.myapp" version="0.0.1" 
+        xmlns="http://www.w3.org/ns/widgets" 
+        xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>MyApp</name>
     <description>My Application</description>
     <author email="me@megacorp.com" href="http://myapp.megacorp.com">
