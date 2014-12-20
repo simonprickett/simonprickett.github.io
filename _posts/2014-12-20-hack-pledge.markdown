@@ -21,7 +21,7 @@ you can do both roles - mentor in something you already know about, and learn so
 If you want to learn more about this initiative, check out the site at 
 [hackpledge.org](http://hackpledge.org) and watch their intro video below.
 
-{% youtube VRQn2utaaJw %}
+{% include youtube.html param="value" %}
 
 At about the same time as I signed up for this, I was indepdently asked by 
 a friend to help them get started working with HTML, CSS and JavaScript and 
@@ -51,4 +51,4 @@ You can try playing our basic game below, or go get the code from
 it yourself.  Feel free to laugh as my CSS, it's not my strong suit... maybe an 
 area that I could benefit from some mentoring in?
 
-{% codepen qENLqz simonprickett result 600 %}
+{% include codepen.html param="value" %}
