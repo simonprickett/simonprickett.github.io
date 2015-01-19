@@ -3,6 +3,7 @@ layout: post
 title:  "Starting Out"
 date:   2014-11-23 19:58:56
 categories: news
+comments: True
 ---
 Hi there,
 

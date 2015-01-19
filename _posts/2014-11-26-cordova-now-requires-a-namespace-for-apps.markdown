@@ -3,6 +3,7 @@ layout: post
 title:  "Cordova Now Requires a Namespace for Apps"
 date:   2014-11-26 14:30:00
 categories: cordova phonegap android ios javascript
+comments: True
 ---
 I recently had to update a Cordova project from version 3.0.0 to 3.6.3.  During this
 process I found that the app ID in 3.6.3 must now contain at least one . -- this wasn't 

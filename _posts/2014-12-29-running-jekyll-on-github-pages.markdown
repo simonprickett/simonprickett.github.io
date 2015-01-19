@@ -3,6 +3,7 @@ layout: post
 title:  "Running Jekyll on Github Pages"
 date:   2014-12-29 21:24:00
 categories: jekyll markdown github
+comments: True
 ---
 When I originally decided I wanted to document some of the things I work with 
 in a more public way, I was pretty certain I didn't want to use some database 

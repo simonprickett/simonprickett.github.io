@@ -3,6 +3,7 @@ layout: post
 title:  "hackpledge.org"
 date:   2014-12-20 13:47:00
 categories: javascript html5 css mentoring
+comments: True
 ---
 A number of us at work recently signed up for the [hack.pledge()](http://hackpledge.org) 
 New Year's Resolution.  In case you're not familiar with it, this is an effort to put 

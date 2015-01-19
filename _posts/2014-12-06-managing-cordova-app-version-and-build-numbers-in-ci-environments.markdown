@@ -3,6 +3,7 @@ layout: post
 title:  "Managing Cordova App Version and Build Numbers in CI Environments"
 date:   2014-12-06 09:27:00
 categories: cordova phonegap android ios jenkins devops
+comments: True
 ---
 
 As the Cordova CLI tooling has matured, I've been using it more and more 
