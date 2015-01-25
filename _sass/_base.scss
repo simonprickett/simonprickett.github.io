@@ -205,11 +205,19 @@ pre {
 
 /**
  * About screen image
- *
  */
 .aboutimg {
 	margin-right: 10px;
 	margin-bottom: 10px;
 	float: left;
 	width: 25%;
+}
+
+/**
+ * Centered Image
+ */
+.centeredimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
