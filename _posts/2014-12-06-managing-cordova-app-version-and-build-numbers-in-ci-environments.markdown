@@ -119,12 +119,14 @@ portable to other operating systems.
 I put this on my Github so you can grab it and use it as is, or change it 
 to suit your own needs.
 
-The script expects to be invoked from the Cordova project folder (the one that 
-contains your www, plugins, merges, platforms etc folders), and takes a version number 
-and build number for the app:
+The script expects to be invoked with the following parameters:
+
+* Version number
+* Build number
+* Path to your project's config.xml
 
 {% highlight bash %}
-python <path_to>/setCordovaVersion.py 0.0.0 $buildNumber
+setCordovaVersion.py 0.0.0 $buildNumber <path_to>/config.xml
 {% endhighlight %}
 
 Which would set the app version number to 0.0.0, and the build number to whatever build 
@@ -132,11 +134,7 @@ number Jenkins was running the script as part of.  You may also want to paramete
 the app version number and feed that in through Jenkins or whichever Continuous Integration 
 server you're using as well.
 
-The script looks to see if Android and/or iOS platforms are part of the project, and adds 
-the appropriate attributes for each in config.xml if they are.  I have this setting the 
-build number the same for both platforms as that's what I needed at the time.
-
-I run this in my build script prior to running the cordova build commands.
+I run this as a CI build step prior to running the cordova build commands.
 
 Feel free to check out my [script on Github](https://github.com/simonprickett/cordovasetversion), 
 and use it as you need.
@@ -144,7 +142,4 @@ and use it as you need.
 There may be a better way of achieving this, but this is working for me right now.
 
 If you have a better idea, or are achieving this in some other way, please do let me know!
-
-
-
 
