@@ -14,3 +14,5 @@ github_username:  simonprickett
 # Build settings
 markdown: kramdown
 timezone: America/New_York
+
+theme: jekyll-theme-slate
