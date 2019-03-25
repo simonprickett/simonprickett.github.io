@@ -4,4 +4,4 @@ title: About
 permalink: /about/
 ---
 
-TODO: Add proper about detail!
+TODO: Add proper about detail sometime!
