@@ -4,4 +4,4 @@ title: About
 permalink: /about/
 ---
 
-TODO: Add proper about detail sometime!
+I am a training development professional working at Redis Labs out of Mountain View California.
