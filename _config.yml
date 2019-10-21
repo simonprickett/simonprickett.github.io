@@ -15,4 +15,4 @@ github_username:  simonprickett
 markdown: kramdown
 timezone: America/Los_Angeles
 
-theme: jekyll-theme-slate
+theme: jekyll-theme-cayman
