@@ -30,7 +30,7 @@ comments: false
                HP-UX, Solaris, AIX and Windows NT.</p>
             <p>I've subsequently enjoyed a career that's involved living and working 
                in England, New Zealand and on both coasts of the USA.  I've also 
-               traveled extensively delivering technical training on consuting engagements 
+               traveled extensively delivering technical training on consulting engagements 
                and once expense claimed a round the world ticket :).  I spent a significant 
                amount of time working on mobile experiences for Viacom brands including MTV, 
                Nickelodeon and Comedy Central.  I'm particularly proud of my work with handheld 
