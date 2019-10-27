@@ -46,13 +46,21 @@ https://<region>-<projectId>.cloudfunctions.net/getUserDetails
 
 The output looks like this:
 
-![Function output]({{ site.baseurl }}/assets/images/go_cloud_functions_output.png)
+<figure class="figure">
+  <img src="{{ site.baseurl }}/assets/images/go_cloud_functions_output.png" class="figure-img img-fluid" alt="Function output">
+  <figcaption class="figure-caption text-center">Function output.</figcaption>
+</figure>
 
 The Cloud Functions console also shows that the function is using the Go runtime:
 
-![Cloud Functions console]({{ site.baseurl }}/assets/images/go_cloud_functions_console.png)
+<figure class="figure">
+  <img src="{{ site.baseurl }}/assets/images/go_cloud_functions_console.png" class="figure-img img-fluid" alt="Cloud Functions console">
+  <figcaption class="figure-caption text-center">Google Cloud Functions Console.</figcaption>
+</figure>
 
 And that’s all there is to it!
+
+---
 
 If you’d like to use or study the code from this article feel free: [I’ve put it on GitHub for you](https://github.com/simonprickett/google-cloud-functions-go). Google’s announcement of beta support for Go in Cloud Functions can be read [here](https://cloud.google.com/blog/products/application-development/cloud-functions-go-1-11-is-now-a-supported-language). The announcement covers other topics that may be of interest too: using library code, and background Cloud Function development in Go.
 
