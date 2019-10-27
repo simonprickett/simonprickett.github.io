@@ -10,7 +10,7 @@ Let’s try building and deploying a Google Cloud Function using Go!  Google Clo
 In this article I’ll take a a quick look at how to write and deploy a simple function in Go.
 
 ## Coding
-Let’s use the Go runtime to host a HTTP function that performs the same task as my Node.js 8 Cloud Functions demo does (or if you prefer Python 3 take a look at [this example]({{ site.baseurl }}/writing-google-cloud-functions-with-python-3)). I’ll use the [randomuser.me](https://randomuser.me/) API to output a JSON object representing data about a single user, then add one extra key named `generator` ...
+Let’s use the Go runtime to host a HTTP function that performs the same task as my [Node.js 8 Cloud Functions demo]({{ site.baseurl }}/you-can-now-write-google-cloud-functions-with-node-js-8) does (or if you prefer Python 3 take a look at [this example]({{ site.baseurl }}/writing-google-cloud-functions-with-python-3)). I’ll use the [randomuser.me](https://randomuser.me/) API to output a JSON object representing data about a single user, then add one extra key named `generator` ...
 
 <script src="https://gist.github.com/simonprickett/099470b3e331cc28bac30e0140f29a3d.js"></script>
 

@@ -5,7 +5,7 @@ categories: [ Cloud, GCP, Python, Serverless ]
 image: assets/images/python3_cloud_functions_main.jpg
 author: simon
 ---
-This is my third and final article looking at new features in Google Cloud functions as Google starts to narrow the gap to Amazon’s AWS Lambda product. Until recently Node.js 6 was the only option for writing Google Cloud functions. That’s changed now with the addition of Node.js 8 (read my article) and Python 3 runtimes available in public beta. (Later update: you can also now write Cloud functions in Go -- [see my article]({{ site.baseurl }}/writing-google-cloud-functions-in-go)).
+This is my third and final article looking at new features in Google Cloud functions as Google starts to narrow the gap to Amazon’s AWS Lambda product. Until recently Node.js 6 was the only option for writing Google Cloud functions. That’s changed now with the addition of Node.js 8 ([read my article]({{ site.baseurl }}/you-can-now-write-google-cloud-functions-with-node-js-8)) and Python 3 runtimes available in public beta. (Later update: you can also now write Cloud functions in Go -- [see my article]({{ site.baseurl }}/writing-google-cloud-functions-in-go)).
 
 Let’s take a look at how to use the Python environment by deploying a HTTP function that performs the same task as my Node.js 8 Cloud Functions demo does. We’ll use the `requests` library and [randomuser.me](https://randomuser.me/) API to output a JSON object representing data about a single user, then add one extra key named `generator` ...
 
