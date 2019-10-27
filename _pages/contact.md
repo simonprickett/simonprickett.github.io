@@ -2,6 +2,7 @@
 title: "Contact"
 permalink: "/contact.html"
 ---
+<img src="assets/images/contactbanner.jpg" class="img-fluid" alt="Responsive image">
 <p>If you'd like to contact me, I can be found in the following places:</p>
 <ul class="list-group">
     <li class="list-group-item"><strong><i class="far fa-envelope"></i></strong> <a href="mailto:simon@crudworks.org">simon@crudworks.org</a></li>
