@@ -81,6 +81,7 @@ while True:
   if (pattern == 'uk'):
     GPIO.output(10, True)
   time.sleep(1)
+  
   # Green
   GPIO.output(9, False)
   GPIO.output(10, False)
