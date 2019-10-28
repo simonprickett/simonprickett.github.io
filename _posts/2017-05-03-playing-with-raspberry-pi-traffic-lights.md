@@ -153,7 +153,7 @@ When `Control-C` is pressed an interrupt signal `signal.SIGINT` is sent. This is
 
 ## Next Steps
 
-In the next post in this series, I’ll look at how to drive the lights in either the UK or USA patterns of operation then we’ll move on to other ways to structure and deploy the code.
+In the [next post in this series]({{ site.baseurl }}/playing-with-raspberry-pi-traffic-lights-part-2), I’ll look at how to drive the lights in either the UK or USA patterns of operation then we’ll move on to other ways to structure and deploy the code.
 
 ---
 
