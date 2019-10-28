@@ -65,7 +65,7 @@ Now you can go ahead and start turning lights on and off!
 
 We’ll use the [Python](https://www.python.org/) programming language to make the lights work. First, you need to install a couple of extra software packages needed to allow you to download my sample code, and to give Python access to the GPIO pins on the Pi. Enter the following at the command line:
 
-```
+```bash
 $ sudo apt-get install python-dev python-rpi.gpio git
 ```
 
@@ -73,14 +73,14 @@ Answer “Y” when asked if you want to install additional packages.
 
 Now get the code from my [GitHub repo](https://github.com/simonprickett/pitrafficlights):
 
-```
+```bash
 $ git clone https://github.com/simonprickett/pitrafficlights.git
 $ cd pitrafficlights
 ```
 
 You should now be able to test the lights:
 
-```
+```bash
 $ python basicdemo.py
 ```
 
@@ -95,7 +95,7 @@ And if they are connected to the correct GPIO pins, they should start to flash o
 
 The [code for this](https://github.com/simonprickett/pitrafficlights/blob/master/basicdemo.py) is very simple. It starts by importing the `RPi.GPIO` library, plus `time` which gives us a timed wait function, `signal` that allows us to trap the signal sent when the user tries to quit the program and `sys` so we can send an appropriate exit signal back to the operating system before terminating.
 
-```
+```python
 import RPi.GPIO as GPIO
 import time
 import signal
@@ -104,7 +104,7 @@ import sys
 
 Next we put the GPIO library into "BCM" or "Broadcom" mode (so we can refer to pins by the same numbers as are labeled with in GPIO pin diagrams), and sets pins 9 (red LED), 10 (amber LED) and 11 (green LED) to be used as outputs:
 
-```
+```python
 # Setup
 GPIO.setmode(GPIO.BCM)
 GPIO.setup(9, GPIO.OUT)
@@ -114,7 +114,7 @@ GPIO.setup(11, GPIO.OUT)
 
 The main part of the program will run in an infinite loop until the user exits it by stopping Python with `Ctrl-C`. It’s a good idea to add a handler function that will run whenever this happens, so that we can turn off all the lights prior to exiting (thus ensuring they’ll also be in the state we expect them to start in the next time the program is run):
 
-```
+```python
 # Turn off all lights when user ends demo
 def allLightsOff(signal, frame):
     GPIO.output(9, False)
@@ -127,7 +127,7 @@ signal.signal(signal.SIGINT, allLightsOff)
 
 The main body of the code then consists of an infinite `while` loop that turns on the red light (pin 9), waits, turns on the amber light (pin 10), waits, then cycles through the rest of the traffic light pattern by turning the appropriate LEDs on and off:
 
-```
+```python
 # Loop forever
 while True: 
     # Red 
