@@ -104,7 +104,7 @@ Also note that after the green light, we show the amber light for a longer time 
 
 ## Next Steps
 
-In this article, we made a simple change to the code to run the lights in different patterns depending on the value of an environment variable. In the next post (now available here), we’ll look at another way we can structure the code by building a [finite state machine](https://en.wikipedia.org/wiki/Finite-state_machine).
+In this article, we made a simple change to the code to run the lights in different patterns depending on the value of an environment variable. In the next post ([now available here]({{ site.baseurl}}/playing-with-raspberry-pi-traffic-lights-with-a-finite-state-machine)), we’ll look at another way we can structure the code by building a [finite state machine](https://en.wikipedia.org/wiki/Finite-state_machine).
 
 ---
 
