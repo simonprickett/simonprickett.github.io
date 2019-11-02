@@ -5,7 +5,7 @@ categories: [ Raspberry Pi, Technology, IoT, Golang ]
 image: assets/images/pi_traffic_lights_go_main.jpg
 author: simon
 ---
-I've been learning the [Go programming language](https://golang.org/) recently. As an exercise, I decided to revisit a [past article]({{ site.baseurl }}/playing-with-raspberry-pi-traffic-lights/) that looked at working with traffic lights on the Raspberry Pi in Python in order to rewrite it in Go. To make this a standalone guide, there will be some re-use of content from the prior article here. Since writing this article, I've also written up the same exercise using Node.js (read about that here), Java ([try here]({{ site.baseurl }}/playing-with-raspberry-pi-gpio-pins-and-traffic-lights-in-java)), Bash scripting (Bash article) and C ([check it out here]({{ site.baseurl }}/gpio-access-in-c-with-raspberry-pi-traffic-lights)).
+I've been learning the [Go programming language](https://golang.org/) recently. As an exercise, I decided to revisit a [past article]({{ site.baseurl }}/playing-with-raspberry-pi-traffic-lights/) that looked at working with traffic lights on the Raspberry Pi in Python in order to rewrite it in Go. To make this a standalone guide, there will be some re-use of content from the prior article here. Since writing this article, I've also written up the same exercise using Node.js (read about that here), Java ([try here]({{ site.baseurl }}/playing-with-raspberry-pi-gpio-pins-and-traffic-lights-in-java)), Bash scripting ([Bash article]({{ site.baseurl}}/controlling-raspberry-pi-gpio-pins-from-bash-scripts-traffic-lights)) and C ([check it out here]({{ site.baseurl }}/gpio-access-in-c-with-raspberry-pi-traffic-lights)).
 
 ## Shopping List
 

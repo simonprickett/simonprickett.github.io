@@ -7,7 +7,7 @@ author: simon
 ---
 I’ve recently been doing some simple Python programming with the Raspberry Pi and a set of traffic light LEDs that connect to it. In this post I’ll look at setting up a Pi to drive the lights. In future posts, I’ll explore some other programming / devops concepts using the base setup described here.
 
-I subsequently wrote versions of this article describing the same process using the Go programming language ([here]({{ site.baseurl }}/raspberry-pi-coding-in-go-traffic-lights)), Java ([here]({{ site.baseurl }}/playing-with-raspberry-pi-gpio-pins-and-traffic-lights-in-java)), C ([here]({{ site.baseurl}}/gpio-access-in-c-with-raspberry-pi-traffic-lights)), Bash scripting (here) and also Node.js (here).
+I subsequently wrote versions of this article describing the same process using the Go programming language ([here]({{ site.baseurl }}/raspberry-pi-coding-in-go-traffic-lights)), Java ([here]({{ site.baseurl }}/playing-with-raspberry-pi-gpio-pins-and-traffic-lights-in-java)), C ([here]({{ site.baseurl}}/gpio-access-in-c-with-raspberry-pi-traffic-lights)), Bash scripting ([here]({{ site.baseurl}}/controlling-raspberry-pi-gpio-pins-from-bash-scripts-traffic-lights)) and also Node.js (here).
 
 Let’s go...
 
