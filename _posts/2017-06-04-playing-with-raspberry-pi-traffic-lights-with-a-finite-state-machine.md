@@ -5,7 +5,7 @@ categories: [ Raspberry Pi, Technology, IoT, Python ]
 image: assets/images/pi_traffic_lights_fsm_main.jpg
 author: simon
 ---
-This is the third of four articles in our series where we’re playing with the [Low Voltage Labs LED Traffic Lights](http://lowvoltagelabs.com/products/pi-traffic/) using Python on the Raspberry Pi. In the [first article]({{ site.baseurl }}/playing-with-raspberry-pi-traffic-lights), we set up a basic traffic light pattern, then enhanced this in the [second article]({{ site.baseurl }}/playing-with-raspberry-pi-traffic-lights-part-2) to run the lights in either the UK or USA patterns according to the value of an environment variable.
+This is the third of our articles in a series where we’re playing with the [Low Voltage Labs LED Traffic Lights](http://lowvoltagelabs.com/products/pi-traffic/) using Python on the Raspberry Pi. In the [first article]({{ site.baseurl }}/playing-with-raspberry-pi-traffic-lights), we set up a basic traffic light pattern, then enhanced this in the [second article]({{ site.baseurl }}/playing-with-raspberry-pi-traffic-lights-part-2) to run the lights in either the UK or USA patterns according to the value of an environment variable.
 
 This time, we’ll look at restructuring the code to use a Finite State Machine, so let’s go...
 

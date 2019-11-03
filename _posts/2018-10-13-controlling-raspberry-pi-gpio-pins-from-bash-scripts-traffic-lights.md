@@ -5,7 +5,7 @@ categories: [ Raspberry Pi, Technology, IoT, Linux ]
 image: assets/images/pi_traffic_lights_bash_main.jpg
 author: simon
 ---
-I’ve previously produced guides describing how to use the Low Voltage Labs traffic lights with Raspberry Pi single board computers for Python ([read Python article]({{ site.baseurl}}/playing-with-raspberry-pi-traffic-lights)), Node.js (read Node.js article), Java ([read Java article]({{ site.baseurl}}/playing-with-raspberry-pi-gpio-pins-and-traffic-lights-in-java)), C ([read C article]({{ site.baseurl}}/gpio-access-in-c-with-raspberry-pi-traffic-lights)) and Go ([read Go article]({{ site.baseurl}}/raspberry-pi-coding-in-go-traffic-lights)). This time, I’ll look at using a Bash script to do the same thing without employing a traditional programming language.
+I’ve previously produced guides describing how to use the Low Voltage Labs traffic lights with Raspberry Pi single board computers for Python ([read Python article]({{ site.baseurl}}/playing-with-raspberry-pi-traffic-lights)), Node.js ([read Node.js article]({{ site.baseurl }}/raspberry-pi-coding-with-node-js-traffic-lights)), Java ([read Java article]({{ site.baseurl}}/playing-with-raspberry-pi-gpio-pins-and-traffic-lights-in-java)), C ([read C article]({{ site.baseurl}}/gpio-access-in-c-with-raspberry-pi-traffic-lights)) and Go ([read Go article]({{ site.baseurl}}/raspberry-pi-coding-in-go-traffic-lights)). This time, I’ll look at using a Bash script to do the same thing without employing a traditional programming language.
 
 To make this a standalone guide, there will be some re-use of content from the prior articles here.
 
