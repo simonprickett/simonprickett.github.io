@@ -4,6 +4,7 @@ title:  "Playing with Raspberry Pi and Python: Traffic lights"
 categories: [ Raspberry Pi, Technology, IoT, Python ]
 image: assets/images/pi_traffic_lights_python_main.jpg
 author: simon
+tags: [featured]
 ---
 I’ve recently been doing some simple Python programming with the Raspberry Pi and a set of traffic light LEDs that connect to it. In this post I’ll look at setting up a Pi to drive the lights. In future posts, I’ll explore some other programming / devops concepts using the base setup described here.
 
