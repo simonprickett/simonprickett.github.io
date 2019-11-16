@@ -4,7 +4,6 @@ title:  "Using Environment Variables with Google Cloud Functions"
 categories: [ Cloud, GCP, Node.js, JavaScript, Serverless ]
 image: assets/images/cloud_functions_env_vars_main.jpg
 author: simon
-tags: [featured]
 ---
 Google’s [Cloud Functions](https://cloud.google.com/functions/) have been around for a little while now. The product works well with other Google Cloud Platform offerings and provides a scalable, event-driven runtime for serverless applications or microservices. Developers can write functions using (a relatively old version of `¯\_(ツ)_/¯`) Node.js (other language runtimes aren’t available at this point `¯\_(ツ)_/¯`) and attach them to events. Supported event triggers include a HTTP request, a message being published to a pub/sub topic or changes to an object in a cloud storage bucket.
 
