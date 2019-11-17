@@ -4,7 +4,6 @@ title:  "Playing with Raspberry Pi: GPIO Pins and Traffic Lights in Java"
 categories: [ Raspberry Pi, Technology, IoT, Java ]
 image: assets/images/pi_traffic_lights_java_main.jpg
 author: simon
-tags: [sticky]
 ---
 Having written guides describing how to use the [Low Voltage Labs](http://lowvoltagelabs.com/products/pi-traffic/) traffic lights with the Raspberry Pi for Python ([read Python article]({{site.baseurl}}/playing-with-raspberry-pi-traffic-lights)), Node.js ([read Node.js article]({{ site.baseurl }}/raspberry-pi-coding-with-node-js-traffic-lights)), C ([read C article]({{ site.baseurl }}/gpio-access-in-c-with-raspberry-pi-traffic-lights)), Bash scripting ([read Bash article]({{ site.baseurl }}/controlling-raspberry-pi-gpio-pins-from-bash-scripts-traffic-lights)) and Go ([read Go article]({{site.baseurl}}/raspberry-pi-coding-in-go-traffic-lights)), it’s definitely time to check out how to access the GPIO pins from the Java programming language.
 
