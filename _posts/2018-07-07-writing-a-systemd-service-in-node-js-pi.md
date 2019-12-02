@@ -4,7 +4,6 @@ title:  "Writing a systemd Service in Node.js on Raspberry Pi"
 categories: [ Raspberry Pi, Linux, Node.js ]
 image: assets/images/systemd_node_pi_main.jpg
 author: simon
-tags: [featured]
 ---
 Node.js (a server side JavaScript runtime) is a popular choice for writing software on the Raspberry Pi single board computers that run Raspbian (a variant of Debian Linux). Developers often need to have their project’s code start when the operating system boots and stop when it shuts down. Some projects may not be able to run successfully if started too early in the boot process, for example prior to a network connection being established. In this article we’ll look at how to use the Linux System and Service Manager systemd to start a Node.js project automatically at boot.
 

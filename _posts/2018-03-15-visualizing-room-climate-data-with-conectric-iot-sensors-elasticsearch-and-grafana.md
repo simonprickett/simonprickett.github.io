@@ -4,6 +4,7 @@ title:  "Visualizing Room Climate Data with Conectric’s IoT Sensors, Elasticse
 categories: [ Grafana, Node.js, JavaScript, IoT, Elasticsearch ]
 image: assets/images/conectric_elastic_main.jpg
 author: simon
+tags: [featured]
 canonical_url: https://medium.com/conectric-networks/visualizing-room-climate-data-with-conectrics-iot-sensors-elasticsearch-grafana-3254265bf35a
 ---
 At Conectric we recently launched our new IoT Gateway product with an accompanying suite of wireless, battery powered sensors.  In this article we’ll take a closer look at how to use our temperature / humidity sensor and [Node.js SDK](https://www.npmjs.com/package/conectric-usb-gateway) to create a [Grafana](https://grafana.com/) dashboard powered by [Elasticsearch](https://www.elastic.co/products/elasticsearch).
