@@ -17,7 +17,7 @@ Often, the functionality that a plugin provides can’t be directly replicated i
 
 Some plugins may choose to render UI components using HTML in place of native controls when running in the browser, others may return dummy data in place of reading sensors or external accessories that are present on the device but missing from the browser.
 
-Let’s explore this by taking the “ModusEcho” plugin that we developed in a [previous blog post](https://moduscreate.com/plugin-authoring-cordova-6-ios-android/), and extending it to support the Browser platform.
+Let’s explore this by taking the “ModusEcho” plugin that we developed in a [previous blog post](https://simonprickett.dev/plugin-authoring-for-ios-and-android-in-cordova-6/), and extending it to support the Browser platform.
 
 ## Adding the Browser Platform to Our Plugin
 

@@ -366,7 +366,7 @@ Which should open up the browser implementation at `localhost:8000/index.html` a
 
 Using the merges feature, we’ve been able to demonstrate a simple Cordova app that re-uses as much code as possible across two platforms, functions in the browser without errors, and has no platform specific `if/else` or `switch` statements in it.
 
-Merges are great for working with platform specific images and CSS, and to a lesser extent for some JavaScript needs (platform specific configuration values would be a good example of where merges make sense for JavaScript / JSON files). For more complex JavaScript that needs to differ on a per platform basis, or which you want to share between multiple apps, we would recommend that you consider [using a plugin](http://moduscreate.com/plugin-authoring-cordova-6-ios-android/).
+Merges are great for working with platform specific images and CSS, and to a lesser extent for some JavaScript needs (platform specific configuration values would be a good example of where merges make sense for JavaScript / JSON files). For more complex JavaScript that needs to differ on a per platform basis, or which you want to share between multiple apps, we would recommend that you consider [using a plugin](https://simonprickett.dev/plugin-authoring-for-ios-and-android-in-cordova-6/).
 
 If you’d like to try our completed test app out for yourself, it’s [available on Github](https://github.com/ModusCreateOrg/cordova-merge-example), and you can run it locally with a few simple commands:
 
