@@ -7,6 +7,8 @@ author: simon
 ---
 Since the App Store first opened in 2008, developers wishing to build iOS apps have been required to learn Objective-C. This includes those choosing the hybrid model with Apache Cordova, as plugins that extend Cordova’s reach to include native APIs were also authored in Objective-C. For a long time this was the only language available for iOS development. Things changed in 2014, when Apple launched the Swift programming language at that year’s Worldwide Developer Conference.
 
+**(This post has been updated for Swift 3 and the latest Xcode tooling. If you’re using Xcode 8.2 or better, please check out my [updated post](https://simonprickett.dev/writing-a-cordova-plugin-in-swift-3-for-ios/) instead of this one).**
+
 (This article originally appeared on the [Modus Create blog](https://moduscreate.com/insights/blog/)).
 
 Since then Apple has continued to evolve the Swift language, releasing a version 2 implementation and making it open source in late 2015. This has led to a lot of interest in using the language for native app development and beyond.
