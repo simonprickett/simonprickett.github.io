@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Managing Cordova App Version and Build Numbers in CI Enviroments"
+title:  "Managing Cordova App Version and Build Numbers in CI Environments"
 categories: [ DevOps, Cordova, iOS ]
 image: assets/images/cordova_ci_main.png
 author: simon
