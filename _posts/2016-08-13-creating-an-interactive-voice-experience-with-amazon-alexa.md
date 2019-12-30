@@ -7,6 +7,8 @@ author: simon
 ---
 Introduced in 2015, [Amazon Echo](https://www.amazon.com/Amazon-Echo-Bluetooth-Speaker-with-WiFi-Alexa/dp/B00X4WHP5E) is a wireless speaker and microphone device that allows users to interact with online services by voice. Alexa is the name of the speech service that powers Echo (and other devices), as well as a companion smartphone app for Android and iOS. It has a wide range of capabilities out of the box, which developers can extend using the “Alexa Skills Kit” SDK. The Skills Kit runs in the cloud, handling a lot of the heavy lifting traditionally associated with voice interfaces such as speech recognition and text-to-speech encoding.
 
+(This article originally appeared on the [Modus Create blog](https://moduscreate.com/insights/blog/)).
+
 In this post, we’ll take a look at developing a custom skill that allows users to ask Alexa questions about the status of the [BART transit system](http://www.bart.gov/) in the San Francisco Bay Area, receiving spoken responses containing up-to-date information. Transit is just one of many industries that could benefit from the ability to conduct user interactions by voice — other use cases could be as diverse as controlling other in-home IoT enabled devices, engaging in e-commerce, playing games, or enabling seniors and those with disabilities to live more independently. As we’ll see, all you need to integrate with Alexa is an API to get data from, your imagination and some basic coding skills.
 
 ## Anatomy of an Alexa Custom Skill
