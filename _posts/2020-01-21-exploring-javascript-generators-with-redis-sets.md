@@ -40,7 +40,7 @@ Each call to the generator's iterator - `next()` causes the code to run until a 
   <figcaption class="figure-caption text-center">Output from running the example code.</figcaption>
 </figure>
 
-As expected, the subsequent calls to `next()` yield and object where the `value` key contains the numbers 1-5 and the `done` key contains `true`.
+As expected, the subsequent calls to `next()` yield an object where the `value` key contains the numbers 1-5 and the `done` key contains `true`.
 
 ## Using a Generator to Iterate Over a Set in Redis
 
