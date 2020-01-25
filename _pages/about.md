@@ -1,7 +1,7 @@
 ---
 title: "About Simon"
 layout: page
-permalink: "/about.html"
+permalink: "/about/"
 comments: false
 ---
 <div class="container">
