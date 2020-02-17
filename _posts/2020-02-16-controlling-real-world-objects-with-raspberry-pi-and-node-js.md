@@ -5,7 +5,7 @@ categories: [ Raspberry Pi, Node.js, IoT ]
 image: assets/images/pi_controlling_objects_main.jpg
 author: simon
 ---
-Here in San Diego, we have a monthly meetup called Fundamental JS.  This is part of the wider [San Diego JS](https://www.sandiegojs.org/) family of meetups and is a favorite of mine because it focusses on core JavaScript rather than frameworks.  It's also held very close by to where I live downtown, so is very convenient to get to.
+Here in San Diego, we have a monthly meetup called Fundamental JS.  This is part of the wider [San Diego JS](https://www.sandiegojs.org/) family of meetups and is a favorite of mine because it focusses on core JavaScript rather than the framework du jour.  It's also held very close by to where I live downtown, so is very convenient to get to.
 
 I try and speak at these events periodically, usually about some JavaScript language feature or Node.js basics.  In the past I've spoken about [Server Sent Events](https://simonprickett.dev/a-look-at-server-sent-events/), which eventually became the most popular blog post I've written by a long way!  I had wanted to talk about the Raspberry Pi and physical computing for this group for quite a while, so approached the organizers about a talk where I'd explore building a smart plug type product with a Node.js back end and basic HTML / JavaScript front end.  I got the go ahead to do this, so then had to make it happen!
 
@@ -104,9 +104,9 @@ GET http://<host>:<port>/relays/<relayNumber>
 
 Where:
 
-* &lt;url&gt; is the hostname or IP of the Raspberry Pi.
-* &lt;port&gt; is the port that the back end is listening on.
-* &lt;relayNumber&gt; is a number between 1 and 3 to specify which relay we're interested in.
+* `<url>` is the hostname or IP of the Raspberry Pi.
+* `<port>` is the port that the back end is listening on.
+* `<relayNumber>` is a number between 1 and 3 to specify which relay we're interested in.
 
 This endpoint should simply return the string `true` if the relay (light) is on, and `false` if it's off.
 
