@@ -53,7 +53,7 @@ paginate: 10
 # SEO Plugin
 twitter:
   username: simon_prickett
-  card: summary
+  card: summary_large_image
 
 author: Simon Prickett
 tagline: The personal website of Simon Prickett.
