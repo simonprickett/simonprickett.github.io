@@ -5,10 +5,17 @@ categories: [ Raspberry Pi, Technology, IoT, Swift ]
 image: assets/images/pi_traffic_lights_swift_main.jpg
 author: simon
 ---
-TODO FIX THIS SECTION UP... REPHRASE
-TODO REMEMBER TO CHANGE THE DATE TO THE ACTUAL PUBLISH DATE
+As long time readers know, I've written a series of articles that each describe how to get up and running with controlling the Raspberry Pi GPIO pins using different programming languages.  In each article, I use the same example of a set of traffic light LEDs so that you can compare and contrast the different language implementations.  With the possible exception of a future ARM assembler post (steep learning curve for me there), I thought I'd run out of languages to try.  Then recently, I stumbled across [this blog post](https://lickability.com/blog/swift-on-raspberry-pi/) which describes how to install Swift on the Pi so I thought I'd try it out... 
 
-I realized I’ve written guides describing how to use the Low Voltage Labs traffic lights with the Raspberry Pi for Python ([read Python article]({{ site.baseurl}}/playing-with-raspberry-pi-traffic-lights)), Node RED ([read Node RED article]({{ site.baseurl }}/raspberry-pi-coding-with-node-red-traffic-lights/)), Java ([read Java article]({{ site.baseurl}}/playing-with-raspberry-pi-gpio-pins-and-traffic-lights-in-java)), C ([read C article]({{ site.baseurl}}/gpio-access-in-c-with-raspberry-pi-traffic-lights)), Bash scripting ([read Bash article]({{ site.baseurl}}/controlling-raspberry-pi-gpio-pins-from-bash-scripts-traffic-lights)) and Go ([read Go article]({{ site.baseurl}}/raspberry-pi-coding-in-go-traffic-lights)), but never for Node.js. Node.js is a great environment for writing modern JavaScript on the Pi and has a huge ecosystem of off the shelf packages from npm that help you get things done without re-inventing wheels. Let’s take a look at how we can use it to control the traffic light LEDS...
+If you're interested in my other articles that show how to write the same code in different languages, please check out the links below:
+
+* [Python]({{ site.baseurl}}/playing-with-raspberry-pi-traffic-lights)
+* [Node.js]({{ site.baseurl }}/raspberry-pi-coding-with-node-js-traffic-lights)
+* [Node RED]({{ site.baseurl }}/raspberry-pi-coding-with-node-red-traffic-lights/)
+* [Java]({{ site.baseurl}}/playing-with-raspberry-pi-gpio-pins-and-traffic-lights-in-java)
+* [C]({{ site.baseurl}}/gpio-access-in-c-with-raspberry-pi-traffic-lights)
+* [Go]({{ site.baseurl}}/raspberry-pi-coding-in-go-traffic-lights)
+* [Bash scripting]({{ site.baseurl}}/controlling-raspberry-pi-gpio-pins-from-bash-scripts-traffic-lights)
 
 To make this a standalone guide, there will be some re-use of content from the prior articles here.
 
@@ -17,7 +24,7 @@ To make this a standalone guide, there will be some re-use of content from the p
 To try this out, you will need the following (links here mostly go to [Adafruit](https://www.adafruit.com/), UK customers may want to consider [Pimoroni](https://shop.pimoroni.com/) as a UK based alternative, Amazon has most if not all of this stuff too):
 
 * A [Raspberry Pi](https://www.adafruit.com/product/3055) (I'll use the Pi 3 Model B here, but any model with GPIO pins will work — if you want to use the Pi Zero you’ll need to solder some headers onto it). I'm going to assume you have a Pi 2 or 3 with 40 pins
-* A [power supply](https://www.adafruit.com/product/1995) for your Pi
+* A [power supply](https://www.adafruit.com/product/1995) for your Pi (Raspberry Pi 4 requires a different [USB C power supply](https://www.adafruit.com/product/4298))
 * Some sort of [case](https://www.adafruit.com/product/2256) is probably a good idea to protect the Pi (but you’ll need to leave the lid off to expose the GPIO pins to connect your lights to)
 * A [Micro SD card](https://www.adafruit.com/product/1294) to install your operating system on (or [get one with the OS pre-installed](https://www.adafruit.com/product/3259)). If you want to install the operating system yourself, you'll need a Mac, PC, Linux machine with an SD card reader
 * A set of [traffic lights from Low Voltage Labs](http://lowvoltagelabs.com/products/pi-traffic/) (the two pack is good value)
@@ -64,17 +71,18 @@ Now you can go ahead and start turning lights on and off!
 
 ## Installing Swift
 
-TODO UPDATE THIS
-
-The "Lite" Raspbian doesn’t have Node.js pre-installed, as it is a minimal distribution. Let’s add an up to date version of Node.js from [NodeSource](https://nodesource.com/):
+Swift doesn't come pre-installed, so let's install it by adding its repo to `apt` then installing with `apt-get`.  Note, these commands may take some time to execute.
 
 ```
-$ curl -sL https://deb.nodesource.com/setup_10.x|sudo -E bash -
+$ curl -s https://packagecloud.io/install/repositories/swift-arm/release/script.deb.sh | sudo bash
+$ sudo apt-get update
+$ sudo apt-get install swift5
+$ swift --version
+Swift version 5.1.5 (swift-5.1.5-RELEASE)
+Target: armv6-unknown-linux-gnueabihf
 ```
 
 ## Installing Dependencies
-
-TODO UPDATE THIS? CAN PROBABLY STAY AS IS
 
 We’ll also need git, which isn’t installed with Raspbian Lite but is simple to add:
 
@@ -82,39 +90,39 @@ We’ll also need git, which isn’t installed with Raspbian Lite but is simple 
 $ sudo apt-get install git
 $ git --version
 
-git version 2.11.0
+git version 2.20.1
 ```
 
 ## Programming the Traffic Lights
 
-To get going, grab my example code from GitHub, install module dependencies and start it up:
+To get going, grab my example code from GitHub, and build and run it:
 
 ```
 $ git clone https://github.com/simonprickett/swift-pi-traffic-lights.git
 $ cd swift-pi-traffic-lights
-$ TODO!!!
+$ swift run
 ```
 
-If the lights are connected to the correct GPIO pins, they should start to flash on and off in the UK traffic light pattern (red, red + amber, green, amber, red). If you don’t see anything, make sure that you have the lights connected to the right pins.
+This will initially take a moment to fetch the dependencies and compiler the project.
+
+The program will then start running.  If the lights are connected to the correct GPIO pins, they should start to flash on and off in the UK traffic light pattern (red, red + amber, green, amber, red). If you don’t see anything, make sure that you have the lights connected to the right pins.
 
 <figure class="figure">
   <img src="{{ site.baseurl }}/assets/images/pi_traffic_lights_swift_lights_working.gif" class="figure-img img-fluid" alt="Lights installed and working.">
   <figcaption class="figure-caption text-center">Lights installed and working.</figcaption>
 </figure>
 
-TODO VERIFY THIS IS HOW IT IS GOING TO WORK
+To exit, press Ctrl + C.
 
-To exit, press Ctrl + C. This will cause all of the lights to turn off, and the program will exit.
+Because Swift is a compiled language, the result of executing `swift run` is a standalone binary file that you can place anywhere on the Pi, and run it without the source code present.  You can find that in `.build/armv6-unknown-linux-gnueabihf/debug` as a file called `trafficlights`.
 
 ## How it Works
 
-TODO UPDATE THIS
+Here’s a brief walkthrough of the complete source code...
 
-Here’s a brief walkthrough of the complete source code which uses `async` and `await` to help eliminate the traditional callback pyramid...
+<script src="https://gist.github.com/simonprickett/bd6f787ac6308814fbef806fb0c8e5f2.js"></script>
 
-<script src="https://gist.github.com/simonprickett/c6d10066974ca1aa00ac7e658a4184d8.js"></script>
-
-TODO UPDATE THIS
+TODO UPDATE THE FOLLOWING:
 
 The first thing to do is `require` the [onoff module](https://www.npmjs.com/package/onoff), which handles interaction with the Pi’s GPIO pins. Lines 3–5 set up objects for each of the three lights, telling `onoff` which pin to use, and that they are to be used as outputs.
 
@@ -128,10 +136,8 @@ Lines 45–49 register a handler function to intercept the `SIGINT` signal... th
 
 Finally line 51 ensures that we always start in the right state by switching all of the lights off, then invoking runLights which will run in a continuous loop until the user presses Ctrl+C, invoking the `SIGINT` handler.
 
-Using `async`, `await` and promises, plus the synchronous functions provided by the `onoff` module makes the code much easier to read than it could have been, and avoids deeply nested callbacks.
-
-The source code for this project is [freely available on GitHub](https://github.com/simonprickett/swift-pi-traffic-lights).
+The source code for this project is [freely available on GitHub](https://github.com/simonprickett/swift-pi-traffic-lights).  One thing I would like to improve here is to add a `SIGINT` handler that catches the signal raised when the user uses Ctrl-C to terminate the program.  This would allow me to write code to turn all of the lights off at this point.  I wasn't able to find a simple, neat solution to do this with Swift on Linux - if you have one I'd love to hear from you!
 
 ---
 
-I’d love to hear what you’re up to with the Raspberry Pi — [find me on Twitter](https://twitter.com/simon_prickett) or via the comments here. If you enjoyed this article, please share it far and wide!
+Let me know what you’re up to with the Raspberry Pi — [find me on Twitter](https://twitter.com/simon_prickett) or via the comments here. If you enjoyed this article, please share it far and wide!

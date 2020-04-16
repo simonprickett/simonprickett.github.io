@@ -24,7 +24,7 @@ We’ll need a few things to build this out, which are...
 * A small model car — I’m using a Pixar Cars Mazda Miata :), anything Hotwheels or similar will do
 * A pair of [jumper wires](https://www.adafruit.com/product/826) (either male to female or female to female — doesn’t matter as we’ll be cutting one end off to solder to the door sensor wires, so you just need one female end to attach to the Pi GPIO headers without soldering them)
 * Some [Loctite Fun Tak](https://www.amazon.com/Loctite-Fun-Tak-Mounting-2-Ounce-1087306/dp/B001F57ZPW/ref=sr_1_1) or similar mounting putty (to hold things in place)
-* A [power supply](https://www.adafruit.com/product/1995) for the Pi
+* A [power supply](https://www.adafruit.com/product/1995) for the Pi (Raspberry Pi 4 requires a different [USB C power supply](https://www.adafruit.com/product/4298))
 
 We’ll also need to do a little soldering, so you’re going to want a [soldering iron](https://www.adafruit.com/product/180) and solder.
 
