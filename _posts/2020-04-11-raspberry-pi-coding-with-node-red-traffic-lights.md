@@ -12,6 +12,7 @@ If you're interested in controlling the same traffic lights from different progr
 * [Node.js]({{ site.baseurl }}/raspberry-pi-coding-with-node-js-traffic-lights)
 * [C]({{ site.baseurl }}/gpio-access-in-c-with-raspberry-pi-traffic-lights)
 * [Java]({{ site.baseurl }}/playing-with-raspberry-pi-gpio-pins-and-traffic-lights-in-java)
+* [Swift]({{ site.baseurl }}/raspberry-pi-coding-in-swift-traffic-lights)
 * [Go]({{ site.baseurl}}/raspberry-pi-coding-in-go-traffic-lights)
 * [Python]({{ site.baseurl}}/playing-with-raspberry-pi-traffic-lights)
 * [Bash scripting]({{ site.baseurl}}/controlling-raspberry-pi-gpio-pins-from-bash-scripts-traffic-lights) 
