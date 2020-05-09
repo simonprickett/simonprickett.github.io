@@ -31,9 +31,6 @@
     integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
     crossorigin="anonymous"></script>
 
-    {% include tracking-header.html %}
-
-
 </head>
 
 <body class="{% if page.url == "/" %} homefirstpage {% endif %}">
@@ -84,8 +81,6 @@
         </div>
         </div>
     </footer>
-
-    {% include tracking-footer.html %}
 
     {% if page.url == "/" %}
         {% include h-card.html %}
