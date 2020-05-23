@@ -122,7 +122,7 @@ Here’s a brief walkthrough of the complete source code...
 
 <script src="https://gist.github.com/simonprickett/bd6f787ac6308814fbef806fb0c8e5f2.js"></script>
 
-The first thing Pi specific thing to do is at line 3: `import SwiftyIO`.  This imports the framework which handles interaction with the Pi’s GPIO pins ([website here](https://github.com/Caeno/SwiftyIO)). Lines 6–9 set up references to each of the three lights, identifed by their GPIO pin numbers.  Note at line 6 I am using the mapping for the Pi 3, you may need to change this if you have a different model ([see documentation](https://github.com/uraimo/SwiftyGPIO#gpio)).  Lines 11-13 set those pins to be outputs.
+The first thing Pi specific thing to do is at line 3: `import SwiftyGPIO`.  This imports the framework which handles interaction with the Pi’s GPIO pins ([website here](https://github.com/uraimo/SwiftyGPIO)). Lines 6–9 set up references to each of the three lights, identifed by their GPIO pin numbers.  Note at line 6 I am using the mapping for the Pi 3, you may need to change this if you have a different model ([see documentation](https://github.com/uraimo/SwiftyGPIO#gpio)).  Lines 11-13 set those pins to be outputs.
 
 Line 15–19 define a convenience function that will switch all of the lights off.  `0` is used to set the pin low (LED turns off), with `1` setting it to high (LED turns on).
 
@@ -135,3 +135,7 @@ The source code for this project is [freely available on GitHub](https://github.
 ---
 
 Let me know what you’re up to with the Raspberry Pi — [find me on Twitter](https://twitter.com/simon_prickett) or via the comments here. If you enjoyed this article, please share it far and wide!
+
+---
+
+This article was updated on May 23rd 2020 — fixed link to wrong Swift library, thanks to keen eyed [Dmitry](https://twitter.com/DimkoyDimkoy) for bringing this to my attention via Twitter.
