@@ -83,6 +83,8 @@ eventSource.addEventListener('eventType', (e) => {
 
 In the callbacks, the message data can be accessed as `e.data`. If multiple data lines existed in the original event message, these will be concatenated together to form one string by the browser before it calls the callback. Any newline characters that separated each data line in the message will remain in the final string that the callback receives.
 
+**Important:** The browser is limited to 6 open SSE connections at any one time. This is per browser, so multiple tabs open each using SSEs will count against this limit. See a discussion on Stackoverflow [here](https://stackoverflow.com/questions/5195452/websockets-vs-server-sent-events-eventsource) for more details. Thanks to [Krister Viirsaar](https://krister.ee/) for bringing this to my attention.
+
 ## Server Side Implementation
 
 While the client implementation has to be JavaScript as it runs in the browser, the server side can be coded in any language. As this demo was originally put together for a JavaScript Meetup group I used Node.js. The server side could just as easily have been built in Java, C, C#, PHP, Ruby, Python, Go or any language of your choosing.
