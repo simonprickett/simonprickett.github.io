@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Radio Controlled Car and Coffee Fun"
-categories: [ Radio Control, Video ]
+categories: [ Radio Control, Video, Hobbies ]
 image: assets/images/radio_control_car_fun_main.jpg
 author: simon
 ---
