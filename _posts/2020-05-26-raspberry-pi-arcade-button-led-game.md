@@ -25,7 +25,7 @@ I'd also learned that the red and green versions of these buttons don't work wit
 During a subsequent weekend session, I decided to get the soldering iron out again and add a piezo buzzer and make some sort of game out of this.  The idea was it would be some sort of Russian Roulette type thing... pressing the arcade button would cause it to flash and if you were unlucky, the buzzer would sound and you'd be the loser.  Here's a second video I made with a code walkthrough showing how that worked:
 
 <div class="embed-responsive embed-responsive-16by9">
-  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/olSWVYz0dvE" allowfullscreen></iframe>
+  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/oazOvfxgGPw" allowfullscreen></iframe>
 </div><br/>
 
 If you want to check out the source code and where to get the parts I used, [check out my GitHub repo for this project](https://github.com/simonprickett/pi-arcade-button-led).  I also made the code run as a systemd service on the Pi, so I don't have to SSH into a soup container to start it :)  If you want to know how to do that, [check out my previous article on the subject](https://simonprickett.dev/writing-a-systemd-service-in-node-js-pi/).
