@@ -53,7 +53,7 @@ I threw out the original chain, crankset and derailleurs as I couldn't find a bu
 
 The toughest part of disassembly was getting the old bottom bracket out.  This did require me to buy specialist crank puller and bottom bracket tools.  I got mine from REI and chose the popular Park Tool brand, as I already had their pedal wrench and it had worked well for me.  The cranks came off again with some brute force and WD-40, and the loose bearing bottom bracket came out after a bit of a fight.  I threw these out as they were old and the bottom braket probably wasn't going to survive being reinstalled somewhere else.
 
-I removed some comtemporary stickers from the frame and found that one was hiding a small dent in the top bar.  Not a big deal, and it definitely doesn't compromise frame strength.
+I removed some contemporary stickers from the frame and found that one was hiding a small dent in the top bar.  Not a big deal, and it definitely doesn't compromise frame strength.
 
 Having completely stripped the bike down to just the frame, headset and forks, I decided to re-attach the frame mounted gear shifters for show, and because taking them off left ugly attachments on the frame where they should mount.  I am really pleased I chose to leave them on as I enjoy seeing them there :)
 
@@ -92,7 +92,7 @@ I faced some challenges with finding out what the correct chain tension should b
 
 <figure class="figure">
   <img src="{{ site.baseurl }}/assets/images/peugeot_reassembly.jpg" class="figure-img img-fluid" alt="Rebuilt as a single speed">
-  <figcaption class="figure-caption text-center">Rebuilt as a single speed</figcaption>
+  <figcaption class="figure-caption text-center">Rebuilt as a single speed.</figcaption>
 </figure>
 
 For me, adding the new brakes was the most complex job - I'd never installed bike brakes before, and again YouTube provided a lot of help but some conflicting information.  I got one installed no problem, then while installing the second I dropped the special square nut that holds the cable onto the caliper and couldn't find it anywhere.  I actually rode the "finished" bike around with one brake for a while before realising I wasn't going to find the nut and needed to do something about it.  I got in touch with Tektro's customer service who were excellent and sold me a couple of spares cheaply.  I got the second brake installed at the second time of asking and that completed the rebuild.
