@@ -37,7 +37,10 @@ Hardware setup for the Arduino Uno is straightforward... it's already set for wo
 
 The lights need to be attached to a ground pin followed by three digital pins that we'll use as outputs.
 
-TODO arduino_uno.jpg
+<figure class="figure">
+  <img src="{{ site.baseurl }}/assets/images/arduino_traffic_arduino_uno.jpg" class="figure-img img-fluid" alt="Arduino Uno">
+  <figcaption class="figure-caption text-center">Arduino Uno</figcaption>
+</figure>
 
 Looking at the diagram above, we want to attach the lights so that the ground pin attaches to ground, meaning the red light will be on pin 13, the yellow on 12 and the green on 11.  This is the only place on the Uno that this sequence of pins occurs.
 
@@ -52,11 +55,17 @@ The Feather Huzzah differs from the Arduino Uno in a few ways...
 
 Here's a pinout for the Huzzah showing where the pins we'll need are:
 
-TODO adafruit_feather_huzzah.jpg
+<figure class="figure">
+  <img src="{{ site.baseurl }}/assets/images/arduino_traffic_adafruit_feather_huzzah.jpg" class="figure-img img-fluid" alt="Arduino Feather Huzzah">
+  <figcaption class="figure-caption text-center">Arduino Feather Huzzah</figcaption>
+</figure>
 
 Here's how we'd wire up the breadboard, the blue rectangle here represents where you'd plug the traffic lights into.
 
-TODO breadboard_sketch.png
+<figure class="figure">
+  <img src="{{ site.baseurl }}/assets/images/arduino_traffic_breadboard_sketch.png" class="figure-img img-fluid" alt="Breadboard sketch">
+  <figcaption class="figure-caption text-center">Breadboard sketch</figcaption>
+</figure>
 
 We're assuming here that the Feather is powered from a micro USB cable not from the breadboard.
 
@@ -107,21 +116,32 @@ To deploy to the Arduino boards, connect one of them using a USB data cable, the
 
 Arduino Uno:
 
-TODO select_board_uno.png
+<figure class="figure">
+  <img src="{{ site.baseurl }}/assets/images/arduino_traffic_select_board_uno.png" class="figure-img img-fluid" alt="Selecting the Arduino Uno board">
+  <figcaption class="figure-caption text-center">Selecting the Arduino Uno board</figcaption>
+</figure>
 
 Adafruit Feather Huzzah:
 
-TODO select_board_feather.png)
+<figure class="figure">
+  <img src="{{ site.baseurl }}/assets/images/arduino_traffic_select_board_feather.png" class="figure-img img-fluid" alt="Selecting the Adafruit Feather Huzzah board">
+  <figcaption class="figure-caption text-center">Selecting the AdaFruit Feather Huzzah board</figcaption>
+</figure>
 
 Note the Adafruit Feather Huzzah is under ESP9266 Boards rather than the Adadfruit Boards that you may also have installed for other boards that you own.
 
 In both cases, don't forget to also choose the right USB port which should be the one that appears when you plug the board in.  Here's an example with the Uno...
 
-TODO arduino_uno_port.png
+<figure class="figure">
+  <img src="{{ site.baseurl }}/assets/images/arduino_traffic_arduino_uno_port.png" class="figure-img img-fluid" alt="Selecting the port for the Arduino Uno">
+  <figcaption class="figure-caption text-center">Selecting the port fo the Arduino Uno</figcaption>
+</figure>
 
 Once deployed, the Arduino should restart and being executing the code... if all is well you should see the traffic lights operating in the right sequence!
 
-TODO arduinos_working.jpg
+<div class="embed-responsive embed-responsive-16by9">
+  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/LWPLDHDKhTo" allowfullscreen></iframe>
+</div><br/>
 
 ---
 
