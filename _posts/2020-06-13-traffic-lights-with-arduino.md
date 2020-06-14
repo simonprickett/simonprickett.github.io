@@ -20,14 +20,14 @@ In common with the various traffic light demos I built using a Raspberry Pi and 
 
 If you're interested in how to program the traffic lights for the Raspberry Pi, check out one or more of these articles:
 
-* [Python](https://simonprickett.dev/playing-with-raspberry-pi-traffic-lights/)
-* [Node.js](https://simonprickett.dev/raspberry-pi-coding-with-node-js-traffic-lights/)
-* [Node RED](https://simonprickett.dev/raspberry-pi-coding-with-node-red-traffic-lights/)
-* [Java](https://simonprickett.dev/playing-with-raspberry-pi-gpio-pins-and-traffic-lights-in-java)
-* [C](https://simonprickett.dev/gpio-access-in-c-with-raspberry-pi-traffic-lights)
-* [Go](https://simonprickett.dev/raspberry-pi-coding-in-go-traffic-lights)
-* [Swift](https://simonprickett.dev/raspberry-pi-coding-in-swift-traffic-lights/)
-* [BASH Scripting](https://simonprickett.dev/controlling-raspberry-pi-gpio-pins-from-bash-scripts-traffic-lights)
+* [Python]({{ site.baseurl }}/playing-with-raspberry-pi-traffic-lights/)
+* [Node.js]({{ site.baseurl }}/raspberry-pi-coding-with-node-js-traffic-lights/)
+* [Node RED]({{ site.baseurl }}/raspberry-pi-coding-with-node-red-traffic-lights/)
+* [Java]({{ site.baseurl }}/playing-with-raspberry-pi-gpio-pins-and-traffic-lights-in-java)
+* [C]({{ site.baseurl }}/gpio-access-in-c-with-raspberry-pi-traffic-lights)
+* [Go]({{ site.baseurl }}/raspberry-pi-coding-in-go-traffic-lights)
+* [Swift]({{ site.baseurl }}/raspberry-pi-coding-in-swift-traffic-lights/)
+* [BASH Scripting]({{ site.baseurl }}/controlling-raspberry-pi-gpio-pins-from-bash-scripts-traffic-lights)
 
 ## Arduino Hardware Setup
 
