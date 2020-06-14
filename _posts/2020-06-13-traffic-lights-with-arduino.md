@@ -134,7 +134,7 @@ In both cases, don't forget to also choose the right USB port which should be th
 
 <figure class="figure">
   <img src="{{ site.baseurl }}/assets/images/arduino_traffic_arduino_uno_port.png" class="figure-img img-fluid" alt="Selecting the port for the Arduino Uno">
-  <figcaption class="figure-caption text-center">Selecting the port fo the Arduino Uno</figcaption>
+  <figcaption class="figure-caption text-center">Selecting the port for the Arduino Uno</figcaption>
 </figure>
 
 Once deployed, the Arduino should restart and being executing the code... if all is well you should see the traffic lights operating in the right sequence!
