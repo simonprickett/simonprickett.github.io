@@ -16,6 +16,7 @@ If you're interested in controlling the same traffic lights from different progr
 * [Go]({{ site.baseurl}}/raspberry-pi-coding-in-go-traffic-lights)
 * [Python]({{ site.baseurl}}/playing-with-raspberry-pi-traffic-lights)
 * [Bash scripting]({{ site.baseurl}}/controlling-raspberry-pi-gpio-pins-from-bash-scripts-traffic-lights) 
+* also... [Arduino]({{ site.baseurl}}/traffic-lights-with-arduino/)
 
 I've also been meaning to write this post for some time, as I made a video version of it over a year ago then never followed up with the blog version.  I've been taking part in a few [Homebrew Website Club](https://indieweb.org/Homebrew_Website_Club) in person meetings in San Diego, and found those really helpful for providing structured time to work on website stuff with like minded people.  Today I attended a virtual ["Get On With It! Bring Your Own Project"](https://www.meetup.com/Ladies-of-Code-UK/events/269952192/) meetup organized by [Ladies of Code London](https://twitter.com/ladiesofcodeLDN), and committed to writing this post today as part of that.  The event provided a sense of getting things done together even while remote, with Slack and Zoom check ins during a defined working period.  Everyone was very friendly and I'll definitely try to attend more of these.  I wasn't able to spend much of the actual period working on this post due to the time zone difference to the rest of the group who were mostly in the UK, but it got me started and I spent time later in my day finishing up!
 

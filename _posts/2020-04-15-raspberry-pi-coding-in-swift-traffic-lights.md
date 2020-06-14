@@ -16,6 +16,7 @@ If you're interested in my other articles that show how to write the same code i
 * [C]({{ site.baseurl}}/gpio-access-in-c-with-raspberry-pi-traffic-lights)
 * [Go]({{ site.baseurl}}/raspberry-pi-coding-in-go-traffic-lights)
 * [Bash scripting]({{ site.baseurl}}/controlling-raspberry-pi-gpio-pins-from-bash-scripts-traffic-lights)
+* also... [Arduino]({{ site.baseurl}}/traffic-lights-with-arduino/)
 
 To make this a standalone guide, there will be some re-use of content from the prior articles here.
 
