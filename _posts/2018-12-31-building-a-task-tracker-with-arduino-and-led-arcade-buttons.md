@@ -332,8 +332,8 @@ if (debouncer1.fell()) {
 Once all the tasks are completed, the code invokes the `success` function — I wanted this to give the user some sort of visual reward as payoff for achieving their weekly goals. I decided on a sort of snake like effect with the LEDs as shown below:
 
 <figure class="figure">
-<img src="{{ site.baseurl }}/assets/images/task_tracker_celebration.gif" class="figure-img img-fluid" alt="All takss complete!">
-  <figcaption class="figure-caption text-center">All takss complete!</figcaption>
+<img src="{{ site.baseurl }}/assets/images/task_tracker_celebration.gif" class="figure-img img-fluid" alt="All tasks complete!">
+  <figcaption class="figure-caption text-center">All tasks complete!</figcaption>
 </figure>
 
 Implementing this was pretty straightforward… turn off all the lights using my other `setAllLights` function, loop a few times and every other time turn each light on or off with a short delay. Then turn them all back on again:
