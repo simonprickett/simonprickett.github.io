@@ -122,6 +122,6 @@ When the user revisits the home page and `prizedraw:winners` exists in Redis, th
   * Adds an object containing the winner's name, prize, and avatar URL to an array.
 * Once all winners' details have been retrieved, the array containing them all is serialized to JSON and cached in a Redis key at `prizedraw:winners_json`, so that future calls to view the results can just return this without doing all the extra profile lookup work.
 
-Hopefully you found this interesting, and if you'd like to learn more about how the application (especially the front end) works, feel free to [dive into the code on GitHub](https://github.com/simonprickett/redis-prize-draw).  Everything is MIT licensed, so you're free to use it for your own prize draws or adapt to your own needs.  If you'd like to understand more about the vaious Redis commands used in the application, check out the [documentation at redis.io](https://redis.io/commands).
+Hopefully you found this interesting, and if you'd like to learn more about how the application (especially the front end) works, feel free to [dive into the code on GitHub](https://github.com/simonprickett/redis-prize-draw).  Everything is MIT licensed, so you're free to use it for your own prize draws or adapt to your own needs.  If you'd like to understand more about the various Redis commands used in the application, check out the [documentation at redis.io](https://redis.io/commands).
 
 Have fun!
