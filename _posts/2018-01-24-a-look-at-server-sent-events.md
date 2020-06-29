@@ -4,7 +4,7 @@ title:  "A Look at Server Sent Events"
 categories: [ JavaScript, Node.js, HTML5, Front End ]
 image: assets/images/sse_main.jpg
 author: simon
-tags: [sticky]
+tags: [featured]
 ---
 Server Sent Events are a standard allowing browser clients to receive a stream of updates from a server over a HTTP connection without resorting to polling. Unlike WebSockets, Server Sent Events are a one way communications channel - events flow from server to client only.
 

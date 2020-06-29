@@ -4,7 +4,7 @@ title:  "Building a Task Tracker with Arduino and LED Arcade Buttons"
 categories: [ Arduino, IoT, Programming, C ]
 image: assets/images/task_tracker_main.jpg
 author: simon
-tags: [featured]
+tags: [sticky]
 ---
 Sorta like Simone’s, but smaller! One of my favorite [Youtube channels](https://www.youtube.com/channel/UC3KEoMzNz8eYnwBC34RaKCQ) is Simone Giertz’s — she documents her attempts to build robotic helpers to assist with everyday tasks. Part of the point of the channel is that these often fail to perform as intended but fun and learning comes from the building process. If you want to hear more from Simone about why you should build useless things then I’d suggest 
 [watching her TED Talk](https://www.ted.com/talks/simone_giertz_why_you_should_make_useless_things?language=en) on the subject.
