@@ -10,6 +10,12 @@ Server Sent Events are a standard allowing browser clients to receive a stream o
 
 You might consider using Server Sent Events when you have some rapidly updating data to display, but you don’t want to have to poll the server. Examples might include displaying the status of a long running business process, tracking stock price updates, or showing the current number of likes on a post on a social media network.
 
+Here's a video of me presenting this material at San Diego JavaScript Meetup's Fundamental JS event on 25th June 2020 - remotely due to the pandemic at the time.
+
+<div class="embed-responsive embed-responsive-16by9">
+  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/eg9qvwBT8LA" allowfullscreen></iframe>
+</div><br/>
+
 ## Architecture
 
 When working with Server Sent Events, communications between client and server are initiated by the client (browser). The client creates a new JavaScript `EventSource` object, passing it the URL of an endpoint which is expected to return a stream of events over time.
