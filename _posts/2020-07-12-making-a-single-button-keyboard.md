@@ -35,13 +35,30 @@ This will be the text when I get around to writing it and I will need to make a 
 * Depending on your enclosure, maybe some [Forstner bits](https://www.harborfreight.com/14-in-1-in-forstner-drill-bit-set-with-38-in-shanks-7-pc-62361.html) to drill tidy circular holes. Make sure there's one that's an appropriate size for your arcade button!
 * As the Trinket M0 supports both, you could build this project with either [CircuitPython](https://circuitpython.org/) or Arduino.  I chose Arduino as I am more familiar with it, if you want to do the same then [download the free Arduino IDE](https://www.arduino.cc/en/Main/Software) and consider making a donation if possible.
 
+## Hardware Build
+
+TODO
+
+<figure class="figure">
+  <img src="{{ site.baseurl }}/assets/images/arcade_keyboard_wiring.png" class="figure-img img-fluid" alt="Wiring">
+  <figcaption class="figure-caption text-center">Wiring diagram.</figcaption>
+</figure>
+
+## Software
+
+### Software for the Trinket Board
+
 Here's the Arduino sketch:
 
 <script src="https://gist.github.com/simonprickett/c56deaab1dadb160ffe61f1ae8577874.js"></script>
 
+### Software for Mac OS
+
 Here's the AppleScript:
 
 <script src="https://gist.github.com/simonprickett/640ef62e7bcd0ae1ba68e8f1c5574cf3.js"></script>
+
+## Demo Time!
 
 ---
 
