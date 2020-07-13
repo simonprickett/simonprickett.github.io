@@ -52,7 +52,13 @@ Here's the Arduino sketch:
 
 <script src="https://gist.github.com/simonprickett/c56deaab1dadb160ffe61f1ae8577874.js"></script>
 
-### Software for Mac OS
+### Software and Setup for Mac OS
+
+TODO why
+TODO point at this resource https://www.addictivetips.com/mac-os/run-an-applescript-with-a-keyboard-shortcut-on-macos/
+TODO what I wanted to achieve
+TODO applescript saved as an application?
+TODO automator
 
 Here's the AppleScript:
 
@@ -62,4 +68,4 @@ Here's the AppleScript:
 
 ---
 
-Another fun project that uses a lot of the same components and ideas is this [Trinket powered foot switch](https://learn.adafruit.com/usb-foot-switch).  Let me know if you try making something like this, I'd love to see it!
+Another fun project that uses a lot of the same components and ideas is this [Trinket powered foot switch](https://learn.adafruit.com/usb-foot-switch).  I also found [this article](https://www.hackster.io/laurentr/simple-usb-buttons-using-an-adafruit-trinket-m0-5ad900) very useful.  Let me know if you try making a variation on this project, I'd love to see it!
