@@ -1,0 +1,11 @@
+name: Update Profile README
+on:
+  push:
+    branches:
+      - master
+jobs:
+  update_readme:
+    name: Update README
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
