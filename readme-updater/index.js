@@ -1,5 +1,6 @@
 const fs = require('fs');
 const glob = require('glob');
+const Handlebars = require('handlebars');
 
 // TODO make this configurable through env vars...
 const BASE_URL = 'https://simonprickett.dev'
