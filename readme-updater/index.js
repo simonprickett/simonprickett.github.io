@@ -1,6 +1,7 @@
 const fs = require('fs');
 const glob = require('glob');
 
+// TODO make this configurable through env vars...
 const BASE_URL = 'https://simonprickett.dev'
 
 const getKeyValue = (key, arr) => {
@@ -37,11 +38,12 @@ try {
   const excerpt = getExcerpt(latestPostLines);
   const url = `${BASE_URL}/${getUrlFromFileName(latestPostFileName)}/`;
   
-
   console.log(title);
   console.log(imageUrl);
   console.log(url);
   console.log(excerpt);
+
+  // TODO get template README and update it...
 } catch (err) {
   console.error(err);
 }
