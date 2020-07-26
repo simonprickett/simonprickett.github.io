@@ -71,4 +71,4 @@ webmaster_verifications:
   google: xbNwkkD94iguJKfBadQfor4OtzN9nj426O4UJpTeCcA
 
 # Exclude metadata and development time dependencies (like Grunt plugins)
-exclude: [README.markdown, package.json, grunt.js, Gruntfile.js, Gruntfile.coffee, node_modules]
+exclude: [readme-updater, README.markdown, package.json, grunt.js, Gruntfile.js, Gruntfile.coffee, node_modules]

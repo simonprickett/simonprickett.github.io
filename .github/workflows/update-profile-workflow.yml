@@ -3,9 +3,18 @@ on:
   push:
     branches:
       - master
+env:
+  README_REPO: simonprickett/simonprickett
 jobs:
   update_readme:
     name: Update README
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+      - name: Setup Node.js
+        uses: actions/setup-node@v1
+        with:
+          node-version: 12.x
+      - name: Clone README REPO
+        run: git clone https://github.com/${README_REPO}
+        
