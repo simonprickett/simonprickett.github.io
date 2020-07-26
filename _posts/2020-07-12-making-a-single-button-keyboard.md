@@ -5,7 +5,7 @@ categories: [ Arduino, C, IoT, Programming ]
 image: assets/images/arcade_keyboard_main.jpg
 author: simon
 ---
-Recently we've all be spending a lot more of our time on video conference calls from home.  I'm sure that, like me, you find yourself needing to mute your microphone and turn off the camera frequently.  Perhaps something you can't control is going on in the background, or someone needs your attention for a moment.  Perhaps you are having a sneezing fit or whatever.
+Recently we've all been spending a lot more of our time on video conference calls from home.  I'm sure that, like me, you find yourself needing to mute your microphone and turn off the camera frequently.  Perhaps something you can't control is going on in the background, or someone needs your attention for a moment.  Perhaps you are having a sneezing fit or somethin'gs boiling over on the hob.
 
 With the popular video conferencing service Zoom, there's no single "I need privacy now" button that will both mute the microphone and turn off the camera.  You need to become proficient at hitting (on a Macintosh) Command + Shift + A to toggle the microphone and Command + Shift + V to toggle the video camera.  I set out to see if I could build a single button custom keyboard that would do this for me, and to do so in a way that would make it easily customizable for other purposes.  
 
@@ -17,7 +17,7 @@ I really enjoy building things that use arcade buttons, as they're very satisfyi
 
 <figure class="figure">
   <img src="{{ site.baseurl }}/assets/images/arcade_keyboard_button_microswitch.jpg" class="figure-img img-fluid" alt="Arcade button with microswitch">
-  <figcaption class="figure-caption text-center">Arcade button with microswitch) - needs a clean!</figcaption>
+  <figcaption class="figure-caption text-center">Arcade button with microswitch - needs a clean!</figcaption>
 </figure>
 
 If you don't have one of these, you can get them from eBay or many other online arcade parts stores.  Some places sell the microswitches separately, just be sure to get both the button and a microswitch to slot into it as the button won't function without the switch.  Any type of button switch will work for this project though! I've put a shopping list at the end of this article.
@@ -37,7 +37,12 @@ The Trinket M0 is a tiny Arduino compatible programmable board that can be progr
 * GPIO pins - pins on the board that we can solder our arcade button to, and then write software that runs on the Trinket to detect the button being pressed so we can then generate those special keystrokes and send them down the USB cable.
 * A built in multi-colored LED... so we can make an attractive display when we mount the board in an enclosure :)
 
-We'll need to wire the arcade button (in my case the microswitch that attaches to the arcade button) to the Trinket.  We'll do this by soldering two wires, one going from the ground pin of the microswitch to the single ground pin on the Trinket and the second going from the other pin on the microswitch to one of the numbered GPIO pins on the Trinket...  I used pin 0 but you can use any of them so long as you remember which one when you write the Arduino sketch later.  Here's my wiring diagram:
+We'll need to wire the arcade button (in my case the microswitch that attaches to the arcade button) to the Trinket.  We'll do this by soldering two wires:
+
+* One from the ground pin of the microswitch to the single ground pin on the Trinket.
+* Another from the other pin on the microswitch to one of the numbered GPIO pins on the Trinket...  I used pin 0 but you can use any of them so long as you remember which one when you write the Arduino sketch later.  
+
+Here's my wiring diagram:
 
 <figure class="figure">
   <img src="{{ site.baseurl }}/assets/images/arcade_keyboard_wiring.png" class="figure-img img-fluid" alt="Wiring">
@@ -55,7 +60,7 @@ Don't forget to push the wires through the holes in the trinket before soldering
 
 In the image above I have the Trinket connected to a USB power source, just to check that it powered up and worked after soldering, and that I hadn't fried it :)
 
-Finally on the hardware side, we'll want to put the button and the trinket in a sturdy enclosure, so that we can hit that button hard when we need to get out of a situation on Zoom!  As the trinket will connect to the computer using the USB cable, we'll want something that we can make two holes in - one to mount the button, the other to let the USB cable get in.  As we're going to use the Trinket's multi-colored LED too, it'd be nice if the enclosure was somewhat translucent, acting as an LED diffuser and letting some light escape.
+Finally on the hardware side, we'll want to put the button and the trinket in a sturdy enclosure, so that we can hit that button hard when we need to get out of a situation on Zoom!  As the trinket will connect to the computer using the USB cable, we'll need something we can make two holes in - one to mount the button, the other to let the USB cable pass through.  As we're also going to use the Trinket's multi-colored LED, the enclosure should be somewhat translucent, so it acts as an LED diffuser and lets some light escape.
 
 Looking around at what I had handy, I figured a reusable Starbucks hot cup (available at any Starbucks) would do.  I drilled a hole in the top with a forstner drill bit, and attached the arcade button using its screw collar.  I then drilled a smaller hole in the bottom to allow the USB cable to enter...
 
@@ -72,25 +77,25 @@ To make this a really flexible project, I decided that I would write some softwa
 
 We could build this so that when the arcade button is pressed, the trinket sends the key commands for toggle audio on Zoom (Command + Shift + A) then sends the key commands for toggle video on Zoom (Command + Shift + V).  This way, we don't need any software on the computer (assuming the computer is a Macintosh as we're sending Mac OS key sequences - Windows users you'd need to swap in the equivalent Windows key combinations).  This is a nice simple approach, but there's a few downsides:
 
-* What happens if our application that we want to send the key strokes to isn't running?
-* What happens if our application that we want to send the key strokes to is running but doesn't have keyboard focus - say you're on a Zoom call but really bidding on that eBay auction you've had your eye on for ages in the browser... pressing the button would send the key strokes to the browser causing who knows what to happen!
+* What happens if Zoom isn't running?
+* What happens if Zoom is running but doesn't have keyboard focus - say you're on a Zoom call but really bidding on that eBay auction you've had your eye on for ages in the browser... pressing the button would send the key strokes to the browser causing who knows what to happen!
 * If we wanted to change the key strokes sent by the Trinket, we'd have to re-flash it with an updated Arduino sketch - not a huge deal, but maybe inconvenient.
-* We can't do complex logic as we can just send key presses to the computer and have it interpret them.
+* We can't implement complex logic as we can just send key presses to the computer and have it interpret them.
 
-What I decided to do was always have the Trinket emit a special and unused key sequence whenever the arcade button was pressed, then build some Mac specific software and configuration that would allow an AppleScript to run whenever this sequence of keys is pressed.  This would buy the flexibility of unlocking the power of AppleScript so that I could add logic there to deal with things like checking an application is running, start it if necessary, do something else if it isn't as well as sending it key presses.
+What I decided to do was always have the Trinket emit a special and unused key sequence whenever the arcade button was pressed.  I then built some Mac specific software and configuration that allows an AppleScript to run whenever this sequence of keys is pressed.  This buys the flexibility of unlocking the power of AppleScript.  With AppleScript I can add logic there to deal with things like checking an application is running, start it if necessary, do something else if it isn't etc, as well as sending it key presses.
 
-With this in mind, I decided to try and build something whose logic looked something like this:
+With this in mind, I decided to try and build something like this:
 
 * When the arcade button is pressed, software on the Trinket detects that and sends a special key sequence to the computer.
 * The special key sequence triggers a specific AppleScript.
 * Logic in the AppleScript then:
   * Checks to see if the Zoom application is running.
   * If it is, it:
-     * Sends it the Command + Shift + A key presses to toggle the audio.
-     * Sends it the Command + Shift + V key presses to toggle the audio.
+     * Sends it the Command + Shift + A key presses to toggle the microphone.
+     * Sends it the Command + Shift + V key presses to toggle the video camera.
   * If it isn't, use the AppleScript speech capability to say "Zoom is not running."
 
-I decided not to worry about the case where the Zoom application is running, but isn't actively in a video call at the time.
+I decided not to worry about the case where the Zoom application is running, but isn't actively in a video call at the time.  All that happens if the button is pressed in this scenario is that Zoom ignores it.
 
 Accomplishing this requires two different pieces of software: 
 
@@ -101,35 +106,69 @@ Let's check out both of these now.
 
 ### Software for the Trinket Board
 
-TODO what does it need to do? and setup for Arduino IDE.
+The Trinket M0 can run either Arduino IDE (C) or Circuit Python code.  I went with the C option as I am most familiar with it.  Adafruit provides [excellent instructions](https://learn.adafruit.com/adafruit-trinket-m0-circuitpython-arduino/arduino-ide-setup) for setting up the Arduino IDE and selecting the right board type etc.
 
-Here's my final Arduino sketch:
+The sketch for the Trinket needs to do the following:
+
+* Listen for the arcade button to be pressed (pin 0 goes low).
+* Send keypresses for the control, alt, command and F1 keys down the USB cable to the attached computer.
+* Make the Trinket M0's built in multi-colored LED flash red briefly when the button is pressed, so that we know the button press was detected.
+* Optionally but nice: use the Trinket M0's built in multi-colored LED to do a little light show when the button isn't being used.
+
+Here's my final Arduino sketch that accomplishes all of these goals:
 
 <script src="https://gist.github.com/simonprickett/c56deaab1dadb160ffe61f1ae8577874.js"></script>
 
-TODO how does it do it?
+Like all Arduino sketches, this has two main functions:
+
+* `setup`: runs once when then board is powered on.
+* `loop`: runs in a loop continuously while the board is powered on.
+
+Let's take a look at how this works at a high level:
+
+* First, to make things easier I'm using some libraries:
+  * `Adafruit_DotStar.h` - an Adafruit library to control the multi-colored LED on the Trinket M0.
+  * `Bounce2.h` - debouncer library to provide a higher level API for detecting button presses. I've used this before in my [task tracker project](https://simonprickett.dev/building-a-task-tracker-with-arduino-and-led-arcade-buttons/) and wrote about how it works there. 
+  * `Keyboard.h` an Arduino library that simluates a keyboard, providing a high level API to send key press combinations to the computer via USB.
+* The button press detection works using the debouncer library... 
+  * At line 7 I create an instance of the debouncer.
+  * Lines 18 and 19 in the `setup` function associate the debouncer with pin 0 (the one that's soldered to the arcade button) and configure its sensitivity.
+  * Line 25 at the top of the `loop` function updates the debouncer to see if the button was pressed.
+  * The block beginning at line 42 is executed if the button was pressed:
+    * The Trinket M0's LED is set to show red.
+    * The keyboard library presses the Control, Alt, Command (GUI) and F1 keys down.
+    * Afer a short delay, the keyboard library releases all of the pressed keys.
+    * There's then a short delay to stop the user pressing the button too quickly and accidentally setting it off again.
+    * If this doesn't work, then it's possible that the circuit wasn't soldered correctly... if it's all good you can expect to see the LED go red whenever you press the arcade button.
+* The background flashing LED pattern that's just for fun works like this:
+  * Lines 11 and 12 set up an array of different color codes and a variable to track which one we're showing at a given time.
+  * Line 13 figures out how many colors are in the array, we'll need this to know when to cycle back to the start of the array.
+  * Line 15 declares a variable we'll use to track time... so that the LED can be set to each color for a period before changing to the next color.
+  * At line 27 we get the number of milliseconds that the board has been up and running for.
+  * Line 29 compares that to the previous value from the last loop iteration, and if a second or more has passed, changes the LED color by picking the next color from the array or starting again at the first one if we're at the end of the array.
 
 ### Software and Setup for Mac OS
 
-There's a couple of distinct pieces here... an AppleScript 
-The first thing I worked on was the AppleScript, and it's easy to test this without the hardware side of things as you can just run it from the Mac OS Script Editor application.  The hardest part of this was working out what the "name" for the Zoom application is, turns out it is "zoom.us" which is what it shows up as next to the Apple icon at the top of the screen when it's running:
+There's a couple of distinct pieces here... an AppleScript and some operating system setup using Automator and Accessibility features in Mac OS.
+
+The first thing I worked on was the AppleScript. It's easy to test this without the arcade button hardware as you can just run it from the Mac OS Script Editor application.  The hardest part of this was working out what the "name" for the Zoom application is, turns out it is "zoom.us" which is what it shows up as next to the Apple icon at the top of the screen when it's running:
 
 <figure class="figure">
   <img src="{{ site.baseurl }}/assets/images/arcade_keyboard_zoom_app.png" class="figure-img img-fluid" alt="Finding the Zoom application name">
   <figcaption class="figure-caption text-center">Finding the Zoom application name.</figcaption>
 </figure>
 
-Here's the AppleScript:
+Here's the completed AppleScript:
 
 <script src="https://gist.github.com/simonprickett/640ef62e7bcd0ae1ba68e8f1c5574cf3.js"></script>
 
-This checks if Zoom is running, if not it has the Mac say that it isn't.  If it is, then it activates Zoom and sends it the keypresses to toggle the video and audio.  Sadly Zoom doesn't have specific key presses for turning audio on and off, so toggle is the best we can do here.  A true "panic switch" would always turn them off :)
+This checks if Zoom is running, if not it has the Mac say that it isn't.  If it is, then it activates Zoom and sends it the keypresses to toggle the video and audio.  Sadly Zoom doesn't have specific key presses for turning audio on and off, so toggle is the best we can do here.  A true "panic switch" would always turn them off no matter how many times you pressed it :)
 
-So, this is run whenever the Mac receives the special key sequence that's generated by the Trinket when someone presses the arcade button.  We need to save this AppleScript as an "Application", so that we can call it from Automator later.  Details for how to do this can be found in a linked article further down...
+This AppleScript runs whenever the Mac receives the special key sequence that's generated by the Trinket when the arcade button is pressed.  We need to save this AppleScript as an "Application", so that we can call it from Automator later.  Details of how to do this can be found in a linked article further down...
 
-If we want to use the arcade button to trigger different actions then it's a simple case of changing the contents of the AppleScript to do something else... which could be a very long and complex sequence of events and logic if we wanted it to be.  The rest of the configuration won't need to change.
+If we want to use the arcade button to trigger different actions, it's now a simple case of changing the contents of the AppleScript to do something else... The possibilities here are endless, we could implement a very long and complex sequence of events and logic that can control almost anything on the Mac.  The rest of the configuration (Automator and Arduino sketch on the Trinket) won't need to change.
 
-Next up we want to configure the Mac so that it automatically runs our AppleScript when the special key combination that the Trinket generates is received.  This requires the use of the Mac OS Automator application.  
+Next up we want to configure the Mac so that it automatically runs our AppleScript when the special key combination that the Trinket generates is received.  We'll use the Mac OS Automator application.  
 
 The steps involved are:
 
@@ -138,7 +177,7 @@ The steps involved are:
 * Associate the special key combination from the Trinket with that Quick Action.
 * Allow Automator to control the computer via Accessibilty Settings.
 
-This provess could be a whole article of its own - fortunately it's all documented in [this article on addictivetips.com](https://www.addictivetips.com/mac-os/run-an-applescript-with-a-keyboard-shortcut-on-macos/) which walks you through it all, I used this when setting mine up and it's worked great.  The only thing that I would add is that for Mac OS Catalina you may get asked for confirmation by the operating system that you want Automator to have accessibility controls the first time you press the arcade button, so be sure to test it before you need it in that Zoom emergency!
+This process could be a whole article of its own - fortunately it's all documented in [this article on addictivetips.com](https://www.addictivetips.com/mac-os/run-an-applescript-with-a-keyboard-shortcut-on-macos/) which walks you through it all.  I used this when setting mine up and it's worked great.  For Mac OS Catalina you may get asked to confirm that you want Automator to have accessibility permissions the first time you press the arcade button, so be sure to test it before you need it in that Zoom emergency!
 
 ## Demo Time!
 
