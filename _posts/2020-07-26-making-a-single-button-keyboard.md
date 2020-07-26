@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Making a Single Button Keyboard with the Adafruit Trinket M0"
+title:  "Making a Zoom Panic Switch with the Adafruit Trinket M0"
 categories: [ Arduino, C, IoT, Programming ]
 image: assets/images/arcade_keyboard_main.jpg
 author: simon
