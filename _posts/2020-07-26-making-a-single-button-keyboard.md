@@ -196,7 +196,7 @@ Here's a demo of the final setup working its magic...
 * A [USB to micro USB data cable](https://www.adafruit.com/product/2185) (nothing special about this, you might have one from something else, for example an Android phone).  If the machine you're connecting to uses USB C you might want to get a [USB C to micro USB cable](https://www.adafruit.com/product/3879) instead.  Either way make sure it's both a charge and data cable :)
 * Some [wire](https://www.adafruit.com/product/1311) - I used red and black to distinguish ground from live / signal but you can use the same color for both it doesn't matter.  Single core wire makes soldering easier, but anything that fits through the holes in the Trinket board should do!
 * A [soldering set](https://www.adafruit.com/product/180) - soldering iron and solder.
-* An enclosure - I used a reusable Starbucks hot cup that I had, but anyting sturdy enough to hold the arcade button will do.
+* An enclosure - I used a reusable Starbucks hot cup that I had, but anything sturdy enough to hold the arcade button will do.
 * Depending on your enclosure, maybe some [Forstner bits](https://www.harborfreight.com/14-in-1-in-forstner-drill-bit-set-with-38-in-shanks-7-pc-62361.html) to drill tidy circular holes. Make sure there's one that's an appropriate size for your arcade button!
 * As the Trinket M0 supports both, you could build this project with either [CircuitPython](https://circuitpython.org/) or Arduino.  I chose Arduino as I am more familiar with it, if you want to do the same then [download the free Arduino IDE](https://www.arduino.cc/en/Main/Software) and consider making an optional donation if possible.
 
