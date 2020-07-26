@@ -99,7 +99,7 @@ I decided not to worry about the case where the Zoom application is running, but
 
 Accomplishing this requires two different pieces of software: 
 
-* An Arduino sketch runnning on the Trinket.
+* An Arduino sketch running on the Trinket.
 * An AppleScript on the computer that it's connected to.  
 
 Let's check out both of these now.
