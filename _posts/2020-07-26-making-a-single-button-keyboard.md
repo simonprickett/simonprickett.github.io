@@ -175,7 +175,7 @@ The steps involved are:
 * Save the AppleScript as an application.
 * Create an Automator Quick Action to invoke the AppleScript.
 * Associate the special key combination from the Trinket with that Quick Action.
-* Allow Automator to control the computer via Accessibilty Settings.
+* Allow Automator to control the computer via Accessibility Settings.
 
 This process could be a whole article of its own - fortunately it's all documented in [this article on addictivetips.com](https://www.addictivetips.com/mac-os/run-an-applescript-with-a-keyboard-shortcut-on-macos/) which walks you through it all.  I used this when setting mine up and it's worked great.  For Mac OS Catalina you may get asked to confirm that you want Automator to have accessibility permissions the first time you press the arcade button, so be sure to test it before you need it in that Zoom emergency!
 
