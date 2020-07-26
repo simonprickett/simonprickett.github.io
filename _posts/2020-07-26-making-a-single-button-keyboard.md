@@ -5,7 +5,7 @@ categories: [ Arduino, C, IoT, Programming ]
 image: assets/images/arcade_keyboard_main.jpg
 author: simon
 ---
-Recently we've all been spending a lot more of our time on video conference calls from home.  I'm sure that, like me, you find yourself needing to mute your microphone and turn off the camera frequently.  Perhaps something you can't control is going on in the background, or someone needs your attention for a moment.  Perhaps you are having a sneezing fit or somethin'gs boiling over on the hob.
+Recently we've all been spending a lot more of our time on video conference calls from home.  I'm sure that, like me, you find yourself needing to mute your microphone and turn off the camera frequently.  Perhaps something you can't control is going on in the background, or someone needs your attention for a moment.  Perhaps you are having a sneezing fit or something's boiling over on the hob.
 
 With the popular video conferencing service Zoom, there's no single "I need privacy now" button that will both mute the microphone and turn off the camera.  You need to become proficient at hitting (on a Macintosh) Command + Shift + A to toggle the microphone and Command + Shift + V to toggle the video camera.  I set out to see if I could build a single button custom keyboard that would do this for me, and to do so in a way that would make it easily customizable for other purposes.  
 
@@ -56,11 +56,11 @@ Soldering this up is a little tricky as the Trinket is very small, but take your
   <figcaption class="figure-caption text-center">Soldering completed, button in the enclosure...</figcaption>
 </figure>
 
-Don't forget to push the wires through the holes in the trinket before soldering them on, then clip any excess wire with pliers.  If you need help with this technique, [Sparkfun has a good tutorial](https://learn.sparkfun.com/tutorials/how-to-solder-through-hole-soldering/all). We'll find out if the circuit works later, when we come to write software for it...
+Don't forget to push the wires through the holes in the Trinket before soldering them on, then clip any excess wire with pliers.  If you need help with this technique, [Sparkfun has a good tutorial](https://learn.sparkfun.com/tutorials/how-to-solder-through-hole-soldering/all). We'll find out if the circuit works later, when we come to write software for it...
 
 In the image above I have the Trinket connected to a USB power source, just to check that it powered up and worked after soldering, and that I hadn't fried it :)
 
-Finally on the hardware side, we'll want to put the button and the trinket in a sturdy enclosure, so that we can hit that button hard when we need to get out of a situation on Zoom!  As the trinket will connect to the computer using the USB cable, we'll need something we can make two holes in - one to mount the button, the other to let the USB cable pass through.  As we're also going to use the Trinket's multi-colored LED, the enclosure should be somewhat translucent, so it acts as an LED diffuser and lets some light escape.
+Finally on the hardware side, we'll want to put the button and the Trinket in a sturdy enclosure, so that we can hit that button hard when we need to get out of a situation on Zoom!  As the Trinket will connect to the computer using the USB cable, we'll need something we can make two holes in - one to mount the button, the other to let the USB cable pass through.  As we're also going to use the Trinket's multi-colored LED, the enclosure should be somewhat translucent, so it acts as an LED diffuser and lets some light escape.
 
 Looking around at what I had handy, I figured a reusable Starbucks hot cup (available at any Starbucks) would do.  I drilled a hole in the top with a forstner drill bit, and attached the arcade button using its screw collar.  I then drilled a smaller hole in the bottom to allow the USB cable to enter...
 
@@ -75,7 +75,7 @@ Any enclosure that you can make work will do of course!
 
 To make this a really flexible project, I decided that I would write some software to run on the computer as well as on the Trinket... Why is this necessary, the computer should be able to accept keystrokes and that's all we need right?  
 
-We could build this so that when the arcade button is pressed, the trinket sends the key commands for toggle audio on Zoom (Command + Shift + A) then sends the key commands for toggle video on Zoom (Command + Shift + V).  This way, we don't need any software on the computer (assuming the computer is a Macintosh as we're sending Mac OS key sequences - Windows users you'd need to swap in the equivalent Windows key combinations).  This is a nice simple approach, but there's a few downsides:
+We could build this so that when the arcade button is pressed, the Trinket sends the key commands for toggle audio on Zoom (Command + Shift + A) then sends the key commands for toggle video on Zoom (Command + Shift + V).  This way, we don't need any software on the computer (assuming the computer is a Macintosh as we're sending Mac OS key sequences - Windows users you'd need to swap in the equivalent Windows key combinations).  This is a nice simple approach, but there's a few downsides:
 
 * What happens if Zoom isn't running?
 * What happens if Zoom is running but doesn't have keyboard focus - say you're on a Zoom call but really bidding on that eBay auction you've had your eye on for ages in the browser... pressing the button would send the key strokes to the browser causing who knows what to happen!
@@ -111,9 +111,9 @@ The Trinket M0 can run either Arduino IDE (C) or Circuit Python code.  I went wi
 The sketch for the Trinket needs to do the following:
 
 * Listen for the arcade button to be pressed (pin 0 goes low).
-* Send keypresses for the control, alt, command and F1 keys down the USB cable to the attached computer.
-* Make the Trinket M0's built in multi-colored LED flash red briefly when the button is pressed, so that we know the button press was detected.
-* Optionally but nice: use the Trinket M0's built in multi-colored LED to do a little light show when the button isn't being used.
+* Send keypresses for the Control, Alt, Command and F1 keys down the USB cable to the attached computer (this is our trigger key combination).
+* Make the Trinket's built in multi-colored LED flash red briefly when the button is pressed, so that we know the button press was detected.
+* Optionally but nice: use the Trinket's built in multi-colored LED to do a little light show when the button isn't being used.
 
 Here's my final Arduino sketch that accomplishes all of these goals:
 
@@ -127,7 +127,7 @@ Like all Arduino sketches, this has two main functions:
 Let's take a look at how this works at a high level:
 
 * First, to make things easier I'm using some libraries:
-  * `Adafruit_DotStar.h` - an Adafruit library to control the multi-colored LED on the Trinket M0.
+  * `Adafruit_DotStar.h` - an Adafruit library to control the multi-colored LED on the Trinket.
   * `Bounce2.h` - debouncer library to provide a higher level API for detecting button presses. I've used this before in my [task tracker project](https://simonprickett.dev/building-a-task-tracker-with-arduino-and-led-arcade-buttons/) and wrote about how it works there. 
   * `Keyboard.h` an Arduino library that simluates a keyboard, providing a high level API to send key press combinations to the computer via USB.
 * The button press detection works using the debouncer library... 
@@ -135,7 +135,7 @@ Let's take a look at how this works at a high level:
   * Lines 18 and 19 in the `setup` function associate the debouncer with pin 0 (the one that's soldered to the arcade button) and configure its sensitivity.
   * Line 25 at the top of the `loop` function updates the debouncer to see if the button was pressed.
   * The block beginning at line 42 is executed if the button was pressed:
-    * The Trinket M0's LED is set to show red.
+    * The Trinket's LED is set to show red.
     * The keyboard library presses the Control, Alt, Command (GUI) and F1 keys down.
     * Afer a short delay, the keyboard library releases all of the pressed keys.
     * There's then a short delay to stop the user pressing the button too quickly and accidentally setting it off again.
@@ -183,7 +183,9 @@ This process could be a whole article of its own - fortunately it's all document
 
 Here's a demo of the final setup working its magic...
 
-TODO demo video...
+<div class="embed-responsive embed-responsive-16by9">
+  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/3G6DJA5bpWE" allowfullscreen></iframe>
+</div><br/>
 
 ## Stuff You Need to Make One
 
