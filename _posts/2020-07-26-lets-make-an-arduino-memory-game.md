@@ -38,6 +38,7 @@ TODO:
 * TODO remove count and replace with time using Arduino `millis` function (https://www.arduino.cc/reference/en/language/functions/time/millis/)
 * TODO prevent overflow at line 145
 * TODO update gist below with any code changes...
+* TODO note we didn't build a win scenario as we're assuming nobody will ever win, maybe just reset to 0?
 
 <script src="https://gist.github.com/simonprickett/7e1b822e570b5de14f493322ce38d19f.js"></script>
 
