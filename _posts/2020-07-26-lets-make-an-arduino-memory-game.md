@@ -37,6 +37,7 @@ TODO:
 * TODO maybe an issue with delay at 73 and 76, 73 seems unnecessary?
 * TODO remove count and replace with time using Arduino `millis` function (https://www.arduino.cc/reference/en/language/functions/time/millis/)
 * TODO prevent overflow at line 145
+* TODO update gist below with any code changes...
 
 <script src="https://gist.github.com/simonprickett/7e1b822e570b5de14f493322ce38d19f.js"></script>
 
