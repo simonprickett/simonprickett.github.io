@@ -17,6 +17,7 @@ Suspendisse posuere cursus tellus quis hendrerit. Aliquam ultrices urna a lorem 
 TODO:
 
 * Intro and pointer to some video of the original game working?
+* Or just play the original online here: https://kidmons.com/game/simon-memorize/
 * Demo video of the finished product
 * First build, Arduino Uno and screw shield
 * Arduino Uno (Elgoo compatible) https://www.amazon.com/ELEGOO-Board-ATmega328P-ATMEGA16U2-Compliant/dp/B01EWOE0UU/ref=sr_1_2_sspa?dchild=1&keywords=arduino+uno+elegoo&qid=1596329060&sr=8-2-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUExS0MwRTZNVVRDOFoxJmVuY3J5cHRlZElkPUEwNjM0NDE4M0NMR1pLTEZLMTM1TiZlbmNyeXB0ZWRBZElkPUEwNDgzODMzMUlIN1I4WVRSM0w1UiZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU=
