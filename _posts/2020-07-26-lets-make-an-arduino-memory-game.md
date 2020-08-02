@@ -24,7 +24,7 @@ TODO:
 * Screw Shield https://www.amazon.com/Aideepen-Assembled-Prototype-Expansion-Bareboard/dp/B01JFQQXRS/ref=sxts_sxwds-bia-wc-p13n1_0?cv_ct_cx=arduino+screw+shield&dchild=1&keywords=arduino+screw+shield&pd_rd_i=B01JFQQXRS&pd_rd_r=48c83c42-0975-4833-ae31-22da680bcf64&pd_rd_w=kc21B&pd_rd_wg=K6XXh&pf_rd_p=13bf9bc7-d68d-44c3-9d2e-647020f56802&pf_rd_r=Y48613AF3V29S050WPDQ&psc=1&qid=1596329100&sr=1-1-791c2399-d602-4248-afbb-8a79de2d236f
 * Adafruit 24mm LED arcade buttons in different colors, green one - https://www.adafruit.com/product/3433
 * Adafruit arcade button quick connect wires https://www.adafruit.com/product/1152
-* Enclosure build - TODO look up the enclosure on home depot...
+* Enclosure build - https://www.amazon.com/Cantex-5133705-PVC-Junction-Box/dp/B009EBNLGG
 * Second build, Adafruit Metro Mini and soldered wires to save space
 * Metro Mini -- https://www.adafruit.com/product/2590
 * 5v logic required for the LEDs in the arcade buttons as some won't work with less than 5v.
