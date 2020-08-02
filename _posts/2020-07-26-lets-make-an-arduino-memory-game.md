@@ -34,7 +34,7 @@ TODO:
 * TODO software intro, debouncer library summary (check other articles)
 * TODO where does tone come from?
 * TODO overall description of the attact phase and the game phase
-* TODO maybe an issue with delay at 73 and 76, 73 seems unnecessary?
+* TODO use `currentDelay` to make game go faster as they get further, and reset at "win"
 * TODO remove count and replace with time using Arduino `millis` function (https://www.arduino.cc/reference/en/language/functions/time/millis/)
 * TODO prevent overflow at line 145
 * TODO update gist below with any code changes...
