@@ -65,7 +65,6 @@ PLATFORMS
   x64-mingw32
 
 DEPENDENCIES
-  jekyll-feed
   jekyll-paginate
   jekyll-seo-tag
   jekyll-sitemap
