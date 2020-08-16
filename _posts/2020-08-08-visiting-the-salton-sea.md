@@ -153,7 +153,7 @@ The only other entertainment on the way home was getting stopped at the Border P
 
 The car performed fine in the heat all day, and got me home without any trouble.  I didn't stress it by using the air conditioning until I was on the San Diego city side of the mountains on the way home though, had the windows down for air flow for the rest of the trip.  It was really nice to get out and do something different after so long in the city and surrounding area.  Whilst I normally wouldn't have gone to the Salton Sea in the height of summer, it worked out OK after all!  Not sure when I'll be back there, so made sure I took pictures and soaked in the atmosphere on this trip.
 
-A week after my visit, there was an earthquake swarm around the Sea and as I'm writing this there are flash flood warnings for the area there too.  It was an very dry heat the day I was there, but the desert is a place of extremes and things change quickly.  
+A week after my visit, there was an [earthquake swarm](https://www.usgs.gov/center-news/salton-sea-earthquake-activity-returns-normal-levels) around the Sea and as I'm writing this there are flash flood warnings for the area there too.  It was a very dry heat the day I was there, but the desert is a place of extremes and things change quickly.  
 
 If you make this trip, I'd encourage you to travel through the back roads in the mountains in one direction and visit the town of Borrego Springs, home to the [Galleta Meadows sculptures](https://www.atlasobscura.com/places/galleta-meadows-estate).  This route also takes you through the [Anza-Borrego Desert State Park](https://en.wikipedia.org/wiki/Anza-Borrego_Desert_State_Park).
 
