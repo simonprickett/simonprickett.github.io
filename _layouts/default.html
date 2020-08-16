@@ -25,6 +25,12 @@
     <!-- Theme Stylesheet -->
     <link rel="stylesheet" href="{{site.baseurl}}/assets/css/theme.css">
 
+    {% if page.layout =="post" %}
+    <!-- Slick Carousel, only load for posts... -->
+    <link rel="stylesheet" type="text/css" href="{{site.baseurl}}/assets/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="{{site.baseurl}}/assets/slick/slick-theme.css"/>
+    {% endif %}
+
     <!-- Jquery on header to make sure everything works, the rest  of the scripts in footer for fast loading -->
     <script
     src="https://code.jquery.com/jquery-3.3.1.min.js"
@@ -70,6 +76,11 @@
 
     <script src="{{site.baseurl}}/assets/js/theme.js"></script>
 
+    {% if page.layout =="post" %}
+    <!-- Slick Carousel, only load for posts. -->
+    <script type="text/javascript" src="{{site.baseurl}}/assets/slick/slick.min.js"></script>
+    <script src="{{site.baseurl}}/assets/slick/initslick.js"></script>
+    {% endif %}
 
     <!-- Footer -->
     <footer class="bg-white border-top p-3 text-muted small">
