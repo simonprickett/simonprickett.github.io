@@ -16,14 +16,32 @@ This is a carousel for Bombay Beach...
 <div class="slick-carousel">
     <div>
         <figure class="figure">
-        <img src="{{ site.baseurl }}/assets/images/arcade_keyboard_button_microswitch.jpg" class="figure-img img-fluid" alt="Arcade button with microswitch">
-        <figcaption class="figure-caption text-center">Arcade button with microswitch - needs a clean!</figcaption>
+        <img src="{{ site.baseurl }}/assets/images/salton_bombay_beach_water_1_swing.jpg" class="figure-img img-fluid" alt="Swing and mailbox in the sea (for now...)">
+        <figcaption class="figure-caption text-center">Swing and mailbox in the sea (for now...)</figcaption>
         </figure>
     </div>
     <div>
         <figure class="figure">
-        <img src="{{ site.baseurl }}/assets/images/arcade_keyboard_main.jpg" class="figure-img img-fluid" alt="Some alt text...">
-        <figcaption class="figure-caption text-center">Caption goes here...</figcaption>
+        <img src="{{ site.baseurl }}/assets/images/salton_bombay_beach_water_2_waterfront.jpg" class="figure-img img-fluid" alt="Sea shore at Bombay Beach">
+        <figcaption class="figure-caption text-center">Sea shore at Bombay Beach.</figcaption>
+        </figure>
+    </div>
+    <div>
+        <figure class="figure">
+        <img src="{{ site.baseurl }}/assets/images/salton_bombay_beach_water_3_looking_back.jpg" class="figure-img img-fluid" alt="Looking back from the shore. In 2016 the water was up to the raised area... lots of evaporation">
+        <figcaption class="figure-caption text-center">Looking back from the shore. In 2016 the water was up to the raised area... lots of evaporation :(</figcaption>
+        </figure>
+    </div>
+    <div>
+        <figure class="figure">
+        <img src="{{ site.baseurl }}/assets/images/salton_bombay_beach_water_4_photoshoot.jpg" class="figure-img img-fluid" alt="Photoshoot on the beach">
+        <figcaption class="figure-caption text-center">Photoshoot on the beach.</figcaption>
+        </figure>
+    </div>
+    <div>
+        <figure class="figure">
+        <img src="{{ site.baseurl }}/assets/images/salton_bombay_beach_water_5_all_a_dream.jpg" class="figure-img img-fluid" alt="Sit a while?">
+        <figcaption class="figure-caption text-center">Sit a while?</figcaption>
         </figure>
     </div>
 </div>
