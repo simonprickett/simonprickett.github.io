@@ -7,16 +7,20 @@ author: simon
 ---
 Blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah.
 
+TODO intro, some concepts maybe a link to visual resources on how Bloom filters work.
+
+Before running you through how it all works, here's a video demonstration of the finished product...
+
+<div class="embed-responsive embed-responsive-16by9">
+  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/iwypvxt4K0I" allowfullscreen></iframe>
+</div><br/>
+
 <figure class="figure">
   <img src="{{ site.baseurl }}/assets/images/arcade_keyboard_button_microswitch.jpg" class="figure-img img-fluid" alt="Arcade button with microswitch">
   <figcaption class="figure-caption text-center">Arcade button with microswitch - needs a clean!</figcaption>
 </figure>
 
 <script src="https://gist.github.com/simonprickett/640ef62e7bcd0ae1ba68e8f1c5574cf3.js"></script>
-
-<div class="embed-responsive embed-responsive-16by9">
-  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/3G6DJA5bpWE" allowfullscreen></iframe>
-</div><br/>
 
 ## Stuff You Need to Make One
 
