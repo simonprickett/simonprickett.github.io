@@ -15,13 +15,6 @@ Before running you through how it all works, here's a video demonstration of the
   <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/iwypvxt4K0I" allowfullscreen></iframe>
 </div><br/>
 
-<figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/arcade_keyboard_button_microswitch.jpg" class="figure-img img-fluid" alt="Arcade button with microswitch">
-  <figcaption class="figure-caption text-center">Arcade button with microswitch - needs a clean!</figcaption>
-</figure>
-
-<script src="https://gist.github.com/simonprickett/640ef62e7bcd0ae1ba68e8f1c5574cf3.js"></script>
-
 ## Stuff You Need to Make One
 
 All of the software's free, but you will need to buy a Raspberry Pi of some sort, a Unicorn Hat and ideally a case that can diffuse the LEDs as they are super bright (in the video demo I have them set to 19% brightness which is as low as they can go and still be visible with the colors I'm using).
@@ -35,9 +28,91 @@ All of the software's free, but you will need to buy a Raspberry Pi of some sort
 * [USB wifi dongle for Raspberry Pi](https://www.adafruit.com/product/814) (A doesn't come with built in wifi - other models have this onboard - find these USB dongle on Amazon or eBay just make sure to get one that is known to work with the Pi / Raspbian OS).
 * [Adafruit Smoked Plastic Pi case](https://www.adafruit.com/product/2361) - get the separate smoked lid too as this is what acts as a nice LED diffuser.  This is the case for A sized Pi models, they also sell them for the larger Pi models.
 
+## Hardware Build
+
+The hardware build for this project is pretty simple, with no soldering required!  The Unicorn Hat comes ready built from Pimoroni and looks like this:
+
+<figure class="figure">
+  <img src="{{ site.baseurl }}/assets/images/bloom_unicorn.jpg" class="figure-img img-fluid" alt="Pimoroni Unicorn Hat">
+  <figcaption class="figure-caption text-center">Pimoroni Unicorn Hat (image: Pimoroni)</figcaption>
+</figure>
+
+Simply press this onto the GPIO pins on any 40 pin Raspberry Pi model, and you're done.  Then it's simply a matter of plugging in a power supply and setting up the operating system.  As I used a model A with limited processor power, I went with the Lite version of the operating system as I didn't need a graphical desktop.  There are some great tutorials on setting up a Pi in a headless configuration so that you can SSH into it, and that's what I did.  If you need help doing this, I recommend the [tutorial here](https://pimylifeup.com/headless-raspberry-pi-setup/).
+
+If you're using an Adafruit case like the one I got, the Pi simply snaps in there - it's probably a good idea to put it in the case before attaching the Unicorn Hat, as this will make things a bit harder with aligning the Pi and the case.  
+
+The only other accessory I had to add because I was using an older Model A Pi was the USB wifi adapter, which simply plugs in like any other USB accessory.  If you're using a newer model Pi you won't need this as they come with wifi built in, which is a good thing!
+
+## Software - Flask Server Application / API
+
+The Flask application code is all in [`app.py`](https://github.com/simonprickett/visual-bloom-filter-for-pi/blob/master/app.py), and exposes an API with these endpoints:
+
+* `POST /api/add/<element>` - add an element to the Bloom filter.  Always returns a 201 response.
+* `GET /api/exists/<element>` - returns `True` if the element might be in the Bloom filter (remember we can't be sure) or `False` if it isn't (we can be sure of this).
+* `POST /api/reset` - removes all elements from the Bloom filter and starts a fresh one.
+ 
+The application also has a route `GET /` that serves the front end as a static HTML / JavaScript / CSS page.
+
+Here's a quick walkthrough of the code that implements the Bloom filter logic:
+
+I start off by defining some constants, initializing Flask and configuring the Unicorn hat so that LED 0, 0 is in the top left hand corner according to the way I have the Raspberry Pi oriented... I then get the size of the Unicorn Hat (Pimoroni make other models that have different sizes and I wanted to make the code pretty generic).  The Unicorn Hat has a really easy to use Python library with [great docs here](http://docs.pimoroni.com/unicornhat/) that cover the functions I'm calling in my code.
+
+The utility function `get_led_position` translates a number into its equivalent row and column position on the LED matrix for the Unicorn Hat.  So, 10 for example would be row 1, column 1 for an 8 x 8 Unicorn Hat where the rows and columns are both 0 - 7 inclusive.
+
+<script src="https://gist.github.com/simonprickett/8d7b1d45e9c7605d3385013d58090f4f.js"></script>
+
+Function `toggle_leds` accepts a list of LED positions, and two RGB color tuples.  One of these, `transition_color` is used as an interim color to show which LED is toggling.  The other, `new_color` is the color that each LED will be left showing when the function finishes.  This function gets the current color for each LED, then toggles between that and `transition_color` as many times as `NUM_TRANSITIONS` specifies, then sets each LED to the color specified in `new_color`.  This is used to provide a visual effect around setting and querying bits in the Bloom filter.
+
+<script src="https://gist.github.com/simonprickett/4409b8646a680c7a7794980a59aec7af.js"></script>
+
+Function `query_led_status` uses `get_led_position` to work out the position of the LED to query, then toggles it for visual effect, before checking whether or not the LED was off (RGB 000) or on (RGB anything other than 000).  Returns `True` if the LED was on (representing the bit in the Bloom filter being set) or `False` if the LED was off (representing the bit in the Bloom filter being unset).
+
+<script src="https://gist.github.com/simonprickett/661037b35ca85e02e50ee91c89e0c7d4.js"></script>
+
+Function `set_led_status` takes a list of LED numbers, works out the position of each on the Unicorn Hat, adding that to a new list `led_positions`.  The LED at each position in the list is then turned on using the `toggle_leds` function for visual effect.  This is set individual bits in the Bloom filter.
+
+<script src="https://gist.github.com/simonprickett/44662a60a8d931d62d897a93424d517f.js"></script>
+
+Function `add_to_filter` adds the supplied `element` to the Bloom filter.  It does this by running `element` through `NUM_HASH_FUNCTIONS` hash functions that come from Murmur3.  The result of each hash is modded by the number of LEDs in the Unicorn hat to give a LED number representing that hash result.  These results are stored in a list that is passed to `set_led_status` to change the status of the correponding LEDs.
+
+<script src="https://gist.github.com/simonprickett/33721fd62d7541990f1cb5fa417a299a.js"></script>
+
+Function `exists_in_filter` runs the value in `element` through the hash functions, checking if the LED associated with the hash from each is on or off.  It does this by using the `query_led_status` function.  As soon as one is found to be off (unset in the Bloom filter) the function returns `False`.  If all LEDs that `element` hashes to are on, the function returns `True`.
+
+<script src="https://gist.github.com/simonprickett/1676db4b530137f3a215c21b16775ed0.js"></script>
+
+Function `reset_filter` flashes all of the LEDs on and off twice, then turns them all off.  As the state of each LED is used to represent a bit in the Bloom filter, this clears the filter.
+
+<script src="https://gist.github.com/simonprickett/90e8f7ad2c1f2626e0ab2be5b2432624.js"></script>
+
+The rest of the code defines API routes that Flask uses, and calls the appropriate function to process each route.  In the case of `/`, I simply respond with the `homepage.html` template to serve the front end.
+
+## Software - Front End, JavaScript / Bulma
+
+The front end is a single HTML page (`templates/homepage.html`) that works together with a single JavaScript file `static/app.js`.
+
+<script src="https://gist.github.com/simonprickett/92f057bddf35e896c6bdf811c24ec8ab.js"></script>
+
+The vast majority of the styling comes from Bulma (`static/bulma.min.css`) with a tiny bit of link styling in `static/app.css`.  
+
+Here's how it all works, focusing on the JavaScript:
+
+* The application runs on the `window.onload` event.
+* Click handlers are added to each of the Add, Exists and Reset buttons.
+* The click handlers for Add and Exists, use the same function: `buttonClicked`, but pass different parameters to it.
+* The function `buttonClicked` checks that text was entered in the text input, and which button was pressed (Add or Exists).  If text was entered, it then calls `callBloomFilter` to handle interaction with the Flask backend via the API.
+* The function `callBloomFilter` calls the appropriate API endpoint using the Fetch API to either add an element to the Bloom filter, or check if the Bloom filter things an element exists.  It updates the page with the result of this operation, and clears the text input field.
+* The Reset button click handler clears out any text in the input text box, makes a `POST` request to the Flask Application's `reset` endpoint and displays a success or error message depending on the status code returned by the API.
+* The utliity function `displayErrorCallingBackendMessage` is used to display any errors from failed API calls.
+* The utility function `getResult` is used to pull the `result` object from a Fetch API response.
+* All DOM element IDs referred to in the JavaScript can be found in `templates/homepage.html`.
+* All CSS classes referred to in the HTML are defined in `static/bulma.min.css` (easier to use the [Bulma documentation](https://bulma.io/documentation/)) or in `static/app.css` for one case where I wanted to override some link styling in Bulma.
+
 ## Thanks!
 
-Thanks for reading, hope you found this fun and feel free to tell me if I got anything wrong or could improve on it!  I've put my code into a [GitHub repository](https://github.com/simonprickett/visual-bloom-filter-for-pi) that you're free to use to build your own, or modify to do something else.
+I found this a really fun project to put together and really enjoyed making a hardware representation of a concept that's normally pretty abstract and hidden away in software.
+
+Thanks for reading, hope you also found this fun.  Feel free to tell me if I got anything wrong or could improve on it!  I've put my code into a [GitHub repository](https://github.com/simonprickett/visual-bloom-filter-for-pi) that you're free to use to build your own, or modify to do something else.
 
 ---
 
