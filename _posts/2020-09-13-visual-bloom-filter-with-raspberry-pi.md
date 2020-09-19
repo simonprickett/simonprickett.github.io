@@ -5,9 +5,19 @@ categories: [ Python, Raspberry Pi, IoT, Programming ]
 image: assets/images/bloom_main.jpg
 author: simon
 ---
-Blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah.
+Bloom filters are a [probabalistic data structure](https://www.geeksforgeeks.org/introduction-to-the-probabilistic-data-structure/) that I've wanted to learn more about for a while.  When I started reading up on them, I found a lot of the material to be quite dry and theoretical, so I thought I'd try and implement one in hardware somehow and make my own visual learning aid.
 
-TODO intro, some concepts maybe a link to visual resources on how Bloom filters work.
+So what's a Bloom filter?  [Wikipedia](https://en.wikipedia.org/wiki/Bloom_filter) says:
+
+> A Bloom filter is a space-efficient probabilistic data structure, conceived by Burton Howard Bloom in 1970, that is used to test whether an element is a member of a set. False positive matches are possible, but false negatives are not – in other words, a query returns either "possibly in set" or "definitely not in set".
+
+Regular sets are great for checking membership - this operation is usually O(1) so remains efficient as the set's cardinality (size) grows.  However, the storage required to maintain the complete set will continue to grow indefinitely with the dataset.  For some use cases, we can sacrifice some accuracy (and the ability to retrieve set members) in favor of saving memory or storage space, and this is where Bloom filters can be beneficial.  If we're storing the IDs of articles that a user's already seen on our website in order to make recommendations that don't include those articles, having absolute accuracy isn't that important so we may choose to sacrifice that for efficiency of storage and accept that sometimes we'll recommend an article they've already read.
+
+A Bloom filter can be implemented as an array of bits, so that it uses a fixed amount of memory.  When adding members to a set, these members are run through a number of hash functions to represent them as bit positions in the array.  The actual member data is never stored, so we can't list out all the members in the set stored in the Bloom filter, but we can check for membership.  
+
+Checking if something is in a Bloom filter involves running it through the same hash functions to see what the value of each bit in the array is.  If all of the hash functions resolve to bits that are set, we can say that the member may be in the Bloom filter.  We can't say with absolute certainty as there's a possibility that hash collisions will cause multiple members to hash to the same array positions.  In many Bloom filter implementations, the likelihood of a clash can be tuned by varying the size of the bit array and the number of hash functions.  If one or more hash returns an array position that's unset, we know with certainty that the member is not in the Bloom filter.
+
+While researching this topic, I found a really good interactive Bloom filter demonstration that is very visual in nature.  [Check it out here](https://www.jasondavies.com/bloomfilter/).  When writing my code, I found [Guy Royse's JavaScript example implementation](https://github.com/guyroyse/understanding-probabilistic-data-structures/tree/master/code/bloom-filter/javascript) very handy, as well as this [GeeksforGeeks article for Python](https://www.geeksforgeeks.org/bloom-filters-introduction-and-python-implementation/).
 
 Before running you through how it all works, here's a video demonstration of the finished product...
 
@@ -110,7 +120,7 @@ Here's how it all works, focusing on the JavaScript:
 
 ## Thanks!
 
-I found this a really fun project to put together and really enjoyed making a hardware representation of a concept that's normally pretty abstract and hidden away in software.
+I found this a really fun project to put together and really enjoyed making a hardware representation of a concept that's normally pretty abstract and hidden away in software.  I deliberately kept this pretty simple - the size of the array for the Bloom filter is limited to 64 because that's how many LEDs are available, but one enhancement could be to configure the `reset` API endpoint to take a number, and use that many hash functions rather than the fixed three I used.  It might be cool to use some sort of rotary encoder with the Pi to literally dial in the number of hash functions too :)
 
 Thanks for reading, hope you also found this fun.  Feel free to tell me if I got anything wrong or could improve on it!  I've put my code into a [GitHub repository](https://github.com/simonprickett/visual-bloom-filter-for-pi) that you're free to use to build your own, or modify to do something else.
 
