@@ -83,7 +83,7 @@ Function `set_led_status` takes a list of LED numbers, works out the position of
 
 <script src="https://gist.github.com/simonprickett/44662a60a8d931d62d897a93424d517f.js"></script>
 
-Function `add_to_filter` adds the supplied `element` to the Bloom filter.  It does this by running `element` through `NUM_HASH_FUNCTIONS` hash functions that come from Murmur3.  The result of each hash is modded by the number of LEDs in the Unicorn hat to give a LED number representing that hash result.  These results are stored in a list that is passed to `set_led_status` to change the status of the correponding LEDs.
+Function `add_to_filter` adds the supplied `element` to the Bloom filter.  It does this by running `element` through `NUM_HASH_FUNCTIONS` hash functions that come from Murmur3.  The result of each hash is modded by the number of LEDs in the Unicorn hat to give a LED number representing that hash result.  These results are stored in a list that is passed to `set_led_status` to change the status of the corresponding LEDs.
 
 <script src="https://gist.github.com/simonprickett/33721fd62d7541990f1cb5fa417a299a.js"></script>
 
