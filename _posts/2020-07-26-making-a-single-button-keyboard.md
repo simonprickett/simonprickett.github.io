@@ -137,7 +137,7 @@ Let's take a look at how this works at a high level:
   * The block beginning at line 42 is executed if the button was pressed:
     * The Trinket's LED is set to show red.
     * The keyboard library presses the Control, Alt, Command (GUI) and F1 keys down.
-    * Afer a short delay, the keyboard library releases all of the pressed keys.
+    * After a short delay, the keyboard library releases all of the pressed keys.
     * There's then a short delay to stop the user pressing the button too quickly and accidentally setting it off again.
     * If this doesn't work, then it's possible that the circuit wasn't soldered correctly... if it's all good you can expect to see the LED go red whenever you press the arcade button.
 * The background flashing LED pattern that's just for fun works like this:
