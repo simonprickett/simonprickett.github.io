@@ -2,7 +2,6 @@
 title: "About Simon"
 layout: page
 permalink: "/about/"
-comments: false
 ---
 <div class="container">
     <div class="row">
