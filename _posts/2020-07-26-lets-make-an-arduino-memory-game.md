@@ -33,7 +33,7 @@ TODO:
 ## Software
 
 * TODO software intro, debouncer library summary (check other articles)
-* TODO where does tone come from?
+* TODO where does tone come from? https://github.com/bhagman/Tone
 * TODO overall description of the attract phase and the game phase
 * TODO update gist below with any code changes...
 * TODO note we didn't build a win scenario as we're assuming nobody will ever win, maybe just reset to 1?
