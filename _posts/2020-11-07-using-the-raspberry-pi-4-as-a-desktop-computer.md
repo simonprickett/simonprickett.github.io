@@ -11,10 +11,6 @@ Official Pi 4 complete desktop kit https://shop.pimoroni.com/products/raspberry-
 Pi 400 complete kit https://www.adafruit.com/product/4796
 Pi 400 bring your own power supply, micro SD card and mouse https://www.adafruit.com/product/4795
 
-<div class="embed-responsive embed-responsive-16by9">
-  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/_79nXUG4Y4Y" allowfullscreen></iframe>
-</div><br/>
-
 ## Shopping List
 
 Here's what you'll need to build your own desktop Pi 4... links are for USA suppliers.  If you're in the UK/EU, [Pimoroni](https://shop.pimoroni.com/) will have most of this stuff.
@@ -37,6 +33,53 @@ TODO building the case...
 
 TODO note about the GPIO ports...
 
+TODO slideshow of images for case build...
+
+<div class="slick-carousel">
+    <div>
+        <figure class="figure">
+        <img src="{{ site.baseurl }}/assets/images/pi_desktop_1_case_parts.jpg" class="figure-img img-fluid" alt="Pi 4 Desktop Case parts">
+        <figcaption class="figure-caption text-center">Pi 4 Desktop Case parts.</figcaption>
+        </figure>
+    </div>
+    <div>
+        <figure class="figure">
+        <img src="{{ site.baseurl }}/assets/images/pi_desktop_2_case_fan_with_pi.jpg" class="figure-img img-fluid" alt="Built in fan with Raspberry Pi 4 board">
+        <figcaption class="figure-caption text-center">Built in fan with Raspberry Pi 4 board.</figcaption>
+        </figure>
+    </div>
+    <div>
+        <figure class="figure">
+        <img src="{{ site.baseurl }}/assets/images/pi_desktop_3_case_port_extender_fitted.jpg" class="figure-img img-fluid" alt="Raspberry Pi 4 with the case's port extender fitted">
+        <figcaption class="figure-caption text-center">Raspberry Pi 4 with the case's port extender fitted.</figcaption>
+        </figure>
+    </div>
+    <div>
+        <figure class="figure">
+        <img src="{{ site.baseurl }}/assets/images/pi_desktop_4_pi_in_top_of_case.jpg" class="figure-img img-fluid" alt="Raspberry Pi 4 with port extender mounted in the case">
+        <figcaption class="figure-caption text-center">Raspberry Pi 4 with port extender mounted in the case.</figcaption>
+        </figure>
+    </div>
+    <div>
+        <figure class="figure">
+        <img src="{{ site.baseurl }}/assets/images/pi_desktop_5_case_ports.jpg" class="figure-img img-fluid" alt="Arrangement of ports and power button">
+        <figcaption class="figure-caption text-center">Arrangement of ports and power button.</figcaption>
+        </figure>
+    </div>
+    <div>
+        <figure class="figure">
+        <img src="{{ site.baseurl }}/assets/images/pi_desktop_6_case_gpio.jpg" class="figure-img img-fluid" alt="Access to GPIO ports via removable magnetic cover">
+        <figcaption class="figure-caption text-center">Access to GPIO ports via removable magnetic cover.</figcaption>
+        </figure>
+    </div>
+    <div>
+        <figure class="figure">
+        <img src="{{ site.baseurl }}/assets/images/pi_desktop_7_case_instructions.jpg" class="figure-img img-fluid" alt="Example of the case assembly instructions">
+        <figcaption class="figure-caption text-center">Example of the case assembly instructions.</figcaption>
+        </figure>
+    </div>
+</div>
+
 ## Operating System Setup
 
 TODO Raspbian setup...
@@ -46,6 +89,15 @@ TODO Raspbian setup...
 TODO - not sure if it works with other operating systems..
 
 ## Wrap Up
+
+<figure class="figure">
+  <img src="{{ site.baseurl }}/assets/images/pi_desktop_with_monitor.jpg" class="figure-img img-fluid" alt="Raspberry Pi 4 desktop up and running">
+  <figcaption class="figure-caption text-center">Raspberry Pi 4 desktop up and running!</figcaption>
+</figure>
+
+<div class="embed-responsive embed-responsive-16by9">
+  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/_79nXUG4Y4Y" allowfullscreen></iframe>
+</div><br/>
 
 TODO it's early days, we'll see how it goes with use...
 
