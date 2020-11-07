@@ -8,8 +8,8 @@ permalink: "/about/"
         <div class="col-md-12">
             <img alt="Simon Prickett" src="{{site.baseurl}}/{{ site.authors.simon.avatar }}" class="img-responsive float-right ml-3" width="30%">
             <p class="lead">Hi - thanks for dropping by.  I'm Simon Prickett, an experienced software 
-               professional based in sunny San Diego, California USA.</p>
-            <p>I'm currently working as a Curriculum Engineer for <a href="https://redislabs.com">Redis Labs</a> where I develop course materials and accompanying example applications for our online <a href="https://redislabs.com/university/">Redis University courses</a>.  I'm the principal teacher for the <a href="https://redislabs.com/courses/redis-javascript-developers/">Redis for JavaScript (Node.js) Developers</a> course, and have also contributed to the Redis Streams and Redis for Java Developers courses.</p>
+               professional.</p>
+            <p>I'm currently working as a Senior Curriculum Engineer for <a href="https://redislabs.com">Redis Labs</a> where I develop course materials and accompanying example applications for our online <a href="https://redislabs.com/university/">Redis University courses</a>.  I'm the principal teacher for the <a href="https://redislabs.com/courses/redis-javascript-developers/">Redis for JavaScript (Node.js) Developers</a> course, and have also contributed to the Redis Streams and Redis for Java Developers courses.</p>
             <p>I've been coding since I received a Sinclair ZX Spectrum as a Christmas 
                present in the early 1980s.  I have particularly fond memories of owning 
                and developing software for the Atari ST and Commodore Amiga.  I was part of a team that made a popular 
@@ -39,9 +39,7 @@ permalink: "/about/"
                recently acquired a BBC micro:bit and need to spend some time learning 
                about that.  I periodically write about IoT topics and speak at 
                Meetup groups or conferences.</p>
-            <p>Away from computing, I enjoy travel, reading, cycling and watching 
-               NHL hockey.  I continue to follow my home town soccer team Nottingham 
-               Forest, and recently started 5k running.</p>
+            <p>Away from computing, I enjoy travel, and reading.</p>
 </div>
 </div>
 </div>
