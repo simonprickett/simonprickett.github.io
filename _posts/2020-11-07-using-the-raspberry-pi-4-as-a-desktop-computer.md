@@ -86,6 +86,13 @@ TODO Raspbian setup...
 
 ## Power Button and Fan Management Software
 
+TODO - what it does.
+
+<figure class="figure">
+  <img src="{{ site.baseurl }}/assets/images/pi_desktop_case_configuration.jpg" class="figure-img img-fluid" alt="Fan configuration software">
+  <figcaption class="figure-caption text-center">Fan configuration software.</figcaption>
+</figure>
+
 TODO - not sure if it works with other operating systems..
 
 ## Wrap Up
