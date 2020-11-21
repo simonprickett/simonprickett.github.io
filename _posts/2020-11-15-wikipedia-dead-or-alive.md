@@ -131,7 +131,7 @@ I created a `test` folder in the package's root folder, and added a file named `
 const wikipediaDeadOrAlive = require('../index.js');
 
 // Tests someone who is alive.
-test('Justin Bieber, alive...', async () => {
+test('Pharrell Williams, alive...', async () => {
   const result = await wikipediaDeadOrAlive.getStatus('Pharrell_Williams');
 
   expect(result.name).toBe('Pharrell Williams');
@@ -197,7 +197,7 @@ The new version of the package will go live shortly after the publish command fi
 
 npm will publish your package using the version number in `package.json`, so don't forget to bump that when you do a new release!
 
-Publishing packages publically, so that anyone can use them, is free.
+Publishing packages publicly, so that anyone can use them, is free.
 
 Once published, npm will use the `README.md` file as the basis of the package's page.  Here's what it looks like:
 
