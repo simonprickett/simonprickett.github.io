@@ -23,7 +23,7 @@ We'll build something akin to a utility library that exposes a single function t
 
 Let's build a package from scratch... naming things is hard, so before spending any time on that, make sure that the package name you want isn't already in use by [searching on npm](https://www.npmjs.com/).  I found that `wikipediadeadoralive` wasn't taken, so ran with that.
 
-We'll share the package's source code publically on GitHub, so I created a public repo for that first.  I'll need the URL for that shortly...
+We'll share the package's source code publicly on GitHub, so I created a public repo for that first.  I'll need the URL for that shortly...
 
 The next step is to use the `npm` command line to generate a `package.json` file.  `npm init` walks us through this in a question and answer format like so:
 
