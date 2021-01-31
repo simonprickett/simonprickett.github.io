@@ -13,7 +13,7 @@ TODO VIDEO HERE!!!
 
 ## Game Design
 
-In my simple game, the user plays three rounds.  In each round, they're asked whether a celebrity is dead or alive.  The game checks their answer using my dead or alive package.  Alexa responds to tell the user whether they were right or not, and to read them a short biographical summary about the celebrity.  Each right answer earns one point, and after three rounds the user finds out their final score.
+In my simple game, the user plays three rounds.  In each round, they're asked whether a celebrity is dead or alive.  The game checks their answer using my dead or alive package which in turn uses Wikipedia as its data source.  Alexa responds to tell the user whether they were right or not, and to read them a short biographical summary about the celebrity.  Each right answer earns one point, and after three rounds the user finds out their final score.
 
 The game has a pool of celebrities that it can pick from, and checks their dead or alive status against Wikipedia using my existing package.  To store the pool of celebrities, I needed a database... I chose Redis as I also wanted to cache lookups from Wikipedia so that I'm not making too many requests to it, and Redis is perfect for both data storage and caching. As we'll see, there are also some properties of Redis Sets that are useful here. 
 
@@ -21,7 +21,7 @@ The game also needs to remember which celebrity the user was asked about in the 
 
 ## Database Setup 
 
-I need a pool of celebrities that the code can randomly select from each time a user starts a new game. The record for each celebrity should consist of their name and profession, so user's have some context.  I decided to include 100 celebrities in a JSON file, for example:
+I needed a pool of celebrities that the code can randomly select from each time a user starts a new game. The record for each celebrity should consist of their name and profession, so users have some context.  I decided to include 100 celebrities in a JSON file, for example:
 
 <script src="https://gist.github.com/simonprickett/eb5f05a24a0806d9a5c1132ad92bbd74.js"></script>
 
@@ -35,9 +35,39 @@ I wrote a dataloader in Node.js to take my JSON file and import it into Redis. T
 
 [Check out the complete data loader code on GitHub](https://github.com/simonprickett/alexa-dead-or-alive-game/tree/master/dataloader).
 
+As I needed a Redis Instance that my skill's backend would be able to connect to from AWS, I set up a [free 30Mb Redis Labs instance](https://redislabs.com/try-free/) - their free trial program allows you to choose which cloud your instance is in, so I was able to select AWS and the us-east region - keeping my data close to my code for minimal latency.  *Full disclosure: I'm employed by Redis Labs.*
+
 ## Coding with Alexa Hosted Skills
 
-TODO
+[Alexa Hosted Skills](https://developer.amazon.com/en-US/docs/alexa/devconsole/about-the-developer-console.html) simplify the Alexa skill development and hosting process by allowing you to write, test and deploy code from a single console without having to switch back and forth from AWS Lambda. I'd never used this before, so decided to try it out and do all my coding in the browser.
+
+I picked Node.js to build my skill in, but could have also chosen Python. Here's what the development environment looks like:
+
+<figure class="figure">
+  <img src="{{ site.baseurl }}/assets/images/alexa_doa_dev_console.png" class="figure-img img-fluid" alt="Coding in the Alexa Developer Console">
+  <figcaption class="figure-caption text-center">Coding in the Alexa Developer Console</figcaption>
+</figure>
+
+One limitation I found with Alexa Hosted Skills was that I couldn't set environment variables in the console and reference them in my code... I wanted to do this to keep the Redis hostname, port and password out of the code... so I used the [dotenv](https://www.npmjs.com/package/dotenv) package and a `.env` file to keep these in instead.  Remember not to commit secrets files to source control! 
+
+Overall I thought the hosted skills environment was pretty easy to work with, and you can download your code and use a "proper" editor if you prefer.
+
+## Creating the Voice Interaction Model
+
+The voice interaction model works in the same was as any other Alexa Skill - I set up intents for each of the interactions that I wanted the user to have with my game... 
+
+* Start a new game
+* Answer, indicating that the user thinks the celebrity is alive
+* Answer, indicating that the user thinks the celebrity is dead
+
+Intents and sample utterances (words that should trigger the intent) can be configured in the Alexa Developer Console by filling out forms in the browser:
+
+<figure class="figure">
+  <img src="{{ site.baseurl }}/assets/images/alexa_doa_interaction_model.png" class="figure-img img-fluid" alt="Creating the Interaction Model">
+  <figcaption class="figure-caption text-center">Creating the Interaction Model</figcaption>
+</figure>
+
+This creates a JSON document that you can download as part of the project and keep in source control.  [Here's my final interaction model on GitHub](https://github.com/simonprickett/alexa-dead-or-alive-game/blob/master/alexaskill/interactionModels/custom/en-US.json).
 
 ## Starting a New Game
 
