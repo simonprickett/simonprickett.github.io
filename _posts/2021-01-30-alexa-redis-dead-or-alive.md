@@ -5,7 +5,7 @@ categories: [ Node.js JavaScript Redis Alexa ]
 image: assets/images/alexa_doa_main.jpg
 author: simon
 ---
-I often find that I build an Alexa skill whenever I want to play around with an API. The voice interface is easy get started with and I can create something without worrying about visual design or CSS :) A while ago I created a [Dead or Alive package](https://simonprickett.dev/wikipedia-dead-or-alive/) that's on [npm](https://www.npmjs.com/package/wikipediadeadoralive)... let's see what it takes to turn that into a game for Alexa where the user has to determine whether a few celebrities are dead or alive...
+I often find that I build an Alexa skill whenever I want to play around with an API. The voice interface is easy to get started with and I can create something without worrying about visual design or CSS :) A while ago I created a [Dead or Alive package](https://simonprickett.dev/wikipedia-dead-or-alive/) that's on [npm](https://www.npmjs.com/package/wikipediadeadoralive)... let's see what it takes to turn that into a game for Alexa where the user has to determine whether a few celebrities are dead or alive...
 
 Here's a demo of the finished article running in the Alexa Developer Console:
 
@@ -45,7 +45,7 @@ I picked Node.js to build my skill in, but could have also chosen Python. Here's
 
 <figure class="figure">
   <img src="{{ site.baseurl }}/assets/images/alexa_doa_dev_console.png" class="figure-img img-fluid" alt="Coding in the Alexa Developer Console">
-  <figcaption class="figure-caption text-center">Coding in the Alexa Developer Console</figcaption>
+  <figcaption class="figure-caption text-center">Coding in the Alexa Developer Console.</figcaption>
 </figure>
 
 One limitation I found with Alexa Hosted Skills was that I couldn't set environment variables in the console and reference them in my code... I wanted to do this to keep the Redis hostname, port and password out of the code... so I used the [dotenv](https://www.npmjs.com/package/dotenv) package and a `.env` file to keep these in instead.  Remember not to commit secrets files to source control! 
@@ -63,38 +63,49 @@ The voice interaction model works in the same was as any other Alexa Skill - I s
 Intents and sample utterances (words that should trigger the intent) can be configured in the Alexa Developer Console by filling out forms in the browser:
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/alexa_doa_interaction_model.png" class="figure-img img-fluid" alt="Creating the Interaction Model">
+  <img src="{{ site.baseurl }}/assets/images/alexa_doa_interaction_model.png" class="figure-img img-fluid" alt="Creating the Interaction Model.">
   <figcaption class="figure-caption text-center">Creating the Interaction Model</figcaption>
 </figure>
 
 This creates a JSON document that you can download as part of the project and keep in source control.  [Here's my final interaction model on GitHub](https://github.com/simonprickett/alexa-dead-or-alive-game/blob/master/alexaskill/interactionModels/custom/en-US.json).
 
-## Starting a New Game
+## Code: Starting a New Game
 
 TODO
 
-## Checking the User's Answer
+## Code: Checking the User's Answer
 
 TODO
 
-## Updating the User's Score
+## Code: Updating the User's Score
 
 TODO
 
-## Moving to the Next Round
+## Code: Moving to the Next Round
 
 TODO
 
-## Game Over!
+## Code: Game Over!
 
 TODO
 
 ## Testing the Skill
 
-TODO
+The skill code can be tested directly in the Alexa Developer Console, you don't need an Echo or other Alexa hardware device. In the "Test" tab, you can either type or speak to Alexa and see the exchange between the Alexa platform and the Lambda function code:
+
+<figure class="figure">
+  <img src="{{ site.baseurl }}/assets/images/alexa_doa_interaction_model.png" class="figure-img img-fluid" alt="Testing the skill">
+  <figcaption class="figure-caption text-center">Testing the skill.</figcaption>
+</figure>
+
+Alexa's responses appear in the console, and if you have the volume turned up, they're also spoken for you. Here's an example run through session:
+
+TODO VIDEO
+
+Logs from the Lambda function appear in Cloudwatch Logs, accessible from the "Code" tab.. it's probably worth having that open in another browser window to save on back and forth when debugging.
 
 ## Try it Yourself!
 
-If you'd like to try this project out, I've put the code for the Alexa skill and data loader on GitHub, along with my celebrities JSON data file. Feel free to [clone the repo here](https://github.com/simonprickett/alexa-dead-or-alive-game). If you build anything fun with it, I'd love to hear from you!
+If you'd like to try this project out, I've put the code for the Alexa skill and data loader on GitHub, along with my celebrities JSON data file. Feel free to [clone the repo here](https://github.com/simonprickett/alexa-dead-or-alive-game) and [get a free Redis Cloud instance here](). If you build anything fun with it, I'd love to hear from you!
 
 *(Main Photo by [Anete Lusina](https://www.pexels.com/@anete-lusina) from Pexels)*
