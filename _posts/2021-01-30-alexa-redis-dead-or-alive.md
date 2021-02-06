@@ -39,7 +39,7 @@ As I needed a Redis Instance that my skill's backend would be able to connect to
 
 ## Coding with Alexa Hosted Skills
 
-[Alexa Hosted Skills](https://developer.amazon.com/en-US/docs/alexa/devconsole/about-the-developer-console.html) simplify the Alexa skill development and hosting process by allowing you to write, test and deploy code from a single console without having to switch back and forth from AWS Lambda. I'd never used this before, so decided to try it out and do all my coding in the browser.
+[Alexa Hosted Skills](https://developer.amazon.com/en-US/docs/alexa/devconsole/about-the-developer-console.html) simplify the Alexa skill development and hosting process by allowing you to write, test and deploy code from a single console without having to switch back and forth from AWS Lambda. I'd never used this before, so decided to try it out and do all my coding in the browser. This won't be a blow by blow Alexa Skill development tutorial, we'll just look at some of the key interactions that I built.
 
 I picked Node.js to build my skill in, but could have also chosen Python. Here's what the development environment looks like:
 
@@ -73,21 +73,25 @@ This creates a JSON document that you can download as part of the project and ke
 
 TODO
 
-## Code: Checking the User's Answer
-
-TODO
-
-## Code: Updating the User's Score
+## Code: Checking the User's Answer and Updating their Score
 
 TODO
 
 ## Code: Moving to the Next Round
 
-TODO
+Having established whether or not the user answered correctly and updated their score accordingly, the next job is to start the next round by asking them about another celebrity.  I call `getRandomCeleb` again to get the next celebrity, update the user's session accordingly and ask them whether they think this new person is dead or alive:
+
+<script src="https://gist.github.com/simonprickett/adda2b892e164d15bf349f3d6f3f2e05.js"></script>
 
 ## Code: Game Over!
 
-TODO
+The end of the game is handled in `handleDeadOrAliveAnswer`, which processes the user's answers.  
+
+As we saw in "Moving to the Next Round", the next celebrity to ask the user about is randomly chosen from the current game's Redis Set of celebrities using the `SPOP` command in the `getRandomCeleb` function. When this function returns nothing, I know that there are no more rounds left for the user to play, so I tell the user their score and clean up the session attributes that track score and current celebrity:
+
+<script src="https://gist.github.com/simonprickett/1ab57ab1c563b379a3a0a33323c01081.js"></script>
+
+This ensures that, if the user tries invoking the answer handler again, they'll be told that they don't have a game in progress.
 
 ## Testing the Skill
 
@@ -104,8 +108,12 @@ TODO VIDEO
 
 Logs from the Lambda function appear in Cloudwatch Logs, accessible from the "Code" tab.. it's probably worth having that open in another browser window to save on back and forth when debugging.
 
+## Room for Improvement 
+
+TODO
+
 ## Try it Yourself!
 
 If you'd like to try this project out, I've put the code for the Alexa skill and data loader on GitHub, along with my celebrities JSON data file. Feel free to [clone the repo here](https://github.com/simonprickett/alexa-dead-or-alive-game) and [get a free Redis Cloud instance here](). If you build anything fun with it, I'd love to hear from you!
 
-*(Main Photo by [Anete Lusina](https://www.pexels.com/@anete-lusina) from Pexels)*
+*(Main Photo by [Anete Lusina](https://www.pexels.com/@anete-lusina) from Pexels).*
