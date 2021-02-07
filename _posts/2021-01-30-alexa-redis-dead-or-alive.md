@@ -9,7 +9,9 @@ I often find that I build an Alexa skill whenever I want to play around with an 
 
 Here's a demo of the finished article running in the Alexa Developer Console:
 
-TODO VIDEO HERE!!!
+<div class="embed-responsive embed-responsive-16by9">
+  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/hRaeTzdxrY0" allowfullscreen></iframe>
+</div><br/>
 
 ## Game Design
 
@@ -115,7 +117,9 @@ The skill code can be tested directly in the Alexa Developer Console, you don't 
 
 Alexa's responses appear in the console, and if you have the volume turned up, they're also spoken for you. Here's an example run through session:
 
-TODO VIDEO
+<div class="embed-responsive embed-responsive-16by9">
+  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/hRaeTzdxrY0" allowfullscreen></iframe>
+</div><br/>
 
 Logs from the Lambda function appear in Cloudwatch Logs, accessible from the "Code" tab.. it's probably worth having that open in another browser window to save on back and forth when debugging.
 
