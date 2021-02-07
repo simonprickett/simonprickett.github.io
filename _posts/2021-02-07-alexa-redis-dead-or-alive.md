@@ -82,13 +82,51 @@ This creates a JSON document that you can download as part of the project and ke
 
 ## Code: Starting a New Game
 
-Whenever a user wants to start a game, I need to pick three random celebrities from the pool in Redis - one for each round of the game.  The Redis [`SRANDMEMBER`](https://redis.io/commands/srandmember) command does this for me - it returns a random member from the set of celebrity key names I created, without removing that member from the set.
+Whenever a user wants to start a game, I need to pick three random celebrities from the pool in Redis - one for each round of the game.  The Redis [`SRANDMEMBER`](https://redis.io/commands/srandmember) command does this for me - it returns a random member from the Set of celebrity key names I created, without removing that member from the Set.
 
-TODO The rest of it goes here...
+I decided to store each game's Set of three celebrities in Redis too, using a key name that includes the session ID that Alexa provides so that I can easily determine which set belongs to which user.  I build that set up by calling `SRANDMEMBER` over and over until three different celebrity names are returned:
+
+<script src="https://gist.github.com/simonprickett/aa05d919b758143526d2a836ce975a51.js"></script>
+
+Now I have three celebrities stored, I also set a time to live on the session's key in Redis... in case the user gets part way through playing the game and abandons it... Redis will clean up this temporary data automatically when the TTL expires. This prevents data from old sessions from taking up space in Redis.  If the user finishes their game, I'll explicitly delete this data to get rid of it sooner as I'll know it is no longer needed.
+
+This could be more efficient, as it makes numerous network round trips to Redis and back. I could optimize this and make it a Lua script that runs inside the Redis server, although this method would block the Redis server from doing anything else while it runs the script.
+
+Now I've got the celebrities for this user's game in a Set in Redis, I need to set the initial score to 0 and ask the user about the first celebrity... I set the score in the Alexa session attributes, then pick a random celebrity from the user's Set of 3 and store that name in the session attributes too... so that when the user answers, we know which name they were answering for:
+
+<script src="https://gist.github.com/simonprickett/d46143048f84e6612a1a79ba9378667b.js"></script>
+
+How does `getRandomCeleb` work? Here's the code:
+
+<script src="https://gist.github.com/simonprickett/6c8bf8efaf39befc4d11d0463146dd1c.js"></script>
+
+Given an Alexa session ID, it generates the Redis key name that I stored the Set of celebrities for that session in. It then uses the Redis [`SPOP`](https://redis.io/commands/spop) command to remove and return a random member of that Set.
+
+Finally, to get some context for the user, I call `getCeleb` which in turn uses the Redis [`HGETALL`](https://redis.io/commands/hgetall) command to retrieve the Hash for that celebrity... containing that extra context we want to give the user, for example for Pharrell Williams, this would be "Singer and producer":
+
+<script src="https://gist.github.com/simonprickett/7b5edcc12852404e2461935637040715.js"></script>
+
+I use these values to build up a string that Alexa speaks to the user, asking them whether they think that the celebrity is dead or alive.
 
 ## Code: Checking the User's Answer and Updating their Score
 
-TODO
+When the user answers to say whether they think the celebrity is dead or alive, I need to determine whether they've answered correctly and if so, update their score. I have separate intent handlers for dead and alive answers that call a common function `handleDeadOrAliveAnswer`.
+
+In that common function, I need to know which celebrity the user session that responded was looking at... and I stored that in the Alexa session. I get the name out and pass it to a function called `validateAnswer` which returns an object containing information about the celebrity... I check the properties of that object to see if the user's guess was correct, and use them to build up the speech string that Alexa will respond with.  If they were right, I find their current score in their session attributes and add 1 to it:
+
+<script src="https://gist.github.com/simonprickett/f48a736dacb408f3f908afbc7cad0f15.js"></script>
+
+How does `validateAnswer` work? It does some checks, then calls `getCelebStatus`, checking the object returned to see if the user was right or not:
+
+<script src="https://gist.github.com/simonprickett/4e96154bce443d8b2b92a09749d8c495.js"></script>
+
+The work to see if the celebrity is dead or alive is done in the `getCelebStatus` function... this first checks in Redis to see if we've previously determined this celebrity's status and cached it... if not, it uses my separate [wikipediadeadoralive module](https://www.npmjs.com/package/wikipediadeadoralive) to go get information about the celebrity from Wikipedia, caching the result in Redis for a while to save on duplicate lookups:
+
+<script src="https://gist.github.com/simonprickett/9c665aae857d47520502471d558a02ab.js"></script>
+
+Note that ioredis returns an empty object when a Hash doesn't exist, I'm detecting that by counting the number of keys... if you know a better way of comparing with an empty object, let me know!
+
+While making the video walkthrough of this project, I realized I am setting a TTL on all Wikipedia lookups regardless of whether the celebrity turns out to be dead or alive... I could optimize this so that there's no TTL on results for dead celebrities, as that status isn't going to change... someone who is alive might have died by the next time we need their status, so we definitely want a TTL on those!
 
 ## Code: Moving to the Next Round
 
@@ -122,14 +160,6 @@ Alexa's responses appear in the console, and if you have the volume turned up, t
 </div><br/>
 
 Logs from the Lambda function appear in Cloudwatch Logs, accessible from the "Code" tab.. it's probably worth having that open in another browser window to save on back and forth when debugging.
-
-## Room for Improvement 
-
-If you check out my [full source code for the Lambda function](https://github.com/simonprickett/alexa-dead-or-alive-game/blob/master/alexaskill/lambda/index.js), you'll notice that TODO
-
-<script src="https://gist.github.com/simonprickett/0e551f1025e0ce2bb74c88f1d8587f72.js"></script>
-
-TODO why and can it be done better????
 
 ## Try it Yourself!
 
