@@ -25,9 +25,18 @@ I needed a pool of celebrities that the code can randomly select from each time 
 
 <script src="https://gist.github.com/simonprickett/eb5f05a24a0806d9a5c1132ad92bbd74.js"></script>
 
-I modeled each celebrity record in Redis as a Redis Hash with `name` and `bio` fields.  For the key name, I used the celebrity's name with spaces replaced by underscores, and I decided to prefix all keys with `doa:` to distinguish them from anything else that was in the same Redis instance. So, the key for Pharrell Williams would be `doa:Pharrell_Williams`.
+I modeled each celebrity record in Redis as a Redis Hash with `name` and `bio` fields.  For the key name, I used the celebrity's name with spaces replaced by underscores, and I decided to prefix all keys with `doa:` to distinguish them from anything else that was in the same Redis instance. So, the key for Pharrell Williams would be `doa:Pharrell_Williams` and the data looks like this:
 
-As well as the Hashes, I needed a Redis Set containing each of the celebrity names. Putting these into a set allows me to use Redis' [`SRANDMEMBER`](https://redis.io/commands/srandmember) command to randomly pick a celebrity to ask users about... we'll look at that later.
+```
+> HGETALL doa:Pharrell_Williams
+
+1) "name"
+2) "Pharrell Williams"
+3) "bio"
+4) "Singer and producer"
+```
+
+As well as the Hashes, I needed a Redis Set containing each of the celebrity key names. Putting these into a set allows me to use Redis' [`SRANDMEMBER`](https://redis.io/commands/srandmember) command to randomly pick a celebrity to ask users about... we'll look at that later.
 
 I wrote a dataloader in Node.js to take my JSON file and import it into Redis. This uses the Redis protocol's [pipeline](https://redis.io/topics/pipelining) feature to load the data with the [ioredis](https://github.com/luin/ioredis) client:
 
@@ -71,7 +80,9 @@ This creates a JSON document that you can download as part of the project and ke
 
 ## Code: Starting a New Game
 
-TODO
+Whenever a user wants to start a game, I need to pick three random celebrities from the pool in Redis - one for each round of the game.  The Redis [`SRANDMEMBER`](https://redis.io/commands/srandmember) command does this for me - it returns a random member from the set of celebrity key names I created, without removing that member from the set.
+
+TODO The rest of it goes here...
 
 ## Code: Checking the User's Answer and Updating their Score
 
@@ -87,7 +98,7 @@ Having established whether or not the user answered correctly and updated their 
 
 The end of the game is handled in `handleDeadOrAliveAnswer`, which processes the user's answers.  
 
-As we saw in "Moving to the Next Round", the next celebrity to ask the user about is randomly chosen from the current game's Redis Set of celebrities using the `SPOP` command in the `getRandomCeleb` function. When this function returns nothing, I know that there are no more rounds left for the user to play, so I tell the user their score and clean up the session attributes that track score and current celebrity:
+As we saw in "Moving to the Next Round", the next celebrity to ask the user about is randomly chosen from the current game's Redis Set of celebrities using the [`SPOP`](https://redis.io/commands/spop) command in the `getRandomCeleb` function. When this function returns nothing, I know that there are no more rounds left for the user to play, so I tell the user their score and clean up the session attributes that track score and current celebrity:
 
 <script src="https://gist.github.com/simonprickett/1ab57ab1c563b379a3a0a33323c01081.js"></script>
 
@@ -110,7 +121,11 @@ Logs from the Lambda function appear in Cloudwatch Logs, accessible from the "Co
 
 ## Room for Improvement 
 
-TODO
+If you check out my [full source code for the Lambda function](https://github.com/simonprickett/alexa-dead-or-alive-game/blob/master/alexaskill/lambda/index.js), you'll notice that TODO
+
+<script src="https://gist.github.com/simonprickett/0e551f1025e0ce2bb74c88f1d8587f72.js"></script>
+
+TODO why and can it be done better????
 
 ## Try it Yourself!
 
