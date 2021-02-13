@@ -149,7 +149,7 @@ This ensures that, if the user tries invoking the answer handler again, they'll 
 The skill code can be tested directly in the Alexa Developer Console, you don't need an Echo or other Alexa hardware device. In the "Test" tab, you can either type or speak to Alexa and see the exchange between the Alexa platform and the Lambda function code:
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/alexa_doa_interaction_model.png" class="figure-img img-fluid" alt="Testing the skill">
+  <img src="{{ site.baseurl }}/assets/images/alexa_doa_testing.png" class="figure-img img-fluid" alt="Testing the skill">
   <figcaption class="figure-caption text-center">Testing the skill.</figcaption>
 </figure>
 
