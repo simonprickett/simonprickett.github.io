@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Dead or Alive - an Alexa Skill using Redis"
-categories: [ Node.js JavaScript Redis Alexa ]
+categories: [ Node.js, JavaScript, Redis, Alexa, Programming ]
 image: assets/images/alexa_doa_main.jpg
 author: simon
 ---
