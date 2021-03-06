@@ -29,10 +29,12 @@ After a bit of thinking and googling, I decided the cleanest approach to achieve
 
 Adafruit sells 24mm LED arcade buttons in a variety of colors that fitted my needs perfectly. I decided to use [green ones](https://www.adafruit.com/product/3433) for a nice positive reinforcement of "job done".
 
-<figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/task_tracker_button_flash.gif" class="figure-img img-fluid" alt="Flashing green arcade button.">
-  <figcaption class="figure-caption text-center">Image credit: Adafruit.</figcaption>
-</figure>
+<div class="text-center">
+  <figure class="figure">
+    <img src="{{ site.baseurl }}/assets/images/task_tracker_button_flash.gif" class="figure-img img-fluid" alt="Flashing green arcade button.">
+    <figcaption class="figure-caption text-center">Image credit: Adafruit.</figcaption>
+  </figure>
+</div>
 
 As I wanted to create a weekly task tracker, I needed seven buttons: one for each day of the week. To add a reset function and also to make it two rows of four buttons each I added a single additional red button.
 

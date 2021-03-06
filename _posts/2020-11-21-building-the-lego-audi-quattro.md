@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Building the Lego Audi Quattro S1 Set"
-categories: [ Lego Hobbies ]
+categories: [ Lego, Hobbies ]
 image: assets/images/lego_audi_main.jpg
 author: simon
 ---
