@@ -64,7 +64,7 @@ The buttons each have four connections... one is for the button feature, one pow
   <figcaption class="figure-caption text-center">LED Button wiring diagram.</figcaption>
 </figure>
 
-The overall wiring diagram looks like this... my choice of GPIO pins is pretty artbitrary, just remember to note down what's wired to which pin as you'll need that to make the code work :)
+The overall wiring diagram looks like this... my choice of GPIO pins is pretty arbitrary, just remember to note down what's wired to which pin as you'll need that to make the code work :)
 
 <figure class="figure">
   <img src="{{ site.baseurl }}/assets/images/pi_pico_wiring_diagram.png" class="figure-img img-fluid" alt="Project wiring diagram">
