@@ -2,7 +2,7 @@
 name: 'simonprickett.dev'
 description: 'The personal website of Simon Prickett.'
 logo: 'assets/images/logo.png'
-favicon: 'assets/images/favicon.ico'
+favicon: 'assets/images/favicon.png'
 baseurl: ''
 disqus: 'simonprickett-dev'
 email: 'simon@crudworks.org'
