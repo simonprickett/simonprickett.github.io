@@ -161,6 +161,14 @@ Alexa's responses appear in the console, and if you have the volume turned up, t
 
 Logs from the Lambda function appear in Cloudwatch Logs, accessible from the "Code" tab. it's probably worth having that open in another browser window to save on back and forth when debugging.
 
+## Testing on an Actual Device
+
+Without releasing your skill to the public, you can test it on Echo devices that are linked to your Amazon account.  Here's me trying it out with my actual device:
+
+<div class="embed-responsive embed-responsive-16by9">
+  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/cOkopArqzls" allowfullscreen></iframe>
+</div><br/>
+
 ## Try it Yourself!
 
 If you'd like to try this project out, I've put the code for the Alexa skill and data loader on GitHub, along with my celebrities JSON data file. Feel free to [clone the repo here](https://github.com/simonprickett/alexa-dead-or-alive-game) and [get a free Redis Cloud instance here](). If you build anything fun with it, I'd love to hear from you!
