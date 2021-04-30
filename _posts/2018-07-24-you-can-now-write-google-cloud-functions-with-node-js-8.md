@@ -4,7 +4,6 @@ title:  "You Can Now Write Google Cloud Functions with Node.js 8"
 categories: [ Cloud, GCP, Node.js, JavaScript, Serverless ]
 image: assets/images/node_8_cloud_functions_main.jpg
 author: simon
-tags: [featured]
 ---
 In my [previous article]({{ site.baseurl}}/using-environment-variables-with-google-cloud-functions) looking at environment variables with Google Cloud Functions I noted that one of the downsides of using them is the relatively old Node.js 6 runtime that Google provides. As the environment is fully managed there was no option to use a newer Node.js version. Things changed recently, as Google has now added beta runtimes for Node 8 and Python 3. This is a welcome move towards catching up on Amazon’s lead in this space — AWS Lambda has had these features for a while (and supports other languages too). The old Node.js 6 runtime remains the default and will be used unless you explicitly specify that you want Node.js 8 when deploying your functions.
 
