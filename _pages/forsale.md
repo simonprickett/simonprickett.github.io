@@ -6,7 +6,7 @@ permalink: "/forsale/"
 <div class="container">
     <div class="row">
         <div class="col-md-12">
-            <p>Hi there neighbor - I currently have a number of furniture and other items for sale, all of which can be viewed at unit 531 - knock on the door or drop me a text message at (571) 839-4966 if you're interested in any of these!  I'll keep this list updated so if you can see it here, it's still for sale... and I have a few new items to add between May 3rd and 7th so check back for those!</p>
+            <p>Hi there neighbor - I currently have a number of furniture and other items for sale, all of which can be viewed at unit 531 - knock on the door or drop me a text message at (571) 839-4966 if you're interested in any of these!  I'll keep this list updated so if you can see it here, it's still for sale... and I have a few new items to add between May 3rd and 7th so check back for those!  The links below go to Craiglist pages for each item, with pictures and pricing.</p>
             <h2>Furniture</h2>
             <ul>
                <li><a href="https://sandiego.craigslist.org/csd/fuo/d/san-diego-yukon-46-mobile-workbench/7315036482.html">Yukon 46" Mobile Workbench with Solid Wood Top / standing desk</a></li>
