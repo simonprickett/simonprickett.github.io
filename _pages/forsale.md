@@ -26,6 +26,7 @@ permalink: "/forsale/"
             <h2>Automotive</h2>
             <ul>
                 <li><a href="https://sandiego.craigslist.org/csd/pts/d/san-diego-autel-ms300-universal-obd2/7316591170.html">Autel MS300 Universal OBD2 Scanner Car Code Reader</a>
+                <li><a href="https://sandiego.craigslist.org/csd/pts/d/san-diego-aaa-aaa-lifeline-300-psi-12/7316592510.html">AAA - 4024AAA Lifeline 300 PSI 12 Volt DC Air Compressor</a>
             </ul>
             <h2>Cycling</h2>
             <ul>
