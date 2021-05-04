@@ -23,6 +23,10 @@ permalink: "/forsale/"
                <li><a href="https://sandiego.craigslist.org/csd/sop/d/san-diego-usb-floppy-drive-adds-35/7312221121.html">USB Floppy drive - adds a 3.5" floppy drive to your system</a></li>
                <li><a href="https://sandiego.craigslist.org/csd/sop/d/san-diego-lot-of-17-floppy-disks-inc/7314964394.html">Lot of 17 floppy disks inc two boxes</a></li>
             </ul>
+            <h2>Automotive</h2>
+            <ul>
+                <li><a href="https://sandiego.craigslist.org/csd/pts/d/san-diego-autel-ms300-universal-obd2/7316591170.html">Autel MS300 Universal OBD2 Scanner Car Code Reader</a>
+            </ul>
             <h2>Cycling</h2>
             <ul>
                <li><a href="https://sandiego.craigslist.org/csd/bop/d/san-diego-blackburn-air-tower-bike-pump/7313182363.html">Blackburn Air Tower 2 Bike Pump</a></li>
