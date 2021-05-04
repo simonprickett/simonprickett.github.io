@@ -9,7 +9,6 @@ permalink: "/forsale/"
             <p>Hi there neighbor - I currently have a number of furniture and other items for sale, all of which can be viewed at unit 531 - knock on the door or drop me a text message at (571) 839-4966 if you're interested in any of these!  I'll keep this list updated so if you can see it here, it's still for sale... and I have a few new items to add between May 3rd and 7th so check back for those!  The links below go to Craiglist pages for each item, with pictures and pricing.</p>
             <h2>Furniture</h2>
             <ul>
-               <li><a href="https://sandiego.craigslist.org/csd/fuo/d/san-diego-yukon-46-mobile-workbench/7315036482.html">Yukon 46" Mobile Workbench with Solid Wood Top / standing desk</a></li>
                <li><a href="https://sandiego.craigslist.org/csd/fuo/d/san-diego-ikea-kallax-x-storage-cube/7312077004.html">Ikea Kallax 2 x 4 Storage Cube unit with accessories!</a></li>
                <li><a href="https://sandiego.craigslist.org/csd/fuo/d/san-diego-ikea-klippan-loveseat-grey/7312127333.html">Ikea Klippan Loveseat Grey Sofa Couch (replaceable covers)</a></li>
                <li><a href="https://sandiego.craigslist.org/csd/fuo/d/san-diego-ikea-skurub-floor-uplighter/7312060400.html">2 Ikea Skurub Floor uplighter lamps with LED bulbs like new</a></li>
@@ -49,7 +48,6 @@ permalink: "/forsale/"
                <li><a href="https://sandiego.craigslist.org/csd/hsh/d/san-diego-white-teapot/7305040030.html">White Teapot</a></li>
                <li><a href="https://sandiego.craigslist.org/csd/hsh/d/san-diego-kitchen-dish-draining-rack/7305390511.html">Kitchen Dish Draining Rack - expandable</a></li>
                <li><a href="https://sandiego.craigslist.org/csd/bks/d/san-diego-street-art-san-francisco/7312161350.html">Street Art San Francisco : Mission Muralismo Hardcover Brand New</a></li>
-               <li><a href="https://sandiego.craigslist.org/csd/spo/d/san-diego-high-sierra-jeep-brand/7315983304.html">High Sierra Jeep brand compact binoculars 10x25 magnification</a></li>
                <li><a href="https://sandiego.craigslist.org/csd/hsh/d/san-diego-umbra-subway-multi-hook-rack/7304974742.html">Umbra Subway Multi-Hook Rack e.g. for hats</a></li>
                <li><a href="https://sandiego.craigslist.org/csd/clt/d/san-diego-virgin-atlantic-airbus-model/7301557985.html">Virgin Atlantic Airbus A340-300 Model</a></li>
                <li><a href="https://sandiego.craigslist.org/csd/art/d/san-diego-rainbow-photo-craft-keeper-by/7308109064.html">Rainbow Photo & Craft Keeper by Simply Tidy organize your crafts</a></li>
