@@ -50,7 +50,6 @@ permalink: "/forsale/"
             </ul>
             <h2>Misc</h2>
             <ul>
-               <li><a href="https://sandiego.craigslist.org/csd/art/d/san-diego-pair-of-14-square-cushions/7312083869.html">Pair of 14" square cushions for your own cushion cover projects</a></li>
                <li><a href="https://sandiego.craigslist.org/csd/hsh/d/san-diego-white-teapot/7305040030.html">White Teapot</a></li>
                <li><a href="https://sandiego.craigslist.org/csd/hsh/d/san-diego-kitchen-dish-draining-rack/7305390511.html">Kitchen Dish Draining Rack - expandable</a></li>
                <li><a href="https://sandiego.craigslist.org/csd/bks/d/san-diego-street-art-san-francisco/7312161350.html">Street Art San Francisco : Mission Muralismo Hardcover Brand New</a></li>
