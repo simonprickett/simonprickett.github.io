@@ -31,7 +31,6 @@ permalink: "/forsale/"
             </ul>
             <h2>Cycling</h2>
             <ul>
-               <li><a href="https://sandiego.craigslist.org/csd/bop/d/san-diego-blackburn-air-tower-bike-pump/7313182363.html">Blackburn Air Tower 2 Bike Pump</a></li>
                <li><a href="https://sandiego.craigslist.org/csd/bik/d/san-diego-specialized-crux-unique/7304957291.html">Specialized Crux Unique Cruiser / City Bike Build 56cm Carbon Fork</a></li>
             </ul>
             <h2>Clothes</h2>
