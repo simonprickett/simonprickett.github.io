@@ -55,7 +55,6 @@ permalink: "/forsale/"
                <li><a href="https://sandiego.craigslist.org/csd/bks/d/san-diego-street-art-san-francisco/7312161350.html">Street Art San Francisco : Mission Muralismo Hardcover Brand New</a></li>
                <li><a href="https://sandiego.craigslist.org/csd/hsh/d/san-diego-umbra-subway-multi-hook-rack/7304974742.html">Umbra Subway Multi-Hook Rack e.g. for hats</a></li>
                <li><a href="https://sandiego.craigslist.org/csd/clt/d/san-diego-virgin-atlantic-airbus-model/7301557985.html">Virgin Atlantic Airbus A340-300 Model</a></li>
-               <li><a href="https://sandiego.craigslist.org/csd/art/d/san-diego-rainbow-photo-craft-keeper-by/7308109064.html">Rainbow Photo & Craft Keeper by Simply Tidy organize your crafts</a></li>
                <li><a href="https://sandiego.craigslist.org/csd/hsh/d/san-diego-ikea-skubb-laundry-bag-with/7308099089.html">Ikea Skubb Laundry Bag with Stand Black</a></li> 
                <li><a href="https://sandiego.craigslist.org/csd/hsh/d/san-diego-pair-of-over-the-door-hanger/7308101871.html">Pair of over the door hanger holders - the Container Store</a></li>
             </ul>
