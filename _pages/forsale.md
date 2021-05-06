@@ -16,7 +16,6 @@ permalink: "/forsale/"
             </ul>
             <h2>Electronics / Tech</h2>
             <ul>
-                <li><a href="https://sandiego.craigslist.org/csd/ele/d/san-diego-vizio-tv-39-with-remote-hdmi/7317061368.html">Vizio TV 39" with remote 2 HDMI inputs works perfectly</a></li>
                <li><a href="https://sandiego.craigslist.org/csd/sys/d/san-diego-brother-hl-l2340dw-compact/7312101182.html">Brother HL-L2340DW Compact Laser Printer, Monochrome, Wireless</a></li>
                <li><a href="https://sandiego.craigslist.org/csd/sop/d/san-diego-griffin-laptop-elevator-stand/7308358783.html">Griffin Laptop Elevator Stand for laptops, like new</a></li>
                <li><a href="https://sandiego.craigslist.org/csd/ele/d/san-diego-amazon-echo-alexa-device-1st/7300096978.html">Amazon Echo Alexa Device, 1st Generation</a></li>
