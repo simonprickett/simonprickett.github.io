@@ -31,7 +31,7 @@ permalink: "/forsale/"
             </ul>
             <h2>Cycling</h2>
             <ul>
-               <li><a href="https://sandiego.craigslist.org/csd/bik/d/san-diego-specialized-crux-unique/7304957291.html">Specialized Crux Unique Cruiser / City Bike Build 56cm Carbon Fork</a></li>
+               <li><a href="https://sandiego.craigslist.org/csd/bik/d/san-diego-specialized-crux-unique/7304957291.html">Specialized Crux Unique Cruiser / City Bike Build 56cm Carbon Fork</a> - sale pending but let me know if you are interested and I will get back to you if it falls through</li>
             </ul>
             <h2>Clothes</h2>
             <ul>
