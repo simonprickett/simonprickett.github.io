@@ -23,7 +23,6 @@ permalink: "/forsale/"
                <li><a href="https://sandiego.craigslist.org/csd/ele/d/san-diego-canon-powershot-a40-megapixel/7313190318.html">Canon Powershot A40 2 megapixel digital camera</a></li>
                <li><a href="https://sandiego.craigslist.org/csd/bks/d/san-diego-the-ruby-programming-language/7305386539.html">The Ruby Programming Language - O'Reilly Computer Coding Book</a></li> 
                <li><a href="https://sandiego.craigslist.org/csd/sop/d/san-diego-usb-floppy-drive-adds-35/7312221121.html">USB Floppy drive - adds a 3.5" floppy drive to your system</a></li>
-               <li><a href="https://sandiego.craigslist.org/csd/sop/d/san-diego-lot-of-17-floppy-disks-inc/7314964394.html">Lot of 17 floppy disks inc two boxes</a></li>
             </ul>
             <h2>Automotive</h2>
             <ul>
@@ -42,16 +41,11 @@ permalink: "/forsale/"
             </ul>
             <h2>Gaming</h2>
             <ul>
-               <li><a href="https://sandiego.craigslist.org/csd/vgm/d/san-diego-xbox-one-game-assassins-creed/7305442206.html">XBox One Game Assassin's Creed Unity</a></li>
-               <li><a href="https://sandiego.craigslist.org/csd/vgm/d/san-diego-xbox-one-games-each-mad-max/7304946201.html">XBox One Games: Mad Max, Atari Flashback, Clancy Rainbow Six</a></li>
                <li><a href="https://sandiego.craigslist.org/csd/vgm/d/san-diego-xbox-360-games-assassins/7313671051.html">XBox 360 Games: Assassin's Creed 1 & 3</a></li>
-                  <li><a href="https://sandiego.craigslist.org/csd/vgm/d/san-diego-xbox-one-game-doom/7315549610.html">XBox One Game Doom</a></li>
-               <li><a href="https://sandiego.craigslist.org/csd/vgm/d/san-diego-xbox-one-games-each-fallout/7315516530.html">XBox One Games Fallout, Call of Duty, Battlefront, more</a></li>
+                <li>XBox One games coming soon...</li>
             </ul>
             <h2>Misc</h2>
             <ul>
-               <li><a href="https://sandiego.craigslist.org/csd/hsh/d/san-diego-white-teapot/7305040030.html">White Teapot</a></li>
-               <li><a href="https://sandiego.craigslist.org/csd/hsh/d/san-diego-kitchen-dish-draining-rack/7305390511.html">Kitchen Dish Draining Rack - expandable</a></li>
                <li><a href="https://sandiego.craigslist.org/csd/bks/d/san-diego-street-art-san-francisco/7312161350.html">Street Art San Francisco : Mission Muralismo Hardcover Brand New</a></li>
                <li><a href="https://sandiego.craigslist.org/csd/hsh/d/san-diego-umbra-subway-multi-hook-rack/7304974742.html">Umbra Subway Multi-Hook Rack e.g. for hats</a></li>
                <li><a href="https://sandiego.craigslist.org/csd/clt/d/san-diego-virgin-atlantic-airbus-model/7301557985.html">Virgin Atlantic Airbus A340-300 Model</a></li>
