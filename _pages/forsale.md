@@ -42,8 +42,8 @@ permalink: "/forsale/"
             </ul>
             <h2>Gaming</h2>
             <ul>
+               <li><a href="https://sandiego.craigslist.org/csd/vgm/d/san-diego-xbox-one-games-each-fallout/7318576716.html">XBox One Games $3 each: Fallout 4, Sniper Elite 3, Battlefront & more</a></li>
                <li><a href="https://sandiego.craigslist.org/csd/vgm/d/san-diego-xbox-360-games-assassins/7313671051.html">XBox 360 Games: Assassin's Creed 1 & 3</a></li>
-                <li>XBox One games coming soon...</li>
             </ul>
             <h2>Misc</h2>
             <ul>
