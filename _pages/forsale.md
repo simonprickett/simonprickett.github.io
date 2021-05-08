@@ -17,6 +17,7 @@ permalink: "/forsale/"
             </ul>
             <h2>Electronics / Tech</h2>
             <ul>
+               <li><a href="https://sandiego.craigslist.org/csd/tls/d/san-diego-soldering-iron-set-inc-solder/7318592661.html">Soldering Iron set</a></li>
                <li><a href="https://sandiego.craigslist.org/csd/tls/d/san-diego-maglite-12-long-excellent/7318040008.html">12" Maglite LED Flashlight with batteries</a></li>
                <li><a href="https://sandiego.craigslist.org/csd/sys/d/san-diego-brother-hl-l2340dw-compact/7312101182.html">Brother HL-L2340DW Compact Laser Printer, Monochrome, Wireless</a></li>
                <li><a href="https://sandiego.craigslist.org/csd/sop/d/san-diego-griffin-laptop-elevator-stand/7308358783.html">Griffin Laptop Elevator Stand for laptops, like new</a></li>
