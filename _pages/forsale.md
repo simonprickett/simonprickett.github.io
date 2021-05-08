@@ -17,8 +17,6 @@ permalink: "/forsale/"
             <h2>Electronics / Tech</h2>
             <ul>
                <li><a href="https://sandiego.craigslist.org/csd/tls/d/san-diego-soldering-iron-set-inc-solder/7318592661.html">Soldering Iron set</a></li>
-               <li><a href="https://sandiego.craigslist.org/csd/tls/d/san-diego-maglite-12-long-excellent/7318040008.html">12" Maglite LED Flashlight with batteries</a></li>
-               <li><a href="https://sandiego.craigslist.org/csd/sys/d/san-diego-brother-hl-l2340dw-compact/7312101182.html">Brother HL-L2340DW Compact Laser Printer, Monochrome, Wireless</a></li>
                <li><a href="https://sandiego.craigslist.org/csd/sop/d/san-diego-griffin-laptop-elevator-stand/7308358783.html">Griffin Laptop Elevator Stand for laptops, like new</a></li>
                <li><a href="https://sandiego.craigslist.org/csd/ele/d/san-diego-amazon-echo-alexa-device-1st/7300096978.html">Amazon Echo Alexa Device, 1st Generation</a></li>
                <li><a href="https://sandiego.craigslist.org/csd/ele/d/san-diego-canon-powershot-a40-megapixel/7313190318.html">Canon Powershot A40 2 megapixel digital camera</a></li>
