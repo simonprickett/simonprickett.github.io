@@ -10,6 +10,7 @@ permalink: "/forsale/"
             <h2>Furniture</h2>
             <ul>
                <li><a href="https://sandiego.craigslist.org/csd/fuo/d/san-diego-ikea-kallax-x-storage-cube/7312077004.html">Ikea Kallax 2 x 4 Storage Cube unit with accessories!</a></li>
+               <li><a href="https://sandiego.craigslist.org/csd/fuo/d/san-diego-x-ikea-lekman-storage-boxes/7319348690.html">4 Ikea Lekman Storage Bins fit Ikea Kallax Furniture</a></li>
                <li><a href="https://sandiego.craigslist.org/csd/fuo/d/san-diego-ikea-klippan-loveseat-grey/7312127333.html">Ikea Klippan Loveseat Grey Sofa Couch (replaceable covers)</a></li>
                <li><a href="https://sandiego.craigslist.org/csd/fuo/d/san-diego-ikea-skurub-floor-uplighter/7312060400.html">2 Ikea Skurub Floor uplighter lamps with LED bulbs like new</a></li>
                <li><a href="https://sandiego.craigslist.org/csd/fuo/d/san-diego-ikea-lack-coffee-table-with/7316596224.html">Ikea Lack Coffee Table with shelf</a></li>
