@@ -18,7 +18,7 @@ permalink: "/forsale/"
             <ul>
                <li><a href="https://sandiego.craigslist.org/csd/tls/d/san-diego-soldering-iron-set-inc-solder/7318592661.html">Soldering Iron set</a></li>
                <li><a href="https://sandiego.craigslist.org/csd/sop/d/san-diego-griffin-laptop-elevator-stand/7308358783.html">Griffin Laptop Elevator Stand for laptops, like new</a></li>
-               <li><a href="https://sandiego.craigslist.org/csd/ele/d/san-diego-amazon-echo-alexa-device-1st/7300096978.html">Amazon Echo Alexa Device, 1st Generation</a></li>
+               <li><a href="https://sandiego.craigslist.org/csd/ele/d/san-diego-amazon-echo-alexa-device-1st/7319058999.html">Amazon Echo Alexa Device, 1st Generation</a></li>
                <li><a href="https://sandiego.craigslist.org/csd/ele/d/san-diego-canon-powershot-a40-megapixel/7313190318.html">Canon Powershot A40 2 megapixel digital camera</a></li>
                <li><a href="https://sandiego.craigslist.org/csd/bks/d/san-diego-the-ruby-programming-language/7305386539.html">The Ruby Programming Language - O'Reilly Computer Coding Book</a></li> 
                <li><a href="https://sandiego.craigslist.org/csd/sop/d/san-diego-usb-floppy-drive-adds-35/7312221121.html">USB Floppy drive - adds a 3.5" floppy drive to your system</a></li>
