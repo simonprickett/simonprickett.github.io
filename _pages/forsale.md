@@ -45,6 +45,8 @@ permalink: "/forsale/"
             </ul>
             <h2>Misc</h2>
             <ul>
+               <li><a href="https://sandiego.craigslist.org/csd/hsh/d/san-diego-lot-of-20-green-plastic/7319046690.html">Lot of 20 green plastic clothes hangers</a></li>
+               <li><a href="https://sandiego.craigslist.org/csd/hsh/d/san-diego-lot-of-15-wooden-clothes/7319035855.html">Lot of 15 Wooden Clothes Hangers</a></li>
                <li><a href="https://sandiego.craigslist.org/csd/bks/d/san-diego-street-art-san-francisco/7312161350.html">Street Art San Francisco : Mission Muralismo Hardcover Brand New</a></li>
                <li><a href="https://sandiego.craigslist.org/csd/hsh/d/san-diego-umbra-subway-multi-hook-rack/7304974742.html">Umbra Subway Multi-Hook Rack e.g. for hats</a></li>
                <li><a href="https://sandiego.craigslist.org/csd/clt/d/san-diego-virgin-atlantic-airbus-model/7301557985.html">Virgin Atlantic Airbus A340-300 Model</a></li>
