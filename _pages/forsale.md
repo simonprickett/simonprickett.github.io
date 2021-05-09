@@ -45,6 +45,7 @@ permalink: "/forsale/"
             </ul>
             <h2>Misc</h2>
             <ul>
+               <li><a href="https://sandiego.craigslist.org/csd/hsh/d/san-diego-assorted-plastic-storage/7319048889.html">8 Assorted Plastic storage boxes with lids, Container Store</a></li>
                <li><a href="https://sandiego.craigslist.org/csd/hsh/d/san-diego-lot-of-20-green-plastic/7319046690.html">Lot of 20 green plastic clothes hangers</a></li>
                <li><a href="https://sandiego.craigslist.org/csd/hsh/d/san-diego-lot-of-15-wooden-clothes/7319035855.html">Lot of 15 Wooden Clothes Hangers</a></li>
                <li><a href="https://sandiego.craigslist.org/csd/bks/d/san-diego-street-art-san-francisco/7312161350.html">Street Art San Francisco : Mission Muralismo Hardcover Brand New</a></li>
