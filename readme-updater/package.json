@@ -11,6 +11,6 @@
   "license": "MIT",
   "dependencies": {
     "glob": "^7.1.6",
-    "handlebars": "^4.7.6"
+    "handlebars": "^4.7.7"
   }
 }
