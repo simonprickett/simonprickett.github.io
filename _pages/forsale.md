@@ -30,10 +30,6 @@ permalink: "/forsale/"
                 <li><a href="https://sandiego.craigslist.org/csd/ele/d/san-diego-viking-450-peak-amp-portable/7316599593.html">Viking 450 Peak Amp Portable Lithium Ion Jump Starter And Power Bank</a></li>
                 <li><a href="https://sandiego.craigslist.org/csd/pts/d/san-diego-aaa-aaa-lifeline-300-psi-12/7316592510.html">AAA - 4024AAA Lifeline 300 PSI 12 Volt DC Air Compressor</a></li>
             </ul>
-            <h2>Cycling</h2>
-            <ul>
-               <li><a href="https://sandiego.craigslist.org/csd/bik/d/san-diego-specialized-crux-unique/7304957291.html">Specialized Crux Unique Cruiser / City Bike Build 56cm Carbon Fork</a> - sale pending but let me know if you are interested and I will get back to you if it falls through</li>
-            </ul>
             <h2>Clothes</h2>
             <ul>
                <li><a href="https://sandiego.craigslist.org/csd/clo/d/san-diego-old-navy-womens-jeans/7312544822.html">Old Navy Women's Jeans Sweetheart Boot Cut size 10 new tags dark blue</a></li>
