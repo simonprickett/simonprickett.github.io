@@ -9,7 +9,6 @@ permalink: "/forsale/"
             <p>Hi there neighbor - I currently have a number of furniture and other items for sale, all of which can be viewed at unit 531 - knock on the door or drop me a text message at (571) 839-4966 if you're interested in any of these!  I'll keep this list updated so if you can see it here, it's still for sale... and I have a few new items to add between May 3rd and 7th so check back for those!  The links below go to Craiglist pages for each item, with pictures and pricing.</p>
             <h2>Furniture</h2>
             <ul>
-               <li><a href="https://sandiego.craigslist.org/csd/fuo/d/san-diego-x-ikea-lekman-storage-boxes/7319348690.html">4 Ikea Lekman Storage Bins fit Ikea Kallax Furniture</a></li>
                <li><a href="https://sandiego.craigslist.org/csd/fuo/d/san-diego-ikea-klippan-loveseat-grey/7312127333.html">Ikea Klippan Loveseat Grey Sofa Couch (replaceable covers)</a></li>
                <li><a href="https://sandiego.craigslist.org/csd/fuo/d/san-diego-ikea-lack-coffee-table-with/7316596224.html">Ikea Lack Coffee Table with shelf</a></li>
             </ul>
