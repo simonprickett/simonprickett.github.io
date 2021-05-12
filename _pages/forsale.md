@@ -10,7 +10,6 @@ permalink: "/forsale/"
             <h2>Furniture</h2>
             <ul>
                <li><a href="https://sandiego.craigslist.org/csd/fuo/d/san-diego-ikea-klippan-loveseat-grey/7312127333.html">Ikea Klippan Loveseat Grey Sofa Couch (replaceable covers)</a></li>
-               <li><a href="https://sandiego.craigslist.org/csd/fuo/d/san-diego-ikea-lack-coffee-table-with/7316596224.html">Ikea Lack Coffee Table with shelf</a></li>
             </ul>
             <h2>Electronics / Tech</h2>
             <ul>
