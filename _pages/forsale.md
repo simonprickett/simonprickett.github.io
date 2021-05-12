@@ -41,6 +41,7 @@ permalink: "/forsale/"
             </ul>
             <h2>Misc</h2>
             <ul>
+               <li><a href="https://sandiego.craigslist.org/csd/hsh/d/san-diego-saucepans-pans-cooking/7320423647.html">3 Saucepans pans cooking - stainless steel glass lids T-Fal Ikea Tefal</a></li>
                <li><a href="https://sandiego.craigslist.org/csd/bks/d/san-diego-lot-of-13-books-orwell-ray/7319054009.html">Lot of 13 Books Orwell, Ray Bradbury, Stephen King, Tolkein, more</a></li>
                <li><a href="https://sandiego.craigslist.org/csd/hsh/d/san-diego-lot-of-20-green-plastic/7319046690.html">Lot of 20 green plastic clothes hangers</a></li>
                <li><a href="https://sandiego.craigslist.org/csd/hsh/d/san-diego-lot-of-15-wooden-clothes/7319035855.html">Lot of 15 Wooden Clothes Hangers</a></li>
