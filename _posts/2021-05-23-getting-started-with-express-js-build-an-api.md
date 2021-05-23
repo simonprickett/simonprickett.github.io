@@ -111,7 +111,67 @@ Express application listening on port 3000.
 
 ### Try the Endpoints
 
-TODO Postman or curl.  Try each endpoint...
+At this stage of development, our API has three endpoints:
+
+* `GET /dbinfo`: Gets information about the number of keys in the database, can optionally be passed a `details=true` request parameter that will additionally return the names of each key in the database.
+* `GET /get/:key`: Gets the value stored in the database at `:key`.  Example: `GET /get/favoritecolor`.
+* `POST /set`: Sets the value of a key.  This is a `POST` request that expects a JSON body that looks like this: `{ "key": "favoritecolor", "value": "blue" }`.
+
+You can try the `GET` routes in a browser, but for the `POST` route you'll need something else.  You can either use a graphical tool such as [Postman](https://www.postman.com/) (free download) or the command line [curl](https://curl.se/) tool (may be installed with your operating system already).  I'll provide examples for both here.
+
+Let's start by setting a key.  With Postman, you'll create a `POST` request, set the URL to `http://localhost:3000/set` and set the body to be "Raw" and "JSON".  The screenshot below shows where these settings are, as well as the content of the JSON body for the request:
+
+<figure class="figure">
+  <img src="{{ site.baseurl }}/assets/images/express1_postman_set1.png" class="figure-img img-fluid" alt="Set operation with Postman">
+  <figcaption class="figure-caption text-center">Set operation with Postman.</figcaption>
+</figure>
+
+Click "Send" to submit the request and you should expect to see a 201 created status code and JSON OK response:
+
+<figure class="figure">
+  <img src="{{ site.baseurl }}/assets/images/express1_postman_set2.png" class="figure-img img-fluid" alt="Results of set operation with Postman">
+  <figcaption class="figure-caption text-center">Results of set operation with Postman.</figcaption>
+</figure>
+
+If you're using curl, try this:
+
+```bash
+$ curl --location --request POST 'http://localhost:3000/set' \
+       --header 'Content-Type: application/json' \
+       --data-raw '{
+         "key": "favoritecolor",
+         "value": "blue"
+      }'
+{"status":"OK"}$
+```
+
+Now we've set a value, let's try getting it back.  As this is a `GET` request you can use a browser for it:
+
+<figure class="figure">
+  <img src="{{ site.baseurl }}/assets/images/express1_browser_get.png" class="figure-img img-fluid" alt="Get operation with a browser">
+  <figcaption class="figure-caption text-center">Get operation with a browser.</figcaption>
+</figure>
+
+Or with curl:
+
+```bash
+$ curl --location --request GET 'http://localhost:3000/get/favoritecolor'
+{"value":"blue"}$
+```
+
+The third and final endpoint allows us to see information about the state of the database.  This is a `GET` request, so let's use the browser.  There are two ways we can call this... first to get basic information:
+
+<figure class="figure">
+  <img src="{{ site.baseurl }}/assets/images/express1_browser_dbinfo1.png" class="figure-img img-fluid" alt="Basic DB information with a browser">
+  <figcaption class="figure-caption text-center">Basic DB information with a browser.</figcaption>
+</figure>
+
+And again, with the extra request parameter `details=true` to get more information:
+
+<figure class="figure">
+  <img src="{{ site.baseurl }}/assets/images/express1_browser_dbinfo2.png" class="figure-img img-fluid" alt="Detailed DB information with a browser">
+  <figcaption class="figure-caption text-center">Detailed DB information with a browser.</figcaption>
+</figure>
 
 ## Next Steps
 
