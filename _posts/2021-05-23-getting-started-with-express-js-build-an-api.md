@@ -28,6 +28,34 @@ Our API will include functionality to set a key to a value, retrieve the value s
 
 ## How it Works
 
+The video provides a complete run through of how the code in `server.js` works, so here's a summary...
+
+### Setting up an Express Server
+
+First up, I require Express and initialize it.  I get the port number that Express will listen on from an environment variable, and set up an empty JavaScript object to represent the "database".  I then tell Express we want to use its JSON body parsing functionality (for parsing the body of `POST` requests):
+
+<script src="https://gist.github.com/simonprickett/4cd8085b731f0e6ad58453620eab7fd4.js"></script>
+
+The last line of code (`app.listen`) tells Express to listen for HTTP requests on the port that we set in our environment variable, or 3000 if none was set.
+
+### Adding Routes
+
+Routes are functions that tell Express what to do when a HTTP request with a matching URL pattern is received by the server.  Our application has four of these...
+
+**Home Page**
+
+TODO
+
+**Set Key to Value**
+
+TODO
+
+**Get Value of Key**
+
+TODO
+
+**Database Info**
+
 TODO
 
 ## Try it Yourself
