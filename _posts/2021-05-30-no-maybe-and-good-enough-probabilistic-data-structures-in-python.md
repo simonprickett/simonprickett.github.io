@@ -13,7 +13,7 @@ You can watch the video here, the article that follows is a transcript of the ta
   <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/hM1JPkEUtks" allowfullscreen></iframe>
 </div><br/>
 
-If you'd like to try this out for yourself, [get my code from Github](https://github.com/simonprickett/python-probabilistic-data-structures).
+My slides are available as a PDF document [here](/no_maybe_and_close_enough_slides.pdf).  If you'd like to try this out for yourself, [get my code from Github](https://github.com/simonprickett/python-probabilistic-data-structures).
 
 ---
 
