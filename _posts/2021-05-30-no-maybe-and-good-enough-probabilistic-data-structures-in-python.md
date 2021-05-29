@@ -53,8 +53,8 @@ Once we get to scale, counting things exactly starts to get very expensive in te
 Here, I'm using the Redis database for the reason that is has a set data structure so we can take the set that we were using in Python and we can move that out of the Python code and into Redis:
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/pycon_TODO.png" class="figure-img img-fluid" alt="Checking set membership with Redis">
-  <figcaption class="figure-caption text-center">TODO Checking set membership with Redis.</figcaption>
+  <img src="{{ site.baseurl }}/assets/images/pycon_redis_set_count.png" class="figure-img img-fluid" alt="Checking set membership with Redis">
+  <figcaption class="figure-caption text-center">Checking set membership with Redis.</figcaption>
 </figure>
 
 This is a fairly simple code change, we just create a Redis connection using the Redis module, and we tell it what the key name of a Redis set that we want to store our sheep counts in is and we just `sadd` things to it.  So, in Python where we were doing `.add` to add things to a set, for Redis' it's `.sadd` or "set add".  Same sort of thing, we say which set we want to put it in because we're now using a database, so we can store multiple of these in a key/value store and we give it the sheep tags.  The same behavior happens, so when I add "1934" a second time, "1934" will be de-duplicated.
