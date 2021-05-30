@@ -192,7 +192,10 @@ Here, we're trading off a lot of memory use because we're getting down to just t
 
 Here's some Python code that uses this, so we're going to use again some library code for a Bloom Filter - using "pyprobables":
 
-TODO CODE SAMPLE PIC
+<figure class="figure">
+  <img src="{{ site.baseurl }}/assets/images/pycon_python_bloom_code.png" class="figure-img img-fluid" alt="Bloom Filter with Pyprobables">
+  <figcaption class="figure-caption text-center">Bloom Filter with Pyprobables.</figcaption>
+</figure>
 
 We set up a Bloom Filter and configure it. This will work out how many hashes and the bit array size etc.  So we're saying we want to store 200,000 items and we can dial in a false positive rate that's acceptable to us.  That will figure out the memory size needed, and that's part of our tradeoffs.  The more accurate we get, the more memory... the less accurate, the less memory.
 
@@ -200,15 +203,24 @@ Then we basically just add 100,000 sheep to the Bloom Filter in much the same wa
 
 This is a good drop in for a set, the interface is very very similar, but we're saving a lot of memory.  And when we run this, you get the answers we expect, so we might have seen "9018" and it hasn't seen "454991".
 
-TODO CODE RESULTS PIC
+<figure class="figure">
+  <img src="{{ site.baseurl }}/assets/images/pycon_python_bloom_run.png" class="figure-img img-fluid" alt="Using a Bloom Filter with Pyprobables">
+  <figcaption class="figure-caption text-center">Using a Bloom Filter with Pyprobables.</figcaption>
+</figure>
 
 We can also do this in data stores, so again I picked Redis as a data store for this talk because it has, via an installable module, an implementation of a Bloom Filter.  Similarly I can create a Redis Bloom filter, the `BF.RESERVE` command says I want to store about 200,000 items with about that accuracy.
 
-TODO CODE EXAMPLE REDIS BLOOM
+<figure class="figure">
+  <img src="{{ site.baseurl }}/assets/images/pycon_redis_bloom_code.png" class="figure-img img-fluid" alt="Bloom Filters with RedisBloom">
+  <figcaption class="figure-caption text-center">Bloom Filters with RedisBloom.</figcaption>
+</figure>
 
 I can add sheep into the Bloom Filter and I can ask it, "does this sheep exist in the Bloom Filter?".  And we'll get the same sort of results as we did before:
 
-TODO CODE RESULTS PIC REDIS
+<figure class="figure">
+  <img src="{{ site.baseurl }}/assets/images/pycon_bloom_run_redis.png" class="figure-img img-fluid" alt="Using a Bloom Filter with RedisBloom">
+  <figcaption class="figure-caption text-center">Using a Bloom Filter with RedisBloom.</figcaption>
+</figure>
 
 So "I might have seen it", or "I've not seen it" but we are saving a lot of memory, because now instead of using a set that's just going to grow as we add things to it, we've got this fixed bit array that isn't going to grow, but it is going to fill up as we add more sheep to it.  There are strategies for stacking Bloom Filters so that as one bit array fills, another one gets put on top of it.  That's beyond the scope of this talk but it is a problem that can be solved.
 
