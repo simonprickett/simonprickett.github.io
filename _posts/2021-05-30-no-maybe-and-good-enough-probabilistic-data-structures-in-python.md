@@ -103,7 +103,51 @@ Here are the algorithms for Hyperloglog:
 
 TODO IMAGE
 
-11:39
+This is [on Wikipedia](https://en.wikipedia.org/wiki/HyperLogLog), you can read about how it works if you're interested but basically it's a lot of math to do with hashing things down to 0s and 1s, looking at how many leading 0s there are, keeping a count of the greatest number of leading 0s we've seen and then you can actually approximate the size of the dataset based on that.  The take away here is that we don't need to do that for ourselves, we're going to use a library or another implementation that's built into a data store and we'll look at both of those options.
+
+The Hyperloglog doesn't actually answer the question "how many sheep have I seen?" for us, it's going to answer the question "approximately how many sheep have I seen?" which may well be good enough for our dataset and it's going to save us a lot of memory.
+
+So here in a Python program, I'm using the "hyperloglog" module and I am declaring a set as well for comparison, so we're going to see how a set compares with a Hyperloglog.
+
+<figure class="figure">
+  <img src="{{ site.baseurl }}/assets/images/pycon_python_hll_library.png" class="figure-img img-fluid" alt="Hyperloglog with a Python module">
+  <figcaption class="figure-caption text-center">Hyperloglog with a Python module</figcaption>
+</figure>
+
+I'm declaring my Hyperloglog and I'm giving it an accuracy factor, which is something that you can tune in the algorithm so you can trade off the amount of data bits that it's going to take for the relative accuracy of the count.  And when we come to look at that with a data store, we'll actually see how the sizes compare.
+
+We've then got a loop - we're going to add 100,000 sheep to both the Hyperloglog and the set, and then I'm going to ask both of them "how many do you have?".
+
+When we do that, what we'll see is that, as we expect, the set absolutely 100% correct: we've got 100,000 sheep in our set and the Hyperloglog has slightly overcounted... so 100,075:
+
+<figure class="figure">
+  <img src="{{ site.baseurl }}/assets/images/pycon_python_result_hll_library.png" class="figure-img img-fluid" alt="Comparing Python set and Hyperloglog module counts">
+  <figcaption class="figure-caption text-center">Comparing Python set and Hyperloglog module counts.</figcaption>
+</figure>
+
+It's within a good margin of error and the tradeoff here is that the set has taken up way more memory than the Hyperloglog has and we'll put some numbers on that when we look at it in a database.
+
+One of the reasons that I picked Redis as the data store for this is because it has sets and it also has Hyperloglog as a data type.  Here I have a small Python program, it's going to do the same thing - it's going to store sheep in a Redis set and in a Redis Hyperloglog:
+
+<figure class="figure">
+  <img src="{{ site.baseurl }}/assets/images/pycon_redis_hll.png" class="figure-img img-fluid" alt="Comparing Redis set and Hyperloglog counts">
+  <figcaption class="figure-caption text-center">Comparing Redis set and Hyperloglog counts.</figcaption>
+</figure>
+
+We begin by deleting those, and loop over our 100,000 sheep and add IDs to Redis for those.  We put them into a set and also use the `PFADD` command to add them into a Hyperloglog.  "PF" is Phillippe Flajolet, the French mathematician who partly came up with the Hyperloglog algorithm and the Redis commands for Hyperloglog are all named after him. And then when we've done that, we'll again ask Redis "what's the cardinality of the set?" / "how many sheep did you count?" - it'll tell us 100,000 because it's accurate... then it'll tell us the approximation with the Hyperloglog so we can compare.
+
+So here we can see that in the Redis set implementation, we got 100,000 sheep as we'd expect and it took about 4.6Mb of memory to store that.  With the Hyperloglog, we got 99,565 sheep so we got pretty close to the 100,000 but it only used 12k of memory.  
+
+<figure class="figure">
+  <img src="{{ site.baseurl }}/assets/images/pycon_redis_hll_run.png" class="figure-img img-fluid" alt="Comparing Redis set and Hyperloglog counts">
+  <figcaption class="figure-caption text-center">Comparing Redis set and Hyperloglog counts.</figcaption>
+</figure>
+
+We could keep adding sheep to that all day and it's only going to take 12k of memory whereas the set would have to keep growing.  You can start to see some of the tradeoffs here - we're getting an approximate count but we're saving a lot of memory. 
+
+## Bloom Filters
+
+The second Probabilistic Data Structure I wanted to look at is the Bloom Filter.  The Bloom Filter is used for our other question that we wanted to ask, which is "have I seen this sheep?" 15:27
 
 ---
 
