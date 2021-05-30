@@ -53,15 +53,57 @@ Once we get to scale, counting things exactly starts to get very expensive in te
 Here, I'm using the Redis database for the reason that is has a set data structure so we can take the set that we were using in Python and we can move that out of the Python code and into Redis:
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/pycon_redis_set_count.png" class="figure-img img-fluid" alt="Checking set membership with Redis">
-  <figcaption class="figure-caption text-center">Checking set membership with Redis.</figcaption>
+  <img src="{{ site.baseurl }}/assets/images/pycon_redis_set_count.png" class="figure-img img-fluid" alt="Counting sheep with Redis">
+  <figcaption class="figure-caption text-center">Counting sheep with Redis.</figcaption>
 </figure>
 
 This is a fairly simple code change, we just create a Redis connection using the Redis module, and we tell it what the key name of a Redis set that we want to store our sheep counts in is and we just `sadd` things to it.  So, in Python where we were doing `.add` to add things to a set, for Redis' it's `.sadd` or "set add".  Same sort of thing, we say which set we want to put it in because we're now using a database, so we can store multiple of these in a key/value store and we give it the sheep tags.  The same behavior happens, so when I add "1934" a second time, "1934" will be de-duplicated.
 
 And now because we're using Redis for this and it's out of the Python process and accessible across the network, we can connect multiple counting processes to it.  So we can solve a couple of problems here: we can solve the problem of "What if I have a load of people out there counting the sheep and we want to maintain a centralized, overall count" and we've solved the problem of the memory limitations in a given process.  The process is no longer becoming a memory hog with all of these sheep IDs in a set - we've moved that out into a database: in this case Redis.
 
-But, we've still got the problem here of overall size. 6:33
+But, we've still got the problem here of overall size. As we add more and more and more and more sheep, the dataset is still going to take up a reasonable amount of space and that's going to grow according to how we add sheep and if we were using longer tags it would grow more every time we added a new item because we're having to store the items.
+
+Let's have a look at how we can determine if we've seen this sheep before when using a database as well.  So, here we're again using Redis, so imagine we'd put all of our data into that set and we've now got shared counters and lots of people can go out and count sheep.  To know if we've seen this sheep before we then basically have a new `have_i_seen` function and some pre-amble before it that clears out any old set in Redis, and sets up some sample data:
+
+<figure class="figure">
+  <img src="{{ site.baseurl }}/assets/images/pycon_redis_have_i_seen_this_sheep.png" class="figure-img img-fluid" alt="Checking set membership with Redis">
+  <figcaption class="figure-caption text-center">Checking set membership with Redis.</figcaption>
+</figure>
+
+What we're going to do now is instead of using an "if sheep tag is in the set" like we did with the Python set, we're going to use a Redis command called `SISMEMBER` so "set is member" and we're going to say "if this sheep ID is in the set then we've seen it, otherwise we haven't".
+
+As we'd expect, that works exactly the same as it does in Python with an in-memory set but we've solved these two problems: we've solved the concurrency problem and we've solved the individual process memory limit problem.  But, we've really just moved that memory problem into the database.
+
+To solve that, and to enable counting at really large scale without chewing through a lot of memory we're going to need to make some tradeoffs.  Tradeoffs basically involve giving up one thing in exchange for another, so our sheep onthe left there has its fleece, our sheep on the right has given up its fleece in exchange for being a little bit cooler but we can determine that both are sheep. 
+
+<figure class="figure">
+  <img src="{{ site.baseurl }}/assets/images/pycon_before_and_after_shearing.jpg" class="figure-img img-fluid" alt="Sheep at different resolutions :)">
+  <figcaption class="figure-caption text-center">Sheep at different resolutions :) (<a href="https://flickr.com/photos/cotaro70s/8670036813">Image by contaro70s</a>)</figcaption>
+</figure>
+
+This is kind of a key thing here, we've been storing the whole data set and all of the data to determine which sheep we've seen, but can we get away with storing something about the data or bits of the data and still know that its that sheep.  So, the sheep on the left and the sheep on the right, we can still tell they're sheep even though one has lost its fleece.
+
+This is where something called Probabilistic Data Structures come in.  These are a family of data structures that make some tradeoffs.  Rather than being completely accurate, they may tradeoff accuracy for some storage efficiency.  We'll see we can save a lot of memory by giving up a bit of accuracy.  We might also tradeoff some functionality, so as we'll see we can save a lot of memory by not actually storing the data.  This means that we can no longer get a list back of what sheep we've seen but we can still determine whether we've seen a particular sheep with reasonable accuracy.
+
+The other tradeoff that's often involved with probabilistic data structures is performance, but we'll mostly be looking at accuracy, functionality and storage efficiency.
+
+So we have two questions that we wanted to ask here: "how many sheep have I seen?" is the first one, and a data structure or an algorithm that we can use for that, which comes from the probabilistic data structures family, is called the Hyperloglog.  What that does is it approximates distinct items.  Basically, it guesses at the cardinality of a set based on not actually storing the data but hashing the data and storing information about it.  There's some pros and cons to this - the way the Hyperloglog works is that it's going to run all the data through some hash functions and it's going to look at the longest number of leading zeros in what results from that.  It's going to hash everything to a zero or one binary sequence and look for the longest sequence of leading zeros.
+
+There's a formula that we'll look at but don't need to understand which will enable us to determine if we've seen however many items before.  It will allow us to guess the cardinality of the set with reasonable accuracy.
+
+The benefits here are that the Hyperloglog has a similar interface to a set: we can add things to it, and we can ask it how many things are in there.  It's going to save a lot of space, because we're using a hashing function, so it'll come down to a fixed size data structure no matter how much data we put in there.
+
+But, we can't retrieve the items back again, unlike with a set.  That's both a benefit and a tradeoff, because we can't retrieve them... that's great in some cases where we just want a count and we don't want the overhead of storing the information - for example if it's personally identifiable information.  It's also a bad thing if we did want to get the information back, like we can with a set.
+
+We can use Hyperloglog when we want to count, but we don't necessarily need the source information back again.
+
+The other tradeoff involved here is that it's not built into the Python language, so we'll need to use some sort of library implementation and we'll need to use something else to store it in a data store, which we'll look at.
+
+Here are the algorithms for Hyperloglog:
+
+TODO IMAGE
+
+11:39
 
 ---
 
