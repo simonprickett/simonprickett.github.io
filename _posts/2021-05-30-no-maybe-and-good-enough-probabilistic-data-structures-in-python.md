@@ -116,7 +116,10 @@ The other tradeoff involved here is that it's not built into the Python language
 
 Here are the algorithms for Hyperloglog:
 
-TODO IMAGE
+<figure class="figure">
+  <img src="{{ site.baseurl }}/assets/images/pycon_hll_algorithms.png" class="figure-img img-fluid" alt="Hyperloglog algorithms">
+  <figcaption class="figure-caption text-center">Hyperloglog algorithms.</figcaption>
+</figure>
 
 This is [on Wikipedia](https://en.wikipedia.org/wiki/HyperLogLog), you can read about how it works if you're interested but basically it's a lot of math to do with hashing things down to 0s and 1s, looking at how many leading 0s there are, keeping a count of the greatest number of leading 0s we've seen and then you can actually approximate the size of the dataset based on that.  The take away here is that we don't need to do that for ourselves, we're going to use a library or another implementation that's built into a data store and we'll look at both of those options.
 
