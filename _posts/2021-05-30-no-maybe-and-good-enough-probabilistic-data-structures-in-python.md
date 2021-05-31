@@ -129,7 +129,7 @@ So here in a Python program, I'm using the "hyperloglog" module and I am declari
 
 <figure class="figure">
   <img src="{{ site.baseurl }}/assets/images/pycon_python_hll_library.png" class="figure-img img-fluid" alt="Hyperloglog with a Python module">
-  <figcaption class="figure-caption text-center">Hyperloglog with a Python module</figcaption>
+  <figcaption class="figure-caption text-center">Hyperloglog with a Python module.</figcaption>
 </figure>
 
 I'm declaring my Hyperloglog and I'm giving it an accuracy factor, which is something that you can tune in the algorithm so you can trade off the amount of data bits that it's going to take for the relative accuracy of the count.  And when we come to look at that with a data store, we'll actually see how the sizes compare.
@@ -184,13 +184,19 @@ Similarly, when we add more sheep, so we add sheep "9107" here, the three hash f
 
 Adding more, we add "1458" - that hashes to three things that were already taken, so we don't set any new bits.
 
-TODO ADD A GIF OF THIS
+<figure class="figure">
+  <img src="{{ site.baseurl }}/assets/images/pycon_bloom_adding.gif" class="figure-img img-fluid" alt="Adding sheep tags to a Bloom Filter">
+  <figcaption class="figure-caption text-center">Adding sheep tags to a Bloom Filter.</figcaption>
+</figure>
 
 Now, when we want to look something up, what we do is the same thing but we look at the values in the bit array. Here when I look up sheep 2045, "have we seen sheep 2045?" the first hash function hashes to a position where we've got a 1, so it's possible we have.  The second one hashes to a position where we've got a 0 so that means we haven't seen this sheep before.  We could actually stop, and not continue with the third hashing function but for completeness I've shown it.
 
 So as soon as we get one that returns a 0, we know that we haven't seen that before - absolutely definitely.  9107 is a sheep that we have seen before - all of the hash functions land on a position that already has a 1 in it, so we can say that there is a strong likelihood that we've seen this sheep before.
 
-TODO GIF OF ALL THE LOOKUPS
+<figure class="figure">
+  <img src="{{ site.baseurl }}/assets/images/pycon_bloom_filter_lookups.gif" class="figure-img img-fluid" alt="Set membership checks with a Bloom Filter">
+  <figcaption class="figure-caption text-center">Set membership checks with a Bloom Filter.</figcaption>
+</figure>
 
 And the reason why we can't say that with absolute certainty is if we look at sheep 2989 here, that's not in the set of sheep that we added at the top there, so this is not one we've seen before but its number hashes to positions that are all set to 1 so the Bloom Filter in this case is going to lie to us - it's going to say "2989 - there's a strong likelihood that sheep exists", but actually it doesn't.
 
