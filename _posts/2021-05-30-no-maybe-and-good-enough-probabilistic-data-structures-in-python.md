@@ -171,7 +171,10 @@ That uncertainty comes from us not storing the data in the Bloom Filter.  So, we
 
 So the way the Bloom Filter works, and I have one laid out here:
 
-TODO IMAGE
+<figure class="figure">
+  <img src="{{ site.baseurl }}/assets/images/pycon_bloom_filter_example.png" class="figure-img img-fluid" alt="Bloom Filter">
+  <figcaption class="figure-caption text-center">Bloom Filter.</figcaption>
+</figure>
 
 is that you have a bit array, and that is however many bits you want to make it wide, so one of the things we can configure is the width of thr bit array (how much memory is it going to take).  Here I've got 15 bits as a simple example that fits on the screen.  Then we configure a number of hash functions, so every time we put a new sheep ID into the filter we're going to run it through those hash functions and they all have to return a result that varies between zero and the length of the bit array.  Essentially, they're going to identify positions in the bit array that that sheep ID hashes to, and we're using three hash functions in our example so each sheep ID will hash to three different bits and we'll see how that enables us to answer whether we have seen that sheep before in a "no" or "maybe" style.
 
