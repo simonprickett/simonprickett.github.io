@@ -220,7 +220,7 @@ This is a good drop in for a set, the interface is very very similar, but we're 
   <figcaption class="figure-caption text-center">Using a Bloom Filter with Pyprobables.</figcaption>
 </figure>
 
-We can also do this in data stores, so again I picked Redis as a data store for this talk because it has, via an installable module, an implementation of a Bloom Filter.  Similarly I can create a Redis Bloom filter, the `BF.RESERVE` command says I want to store about 200,000 items with about that accuracy.
+We can also do this in data stores, so again I picked Redis as a data store for this talk because it has, via an installable module, an implementation of a Bloom Filter.  Similarly I can create a Redis Bloom Filter, the `BF.RESERVE` command says I want to store about 200,000 items with about that accuracy.
 
 <figure class="figure">
   <img src="{{ site.baseurl }}/assets/images/pycon_redis_bloom_code.png" class="figure-img img-fluid" alt="Bloom Filters with RedisBloom">
