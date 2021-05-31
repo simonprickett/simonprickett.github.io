@@ -59,14 +59,14 @@ Once we get to scale, counting things exactly starts to get very expensive in te
 
 # Counting things with Redis
 
-Here, I'm using the Redis database for the reason that is has a set data structure so we can take the set that we were using in Python and we can move that out of the Python code and into Redis:
+Here, I'm using the Redis database for the reason that it has a set data structure so we can take the set that we were using in Python and we can move that out of the Python code and into Redis:
 
 <figure class="figure">
   <img src="{{ site.baseurl }}/assets/images/pycon_redis_set_count.png" class="figure-img img-fluid" alt="Counting sheep with Redis">
   <figcaption class="figure-caption text-center">Counting sheep with Redis.</figcaption>
 </figure>
 
-This is a fairly simple code change, we just create a Redis connection using the Redis module, and we tell it what the key name of a Redis set that we want to store our sheep counts in is and we just `sadd` things to it.  So, in Python where we were doing `.add` to add things to a set, for Redis' it's `.sadd` or "set add".  Same sort of thing, we say which set we want to put it in because we're now using a database, so we can store multiple of these in a key/value store and we give it the sheep tags.  The same behavior happens, so when I add "1934" a second time, "1934" will be de-duplicated.
+This is a fairly simple code change, we just create a Redis connection using the Redis module, and we tell it what the key name of a Redis set that we want to store our sheep counts in is and we just `sadd` things to it.  So, in Python where we were doing `.add` to add things to a set, for Redis it's `.sadd` or "set add".  Same sort of thing, we say which set we want to put it in because we're now using a database, so we can store multiple of these in a key/value store and we give it the sheep tags.  The same behavior happens, so when I add "1934" a second time, "1934" will be de-duplicated.
 
 And now because we're using Redis for this and it's out of the Python process and accessible across the network, we can connect multiple counting processes to it.  So we can solve a couple of problems here: we can solve the problem of "What if I have a load of people out there counting the sheep and we want to maintain a centralized, overall count" and we've solved the problem of the memory limitations in a given process.  The process is no longer becoming a memory hog with all of these sheep IDs in a set - we've moved that out into a database: in this case Redis.
 
@@ -85,7 +85,7 @@ As we'd expect, that works exactly the same as it does in Python with an in-memo
 
 # Tradeoffs
 
-To solve that, and to enable counting at really large scale without chewing through a lot of memory we're going to need to make some tradeoffs.  Tradeoffs basically involve giving up one thing in exchange for another, so our sheep onthe left there has its fleece, our sheep on the right has given up its fleece in exchange for being a little bit cooler but we can determine that both are sheep. 
+To solve that, and to enable counting at really large scale without chewing through a lot of memory we're going to need to make some tradeoffs.  Tradeoffs basically involve giving up one thing in exchange for another, so our sheep on the left there has its fleece, our sheep on the right has given up its fleece in exchange for being a little bit cooler but we can determine that both are sheep. 
 
 <figure class="figure">
   <img src="{{ site.baseurl }}/assets/images/pycon_before_and_after_shearing.jpg" class="figure-img img-fluid" alt="Sheep at different resolutions :)">
@@ -176,7 +176,7 @@ So the way the Bloom Filter works, and I have one laid out here:
   <figcaption class="figure-caption text-center">Bloom Filter.</figcaption>
 </figure>
 
-is that you have a bit array, and that is however many bits you want to make it wide, so one of the things we can configure is the width of thr bit array (how much memory is it going to take).  Here I've got 15 bits as a simple example that fits on the screen.  Then we configure a number of hash functions, so every time we put a new sheep ID into the filter we're going to run it through those hash functions and they all have to return a result that varies between zero and the length of the bit array.  Essentially, they're going to identify positions in the bit array that that sheep ID hashes to, and we're using three hash functions in our example so each sheep ID will hash to three different bits and we'll see how that enables us to answer whether we have seen that sheep before in a "no" or "maybe" style.
+is that you have a bit array, and that is however many bits you want to make it wide, so one of the things we can configure is the width of the bit array (how much memory is it going to take).  Here I've got 15 bits as a simple example that fits on the screen.  Then we configure a number of hash functions, so every time we put a new sheep ID into the filter we're going to run it through those hash functions and they all have to return a result that varies between zero and the length of the bit array.  Essentially, they're going to identify positions in the bit array that that sheep ID hashes to, and we're using three hash functions in our example so each sheep ID will hash to three different bits and we'll see how that enables us to answer whether we have seen that sheep before in a "no" or "maybe" style.
 
 If we start out with adding the ID "1009", we have three hash functions and the first one hashes it to position 1, the second hashes it to position 6 and the third one to position 8.  Then what is going to happen here is that each of those bits in the bit array is set to 1 - so we know that a hash function has resulted in that number.  
 
