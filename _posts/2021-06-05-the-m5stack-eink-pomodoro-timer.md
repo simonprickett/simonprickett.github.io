@@ -24,9 +24,21 @@ I decided to use the Core Ink to make a Pomodoro timer as a gift to a loved one,
   <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/8_YdzONjkVY" allowfullscreen></iframe>
 </div><br/>
 
-TODO video description...
+As you can see in the video, my version of the timer works like this...
+
+* Press the top button on the device to start it.
+* The buzzer sounds.
+* A 25 minute work period starts, with the display counting down the 25 minutes.
+* The buzzer sounds, heralding a short 5 minute break... the display counts down the 5 minutes.
+* The buzzer sounds, and another 25 minute work period starts...
+* After 4 x 25 minute work periods separated by 5 minute breaks, there's a longer 10 minute break.
+* After the 10 minute break, the cycle begins again.
+* At any point, pressing the top button again resets the timer to the idle state.
+* Pressing the power button displays a goodbye message and turns the device off.
 
 ## Coding a Pomodoro Timer with the Arduino IDE
+
+How does this work?
 
 TODO
 
