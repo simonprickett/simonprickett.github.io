@@ -9,7 +9,7 @@ The Pomodoro Technique is a time management method developed by Italian Francesc
 
 [M5Stack](https://m5stack.com/) is a company that makes a fascinating range of modular IoT devices and I'd wanted to try one for a while.  I decided to start with their [Core Ink](https://docs.m5stack.com/en/core/coreink) product.  I bought mine from [Pimoroni](https://shop.pimoroni.com/products/m5stack-esp32-core-ink-development-kit-1-54-elnk-display), M5Stack [also sell them direct](https://shop.m5stack.com/collections/m5-core/products/m5stack-esp32-core-ink-development-kit1-54-elnk-display).
 
-This is a really nice self-contained unit with some buttons, an e-ink screen, a buzzer, rechargable battery and wifi capabilities.  It all fits inside a really nice case and looks like this:
+This is a really nice self-contained unit with some buttons, an e-ink screen, a buzzer, rechargeable battery and wifi capabilities.  It all fits inside a really nice case and looks like this:
 
 <div class="text-center">
   <figure class="figure">
