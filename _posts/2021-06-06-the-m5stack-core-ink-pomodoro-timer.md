@@ -53,7 +53,7 @@ The timer has three states, so I declared constants for each of those:
 
 I'm storing the current state in a global variable named `currentState`, whose initial value gets set to `STATE_IDLE`.  Other global variables track which iteration of the process we're in so that we can have the longer break after 4 working periods, how many minutes are left in the current state, and the time at which we entered the current state.
 
-The device doesn't have a real time clock, so to monitor the passing of time I'm using the Arduino `millis()` function which tracks the number of milliseconds since the program started running (effectively the time the device was turned on). You can read about this fuction in the [Arduino documentation](https://www.arduino.cc/reference/en/language/functions/time/millis/).
+The device doesn't have a real time clock, so to monitor the passing of time I'm using the Arduino `millis()` function which tracks the number of milliseconds since the program started running (effectively the time the device was turned on). You can read about this function in the [Arduino documentation](https://www.arduino.cc/reference/en/language/functions/time/millis/).
 
 ### Setup
 
