@@ -67,7 +67,19 @@ If you want to see how drawing text on the screen works, [check out the full sou
 
 Once `setup()` has completed, the device executes the code in the `loop()` function indefinitely. I chose to write my `loop()` function so that it works roughly like this for each iteration:
 
-* Was the button on top of the device pressed?  If so, handle that and take actions depending on the what state the `currentState` global variable says we're in... TODO
+* Was the button on top of the device pressed?  If so, beep the buzzer three times and reset some global variables tracking now many minutes remain in the current work interval and which iteration of the process we're in:
+
+<script src="https://gist.github.com/simonprickett/315d826cebdfcb63dd453a9b894b00af.js"></script>
+
+* Was the power button pressed?  If so, display a goodbye message, beep the buzzer, clear the screen and shutdown the device:
+
+<script src="https://gist.github.com/simonprickett/a4407a900fcbe8ce8483ebdf6b2819e7.js"></script>
+
+* Then, if we're not in the idle state TODO
+
+<script src="https://gist.github.com/simonprickett/e193ed1000a96493d607f428e671556e.js"></script>
+
+And that's basically it. This was a relatively simple project that barely scratches the surface of what this device can do but which results in a nice end product :)
 
 ## Try it Yourself!
 
