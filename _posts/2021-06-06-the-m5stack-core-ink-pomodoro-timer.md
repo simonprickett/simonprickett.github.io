@@ -67,7 +67,7 @@ If you want to see how drawing text on the screen works, [check out the full sou
 
 Once `setup()` has completed, the device executes the code in the `loop()` function indefinitely. I chose to write my `loop()` function so that it works roughly like this for each iteration:
 
-* Was the button on top of the device pressed?  If so, beep the buzzer three times and reset some global variables tracking now many minutes remain in the current work interval and which iteration of the process we're in:
+* Was the button on top of the device pressed?  If so, beep the buzzer three times and reset some global variables tracking now many minutes remain in the current work interval and which iteration of the process we're in.  Also set the current state to `STATE_WORKING`:
 
 <script src="https://gist.github.com/simonprickett/315d826cebdfcb63dd453a9b894b00af.js"></script>
 
@@ -75,7 +75,7 @@ Once `setup()` has completed, the device executes the code in the `loop()` funct
 
 <script src="https://gist.github.com/simonprickett/a4407a900fcbe8ce8483ebdf6b2819e7.js"></script>
 
-* Then, if we're not in the idle state TODO
+* Then, if we're not in the idle state, check if a minute has passed and decrement the minutes remaining in the current phase (working or long or short break) and update the screen.  If no minutes remain in the current phase, beep the buzzer three times and figure out what to do next.  If we're in the working state, then a pomodoro interval has just ended and we need to take either a short or longer break depending on how many work intervals we've done.  If we're in the break state, then a break has just ended and it's time to start a new work interval:
 
 <script src="https://gist.github.com/simonprickett/e193ed1000a96493d607f428e671556e.js"></script>
 
