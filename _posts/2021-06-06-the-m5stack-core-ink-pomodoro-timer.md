@@ -51,7 +51,9 @@ The timer has three states, so I declared constants for each of those:
 * `STATE_WORKING`: In one of the work periods.
 * `STATE_BREAK`: In one of the break periods, which could be the shorter or longer break.
 
-I'm storing the current state in a global variable named `currentState`, whose initial value gets set to `STATE_IDLE`.
+I'm storing the current state in a global variable named `currentState`, whose initial value gets set to `STATE_IDLE`.  Other global variables track which iteration of the process we're in so that we can have the longer break after 4 working periods, how many minutes are left in the current state, and the time at which we entered the current state.
+
+The device doesn't have a real time clock, so to monitor the passing of time I'm using the Arduino `millis()` function which tracks the number of milliseconds since the program started running (effectively the time the device was turned on). You can read about this fuction in the [Arduino documentation](https://www.arduino.cc/reference/en/language/functions/time/millis/).
 
 ### Setup
 
@@ -59,7 +61,7 @@ The `setup()` function looks like this:
 
 <script src="https://gist.github.com/simonprickett/6e5134756203fdfb96d7602f558cd185.js"></script>
 
-This initializes the M5 SDK, clears the screen and creates a drawing area on it, then displays an initial "Press to start message".  Finallly, it beeps the buzzer once.  After this finishes executing, the `loop()` function begins executing continuously.
+This initializes the M5 SDK, clears the screen and creates a drawing area on it, then displays an initial "Press to start" message.  Finallly, it beeps the buzzer once.  After this finishes executing, the `loop()` function begins executing continuously.
 
 If you want to see how drawing text on the screen works, [check out the full source code on GitHub](https://github.com/simonprickett/m5stack-pomodoro).
 
