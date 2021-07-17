@@ -13,6 +13,8 @@ You can watch the video here, the article that follows is a transcript of the ta
   <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/hM1JPkEUtks" allowfullscreen></iframe>
 </div><br/>
 
+I also recently did an extended version of this talk for the Developers BR Meetup group in Brazil.  Scroll down to the bottom of the page to see that version.
+
 My slides are available as a PDF document [here](/no_maybe_and_close_enough_slides.pdf).  If you'd like to try this out for yourself, [get my code from Github](https://github.com/simonprickett/python-probabilistic-data-structures).
 
 ---
@@ -251,6 +253,16 @@ When you're working with huge datasets where exact strategies just aren't going 
 The code that you've seen in this talk is in a [GitHub repo](https://github.com/simonprickett/python-probabilistic-data-structures), which also has a `docker-compose.yml` file so you can both play with it in Python just in memory, and you can play with it in Redis and have it inside a data store.
 
 Hope you enjoyed this, and I'd love to hear what you build!
+
+---
+
+# Longer Talk
+
+I subsequently gave a longer version of this talk for the [Developers BR meetup group](https://www.meetup.com/DevelopersBR/).  They very kindly put it on their YouTube channel and you can watch it here:
+
+<div class="embed-responsive embed-responsive-16by9">
+  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/F_YlClC8aF0" allowfullscreen></iframe>
+</div><br/>
 
 ---
 
