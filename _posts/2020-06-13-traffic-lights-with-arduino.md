@@ -28,6 +28,7 @@ If you're interested in how to program the traffic lights for the Raspberry Pi, 
 * [Go]({{ site.baseurl }}/raspberry-pi-coding-in-go-traffic-lights)
 * [Swift]({{ site.baseurl }}/raspberry-pi-coding-in-swift-traffic-lights/)
 * [BASH Scripting]({{ site.baseurl }}/controlling-raspberry-pi-gpio-pins-from-bash-scripts-traffic-lights)
+* [.NET/C#]({{ site.baseurl }}/raspberry-pi-coding-with-dotnet-traffic-lights/)
 
 ## Arduino Hardware Setup
 
