@@ -5,9 +5,9 @@ categories: [ Raspberry Pi, Technology, .NET, C# ]
 image: assets/images/pi_traffic_lights_dotnet_main.jpg
 author: simon
 ---
-TODO FIX THIS 
+It's been a long time coming, but I finally decided to produce a C#/.NET version of my original Raspberry Pi / Low Voltage Labs traffic lights Python article ([read here]({{ site.baseurl }}/playing-with-raspberry-pi-traffic-lights/)).  
 
-I've been learning the [Go programming language](https://golang.org/) recently. As an exercise, I decided to revisit a [past article]({{ site.baseurl }}/playing-with-raspberry-pi-traffic-lights/) that looked at working with traffic lights on the Raspberry Pi in Python in order to rewrite it in Go. To make this a standalone guide, there will be some re-use of content from the prior article here. Since writing this article, I've also written up the same exercise using Swift ([Swift version]({{ site.baseurl }}/raspberry-pi-coding-in-swift-traffic-lights)), Node.js ([read about that here]({{ site.baseurl }}/raspberry-pi-coding-with-node-js-traffic-lights)), Node RED ([try here]({{ site.baseurl }}/raspberry-pi-coding-with-node-red-traffic-lights/)), Java ([try here]({{ site.baseurl }}/playing-with-raspberry-pi-gpio-pins-and-traffic-lights-in-java)), Bash scripting ([Bash article]({{ site.baseurl}}/controlling-raspberry-pi-gpio-pins-from-bash-scripts-traffic-lights)), C ([check it out here]({{ site.baseurl }}/gpio-access-in-c-with-raspberry-pi-traffic-lights)) and also for [Arduino]({{ site.baseurl}}/traffic-lights-with-arduino/).
+To make this a standalone guide, there will be some re-use of content from the prior article here. Since writing this article, I've also written up the same exercise using Swift ([Swift version]({{ site.baseurl }}/raspberry-pi-coding-in-swift-traffic-lights)), Node.js ([read about that here]({{ site.baseurl }}/raspberry-pi-coding-with-node-js-traffic-lights)), Node RED ([try here]({{ site.baseurl }}/raspberry-pi-coding-with-node-red-traffic-lights/)), Java ([try here]({{ site.baseurl }}/playing-with-raspberry-pi-gpio-pins-and-traffic-lights-in-java)), Bash scripting ([Bash article]({{ site.baseurl}}/controlling-raspberry-pi-gpio-pins-from-bash-scripts-traffic-lights)), C ([check it out here]({{ site.baseurl }}/gpio-access-in-c-with-raspberry-pi-traffic-lights)) and also for [Arduino]({{ site.baseurl}}/traffic-lights-with-arduino/).
 
 ## Shopping List
 
@@ -53,88 +53,42 @@ Don't turn the Pi on yet, you'll need to prepare an operating system image for i
 
 ## Operating System Setup
 
-Install the Raspbian OS which can be [downloaded from the official Raspberry Pi site](https://www.raspberrypi.org/downloads/raspbian/). You can also find an excellent [installation guide](https://www.raspberrypi.org/documentation/installation/installing-images/README.md) there should you need help.
+Install the Raspbian OS which can be [downloaded from the official Raspberry Pi site](https://www.raspberrypi.org/downloads/raspbian/). You can also find an excellent [installation guide](https://www.raspberrypi.org/documentation/installation/installing-images/README.md) there should you need help.  As I didn't need a full graphical desktop for this project, I went with the Lite version.
 
 Once you've got the operating system installed, make sure you can login, and have a working wired or wifi internet connection.
 
 Now you can go ahead and start turning lights on and off!
 
-## TODO Installing Go
-
-Go code can be compiled and distributed as a binary, it can also be cross compiled (where the compiler generates a binary to run on a different operating system / processor architecture than the one it was built on). We'll look at both options here so will need to install the Go distribution on the Pi as it's not included with Raspbian Lite.
-
-Go installation is a simple matter of downloading the distribution ([check here](https://golang.org/dl/) for latest ARM v6 version that the Pi uses), then expanding it into `/usr/local`:
-
-```
-$ wget https://storage.googleapis.com/golang/go1.10.1.linux-armv6l.tar.gz
-$ sudo tar -C /usr/local -xvf go1.10.1.linux-armv6l.tar.gz
-```
-
-Amend your `PATH` by editing `~/.profile` and adding the following at the bottom:
-
-```
-PATH=$PATH:/usr/local/go/bin
-```
-
-Having saved your profile, source it to get the new value for path in your current terminal session:
-
-```
-$ . ~/.profile
-```
-
-Clean up the downloaded archive to save space on the micro SD card:
-
-```
-$ rm go1.10.1.linux-armv6l.tar.gz
-```
-
-Finally, verify Go was installed by checking its version:
-
-```
-$ go version
-
-go version go1.10.1 linux/arm
-```
-
-(Official Go installation instructions can be found [here](https://golang.org/doc/install)).
-
 ## Installing Dependencies
 
-We'll also need git, which isn't installed with Raspbian Lite but is simple to add:
+To get started, we'll need to install some dependencies.  These include [git](https://git-scm.com/), plus some libraries that the .NET runtime requires:
 
 ```
-$ sudo apt-get install git
+$ sudo apt-get install git libunwind8 gettext apt-transport-https
 $ git --version
-git version 2.11.0
+git version 2.20.1
 ```
 
-We'll also use a Go package for accessing the GPIO pins on the Pi. This is installed with the `go get` command:
+## TODO Installing the .NET TODO WHAT
 
-```
-$ go get github.com/stianeikeland/go-rpio/...
-```
+TODO document the steps here...
 
-The package will be installed to:
-
+```bash
+$ TODO
 ```
-~/go/src/github.com/stianeikeland/go-rpio
-```
-
-If you'd prefer your Go code to live somewhere else on the filesystem, you'll want to look at setting your `GOPATH` environment variable to specify an alternative location ([see documentation](https://github.com/golang/go/wiki/SettingGOPATH)).
 
 ## TODO Programming the Traffic Lights
 
-Similarly, `go get` my example code that uses the `go-rpio` package to make the lights work:
+I've already created a .NET project and C# code for you, so we just need to get that from GitHub:
 
-```
-$ go get github.com/simonprickett/gopitrafficlights/...
+```bash
+$ TODO
 ```
 
-We've now got everything we need to start seeing some action, so without further ado…
+We've now got everything we need to start seeing some action, so let's start it up:
 
-```
-$ cd ~/go/src/github.com/simonprickett/gopitrafficlights
-$ go run main.go
+```bash
+$ TODO
 ```
 
 If the lights are connected to the correct GPIO pins, they should start to flash on and off in the UK traffic light pattern (red, red + amber, green, amber, red). If you don’t see anything, make sure that you have the lights connected to the right pins.
@@ -152,6 +106,8 @@ Here’s a brief walkthrough of the complete source code…
 
 <script src="https://gist.github.com/simonprickett/6d072619672db21dccbe3c7917915c97.js"></script>
 
+TODO replace text below...
+
 The program checks that it can open the Pi’s GPIO pins at line 13. If it can’t, it will exit. Assuming that’s successful lines 19–26 assign GPIO pins 9, 10 and 11 to more meaningful variable names and tell the Pi to use them as output pins.
 
 Lines 28–39 set up a channel for the `SIGTERM` signal... this signal is sent to the program whenever the user gets bored of watching the lights and hits Ctrl+C. The program sets up a [channel](https://gobyexample.com/channels) that will be notified when the termination signal occurs, then runs a [goroutine](https://gobyexample.com/goroutines) at line 31. The goroutine runs concurrently with the rest of the program, and waits for a message to be sent to the channel. When it receives one, the program is attempting to exit because Ctrl+C was pressed. The code in the goroutine then turns off all of the lights and exits cleanly.
@@ -162,7 +118,7 @@ Each light turns on when its associated pin it set high, and off when set low. L
 
 At line 47, the program enters an infinite loop in which it turns the lights on `.High()` and off `.Low()` in the right sequence for a traffic light. In between phases, “time.Sleep” pauses execution.
 
-TODO conclusion... I’ve put the [source code on GitHub](https://github.com/simonprickett/dotnetpitrafficlights) for your enjoyment.
+I’ve put the [source code on GitHub](https://github.com/simonprickett/dotnetpitrafficlights) for your enjoyment.
 
 ---
 
