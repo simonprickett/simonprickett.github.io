@@ -69,26 +69,63 @@ $ git --version
 git version 2.20.1
 ```
 
-## TODO Installing the .NET TODO WHAT
+## Installing the .NET SDK
 
-TODO document the steps here...
+Next, we'll want to install the .NET SDK.  I was using a Raspberry Pi, so needed the ARM 32 version of this.  At the time of writing the latest version was 5.0.x, available from Microsoft [here](https://dotnet.microsoft.com/download/dotnet/5.0).  The download command may vary if newer patches are available, but here's what I used:
 
 ```bash
-$ TODO
+$ wget https://download.visualstudio.microsoft.com/download/pr/f456f253-db24-45ea-9c73-f507f93a8cd2/6efe7bed8639344d9c9afb8a46686c99/dotnet-sdk-5.0.302-linux-arm.tar.gz
 ```
 
-## TODO Programming the Traffic Lights
+Unzip the SDK (again, file name may vary if there's a more recent release):
+
+```bash
+$ gunzip dotnet-sdk-5.0.302-linux-arm.tar.gz
+```
+
+Then install it:
+
+```bash
+$ sudo mkdir /opt/dotnet-5.0.302
+$ sudo tar xf dotnet-sdk-5.0.302-linux-arm.tar -C /opt/dotnet-5.0.302
+$ sudo ln -s /opt/dotnet-5.0.302 /opt/dotnet
+$ sudo ln  -s /opt/dotnet/dotnet /usr/local/bin/dotnet
+```
+
+Check that the SDK was installed correctly:
+
+```bash
+$ export DOTNET_ROOT=/opt/dotnet (add to ~/.bashrc if you like)
+$ dotnet --version
+5.0.302
+```
+
+To make sure that the `DOTNET_ROOT` environment variable is always set, you can optionally amend your `.bashrc` file (`~/.bashrc`) to set it:
+
+```bash
+$ echo "export DOTNET_ROOT=/opt/dotnet" >> ~/.bashrc
+$ . ~/.bashrc
+```
+
+## Programming the Traffic Lights
 
 I've already created a .NET project and C# code for you, so we just need to get that from GitHub:
 
 ```bash
-$ TODO
+$ git clone https://github.com/simonprickett/dotnetpitrafficlights.git
+$ cd dotnetpitrafficlights
+```
+
+Now add the package we need to control the Pi's GPIO pins:
+
+```bash
+$ dotnet add package System.Device.Gpio
 ```
 
 We've now got everything we need to start seeing some action, so let's start it up:
 
 ```bash
-$ TODO
+$ dotnet run
 ```
 
 If the lights are connected to the correct GPIO pins, they should start to flash on and off in the UK traffic light pattern (red, red + amber, green, amber, red). If you don’t see anything, make sure that you have the lights connected to the right pins.
