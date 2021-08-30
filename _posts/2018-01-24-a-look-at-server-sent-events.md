@@ -280,4 +280,4 @@ The second endpoint `generateEvent` works by creating a random cat fact server s
 
 ---
 
-That concludes our quick tour of Server Sent Events. Thanks for reading, if you want to chat you can [find me on Twitter](https://twitter.com/simon_prickett) or via the comments here.
+That concludes our quick tour of Server Sent Events. Thanks for reading, if you want to chat you can [find me on Twitter](https://twitter.com/simon_prickett).

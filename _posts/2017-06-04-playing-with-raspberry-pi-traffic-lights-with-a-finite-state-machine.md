@@ -135,6 +135,6 @@ In this article, we changed the way that the traffic light code works to incorpo
 
 ---
 
-I’d love to hear what you’re up to with the Raspberry Pi — [find me on Twitter](https://twitter.com/simon_prickett) or via the comments here. If you enjoyed this article, please share it far and wide!
+I’d love to hear what you’re up to with the Raspberry Pi — [find me on Twitter](https://twitter.com/simon_prickett). If you enjoyed this article, please share it far and wide!
 
 Main Photo Credit: [Horia Varlan](https://www.flickr.com/photos/horiavarlan/4747872021) ([Creative Commons 2.0 License](https://creativecommons.org/licenses/by/2.0/)).

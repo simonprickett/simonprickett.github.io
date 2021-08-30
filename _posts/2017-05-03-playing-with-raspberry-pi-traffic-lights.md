@@ -7,7 +7,7 @@ author: simon
 ---
 I’ve recently been doing some simple Python programming with the Raspberry Pi and a set of traffic light LEDs that connect to it. In this post I’ll look at setting up a Pi to drive the lights. In future posts, I’ll explore some other programming / devops concepts using the base setup described here.
 
-I subsequently wrote versions of this article describing the same process using the Go programming language ([here]({{ site.baseurl }}/raspberry-pi-coding-in-go-traffic-lights)), Swift ([here]({{ site.baseurl }}/raspberry-pi-coding-in-swift-traffic-lights)), Java ([here]({{ site.baseurl }}/playing-with-raspberry-pi-gpio-pins-and-traffic-lights-in-java)), C ([here]({{ site.baseurl}}/gpio-access-in-c-with-raspberry-pi-traffic-lights)), Bash scripting ([here]({{ site.baseurl}}/controlling-raspberry-pi-gpio-pins-from-bash-scripts-traffic-lights)), Node.js ([here]({{ site.baseurl }}/raspberry-pi-coding-with-node-js-traffic-lights)) and also Node RED ([here]({{ site.baseurl }}/raspberry-pi-coding-with-node-red-traffic-lights/)).  Most recently I looked at this for [Arduino]({{ site.baseurl}}/traffic-lights-with-arduino/) too.
+I subsequently wrote versions of this article describing the same process using the Go programming language ([here]({{ site.baseurl }}/raspberry-pi-coding-in-go-traffic-lights)), Swift ([here]({{ site.baseurl }}/raspberry-pi-coding-in-swift-traffic-lights)), Java ([here]({{ site.baseurl }}/playing-with-raspberry-pi-gpio-pins-and-traffic-lights-in-java)), C ([here]({{ site.baseurl}}/gpio-access-in-c-with-raspberry-pi-traffic-lights)), Bash scripting ([here]({{ site.baseurl}}/controlling-raspberry-pi-gpio-pins-from-bash-scripts-traffic-lights)), Node.js ([here]({{ site.baseurl }}/raspberry-pi-coding-with-node-js-traffic-lights)) and also Node RED ([here]({{ site.baseurl }}/raspberry-pi-coding-with-node-red-traffic-lights/)).  Most recently I looked at this for [Arduino]({{ site.baseurl }}/traffic-lights-with-arduino/) and [.NET/C#]({{ site.baseurl }}/raspberry-pi-coding-with-dotnet-traffic-lights/) too.
 
 Let’s go...
 
@@ -157,4 +157,4 @@ In the [next post in this series]({{ site.baseurl }}/playing-with-raspberry-pi-t
 
 ---
 
-I’d love to hear what you’re up to with the Raspberry Pi — [find me on Twitter](https://twitter.com/simon_prickett) or via the comments here. If you enjoyed this article, please share it far and wide!
+I’d love to hear what you’re up to with the Raspberry Pi — [find me on Twitter](https://twitter.com/simon_prickett). If you enjoyed this article, please share it far and wide!

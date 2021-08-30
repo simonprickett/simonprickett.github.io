@@ -136,7 +136,7 @@ When Slack’s API receives the message payload at the webhook URL, it publishes
 
 ## Try it Out
 
-If you want to use this with your own Slack team or extend it to meet your organization’s needs, feel free! We’ve [published our code in full on GitHub](https://github.com/ModusCreateOrg/newblogbot), along with a guide to setting it up and getting it running. We’d also love to see what you’ve built with Slack that keeps your team members more in the loop — let us know via the comments.
+If you want to use this with your own Slack team or extend it to meet your organization’s needs, feel free! We’ve [published our code in full on GitHub](https://github.com/ModusCreateOrg/newblogbot), along with a guide to setting it up and getting it running. We’d also love to see what you’ve built with Slack that keeps your team members more in the loop.
 
-I've love to hear how you get on - [find me on Twitter](https://twitter.com/simon_prickett) or via the comments here. If you enjoyed this article, please share it far and wide!
+I've love to hear how you get on - [find me on Twitter](https://twitter.com/simon_prickett). If you enjoyed this article, please share it far and wide!
 

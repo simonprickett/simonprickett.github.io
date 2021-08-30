@@ -5,7 +5,7 @@ categories: [ Raspberry Pi, Technology, C ]
 image: assets/images/pi_traffic_lights_c_main.jpg
 author: simon
 ---
-Having written guides describing how to use the Low Voltage Labs traffic lights with the Raspberry Pi for Python ([read Python article]({{ site.baseurl }}/playing-with-raspberry-pi-traffic-lights)), Swift ([read Swift article]({{ site.baseurl }}/raspberry-pi-coding-in-swift-traffic-lights)), Node.js ([read Node.js article]({{ site.baseurl }}/raspberry-pi-coding-with-node-js-traffic-lights)), Node RED ([read Node RED article]({{ site.baseurl }}/raspberry-pi-coding-with-node-red-traffic-lights/)), Java ([read Java article]({{ site.baseurl }}/playing-with-raspberry-pi-gpio-pins-and-traffic-lights-in-java)), Bash scripting ([read Bash article]({{ site.baseurl }}/controlling-raspberry-pi-gpio-pins-from-bash-scripts-traffic-lights)), Go ([read Go article]({{ site.baseurl }}/raspberry-pi-coding-in-go-traffic-lights)) and [Arduino]({{ site.baseurl}}/traffic-lights-with-arduino/), I figured it must be time to take a look at how to access the GPIO pins from the C programming language.
+Having written guides describing how to use the Low Voltage Labs traffic lights with the Raspberry Pi for Python ([read Python article]({{ site.baseurl }}/playing-with-raspberry-pi-traffic-lights)), Swift ([read Swift article]({{ site.baseurl }}/raspberry-pi-coding-in-swift-traffic-lights)), Node.js ([read Node.js article]({{ site.baseurl }}/raspberry-pi-coding-with-node-js-traffic-lights)), Node RED ([read Node RED article]({{ site.baseurl }}/raspberry-pi-coding-with-node-red-traffic-lights/)), Java ([read Java article]({{ site.baseurl }}/playing-with-raspberry-pi-gpio-pins-and-traffic-lights-in-java)), Bash scripting ([read Bash article]({{ site.baseurl }}/controlling-raspberry-pi-gpio-pins-from-bash-scripts-traffic-lights)), Go ([read Go article]({{ site.baseurl }}/raspberry-pi-coding-in-go-traffic-lights)), [.NET/C#]({{ site.baseurl }}/raspberry-pi-coding-with-dotnet-traffic-lights/) and [Arduino]({{ site.baseurl}}/traffic-lights-with-arduino/), I figured it must be time to take a look at how to access the GPIO pins from the C programming language.
 
 To make this a standalone guide, there will be some re-use of content from the prior articles here.
 
@@ -157,7 +157,7 @@ The source code for this project is [freely available on GitHub](https://github.
 
 ---
 
-I’d love to hear what you’re up to with the Raspberry Pi — [find me on Twitter](https://twitter.com/simon_prickett) or via the comments here. If you enjoyed this article, please share it far and wide!
+I’d love to hear what you’re up to with the Raspberry Pi — [find me on Twitter](https://twitter.com/simon_prickett). If you enjoyed this article, please share it far and wide!
 
 
 
