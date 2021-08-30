@@ -9,6 +9,8 @@ It's been a long time coming, but I finally decided to produce a C#/.NET version
 
 To make this a standalone guide, there will be some re-use of content from the prior article here. Since writing this article, I've also written up the same exercise using Swift ([Swift version]({{ site.baseurl }}/raspberry-pi-coding-in-swift-traffic-lights)), Node.js ([read about that here]({{ site.baseurl }}/raspberry-pi-coding-with-node-js-traffic-lights)), Node RED ([try here]({{ site.baseurl }}/raspberry-pi-coding-with-node-red-traffic-lights/)), Java ([try here]({{ site.baseurl }}/playing-with-raspberry-pi-gpio-pins-and-traffic-lights-in-java)), Bash scripting ([Bash article]({{ site.baseurl}}/controlling-raspberry-pi-gpio-pins-from-bash-scripts-traffic-lights)), C ([check it out here]({{ site.baseurl }}/gpio-access-in-c-with-raspberry-pi-traffic-lights)) and also for [Arduino]({{ site.baseurl}}/traffic-lights-with-arduino/).
 
+When writing this article, I found Pete Gallagher's "Install and use Microsoft .NET 5 with the Raspberry Pi" article ([read here](https://www.petecodes.co.uk/install-and-use-microsoft-dot-net-5-with-the-raspberry-pi/)) very useful.
+
 ## Shopping List
 
 To try this out, you will need the following (links here mostly go to [Adafruit](https://www.adafruit.com/), UK customers may want to consider [Pimoroni](https://shop.pimoroni.com/) as a UK based alternative, Amazon has most if not all of this stuff too):
@@ -71,7 +73,7 @@ git version 2.20.1
 
 ## Installing the .NET SDK
 
-Next, we'll want to install the .NET SDK.  I was using a Raspberry Pi, so needed the ARM 32 version of this.  At the time of writing the latest version was 5.0.x, available from Microsoft [here](https://dotnet.microsoft.com/download/dotnet/5.0).  The download command may vary if newer patches are available, but here's what I used:
+Next, we'll want to install the .NET SDK.  I was using a Raspberry Pi 3, so needed the ARM 32 version of this.  At the time of writing the latest version was 5.0.x, available from Microsoft [here](https://dotnet.microsoft.com/download/dotnet/5.0).  The download command may vary if newer patches are available, but here's what I used:
 
 ```bash
 $ wget https://download.visualstudio.microsoft.com/download/pr/f456f253-db24-45ea-9c73-f507f93a8cd2/6efe7bed8639344d9c9afb8a46686c99/dotnet-sdk-5.0.302-linux-arm.tar.gz
@@ -89,7 +91,7 @@ Then install it:
 $ sudo mkdir /opt/dotnet-5.0.302
 $ sudo tar xf dotnet-sdk-5.0.302-linux-arm.tar -C /opt/dotnet-5.0.302
 $ sudo ln -s /opt/dotnet-5.0.302 /opt/dotnet
-$ sudo ln  -s /opt/dotnet/dotnet /usr/local/bin/dotnet
+$ sudo ln -s /opt/dotnet/dotnet /usr/local/bin/dotnet
 ```
 
 Check that the SDK was installed correctly:
@@ -137,25 +139,27 @@ If the lights are connected to the correct GPIO pins, they should start to flash
 
 To exit, press Ctrl + C. This will cause all of the lights to turn off, and the program will exit.
 
-## TODO How it Works
+## How it Works
 
-Here’s a brief walkthrough of the complete source code…
+Here’s a brief walkthrough of the complete source code...
 
 <script src="https://gist.github.com/simonprickett/6d072619672db21dccbe3c7917915c97.js"></script>
 
-TODO replace text below...
+Lines 1-3 declare which packages we'll be using... we want `System.Device.Gpio` to control the Pi's GPIO pins that the lights are connected to.  We also use `System.Threading` to sleep for periods of time before changing the lights from one state to another.
 
-The program checks that it can open the Pi’s GPIO pins at line 13. If it can’t, it will exit. Assuming that’s successful lines 19–26 assign GPIO pins 9, 10 and 11 to more meaningful variable names and tell the Pi to use them as output pins.
+Lines 11-13 declare some constants that map each of the lights to the GPIO pin number that it is connected to.
 
-Lines 28–39 set up a channel for the `SIGTERM` signal... this signal is sent to the program whenever the user gets bored of watching the lights and hits Ctrl+C. The program sets up a [channel](https://gobyexample.com/channels) that will be notified when the termination signal occurs, then runs a [goroutine](https://gobyexample.com/goroutines) at line 31. The goroutine runs concurrently with the rest of the program, and waits for a message to be sent to the channel. When it receives one, the program is attempting to exit because Ctrl+C was pressed. The code in the goroutine then turns off all of the lights and exits cleanly.
+At line 15, we declare a new instance of the `GpioController` that we'll use to set the values of the three GPIO pins.  Lines 16-18 configure these pins as outputs as we have a light connected to each of them (we'd declare them as inputs if we had, say, a button connected).
 
-As part of cleanup we also free up resources associated with the GPIO pins at line 39, using the [defer](https://gobyexample.com/defer) keyword to ensure that it will happen whenever the program exits.
+The function `allLightsOff` at line 20 is a utility function that turns all three lights off, by writing the `PinValue.Low` value to them (see the [System.Device.Gpio documentation](https://docs.microsoft.com/en-us/dotnet/api/system.device.gpio.gpiodriver.write?view=iot-dotnet-1.5#System_Device_Gpio_GpioDriver_Write_System_Int32_System_Device_Gpio_PinValue_)).
 
-Each light turns on when its associated pin it set high, and off when set low. Lines 42–44 make sure that all the lights are off to begin with, just in case something else was using the GPIO pins before and left them on.
+At line 27, we add a key press listener so that when the user presses Ctrl-C to quit the program, all of the lights get turned off.
 
-At line 47, the program enters an infinite loop in which it turns the lights on `.High()` and off `.Low()` in the right sequence for a traffic light. In between phases, “time.Sleep” pauses execution.
+The main execution flow then begins at line 31 by first ensuring that all the lights are off.  The code enters an infinite loop then adjusts the values of each light's pin to be `PinValue.High` or `PinValue.Low` before calling `Thread.Sleep()` to wait an appropriate time before entering the next state.
 
-I’ve put the [source code on GitHub](https://github.com/simonprickett/dotnetpitrafficlights) for your enjoyment.
+Whenever the user's done with the program and wants to quit back to the command line, they press Ctrl-C.  This invokes the handler at line 27 and turns all of the lights off.
+
+I’ve put the [full source code on GitHub](https://github.com/simonprickett/dotnetpitrafficlights) for your enjoyment.
 
 ---
 
