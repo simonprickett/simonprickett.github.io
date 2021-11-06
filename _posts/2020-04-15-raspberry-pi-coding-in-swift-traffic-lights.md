@@ -16,6 +16,7 @@ If you're interested in my other articles that show how to write the same code i
 * [C]({{ site.baseurl}}/gpio-access-in-c-with-raspberry-pi-traffic-lights)
 * [Go]({{ site.baseurl}}/raspberry-pi-coding-in-go-traffic-lights)
 * [Bash scripting]({{ site.baseurl}}/controlling-raspberry-pi-gpio-pins-from-bash-scripts-traffic-lights)
+* [Rust]({{ site.baseurl }}/raspberry-pi-coding-with-rust-traffic-lights/)
 * also... [Arduino]({{ site.baseurl}}/traffic-lights-with-arduino/)
 * and [.NET/C#]({{ site.baseurl }}/raspberry-pi-coding-with-dotnet-traffic-lights/)
 

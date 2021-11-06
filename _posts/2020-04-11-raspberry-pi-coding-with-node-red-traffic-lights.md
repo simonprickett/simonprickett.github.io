@@ -16,6 +16,7 @@ If you're interested in controlling the same traffic lights from different progr
 * [Go]({{ site.baseurl}}/raspberry-pi-coding-in-go-traffic-lights)
 * [Python]({{ site.baseurl}}/playing-with-raspberry-pi-traffic-lights)
 * [Bash scripting]({{ site.baseurl}}/controlling-raspberry-pi-gpio-pins-from-bash-scripts-traffic-lights) 
+* [Rust]({{ site.baseurl }}/raspberry-pi-coding-with-rust-traffic-lights/)
 * also... [Arduino]({{ site.baseurl}}/traffic-lights-with-arduino/)
 * and [.NET/C#]({{ site.baseurl }}/raspberry-pi-coding-with-dotnet-traffic-lights/)
 
