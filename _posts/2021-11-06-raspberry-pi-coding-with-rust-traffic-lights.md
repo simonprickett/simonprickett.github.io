@@ -115,7 +115,7 @@ To exit, press Ctrl + C. This will cause all of the lights to turn off, and the 
 
 Here’s a brief walkthrough of the complete source code...
 
-TODO GIST
+<script src="https://gist.github.com/simonprickett/718e4a74fa278acf8fd510618c6be716.js"></script>
 
 TODO EXPLANATION
 
