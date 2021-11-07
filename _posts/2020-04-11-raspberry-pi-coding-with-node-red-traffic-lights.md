@@ -52,7 +52,7 @@ My aim was to see if I could quickly go from no experience to a working traffic 
 
 ## Getting Started
 
-I used a Raspberry Pi 3 with the Raspbian lite operating system as I didn't need a graphical desktop environment.  The traffic lights attach to four of the Pi's GPIO pins.  One of these has to be a ground pin, the other three are used to control each of the three LED lights.  I attached mine to GPIO pins 9, 10, 11.  I also connected the Pi to my wireless network then installed an up to date version of Node.js on it.  
+I used a Raspberry Pi 3 with the Raspberry Pi OS lite operating system as I didn't need a graphical desktop environment.  The traffic lights attach to four of the Pi's GPIO pins.  One of these has to be a ground pin, the other three are used to control each of the three LED lights.  I attached mine to GPIO pins 9, 10, 11.  I also connected the Pi to my wireless network then installed an up to date version of Node.js on it.  
 
 If you'd like to see how to set up the operating system on the Pi and connect the lights to the GPIO pins, check out my [earlier article]({{ site.baseurl }}/raspberry-pi-coding-with-node-js-traffic-lights) which has a complete walkthrough for this.
 
