@@ -55,29 +55,65 @@ Don't turn the Pi on yet, you'll need to prepare an operating system image for i
 
 Install the Raspberry Pi OS which can be [downloaded from the official Raspberry Pi site](https://www.raspberrypi.com/software/). You can also find an excellent [installation guide](https://www.raspberrypi.org/documentation/installation/installing-images/README.md) there should you need help.  As I didn't need a full graphical desktop for this project, I went with the Lite version.
 
-Once you've got the operating system installed, make sure you can login, and have a working wired or wifi internet connection.
+Once you've got the operating system installed, make sure you can login, and have a working wired or wifi internet connection.  You can configure the wireless network settings using the [`raspi-config` tool](https://www.raspberrypi.com/documentation/computers/configuration.html).  If needed, start it as follows:
+
+```bash
+$ sudo raspi-config
+```
 
 Now you can go ahead and start turning lights on and off!
 
 ## Installing Dependencies
 
-To get started, we'll need to install some dependencies.  These include [git](https://git-scm.com/), plus TODO...
+To get started, we'll need to install [git](https://git-scm.com/) so that we can get the project code later:
 
 ```
-$ sudo apt-get install git TODO...
+$ sudo apt-get install git
 $ git --version
-git version 2.20.1
+git version 2.30.2
 ```
+
+(Version number was correct at the time of writing).
 
 ## Installing Rust
 
-TODO..
+To install Rust and Cargo (Rust's build tool and package manager), [follow the instructions at rust-lang.org](https://www.rust-lang.org/tools/install):
 
 ```bash
-$ TODO
+$ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 ```
 
-TODO check rust and cargo were installed.
+When asked to choose an installation option, go with the default:
+
+```bash
+...
+Current installation options:
+
+
+   default host triple: armv7-unknown-linux-gnueabihf
+     default toolchain: stable (default)
+               profile: default
+  modify PATH variable: yes
+
+1) Proceed with installation (default)
+2) Customize installation
+3) Cancel installation
+```
+
+Once the installer finishes, update your current shell's profile:
+
+```bash
+$ source $HOME/.cargo/env
+```
+
+Now make sure you have the Rust compiler and Cargo installed (version numbers may vary - these were current at the time of writing):
+
+```bash
+$ rustc --version
+rustc 1.56.1 (59eed8a2a 2021-11-01)
+$ cargo --version
+cargo 1.56.0 (4ed5d137b 2021-10-04)
+```
 
 ## Programming the Traffic Lights
 
@@ -88,18 +124,42 @@ $ git clone https://github.com/simonprickett/rustpitrafficlights.git
 $ cd rustpitrafficlights
 ```
 
-Now add the crate (crates for Rust are similar to packages or libraries in other languages) that we need to control the Pi's GPIO pins:
+The first time you run the project, Cargo will download the required crates (packages) and compile and run the code (the code is in the file `src/main.rs`):
 
 ```bash
-$ TODO
+$ cargo run
+    Updating crates.io index
+  Downloaded autocfg v1.0.1
+  Downloaded bitflags v1.3.2
+  Downloaded lazy_static v1.4.0
+  Downloaded ctrlc v3.2.1
+  Downloaded rppal v0.12.0
+  Downloaded memoffset v0.6.4
+  Downloaded cfg-if v1.0.0
+  Downloaded nix v0.23.0
+  Downloaded libc v0.2.107
+  Downloaded rust_gpiozero v0.2.1
+  Downloaded 10 crates (908.3 KB) in 1.15s
+   Compiling lazy_static v1.4.0
+   Compiling rppal v0.12.0
+   Compiling rust_gpiozero v0.2.1
+   Compiling rustpitrafficlights v0.1.0 (/home/pi/rustpitrafficlights)
+
+    Finished dev [unoptimized + debuginfo] target(s) in 2m 46s
+     Running `target/debug/rustpitrafficlights`
 ```
 
-TODO where are the crate(s) listed?
+This project makes use of a couple of crates (packages).  One for interfacing with the GPIO pins on the Pi, the other for handling Ctrl-C / SIGINT interrupts.  These are specified in the `Cargo.toml` file which looks like this:
 
-We've now got everything we need to start seeing some action, so let's start it up:
+```toml
+[package]
+name = "rustpitrafficlights"
+version = "0.1.0"
+edition = "2021"
 
-```bash
-$ TODO
+[dependencies]
+rust_gpiozero = "0.2.1"
+ctrlc = "3.2.1"
 ```
 
 If the lights are connected to the correct GPIO pins, they should start to flash on and off in the UK traffic light pattern (red, red + amber, green, amber, red). If you don’t see anything, make sure that you have the lights connected to the right pins.
