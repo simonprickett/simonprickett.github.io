@@ -11,7 +11,7 @@ To make this a standalone guide, there will be some re-use of content from the p
 
 ## Shopping List
 
-To try this out, you will need the following (links here mostly go to [Adafruit](https://www.adafruit.com/), UK customers may want to consider [Pimoroni](https://shop.pimoroni.com/) as a UK based alternative, Amazon has most if not all of this stuff too):
+To try this out, you will need the following (links here mostly go to [Adafruit](https://www.adafruit.com/), UK customers may want to consider [Pimoroni](https://shop.pimoroni.com/) as a UK based alternative.  Amazon has most if not all of this stuff too):
 
 * A [Raspberry Pi](https://www.adafruit.com/product/3055) (I'll use the Pi 3 Model B here, but any model with GPIO pins will work — if you want to use the Pi Zero you’ll need to solder some headers onto it or buy one with those pre-attached). I'm going to assume you have a Pi 2, 3 or 4 with 40 pins
 * A [power supply](https://www.adafruit.com/product/1995) for your Pi (Raspberry Pi 4 requires a different [USB C power supply](https://www.adafruit.com/product/4298))
@@ -61,10 +61,10 @@ Now you can go ahead and start turning lights on and off!
 
 ## Installing Dependencies
 
-To get started, we'll need to install some dependencies.  These include [git](https://git-scm.com/), plus some libraries that the .NET runtime requires:
+To get started, we'll need to install some dependencies.  These include [git](https://git-scm.com/), plus TODO...
 
 ```
-$ sudo apt-get install git libunwind8 gettext apt-transport-https
+$ sudo apt-get install git TODO...
 $ git --version
 git version 2.20.1
 ```
@@ -114,6 +114,8 @@ To exit, press Ctrl + C. This will cause all of the lights to turn off, and the 
 ## How it Works
 
 Here’s a brief walkthrough of the complete source code...
+
+TODO USE THE RIGHT GIST 
 
 <script src="https://gist.github.com/simonprickett/718e4a74fa278acf8fd510618c6be716.js"></script>
 
