@@ -36,7 +36,7 @@ All of the software's free, but you will need to buy a Raspberry Pi of some sort
 * [Pimoroni Unicorn Hat library for Python](http://docs.pimoroni.com/unicornhat/).
 * [Pimoroni Unicorn Hat](https://shop.pimoroni.com/products/unicorn-hat) - there is also a more expensive HD version with more pixels if you want a bigger array for your filter!
 * [Raspberry Pi Model A+ v1](https://www.raspberrypi.org/products/raspberry-pi-1-model-a-plus/) (any 40 pin GPIO Pi that can take HAT boards will work, which is most of them - the model I used is long obsolete I just had one kicking around).
-* [USB wifi dongle for Raspberry Pi](https://www.adafruit.com/product/814) (The model A I used doesn't come with built in wifi - other models have this onboard - find these USB dongle on Amazon or eBay just make sure to get one that is known to work with the Pi / Raspbian OS).
+* [USB wifi dongle for Raspberry Pi](https://www.adafruit.com/product/814) (The model A I used doesn't come with built in wifi - other models have this onboard - find these USB dongle on Amazon or eBay just make sure to get one that is known to work with the Pi / Raspberry Pi OS).
 * [Adafruit Smoked Plastic Pi case](https://www.adafruit.com/product/2361) - get the separate smoked lid too as this is what acts as a nice LED diffuser.  This is the case for A sized Pi models, they also sell them for the larger Pi models.
 
 ## Hardware Build

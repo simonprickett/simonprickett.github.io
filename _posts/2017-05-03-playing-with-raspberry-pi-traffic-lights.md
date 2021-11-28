@@ -7,7 +7,7 @@ author: simon
 ---
 I’ve recently been doing some simple Python programming with the Raspberry Pi and a set of traffic light LEDs that connect to it. In this post I’ll look at setting up a Pi to drive the lights. In future posts, I’ll explore some other programming / devops concepts using the base setup described here.
 
-I subsequently wrote versions of this article describing the same process using the Go programming language ([here]({{ site.baseurl }}/raspberry-pi-coding-in-go-traffic-lights)), Swift ([here]({{ site.baseurl }}/raspberry-pi-coding-in-swift-traffic-lights)), Java ([here]({{ site.baseurl }}/playing-with-raspberry-pi-gpio-pins-and-traffic-lights-in-java)), C ([here]({{ site.baseurl}}/gpio-access-in-c-with-raspberry-pi-traffic-lights)), Bash scripting ([here]({{ site.baseurl}}/controlling-raspberry-pi-gpio-pins-from-bash-scripts-traffic-lights)), Node.js ([here]({{ site.baseurl }}/raspberry-pi-coding-with-node-js-traffic-lights)) and also Node RED ([here]({{ site.baseurl }}/raspberry-pi-coding-with-node-red-traffic-lights/)).  Most recently I looked at this for [Arduino]({{ site.baseurl }}/traffic-lights-with-arduino/) and [.NET/C#]({{ site.baseurl }}/raspberry-pi-coding-with-dotnet-traffic-lights/) too.
+I subsequently wrote versions of this article describing the same process using the Go programming language ([here]({{ site.baseurl }}/raspberry-pi-coding-in-go-traffic-lights)), Swift ([here]({{ site.baseurl }}/raspberry-pi-coding-in-swift-traffic-lights)), Java ([here]({{ site.baseurl }}/playing-with-raspberry-pi-gpio-pins-and-traffic-lights-in-java)), C ([here]({{ site.baseurl}}/gpio-access-in-c-with-raspberry-pi-traffic-lights)), Bash scripting ([here]({{ site.baseurl}}/controlling-raspberry-pi-gpio-pins-from-bash-scripts-traffic-lights)), Node.js ([here]({{ site.baseurl }}/raspberry-pi-coding-with-node-js-traffic-lights)) and also Node RED ([here]({{ site.baseurl }}/raspberry-pi-coding-with-node-red-traffic-lights/)).  Most recently I looked at this for [Arduino]({{ site.baseurl }}/traffic-lights-with-arduino/), [Rust]({{ site.baseurl }}/raspberry-pi-coding-with-rust-traffic-lights/) and [.NET/C#]({{ site.baseurl }}/raspberry-pi-coding-with-dotnet-traffic-lights/) too.
 
 Let’s go...
 
@@ -55,7 +55,7 @@ Don’t turn the Pi on yet, you’ll need to prepare an operating system image f
 
 ## Operating System Setup
 
-Install the Raspbian OS which can be [downloaded from the official Raspberry Pi site](https://www.raspberrypi.org/downloads/raspbian/). You can also find an excellent [installation guide](https://www.raspberrypi.org/documentation/installation/installing-images/README.md) there should you need help.
+Install the Raspberry Pi OS which can be [downloaded from the official Raspberry Pi site](https://www.raspberrypi.com/software/). You can also find an excellent [installation guide](https://www.raspberrypi.org/documentation/installation/installing-images/README.md) there should you need help.
 
 Once you’ve got the operating system installed, make sure you can login, and have a working wired or wifi internet connection.
 

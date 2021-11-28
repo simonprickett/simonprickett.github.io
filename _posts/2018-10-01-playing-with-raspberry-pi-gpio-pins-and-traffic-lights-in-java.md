@@ -5,7 +5,7 @@ categories: [ Raspberry Pi, Technology, IoT, Java ]
 image: assets/images/pi_traffic_lights_java_main.jpg
 author: simon
 ---
-Having written guides describing how to use the [Low Voltage Labs](http://lowvoltagelabs.com/products/pi-traffic/) traffic lights with the Raspberry Pi for Python ([read Python article]({{site.baseurl}}/playing-with-raspberry-pi-traffic-lights)), Node.js ([read Node.js article]({{ site.baseurl }}/raspberry-pi-coding-with-node-js-traffic-lights)), Node RED ([read Node RED article]({{ site.baseurl }}/raspberry-pi-coding-with-node-red-traffic-lights/)), C ([read C article]({{ site.baseurl }}/gpio-access-in-c-with-raspberry-pi-traffic-lights)), Bash scripting ([read Bash article]({{ site.baseurl }}/controlling-raspberry-pi-gpio-pins-from-bash-scripts-traffic-lights)), Swift ([read Swift article]({{ site.baseurl }}/raspberry-pi-coding-in-swift-traffic-lights)), Go ([read Go article]({{site.baseurl}}/raspberry-pi-coding-in-go-traffic-lights)), [.NET/C#]({{ site.baseurl }}/raspberry-pi-coding-with-dotnet-traffic-lights/) and even [Arduino]({{ site.baseurl}}/traffic-lights-with-arduino/), it’s definitely time to check out how to access the GPIO pins from the Java programming language.
+Having written guides describing how to use the [Low Voltage Labs](http://lowvoltagelabs.com/products/pi-traffic/) traffic lights with the Raspberry Pi for Python ([read Python article]({{site.baseurl}}/playing-with-raspberry-pi-traffic-lights)), Node.js ([read Node.js article]({{ site.baseurl }}/raspberry-pi-coding-with-node-js-traffic-lights)), Node RED ([read Node RED article]({{ site.baseurl }}/raspberry-pi-coding-with-node-red-traffic-lights/)), C ([read C article]({{ site.baseurl }}/gpio-access-in-c-with-raspberry-pi-traffic-lights)), Bash scripting ([read Bash article]({{ site.baseurl }}/controlling-raspberry-pi-gpio-pins-from-bash-scripts-traffic-lights)), Swift ([read Swift article]({{ site.baseurl }}/raspberry-pi-coding-in-swift-traffic-lights)), Go ([read Go article]({{site.baseurl}}/raspberry-pi-coding-in-go-traffic-lights)), [Rust]({{ site.baseurl }}/raspberry-pi-coding-with-rust-traffic-lights/), [.NET/C#]({{ site.baseurl }}/raspberry-pi-coding-with-dotnet-traffic-lights/) and even [Arduino]({{ site.baseurl}}/traffic-lights-with-arduino/), it’s definitely time to check out how to access the GPIO pins from the Java programming language.
 
 To make this a standalone guide, there will be some re-use of content from the prior articles in this one.
 
@@ -53,7 +53,7 @@ Don't turn the Pi on yet, you'll need to prepare an operating system image for i
 
 ## Operating System Setup
 
-Install the Raspbian OS which can be [downloaded from the official Raspberry Pi site](https://www.raspberrypi.org/downloads/raspbian/). You can also find an excellent [installation guide](https://www.raspberrypi.org/documentation/installation/installing-images/README.md) there should you need help.
+Install the Raspbian OS which can be [downloaded from the official Raspberry Pi site](https://www.raspberrypi.com/software/). You can also find an excellent [installation guide](https://www.raspberrypi.org/documentation/installation/installing-images/README.md) there should you need help.
 
 Once you've got the operating system installed, make sure you can login, and have a working wired or wifi internet connection.
 

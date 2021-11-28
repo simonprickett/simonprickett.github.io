@@ -7,7 +7,7 @@ author: simon
 ---
 Node.js (a server side JavaScript runtime) is a popular choice for writing software on the Raspberry Pi single board computers that run Raspbian (a variant of Debian Linux). Developers often need to have their project’s code start when the operating system boots and stop when it shuts down. Some projects may not be able to run successfully if started too early in the boot process, for example prior to a network connection being established. In this article we’ll look at how to use the Linux System and Service Manager systemd to start a Node.js project automatically at boot.
 
-We’ll use a Raspberry Pi 3 with a fresh install of the latest Raspbian "Stretch" Lite operating system and a wireless network connection already configured. If you want to follow along, you can [download Raspbian](https://www.raspberrypi.org/downloads/raspbian/) and use [Etcher](https://www.balena.io/etcher/) to install it onto your micro SD card.
+We’ll use a Raspberry Pi 3 with a fresh install of the latest Raspbian "Stretch" Lite operating system and a wireless network connection already configured. If you want to follow along, you can [download Raspberry Pi OS](https://www.raspberrypi.com/software/) and use [Etcher](https://www.balena.io/etcher/) to install it onto your micro SD card.
 
 ## Installing Node.js
 The "Lite" Raspbian doesn’t have Node.js pre-installed, as it is a minimal distribution. Let’s add an up to date version of Node.js from [NodeSource](https://nodesource.com/):

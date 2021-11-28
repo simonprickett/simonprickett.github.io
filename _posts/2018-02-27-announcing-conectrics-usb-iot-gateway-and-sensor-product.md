@@ -79,7 +79,7 @@ All sensors use long life batteries and our testing shows that these will last f
 
 ## Software
 
-We've built an easy to use SDK for Node.js which can run on Windows, Mac OS X, and Linux. As our mesh router connects to a USB port you can quickly build your own gateway implementation using your existing computer. We've also tested the SDK on the Raspberry Pi running the free [Raspbian](https://www.raspberrypi.org/downloads/raspbian/) operating system. This makes for a low cost, easy to embed solution.
+We've built an easy to use SDK for Node.js which can run on Windows, Mac OS X, and Linux. As our mesh router connects to a USB port you can quickly build your own gateway implementation using your existing computer. We've also tested the SDK on the Raspberry Pi running the free [Raspberry Pi OS](https://www.raspberrypi.com/software/) operating system. This makes for a low cost, easy to embed solution.
 
 You can find our software on [npm](https://www.npmjs.com/package/conectric-usb-gateway). Once you have Node.js on your machine installation is as simple as:
 

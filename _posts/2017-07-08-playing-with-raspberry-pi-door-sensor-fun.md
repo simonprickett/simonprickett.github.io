@@ -57,7 +57,7 @@ Having got everything wired together, use the Fun Tak to hold the door sensor do
 
 ## Code & Operating System Setup
 
-We don’t need to do anything particularly special when setting up the Raspberry Pi — I just installed the latest [Raspbian Jessie Lite](https://www.raspberrypi.org/downloads/raspbian/) operating system ([install guide here](https://www.raspberrypi.org/documentation/installation/installing-images/README.md)) and set up my wifi. Then, we need to install a couple of extra software packages to allow downloading of my sample code from GitHub, and to give Python access to the GPIO pins on the Pi. Enter the following at the command line when logged in as the `pi` user:
+We don’t need to do anything particularly special when setting up the Raspberry Pi — I just installed the latest [Raspberry Pi OS Lite](https://www.raspberrypi.com/software/) operating system ([install guide here](https://www.raspberrypi.org/documentation/installation/installing-images/README.md)) and set up my wifi. Then, we need to install a couple of extra software packages to allow downloading of my sample code from GitHub, and to give Python access to the GPIO pins on the Pi. Enter the following at the command line when logged in as the `pi` user:
 
 ```
 sudo apt-get install python-dev python-rpi.gpio git

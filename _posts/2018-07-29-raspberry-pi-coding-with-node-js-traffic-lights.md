@@ -5,7 +5,7 @@ categories: [ Raspberry Pi, Technology, IoT, JavaScript, Node.js ]
 image: assets/images/pi_traffic_lights_node_main.jpg
 author: simon
 ---
-I realized I’ve written guides describing how to use the Low Voltage Labs traffic lights with the Raspberry Pi for Python ([read Python article]({{ site.baseurl}}/playing-with-raspberry-pi-traffic-lights)), Swift ([read Swift article]({{ site.baseurl }}/raspberry-pi-coding-in-swift-traffic-lights)), Node RED ([read Node RED article]({{ site.baseurl }}/raspberry-pi-coding-with-node-red-traffic-lights/)), Java ([read Java article]({{ site.baseurl}}/playing-with-raspberry-pi-gpio-pins-and-traffic-lights-in-java)), C ([read C article]({{ site.baseurl}}/gpio-access-in-c-with-raspberry-pi-traffic-lights)), Bash scripting ([read Bash article]({{ site.baseurl}}/controlling-raspberry-pi-gpio-pins-from-bash-scripts-traffic-lights)), Go ([read Go article]({{ site.baseurl}}/raspberry-pi-coding-in-go-traffic-lights)), [Arduino]({{ site.baseurl}}/traffic-lights-with-arduino/) and [.NET/C#]({{ site.baseurl }}/raspberry-pi-coding-with-dotnet-traffic-lights/), but never for Node.js. Node.js is a great environment for writing modern JavaScript on the Pi and has a huge ecosystem of off the shelf packages from npm that help you get things done without re-inventing wheels. Let’s take a look at how we can use it to control the traffic light LEDS...
+I realized I’ve written guides describing how to use the Low Voltage Labs traffic lights with the Raspberry Pi for Python ([read Python article]({{ site.baseurl}}/playing-with-raspberry-pi-traffic-lights)), Swift ([read Swift article]({{ site.baseurl }}/raspberry-pi-coding-in-swift-traffic-lights)), Node RED ([read Node RED article]({{ site.baseurl }}/raspberry-pi-coding-with-node-red-traffic-lights/)), Java ([read Java article]({{ site.baseurl}}/playing-with-raspberry-pi-gpio-pins-and-traffic-lights-in-java)), C ([read C article]({{ site.baseurl}}/gpio-access-in-c-with-raspberry-pi-traffic-lights)), Bash scripting ([read Bash article]({{ site.baseurl}}/controlling-raspberry-pi-gpio-pins-from-bash-scripts-traffic-lights)), Go ([read Go article]({{ site.baseurl}}/raspberry-pi-coding-in-go-traffic-lights)), [Rust]({{ site.baseurl }}/raspberry-pi-coding-with-rust-traffic-lights/), [Arduino]({{ site.baseurl}}/traffic-lights-with-arduino/) and [.NET/C#]({{ site.baseurl }}/raspberry-pi-coding-with-dotnet-traffic-lights/), but never for Node.js. Node.js is a great environment for writing modern JavaScript on the Pi and has a huge ecosystem of off the shelf packages from npm that help you get things done without re-inventing wheels. Let’s take a look at how we can use it to control the traffic light LEDS...
 
 To make this a standalone guide, there will be some re-use of content from the prior articles here.
 
@@ -53,7 +53,7 @@ Don't turn the Pi on yet, you'll need to prepare an operating system image for i
 
 ## Operating System Setup
 
-Install the Raspbian OS which can be [downloaded from the official Raspberry Pi site](https://www.raspberrypi.org/downloads/raspbian/). You can also find an excellent [installation guide](https://www.raspberrypi.org/documentation/installation/installing-images/README.md) there should you need help.
+Install the Raspberry Pi OS which can be [downloaded from the official Raspberry Pi site](https://www.raspberrypi.com/software/). You can also find an excellent [installation guide](https://www.raspberrypi.org/documentation/installation/installing-images/README.md) there should you need help.
 
 Once you've got the operating system installed, make sure you can login, and have a working wired or wifi internet connection.
 
@@ -61,7 +61,7 @@ Now you can go ahead and start turning lights on and off!
 
 ## Installing Node.js
 
-The "Lite" Raspbian doesn’t have Node.js pre-installed, as it is a minimal distribution. Let’s add an up to date version of Node.js from [NodeSource](https://nodesource.com/):
+The "Lite" Raspberry Pi OS doesn’t have Node.js pre-installed, as it is a minimal distribution. Let’s add an up to date version of Node.js from [NodeSource](https://nodesource.com/):
 
 ```
 $ curl -sL https://deb.nodesource.com/setup_10.x|sudo -E bash -
