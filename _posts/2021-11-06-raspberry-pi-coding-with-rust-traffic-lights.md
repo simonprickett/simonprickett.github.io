@@ -149,7 +149,7 @@ $ cargo run
      Running `target/debug/rustpitrafficlights`
 ```
 
-This project makes use of a couple of crates (packages).  One for interfacing with the GPIO pins on the Pi, the other for handling Ctrl-C / SIGINT interrupts.  These are specified in the `Cargo.toml` file which looks like this:
+This project makes use of a couple of crates (packages).  One for interfacing with the GPIO pins on the Pi, the other for handling Ctrl-C / `SIGINT` interrupts.  These are specified in the `Cargo.toml` file which looks like this:
 
 ```toml
 [package]
@@ -169,17 +169,25 @@ If the lights are connected to the correct GPIO pins, they should start to flash
   <figcaption class="figure-caption text-center">Lights installed and working.</figcaption>
 </figure>
 
-To exit, press Ctrl + C. This will cause all of the lights to turn off, and the program will exit.
+To exit, press Ctrl + C. This will cause all of the lights to turn off after a short delay, and the program will exit.
 
 ## How it Works
 
 Here’s a brief walkthrough of the complete source code...
 
-TODO USE THE RIGHT GIST 
-
 <script src="https://gist.github.com/simonprickett/718e4a74fa278acf8fd510618c6be716.js"></script>
 
-TODO EXPLANATION
+* Lines 1-5 import things we'll need from the crates that the code depends on.
+* The `main` function that'll get executed when we run the code is declared at line 7.
+* Lines 8-9 declare essentially a global Boolean variable that we'll use while handling a Ctrl-C event to shut down the code.  This seems overly complex to me, and is to do with Rust's memory management guarantees / checking.  This seems somewhat pedantic to me and means I probably won't use Rust for bigger Pi projects.
+* At lines 11-13, we declare variables representing the three GPIO pins that the traffic lights are connected to.
+* Lines 15-17 declare a function that will run when Ctrl-C is pressed and the `SIGINT` signal raised.  This function gets the pseudo-global Boolean to `false`, which will terminate the `while` loop that begins at line 23.
+* Lines 19-21 make sure that each of the three lights are off, so we begin in a known state.
+* At line 23, we enter a `while` loop that will continue until the pseudo-global Boolean is `false`.
+* In the loop, we use the `.on()` function to turn each light on and off in the right order, and the `thread::sleep` function to wait a number of seconds.
+* Lines 47-49 run after Ctrl-C / `SIGINT` has been detected, and the pseudo-global Boolean variable set to `false`... here we make sure that the lights are all switched off before exiting.
+
+I find this a bit dissatisfying... in other languages, I've declared a function that turns all the lights off and called this before starting and whenever `SIGINT` / Ctrl-C is detected.  This involves declaring the objects that represent each GPIO pin as global variables.  Rust doesn't as such allow this, and I wasn't able to see a good solution (experienced Rust coders - please feel free to offer one, I'd love to learn!).  So my implementation as it stands 
 
 I’ve put the [full source code on GitHub](https://github.com/simonprickett/rustpitrafficlights) for your enjoyment.
 
