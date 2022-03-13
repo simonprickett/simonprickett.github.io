@@ -34,7 +34,7 @@ All of the software's free, but you will need to buy a Raspberry Pi of some sort
 * [Murmur3 hashing](https://pypi.org/project/murmurhash3/) (for hash functions).
 * [Bulma](https://bulma.io/) (front end CSS).
 * [Pimoroni Unicorn Hat library for Python](http://docs.pimoroni.com/unicornhat/).
-* [Pimoroni Unicorn Hat](https://shop.pimoroni.com/products/unicorn-hat) - there is also a more expensive HD version with more pixels if you want a bigger array for your filter!
+* [Pimoroni Unicorn Hat](https://shop.pimoroni.com/products/unicorn-hat) - there is also a more expensive HD version with more pixels if you want a bigger array for your filter!  I subsequently bought one of these and made a version of this project using it.  Read about the differences [here]({{ site.baseurl }}/high-definition-visual-bloom-filter-with-raspberry-pi/).
 * [Raspberry Pi Model A+ v1](https://www.raspberrypi.org/products/raspberry-pi-1-model-a-plus/) (any 40 pin GPIO Pi that can take HAT boards will work, which is most of them - the model I used is long obsolete I just had one kicking around).
 * [USB wifi dongle for Raspberry Pi](https://www.adafruit.com/product/814) (The model A I used doesn't come with built in wifi - other models have this onboard - find these USB dongle on Amazon or eBay just make sure to get one that is known to work with the Pi / Raspberry Pi OS).
 * [Adafruit Smoked Plastic Pi case](https://www.adafruit.com/product/2361) - get the separate smoked lid too as this is what acts as a nice LED diffuser.  This is the case for A sized Pi models, they also sell them for the larger Pi models.
@@ -127,4 +127,4 @@ Thanks for reading, hope you also found this fun.  Feel free to tell me if I got
 
 ---
 
-Pimoroni also make a [Unicorn Hat HD](https://shop.pimoroni.com/products/unicorn-hat-hd) with 256 LEDs.  If you'd like to see me try with one of those you can always [buy me a coffee](https://www.buymeacoffee.com/6Iv4kzj) and I'll put the proceeds towards buying one!  If you've got a Raspberry Pi Zero and want to go small, there's also a [Unicorn pHAT](https://shop.pimoroni.com/products/unicorn-phat).
+Pimoroni also make a [Unicorn Hat HD](https://shop.pimoroni.com/products/unicorn-hat-hd) with 256 LEDs.  If you'd like to see me try with one of those you can always [buy me a coffee](https://www.buymeacoffee.com/6Iv4kzj) and I'll put the proceeds towards buying one!  **UPDATE**: The community got me one and I wrote about rebuilding this project using it [here]({{ site.baseurl }}/high-definition-visual-bloom-filter-with-raspberry-pi/).  If you've got a Raspberry Pi Zero and want to go small, there's also a [Unicorn pHAT](https://shop.pimoroni.com/products/unicorn-phat).
