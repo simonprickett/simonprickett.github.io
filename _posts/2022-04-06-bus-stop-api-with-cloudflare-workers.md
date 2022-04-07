@@ -16,3 +16,5 @@ This will be the main body of the article once I get around to writing it and it
   <img src="{{ site.baseurl }}/assets/images/bus_api_live_display.jpg" class="figure-img img-fluid" alt="Live display board at my local bus stop (shows other operators too)">
   <figcaption class="figure-caption text-center">Live display board at my local bus stop (shows other operators too).</figcaption>
 </figure>
+
+Here's the GitHub repo URL: https://github.com/simonprickett/nctx-stop-api
