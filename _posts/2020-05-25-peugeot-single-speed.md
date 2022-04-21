@@ -112,4 +112,4 @@ Do I enjoy riding it?  Yes, loads!  I also like that I can chain it up with a si
 
 I also like riding something that's unique and of my own making - using lots of garish colourful parts probably isn't everyone's taste, but it means I'm highly visible while out and about, and won't lose the bike in a crowded rack :)  I also like that I left the original gear shifters on.  In building this bike I learned a few things about bottom brackets and chain tension for single speed drivetrains, as well as how to set up brakes.  This knowledge has come in handy with subsequent maintenance on both of my bikes and may have saved a few dollars at the bike shop.
 
-I continue to enjoy the bike, and other than swapping the tyre and perhaps getting some wider riser handlebars, I have no current plans to change it!  I run it as a single speed, I've never flipped the rear wheel to fixie mode (yet!).
+I continue to enjoy the bike, and other than swapping the tyres and perhaps getting some wider riser handlebars, I have no current plans to change it!  I run it as a single speed, I've never flipped the rear wheel to fixie mode (yet!).
