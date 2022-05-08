@@ -67,7 +67,9 @@ TODO
 
 ## Limitations
 
-TODO
+This obviously isn't a complete API... you can't use it for journey planning from one stop to another, viewing timetables, or whether the bus that's coming has USB charging and wi-fi.  That's OK though, I specificially wanted real time departure information, with the ability to filter and just return the data I needed.  For that purpose, this works pretty well.
+
+As it's using screen scraping, it will of course break and need updating should the bus company change the document structure of their live departure web pages.
 
 ## Future Plans
 
