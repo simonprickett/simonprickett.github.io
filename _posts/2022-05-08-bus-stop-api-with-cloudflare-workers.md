@@ -49,7 +49,7 @@ This article won't cover how the code works or how to deploy it yourself, for th
 
 ## Using the API
 
-I deployed my workers code to a URL associated with my Cloudflare account to make the API live on the internet.  I'm on Cloudflare's free plan which gives me 100,000 requests to my workers per day with 1ms CPU time allowed for each request... I figure this will do for hobbyist use.  If I go over my allocation, you'll see a Cloudflare error page instead of an API response!
+I deployed my workers code to a URL associated with my Cloudflare account to make the API live on the internet.  I'm on Cloudflare's free plan which gives me 100,000 requests to my workers per day with 10ms CPU time allowed for each request... I figure this will do for hobbyist use.  If I go over my allocation, you'll see a Cloudflare error page instead of an API response!
 
 The API's at `https://nctx.crudworks.workers.dev/` and to use it, you'll need a stop ID for the bus stop you want to see departures for...
 
