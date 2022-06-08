@@ -9,7 +9,7 @@ permalink: "/about/"
             <img alt="Simon Prickett" src="{{site.baseurl}}/{{ site.authors.simon.avatar }}" class="img-responsive float-right ml-3" width="30%">
             <p class="lead">Hi - thanks for dropping by.  I'm Simon Prickett, an experienced software 
                professional.</p>
-            <p>I'm currently working as the Developer Advocacy Manager for <a href="https://redis.com">Redis</a> where I lead a team that develops course materials and accompanying example applications, videos and blogs for our online <a href="https://university.redis.com/">Redis University courses</a>.  I'm the principal teacher for the <a href="https://university.redis.com/courses/ru102js/">Redis for JavaScript (Node.js) Developers</a> course, and have also contributed to the Redis Streams and Redis for Java Developers courses.</p>
+            <p>I'm currently working as the Principal Developer Advocate for <a href="https://redis.com">Redis</a> where I lead a team that develops course materials and accompanying example applications, videos and blogs for our online <a href="https://university.redis.com/">Redis University courses</a>.  I'm the principal teacher for the <a href="https://university.redis.com/courses/ru102js/">Redis for JavaScript (Node.js) Developers</a> course, and have also contributed to the Redis Streams and Redis for Java Developers courses.</p>
             <p>I've been coding since I received a Sinclair ZX Spectrum as a Christmas 
                present in the early 1980s.  I have particularly fond memories of owning 
                and developing software for the Atari ST and Commodore Amiga.  I was part of a team that made a popular 
