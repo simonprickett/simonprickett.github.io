@@ -162,5 +162,5 @@ I regularly create software and hardware projects, and write and publish videos 
 </ul>
 <h4>Professional Certifications and Courses</h4>
 <ul>
-    <li>2020: Redis Certified Developer, <a href="https://university.redis.com/certification" target="_blank">Redis University</a></li>
+    <li>2020: Redis Certified Developer, <a href="https://university.redis.com/certification" target="_blank">Redis University</a>.</li>
 </ul>
