@@ -1,4 +1,5 @@
 _site
+.bundle
 .sass-cache
 .DS_Store
 *.tmp
@@ -6,3 +7,4 @@ _site
 *.swp
 .jekyll-cache
 node_modules/
+vendor/
