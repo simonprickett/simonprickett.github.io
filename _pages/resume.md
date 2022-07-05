@@ -3,9 +3,8 @@ title: "Simon Prickett, Experienced Developer Relations Leader"
 permalink: "/resume/"
 ---
 <h2>Summary</h2>
-TODO overview and portfolio links...
-
-I regularly create software and hardware projects, and write and publish videos about them on my website at <a href="https://simonprickett.dev" target="_blank">https://simonprickett.dev</a>.  You'll also find my coding projects on GitHub at <a href="https://github.com/simonprickett" target="_blank">https://github.com/simonprickett</a>.
+<p>TODO overview and portfolio links...</p>
+<p>I regularly create software and hardware projects, and write and publish videos about them on my website at <a href="https://simonprickett.dev" target="_blank">https://simonprickett.dev</a>.  You'll also find my coding projects on GitHub at <a href="https://github.com/simonprickett" target="_blank">https://github.com/simonprickett</a>.  My projects have been featured in the Arduino, Adafruit and Cloudflare blogs.</p>
 <hr/>
 <h2>Contact Details</h2>
 <p>Reach me by email at <code>simon@crudworks.org</code>.  References are available on request.</p>
@@ -15,23 +14,47 @@ I regularly create software and hardware projects, and write and publish videos 
 <p><strong><a href="http://redis.com" target="_blank">Redis</a> | 2021-present | San Diego California USA and Nottingham England (Fully Remote)</strong></p>
 <p>Redis is the company that develops the popular open source <a href="https://redis.io/" target="_blank">Redis</a> database and provides a cloud hosting platform for Redis Enterprise.  Redis is used by millions of developers as a cache, streaming engine and database.</p>
 <ul>
-    <li>Some achievement or whatever</li>
-    <li>Some achievement or whatever</li>
-    <li>kaboom game example https://www.youtube.com/watch?v=cowIZWASJNs</li>
-    <li>devrel video example geosearch https://www.youtube.com/watch?v=ZmzuIsWwAzM</li>
-    <li>my redis youtube playlist https://www.youtube.com/playlist?list=PL83Wfqi-zYZFCjAZZTB9UaBARIvH9YsC1</li>
-    <li>pycon talk as example https://www.youtube.com/watch?v=VjFS-_H10bw</li>
+    <li>Reponsible for delivering high quality technical content, telling the story of Redis through the medium of video, well-documented example repositories on GitHub, blogging, and speaking at conferences and to meetup groups and customers.  Examples of my work:</li>
+    <ul>
+        <li>Designed, delivered and coded an online workshop for the Redis Days 2022 series of events.  Video: <a href="https://www.youtube.com/watch?v=PPT1FElAS84" target="_blank">https://www.youtube.com/watch?v=PPT1FElAS84</a>.</li>
+        <li>I wrote and delivered a conference talk about Probabilistic Data Structures for Pycon USA and Pycon Australia in 2021: <a href="https://www.youtube.com/watch?v=VjFS-_H10bw" target="_blank">https://www.youtube.com/watch?v=VjFS-_H10bw</a>.</li>
+        <li>An example GitHub repository containing demo code for using Redis keyspace notifications from Node.js: <a href="https://github.com/redis-developer/keyspace-notifications-node-redis" target="_blank">https://github.com/redis-developer/keyspace-notifications-node-redis</a>.</li>
+        <li>A video demonstrating how to use Redis with mapping / geospatial technologies: <a href="https://www.youtube.com/watch?v=ZmzuIsWwAzM" target="_blank">https://www.youtube.com/watch?v=ZmzuIsWwAzM</a>.</li>
+    </ul>
+    <li>As Principal Developer Advocate I found new and innovative ways to engage the developer community:</li>
+    <ul>
+        <li>Through the design and implementation of a game that was enhanced by community members as part of Hacktoberfest 2021: <a href="https://www.youtube.com/watch?v=cowIZWASJNs" target="_blank">https://www.youtube.com/watch?v=cowIZWASJNs</a>.</li>
+        <li>Using the Gitpod managed development environment to produce workshops in a way that allows students to engage with Redis products and SDKs without installing any software locally: <a href="https://github.com/redis-developer/gitpod-express-redis" target="_blank">https://github.com/redis-developer/gitpod-express-redis</a>.</li>
+    </ul>
+    <li>Delivered regular technical / live coding livestreams covering a range of Redis topics with Node.js, Python and Java.  Examples of my work can be found here:</li>
+    <ul>
+        <li>My Redis playlist on YouTube: <a href="https://www.youtube.com/playlist?list=PL83Wfqi-zYZFCjAZZTB9UaBARIvH9YsC1" target="_blank">https://www.youtube.com/playlist?list=PL83Wfqi-zYZFCjAZZTB9UaBARIvH9YsC1</a>.</li>
+        <li>I was a regular presenter for the Redis DEVcember series of short technical videos: <a href="https://developer.redis.com/devcember/" target="_blank">https://developer.redis.com/devcember/</a>.</li>
+    </ul>
+    <li>Acted as Developer Advocacy Manager for a nine month period, managing a team of four other developer advocates.</li>
+    <li>Acted as interim maintainer and developer advocate for the open source Redis OM Python client, writing code, merging community pull requests and giving talks and demonstrations of the client at meetups and on the Redis Twitch and YouTube channels.  Example video: <a href="https://www.youtube.com/watch?v=gi6jugJsKS4" target="_blank">https://www.youtube.com/watch?v=gi6jugJsKS4</a></li>
+    <li>Led the operation and development of Redis University - providing eight continuously available online courses and a certification exam to thousands of students with support in Discord, creating new courses and amending existing offerings.</li>
+    <li>Reviewed and edited code, blog posts, presentations and conference talks for other developer advocates on the team.</li>
+    <li>Worked with our Community Manager to secure and deliver collaborations with developer relations teams at other tech companies.</li>
+    <li>Regular code, documentation and example code contributor to multiple Redis projects including the Node Redis client, RediSearch, the Redis OM clients and the official Redis and Redis Enterprise documentation.</li>
+    <li>Represented the developer relations team at meetings with other departments, all-hands calls and sales kick off events.</li>
 </ul>
 <h4>Senior Curriculum Engineer</h4>
 <p><strong><a href="http://redis.com" target="_blank">Redis</a> | 2019-2021 | San Diego California USA (Fully Remote)</strong></p>
 <p>Redis is the company that develops the popular open source <a href="https://redis.io/" target="_blank">Redis</a> database and provides a cloud hosting platform for Redis Enterprise.  Redis is used by millions of developers as a cache, streaming engine and database.</p>
 <ul>
-    <li>Some achievement or whatever</li>
-    <li>Some achievement or whatever</li>
-    <li>Some achievement or whatever</li>
-    <li>Some achievement or whatever</li>
-    <li>Node crash course</li>
-    <li>102js</li>
+    <li>Worked as the teaching assistant for all eight of the Redis University online courses, helping and mentoring students via online forums and Discord.</li>
+    <li>Created workbooks and materials for in-person Redis training courses delivered by solutions architects.</li>
+    <li>Wrote scripts, source code, created and presented video content for two popular online Redis courses:</li>
+    <ul>
+        <li>Redis University "Redis for JavaScript Developers" online course: <a href="https://university.redis.com/courses/ru102js/" target="_blank">https://university.redis.com/courses/ru102js/</a>.</li>
+        <li>The Node.js Crash Course for the Redis Developer site: <a href="https://developer.redis.com/develop/node/node-crash-course/" target="_blank">https://developer.redis.com/develop/node/node-crash-course/</a>.</li>
+    </ul> 
+    <li>Contributed scripts, source code and wrote exam questions for the Redis University Redis Streams, Redis for Java Developers and Redis for Python Developers online courses.</li>
+    <li>Contributed code, example code and documentation to popular Redis client projects including Node Redis, Jedis and Redis Py.</li>
+    <li>Hired and mentored junior team members to build up their content creation and technical storytelling skills.</li>
+    <li>Designed and delivered technical workshops for online conferences, acted as teaching assistant for workshops created by others.</li>
+    <li>Designed and implemented a custom multi-origin website solution for Redis University that uses Cloudflare workers to seamlessly blend a third party learning platform portal with a static website.</li>
 </ul>
 <h4>Senior Platform Engineer</h4>
 <p><strong><a href="https://zesty.io" target="_blank">zesty.io</a> | 2018-2019 | San Diego California USA</strong></p>
