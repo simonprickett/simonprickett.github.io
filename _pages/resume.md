@@ -4,20 +4,20 @@ permalink: "/resume/"
 ---
 <h2>Summary</h2>
 <p>I am a skilled Developer Relations practitioner with over 25 years of technical training, software architecture, team and product management and software development experience.</p>
-<p>Currently working as the Principal Developer Advocate for Redis, I enjoy technical storytelling through coding, writing and presenting: both on video and in person.  My role also includes an element of being amongst the first developers to use our products - using my experience in application development to help shape and fine tune the developer experience.</p>
+<p>Currently working as the Principal Developer Advocate for [Redis](Redis.com), I enjoy technical storytelling through coding, writing and presenting: both on video and in person.  My role also means I am amongst the first developers to use our products - using my application development expertise to help shape and fine-tune the developer experience.</p>
 <p>I regularly create software and hardware projects, and write and publish videos about them on my personal website at <a href="https://simonprickett.dev" target="_blank">https://simonprickett.dev</a>.  I am particularly interested in APIs and the Internet of Things.</p>
-<p>You'll also find my coding projects on GitHub at <a href="https://github.com/simonprickett" target="_blank">https://github.com/simonprickett</a>.  My work has been featured in the Arduino, Adafruit and Cloudflare blogs.</p>
+<p>You'll also find my project code on GitHub at <a href="https://github.com/simonprickett" target="_blank">https://github.com/simonprickett</a>.  My work has been featured in the Arduino, Adafruit and Cloudflare blogs.</p>
 <hr/>
 <h2>Contact Details</h2>
 <p>Reach me by email at <code>simon@crudworks.org</code>.  References are available on request.</p>
 <hr/>
 <h2>Technical Skills</h2>
 <ul>
-    <li>My primary skill is deep technical storytelling and communication - introducing developers to concepts and ideas in ways that appeal to them through engaging example applications that are well documented and explained in workshops, videos, blogs and conference talks.</li>
-    <li>I am a polyglot mostly backend developer that can usually be found developing with Node.js, although I frequently also produce code and content targeted at Python and Java Developers.  I have experience working in C/C++ and familiarity with a number of other programming languages and frameworks including Flask and Express.</li>
+    <li>My primary skill is deep technical storytelling and communication. I introduce developers to concepts and ideas in ways that appeal to them through engaging example applications that are well documented and explained in workshops, videos, blogs and conference talks.</li>
+    <li>I am a polyglot, mostly backend, developer that can usually be found developing with Node.js, although I frequently also produce code and content targeted at Python and Java Developers.  I have experience working in C/C++ and familiarity with a number of other programming languages and frameworks including Flask and Express.</li>
     <li>I've worked with a range of databases, most recently/notably Redis but also Firebase, Postgres, MySQL and Oracle.</li>
     <li>I am familiar with AWS and Google Cloud... particularly the serverless functions and AppEngine products.</li>
-    <li>I am not a front end developer, however I am comfortable working with HTML, JavaScript, CSS and frameworks such as Bulma.</li>
+    <li>I am not a front end developer, however, I am comfortable working with HTML, JavaScript, CSS and frameworks such as Bulma.</li>
     <li>I like use a Kanban approach to managing my work, and enjoy working with tools from GitHub, Atlassian and Pivotal Labs to plan and communicate work.</li>
     <li>I have extensive experience with designing and implementing complex systems and contributing to open source projects.</li>
 </ul>
@@ -27,7 +27,7 @@ permalink: "/resume/"
 <p><strong><a href="http://redis.com" target="_blank">Redis</a> | 2021-present | San Diego California USA and Nottingham England (Fully Remote)</strong></p>
 <p>Redis is the company that develops the popular open source <a href="https://redis.io/" target="_blank">Redis</a> database and provides a cloud hosting platform for Redis Enterprise.  Redis is used by millions of developers as a cache, streaming engine and database.</p>
 <ul>
-    <li>Reponsible for delivering high quality technical content, telling the story of Redis through the medium of video, well-documented example repositories on GitHub, blogging, and speaking at conferences and to meetup groups and customers.  Examples of my work:</li>
+    <li> I am responsible for delivering high quality technical content, telling the story of Redis through the medium of video, well-documented example repositories on GitHub, blogging, and speaking at conferences and to meetup groups and customers.  Examples of my work:</li>
     <ul>
         <li>Designed, delivered and coded an online workshop for the Redis Days 2022 series of events.  Video: <a href="https://www.youtube.com/watch?v=PPT1FElAS84" target="_blank">https://www.youtube.com/watch?v=PPT1FElAS84</a>.</li>
         <li>I wrote and delivered a conference talk about Probabilistic Data Structures for Pycon USA and Pycon Australia in 2021: <a href="https://www.youtube.com/watch?v=VjFS-_H10bw" target="_blank">https://www.youtube.com/watch?v=VjFS-_H10bw</a>.</li>
@@ -44,13 +44,15 @@ permalink: "/resume/"
         <li>My Redis playlist on YouTube: <a href="https://www.youtube.com/playlist?list=PL83Wfqi-zYZFCjAZZTB9UaBARIvH9YsC1" target="_blank">https://www.youtube.com/playlist?list=PL83Wfqi-zYZFCjAZZTB9UaBARIvH9YsC1</a>.</li>
         <li>I was a regular presenter for the Redis DEVcember series of short technical videos: <a href="https://developer.redis.com/devcember/" target="_blank">https://developer.redis.com/devcember/</a>.</li>
     </ul>
-    <li>Acted as Developer Advocacy Manager for a nine month period, managing a team of four other developer advocates.</li>
+    <li>Acted as Developer Advocacy Manager for a nine-month period, managing a team of four developer advocates.</li>
     <li>Acted as interim maintainer and developer advocate for the open source Redis OM Python client, writing code, merging community pull requests and giving talks and demonstrations of the client at meetups and on the Redis Twitch and YouTube channels.  Example video: <a href="https://www.youtube.com/watch?v=gi6jugJsKS4" target="_blank">https://www.youtube.com/watch?v=gi6jugJsKS4</a></li>
-    <li>Led the operation and development of Redis University - providing eight continuously available online courses and a certification exam to thousands of students with support in Discord, creating new courses and amending existing offerings.</li>
+    <li>I lead the operation and development of Redis University - providing eight continuously available online courses and a certification exam to thousands of students with support in Discord, creating new courses and amending existing offerings.</li>
     <li>Reviewed and edited code, blog posts, presentations and conference talks for other developer advocates on the team.</li>
-    <li>Worked with our Community Manager to secure and deliver collaborations with developer relations teams at other tech companies.</li>
+    <li>Worked with our Developer Community Manager to secure and deliver collaborations with developer relations teams at other tech companies.</li>
     <li>Regular code, documentation and example code contributor to multiple Redis projects including the Node Redis client, RediSearch, the Redis OM clients and the official Redis and Redis Enterprise documentation.</li>
-    <li>Represented the developer relations team at meetings with other departments, all-hands calls and sales kick off events.</li>
+    <li>Represented the developer relations team at meetings with other departments, all-hands calls and sales kick-off events.</li>
+    <li>Manage the relationship between Redis and our online training platform provider.</li>
+
 </ul>
 <h4>Senior Curriculum Engineer</h4>
 <p><strong><a href="http://redis.com" target="_blank">Redis</a> | 2019-2021 | San Diego California USA (Fully Remote)</strong></p>
@@ -68,6 +70,7 @@ permalink: "/resume/"
     <li>Hired and mentored junior team members to build up their content creation and technical storytelling skills.</li>
     <li>Designed and delivered technical workshops for online conferences, acted as teaching assistant for workshops created by others.</li>
     <li>Designed and implemented a custom multi-origin website solution for Redis University that uses Cloudflare workers to seamlessly blend a third party learning platform portal with a static website.</li>
+    <li>Graded examination submissions from candidates and awarded certification to those who reached the required standard.</li>
 </ul>
 <h4>Senior Platform Engineer</h4>
 <p><strong><a href="https://zesty.io" target="_blank">zesty.io</a> | 2018-2019 | San Diego California USA</strong></p>
@@ -97,8 +100,8 @@ permalink: "/resume/"
     <li>Full stack architect/developer building rapid prototypes for customers using Node.js, MongoDB, Postgres, Swagger API generation.</li>
     <li>Technical product management for customer projects, planning using Pivotal Tracker.</li>
     <li>Assisted with RFP responses and sales meetings with customers.</li>
-    <li>Spoke at Meetups and other groups on behalf of the company, usually about Apache Cordova hybrid native application development topics.</li>
-    <li>Helped to organize and find speakers for JavaScript/Node.js Meetup groups in Washington DC, New York City and Rhode Island.</li>
+    <li>Spoke at meetups and other groups on behalf of the company, usually about Apache Cordova hybrid native application development topics.</li>
+    <li>Helped to organize and find speakers for JavaScript/Node.js meetup groups in Washington DC, New York City and Rhode Island.</li>
 </ul>
 <h4>Director of Enterprise Mobility</h4>
 <p><strong><a href="https://hinttech.com/">hinttech</a> (now <a href="https://tahzoo.com/" target="_blank">Tahzoo</a>) | 2012-2013 | Washington DC USA (Fully Remote)</strong></p>
@@ -130,7 +133,7 @@ permalink: "/resume/"
 </ul>
 <h4>Application Developer / Architect</h4>
 <p><strong><a href="https://www.customs.govt.nz/" target="_blank">Te Mana Ārai o Aotearoa (New Zealand Customs Service)</a> | 2008-9 | Wellington New Zealand</strong></p>
-<p>The New Zealand Customs Service protects and promotes New Zealand through world class border management.</p>
+<p>The New Zealand Customs Service protects and promotes New Zealand through world-class border management.</p>
 <ul>
     <li>Designed and developed applications for management of goods and passengers across the New Zealand border (Java, WebSphere).</li>
     <li>Built and tested the integration between New Zealand's proprietary passport control systems and Sagem SmartGate biometric border control gates and kiosks.  Demonstrated the system to the Prime Minister of New Zealand.</li>
@@ -160,7 +163,7 @@ permalink: "/resume/"
 <p><strong>Sirenic | 2000-2003 | Southampton England & Palo Alto California USA</strong></p>
 <p>Sirenic was a technology startup pioneering intelligent mobile web and spoken voice interfaces.</p>
 <ul>
-    <li>Developed the company's product training for administrators, developers and end-user and delivered this in person around the world.</li>
+    <li>Developed the company's product training for administrators, developers and end-users and delivered this in person around the world.</li>
     <li>Contributed to the design, implementation and product management for the company's MobilePA product - an early mobile web portal that had WAP, VoiceXML, native application and web interfaces.</li>
     <li>Part of the team that presented the company's vision and product to investors, successfully raising funds from the investment arm of Carphone Warehouse.</li>
     <li>Mentored junior developers in Java, JavaScript, HTML and voice technologies.</li>
