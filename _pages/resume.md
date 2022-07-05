@@ -3,11 +3,24 @@ title: "Simon Prickett, Experienced Developer Relations Leader"
 permalink: "/resume/"
 ---
 <h2>Summary</h2>
-<p>TODO overview and portfolio links...</p>
-<p>I regularly create software and hardware projects, and write and publish videos about them on my website at <a href="https://simonprickett.dev" target="_blank">https://simonprickett.dev</a>.  You'll also find my coding projects on GitHub at <a href="https://github.com/simonprickett" target="_blank">https://github.com/simonprickett</a>.  My projects have been featured in the Arduino, Adafruit and Cloudflare blogs.</p>
+<p>I am a skilled Developer Relations practitioner with over 25 years of technical training, software architecture, team and product management and software development experience.</p>
+<p>Currently working as the Principal Developer Advocate for Redis, I enjoy technical storytelling through coding, writing and presenting: both on video and in person.  My role also includes an element of being amongst the first developers to use our products - using my experience in application development to help shape and fine tune the developer experience.</p>
+<p>I regularly create software and hardware projects, and write and publish videos about them on my personal website at <a href="https://simonprickett.dev" target="_blank">https://simonprickett.dev</a>.  I am particularly interested in APIs and the Internet of Things.</p>
+<p>You'll also find my coding projects on GitHub at <a href="https://github.com/simonprickett" target="_blank">https://github.com/simonprickett</a>.  My work has been featured in the Arduino, Adafruit and Cloudflare blogs.</p>
 <hr/>
 <h2>Contact Details</h2>
 <p>Reach me by email at <code>simon@crudworks.org</code>.  References are available on request.</p>
+<hr/>
+<h2>Technical Skills</h2>
+<ul>
+    <li>My primary skill is deep technical storytelling and communication - introducing developers to concepts and ideas in ways that appeal to them through engaging example applications that are well documented and explained in workshops, videos, blogs and conference talks.</li>
+    <li>I am a polyglot mostly backend developer that can usually be found developing with Node.js, although I frequently also produce code and content targeted at Python and Java Developers.  I have experience working in C/C++ and familiarity with a number of other programming languages and frameworks including Flask and Express.</li>
+    <li>I've worked with a range of databases, most recently/notably Redis but also Firebase, Postgres, MySQL and Oracle.</li>
+    <li>I am familiar with AWS and Google Cloud... particularly the serverless functions and AppEngine products.</li>
+    <li>I am not a front end developer, however I am comfortable working with HTML, JavaScript, CSS and frameworks such as Bulma.</li>
+    <li>I like use a Kanban approach to managing my work, and enjoy working with tools from GitHub, Atlassian and Pivotal Labs to plan and communicate work.</li>
+    <li>I have extensive experience with designing and implementing complex systems and contributing to open source projects.</li>
+</ul>
 <hr/>
 <h2>Work Experience</h2>
 <h4>Principal Developer Advocate</h4>
@@ -172,9 +185,6 @@ permalink: "/resume/"
     <li>Ported large C++ applications from HP-UX to Solaris, AIX, Windows NT and SCO UNIX ensuring correct behaviour on each operating system.</li>
     <li>System administrator for a mixed fleet of HP-UX, Solaris, AIX, Windows NT and SCO UNIX servers and workstations.</li>
 </ul>
-<hr/>
-<h2>Technical Skills</h2>
-<p>TODO...</p>
 <hr/>
 <h2>Education and Professional Certifications</h2>
 <h4>Education:</h4>
