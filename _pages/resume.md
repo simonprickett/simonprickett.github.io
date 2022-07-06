@@ -18,7 +18,7 @@ permalink: "/resume/"
     <li>I've worked with a range of databases, most recently/notably Redis but also Firebase, Postgres, MySQL and Oracle.</li>
     <li>I am familiar with AWS and Google Cloud... particularly the serverless functions and AppEngine products.</li>
     <li>I am not a front end developer, however, I am comfortable working with HTML, JavaScript, CSS and frameworks such as Bulma.</li>
-    <li>I like use a Kanban approach to managing my work, and enjoy working with tools from GitHub, Atlassian and Pivotal Labs to plan and communicate work.</li>
+    <li>I like to use a Kanban approach to managing my work, and enjoy working with tools from GitHub, Atlassian and Pivotal Labs to plan and communicate work.</li>
     <li>I have extensive experience with designing and implementing complex systems and contributing to open source projects.</li>
 </ul>
 <hr/>
