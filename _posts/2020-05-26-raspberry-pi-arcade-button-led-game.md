@@ -34,4 +34,4 @@ This was a fun, quick project to throw together and I enjoyed using the food con
 
 ---
 
-Are you making fun stuff with single board computers and random bits of hardware?  I'd love to hear about it - [find me on Twitter](https://twitter.com/simon_prickett) or in the comments below!
+Are you making fun stuff with single board computers and random bits of hardware?  I'd love to hear about it - get in touch via the [Contact page](https://simonprickett.dev/contact/).

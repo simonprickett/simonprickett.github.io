@@ -205,4 +205,4 @@ The darker “PLUGIN READY!” area is the `<div>` that serves as a toast implem
 
 Using Cordova’s browser platform gives us a lot of development, testing and deployment flexibility when writing hybrid apps. Extending plugins to also support it makes that experience a lot more useful, and can avoid the need to add platform specific conditional code to the core application logic. Hopefully this post showed that adding browser platform support to a plugin can be quick and painless. Feel free to browse our updated “ModusEcho” plugin [GitHub repo](https://github.com/ModusCreateOrg/cordova-plugin-example), or install the [updated plugin from npm](https://www.npmjs.com/package/modusecho).
 
-If you know someone who would find this article informative, please share and [follow me on Twitter](https://twitter.com/simon_prickett).
+If you know someone who would find this article informative, please share it widely!

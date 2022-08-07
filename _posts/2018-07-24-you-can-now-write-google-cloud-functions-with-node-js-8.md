@@ -56,4 +56,4 @@ And that’s all there is to it!
 
 If you’d like to use or study the code from this article feel free: I’ve [put it on GitHub for you](https://github.com/simonprickett/google-cloud-functions-node-8). Google’s documentation for the Node.js 8 Cloud Functions runtime can be [read here](https://cloud.google.com/functions/docs/concepts/nodejs-8-runtime) — this includes important information about a signature change for background functions that use the Node.js 8 environment. If you’re interested in tracking which features became available in which Node release, I recommend [node.green](https://node.green/) as an excellent resource.
 
-Thanks for reading, please give me a follow on [Twitter](https://twitter.com/simon_prickett) if you’d like to see more in future! I write about a range of technologies including Node.js, Go, Python, Raspberry Pi and Amazon Alexa.
+Thanks for reading!

@@ -248,4 +248,4 @@ And again, with the optional query parameter `details=true` to get more informat
 
 In a future video and accompanying article, I'll show you how to add some [Express middleware](http://expressjs.com/en/guide/using-middleware.html) to validate parameters passed to routes, and how to protect some routes by requiring a valid API token supplied in a HTTP header.
 
-What are you building with Express?  Let me know on [Twitter](https://twitter.com/simon_prickett).  See you for part 2 in the near future!
+What are you building with Express?  Let me know via the [Contact page](https://simonprickett.dev/contact/).  See you for part 2 in the near future!

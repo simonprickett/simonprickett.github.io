@@ -147,4 +147,4 @@ Once deployed, the Arduino should restart and being executing the code... if all
 
 ---
 
-I'd love to see what Arduino projects you're working on - [find me on Twitter](https://twitter.com/simon_prickett) if you'd like to share!
+I'd love to see what Arduino projects you're working on - get in touch via the [Contact page](https://simonprickett.dev/contact/) if you'd like to share!
