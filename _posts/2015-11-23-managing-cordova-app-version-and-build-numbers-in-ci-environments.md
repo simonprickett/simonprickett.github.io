@@ -111,4 +111,4 @@ I run this as a CI build step prior to running the Cordova build commands.
 
 Feel free to [check out my script on Github](https://github.com/simonprickett/cordovasetversion), and use it as you need.
 
-There may be a better way of achieving this, but this is working for me right now. If you have a better idea, or are achieving this in some other way, please do let me know in the comments or [on Twitter](https://twitter.com/simon_prickett).
+There may be a better way of achieving this, but this is working for me right now. If you have a better idea, or are achieving this in some other way, let me know - get in touch via the [Contact page](https://simonprickett.dev/contact/); we’d love to hear from you.

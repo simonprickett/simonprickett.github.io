@@ -393,6 +393,6 @@ If you found this useful, and you’d like to view the complete code for our “
 
 Are you already using Swift to add native functionality to your Cordova hybrid apps, or currently considering doing so? We’d love to hear from you.
 
-If you know someone who would find this article informative, please share, and consider [following me on Twitter](https://twitter.com/simon_prickett).
+If you know someone who would find this article informative, please share it widely!
 
 

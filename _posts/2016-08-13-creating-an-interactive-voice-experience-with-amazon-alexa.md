@@ -329,6 +329,6 @@ Once we’re happy with our skill, we could go ahead and submit it to Amazon for
 
 If you are interested in exploring the code for this example skill some more, it’s available from our [Github repo](https://github.com/ModusCreateOrg/alexa-skill-demo). Amazon also provides excellent reference materials and tutorials for Alexa developers, including a walk through of creating a Lambda function, interaction model and sample utterances [here](https://developer.amazon.com/appsandservices/solutions/alexa/alexa-skills-kit/docs/developing-an-alexa-skill-as-a-lambda-function).
 
-If you know someone who would find this article informative, please share! Also please consider [following me on Twitter](https://twitter.com/simon_prickett).
+If you know someone who would find this article informative, please share!
 
 *(Main Image by [Peyri Herrera](https://www.flickr.com/photos/peyri/10207629/in/photostream/) via Flickr, [Creative Commons License](https://creativecommons.org/licenses/by-nd/2.0/)).*

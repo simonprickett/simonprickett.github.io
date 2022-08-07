@@ -72,6 +72,6 @@ Here's a quick demo video showing this setup in use to report when a car passes 
 
 ---
 
-Are you doing anything interesting with the Pi and sensors?  If so, I'd love to hear about it.  Leave me a note in the comments below, or find me on [Twitter](https://twitter.com/simon_prickett).
+Are you doing anything interesting with the Pi and sensors?  If so, I'd love to hear about it.  Get in touch via the [Contact page](https://simonprickett.dev/contact/).
 
 _(Main photo by [David Anderson](https://unsplash.com/@digitalartsmedia?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/industrial-laser?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText))_

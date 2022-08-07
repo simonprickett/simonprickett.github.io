@@ -165,4 +165,4 @@ I’ve put the [full source code on GitHub](https://github.com/simonprickett/dot
 
 Main Photo by [Henrikas Mackevicius](https://www.pexels.com/@henrix) from [Pexels](https://pexels.com).
 
-I’d love to hear what you’re up to with the Raspberry Pi — [find me on Twitter](https://twitter.com/simon_prickett). If you enjoyed this article, please share it far and wide!
+I’d love to hear what you’re up to with the Raspberry Pi — get in touch via the [Contact page](https://simonprickett.dev/contact/). If you enjoyed this article, please share it far and wide!

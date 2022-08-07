@@ -23,7 +23,6 @@ authors:
       avatar:         assets/images/simon.jpg
       bio:            "Experienced software professional."
       email:          simon@crudworks.org
-      twitter:        https://twitter.com/simon_prickett
  
 # Defaults
 defaults:
@@ -51,7 +50,6 @@ paginate: 10
 
 # SEO Plugin
 twitter:
-  username: simon_prickett
   card: summary_large_image
 
 author: Simon Prickett
@@ -60,7 +58,6 @@ tagline: The personal website of Simon Prickett.
 social:
   name: Simon Prickett
   links:
-    - https://twitter.com/simon_prickett
     - https://github.com/simonprickett
 
 lang: en_US
