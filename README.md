@@ -15,6 +15,6 @@ simonprickettgithubio-jekyll-1  |     Server address: http://0.0.0.0:4000/
 simonprickettgithubio-jekyll-1  |   Server running... press ctrl-c to stop.
 ```
 
-The site should then be available at `http://localhost:4000`.
+The site should then be available at [`http://localhost:4000`](http://localhost:4000).
 
 Jekyll watches for changes and will restart whenever you save an existing file or add new ones.
