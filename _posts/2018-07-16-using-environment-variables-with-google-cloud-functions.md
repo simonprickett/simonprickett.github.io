@@ -173,4 +173,4 @@ will not.
 
 If you’d like to use or study the code from this article feel free: I’ve [put it on GitHub](https://github.com/simonprickett/google-cloud-functions-environment-variables) for you.
 
-Thanks for reading, please give me a follow on [Twitter](https://twitter.com/simon_prickett) if you’d like to see more in future! I write about a range of technologies including Node.js, Go, Python, Raspberry Pi and Amazon Alexa.
+Thanks for reading!

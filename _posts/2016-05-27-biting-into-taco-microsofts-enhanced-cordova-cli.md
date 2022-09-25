@@ -198,6 +198,6 @@ Microsoft offers some useful enhancements for developers working with Cordova. W
 
 The live reload and device sync features are a great productivity boost. There is also the ability to use a remote build server which allows developers working on Windows machines to participate in building apps that need to run on iOS. In this quick look at TACO, we didn’t cover all of its features or integration with the cross platform Visual Studio Code editor. For more details we’d recommend you check out the [official documentation](http://taco.tools/index.html#get-started).
 
-Which tools do you use to be productive when building Cordova apps? We’d love to hear from you. If you know someone who would find this article informative, please share, and [follow me on Twitter](https://twitter.com/simon_prickett).
+Which tools do you use to be productive when building Cordova apps? We’d love to hear from you. If you know someone who would find this article informative, please share it widely!
 
 *(Feature image by [Ben Tesch](https://www.flickr.com/photos/magnetbox/) via Flickr, [Creative Commons License](https://creativecommons.org/licenses/by/2.0/).*

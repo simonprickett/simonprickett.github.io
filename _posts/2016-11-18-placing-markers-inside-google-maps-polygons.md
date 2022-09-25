@@ -255,4 +255,4 @@ Ours is a very simple solution that accomplishes what we needed from it for our 
 
 There may, however, be cases where you need a more exact "center point" than this will offer, or something that doesn’t depend on Google Maps. The MapBox team recently wrote a [blog post](https://www.mapbox.com/blog/polygon-center/) about an algorithm they developed, and they offer a library that finds the point inside the polygon that’s farthest from an edge using a recursive algorithm, without a Google Maps dependency.
  
-Hopefully you found this informative and useful, and can maybe have fun using the Google Maps Geometry library in your own projects.  I've love to hear how you get on - [find me on Twitter](https://twitter.com/simon_prickett). If you enjoyed this article, please share it far and wide!
+Hopefully you found this informative and useful, and can maybe have fun using the Google Maps Geometry library in your own projects.  I've love to hear how you get on - get in touch via the [Contact page](https://simonprickett.dev/contact/). If you enjoyed this article, please share it far and wide!

@@ -242,7 +242,7 @@ Now you've read about how this example was built, you might want to watch the vi
 
 If you'd like to try this project out without building your own flow from scratch, I used Node RED's export option (in the main menu) to generate a JSON file for mine and [made it available on GitHub](https://github.com/simonprickett/raspberry-pi-traffic-lights-node-red).  You should be able to take this and use the import option (also in the main menu) to load it up and try it out on your own Pi.  Also, this was my very first attempt at using Node RED, so if you think I'm doing it wrong and can offer some better ideas I'd love to hear from you in the comments too!
 
-Hope you enjoyed this article and accompanying video!  Please [follow me on Twitter](https://twitter.com/intent/user?screen_name=simon_prickett) if you're interested in more Raspberry Pi, IoT and general coding content.
+Hope you enjoyed this article and accompanying video!
 
 
 

@@ -19,7 +19,7 @@ I decided I wanteed to build some projects out that used a more local data sourc
   <figcaption class="figure-caption text-center">Live display board at my local bus stop (shows other operators too).</figcaption>
 </figure>
 
-There must be some sort of data feed driving there, but I wasn't able to find a way that anyone could get at this data via an API. The same applied to the tram network.  So, I decided I'd use the age old technique of [screen scraping](https://en.wikipedia.org/wiki/Data_scraping#Screen_scraping) to build a small API that would tell me which buses are coming, when they're expected to arrive, and to be able to do some basic filtering of the data.  For example, I might want to see only buses expected in the next 10 minutes.
+There must be some sort of data feed driving these, but I wasn't able to find a way that anyone could get at this data via an API. The same applied to the tram network.  So, I decided I'd use the age old technique of [screen scraping](https://en.wikipedia.org/wiki/Data_scraping#Screen_scraping) to build a small API that would tell me which buses are coming, when they're expected to arrive, and to be able to do some basic filtering of the data.  For example, I might want to see only buses expected in the next 10 minutes.
 
 To build such an API, I needed some sort of cloud hosted runtime that would allow me to host code that could:
 

@@ -91,4 +91,4 @@ Note that because Redis is accessed as a server across a network, all command in
 
 If you're interested in playing with this concept some more, I've made my code freely available on GitHub [here](https://github.com/simonprickett/redis-sscan-with-generator).  If you need to install Redis, you can get [started with that here](https://redis.io/download).
 
-Thanks for reading, I'd love to hear about what you're using generators and/or Redis for!  Hit me up in the comments or [on Twitter](https://twitter.com/simon_prickett).
+Thanks for reading, I'd love to hear about what you're using generators and/or Redis for!  Get in touch via the [Contact page](https://simonprickett.dev/contact/).

@@ -380,4 +380,4 @@ $ cordova emulate android
 $ cordova run browser
 ```
 
-Hopefully you’ve found this exploration of a handy Cordova feature useful, and we’d love to hear if you plan to use it in your own apps. If you know someone who would find this article informative, please share and consider [following me on Twitter](https://twitter.com/simon_prickett).
+Hopefully you’ve found this exploration of a handy Cordova feature useful, and we’d love to hear if you plan to use it in your own apps. If you know someone who would find this article informative, please share it widely!

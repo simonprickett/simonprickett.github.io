@@ -64,4 +64,4 @@ And that’s all there is to it!
 
 If you’d like to use or study the code from this article feel free: [I’ve put it on GitHub for you](https://github.com/simonprickett/google-cloud-functions-go). Google’s announcement of beta support for Go in Cloud Functions can be read [here](https://cloud.google.com/blog/products/application-development/cloud-functions-go-1-11-is-now-a-supported-language). The announcement covers other topics that may be of interest too: using library code, and background Cloud Function development in Go.
 
-Thanks for reading, please give me a follow on [Twitter](https://twitter.com/simon_prickett) if you’d like to see more in future! I write about a range of technologies including Node.js, Go, Python, Raspberry Pi and Amazon Alexa.
+Thanks for reading!

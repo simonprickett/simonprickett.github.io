@@ -120,4 +120,4 @@ We have demonstrated that this can easily be fixed using the Xcodeproj Ruby Gem 
 
 To help you get your Cordova project builds automated, I’ve created an example project with the hook script configured, and have made it [available via GitHub](https://github.com/ModusCreateOrg/CordovaXcodeSchemeFix).
 
-Maybe you’ve hit similar issues with automating your Cordova workflow, or perhaps you’ve found some better solutions. Let us know in the comments or on [Twitter](https://twitter.com/simon_prickett); we’d love to hear from you.
+Maybe you’ve hit similar issues with automating your Cordova workflow, or perhaps you’ve found some better solutions. Let me know - get in touch via the [Contact page](https://simonprickett.dev/contact/); we’d love to hear from you.
