@@ -4,7 +4,6 @@ title:  "Playing with Raspberry Pi: Door Sensor Fun"
 categories: [ Raspberry Pi, Technology, IoT, Python ]
 image: assets/images/pi_door_sensor_main.jpg
 author: simon
-tags: [featured]
 ---
 I recently noticed that Adafruit sells low cost ($3.95) wired door sensors that basically act as a switch — if the magnet from one part of the sensor is placed in close proximity to the other part, the switch circuit closes. As the magnet in the part that you’d normally attach to a door moves away (because the door swings open), the switch circuit opens. If you’ve read my [previous Raspberry Pi post]({{ site.baseurl}}/playing-with-raspberry-pi-traffic-lights), you’ll know I have a few sets of traffic light LEDs, so I thought I’d see if I could do something with these and a door sensor...
 
