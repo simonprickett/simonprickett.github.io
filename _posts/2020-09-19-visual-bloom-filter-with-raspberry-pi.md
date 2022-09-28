@@ -4,7 +4,7 @@ title:  "Building a Visual Bloom Filter with Raspberry Pi, Python and Unicorn Ha
 categories: [ Python, Raspberry Pi, IoT, Programming ]
 image: assets/images/bloom_main.jpg
 author: simon
-tags: [sticky]
+tags: [featured]
 ---
 Bloom filters are a [probabilistic data structure](https://www.geeksforgeeks.org/introduction-to-the-probabilistic-data-structure/) that I've wanted to learn more about for a while.  When I started reading up on them, I found a lot of the material to be quite dry and theoretical, so I thought I'd try and implement one in hardware somehow and make my own visual learning aid.
 
