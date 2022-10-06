@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Things on Thursdays: A Live Streaming Series"
-categories: [ IoT, Programming, Raspberry Pi ]
+categories: [ IoT, Programming, Raspberry Pi, Python, Node.js, JavaScript ]
 image: assets/images/things_on_thursdays_main.jpg
 author: simon
 tags: [sticky]
@@ -90,6 +90,20 @@ In Episode 2, I've soldered headers to the Pi Pico W and connected it to a Seeed
 * [Headers for Raspberry Pi Pico](https://shop.pimoroni.com/products/pico-header-pack?variant=32374935715923).
 * [Seeed Studio Grove Starter Kit for Raspberry Pi Pico](https://www.seeedstudio.com/Grove-Starter-Kit-for-Raspberry-Pi-Pico-p-4851.html).
 * [Source code for this project on GitHub](https://github.com/simonprickett/raspberry-pi-pico-redis).
+
+### Episode 3
+
+In Episode 3, I add a light sensor to the existing temperature/humidity sensor on the Pi Pico W and stream data from that to Redis.  I then look at how to modify the Node.js code that reads from the stream to remember how far through it was so that if it crashes or gets restarted it picks up from where it left off rather than at the start of the stream.  I demonstrate how to use a Redis Sorted Set to model the 1:many relationship between sensor IDs and room IDs (one room can contain many sensors, one sensor can only live in one room) before finishing up by storing structured JSON documents in Redis representing the status of each room.
+
+<div class="embed-responsive embed-responsive-16by9">
+  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/0vw_vhouca8?start=15" allowfullscreen></iframe>
+</div><br/>
+
+**Resources:**
+
+* [YouTube - Redis Sorted Sets](https://www.youtube.com/watch?v=MUKlxdBQZ7g)
+* [Source code for this project on GitHub](https://github.com/simonprickett/raspberry-pi-pico-redis).
+
 
 ### What's Next?
 
