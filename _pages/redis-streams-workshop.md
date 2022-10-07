@@ -7,7 +7,7 @@ permalink: "/redis-streams-workshop/"
     <div class="row">
         <div class="col-md-12">
             <p class="lead">Thanks for attending my Redis Streams workshop!</p>
-            <p>Here's the supporting links that I shared during the session.</p>
+            <p>Here's the supporting links that I shared during the session.  Want me to run this workshop for your group?  Here's how to <a href="/contact">contact me</a>.</p>
             <ul>
                <li>The source code is available on <a href="https://github.com/redis-developer/redis-streams-hotel-jobs">GitHub</a>.</li>
                <li>Get a free instance of Redis in the cloud <a href="https://redis.com/try-free/">here</a>.</li>
