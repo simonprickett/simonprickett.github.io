@@ -14,6 +14,7 @@ permalink: "/redis-streams-workshop/"
                <li>Get a free instance of Redis in the cloud <a href="https://redis.com/try-free/" target="_blank">here</a>.</li>
                <li>Download RedisInsight <a href="https://redis.com/redis-enterprise/redis-insight" target="_blank">here</a>.</li>
                <li>Join the Redis Discord <a href="https://discord.gg/redis" target="_blank">here</a>.</li>
+               <li>Check out my weekly "Things on Thursdays" live stream series where I work on Redis / Internet of Things projects that ofen use streams.  Read all about it and see past episodes <a href="https://simonprickett.dev/things-on-thursdays-livestreams/">here</a>.</li>
             </ul>
             <p>And here's a video version of the workshop for your enjoyment!</p>
             <div class="embed-responsive embed-responsive-16by9">
