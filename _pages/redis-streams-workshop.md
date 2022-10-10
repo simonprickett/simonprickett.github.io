@@ -11,6 +11,7 @@ permalink: "/redis-streams-workshop/"
             <ul>
                <li>Start a workshop environment with GitPod by clicking <a href="https://gitpod.io/#/github.com/redis-developer/redis-streams-hotel-jobs/" target="_blank">here</a> (requires a GitHub account).</li>
                <li>The source code is available on <a href="https://github.com/redis-developer/redis-streams-hotel-jobs" target="_blank">GitHub</a>.</li>
+               <li>Download my slides as a PDF file <a href="https://simonprickett.dev/redis_streams_workshop_guides.pdf">here</a>.</li>
                <li>Get a free instance of Redis in the cloud <a href="https://redis.com/try-free/" target="_blank">here</a>.</li>
                <li>Download RedisInsight <a href="https://redis.com/redis-enterprise/redis-insight" target="_blank">here</a>.</li>
                <li>Join the Redis Discord <a href="https://discord.gg/redis" target="_blank">here</a>.</li>
