@@ -104,10 +104,23 @@ In Episode 3, I add a light sensor to the existing temperature/humidity sensor o
 * [YouTube - Redis Sorted Sets](https://www.youtube.com/watch?v=MUKlxdBQZ7g)
 * [Source code for this project on GitHub](https://github.com/simonprickett/raspberry-pi-pico-redis).
 
+### Episode 4
+
+In Episode 4, I address the issue of how to limit the memory consumed by the Stream of incoming sensor data, fix up some data type issues in the JSON documents and add a RediSearch index so that we can perform different sorts of query and aggregation over the dataset.
+
+<div class="embed-responsive embed-responsive-16by9">
+  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/MuaJzyUHmx0?start=20" allowfullscreen></iframe>
+</div><br/>
+
+**Resources:**
+
+* [The Redis XTRIM command](https://redis.io/commands/xtrim/).
+* [Storing, Querying and Indexing JSON at Speed](https://university.redis.com/courses/ru204/) - a course about RediSearch and JSON at Redis University.
+* [Source code for this project on GitHub](https://github.com/simonprickett/raspberry-pi-pico-redis).
 
 ### What's Next?
 
-This is an ongoing project, don't forget to check out the [Redis developer relations streaming schedule](https://developer.redis.com/redis-live/) to see when the next episode will be.  I'll update this page shortly after the next episode airs.
+This is an ongoing project, don't forget to check out the [Redis Developer Relations streaming schedule](https://developer.redis.com/redis-live/) to see when the next episode will be.  I'll update this page shortly after the next episode airs.
 
 ---
 *Main image: "Person using Appliance" by [Alexander Dummer on Pexels](https://www.pexels.com/photo/person-using-appliance-132700/).*
