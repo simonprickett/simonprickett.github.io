@@ -118,9 +118,23 @@ In Episode 4, I address the issue of how to limit the memory consumed by the Str
 * [Storing, Querying and Indexing JSON at Speed](https://university.redis.com/courses/ru204/) - a course about RediSearch and JSON at Redis University.
 * [Source code for this project on GitHub](https://github.com/simonprickett/raspberry-pi-pico-redis).
 
-### What's Next?
+### Episode 5
 
-This is an ongoing project, don't forget to check out the [Redis Developer Relations streaming schedule](https://developer.redis.com/redis-live/) to see when the next episode will be.  I'll update this page shortly after the next episode airs.
+In the 5th and final episode, I introduce a second Raspberry Pi Pico W running an LCD display and a small fan.  I show how we can control it using a Redis List to turn the fan on when the room needs cooling down.
+
+<div class="embed-responsive embed-responsive-16by9">
+  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ypQ4bjiKeRo?start=24" allowfullscreen></iframe>
+</div><br/>
+
+**Resources:**
+
+* [Redis Lists Explained](https://www.youtube.com/watch?v=PB5SeOkkxQc) - a fun YouTube explainer video.
+* [Redis Streams](https://university.redis.com/course/ru202) - a course about the Redis Streams data type at Redis University.
+* [Source code for this project on GitHub](https://github.com/simonprickett/raspberry-pi-pico-redis).
+
+## What's Next?
+
+This is an ongoing series of projects, don't forget to check out the [Redis Developer Relations streaming schedule](https://developer.redis.com/redis-live/) to see when the next episode will be.  I'll update this page shortly after each episode airs.
 
 ---
 *Main image: "Person using Appliance" by [Alexander Dummer on Pexels](https://www.pexels.com/photo/person-using-appliance-132700/).*
