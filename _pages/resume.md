@@ -29,8 +29,10 @@ permalink: "/resume/"
 <ul>
     <li> I am responsible for delivering high quality technical content, telling the story of Redis through the medium of video, well-documented example repositories on GitHub, blogging, and speaking at conferences and to meetup groups and customers.  Examples of my work:</li>
     <ul>
+        <li>A complete set of resources for a Redis Streams workshop that can be run entirely in the cloud: <a href="https://simonprickett.dev/redis-streams-workshop/" target="_blank">https://simonprickett.dev/redis-streams-workshop/</a>.</li>
+        <li>My weekly live streaming series "Things on Thursdays", where I build projects with hardware and code that use Redis and Internet of Things devices: <a href="https://simonprickett.dev/things-on-thursdays-livestreams/" target="_blank">https://simonprickett.dev/things-on-thursdays-livestreams/</a>.</li>
         <li>Designed, delivered and coded an online workshop for the Redis Days 2022 series of events.  Video: <a href="https://www.youtube.com/watch?v=PPT1FElAS84" target="_blank">https://www.youtube.com/watch?v=PPT1FElAS84</a>.</li>
-        <li>I wrote and delivered a conference talk about Probabilistic Data Structures for Pycon USA and Pycon Australia in 2021: <a href="https://www.youtube.com/watch?v=VjFS-_H10bw" target="_blank">https://www.youtube.com/watch?v=VjFS-_H10bw</a>.</li>
+        <li>I wrote and delivered a conference talk about Probabilistic Data Structures for Pycon USA and Pycon Australia in 2021 and Pycon MEA 2022: <a href="https://www.youtube.com/watch?v=VjFS-_H10bw" target="_blank">https://www.youtube.com/watch?v=VjFS-_H10bw</a>.</li>
         <li>An example GitHub repository containing demo code for using Redis keyspace notifications from Node.js: <a href="https://github.com/redis-developer/keyspace-notifications-node-redis" target="_blank">https://github.com/redis-developer/keyspace-notifications-node-redis</a>.</li>
         <li>A video demonstrating how to use Redis with mapping / geospatial technologies: <a href="https://www.youtube.com/watch?v=ZmzuIsWwAzM" target="_blank">https://www.youtube.com/watch?v=ZmzuIsWwAzM</a>.</li>
     </ul>
