@@ -132,6 +132,21 @@ In the 5th and final episode, I introduce a second Raspberry Pi Pico W running a
 * [Redis Streams](https://university.redis.com/course/ru202) - a course about the Redis Streams data type at Redis University.
 * [Source code for this project on GitHub](https://github.com/simonprickett/raspberry-pi-pico-redis).
 
+## CheerLights with Redis Streams, MQTT and Python
+
+In this project, I show how to show and track the current CheerLights color on a Pimoroni Unicorn Hat connected to a Raspberry Pi.  I subscribe to a topic on the CheerLights MQTT server, put the latest color into a Redis Stream and consume it on the Pi.
+
+<div class="embed-responsive embed-responsive-16by9">
+  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/j0TphaKoEVg?start=21" allowfullscreen></iframe>
+</div><br/>
+
+**Resources:**
+
+* [CheerLights blog about this project](https://cheerlights.com/learn-redis-streams-with-the-cheerlights-iot-project/)
+* [Redis Streams](https://university.redis.com/course/ru202) - a course about the Redis Streams data type at Redis University.
+* [Source code for this project on GitHub](https://github.com/simonprickett/cheerlights-with-redis-streams).
+
+
 ## What's Next?
 
 This is an ongoing series of projects, don't forget to check out the [Redis Developer Relations streaming schedule](https://developer.redis.com/redis-live/) to see when the next episode will be.  I'll update this page shortly after each episode airs.
