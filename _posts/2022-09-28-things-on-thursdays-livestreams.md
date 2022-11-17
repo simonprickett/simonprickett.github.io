@@ -146,6 +146,23 @@ In this project, I show how to show and track the current CheerLights color on a
 * [Redis Streams](https://university.redis.com/course/ru202) - a course about the Redis Streams data type at Redis University.
 * [Source code for this project on GitHub](https://github.com/simonprickett/cheerlights-with-redis-streams).
 
+## Synchronized Counting with Redis Keyspace Notifications and a 7 Segment Display
+
+### Episode 1
+
+This is a two week project in which I demonstrate how to count things using Redis, then synchronize multiple devices to display the current count.  In the first week, I look at doing this for a web interface with Node.js and Express:
+
+<div class="embed-responsive embed-responsive-16by9">
+  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/NJyR8FKb9aI?start=8" allowfullscreen></iframe>
+</div><br/>
+
+In the next instalment (scheduled for Thursday 24th November - [register for notifications](https://www.youtube.com/watch?v=Ad7zHs5ViWw)) I'll be building a counting interface using a Raspberry Pi, TM1637 7 segment display and some arcade buttons.
+
+**Resources:**
+
+* [Source code for this project on Github](https://github.com/simonprickett/redis-counter)
+* [TM1637 7 segment display - Arduino example](https://create.arduino.cc/projecthub/ryanchan/tm1637-digit-display-arduino-quick-tutorial-ca8a93)
+* [Redis Keyspace Notifications](https://redis.io/docs/manual/keyspace-notifications/)
 
 ## What's Next?
 
