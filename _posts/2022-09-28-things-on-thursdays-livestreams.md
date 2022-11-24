@@ -156,13 +156,26 @@ This is a two week project in which I demonstrate how to count things using Redi
   <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/NJyR8FKb9aI?start=8" allowfullscreen></iframe>
 </div><br/>
 
-In the next instalment (scheduled for Thursday 24th November - [register for notifications](https://www.youtube.com/watch?v=Ad7zHs5ViWw)) I'll be building a counting interface using a Raspberry Pi, TM1637 7 segment display and some arcade buttons.
-
 **Resources:**
 
 * [Source code for this project on Github](https://github.com/simonprickett/redis-counter)
 * [TM1637 7 segment display - Arduino example](https://create.arduino.cc/projecthub/ryanchan/tm1637-digit-display-arduino-quick-tutorial-ca8a93)
 * [Redis Keyspace Notifications](https://redis.io/docs/manual/keyspace-notifications/)
+
+### Episode 2
+
+In the second part of this two week project, I implement an additional counter and display using arcade buttons, a TM1637 7 digit display and a Raspberry Pi 3.
+
+<div class="embed-responsive embed-responsive-16by9">
+  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Ad7zHs5ViWw?start=22" allowfullscreen></iframe>
+</div><br/>
+
+**Resources:**
+
+* [Source code for this project on Github](https://github.com/simonprickett/redis-counter)
+* [TM1637 7 segment display - Arduino example](https://create.arduino.cc/projecthub/ryanchan/tm1637-digit-display-arduino-quick-tutorial-ca8a93)
+* [gpiozero library](https://gpiozero.readthedocs.io/en/stable/) used for the arcade buttons
+
 
 ## What's Next?
 
