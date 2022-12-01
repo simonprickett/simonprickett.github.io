@@ -176,6 +176,19 @@ In the second part of this two week project, I implement an additional counter a
 * [TM1637 7 segment display - Arduino example](https://create.arduino.cc/projecthub/ryanchan/tm1637-digit-display-arduino-quick-tutorial-ca8a93)
 * [gpiozero library](https://gpiozero.readthedocs.io/en/stable/) used for the arcade buttons
 
+## Wifi Setup with Raspberry Pi Pico W
+
+One of the problems associated with making and distributing IoT devices to consumers is dealing with having the consumer connect the device to their own wifi network.  This is especially problematic for headless devices that don't have displays or input mechanisms.  In this video, I look at how to use Pimoroni's Phew! templating system and a captive access portal to provision wifi credentials to a Raspberry Pi Pico W.  The code is in MicroPython.
+
+<div class="embed-responsive embed-responsive-16by9">
+  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Gzp9nLkqadg?start=22" allowfullscreen></iframe>
+</div><br/>
+
+**Resources:**
+
+* [Source code for this project on GitHub](https://github.com/simonprickett/phewap)
+* [Pimoroni Phew! templating engine and webserver](https://github.com/pimoroni/phew)
+* [Captive Portal / Access point article from Kev McAleer](https://www.kevsrobots.com/blog/phew-access-point.html)
 
 ## What's Next?
 
