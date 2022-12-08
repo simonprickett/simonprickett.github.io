@@ -190,6 +190,22 @@ One of the problems associated with making and distributing IoT devices to consu
 * [Pimoroni Phew! templating engine and webserver](https://github.com/pimoroni/phew)
 * [Captive Portal / Access point article from Kev McAleer](https://www.kevsrobots.com/blog/phew-access-point.html)
 
+## Node-RED with Redis
+
+### Episode 1
+
+Node-RED is a low code graphical programming environment, often used to describe event driven IoT systems.  In this first episode, I show how to build a flow that uses Redis Pub/Sub to model requests for room service at a hotel.  The code is in JavaScript.
+
+<div class="embed-responsive embed-responsive-16by9">
+  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/byt8jWg6M98?start=27" allowfullscreen></iframe>
+</div><br/>
+
+**Resources:**
+
+* [Source code for this project on GitHub](https://github.com/simonprickett/node-red-redis-hotel-jobs)
+* [Node-RED](https://nodered.org/)
+* [Node-RED extension for Redis](https://flows.nodered.org/node/node-red-contrib-redis)
+
 ## What's Next?
 
 This is an ongoing series of projects, don't forget to check out the [Redis Developer Relations streaming schedule](https://developer.redis.com/redis-live/) to see when the next episode will be.  I'll update this page shortly after each episode airs.
