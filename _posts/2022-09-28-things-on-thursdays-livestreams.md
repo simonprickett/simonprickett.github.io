@@ -206,6 +206,22 @@ Node-RED is a low code graphical programming environment, often used to describe
 * [Node-RED](https://nodered.org/)
 * [Node-RED extension for Redis](https://flows.nodered.org/node/node-red-contrib-redis)
 
+### Episode 2
+
+In this episode, I show Node-RED running on a Raspberry Pi, move my Redis instance to the cloud, move connection secrets out of the Node-RED flow into an environment variable and attach an illuminated arcade button to the flow.  The code is in JavaScript.
+
+<div class="embed-responsive embed-responsive-16by9">
+  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/r3yaVFN7Mzg?start=23" allowfullscreen></iframe>
+</div><br/>
+
+**Resources:**
+
+* [Source code for this project on GitHub](https://github.com/simonprickett/node-red-redis-hotel-jobs)
+* [Node-RED](https://nodered.org/)
+* [Node-RED extension for Redis](https://flows.nodered.org/node/node-red-contrib-redis)
+* [24mm Illuminated arcade button, blue](https://thepihut.com/products/mini-led-arcade-button-24mm-translucent-blue) - UK supplier ([USA click here](https://www.adafruit.com/product/3432))
+* [Arcade button quick wires](https://thepihut.com/products/arcade-button-quick-connect-wire-pairs-0-11-10-pack) - UK supplier ([USA click here](https://www.adafruit.com/product/1152))
+
 ## What's Next?
 
 This is an ongoing series of projects, don't forget to check out the [Redis Developer Relations streaming schedule](https://developer.redis.com/redis-live/) to see when the next episode will be.  I'll update this page shortly after each episode airs.
