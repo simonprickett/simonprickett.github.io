@@ -14,16 +14,63 @@ Blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah 
 
 Blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah.
 
+Airlines generally have maps of their route networks towards the back of the in flight magazine, or as posters in travel agencies (remember those?!).  I wanted to make something like this to maintain and share a record of places I've flown from/to as if I were an airline myself.  For example here's a classic map for Pan American airlines:
+
 <figure class="figure">
   <img src="{{ site.baseurl }}/assets/images/geodesic_maps_route_network.jpg" class="figure-img img-fluid" alt="Map of part of Pan American Airlines Route Network.">
   <figcaption class="figure-caption text-center">Map of part of Pan American Airlines Route Network.</figcaption>
 </figure>
 
+This seemed like the perfect data source to try out the geodesic lines feature with, so I made a JSON file containing data about all of the airports I've visited, and the flights I've taken between them.  The format of the file looks like this:
+
+```json
+{
+  "airports": {
+    "BOG": {
+      "name": "El Dorado International Airport",
+      "shortName": "Bogotá",
+      "location": {
+        "latitude": 4.7014128,
+        "longitude": -74.1466856
+      }
+    },
+    "IAD": {
+      "name": "Dulles International Airport",
+      "shortName": "Washington Dulles",
+      "location": {
+        "latitude": 38.9531162,
+        "longitude": -77.4587275
+      }
+    },
+    ... similar for each airport I have visited...
+  },
+  "flights": [
+    {
+      "airports": [
+        "IAD",
+        "BOG"
+      ],
+      "status": "current"
+    },
+    ... similar for each airport pair I have flown between...
+  ]
+}
+```
+
+In the excerpt above, we can see that I've got two airports: Washington Dulles USA and Bogotá El Dorado Colombia defined in the `airports` object.  Each airport's key is its three letter [IATA code](https://www.iata.org/en/publications/directories/code-search/).  For each airport, I'm storing a longer and shorter version of the airport's name, and it's latitude / longitude position so that it can be placed on the map.  Finally I'm using the `status` field to indicate if the route betwen the airports is one that my pretend airline currently operates (`current`), or one that's planned in the future (`planned`) A.K.A. a route I am aiming to fly on myself in the near future.  I'm not currently using the `status` field in this project, but wanted to capture it anyway.
+
+Here's the [completed file](https://raw.githubusercontent.com/simonprickett/airline-google-map/main/data/data.json), with all the routes that I can remember having flown on!
+
+What I wanted to do with this data was make an interactive route map that first showed all of the possible routes (like the Pan American example above) then allowed the user to click on an airport and see just the routes from that airport.  Like many airlines, I want my pretend one to operate on a [hub and spoke model](https://en.wikipedia.org/wiki/Airline_hub) and for the map to reflect that certain airports are hubs.  I decided to say that if an airport has 10 or more possible destinations I'll call that a "main" hub and show it in red on the map.  I'll call airports with 5-9 destinations "regional" hubs, showing those in green on the map.  Airports with less than 5 connections don't get any special status, and will be shown in yellow on the map.
+
 Blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah.
 
 <div id="map" style="height: 600px; width: 100%"></div>
 
-GitHub repo for this project https://github.com/simonprickett/airline-google-map
+
+TODO INSTRUCTIONS ON USING THE MAP...
+
+If you want to study this further or try running it yourself, I've made it [available on GitHub](https://github.com/simonprickett/airline-google-map) for your entertainment.  Don't forget that you'll need your own Google Maps API key.  [Let me know](https://simonprickett.dev/contact/) if you build anything based on this, I'd love to see it!
 
 ---
 *Main photograph by [Porapak Apichodilok on Pexels](https://www.pexels.com/photo/globe-on-sand-346696/).*
