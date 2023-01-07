@@ -21,6 +21,8 @@ Airlines generally have maps of their route networks towards the back of the in 
   <figcaption class="figure-caption text-center">Map of part of Pan American Airlines Route Network.</figcaption>
 </figure>
 
+## Route Map Data
+
 This seemed like the perfect data source to try out the geodesic lines feature with, so I made a JSON file containing data about all of the airports I've visited, and the flights I've taken between them.  The format of the file looks like this:
 
 ```json
@@ -63,12 +65,23 @@ Here's the [completed file](https://raw.githubusercontent.com/simonprickett/airl
 
 What I wanted to do with this data was make an interactive route map that first showed all of the possible routes (like the Pan American example above) then allowed the user to click on an airport and see just the routes from that airport.  Like many airlines, I want my pretend one to operate on a [hub and spoke model](https://en.wikipedia.org/wiki/Airline_hub) and for the map to reflect that certain airports are hubs.  I decided to say that if an airport has 10 or more possible destinations I'll call that a "main" hub and show it in red on the map.  I'll call airports with 5-9 destinations "regional" hubs, showing those in green on the map.  Airports with less than 5 connections don't get any special status, and will be shown in yellow on the map.
 
-Blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah.
+## Demonstration
+
+Before going into detail on how it works, here's the finished article that you can play with.
+
+---
 
 <div id="map" style="height: 600px; width: 100%"></div>
 
+---
 
-TODO INSTRUCTIONS ON USING THE MAP...
+Try moving around the map and clicking on different airports.  Clicking on an airport shows the routes to/from that airport, and a popup listing them all.  You can dismiss the popup to just see the routes.  TODO link to a bigger version of this running.
+
+# How it Works
+
+Blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah.
+
+# Try it Yourself!
 
 If you want to study this further or try running it yourself, I've made it [available on GitHub](https://github.com/simonprickett/airline-google-map) for your entertainment.  Don't forget that you'll need your own Google Maps API key.  [Let me know](https://simonprickett.dev/contact/) if you build anything based on this, I'd love to see it!
 
@@ -86,8 +99,8 @@ If you want to study this further or try running it yourself, I've made it [avai
     let currentLines = [];
     let currentInfoWindow;
 
-    const MAIN_HUB_NUM_DESTINATIONS = 10;
-    const REGIONAL_HUB_NUM_DESTINATIONS = 5;
+    const MAIN_HUB_NUM_DESTINATIONS = 9;
+    const REGIONAL_HUB_NUM_DESTINATIONS = 4;
 
     const getDestinationsForAirport = (airportCode) => {
       const destinations = [];
