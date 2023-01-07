@@ -99,8 +99,8 @@ If you want to study this further or try running it yourself, I've made it [avai
     let currentLines = [];
     let currentInfoWindow;
 
-    const MAIN_HUB_NUM_DESTINATIONS = 9;
-    const REGIONAL_HUB_NUM_DESTINATIONS = 4;
+    const MAIN_HUB_NUM_DESTINATIONS = 10;
+    const REGIONAL_HUB_NUM_DESTINATIONS = 5;
 
     const getDestinationsForAirport = (airportCode) => {
       const destinations = [];
@@ -141,10 +141,10 @@ If you want to study this further or try running it yourself, I've made it [avai
       let markerColor;
       let airportType;
 
-      if (destinations.length > MAIN_HUB_NUM_DESTINATIONS) {
+      if (destinations.length >= MAIN_HUB_NUM_DESTINATIONS) {
         markerColor = 'red';
         airportType = 'Main Hub';
-      } else if (destinations.length > REGIONAL_HUB_NUM_DESTINATIONS) {
+      } else if (destinations.length >= REGIONAL_HUB_NUM_DESTINATIONS) {
         markerColor = 'green';
         airportType = 'Regional Hub';
       } else {
