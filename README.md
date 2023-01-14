@@ -5,7 +5,7 @@ Simon Prickett's GitHub pages site.  Check out the live site at [https://simonpr
 Jekyll and the Ruby ecosystem are pretty brittle and hard to manage, so just use Docker to run this locally:
 
 ```
-docker compose up
+docker-compose up
 ```
 
 Then wait until you see:
