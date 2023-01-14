@@ -86,6 +86,34 @@ I love the way this looks as you zoom in and move around it.  Here's the view of
 
 # How it Works
 
+Here's a high level overview of how this works...
+
+## HTML
+
+The HTML is pretty simple, we just set up a `div` and give it a known ID (I went with `map` as that's what will live in it) and size it according to how big we want the map to be.  The only other things that we need are `script` tags to get the Google Maps API JavaScript file and a second JavaScript file containing the logic to build and manage our map.  The complete HTML document looks like this:
+
+```
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="initial-scale=1.0">
+    <meta charset="utf-8">
+    <title>Airline Map</title>
+  </head>
+  <body>
+    <h1>Airline Map</h1>
+    <hr/>
+    <div id="map" style="height: 600px; width: 100%"></div>
+    <script src="https://maps.googleapis.com/maps/api/js?libraries=geometry&key=%%GOOGLE_MAP_KEY%%"></script>
+    <script defer src="js/airline-google-map.js"></script>
+  </body>
+</html>
+```
+
+Note that we're specifically requesting the `geometry` functionality for the Google Maps API, and that we have to provide a key (I've used `%%GOOGLE_MAP_KEY%%` as a placeholder here).
+
+TODO where to get the key...
+
 Blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah.
 
 # Try it Yourself!
