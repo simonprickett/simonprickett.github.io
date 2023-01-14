@@ -75,7 +75,7 @@ Before going into detail on how it works, here's the finished article that you c
 
 ---
 
-Try moving around the map and clicking on different airports.  Clicking on an airport shows the routes to/from that airport, and a popup listing them all.  You can dismiss the popup to just see the routes.  TODO link to a bigger version of this running.
+Try moving around the map and clicking on different airports.  Clicking on an airport shows the routes to/from that airport, and a popup listing them all.  You can dismiss the popup to just see the routes.  View a bigger version of the map [here](/routemap).
 
 # How it Works
 
