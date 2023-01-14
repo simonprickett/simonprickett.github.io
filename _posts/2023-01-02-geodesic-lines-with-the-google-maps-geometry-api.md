@@ -77,6 +77,13 @@ Before going into detail on how it works, here's the finished article that you c
 
 Try moving around the map and clicking on different airports.  Clicking on an airport shows the routes to/from that airport, and a popup listing them all.  You can dismiss the popup to just see the routes.  View a bigger version of the map [here](/routemap).
 
+I love the way this looks as you zoom in and move around it.  Here's the view of "my United States network":
+
+<figure class="figure">
+  <img src="{{ site.baseurl }}/assets/images/geodesic_maps_usa_network.png" class="figure-img img-fluid" alt="A view of the USA network.">
+  <figcaption class="figure-caption text-center">A view of the USA network.</figcaption>
+</figure>
+
 # How it Works
 
 Blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah.
