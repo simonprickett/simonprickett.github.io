@@ -5,14 +5,16 @@ categories: [ JavaScript, Coding, Front End, Google Maps ]
 image: assets/images/geodesic_maps_main.jpg
 author: simon
 ---
-Blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah.
+Who doesn't like a good map?  I've always enjoyed working with data that lends itself to mapping, and have built a few interactive things with the Google Maps API before.  I'm also pretty interested in aviation and, as part of that, I keep a note of which airports I've flown between, which airlines and what type of aircraft I've travelled on.
+
+I thought it would be fun to use this as a data set to experiment with the [Google Maps Geometry API](https://developers.google.com/maps/documentation/javascript/geometry) and put a picture of my [favourite aircraft](https://en.wikipedia.org/wiki/Airbus_A340) on my website, so here we go...
 
 <figure class="figure">
   <img src="{{ site.baseurl }}/assets/images/geodesic_maps_a340_300.jpg" class="figure-img img-fluid" alt="An Airbus A340-300 aircraft.">
   <figcaption class="figure-caption text-center">An Airbus A340-300 aircraft.</figcaption>
 </figure>
 
-Blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah.
+Side note: If you want to try an A340-300 flight these days, [Lufthansa](https://www.lufthansa.com/gb/en/34p) is probably your best bet.  I flew on every one of Virgin Atlantic's A340-300s before they retired them :)
 
 Airlines generally have maps of their route networks towards the back of the in flight magazine, or as posters in travel agencies (remember those?!).  I wanted to make something like this to maintain and share a record of places I've flown from/to as if I were an airline myself.  For example here's a classic map for Pan American airlines:
 
@@ -20,6 +22,8 @@ Airlines generally have maps of their route networks towards the back of the in 
   <img src="{{ site.baseurl }}/assets/images/geodesic_maps_route_network.jpg" class="figure-img img-fluid" alt="Map of part of Pan American Airlines Route Network.">
   <figcaption class="figure-caption text-center">Map of part of Pan American Airlines Route Network.</figcaption>
 </figure>
+
+Blah blah something about geodesic lines in the Google Maps API... (https://gisgeography.com/great-circle-geodesic-line-shortest-flight-path/)
 
 ## Route Map Data
 
@@ -110,7 +114,7 @@ The HTML is pretty simple, we just set up a `div` and give it a known ID (I went
 </html>
 ```
 
-Note that we're specifically requesting the `geometry` functionality for the Google Maps API, and that we have to provide a key (I've used `%%GOOGLE_MAP_KEY%%` as a placeholder here).
+Note that we're specifically requesting the additional `geometry` library for the Google Maps API, and that we have to provide a key (I've used `%%GOOGLE_MAP_KEY%%` as a placeholder here).  Google doesn't include the geometry library by default, as I guess most maps use cases don't need it so they help to keep the overall page weight down by not loading it unless told to.
 
 TODO where to get the key...
 
