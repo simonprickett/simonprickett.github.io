@@ -116,7 +116,15 @@ The HTML is pretty simple, we just set up a `div` and give it a known ID (I went
 
 Note that we're specifically requesting the additional `geometry` library for the Google Maps API, and that we have to provide a key (I've used `%%GOOGLE_MAP_KEY%%` as a placeholder here).  Google doesn't include the geometry library by default, as I guess most maps use cases don't need it so they help to keep the overall page weight down by not loading it unless told to.
 
-TODO where to get the key...
+## Google Maps API Key
+
+TODO where to get the key and how to manage it...
+
+## Desired Functionality
+
+TODO
+
+## Implementing the Functionality in JavaScript
 
 Blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah.
 
