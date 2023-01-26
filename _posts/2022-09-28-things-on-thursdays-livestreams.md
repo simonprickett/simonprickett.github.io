@@ -222,6 +222,21 @@ In this episode, I show Node-RED running on a Raspberry Pi, move my Redis instan
 * [24mm Illuminated arcade button, blue](https://thepihut.com/products/mini-led-arcade-button-24mm-translucent-blue) - UK supplier ([USA click here](https://www.adafruit.com/product/3432))
 * [Arcade button quick wires](https://thepihut.com/products/arcade-button-quick-connect-wire-pairs-0-11-10-pack) - UK supplier ([USA click here](https://www.adafruit.com/product/1152))
 
+## More Redis Streams!
+
+### Episode 1
+
+In this first of two episodes for a new project, I demonstrate how Redis Streams Consumer Groups work.  We also look at how to determine the lag for a given consumer group using features added in Redis 7.
+
+<div class="embed-responsive embed-responsive-16by9">
+  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/NCvHfB7BhfQ?start=23" allowfullscreen></iframe>
+</div><br/>
+
+**Resources:**
+
+* [Source code for this project on GitHub](https://github.com/redis-developer/redis-streams-hotel-jobs)
+* [RU202: Redis Streams](https://nodered.org/), a free course at Redis University
+
 ## What's Next?
 
 This is an ongoing series of projects, don't forget to check out the [Redis Developer Relations streaming schedule](https://developer.redis.com/redis-live/) to see when the next episode will be.  I'll update this page shortly after each episode airs.
