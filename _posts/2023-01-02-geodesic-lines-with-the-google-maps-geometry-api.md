@@ -14,7 +14,7 @@ I thought it would be fun to use this as a data set to experiment with the [Goog
   <figcaption class="figure-caption text-center">An Airbus A340-300 aircraft.</figcaption>
 </figure>
 
-Side note: If you want to try an A340-300 flight these days, [Lufthansa](https://www.lufthansa.com/gb/en/34p) is probably your best bet.  I flew on every one of Virgin Atlantic's A340-300s before they retired them :)
+Side note: If you want to try an A340-300 flight these days, [Lufthansa](https://www.lufthansa.com/gb/en/34p) or [Swiss](https://www.swiss.com/gb/en/discover/fleet/airbus-longhaul) are probably your best bet.  I flew on every one of Virgin Atlantic's A340-300s before they retired them :)
 
 Airlines generally have maps of their route networks towards the back of the in flight magazine, or as posters in travel agencies (remember those?!).  I wanted to make something like this to maintain and share a record of places I've flown from/to as if I were an airline myself.  For example here's a classic map for Pan American airlines:
 
