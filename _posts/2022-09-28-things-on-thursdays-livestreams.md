@@ -237,6 +237,18 @@ In this first of two episodes for a new project, I demonstrate how Redis Streams
 * [Source code for this project on GitHub](https://github.com/redis-developer/redis-streams-hotel-jobs)
 * [RU202: Redis Streams](https://nodered.org/), a free course at Redis University
 
+### Episode 2
+
+In this second of two episodes of his weekly series, I'll show you how to display a Redis Streams consumer group lag using MicroPython, a Raspberry Pi Pico W and some LEDs...
+
+<div class="embed-responsive embed-responsive-16by9">
+  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/qzFUZ7aBCEo?start=25" allowfullscreen></iframe>
+</div><br/>
+
+* [Source code for this project on GitHub](https://github.com/simonprickett/redis-streams-lag-pi-pico-w)
+* [MicroPython/Redis/Pi Pico W boilerplate source code](https://github.com/redis-developer/micropython-redis-boilerplate)
+* [Source code for testing the LEDs](https://github.com/simonprickett/pico-led-test)
+
 ## What's Next?
 
 This is an ongoing series of projects, don't forget to check out the [Redis Developer Relations streaming schedule](https://developer.redis.com/redis-live/) to see when the next episode will be.  I'll update this page shortly after each episode airs.
