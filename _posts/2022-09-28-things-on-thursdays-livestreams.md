@@ -249,6 +249,18 @@ In this second of two episodes of his weekly series, I'll show you how to displa
 * [MicroPython/Redis/Pi Pico W boilerplate source code](https://github.com/redis-developer/micropython-redis-boilerplate)
 * [Source code for testing the LEDs](https://github.com/simonprickett/pico-led-test)
 
+## Plane Spotting with Redis and Node.js
+
+### Episode 1
+
+It's the start of another Redis IoT project!  In this episode I demonstrate how to figure out what planes are passing by using a software defined radio USB stick, Redis and Node.js.  I cover receiving data from the radio, decoding it, and storing it in Redis Hashes.
+
+<div class="embed-responsive embed-responsive-16by9">
+  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/TCTej1uihG4?start=21" allowfullscreen></iframe>
+</div><br/>
+
+* [Source code for this project on GitHub](https://github.com/simonprickett/local-aircraft-tracker)
+
 ## What's Next?
 
 This is an ongoing series of projects, don't forget to check out the [Redis Developer Relations streaming schedule](https://developer.redis.com/redis-live/) to see when the next episode will be.  I'll update this page shortly after each episode airs.
