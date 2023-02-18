@@ -118,15 +118,52 @@ Note that we're specifically requesting the additional `geometry` library for th
 
 ## Google Maps API Key
 
-TODO where to get the key and how to manage it...
+To make Google Maps work when embedded in a web page, you need an API key.  Google provides excellent documentation on how to get a key [here](https://developers.google.com/maps/documentation/javascript/get-api-key).
+
+Your key is a secret, but it's going to have to be shared - you'll need to put it in the URL for the Maps API JavaScript and that means it needs to go in your web page and be shared publically.  
+
+To stop others from misusing your key for their own purposes, you should give the key a meaningful name in your Google account so that you know what it's for, then also restrict the key's scope:
+
+<figure class="figure">
+  <img src="{{ site.baseurl }}/assets/images/geodesic_maps_api_key.png" class="figure-img img-fluid" alt="Restricting the Google Maps API key.">
+  <figcaption class="figure-caption text-center">Restricting the Google Maps API key.</figcaption>
+</figure>
+
+I've restricted my key so that it can only be used when developing locally (`127.0.0.1` and `localhost`) or from my website (hosted on `simonprickett.dev`).  I've also restricted the key to only be valid for the Google Maps API (and not other Google APIs).  You should use similar restrictions when creating your own key.
+
+Don't commit your key to source control (e.g. GitHub).  In my repository, I've provided a simple Node.js build script that replaces the value of `%%GOOGLE_MAP_KEY%%` in the HTML file with the actual key (real value provided through an environment variable) and places all of the files that you need to upload to your web server in a `build` folder which is then git ignored so that it can't accidentally be committed.  Use the instructions in my project [README](https://github.com/simonprickett/airline-google-map) to follow along if you intend to deploy your own version of this project.
 
 ## Desired Functionality
 
-TODO
+Here's what I wanted from my map:
+
+* When first loaded, display all of the routes as lines between each airport pair that I've flown between.
+* Show each airport as a Google Maps marker, in different colours as follows:
+  * Red for "Main Hub" airports - ones where there are 10 or more destinations.
+  * Green for "Regional Hub" airports - ones having between 5 and 9 destinations.
+  * Yellow for other airports - ones having fewer than 5 destinations.
+* Allow the user to zoom in and out and move around the map.
+* When the user clicks on any airport marker:
+  * Show only the routes to/from that airport.
+  * Display a popup on the map showing the airport name and a list of all the destinatins from that airport.
+  * Display text indicating that the airport is a "Main Hub" or "Regional Hub" as appropriate.
+* Allow the user to dismiss the popup.
 
 ## Implementing the Functionality in JavaScript
 
-Blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah.
+Let's see how I implemented all of the above in a relatively small amount of JavaScript!
+
+First, let's tackle a couple of "freebies" that we don't need to write any code for... Google Maps manages scrolling and zooming for us, so nothing to do there.  We also don't need to write any code to handle dismissing popups (I might look into this in future to add some additional functionality though).
+
+That leaves us with two tasks to write code for...
+
+### Display the Initial Map
+
+TODO
+
+### Handle a Click Event on a Marker
+
+TODO
 
 # Try it Yourself!
 
