@@ -261,6 +261,17 @@ It's the start of another Redis IoT project!  In this episode I demonstrate how 
 
 * [Source code for this project on GitHub](https://github.com/simonprickett/local-aircraft-tracker)
 
+### Episode 2
+
+In the second episode, I start adding detail to the data obtained from the radio by calling the FlightAware API.  I show how to use Redis as a queue to schedule calls to the API and how to use caching to prevent repeated calls that could cost money!
+
+<div class="embed-responsive embed-responsive-16by9">
+  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Qu-_wvSJrdE?start=32" allowfullscreen></iframe>
+</div><br/>
+
+* [Source code for this project on GitHub](https://github.com/simonprickett/local-aircraft-tracker)
+* [FlightAware API](https://flightaware.com/commercial/aeroapi/) - note this is a paid API
+
 ## What's Next?
 
 This is an ongoing series of projects, don't forget to check out the [Redis Developer Relations streaming schedule](https://developer.redis.com/redis-live/) to see when the next episode will be.  I'll update this page shortly after each episode airs.
