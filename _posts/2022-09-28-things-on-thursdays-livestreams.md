@@ -272,6 +272,17 @@ In the second episode, I start adding detail to the data obtained from the radio
 * [Source code for this project on GitHub](https://github.com/simonprickett/local-aircraft-tracker)
 * [FlightAware API](https://flightaware.com/commercial/aeroapi/) - note this is a paid API
 
+### Episode 3
+
+It's time to add a search index over our flight data in Redis.  In this episode, I show how to use the search capabilities of Redis Stack to query the flight data in different ways - we'll use this in the next episode to write a notifier component.
+
+<div class="embed-responsive embed-responsive-16by9">
+  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/IEx2WgWdhIA?start=23" allowfullscreen></iframe>
+</div><br/>
+
+* [Source code for this project on GitHub](https://github.com/simonprickett/local-aircraft-tracker)
+* [Search capabilities of Redis Stack](https://redis.io/docs/stack/search/)
+
 ## What's Next?
 
 This is an ongoing series of projects, don't forget to check out the [Redis Developer Relations streaming schedule](https://developer.redis.com/redis-live/) to see when the next episode will be.  I'll update this page shortly after each episode airs.
