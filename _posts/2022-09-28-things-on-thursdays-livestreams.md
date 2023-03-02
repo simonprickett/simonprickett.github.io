@@ -283,6 +283,18 @@ It's time to add a search index over our flight data in Redis.  In this episode,
 * [Source code for this project on GitHub](https://github.com/simonprickett/local-aircraft-tracker)
 * [Search capabilities of Redis Stack](https://redis.io/docs/stack/search/)
 
+### Episode 4
+
+Writing the notifier component... I look at writing a RediSearch aggregate query to find the most recently updated widebody aircraft flight passing by, then use Redis Pub/Sub to notify front ends of its details.  In the next episode I'll build out some front ends to display this data.
+
+<div class="embed-responsive embed-responsive-16by9">
+  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/fYnrNqSgqR4?start=24" allowfullscreen></iframe>
+</div><br/>
+
+* [Source code for this project on GitHub](https://github.com/simonprickett/local-aircraft-tracker)
+* [Search capabilities of Redis Stack](https://redis.io/docs/stack/search/)
+* [Redis Pub/Sub](https://redis.io/docs/manual/pubsub/)
+
 ## What's Next?
 
 This is an ongoing series of projects, don't forget to check out the [Redis Developer Relations streaming schedule](https://developer.redis.com/redis-live/) to see when the next episode will be.  I'll update this page shortly after each episode airs.
