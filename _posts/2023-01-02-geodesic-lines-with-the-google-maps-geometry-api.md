@@ -159,11 +159,126 @@ That leaves us with two tasks to write code for...
 
 ### Display the Initial Map
 
-TODO
+Here we need to do a couple of things... first let's draw a map and centre it on a particular location.  As many of my flights originated or ended in the USA, I chose to centre the initial map view on a location in Kansas and with a zoom level that shows the rest of the world too:
+
+```javascript
+const map = new google.maps.Map(document.getElementById('map'), {
+  center: { lat: 38.499768, lng: -100.6875177 }, // This is Kansas, Dorothy...
+  zoom: 2
+});
+```
+
+I've put the map inside the `div` element with ID `map` in my HTML document.  As we saw earlier, the size of that element in the final rendered page is determined inline in the HTML.
+
+Now we have a map on the page, we need to add markers to it.  For the initial view, I wanted to display all of the airports in the data file, with geodesic lines drawn between each flown airport pair.
+
+This is achieved by reading the JSON data file, storing the value of the `airports` object in a global variable `airports` and the value of the `flights` array in a second global variable `flights`. 
+
+The code then loops over each airport object in `airports`.  I also have a utility function `getDestinationsForAirport` that builds an array of the airport codes that a given airport is connected to.
+
+For each airport, we'll first work out what "type" of airport it is, and what colour marker to use.  These data points depend on the number of destinations that `getDestinationsForAirport` found in the data file for this airport:
+
+```javascript
+let markerColor;
+let airportType;
+
+if (destinations.length >= MAIN_HUB_NUM_DESTINATIONS) {
+  markerColor = 'red';
+  airportType = 'Main Hub';
+} else if (destinations.length >= REGIONAL_HUB_NUM_DESTINATIONS) {
+  markerColor = 'green';
+  airportType = 'Regional Hub';
+} else {
+  markerColor = 'yellow';
+}
+```
+
+We'll add this information to a HTML fragment that will pop up when the marker is clicked, using a [Google Maps InfoWindow](https://developers.google.com/maps/documentation/javascript/infowindows):
+
+```javascript
+const infoWindow = new google.maps.InfoWindow({
+  content: `<div>${airport.name}</div><hr/><p>We fly from ${airportType ? 'our ' + airportType + ' at ' : ''} ${airport.shortName} to:</p>${renderDestinations(destinations)}`
+});
+```
+
+Finally, we can use information about the airport's location plus our `infoWindow` to create a 
+ [Google Maps Marker](https://developers.google.com/maps/documentation/javascript/markers) for it on the map:
+
+ ```javascript
+const marker = new google.maps.Marker({
+  title: airport.name,
+  airportCode,
+  destinations,
+  infoWindow,
+  map,
+  position: {
+    lat: airport.location.latitude,
+    lng: airport.location.longitude
+  },
+  icon: {
+    url: `http://maps.google.com/mapfiles/ms/icons/${markerColor}-dot.png`
+  }
+});
+```
+
+ Alongside some items the `Marker` expects (a `title`, `position`, `icon` and the `map` to attach to), I'm passing in other data that we'll need to remember in there for later when the user clicks the marker.  Each `Marker` needs to have a `click` event associated with it - we'll cover those in the next sub-section.
+
+TODO storing marker in the airports global?
+
+Once we've created all our markers... TODO about drawing the lines...
+
+```javascript
+for (const airportCode in airports) {
+  const airport = airports[airportCode];
+
+  for (const destination of airport.marker.destinations) {
+    currentLines.push(new google.maps.Polyline({
+      strokeColor: '#0000DD',
+      strokeOpacity: 0.5,
+      strokeWeight: 1,
+      geodesic: true,
+      map: map,
+      path: [airport.marker.getPosition(), airports[destination].marker.getPosition()]
+    }));
+  }
+}
+```
 
 ### Handle a Click Event on a Marker
 
-TODO
+TODO rework this a bit...
+
+Furthermore we need to add a `click` event to the `Marker`, providing a function to run when the marker is clicked:
+
+ ```javascript
+google.maps.event.addListener(marker, 'click', () => {
+  for (const polyLine of currentLines) {
+    polyLine.setMap(null);
+  }
+
+  currentLines = [];
+
+  if (currentInfoWindow) {
+    currentInfoWindow.close();
+  }
+
+  marker.infoWindow.open(map, marker)
+  currentInfoWindow = marker.infoWindow;
+
+  for (const destination of marker.destinations) {
+    const geodesicPoly = new google.maps.Polyline({
+      strokeColor: '#0000DD',
+      strokeOpacity: 0.5,
+      strokeWeight: 2,
+      geodesic: true,
+      map: map,
+      path: [marker.getPosition(), airports[destination].marker.getPosition()]
+    });
+
+    currentLines.push(geodesicPoly);
+  }
+});
+```
 
 ### Future Enhancements
 
