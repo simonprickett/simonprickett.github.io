@@ -221,11 +221,13 @@ const marker = new google.maps.Marker({
 });
 ```
 
- Alongside some items the `Marker` expects (a `title`, `position`, `icon` and the `map` to attach to), I'm passing in other data that we'll need to remember in there for later when the user clicks the marker.  Each `Marker` needs to have a `click` event associated with it - we'll cover those in the next sub-section.
+Alongside some items the `Marker` expects (a `title`, `position`, `icon` and the `map` to attach to), I'm passing in other data that we'll need to remember in there for later when the user clicks the marker.  Each `Marker` needs to have a `click` event associated with it - we'll cover those in the next sub-section.
 
-TODO storing marker in the airports global?
+Each airport's marker is then stored in the airport's object inside the global `airports` object that contains all the airport data (that's a lot of saying airport!).
 
-Once we've created all our markers... TODO about drawing the lines...
+Once we've created all our markers we'll need to loop over all the airports once more, this time drawing lines from each airport to the others that it's connected to - this gives us that initial route map look where all the connections between all of the airports are shown at the same time.  
+
+We'll use an inner loop to draw one line per airport connection:
 
 ```javascript
 for (const airportCode in airports) {
@@ -243,6 +245,12 @@ for (const airportCode in airports) {
   }
 }
 ```
+
+We use the [Google Maps Polyline](https://developers.google.com/maps/documentation/javascript/examples/polyline-simple) to represent a line.  Each line is added to the map (`map: map`), and given a few configuration parameters such as the colour, opacity and pen thickness to use when drawing the line.  
+
+To get a geodesic line, we set `geodesic: true`.  The start and end points of the line are determined by the array of [LatLng](https://developers.google.com/maps/documentation/javascript/reference/3.51/coordinates?hl=en#LatLng) position objects in `path`.  Here we're only specifying two but we could add as many as we need.
+
+Note that we're adding each line to a global array `currentLines`.  We'll need this later, when processing a click event on one of the airport markers...
 
 ### Handle a Click Event on a Marker
 
