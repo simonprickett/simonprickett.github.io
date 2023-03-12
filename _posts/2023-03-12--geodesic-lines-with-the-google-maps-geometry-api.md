@@ -23,7 +23,9 @@ Airlines generally have maps of their route networks towards the back of the in 
   <figcaption class="figure-caption text-center">Map of part of Pan American Airlines Route Network.</figcaption>
 </figure>
 
-Blah blah something about geodesic lines in the Google Maps API... (https://gisgeography.com/great-circle-geodesic-line-shortest-flight-path/)
+Notice how these maps a curved line to representing the route between two airports.  This is because a straight line isn't actually the shortest distance between the two points when working with a three dimensional space such as our planet.  The map projection makes the curved route look longer than a "straight" line between the two points, but in fact it isn't.  These curved routes are called "geodesic" or "great circle" routes.  [Read more about them here on gisgeography.com](https://gisgeography.com/great-circle-geodesic-line-shortest-flight-path/).  
+
+The Google Maps API makes it very easy to plot these routes on a map as we'll see here.
 
 ## Route Map Data
 
@@ -254,9 +256,15 @@ Note that we're adding each line to a global array `currentLines`.  We'll need t
 
 ### Handle a Click Event on a Marker
 
-TODO rework this a bit...
+Next we need to focus on what happens when the user clicks on one of the airport markers... this is handled using a `click` event callback function that we add to each marker while creating them.
 
-Furthermore we need to add a `click` event to the `Marker`, providing a function to run when the marker is clicked:
+When a marker is clicked, we first want to remove all the lines that are currently drawn on the map.  We do this by looping over every line in the `currentLines` array, setting the map reference for each line to `null`.
+
+Then we'll want to close any currently open information window (e.g. if the user had previously clicked a map marker and its information window is open).
+
+Having done that, it's then a case of opening the clicked marker's information window and looping over the array of destination markers connected to the clicked one, drawing a geodesic line between the two posisions:
+
+Here's the code:
 
  ```javascript
 google.maps.event.addListener(marker, 'click', () => {
@@ -288,9 +296,15 @@ google.maps.event.addListener(marker, 'click', () => {
 });
 ```
 
+We first empty out the `currentLines` array and add each newly drawn line back into it, so that these can be erased when the user clicks a different marker.  That's "all there is to it"!
+
 ### Future Enhancements
 
-TODO
+What else would I like to add in future?  Well, right now there's no way to get back to the initial view with every line between every airport on it once you click an airport and bring up a marker.  You can refresh the page, but that doesn't feel good - maybe I should add a button that does this?
+
+I'd also like to look into more formatting on the information windows, maybe adding a picture for each location or something. 
+
+Finally I should use that `status` field in the data file, perhaps adding flights that I plan to take with a status of `future` and showing those in a different colour on the map.
 
 # Try it Yourself!
 
