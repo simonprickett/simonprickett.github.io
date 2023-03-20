@@ -39,7 +39,7 @@ permalink: "/about/"
                recently acquired a BBC micro:bit and need to spend some time learning 
                about that.  I periodically write about IoT topics and speak at 
                Meetup groups or conferences.</p>
-            <p>Away from computing, I enjoy travel, and reading.</p>
+            <p>Away from computing, I enjoy travel and reading.</p>
 </div>
 </div>
 </div>
