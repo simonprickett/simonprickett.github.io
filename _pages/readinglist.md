@@ -11,9 +11,10 @@ permalink: "/readinglist/"
             <p>Support your local library - I've read most of these books thanks to <a href="https://www.nottinghamcitylibraries.co.uk/" target="_blank">Nottingham City Libraries</a>.</p>
             <p>I'm also always looking out for book suggestions - <a href="/contact">get in touch</a> if you have ideas!</p>
             <hr/>
-            <p><i>Last Updated: March 9th 2023.</i></p>
+            <p><i>Last Updated: March 21st 2023.</i></p>
             <hr/>
             <ol>
+              <li><a href="https://www.goodreads.com/book/show/42815544-bunny" target="_blank"><b>Bunny</b> - <i>Mona Awad</i></a></li>
               <li><a href="https://www.goodreads.com/book/show/50140.Big_Sur" target="_blank"><b>Big Sur</b> - <i>Jack Kerouac</i></a></li>
               <li><a href="https://www.goodreads.com/book/show/51733706-afterparties" target="_blank"><b>Afterparties</b> - <i>Anthony Veasna So</i></a></li>
               <li><a href="https://www.goodreads.com/book/show/42550422-jim-bob-from-carter" target="_blank"><b>Jim Bob from Carter: In the Shadow of My Former Self</b> - <i>Jim Bob</i></a></li>
@@ -23,7 +24,6 @@ permalink: "/readinglist/"
               <li><a href="https://www.goodreads.com/book/show/6488057-big-machine" target="_blank"><b>Big Machine</b> - <i>Victor LaValle</i></a></li>
               <li><a href="https://www.goodreads.com/book/show/59135431-tanqueray" target="_blank"><b>Tanqueray</b> - <i>Stephanie Johnson, Brandon Stanton</i></a></li>
               <li><a href="https://www.goodreads.com/book/show/34964868-the-trauma-cleaner" target="_blank"><b>The Trauma Cleaner</b> - <i>Sarah Krasnostein</i></a></li>
-              <li><a href="https://www.goodreads.com/book/show/53136660-the-go-between" target="_blank"><b>the Go-Between</b> - <i>Osman Yousefzada</i></a></li>
             </ol>
          </div>
    </div>
