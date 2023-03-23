@@ -307,6 +307,18 @@ In this episode I finally use the big mechanical flip dot bus display that sits 
 * [Redis Pub/Sub](https://redis.io/docs/manual/pubsub/)
 * [Hanover Displays Flip Dot Driver for Node.js](https://www.npmjs.com/package/flipdot-display)
 
+### Episode 6
+
+This is the final episode for this project.  I use a Pimoroni Badger 2040W and MicroPython to build a second flight display that consumes a Redis Stream.
+
+<div class="embed-responsive embed-responsive-16by9">
+  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/RROQA0QOq0k" allowfullscreen></iframe>
+</div><br/>
+
+* [Source code for this project on GitHub](https://github.com/simonprickett/local-aircraft-tracker)
+* [Redis Streams](https://redis.io/docs/data-types/streams-tutorial/)
+* [Pimoroni Badger 2040W](https://shop.pimoroni.com/products/badger-2040-w)
+
 ## What's Next?
 
 This is an ongoing series of projects, don't forget to check out the [Redis Developer Relations streaming schedule](https://developer.redis.com/redis-live/) to see when the next episode will be.  I'll update this page shortly after each episode airs.
