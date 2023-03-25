@@ -20,6 +20,7 @@ Here's all the projects in this series so far - I've given each one its own page
 
 * [Building a Redis Compatible Visual Bloom Filter](/building-a-redis-compatible-visual-bloom-filter/)
 * [Environment Monitoring with Redis Streams, Raspberry Pi Pico W and MicroPython](/environment-monitoring-with-redis-streams-pi-pico-micropython/)
+* [CheerLights with MQTT and Redis Streams](/cheerlights-with-mqtt-and-redis-streams/)
 
 ## What's Next?
 
