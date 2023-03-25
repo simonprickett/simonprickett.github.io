@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Things on Thursdays: A Live Streaming Series"
-categories: [ IoT, Programming, Raspberry Pi, Python, Node.js, JavaScript ]
+categories: [ IoT, Programming, Raspberry Pi, Python, Node.js, JavaScript, Redis ]
 image: assets/images/things_on_thursdays_main.jpg
 author: simon
 tags: [sticky]
@@ -21,6 +21,7 @@ Here's all the projects in this series so far - I've given each one its own page
 * [Building a Redis Compatible Visual Bloom Filter](/building-a-redis-compatible-visual-bloom-filter/)
 * [Environment Monitoring with Redis Streams, Raspberry Pi Pico W and MicroPython](/environment-monitoring-with-redis-streams-pi-pico-micropython/)
 * [CheerLights with MQTT and Redis Streams](/cheerlights-with-mqtt-and-redis-streams/)
+* [Synchronised Counting with Redis and a Seven Segment Display](/syncrhonised-counting-with-redis-and-a-seven-segment-display/)
 
 ## What's Next?
 
