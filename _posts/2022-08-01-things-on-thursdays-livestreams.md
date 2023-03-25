@@ -19,7 +19,7 @@ Here's the videos and links to the relevant GitHub repositories and articles.  E
 Here's all the projects in this series so far - I've given each one its own page on this site, some projects took place over several weeks and have multiple video episodes.  You'll find them all embedded in the project page.
 
 * [Building a Redis Compatible Visual Bloom Filter](/building-a-redis-compatible-visual-bloom-filter/)
-* TODO others...
+* [Environment Monitoring with Redis Streams, Raspberry Pi Pico W and MicroPython](/environment-monitoring-with-redis-streams-pi-pico-micropython/)
 
 ## What's Next?
 
