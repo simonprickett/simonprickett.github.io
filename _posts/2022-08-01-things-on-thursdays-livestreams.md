@@ -25,6 +25,7 @@ Here's all the projects in this series so far - I've given each one its own page
 * [Wifi Setup with MicroPython and the Raspberry Pi Pico W](/wifi-setup-with-raspberry-pi-pico-w/)
 * [Hotel Room Service with Node RED and Redis on the Raspberry Pi](/hotel-room-service-with-node-red-and-redis-on-raspberry-pi/)
 * [Monitoring Redis Streams Consumer Group Lag with a Raspberry Pi Pico W](/monitoring-redis-streams-consumer-group-lag-raspberry-pi-pico-w/)
+* [Plane Spotting with Node.js, Redis and MicroPython](/plane-spotting-with-redis-nodejs-micropython/)
 
 ## What's Next?
 
