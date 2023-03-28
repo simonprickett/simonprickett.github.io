@@ -16,12 +16,13 @@ Here's the videos and links to the relevant GitHub repositories and articles.  E
 
 ## Projects in this Series
 
-Here's all the projects in this series so far - I've given each one its own page on this site, some projects took place over several weeks and have multiple video episodes.  You'll find them all embedded in the project page.
+Here's all the projects in this series so far - I've given each one its own page on this site, some projects took place over several weeks and have multiple video episodes.  You'll find them all embedded in each project's page.
 
 * [Building a Redis Compatible Visual Bloom Filter](/building-a-redis-compatible-visual-bloom-filter/)
 * [Environment Monitoring with Redis Streams, Raspberry Pi Pico W and MicroPython](/environment-monitoring-with-redis-streams-pi-pico-micropython/)
 * [CheerLights with MQTT and Redis Streams](/cheerlights-with-mqtt-and-redis-streams/)
 * [Synchronised Counting with Redis and a Seven Segment Display](/syncrhonised-counting-with-redis-and-a-seven-segment-display/)
+* [Wifi Setup with MicroPython and the Raspberry Pi Pico W](/wifi-setup-with-raspberry-pi-pico-w/)
 
 ## What's Next?
 
