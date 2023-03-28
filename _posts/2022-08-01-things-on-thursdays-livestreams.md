@@ -23,6 +23,7 @@ Here's all the projects in this series so far - I've given each one its own page
 * [CheerLights with MQTT and Redis Streams](/cheerlights-with-mqtt-and-redis-streams/)
 * [Synchronised Counting with Redis and a Seven Segment Display](/syncrhonised-counting-with-redis-and-a-seven-segment-display/)
 * [Wifi Setup with MicroPython and the Raspberry Pi Pico W](/wifi-setup-with-raspberry-pi-pico-w/)
+* [Hotel Room Service with Node RED and Redis on the Raspberry Pi](/hotel-room-service-with-node-red-and-redis-on-raspberry-pi/)
 
 ## What's Next?
 
