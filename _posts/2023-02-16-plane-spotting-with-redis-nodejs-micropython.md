@@ -19,7 +19,7 @@ TODO this should be a description of the project...
 Episode 1...
 
 <div class="embed-responsive embed-responsive-16by9">
-  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/NCvHfB7BhfQ?start=24" allowfullscreen></iframe>
+  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/TCTej1uihG4?start=21" allowfullscreen></iframe>
 </div><br/>
 
 * TODO this should be a list of resources for this project.
@@ -27,7 +27,7 @@ Episode 1...
 Episode 2...
 
 <div class="embed-responsive embed-responsive-16by9">
-  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/qzFUZ7aBCEo?start=25" allowfullscreen></iframe>
+  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Qu-_wvSJrdE?start=32" allowfullscreen></iframe>
 </div><br/>
 
 * TODO this should be a list of resources for this project.
@@ -35,7 +35,7 @@ Episode 2...
 Episode 3...
 
 <div class="embed-responsive embed-responsive-16by9">
-  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/qzFUZ7aBCEo?start=25" allowfullscreen></iframe>
+  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/IEx2WgWdhIA?start=23" allowfullscreen></iframe>
 </div><br/>
 
 * TODO this should be a list of resources for this project.
@@ -43,7 +43,7 @@ Episode 3...
 Episode 4...
 
 <div class="embed-responsive embed-responsive-16by9">
-  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/qzFUZ7aBCEo?start=25" allowfullscreen></iframe>
+  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/fYnrNqSgqR4?start=25" allowfullscreen></iframe>
 </div><br/>
 
 * TODO this should be a list of resources for this project.
@@ -51,7 +51,7 @@ Episode 4...
 Episode 5...
 
 <div class="embed-responsive embed-responsive-16by9">
-  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/qzFUZ7aBCEo?start=25" allowfullscreen></iframe>
+  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/i8grA5fsbdM?start=23" allowfullscreen></iframe>
 </div><br/>
 
 * TODO this should be a list of resources for this project.
@@ -59,7 +59,7 @@ Episode 5...
 Episode 6...
 
 <div class="embed-responsive embed-responsive-16by9">
-  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/qzFUZ7aBCEo?start=25" allowfullscreen></iframe>
+  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/RROQA0QOq0k" allowfullscreen></iframe>
 </div><br/>
 
 * TODO this should be a list of resources for this project.
