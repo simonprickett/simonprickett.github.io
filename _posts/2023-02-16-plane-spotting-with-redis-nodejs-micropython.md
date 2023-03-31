@@ -8,8 +8,16 @@ author: simon
 This is placeholder text and will eventually be replaced by the real thing.  This article may also include random images from other projects until I swap them out for content relevant to this project.
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/node_red_redis_stream.png" class="figure-img img-fluid" alt="Screenshot from my live stream showing the Node RED project flow">
-  <figcaption class="figure-caption text-center">The Node RED flow as seen on the live stream videos.</figcaption>
+  <img src="{{ site.baseurl }}/assets/images/plane_tracking_flipdot.gif" alt="Animated GIF of a flip dot bus sign showing flight information">
+  <figcaption class="figure-caption text-center">The Flip Dot Display Front End.</figcaption>
+</figure>
+
+Todo some more text about that this is...
+
+
+<figure class="figure">
+  <img src="{{ site.baseurl }}/assets/images/plane_tracking_architecture.png" class="figure-img img-fluid" alt="Architecture of the plane tracking system">
+  <figcaption class="figure-caption text-center">Architecture of the plane tracking system.</figcaption>
 </figure>
 
 This was the eighth and most ambitious project in my [Things on Thursdays IoT live streaming series](/things-on-thursdays-livestreams/).  
