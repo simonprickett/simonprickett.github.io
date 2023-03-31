@@ -11,9 +11,10 @@ permalink: "/readinglist/"
             <p>Support your local library - I've read most of these books thanks to <a href="https://www.nottinghamcitylibraries.co.uk/" target="_blank">Nottingham City Libraries</a>.</p>
             <p>I'm also always looking out for book suggestions - <a href="/contact">get in touch</a> if you have ideas!</p>
             <hr/>
-            <p><i>Last Updated: March 21st 2023.</i></p>
+            <p><i>Last Updated: March 31st 2023.</i></p>
             <hr/>
             <ol>
+              <li><a href="https://www.goodreads.com/book/show/61079149-fingers-crossed" target="_blank"><b>Fingers Crossed: How Music Saved Me From Success</b> - <i>Miki Berenyi</i></a></li>
               <li><a href="https://www.goodreads.com/book/show/42815544-bunny" target="_blank"><b>Bunny</b> - <i>Mona Awad</i></a></li>
               <li><a href="https://www.goodreads.com/book/show/50140.Big_Sur" target="_blank"><b>Big Sur</b> - <i>Jack Kerouac</i></a></li>
               <li><a href="https://www.goodreads.com/book/show/51733706-afterparties" target="_blank"><b>Afterparties</b> - <i>Anthony Veasna So</i></a></li>
@@ -23,7 +24,6 @@ permalink: "/readinglist/"
               <li><a href="https://www.goodreads.com/book/show/57916558-blue-skies-and-dragon-eyes" target="_blank"><b>Blue Skies & Dragon Eyes</b> - <i>Amelia Barlow</i></a></li>
               <li><a href="https://www.goodreads.com/book/show/6488057-big-machine" target="_blank"><b>Big Machine</b> - <i>Victor LaValle</i></a></li>
               <li><a href="https://www.goodreads.com/book/show/59135431-tanqueray" target="_blank"><b>Tanqueray</b> - <i>Stephanie Johnson, Brandon Stanton</i></a></li>
-              <li><a href="https://www.goodreads.com/book/show/34964868-the-trauma-cleaner" target="_blank"><b>The Trauma Cleaner</b> - <i>Sarah Krasnostein</i></a></li>
             </ol>
          </div>
    </div>
