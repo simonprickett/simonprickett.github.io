@@ -8,8 +8,8 @@ author: simon
 This is placeholder text and will eventually be replaced by the real thing.  This article may also include random images from other projects until I swap them out for content relevant to this project.
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/node_red_redis_stream.png" class="figure-img img-fluid" alt="Screenshot from my live stream showing the Node RED project flow">
-  <figcaption class="figure-caption text-center">The Node RED flow as seen on the live stream videos.</figcaption>
+  <img src="{{ site.baseurl }}/assets/images/redis_streams_lag_screenshot.png" class="figure-img img-fluid" alt="Screenshot from my live stream demonstrating Redis Consumer Groups">
+  <figcaption class="figure-caption text-center">Redis Consumer Group overview from my live stream.</figcaption>
 </figure>
 
 This was the seventh project in my [Things on Thursdays IoT live streaming series](/things-on-thursdays-livestreams/).  
