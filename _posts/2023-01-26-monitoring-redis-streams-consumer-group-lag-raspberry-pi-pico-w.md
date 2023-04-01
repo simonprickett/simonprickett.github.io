@@ -14,23 +14,23 @@ This is placeholder text and will eventually be replaced by the real thing.  Thi
 
 This was the seventh project in my [Things on Thursdays IoT live streaming series](/things-on-thursdays-livestreams/).  
 
-TODO this should be a description of the project...
-
-Episode 1...
+In this first of two episodes, I demonstrate how Redis Streams Consumer Groups work.  We also look at how to determine the lag for a given consumer group using features added in Redis 7.
 
 <div class="embed-responsive embed-responsive-16by9">
   <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/NCvHfB7BhfQ?start=24" allowfullscreen></iframe>
 </div><br/>
 
-* TODO this should be a list of resources for this project.
-
-Episode 2...
+In this second of two episodes for this project, I show you how to display a Redis Streams consumer group lag using MicroPython, a Raspberry Pi Pico W and some LEDs...
 
 <div class="embed-responsive embed-responsive-16by9">
   <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/qzFUZ7aBCEo?start=25" allowfullscreen></iframe>
 </div><br/>
 
-* TODO this should be a list of resources for this project.
+* [Source code for this project on GitHub](https://github.com/simonprickett/redis-streams-lag-pi-pico-w)
+* [MicroPython/Redis/Pi Pico W boilerplate source code](https://github.com/redis-developer/micropython-redis-boilerplate)
+* [Source code for testing the LEDs](https://github.com/simonprickett/pico-led-test)
+* [Try out my free Redis Streams workshop](/redis-streams-workshop/)
+* [RU202: Redis Streams](https://nodered.org/), a free course at Redis University
 
 --- 
 Main photograph by [Cottonbro Studio on Pexels](https://www.pexels.com/photo/backlit-analog-meters-7087611/).
