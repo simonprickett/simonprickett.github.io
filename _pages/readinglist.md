@@ -14,6 +14,7 @@ permalink: "/readinglist/"
             <p><i>Last Updated: March 31st 2023.</i></p>
             <hr/>
             <ol>
+              <li><a href="https://www.goodreads.com/book/show/57748024-misfits" target="_blank"><b>Misfits: A Personal Manifesto</b> - <i>Michaela Coel</i></a></li>
               <li><a href="https://www.goodreads.com/book/show/61079149-fingers-crossed" target="_blank"><b>Fingers Crossed: How Music Saved Me From Success</b> - <i>Miki Berenyi</i></a></li>
               <li><a href="https://www.goodreads.com/book/show/42815544-bunny" target="_blank"><b>Bunny</b> - <i>Mona Awad</i></a></li>
               <li><a href="https://www.goodreads.com/book/show/50140.Big_Sur" target="_blank"><b>Big Sur</b> - <i>Jack Kerouac</i></a></li>
@@ -23,7 +24,6 @@ permalink: "/readinglist/"
               <li><a href="https://www.goodreads.com/book/show/55711633-heatwave" target="_blank"><b>Heatwave</b> - <i>Victor Jestin</i></a></li>
               <li><a href="https://www.goodreads.com/book/show/57916558-blue-skies-and-dragon-eyes" target="_blank"><b>Blue Skies & Dragon Eyes</b> - <i>Amelia Barlow</i></a></li>
               <li><a href="https://www.goodreads.com/book/show/6488057-big-machine" target="_blank"><b>Big Machine</b> - <i>Victor LaValle</i></a></li>
-              <li><a href="https://www.goodreads.com/book/show/59135431-tanqueray" target="_blank"><b>Tanqueray</b> - <i>Stephanie Johnson, Brandon Stanton</i></a></li>
             </ol>
          </div>
    </div>
