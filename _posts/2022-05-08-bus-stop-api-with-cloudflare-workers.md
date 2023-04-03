@@ -4,6 +4,7 @@ title:  "Making a Bus Stop API with Cloudflare Workers"
 categories: [ JavaScript, Programming ]
 image: assets/images/bus_api_main.jpg
 author: simon
+tags: [featured]
 ---
 Public transport services can be great sources of live or near-live data to use when building out an application or trying some new front end technology.  For years my usual go to API when I want to play with something like this has been the BART (Bay Area Rapid Transit) train API.  I love working with this API because it provides data about train movements through the network and information about each station.  It's also free to sign up for [here](http://api.bart.gov/docs/overview/index.aspx).
 

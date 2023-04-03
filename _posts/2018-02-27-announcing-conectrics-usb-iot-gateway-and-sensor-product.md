@@ -4,7 +4,6 @@ title:  "Announcing Conectric's USB IoT Gateway & Sensor Product"
 categories: [ Node.js, JavaScript, IoT ]
 image: assets/images/conectric_announce_main.jpg
 author: simon
-canonical_url: https://medium.com/conectric-networks/announcing-conectrics-usb-iot-gateway-sensor-product-86087af7ae57
 ---
 Here at [Conectric](http://www.conectric.com) we’re excited to announce the launch of our new IoT Gateway product with accompanying suite of sensors. 
 

@@ -4,7 +4,6 @@ title:  "Door Open Alerts with Twilio and Conectric's IoT Sensor Product for Nod
 categories: [ Twilio, Node.js, JavaScript, IoT ]
 image: assets/images/conectric_twilio_main.jpg
 author: simon
-canonical_url: https://medium.com/conectric-networks/door-open-alerts-with-twilio-and-conectrics-iot-sensor-product-for-node-js-65d67db97584
 ---
 At Conectric we recently launched our new IoT Gateway product with an accompanying suite of wireless, battery powered sensors. In this article we'll take a closer look at how to use our Switch sensor, [Node.js SDK](https://www.npmjs.com/package/conectric-usb-gateway) and the [Twilio API](https://www.twilio.com/) to send SMS alerts whenever a door is opened.
 
