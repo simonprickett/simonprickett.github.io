@@ -5,14 +5,22 @@ categories: [ IoT, Programming, Raspberry Pi, Redis, JavaScript, Python ]
 image: assets/images/plane_tracking_main.jpg
 author: simon
 ---
-This is placeholder text and will eventually be replaced by the real thing.  This article may also include random images from other projects until I swap them out for content relevant to this project.
+I've always been interested to watch planes pass by, so I decided to build a plane tracking system... For this I used some existing software called [dump1090](https://github.com/antirez/dump1090) - this receives data broadcast from passing aircraft.  This works by using a software defined radio USB stick with an antenna, decoding messages to usable data that can be read with Node.js.
+
+I used this, plus a Redis instance to store and manage data in, to track aircraft passing by.  Not all of the information I wanted to have access to is available from the radio, so I used the FlightAware API to enhance the data adding in information about the type of aircraft, and its origin and destination airports.
+
+I then used this information and the search capabilities of Redis Stack to identify "interesting" flights (for example those flown by wide body aircraft).
+
+Finally, I used the pub/sub and streams capabilities of Redis to broadcast information about interesting flights to a couple of front ends.  The first one that I made was written in Node.js and runs on a Raspberry Pi.  It controls a flip dot sign that used to be in a bus.  My other front end demo used an e-ink screen controlled by a Raspberry Pi Pico W... the [Badger 2040W from Pimoroni](https://shop.pimoroni.com/products/badger-2040-w).
+
+Here's the flip dot dign working:
 
 <figure class="figure">
   <img src="{{ site.baseurl }}/assets/images/plane_tracking_flipdot.gif" alt="Animated GIF of a flip dot bus sign showing flight information">
   <figcaption class="figure-caption text-center">The Flip Dot Display Front End.</figcaption>
 </figure>
 
-Todo some more text about that this is...
+Here's a diagram showing the architecture for this project, watch the videos for a full explanation...
 
 <figure class="figure">
   <img src="{{ site.baseurl }}/assets/images/plane_tracking_architecture.png" class="figure-img img-fluid" alt="Architecture of the plane tracking system">
@@ -20,8 +28,6 @@ Todo some more text about that this is...
 </figure>
 
 This was the eighth and most ambitious project in my [Things on Thursdays IoT live streaming series](/things-on-thursdays-livestreams/).  
-
-TODO this should be a description of the project...
 
 In the first episode I begin the project by demonstrating how to figure out to see which planes are passing by using a software defined radio USB stick, Redis and Node.js.  I cover receiving data from the radio, decoding it, and storing it in Redis Hashes.
 
@@ -62,6 +68,7 @@ Episode 6 is the final one for this project.  I use a Pimoroni Badger 2040W and 
 Resources for this project:
 
 * [Source code for this project on GitHub](https://github.com/simonprickett/local-aircraft-tracker)
+* [Dump 1090](https://github.com/antirez/dump1090)
 * [FlightAware API](https://flightaware.com/commercial/aeroapi/) - note this is a paid API
 * [Search capabilities of Redis Stack](https://redis.io/docs/stack/search/)
 * [Redis Pub/Sub](https://redis.io/docs/manual/pubsub/)
