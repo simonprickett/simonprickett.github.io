@@ -123,6 +123,8 @@ Here's how it all works, focusing on the JavaScript:
 
 I found this a really fun project to put together and really enjoyed making a hardware representation of a concept that's normally pretty abstract and hidden away in software.  I deliberately kept this pretty simple - the size of the array for the Bloom filter is limited to 64 because that's how many LEDs are available, but one enhancement could be to configure the `reset` API endpoint to take a number, and use that many hash functions rather than the fixed three I used.  It might be cool to use some sort of rotary encoder with the Pi to literally dial in the number of hash functions too :)
 
+I've subsequently revisited this project, and made a version that is (somewhat) Redis protocol compatible, so that you can connect to it with the Redis CLI or any other Redis client, and incorporate it in your application code!  [Read about that here](/building-a-redis-compatible-visual-bloom-filter/).
+
 Thanks for reading, hope you also found this fun.  Feel free to tell me if I got anything wrong or could improve on it!  I've put my code into a [GitHub repository](https://github.com/simonprickett/visual-bloom-filter-for-pi) that you're free to use to build your own, or modify to do something else.
 
 ---
