@@ -33,6 +33,8 @@ I was amazed to wake up one morning and find that someone else had used this pro
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">I was mad enough to copy 😄<br>Thanks for the awesome intro’s to nodejs and redis too! I do want to rewrite some of the components in Python, mainly because of familiarity.<br>I noticed the address was 1 out using the js but matched the potentiometer in Python - did you have the same? <a href="https://t.co/syOVhJB2wA">pic.twitter.com/syOVhJB2wA</a></p>&mdash; jaket91 (@jaket91) <a href="https://twitter.com/jaket91/status/1644128357175504896?ref_src=twsrc%5Etfw">April 7, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+From chatting to them I also found out that you can buy Hanover flip dot displays used from [psvautomobilia.com](https://psvautomobilia.com/?product_cat=hanover-flip-dots) in the UK.
+
 In the first episode I begin the project by demonstrating how to figure out to see which planes are passing by using a software defined radio USB stick, Redis and Node.js.  I cover receiving data from the radio, decoding it, and storing it in Redis Hashes.
 
 <div class="embed-responsive embed-responsive-16by9">
