@@ -11,9 +11,10 @@ permalink: "/readinglist/"
             <p>Support your local library - I've read most of these books thanks to <a href="https://www.nottinghamcitylibraries.co.uk/" target="_blank">Nottingham City Libraries</a>.</p>
             <p>I'm also always looking out for book suggestions - <a href="/contact">get in touch</a> if you have ideas!</p>
             <hr/>
-            <p><i>Last Updated: March 31st 2023.</i></p>
+            <p><i>Last Updated: April 8th 2023.</i></p>
             <hr/>
             <ol>
+              <li><a href="https://www.goodreads.com/book/show/50358031-leave-the-world-behind" target="_blank"><b>Leave the World Behind</b> - <i>Rumaan Alam</i></a></li>
               <li><a href="https://www.goodreads.com/book/show/57748024-misfits" target="_blank"><b>Misfits: A Personal Manifesto</b> - <i>Michaela Coel</i></a></li>
               <li><a href="https://www.goodreads.com/book/show/61079149-fingers-crossed" target="_blank"><b>Fingers Crossed: How Music Saved Me From Success</b> - <i>Miki Berenyi</i></a></li>
               <li><a href="https://www.goodreads.com/book/show/42815544-bunny" target="_blank"><b>Bunny</b> - <i>Mona Awad</i></a></li>
@@ -23,7 +24,6 @@ permalink: "/readinglist/"
               <li><a href="https://www.goodreads.com/book/show/55573520-dog-park" target="_blank"><b>Dog Park</b> - <i>Sofi Oksanen</i></a></li>
               <li><a href="https://www.goodreads.com/book/show/55711633-heatwave" target="_blank"><b>Heatwave</b> - <i>Victor Jestin</i></a></li>
               <li><a href="https://www.goodreads.com/book/show/57916558-blue-skies-and-dragon-eyes" target="_blank"><b>Blue Skies & Dragon Eyes</b> - <i>Amelia Barlow</i></a></li>
-              <li><a href="https://www.goodreads.com/book/show/6488057-big-machine" target="_blank"><b>Big Machine</b> - <i>Victor LaValle</i></a></li>
             </ol>
          </div>
    </div>
