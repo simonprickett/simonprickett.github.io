@@ -189,7 +189,7 @@ Here’s a brief walkthrough of the complete source code...
 * In the loop, we use the `.on()` function to turn each light on and off in the right order, and the `thread::sleep` function to wait a number of seconds.
 * Lines 47-49 run after Ctrl-C / `SIGINT` has been detected, and the pseudo-global Boolean variable set to `false`... here we make sure that the lights are all switched off before exiting.
 
-I find this a bit dissatisfying... in other languages, I've declared a function that turns all the lights off and called this before starting and whenever `SIGINT` / Ctrl-C is detected.  This involves declaring the objects that represent each GPIO pin as global variables.  Rust doesn't as such allow this, and I wasn't able to see a good solution (experienced Rust coders - please feel free to offer one, I'd love to learn!).  So my implementation as it stands 
+I find this a bit dissatisfying... in other languages, I've declared a function that turns all the lights off and called this before starting and whenever `SIGINT` / Ctrl-C is detected.  This involves declaring the objects that represent each GPIO pin as global variables.  Rust doesn't as such allow this, and I wasn't able to see a good solution (experienced Rust coders - please feel free to offer one, I'd love to learn!).  So my implementation as it stands could likely be improved by someone who knows what they're doing!
 
 I’ve put the [full source code on GitHub](https://github.com/simonprickett/rustpitrafficlights) for your enjoyment.
 
