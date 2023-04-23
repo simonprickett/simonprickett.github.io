@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "The M5Stack Core Ink Pomodoro Timer"
-categories: [Arduino, M5Stack, C, IoT, Programming ]
+categories: [Arduino, M5Stack, C, IoT, Coding ]
 image: assets/images/m5stack_pomodoro_main.jpg
 author: simon
 ---

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Making a Zoom Panic Switch with the Adafruit Trinket M0"
-categories: [ Arduino, C, IoT, Programming ]
+categories: [ Arduino, C, IoT, Coding ]
 image: assets/images/arcade_keyboard_main.jpg
 author: simon
 ---

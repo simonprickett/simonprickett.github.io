@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Building a Redis Prize Draw Application with Flask or Express"
-categories: [ Python, Redis, Node.js, JavaScript ]
+categories: [ Python, Redis, Node.js, JavaScript, Coding ]
 image: assets/images/prizedraw_main.jpg
 author: simon
 ---

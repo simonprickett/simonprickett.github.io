@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Testing Zesty.io's Templating Engine using... Zesty.io!"
-categories: [ Node.js, JavaScript, CMS, Testing ]
+categories: [ Node.js, JavaScript, CMS, Testing, Coding ]
 image: assets/images/zesty_testing_main.jpg
 author: simon
 ---

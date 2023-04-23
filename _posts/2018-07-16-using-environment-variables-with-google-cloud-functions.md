@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Using Environment Variables with Google Cloud Functions"
-categories: [ Cloud, GCP, Node.js, JavaScript, Serverless ]
+categories: [ Cloud, GCP, Node.js, JavaScript, Serverless, Coding ]
 image: assets/images/cloud_functions_env_vars_main.jpg
 author: simon
 ---

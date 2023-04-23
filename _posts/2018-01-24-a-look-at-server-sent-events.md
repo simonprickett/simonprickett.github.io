@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "A Look at Server Sent Events"
-categories: [ JavaScript, Node.js, HTML5, Front End ]
+categories: [ JavaScript, Node.js, HTML5, Front End, Coding ]
 image: assets/images/sse_main.jpg
 author: simon
 tags: [featured]

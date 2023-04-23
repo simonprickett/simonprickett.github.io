@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Releasing a Dead or Alive Wikipedia Package on npm"
-categories: [ Node.js, JavaScript ]
+categories: [ Node.js, JavaScript, Coding ]
 image: assets/images/doa_main.jpg
 author: simon
 ---

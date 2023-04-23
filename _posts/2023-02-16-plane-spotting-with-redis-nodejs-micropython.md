@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Plane Spotting with Redis, Node.js and MicroPython"
-categories: [ IoT, Programming, Raspberry Pi, Redis, JavaScript, Python ]
+categories: [ IoT, Coding, Raspberry Pi, Redis, JavaScript, Python ]
 image: assets/images/plane_tracking_main.jpg
 author: simon
 ---

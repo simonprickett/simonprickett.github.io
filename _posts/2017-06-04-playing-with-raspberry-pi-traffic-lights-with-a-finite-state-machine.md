@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Playing with Raspberry Pi: Traffic Lights with a Finite State Machine"
-categories: [ Raspberry Pi, Technology, IoT, Python ]
+categories: [ Raspberry Pi, Technology, IoT, Python, Coding ]
 image: assets/images/pi_traffic_lights_fsm_main.jpg
 author: simon
 ---

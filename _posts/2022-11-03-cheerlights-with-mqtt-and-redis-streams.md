@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Cheerlights with MQTT and Redis Streams"
-categories: [ IoT, Programming, Raspberry Pi, Python, Redis ]
+categories: [ IoT, Coding, Raspberry Pi, Python, Redis ]
 image: assets/images/cheerlights_main.jpg
 author: simon
 ---

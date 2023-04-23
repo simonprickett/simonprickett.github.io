@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Controlling Raspberry Pi GPIO Pins from Bash Scripts: Traffic Lights"
-categories: [ Raspberry Pi, Technology, IoT, Linux ]
+categories: [ Raspberry Pi, Technology, IoT, Linux, Coding ]
 image: assets/images/pi_traffic_lights_bash_main.jpg
 author: simon
 ---

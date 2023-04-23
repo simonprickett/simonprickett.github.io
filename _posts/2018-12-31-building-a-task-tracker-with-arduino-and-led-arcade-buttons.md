@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Building a Task Tracker with Arduino and LED Arcade Buttons"
-categories: [ Arduino, IoT, Programming, C ]
+categories: [ Arduino, IoT, Coding, C ]
 image: assets/images/task_tracker_main.jpg
 author: simon
 tags: [featured]

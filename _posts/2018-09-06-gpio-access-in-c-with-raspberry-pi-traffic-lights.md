@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "GPIO Access in C with Raspberry Pi: Traffic Lights"
-categories: [ Raspberry Pi, Technology, C ]
+categories: [ Raspberry Pi, Technology, C, Coding ]
 image: assets/images/pi_traffic_lights_c_main.jpg
 author: simon
 ---

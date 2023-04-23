@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Writing Google Cloud Functions with Python 3"
-categories: [ Cloud, GCP, Python, Serverless ]
+categories: [ Cloud, GCP, Python, Serverless, Coding ]
 image: assets/images/python3_cloud_functions_main.jpg
 author: simon
 ---

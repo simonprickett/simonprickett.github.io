@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Writing a systemd Service in Node.js on Raspberry Pi"
-categories: [ Raspberry Pi, Linux, Node.js ]
+categories: [ Raspberry Pi, Linux, Node.js, Coding ]
 image: assets/images/systemd_node_pi_main.jpg
 author: simon
 ---

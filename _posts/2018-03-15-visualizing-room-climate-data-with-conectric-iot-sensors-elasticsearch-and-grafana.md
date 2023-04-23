@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Visualizing Room Climate Data with Conectric’s IoT Sensors, Elasticsearch & Grafana"
-categories: [ Grafana, Node.js, JavaScript, IoT, Elasticsearch ]
+categories: [ Grafana, Node.js, JavaScript, IoT, Elasticsearch, Coding ]
 image: assets/images/conectric_elastic_main.jpg
 author: simon
 ---

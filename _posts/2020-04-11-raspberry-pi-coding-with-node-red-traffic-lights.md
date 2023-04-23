@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Raspberry Pi Coding with Node Red: Traffic Lights"
-categories: [ Raspberry Pi, IoT,  JavaScript, Node.js, Node RED ]
+categories: [ Raspberry Pi, IoT,  JavaScript, Node.js, Node RED, Coding ]
 image: assets/images/pi_traffic_lights_node_red_main.jpg
 author: simon
 ---

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Using a Break Beam Sensor with Python and Raspberry Pi"
-categories: [ Raspberry Pi, Python, IoT ]
+categories: [ Raspberry Pi, Python, IoT, Coding ]
 image: assets/images/pi_break_beam_main.jpg
 author: simon
 ---

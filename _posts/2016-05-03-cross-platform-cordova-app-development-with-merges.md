@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Cross Platform Cordova App Development with Merges"
-categories: [ JavaScript, Cordova, DevOps, Android, iOS ]
+categories: [ JavaScript, Cordova, DevOps, Android, iOS, Coding ]
 image: assets/images/cordova_merges_main.png
 author: simon
 ---

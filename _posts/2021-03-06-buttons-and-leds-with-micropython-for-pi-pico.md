@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Buttons and LEDs with MicroPython for the Raspberry Pi Pico"
-categories: [Python, Raspberry Pi, IoT, Programming ]
+categories: [Python, Raspberry Pi, IoT, Coding ]
 image: assets/images/pi_pico_main.jpg
 author: simon
 ---

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Playing with Raspberry Pi and Python: Traffic lights, Part 2"
-categories: [ Raspberry Pi, Technology, IoT, Python ]
+categories: [ Raspberry Pi, Technology, IoT, Python, Coding ]
 image: assets/images/pi_traffic_lights_python_2_main.jpg
 author: simon
 ---

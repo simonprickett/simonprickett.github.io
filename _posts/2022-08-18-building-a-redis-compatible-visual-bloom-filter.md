@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Building a Redis Compatible Visual Bloom Filter"
-categories: [ IoT, Programming, Raspberry Pi, Python, Node.js, JavaScript, Redis ]
+categories: [ IoT, Coding, Raspberry Pi, Python, Node.js, JavaScript, Redis ]
 image: assets/images/redis_bloom_filter_main.jpg
 author: simon
 ---

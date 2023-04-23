@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Writing Google Cloud Functions in Go"
-categories: [ Cloud, GCP, Go, Serverless ]
+categories: [ Cloud, GCP, Go, Serverless, Coding ]
 image: assets/images/go_cloud_functions_main.jpg
 author: simon
 ---

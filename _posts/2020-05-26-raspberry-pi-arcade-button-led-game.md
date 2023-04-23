@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Making a Game with a Raspberry Pi, LED Arcade Button, Buzzer and Python"
-categories: [ Raspberry Pi, Python, Technology ]
+categories: [ Raspberry Pi, Python, Technology, Coding ]
 image: assets/images/pi_led_arcade_main.jpg
 author: simon
 ---

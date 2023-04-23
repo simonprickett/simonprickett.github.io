@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Building a Visual Bloom Filter with Raspberry Pi, Python and Unicorn Hat"
-categories: [ Python, Raspberry Pi, IoT, Programming ]
+categories: [ Python, Raspberry Pi, IoT, Coding ]
 image: assets/images/bloom_main.jpg
 author: simon
 tags: [featured]

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Monitoring Redis Streams Consumer Group Lag with a Raspberry Pi Pico W"
-categories: [ IoT, Programming, Raspberry Pi, Redis, JavaScript, Python ]
+categories: [ IoT, Coding, Raspberry Pi, Redis, JavaScript, Python ]
 image: assets/images/redis_streams_lag_main.jpg
 author: simon
 ---

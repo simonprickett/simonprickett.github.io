@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Promoting New Blog Entries with AWS Lambda and Slack"
-categories: [ AWS, Serverless, Slack, JavaScript, DevOps ]
+categories: [ AWS, Serverless, Slack, JavaScript, DevOps, Coding ]
 image: assets/images/lambda_slack_main.jpg
 author: simon
 canonical_url: https://moduscreate.com/blog/aws-lambda-and-slack-promoting-new-blog-entries/

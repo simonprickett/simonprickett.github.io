@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Supporting the Browser Platform in a Cordova Plugin"
-categories: [ JavaScript, Cordova ]
+categories: [ JavaScript, Cordova, Coding ]
 image: assets/images/cordova_browser_main.jpg
 author: simon
 ---

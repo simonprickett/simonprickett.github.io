@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Playing with Raspberry Pi: Door Sensor Fun"
-categories: [ Raspberry Pi, Technology, IoT, Python ]
+categories: [ Raspberry Pi, Technology, IoT, Python, Coding ]
 image: assets/images/pi_door_sensor_main.jpg
 author: simon
 ---

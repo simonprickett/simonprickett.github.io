@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Things on Thursdays: A Live Streaming Series"
-categories: [ IoT, Programming, Raspberry Pi, Python, Node.js, JavaScript, Redis ]
+categories: [ IoT, Coding, Raspberry Pi, Python, Node.js, JavaScript, Redis ]
 image: assets/images/things_on_thursdays_main.jpg
 author: simon
 tags: [sticky]

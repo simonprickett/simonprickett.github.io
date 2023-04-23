@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Raspberry Pi Coding in Go: Traffic Lights"
-categories: [ Raspberry Pi, Technology, IoT, Golang ]
+categories: [ Raspberry Pi, Technology, IoT, Golang, Coding ]
 image: assets/images/pi_traffic_lights_go_main.jpg
 author: simon
 ---
