@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Door Open Alerts with Twilio and Conectric's IoT Sensor Product for Node.js"
-categories: [ Twilio, Node.js, JavaScript, IoT ]
+categories: [ Twilio, Node.js, JavaScript, IoT, Coding ]
 image: assets/images/conectric_twilio_main.jpg
 author: simon
 ---

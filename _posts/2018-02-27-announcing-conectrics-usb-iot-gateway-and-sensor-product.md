@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Announcing Conectric's USB IoT Gateway & Sensor Product"
-categories: [ Node.js, JavaScript, IoT ]
+categories: [ Node.js, JavaScript, IoT, Coding ]
 image: assets/images/conectric_announce_main.jpg
 author: simon
 ---

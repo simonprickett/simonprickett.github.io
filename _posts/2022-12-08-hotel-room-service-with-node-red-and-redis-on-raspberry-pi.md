@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Hotel Room Service with Node RED and Redis on the Raspberry Pi"
-categories: [ IoT, Programming, Raspberry Pi, Redis, JavaScript ]
+categories: [ IoT, Coding, Raspberry Pi, Redis, JavaScript ]
 image: assets/images/node_red_redis_main.jpg
 author: simon
 ---

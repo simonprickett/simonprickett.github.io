@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Raspberry Pi Coding with Node.js: Traffic Lights"
-categories: [ Raspberry Pi, Technology, IoT, JavaScript, Node.js ]
+categories: [ Raspberry Pi, Technology, IoT, JavaScript, Node.js, Coding ]
 image: assets/images/pi_traffic_lights_node_main.jpg
 author: simon
 ---

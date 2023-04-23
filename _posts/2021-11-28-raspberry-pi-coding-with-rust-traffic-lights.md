@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Raspberry Pi Coding with Rust: Traffic Lights"
-categories: [ Raspberry Pi, Technology, Rust ]
+categories: [ Raspberry Pi, Technology, Rust, Coding ]
 image: assets/images/pi_traffic_lights_rust_main.jpg
 author: simon
 ---

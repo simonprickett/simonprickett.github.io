@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Controlling Real World Objects with Raspberry Pi and Node.js"
-categories: [ Raspberry Pi, Node.js, IoT ]
+categories: [ Raspberry Pi, Node.js, IoT, Coding ]
 image: assets/images/pi_controlling_objects_main.jpg
 author: simon
 ---

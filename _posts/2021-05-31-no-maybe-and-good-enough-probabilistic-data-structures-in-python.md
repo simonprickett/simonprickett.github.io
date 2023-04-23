@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "No, Maybe and Close Enough! Probabilistic Data Structures with Python"
-categories: [Python, Redis, Programming ]
+categories: [Python, Redis, Coding ]
 image: assets/images/pycon_main.jpg
 author: simon
 ---

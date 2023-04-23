@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Playing with Raspberry Pi: GPIO Pins and Traffic Lights in Java"
-categories: [ Raspberry Pi, Technology, IoT, Java ]
+categories: [ Raspberry Pi, Technology, IoT, Java, Coding ]
 image: assets/images/pi_traffic_lights_java_main.jpg
 author: simon
 ---

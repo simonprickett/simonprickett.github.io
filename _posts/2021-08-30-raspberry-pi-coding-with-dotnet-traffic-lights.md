@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Raspberry Pi Coding with .NET: Traffic Lights"
-categories: [ Raspberry Pi, Technology, .NET, C# ]
+categories: [ Raspberry Pi, Technology, .NET, C#, Coding ]
 image: assets/images/pi_traffic_lights_dotnet_main.jpg
 author: simon
 ---

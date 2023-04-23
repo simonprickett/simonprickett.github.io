@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Plugin Authoring for iOS and Android in Cordova 6"
-categories: [ JavaScript, Cordova, Android, iOS ]
+categories: [ JavaScript, Cordova, Android, iOS, Coding ]
 image: assets/images/cordova_plugin_main.png
 author: simon
 ---

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Environment Monitoring with Redis Streams, Raspberry Pi Pico W and MicroPython"
-categories: [ IoT, Programming, Raspberry Pi, Python, Node.js, JavaScript, Redis ]
+categories: [ IoT, Coding, Raspberry Pi, Python, Node.js, JavaScript, Redis ]
 image: assets/images/pico_env_streams_main.jpg
 author: simon
 ---

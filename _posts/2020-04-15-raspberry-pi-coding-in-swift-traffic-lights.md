@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Raspberry Pi Coding in Swift: Traffic Lights"
-categories: [ Raspberry Pi, Technology, IoT, Swift ]
+categories: [ Raspberry Pi, Technology, IoT, Swift, Coding ]
 image: assets/images/pi_traffic_lights_swift_main.jpg
 author: simon
 ---

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Movement Alerts in Slack with Conectric's Motion Sensor & IoT Gateway for Node.js"
-categories: [ Slack, Node.js, JavaScript, IoT ]
+categories: [ Slack, Node.js, JavaScript, IoT, Coding ]
 image: assets/images/conectric_motion_slack_main.jpg
 author: simon
 ---

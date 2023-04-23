@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "You Can Now Write Google Cloud Functions with Node.js 8"
-categories: [ Cloud, GCP, Node.js, JavaScript, Serverless ]
+categories: [ Cloud, GCP, Node.js, JavaScript, Serverless, Coding ]
 image: assets/images/node_8_cloud_functions_main.jpg
 author: simon
 ---

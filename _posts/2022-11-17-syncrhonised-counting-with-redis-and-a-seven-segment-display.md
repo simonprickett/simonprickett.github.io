@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Synchronised Counting with Redis and a Seven Segment Display"
-categories: [ IoT, Programming, Raspberry Pi, Python, JavaScript, Redis ]
+categories: [ IoT, Coding, Raspberry Pi, Python, JavaScript, Redis ]
 image: assets/images/redis_counting_main.png
 author: simon
 ---

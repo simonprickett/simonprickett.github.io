@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Creating an Interactive Voice Experience with Amazon Alexa"
-categories: [ AWS, Serverless, IoT, Alexa, Python ]
+categories: [ AWS, Serverless, IoT, Alexa, Python, Coding ]
 image: assets/images/alexa_main.jpg
 author: simon
 ---

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Wifi Setup with the Raspberry Pi Pico W"
-categories: [ IoT, Programming, Raspberry Pi, Python ]
+categories: [ IoT, Coding, Raspberry Pi, Python ]
 image: assets/images/pico_wifi_main.jpg
 author: simon
 ---

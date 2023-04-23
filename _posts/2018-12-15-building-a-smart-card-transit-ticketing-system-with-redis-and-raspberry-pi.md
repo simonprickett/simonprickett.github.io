@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Building a Smart Card Transit Ticketing System with Redis and Raspberry Pi"
-categories: [ Python, Redis, IoT, Raspberry Pi, Node.js ]
+categories: [ Python, Redis, IoT, Raspberry Pi, Node.js, Coding ]
 image: assets/images/redis_transit_main.jpg
 author: simon
 tags: [featured]

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Arduino Coding: Traffic Lights"
-categories: [ Arduino, IoT, Programming, C ]
+categories: [ Arduino, IoT, Coding, C ]
 image: assets/images/arduino_traffic_main.jpg
 author: simon
 ---

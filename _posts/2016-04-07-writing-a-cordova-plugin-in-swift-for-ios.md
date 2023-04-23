@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Writing a Cordova Plugin in Swift for iOS"
-categories: [ JavaScript, Cordova, iOS, Swift ]
+categories: [ JavaScript, Cordova, iOS, Swift, Coding ]
 image: assets/images/cordova_swift_main.jpg
 author: simon
 ---

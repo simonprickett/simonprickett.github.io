@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Getting Started with Express - Building an API: Part 1"
-categories: [Node.js, JavaScript, Programming ]
+categories: [Node.js, JavaScript, Coding ]
 image: assets/images/express1_main.jpg
 author: simon
 ---

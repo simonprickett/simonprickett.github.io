@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Exploring JavaScript Generators with Redis Sets"
-categories: [ JavaScript, Node.js, Redis ]
+categories: [ JavaScript, Node.js, Redis, Coding ]
 image: assets/images/jsgenerator_main.jpg
 author: simon
 ---
