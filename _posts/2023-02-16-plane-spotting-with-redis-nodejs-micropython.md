@@ -5,15 +5,15 @@ categories: [ IoT, Coding, Raspberry Pi, Redis, JavaScript, Python ]
 image: assets/images/plane_tracking_main.jpg
 author: simon
 ---
-I've always been interested to watch planes pass by, so I decided to build a plane tracking system... For this I used some existing software called [dump1090](https://github.com/antirez/dump1090) - this receives data broadcast from passing aircraft.  This works by using a software defined radio USB stick with an antenna, decoding messages to usable data that can be read with Node.js.
+I've always been interested to watch planes pass by, so I decided to build a plane tracking system... For this I used some existing software called [dump1090](https://github.com/antirez/dump1090) - it receives data broadcast from passing aircraft.  This works by using a software defined radio USB stick with an antenna, decoding messages to usable data that can be read with Node.js (or other languages with a suitable library for it).
 
-I used this, plus a Redis instance to store and manage data in, to track aircraft passing by.  Not all of the information I wanted to have access to is available from the radio, so I used the FlightAware API to enhance the data adding in information about the type of aircraft, and its origin and destination airports.
+I used this plus a Redis instance to store and manage data in, to track aircraft passing by.  Not all of the information I wanted to have access to is available from the radio, so I used the FlightAware API to enhance the data adding in information about the type of aircraft, and its origin and destination airports.
 
 I then used this information and the search capabilities of Redis Stack to identify "interesting" flights (for example those flown by wide body aircraft).
 
 Finally, I used the pub/sub and streams capabilities of Redis to broadcast information about interesting flights to a couple of front ends.  The first one that I made was written in Node.js and runs on a Raspberry Pi.  It controls a flip dot sign that used to be in a bus.  My other front end demo used an e-ink screen controlled by a Raspberry Pi Pico W... the [Badger 2040W from Pimoroni](https://shop.pimoroni.com/products/badger-2040-w).
 
-Here's the flip dot dign working:
+Here's the flip dot sign working:
 
 <figure class="figure">
   <img src="{{ site.baseurl }}/assets/images/plane_tracking_flipdot.gif" alt="Animated GIF of a flip dot bus sign showing flight information">
