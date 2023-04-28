@@ -16,9 +16,15 @@ This is a picture...
 
 This was the ninth project in my [Things on Thursdays IoT live streaming series](/things-on-thursdays-livestreams/).  
 
+This is the video...
+
+<div class="embed-responsive embed-responsive-16by9">
+  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/OTDZIK55DX0?start=23" allowfullscreen></iframe>
+</div><br/>
+
 # Try it Yourself!
 
-TODO call to action and link to https://github.com/simonprickett/redis-pi-camera
+If you have a Pi and a camera module, this project should be fairly simple to set up and get running on your own hardware.  I've made the [source code available on GitHub](https://github.com/simonprickett/redis-pi-camera), feel free to use is for whatever you like!  I'd love to see what you make, [drop me a line](/contact/) if you come up with something new.
 
 ---
 *Main photograph NASA Sofia Boeing 747SP Telescope from [Wallpaper Flare](https://www.wallpaperflare.com/white-nasa-airplane-stratosphere-dlr-boeing-747sp-infrared-telescope-wallpaper-sedrf/download).*
