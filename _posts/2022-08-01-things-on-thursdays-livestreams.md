@@ -26,6 +26,7 @@ Here's all the projects in this series so far - I've given each one its own page
 * [Hotel Room Service with Node RED and Redis on the Raspberry Pi](/hotel-room-service-with-node-red-and-redis-on-raspberry-pi/)
 * [Monitoring Redis Streams Consumer Group Lag with a Raspberry Pi Pico W](/monitoring-redis-streams-consumer-group-lag-raspberry-pi-pico-w/)
 * [Plane Spotting with Node.js, Redis and MicroPython](/plane-spotting-with-redis-nodejs-micropython/)
+* [Taking Pictures with Raspberry Pi and Redis](/taking-pictures-with-raspberry-pi-and-redis/)
 
 ## What's Next?
 
