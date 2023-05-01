@@ -11,9 +11,10 @@ permalink: "/readinglist/"
             <p>Support your local library - I've read most of these books thanks to <a href="https://www.nottinghamcitylibraries.co.uk/" target="_blank">Nottingham City Libraries</a>.</p>
             <p>I'm also always looking out for book suggestions - <a href="/contact">get in touch</a> if you have ideas!</p>
             <hr/>
-            <p><i>Last Updated: April 28th 2023.</i></p>
+            <p><i>Last Updated: May 1st 2023.</i></p>
             <hr/>
             <ol>    
+              <li><a href="https://www.goodreads.com/book/show/43531017-homesick" target="_blank"><b>Homesick</b> - <i>Jennifer Croft</i></a></li>
               <li><a href="https://www.goodreads.com/book/show/59900688-solito" target="_blank"><b>Solito</b> - <i>Javier Zamora</i></a></li>                      
               <li><a href="https://www.goodreads.com/book/show/31373633-and-every-morning-the-way-home-gets-longer-and-longer" target="_blank"><b>And Every Morning the Way Home Gets Longer and Longer</b> - <i>Fredrik Backman</i></a></li>
               <li><a href="https://www.goodreads.com/book/show/77203.The_Kite_Runner" target="_blank"><b>The Kite Runner</b> - <i>Khaled Hosseini</i></a></li>
@@ -23,7 +24,6 @@ permalink: "/readinglist/"
               <li><a href="https://www.goodreads.com/book/show/61079149-fingers-crossed" target="_blank"><b>Fingers Crossed: How Music Saved Me From Success</b> - <i>Miki Berenyi</i></a></li>
               <li><a href="https://www.goodreads.com/book/show/42815544-bunny" target="_blank"><b>Bunny</b> - <i>Mona Awad</i></a></li>
               <li><a href="https://www.goodreads.com/book/show/50140.Big_Sur" target="_blank"><b>Big Sur</b> - <i>Jack Kerouac</i></a></li>
-              <li><a href="https://www.goodreads.com/book/show/51733706-afterparties" target="_blank"><b>Afterparties</b> - <i>Anthony Veasna So</i></a></li>
             </ol>
          </div>
    </div>
