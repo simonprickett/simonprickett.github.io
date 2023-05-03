@@ -11,9 +11,10 @@ permalink: "/readinglist/"
             <p>Support your local library - I've read most of these books thanks to <a href="https://www.nottinghamcitylibraries.co.uk/" target="_blank">Nottingham City Libraries</a>.</p>
             <p>I'm also always looking out for book suggestions - <a href="/contact">get in touch</a> if you have ideas!</p>
             <hr/>
-            <p><i>Last Updated: May 1st 2023.</i></p>
+            <p><i>Last Updated: May 3rd 2023.</i></p>
             <hr/>
             <ol>    
+              <li><a href="https://www.goodreads.com/book/show/61259330-the-tastemaker" target="_blank"><b>The Tastemaker: My Life with the Legends and Geniuses of Rock Music</b> - <i>Tony King</i></a></li>
               <li><a href="https://www.goodreads.com/book/show/43531017-homesick" target="_blank"><b>Homesick</b> - <i>Jennifer Croft</i></a></li>
               <li><a href="https://www.goodreads.com/book/show/59900688-solito" target="_blank"><b>Solito</b> - <i>Javier Zamora</i></a></li>                      
               <li><a href="https://www.goodreads.com/book/show/31373633-and-every-morning-the-way-home-gets-longer-and-longer" target="_blank"><b>And Every Morning the Way Home Gets Longer and Longer</b> - <i>Fredrik Backman</i></a></li>
@@ -23,7 +24,6 @@ permalink: "/readinglist/"
               <li><a href="https://www.goodreads.com/book/show/57748024-misfits" target="_blank"><b>Misfits: A Personal Manifesto</b> - <i>Michaela Coel</i></a></li>
               <li><a href="https://www.goodreads.com/book/show/61079149-fingers-crossed" target="_blank"><b>Fingers Crossed: How Music Saved Me From Success</b> - <i>Miki Berenyi</i></a></li>
               <li><a href="https://www.goodreads.com/book/show/42815544-bunny" target="_blank"><b>Bunny</b> - <i>Mona Awad</i></a></li>
-              <li><a href="https://www.goodreads.com/book/show/50140.Big_Sur" target="_blank"><b>Big Sur</b> - <i>Jack Kerouac</i></a></li>
             </ol>
          </div>
    </div>
