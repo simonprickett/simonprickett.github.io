@@ -5,9 +5,9 @@ categories: [ Redis, Raspberry Pi, Python ]
 image: assets/images/pi_photos_redis_main.jpg
 author: simon
 ---
-TODO this needs to be the introductory paragraph that contains some meaningful text and all that stuff.  Blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah.
+"How can you store images in Redis from a Python script?" - I was asked this by someone looking to build an IoT project that used Redis as the data store for image classification.  The really short answer is "Well, Redis Strings are binary safe, so any data structure in Redis that uses those can hold your image data safely".  That's a bit boring though, and I'm always on the lookout for ideas for the Internet of Things live streams...
 
-So I thought I'd build something that demonstrates how to get image data in and out of Redis.  Making a command line utility to read or write JPG files is a bit dull and not the point of an IoT series... so I decided to fish out a previously unused Raspberry Pi camera module that I'd had for some years and finally give it a go.  A web front end to display images seemed like an obvious choice.
+So I thought I'd build something that demonstrates how to get image data in and out of Redis.  Making a command line utility to read or write JPG files is a bit dull and not the point of an IoT series... I decided to fish out a previously unused Raspberry Pi camera module that I'd had for some years and finally give it a go.  A web front end to display images seemed like an obvious choice.
 
 Here's what my initial Raspberry Pi camera setup looked like.  I used a [Raspberry Pi 3B](https://www.raspberrypi.com/products/raspberry-pi-3-model-b/) (I had one around, any model with the camera interface will work), the [Raspberry Pi Camera Module 2.1](https://www.raspberrypi.com/products/camera-module-v2/) and a [case from Adafruit](https://www.adafruit.com/product/2256).  I held the camera onto the case using electrical tape.
 
