@@ -24,13 +24,25 @@ Here's the video run through of the project that I did as a live stream in April
   <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/OTDZIK55DX0?start=23" allowfullscreen></iframe>
 </div><br/>
 
+A full explanation of how the project works can be found by watching the video and/or reading the README files in the project's [GitHub repository](https://github.com/simonprickett/redis-pi-camera).  Here's a high level overview...
+
+## Architecture
+
 TODO other stuff...
+
+## Capturing Images with the Raspberry Pi and Storing them in Redis
+
+TODO...
+
+## Displaying the Images with a Web Front End
+
+TODO...
 
 Here's a screenshot of the front end showing a few images captured from the Pi.  I hope to improve the image quality in a future update to this project - I'll move to using the [Raspberry Pi Camera Module 3](https://www.raspberrypi.com/products/camera-module-3/) which has autofocus built in.  I'm hoping that works well.  I originally used the v2.1 camera module as it was what I had on the shelf at the time. 
 
 <figure class="figure">
   <img src="{{ site.baseurl }}/assets/images/pi_photos_server_component_running.png" class="figure-img img-fluid" alt="The front end showing a few captured images.">
-  <figcaption class="figure-caption text-center">TThe front end showing a few captured images.</figcaption>
+  <figcaption class="figure-caption text-center">The front end showing a few captured images.</figcaption>
 </figure>
 
 TODO other stuff...
