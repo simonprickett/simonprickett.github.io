@@ -16,7 +16,7 @@ Here's what my initial Raspberry Pi camera setup looked like.  I used a [Raspber
   <figcaption class="figure-caption text-center">The camera set up on the Raspberry Pi.</figcaption>
 </figure>
 
-This was the ninth project in my [Things on Thursdays IoT live streaming series](/things-on-thursdays-livestreams/).  I aim to work on this some more and enhance it with search capabilities, sensors and who knows what else!  When I do I'll be sure to make some more videos and update this article and the codebase.
+This was the ninth project in my [Things on Thursdays IoT live streaming series](/things-on-thursdays-livestreams/).  I aim to work on this some more and enhance it with search capabilities, sensors, ability to set time to live on an image and who knows what else!  When I do I'll be sure to make some more videos and update this article and the codebase.
 
 Here's the video run through of the project that I did as a live stream in April 2023:
 
@@ -32,7 +32,15 @@ TODO other stuff...
 
 ## Capturing Images with the Raspberry Pi and Storing them in Redis
 
-TODO...
+This is the fun part with the hardware :)   One of the great things about Raspberry Pi products is that they have excellent documentation and software support: the camera module is no exception.  Python is the obvious choice of language when working on a Raspberry Pi, support for working with the GPIO pins and other peripherals is excellent.  The Raspberry Pi Foundation provide a library called [PiCamera2](https://datasheets.raspberrypi.com/camera/picamera2-manual.pdf) which simplifies working with their camera modules.  
+
+I decided to make the simplest possible image capture script... instead of a button, sensor, or some other event triggering the capture of an image I'm just doing it on a timer loop.  So a new image gets captured every 10 seconds or so.  In a fancier demo, this could be configurable.
+
+Every time the camera takes a picture, I'm storing it in a Python [`BytesIO` in memory binary stream](https://docs.python.org/3/library/io.html#binary-i-o) rather than as a file stored on the filesystem.  I'm doing this because I want to persist the image data to Redis, and for that I need a binary representation that can be converted to a [`bytes` object](https://docs.python.org/3/library/stdtypes.html#bytes).  The `BytesIO` object does that with its `getvalue()` method.
+
+TODO Redis hash storage and binary...
+
+Check out the complete source code for the image capture component in `capture.py` [here on GitHub](https://github.com/simonprickett/redis-pi-camera/blob/main/pi/capture.py).
 
 In a future live stream I'd like to add one or more sensors to the Raspberry Pi and use them to trigger the camera.  Rather than a picture being taken every so many seconds, the Pi would respond to events such as a button press or a noise... depending on which sensors I choose to use.  I might be able to use the sensor to generate additional metadata... for example capturing some idea of the magnitude of a noise that triggered the sensor.
 
