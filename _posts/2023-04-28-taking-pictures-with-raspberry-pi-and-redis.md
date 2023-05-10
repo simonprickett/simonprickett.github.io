@@ -28,7 +28,14 @@ A full explanation of how the project works can be found by watching the video a
 
 ## Architecture
 
-TODO other stuff...
+There's essentially two parts to this that share data via a common Redis instance.  I used [Redis Stack](https://redis.io/docs/stack/get-started/) in the cloud ([sign up free](https://redis.io/docs/stack/get-started/)) because I'll want to use the [search capability](https://redis.io/docs/stack/search/) in a later phase of the project.  If you prefer, you could absolutely use standard open source Redis for what's described here.  The free cloud version is OK at 30Mb of storage, but with images you'll quickly burn through that.  For the demo in the video I was running Redis Stack on a Mac with more RAM and I've provided a Docker Compose file for that in the project's GitHub repository.
+
+The components are:
+
+* **Image capture component:** This is written in Python and runs on a Raspberry Pi with a camera module attached. It takes a new picture every so often and stores it, plus some basic metadata, in Redis. Python was the obvious implementation choice here as Raspberry Pi provides an excellent Python library for their camera modules.
+* **Front end component:** This comprises a server written in Python using the Flask framework. It reads data from Redis and uses a HTML front end to display it in a grid view. It uses HTML, JavaScript and the Bulma framework. These were all arbitrary choices - this component could equally be built with Node.js and Express for example.
+
+Let's look at each in turn.
 
 ## Capturing Images with the Raspberry Pi and Storing them in Redis
 
