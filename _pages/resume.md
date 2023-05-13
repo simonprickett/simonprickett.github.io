@@ -48,7 +48,7 @@ permalink: "/resume/"
     </ul>
     <li>Acted as Developer Advocacy Manager for a nine-month period, managing a team of four developer advocates.</li>
     <li>Acted as interim maintainer and developer advocate for the open source Redis OM Python client, writing code, merging community pull requests and giving talks and demonstrations of the client at meetups and on the Redis Twitch and YouTube channels.  Example video: <a href="https://www.youtube.com/watch?v=gi6jugJsKS4" target="_blank">https://www.youtube.com/watch?v=gi6jugJsKS4</a></li>
-    <li>I lead the operation and development of Redis University - providing nine continuously available online courses and a certification exam to thousands of students with support in Discord, creating new courses and amending existing offerings.</li>
+    <li>I lead the operation and development of Redis University - providing ten continuously available online courses and a certification exam to thousands of students with support in Discord, creating new courses and amending existing offerings.  I am currently developing a new course covering probabilistic data structures.</li>
     <li>Reviewed and edited code, blog posts, presentations and conference talks for other developer advocates on the team.</li>
     <li>Worked with our Developer Community Manager to secure and deliver collaborations with developer relations teams at other tech companies.</li>
     <li>Regular code, documentation and example code contributor to multiple Redis projects including the Node Redis client, RediSearch, the Redis OM clients and the official Redis and Redis Enterprise documentation.</li>
