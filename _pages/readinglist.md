@@ -11,9 +11,10 @@ permalink: "/readinglist/"
             <p>Support your local library - I've read most of these books thanks to <a href="https://www.nottinghamcitylibraries.co.uk/" target="_blank">Nottingham City Libraries</a>.</p>
             <p>I'm also always looking out for book suggestions - <a href="/contact">get in touch</a> if you have ideas!</p>
             <hr/>
-            <p><i>Last Updated: May 9th 2023.</i></p>
+            <p><i>Last Updated: May 18th 2023.</i></p>
             <hr/>
             <ol>    
+              <li><a href="https://www.goodreads.com/book/show/60865419-whatever-happened-to-the-c86-kids" target="_blank"><b>Whatever Happened to the C86 Kids?: An Indie Odyssey</b> - <i>Nige Tassell</i></a></li>
               <li><a href="https://www.goodreads.com/book/show/56920684-the-anomaly" target="_blank"><b>The Anomaly</b> - <i>Hervé Le Tellier</i></a></li>
               <li><a href="https://www.goodreads.com/book/show/58491879-glory" target="_blank"><b>Glory</b> - <i>NoViolet Bulawayo</i></a></li>
               <li><a href="https://www.goodreads.com/book/show/61259330-the-tastemaker" target="_blank"><b>The Tastemaker: My Life with the Legends and Geniuses of Rock Music</b> - <i>Tony King</i></a></li>
@@ -23,7 +24,6 @@ permalink: "/readinglist/"
               <li><a href="https://www.goodreads.com/book/show/77203.The_Kite_Runner" target="_blank"><b>The Kite Runner</b> - <i>Khaled Hosseini</i></a></li>
               <li><a href="https://www.goodreads.com/book/show/55276648-the-reading-list" target="_blank"><b>The Reading List</b> - <i>Sara Nisha Adams</i></a></li>
               <li><a href="https://www.goodreads.com/book/show/50358031-leave-the-world-behind" target="_blank"><b>Leave the World Behind</b> - <i>Rumaan Alam</i></a></li>
-              <li><a href="https://www.goodreads.com/book/show/57748024-misfits" target="_blank"><b>Misfits: A Personal Manifesto</b> - <i>Michaela Coel</i></a></li>
             </ol>
          </div>
    </div>
