@@ -121,6 +121,12 @@ I'm aiming to use a forthcoming live stream to replace the use of `SCAN` with th
   <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/mcGL6Lk2IXU" allowfullscreen></iframe>
 </div><br/>
 
+I've also got a third episode scheduled for June 1st - here I'll try and add a trigger sensor to the capture component and build out some more search functionality in the front end.  Subscribe to get notified when it's live:
+
+<div class="embed-responsive embed-responsive-16by9">
+  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/qci-pz8e5nk" allowfullscreen></iframe>
+</div><br/>
+
 ## Try it Yourself!
 
 If you have a Pi and a camera module, this project should be fairly simple to set up and get running on your own hardware.  I've made the [source code available on GitHub](https://github.com/simonprickett/redis-pi-camera), feel free to use is for whatever you like!  I've provided instructions for how to set up each component and get a Redis instance in the cloud or using Docker.  
