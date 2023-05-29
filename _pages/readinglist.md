@@ -11,9 +11,10 @@ permalink: "/readinglist/"
             <p>Support your local library - I've read most of these books thanks to <a href="https://www.nottinghamcitylibraries.co.uk/" target="_blank">Nottingham City Libraries</a>.</p>
             <p>I'm also always looking out for book suggestions - <a href="/contact">get in touch</a> if you have ideas!</p>
             <hr/>
-            <p><i>Last Updated: May 27th 2023.</i></p>
+            <p><i>Last Updated: May 29th 2023.</i></p>
             <hr/>
             <ol>    
+              <li><a href="https://www.goodreads.com/book/show/62039324-shy" target="_blank"><b>Shy</b> - <i>Max Porter</i></a></li>
               <li><a href="https://www.goodreads.com/book/show/42899408-nirvana-is-here" target="_blank"><b>Nirvana is Here</b> - <i>Aaron Hamburger</i></a></li>
               <li><a href="https://www.goodreads.com/book/show/60865419-whatever-happened-to-the-c86-kids" target="_blank"><b>Whatever Happened to the C86 Kids?: An Indie Odyssey</b> - <i>Nige Tassell</i></a></li>
               <li><a href="https://www.goodreads.com/book/show/56920684-the-anomaly" target="_blank"><b>The Anomaly</b> - <i>Hervé Le Tellier</i></a></li>
@@ -23,7 +24,6 @@ permalink: "/readinglist/"
               <li><a href="https://www.goodreads.com/book/show/59900688-solito" target="_blank"><b>Solito</b> - <i>Javier Zamora</i></a></li>                      
               <li><a href="https://www.goodreads.com/book/show/31373633-and-every-morning-the-way-home-gets-longer-and-longer" target="_blank"><b>And Every Morning the Way Home Gets Longer and Longer</b> - <i>Fredrik Backman</i></a></li>
               <li><a href="https://www.goodreads.com/book/show/77203.The_Kite_Runner" target="_blank"><b>The Kite Runner</b> - <i>Khaled Hosseini</i></a></li>
-              <li><a href="https://www.goodreads.com/book/show/55276648-the-reading-list" target="_blank"><b>The Reading List</b> - <i>Sara Nisha Adams</i></a></li>
             </ol>
          </div>
    </div>
