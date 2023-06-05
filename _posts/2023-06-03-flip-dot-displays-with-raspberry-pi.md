@@ -238,7 +238,9 @@ Somebody else in Telford saw mine, and they've bought one and replicated the who
 
 You might have seen this guy - he's called Sam Battle, he's known as ["Look Mum No Computer"](https://www.youtube.com/@LOOKMUMNOCOMPUTER/videos).  He does synthesizer stuff and he also does electronics projects.  He built one of these for a makers giveaway at Christmas - it's a sort of etch a sketch:
 
-TODO EMBED LOOK MUM VIDEO
+<div class="embed-responsive embed-responsive-16by9">
+  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/5gilhOpXEUk?start=537" allowfullscreen></iframe>
+</div><br/>
 
 The video's sped up a little but with these smaller versions of the sign you can do faster updates because there's just less stuff going down the bus and it takes less time to ripple it across the screen.
 
