@@ -78,10 +78,9 @@ So flip dot signs are having a bit of a second life.  In the big scheme of thing
 
 How does the sign work?
 
-TODO GIF OF SLOW FLIP MECHANIC
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/flipdot_TODO.png" alt="TODO alt text">
-  <figcaption class="figure-caption text-center">TODO CAPTION.</figcaption>
+  <img src="{{ site.baseurl }}/assets/images/flipdot_slow_motion_flip.gif" alt="Flip dot flip action in slow motion">
+  <figcaption class="figure-caption text-center">Flip dot flip action in slow motion.</figcaption>
 </figure>
 
 Watch the loop for a moment - it's been slowed down quite a lot.  What happens is that each dot in the sign, or the matrix, has a very very bright side and a very very dark side.  Each dot is on a hinge or pole at the top and bottom and there's electromagnets / a solenoid in each one.  To control these, you tell each one to turn on or off and it changes the magnets around causing the dot to flip which is why you have this noise...  it is actually turning and banging into the other side when it finishes.
