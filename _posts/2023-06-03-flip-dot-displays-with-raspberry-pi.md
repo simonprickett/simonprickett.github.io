@@ -19,7 +19,10 @@ This talk is about flip dots and managing a flip dot display with a Raspberry Pi
 
 What does it do?  Let's see if we can make it do something... 
 
-TODO GIF FROM VIDEO AROUND 1:05
+<figure class="figure">
+  <img src="{{ site.baseurl }}/assets/images/flipdot_welcome.gif" alt="Example text display on a flip dot sign">
+  <figcaption class="figure-caption text-center">Example text display on a flip dot sign.</figcaption>
+</figure>
 
 It basically does anything you want - they are usually, or were, used in digital signage.  They make a lovely noise when they change and the other thing that they've got going for them is that when they're not changing they don't really consume any power.  There's no lights involved here, these are very bright on one side and black on the other and it's all done with electromagnets.
 
@@ -208,7 +211,10 @@ The other fun thing here, I am SSH'ed into `bussign.local` on my network because
 
 This depends on live flight traffic that my aerial can see but hopefully at some point the sign will have an update and what happens when that occurs -- here it goes!
 
-TODO GIF OF THE TRACKER? 22:24 on video
+<figure class="figure">
+  <img src="{{ site.baseurl }}/assets/images/flipdot_plane_tracking.gif" alt="Plane tracking!">
+  <figcaption class="figure-caption text-center">Plane Tracking!</figcaption>
+</figure>
 
 It's a Ryanair flight from Dublin to somewhere on a 737 that's passing by.  If we get any new information from that plane, for example if it changes altitude it will display the update on the sign.  Here it goes again - Dublin to Luton this time so we've picked up another flight, a 737-800.  There's the registration, here's the altitude and so on.
 
@@ -220,8 +226,10 @@ If we stop the code, the sign's state is frozen - the sign doesn't do anything w
 
 That's an example of using it for a real project.  The other sort of thing that we can use it for is fun - I'm currently working on Flappy Bird (but very slow) for it.
 
-TODO GIF OR VIDEO OF FLAPPY BIRD video 24:48
-
+<figure class="figure">
+  <img src="{{ site.baseurl }}/assets/images/flipdot_flappy_bird.gif" alt="Playing Flappy Bird on a flip dot sign!">
+  <figcaption class="figure-caption text-center">Playing Flappy Bird on a flip dot sign!</figcaption>
+</figure>
 At the minute as you can see, there's no moving of the bird but the collision detection is there: when the bird hits the bar there, everything stops and the scoring stops.
 
 How fast can you make one of these things update? It's a function of how many flip dots you have because the sign updates from the left side to the right, which is why you see thinks janking across the screen there and they are slightly out of sync.  The wider your sign is, the slower the update.  My sign can be reliably driven from Python at about two updates per second - the game can't really get any faster than this and would start skipping frames if we did that.
