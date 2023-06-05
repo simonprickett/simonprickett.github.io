@@ -32,40 +32,36 @@ To answer this, we need to talk about buses a little bit because this thing behi
 
 They were popular for a while because they have a couple of properties we'll look at in a minute, but historically these were just blinds...
 
-TODO PIC OF SOUTH NOTTS 129
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/flipdot_TODO.png" alt="TODO alt text">
-  <figcaption class="figure-caption text-center">TODO CAPTION.</figcaption>
+  <img src="{{ site.baseurl }}/assets/images/flipdot_buses_destination_blinds.png" alt="Bus with destination blind">
+  <figcaption class="figure-caption text-center">A bus with a destination blind.</figcaption>
 </figure>
 
 They were just bits of fabric with the destinations written on, and the driver would wind a handle and around would come the next destination.  There's a few buses in this presentation - they're all Nottingham-based ones which is where I grew up.  The one above is one that used to take me to school.
 
 Buses that you see these days don't have flip dot displays....
 
-TODO PIC OF 3 22 PLATE NCT BUSES
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/flipdot_TODO.png" alt="TODO alt text">
-  <figcaption class="figure-caption text-center">TODO CAPTION.</figcaption>
+  <img src="{{ site.baseurl }}/assets/images/flipdot_buses_led_matrices.png" alt="Buses with LED matrix destination displays">
+  <figcaption class="figure-caption text-center">Buses with LED matrix destination displays.</figcaption>
 </figure>
 
 What you see on buses now is LED matrices which are essentially like the sort of things you can buy in maker kits - they have LEDS which are usually a single colour.  In vehicles they have this high visibility property and unlike flip dots they are silent and do require constant power (albeit very low power these days).  Modern buses all use LEDs.
 
 Somewhere in between destination blinds and LEDs we had a period where things were a bit cooler... and we had what was called a split flap display:
 
-TODO PIC OF A SPLIT FLAP DISPLAY
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/flipdot_TODO.png" alt="TODO alt text">
-  <figcaption class="figure-caption text-center">TODO CAPTION.</figcaption>
+  <img src="{{ site.baseurl }}/assets/images/flipdot_split_flap_display.png" alt="A split flap display">
+  <figcaption class="figure-caption text-center">A split flap display.</figcaption>
 </figure>
 
 You might have seen these in Waterloo Station sometime ago although they're long gone now.  Frankfurt Airport still has them. They're those displays where, when something changes, it makes this amazing clacking sound and the letters all spin around and then is settles down to the new state.  These are really cool - you can make them, you can also buy them from certain maker companies too.  However, they're really expensive because each letter has got the whole alphabet in there plus all of the numbers then some punctuation and anything else you wanted to put on the screen.
 
 Split flap displays were kind of fun and expensive, and also had the property of no power consumption when they aren't updating.  Inbetween split flap displays and LEDs there were these flip dot things that had their day.
 
-TODO PIC OF NYC BUS WITH FLIP DOTS
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/flipdot_TODO.png" alt="TODO alt text">
-  <figcaption class="figure-caption text-center">TODO CAPTION.</figcaption>
+  <img src="{{ site.baseurl }}/assets/images/flipdot_flipdot_nyc_bus.png" alt="Bus with flip dot display in New York City">
+  <figcaption class="figure-caption text-center">Bus with flip dot display in New York City.</figcaption>
 </figure>
 
 This was the hardest picture to source for this whole presentation. "Can I find a picture of the flip dot display installed in a bus?"  The answer is generally "no" because they seem to have existed for a moment in time and then stopped.  You might also have seen flip dots in use as clocks on railway platforms.  The bus we're looking at here is in New York - it's using a flip dot display with a back light.  My sign here also has a backlight but you don't really need it unless it's very dark outside because the dots themselves are so bright.
@@ -94,20 +90,18 @@ This is also why it's "object permanent" if you like.  You can turn it off and i
 
 That's how it works, and this is a blown up diagram that I made of what they look like:
 
-TODO FLIP DOT DIAGRAM
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/flipdot_TODO.png" alt="TODO alt text">
-  <figcaption class="figure-caption text-center">TODO CAPTION.</figcaption>
+  <img src="{{ site.baseurl }}/assets/images/flipdot_mechanics.png" alt="Diagram showing flip dots">
+  <figcaption class="figure-caption text-center">Flip dots.</figcaption>
 </figure>
 
 Each one is just this two coloured thing and it sits on a rod and behind there there's a couple of electromagnets.  But, there's lots and lots of these mechanisms.  This particular sign I've got is the medium sized sign - it's the one that would go down the side of the bus, not on the front or the back.  These signs generally work in threes: there's a front one which is really big, a side one which is that big (points to sign behind him) and a rear one that might just have space to display a route number.  Later, we'll look at how the protocol works if you have multiple signs connected together.
 
 Basically, the sign presents to the programmer as a giant bit array:
 
-TODO BIT ARRAY IMAGE
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/flipdot_TODO.png" alt="TODO alt text">
-  <figcaption class="figure-caption text-center">TODO CAPTION.</figcaption>
+  <img src="{{ site.baseurl }}/assets/images/flipdot_bit_array.png" alt="Diagram showing numbers on a flip dot display represented as a bit array">
+  <figcaption class="figure-caption text-center">Numbers on a flip dot display represented as a bit array.</figcaption>
 </figure>
 
 I've got a 7 x 87 (oops - it's actually 84!) sign, so that's 0 to 6 and then 0 to 86 (correction: 83) across the width.  The sign has no concept of text, or fonts, or anything really... it's just on or off for each dot.  Anything you want to draw on there requires you to figure out yourself.
@@ -116,15 +110,14 @@ Like Mark (the previous speaker on the night) was saying earlier, a lot of us gr
 
 So how do we control the thing?
 
-TODO IMAGE OF THE DERIC CONTROLLER
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/flipdot_TODO.png" alt="TODO alt text">
-  <figcaption class="figure-caption text-center">TODO CAPTION.</figcaption>
+  <img src="{{ site.baseurl }}/assets/images/flipdot_controller.png" alt="A Hanover DERIC flip dot display controller">
+  <figcaption class="figure-caption text-center">A Hanover DERIC flip dot display controller.</figcaption>
 </figure>
 
 We've got this sign, it's originally from a bus... it's not designed for use with any sort of programming language really.  When the sign was installed in the bus originally you'd also buy that little unit on the right there, which is a controller unit for it.  You would plug a laptop into the serial port on there and use proprietary software to load a set of destinations.  You'd then use the buttons on the controller to flip through available destinations and send them to the sign.  It then sends the data to signs at the front, side and back of the bus.
 
-This would give the bus driver a pre-programmed set of approved destination messages, which is probably what you want... again going back to Mark's (previous speaker) example of how we all walked into Currys or WH Smiths or Woolworth or whatever and did "10 PRINT <something rude> 20 GOTO 10" on the old BASIC computers from the 80s... you don't want to give the driver free text input to put any old thing they want on the front of the bus and then go driving it around on their last day at work!  That would not be good for anybody.
+This would give the bus driver a pre-programmed set of approved destination messages, which is probably what you want... again going back to Mark's (previous speaker) example of how we all walked into Currys or WH Smiths or Woolworth or whatever and did `10 PRINT <something rude> 20 GOTO 10` on the old BASIC computers from the 80s... you don't want to give the driver free text input to put any old thing they want on the front of the bus and then go driving it around on their last day at work!  That would not be good for anybody.
 
 The actual controller was quite limited in what it could do and required proprietary programming via a laptop.
 
@@ -132,11 +125,9 @@ People who are better than me at electronics looked at this and started looking 
 
 The bus sign protocol for controlling the signs is really quite strange:
 
-TODO IMAGE OF THE PROTOCOL
-
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/flipdot_TODO.png" alt="TODO alt text">
-  <figcaption class="figure-caption text-center">TODO CAPTION.</figcaption>
+  <img src="{{ site.baseurl }}/assets/images/flipdot_protocol.png" alt="Flip dot protocol explained">
+  <figcaption class="figure-caption text-center">Flip dot protocol explained.</figcaption>
 </figure>
 
 Imagine if we had 8 dots in a column and we wanted to turn on the 1st, 3rd, 5th, 6th, 7th and 8th dots.  You could look at them like this:
@@ -157,11 +148,9 @@ All of this data is sent across the USB/RS485 modem and the sign updates.  What 
 
 It's essentially a one frame per communication type of broadcast TV thing.  Luckily, most people won't need to worry about this because people went ahead and wrote drivers for these signs which make them a lot more accessible to those just wanting to get on with doing projects...
 
-TODO IMAGE OF DRIVERS
-
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/flipdot_TODO.png" alt="TODO alt text">
-  <figcaption class="figure-caption text-center">TODO CAPTION.</figcaption>
+  <img src="{{ site.baseurl }}/assets/images/flipdot_drivers.png" alt="Flip dot driver packages for Node.js and Python">
+  <figcaption class="figure-caption text-center">Flip dot driver packages for Node.js and Python.</figcaption>
 </figure>
 
 I've mostly worked with the Node.js driver in the top right.  It's probably the most mature one.  It supports fonts so you can send it text and the driver works out all of the ASCII font stuff that you need to represent letters.  This is what we were using in the demo earlier.  It also supports scrolling - send a message that's bigger than your sign is wide and it will scroll it across the sign for you.  It also has a debug mode where you can see what's going on with the protocol underneath - handy if you wanted to do something a bit trickier.
@@ -174,11 +163,9 @@ Those are the main two drivers that are out there.  You can of course write your
 
 What does any of this have to do with Raspberry Pi?  Well - anything and nothing really as we are plugging a USB/RS485 in... the main advantages of using a Raspberry Pi here are that it's got a USB port... but so do most things... I could plug this into my Macintosh.  The Pi can however also be mounted in the back of the sign.  I've got a Pi 3 stuck in the back of the sign here with some stick on velcro from B&Q:
 
-TODO PICTURE OF BACK OF SIGN
-
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/flipdot_TODO.png" alt="TODO alt text">
-  <figcaption class="figure-caption text-center">TODO CAPTION.</figcaption>
+  <img src="{{ site.baseurl }}/assets/images/flipdot_back_of_sign.png" alt="Inside the flip dot sign showing the Raspberry Pi and RS485 USB modem">
+  <figcaption class="figure-caption text-center">Inside the flip dot sign showing the Raspberry Pi and RS485 USB modem.</figcaption>
 </figure>
 
 That's the RS485 down there, the thing with the green screw blocks and a couple of wires.  The expanded view there is my address selector.  I've got bus address 1 selected in this example, so when we address this sign we'd know it as sign number 1.  If we had multiple signs chained together like in a real bus we could send messages to each, or the same message to all of them at the same time (note: this would require all the signs to be the same size).
