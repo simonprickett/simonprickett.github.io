@@ -5,18 +5,15 @@ categories: [ IoT, Coding, Raspberry Pi, JavaScript, Python ]
 image: assets/images/flipdot_main.jpg
 author: simon
 ---
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eget euismod ex, scelerisque egestas libero. Suspendisse cursus convallis arcu quis mollis. Pellentesque suscipit, leo eu tristique mollis, lorem leo convallis sapien, sed consectetur erat elit at dolor. Fusce at felis ut neque finibus interdum. Morbi posuere lacus non dolor venenatis, quis suscipit nunc venenatis. Mauris non dolor pellentesque, mattis nisi ac, malesuada ligula. Nam sollicitudin, nibh ut lobortis posuere, dolor velit egestas lorem, in pulvinar elit augue eget eros.
+Flip dot displays were a popular way of displaying destination information on buses and other forms of public transport.  A flip dot sign is a matrix of individual dots, each having a brightly coloured and a dark side.  Each dot can be controlled individually using magnets - when the state changes, the dot flips sides and makes a very satisfying sound.  I bought an old flip dot display that had been used in a bus and worked with existing software drivers for it to make it a fun display piece for my office and livestreaming setup.
 
-<figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/plane_tracking_flipdot.gif" alt="Animated GIF of a flip dot bus sign showing flight information">
-  <figcaption class="figure-caption text-center">The Flip Dot Display Front End.</figcaption>
-</figure>
-
-Here's the video of the talk:
+The [Raspberry Pint Meetup Group](https://www.youtube.com/@raspberrypint8669/videos) invited me to talk about how flip dot displays work at one of their hybrid meetup events.  I've embeeded the video of my talk below - this article is a transcript of the talk with images of the slide deck throughout and a list of resources at the end.  Enjoy!
 
 <div class="embed-responsive embed-responsive-16by9">
   <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/xSsINHL9COE?start=12" allowfullscreen></iframe>
 </div><br/>
+
+## Annotated Video Transcript
 
 This talk is about flip dots and managing a flip dot display with a Raspberry Pi.  Before we go any further what we can do is take a look at the thing behind me - it is a flip dot display.  For scale, there's a Raspberry Pi 4 in a box - so it's quite big.  It's also extremely heavy, because each one of these dots it electromechanical.  It's not using LEDs.  It weighs quite a lot, it's difficult to bring to London and navigate the tube, so it's staying up here in Nottingham and we're doing this remotely.
 
