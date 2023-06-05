@@ -176,11 +176,99 @@ What we do then is send it to the sign.  But, sending it to the sign is a broadc
 
 If we want to display a long message on this sign as multiple words, we have to "write something then sleep, write something then sleep".  We're not going to get told "OK the sign updated, you can move to the next word(s)".
 
-In Python... TODO 18:24 of the video
+In Python the interface is slightly different: they took a different approach and what we here is that again it presents as a serial modem.  In this case we tell it how big the sign is - I've got address 6, sign size 84 x 7 configured:
 
 <script src="https://gist.github.com/simonprickett/8689217928e1e2100fe348cc237d5de1.js"></script>
 
-TODO remainder of article... 
+Then what we do is create an image inside the driver.  This is just a big array of bytes.  We plot into it as if it was a bitmap.  I've got random x,y co-ordinates generated herem then I'm just setting the bit in that position to `True` or `False` for on or off.  It's a much lower level driver.
+
+This is not as great for text, but it's really good for writing games or something like that.  If you want to do something else with one of these, we'll also take a look at examples of what you can do...
+
+TODO PIC OF A PRACTICAL APPROACH
+
+What's a practical application of one of these displays?  Really there isn't one, it's kind of just for fun.  I took something that I would have been doing anyway and which also involves a lot of other Raspberry Pi stuff and I started doing aircraft tracking with the display I have here.  Let's look at a very complicated diagram:
+
+TODO PIC OF PLANE TRACKING ARCHITECTURE
+
+As part of my day to day job, I do Developer Advocacy for a database company so I get to build projects with databases and Raspberry Pis.  I started looking at ADS-B receivers, which are a bit of hardware that you can buy that plugs into a computer and it receives messages from passing aircraft (I forgot to mention you also need an aerial for this).
+
+I started looking at what we could do with that information - I started putting it into a database, and then taking the basic information that you get about the aircraft: callsign, height, latitude, longitude and using it to look up where the aircraft is coming from, where it's going to, what sort of aircraft is it and who owns it... getting this information from the FlightAware API (note: this is a paid service).
+
+I built a whole project with that and the sign is a front end for that.  This is where the sign having mechanical movement is really useful because, if nothing's going on out there in East Midlands Aiport land, nothing's passing over us here in Nottingham then it's quiet, but when something happens the sign just by virtue of updating makes quite a racket and you can hear it and know to look around at it because something is happening.
+
+In this project, which is a whole other thing - it's a lengthy talk or a set of livestream videos that are on my website ([here](/plane-spotting-with-redis-nodejs-micropython/)) if you want to see how that works - the sign is a front end.  I can show that working...
+
+The other fun thing here, I am SSH'ed into `bussign.local` on my network because there's a Pi in there - I'm SSH'ed into the bus sign and I can run stuff on it.  Let's run the front end of the plane tracking project...
+
+This depends on live flight traffic that my aerial can see but hopefully at some point the sign will have an update and what happens when that occurs -- here it goes!
+
+TODO GIF OF THE TRACKER? 22:24 on video
+
+It's a Ryanair flight from Dublin to somewhere on a 737 that's passing by.  If we get any new information from that plane, for example if it changes altitude it will display the update on the sign.  Here it goes again - Dublin to Luton this time so we've picked up another flight, a 737-800.  There's the registration, here's the altitude and so on.
+
+I have it repeating the information a couple of times so that if the first time the sound catches your attention and you miss something you can just keep watching it.  This is how these things work in public displays: you might have seen them on platforms in railway stations being used as a clock - you can here when it ticks over to a new minute, or providing train arrival/departure information.  We've picked up another plane - Manchester to Heathrow on a BA A320.
+
+This is an example of using the sign with real time stuff.  There are other components to this system that aren't in the back of the sign but they all could be - they could all run on that one Pi.  I've actually got a component that's listening to the radio and putting things into the database running somewhere else in the room, but it doesn't have to be separate.
+
+If we stop the code, the sign's state is frozen - the sign doesn't do anything when it's not being updated.  
+
+That's an example of using it for a real project.  The other sort of thing that we can use it for is fun - I'm currently working on Flappy Bird (but very slow) for it.
+
+TODO GIF OR VIDEO OF FLAPPY BIRD video 24:48
+
+At the minute as you can see, there's no moving of the bird but the collision detection is there: when the bird hits the bar there, everything stops and the scoring stops.
+
+How fast can you make one of these things update? It's a function of how many flip dots you have because the sign updates from the left side to the right, which is why you see thinks janking across the screen there and they are slightly out of sync.  The wider your sign is, the slower the update.  My sign can be reliably driven from Python at about two updates per second - the game can't really get any faster than this and would start skipping frames if we did that.
+
+We can build games and all sorts out of these.  The game is also shown later in the day so I had the backlight on in this case.  You don't control the backlight through software, there's just a button on the top that I put in there.  It would have been connected to the vehicle's headlight circuit originally.
+
+Other people have been doing stuff with these as well.  They seem to be having a bit of a renaissance.  The Pimoroni folks saw this one on my live stream and they've bought one:
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">A rare instance of a maker being a bad influence on *us*.<br><br>Bravo <a href="https://twitter.com/simon_prickett?ref_src=twsrc%5Etfw">@simon_prickett</a>. Enabler of flipdots! <a href="https://t.co/Y5HaMUWnwo">pic.twitter.com/Y5HaMUWnwo</a></p>&mdash; pimoroni (@pimoroni) <a href="https://twitter.com/pimoroni/status/1646875703265116163?ref_src=twsrc%5Etfw">April 14, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+Somebody else in Telford saw mine, and they've bought one and replicated the whole plane tracking project and are doing other things with it:
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">I was mad enough to copy 😄<br>Thanks for the awesome intro’s to nodejs and redis too! I do want to rewrite some of the components in Python, mainly because of familiarity.<br>I noticed the address was 1 out using the js but matched the potentiometer in Python - did you have the same? <a href="https://t.co/syOVhJB2wA">pic.twitter.com/syOVhJB2wA</a></p>&mdash; Jake Turner (@jaket91) <a href="https://twitter.com/jaket91/status/1644128357175504896?ref_src=twsrc%5Etfw">April 7, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+You might have seen this guy - he's called Sam Battle, he's known as ["Look Mum No Computer"](https://www.youtube.com/@LOOKMUMNOCOMPUTER/videos).  He does synthesizer stuff and he also does electronics projects.  He built one of these for a makers giveaway at Christmas - it's a sort of etch a sketch:
+
+TODO EMBED LOOK MUM VIDEO
+
+The video's sped up a little but with these smaller versions of the sign you can do faster updates because there's just less stuff going down the bus and it takes less time to ripple it across the screen.
+
+There's no reason why we can't do something more interesting with the Pi in the back of the sign because everything to do with the sign connects to a single USB port.  All of the GPIO pins are still free, so I can put an arcade button on there or a joystick or a trackballl or something and build whatever you can think of that fits into the display area.
+
+The other thing that I wanted to show quickly was that these things get out and about elsewhere...
+
+TODO FAMILY FORTUNES
+
+I couldn't quite find the right picture but Italian Family Fortunes used a flip dot display for years and apparently the British one did for a little while.  They definitely were a thing for a while.
+
+The company that made mine is called [Hanover Displays](https://www.hanoverdisplays.com/) - they're still around but they make other things now... you're not going to get a new one of these.  But if you are interested, and you do want to get hold of one then the usual place is probably eBay.
+
+Like with anything else, stuff crops up on eBay from time to time.  I know from experience that if you buy a large component of a bus on eBay then eBay will continue to try and sell you the rest of the bus - my eBay recommendations are now double decker buses etc.  Mine did come from a bus scrapyard on eBay that assured me it was working.  There was one out in Wales when I looked on there last week.
+
+There's also a company [PSV Automobilia dot com](https://psvautomobilia.com/?product_cat=hanover-flip-dots).  I don't know anything about them other than a couple of people have bought signs from them and said they've been great.
+
+TODO IMAGES OF SIGN VENDORS
+
+PSV Automobilia have new old stock signs, and have all of the sizes.  They do packages too.
+
+How much do they cost?  Mine cost me I think £112 shipped - they are heavy, so it'll be using Parcelforce or UPS.  One from PSV will cost a little bit more because it's likely to be a bit cleaner and have a guaranteed power source.
+
+What else do you need to make it work?  I'm using a laptop power supply that puts out 20v, it turns out that's pretty adequate.  I'm using 20v 5A because 20v 1A either powered the backlight or the flip discs, so the sign would work until I turned the backlight on then it would stop. It can take up to 24v which is possibly an easier way to go.
+
+The other thing that's cool, like these displays, and maybe the future is something called a mechanical seven segment display.
+
+TODO ALFAZETA PIC
+
+You might have seen seven segment displays in old calculators, they're always a popular maker project.  Four digit ones are cheap to buy, you can plug them into a load of GPIOs and control each segment.
+
+What this is is - imagine that combined with the flip dot.  Each of these seven segments is itself a tiny little mechanical thing that makes that really nice noise when it moves.  Instead of having on/off in one pixel, you can have any combination of the seven segments on or off times the size of the board.  These are brand new and manufactured today and the speed of them is significantly higher.  There are people out there doing really nice projects with things like the time of flight sensor that Mark (the previous speaker) mentioned.  You put your hand in front of it and it draws the outline of your hand in one of these displays.  As you move around it makes a really satisfying sound.
+
+I have no idea how much those cost, they're not something that I (currently) have access to.
+
+That's really the end of the talk, so if you want to learn more about this here's some resources(see below).  Thanks everybody!
 
 ## Resources
 
