@@ -184,11 +184,17 @@ Then what we do is create an image inside the driver.  This is just a big array 
 
 This is not as great for text, but it's really good for writing games or something like that.  If you want to do something else with one of these, we'll also take a look at examples of what you can do...
 
-TODO PIC OF A PRACTICAL APPROACH
+<figure class="figure">
+  <img src="{{ site.baseurl }}/assets/images/flipdot_practical_application.png" alt="Are there any practical uses for this?">
+  <figcaption class="figure-caption text-center">Are there any practical uses for this?</figcaption>
+</figure>
 
 What's a practical application of one of these displays?  Really there isn't one, it's kind of just for fun.  I took something that I would have been doing anyway and which also involves a lot of other Raspberry Pi stuff and I started doing aircraft tracking with the display I have here.  Let's look at a very complicated diagram:
 
-TODO PIC OF PLANE TRACKING ARCHITECTURE
+<figure class="figure">
+  <img src="{{ site.baseurl }}/assets/images/flipdot_flight_tracker.png" alt="Flight tracking project architecture">
+  <figcaption class="figure-caption text-center">Flight tracking project architecture.</figcaption>
+</figure>
 
 As part of my day to day job, I do Developer Advocacy for a database company so I get to build projects with databases and Raspberry Pis.  I started looking at ADS-B receivers, which are a bit of hardware that you can buy that plugs into a computer and it receives messages from passing aircraft (I forgot to mention you also need an aerial for this).
 
@@ -240,7 +246,10 @@ There's no reason why we can't do something more interesting with the Pi in the 
 
 The other thing that I wanted to show quickly was that these things get out and about elsewhere...
 
-TODO FAMILY FORTUNES
+<figure class="figure">
+  <img src="{{ site.baseurl }}/assets/images/flipdot_family_fortunes.png" alt="Family Fortunes - a TV game show">
+  <figcaption class="figure-caption text-center">Family Fortunes - a TV game show.</figcaption>
+</figure>
 
 I couldn't quite find the right picture but Italian Family Fortunes used a flip dot display for years and apparently the British one did for a little while.  They definitely were a thing for a while.
 
@@ -250,7 +259,10 @@ Like with anything else, stuff crops up on eBay from time to time.  I know from 
 
 There's also a company [PSV Automobilia dot com](https://psvautomobilia.com/?product_cat=hanover-flip-dots).  I don't know anything about them other than a couple of people have bought signs from them and said they've been great.
 
-TODO IMAGES OF SIGN VENDORS
+<figure class="figure">
+  <img src="{{ site.baseurl }}/assets/images/flipdot_vendors.png" alt="Places to buy a flip dot sign">
+  <figcaption class="figure-caption text-center">Places to buy a flip dot sign.</figcaption>
+</figure>
 
 PSV Automobilia have new old stock signs, and have all of the sizes.  They do packages too.
 
@@ -260,7 +272,10 @@ What else do you need to make it work?  I'm using a laptop power supply that put
 
 The other thing that's cool, like these displays, and maybe the future is something called a mechanical seven segment display.
 
-TODO ALFAZETA PIC
+<figure class="figure">
+  <img src="{{ site.baseurl }}/assets/images/flipdot_alfa_zeta.png" alt="Mechanical seven segment display matrix">
+  <figcaption class="figure-caption text-center">Mechanical seven segment display matrix.</figcaption>
+</figure>
 
 You might have seen seven segment displays in old calculators, they're always a popular maker project.  Four digit ones are cheap to buy, you can plug them into a load of GPIOs and control each segment.
 
