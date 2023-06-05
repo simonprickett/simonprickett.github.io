@@ -172,7 +172,7 @@ That's the RS485 down there, the thing with the green screw blocks and a couple 
 
 How does it work in code?  There's two ways of coding for the sign using the drivers provided.  This is a Node.js example:
 
-TODO GIST OF THE NODE EXAMPLE?
+<script src="https://gist.github.com/simonprickett/7c5e36e37bed1ae5279aa011f06960d9.js"></script>
 
 It doesn't necessarily lend itself particularly well to Node.js because Node is asynchronous and non-blocking and this is pretty much the opposite of that.  What we need to do is form up the message that we want to send to the sign.  We do that with a `writeText` function in the driver here.  It handles encoding the font into the protocol for us.  
 
@@ -182,7 +182,9 @@ If we want to display a long message on this sign as multiple words, we have to 
 
 In Python... TODO 18:24 of the video
 
-TODO GIST OF THE PYTHON CODE
+<script src="https://gist.github.com/simonprickett/8689217928e1e2100fe348cc237d5de1.js"></script>
+
+TODO remainder of article... 
 
 ## Resources
 
