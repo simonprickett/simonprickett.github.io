@@ -11,9 +11,10 @@ permalink: "/readinglist/"
             <p>Support your local library - I've read most of these books thanks to <a href="https://www.nottinghamcitylibraries.co.uk/" target="_blank">Nottingham City Libraries</a>.</p>
             <p>I'm also always looking out for book suggestions - <a href="/contact">get in touch</a> if you have ideas!</p>
             <hr/>
-            <p><i>Last Updated: June 15th 2023.</i></p>
+            <p><i>Last Updated: June 30th 2023.</i></p>
             <hr/>
             <ol>    
+              <li><a href="https://www.goodreads.com/book/show/53027017-madness" target="_blank"><b>Madness: Stories of Uncertainty and Hope</b> - <i>Sean Baumann</i></a></li>   
               <li><a href="https://www.goodreads.com/book/show/75382256-now-i-am-here" target="_blank"><b>Now I Am Here</b> - <i>Chidi Ebere</i></a></li> 
               <li><a href="https://www.goodreads.com/book/show/65829450-the-moderator" target="_blank"><b>The Moderator: Inside Facebook's Dirty Work in Ireland</b> - <i>Chris Gray</i></a></li>
               <li><a href="https://www.goodreads.com/book/show/61157636-cold-nights-of-childhood" target="_blank"><b>Cold Nights of Childhood</b> - <i>Tezer Özlü</i></a></li>
@@ -22,8 +23,7 @@ permalink: "/readinglist/"
               <li><a href="https://www.goodreads.com/book/show/60865419-whatever-happened-to-the-c86-kids" target="_blank"><b>Whatever Happened to the C86 Kids?: An Indie Odyssey</b> - <i>Nige Tassell</i></a></li>
               <li><a href="https://www.goodreads.com/book/show/56920684-the-anomaly" target="_blank"><b>The Anomaly</b> - <i>Hervé Le Tellier</i></a></li>
               <li><a href="https://www.goodreads.com/book/show/58491879-glory" target="_blank"><b>Glory</b> - <i>NoViolet Bulawayo</i></a></li>
-              <li><a href="https://www.goodreads.com/book/show/61259330-the-tastemaker" target="_blank"><b>The Tastemaker: My Life with the Legends and Geniuses of Rock Music</b> - <i>Tony King</i></a></li>
-              <li><a href="https://www.goodreads.com/book/show/43531017-homesick" target="_blank"><b>Homesick</b> - <i>Jennifer Croft</i></a></li>                     
+              <li><a href="https://www.goodreads.com/book/show/61259330-the-tastemaker" target="_blank"><b>The Tastemaker: My Life with the Legends and Geniuses of Rock Music</b> - <i>Tony King</i></a></li>                  
             </ol>
          </div>
    </div>
