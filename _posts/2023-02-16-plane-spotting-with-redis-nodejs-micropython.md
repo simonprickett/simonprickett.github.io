@@ -27,7 +27,7 @@ Here's a diagram showing the architecture for this project, watch the videos for
   <figcaption class="figure-caption text-center">Architecture of the plane tracking system.</figcaption>
 </figure>
 
-This was the eighth and most ambitious project in my [Things on Thursdays IoT live streaming series](/things-on-thursdays-livestreams/).  
+This was the eighth and most ambitious project in my [Things on Thursdays IoT live streaming series](/things-on-thursdays-livestreams/).  I also gave a talk about flip dot displays in more detail for the Raspberry Pint Meetup Group - [see the video and transcript here](/flip-dot-displays-with-raspberry-pi/).
 
 I was amazed to wake up one morning and find that someone else had used this project to make their own version and that they have the same flip dot display as me:
 
