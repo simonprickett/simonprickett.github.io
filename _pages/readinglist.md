@@ -11,9 +11,10 @@ permalink: "/readinglist/"
             <p>Support your local library - I've read most of these books thanks to <a href="https://www.nottinghamcitylibraries.co.uk/" target="_blank">Nottingham City Libraries</a>.</p>
             <p>I'm also always looking out for book suggestions - <a href="/contact">get in touch</a> if you have ideas!</p>
             <hr/>
-            <p><i>Last Updated: July 5th 2023.</i></p>
+            <p><i>Last Updated: July 18th 2023.</i></p>
             <hr/>
             <ol>    
+              <li><a href="https://www.goodreads.com/book/show/36480133-a-lucky-man" target="_blank"><b>A Lucky Man</b> - <i>Jamel Brinkley</i></a></li>   
               <li><a href="https://www.goodreads.com/book/show/7840634-before-you-suffocate-your-own-fool-self" target="_blank"><b>Before You Suffocate Your Own Fool Self</b> - <i>Danielle Evans</i></a></li>   
               <li><a href="https://www.goodreads.com/book/show/53027017-madness" target="_blank"><b>Madness: Stories of Uncertainty and Hope</b> - <i>Sean Baumann</i></a></li>   
               <li><a href="https://www.goodreads.com/book/show/75382256-now-i-am-here" target="_blank"><b>Now I Am Here</b> - <i>Chidi Ebere</i></a></li> 
@@ -22,8 +23,7 @@ permalink: "/readinglist/"
               <li><a href="https://www.goodreads.com/book/show/62039324-shy" target="_blank"><b>Shy</b> - <i>Max Porter</i></a></li>
               <li><a href="https://www.goodreads.com/book/show/42899408-nirvana-is-here" target="_blank"><b>Nirvana is Here</b> - <i>Aaron Hamburger</i></a></li>
               <li><a href="https://www.goodreads.com/book/show/60865419-whatever-happened-to-the-c86-kids" target="_blank"><b>Whatever Happened to the C86 Kids?: An Indie Odyssey</b> - <i>Nige Tassell</i></a></li>
-              <li><a href="https://www.goodreads.com/book/show/56920684-the-anomaly" target="_blank"><b>The Anomaly</b> - <i>Hervé Le Tellier</i></a></li>
-              <li><a href="https://www.goodreads.com/book/show/58491879-glory" target="_blank"><b>Glory</b> - <i>NoViolet Bulawayo</i></a></li>               
+              <li><a href="https://www.goodreads.com/book/show/56920684-the-anomaly" target="_blank"><b>The Anomaly</b> - <i>Hervé Le Tellier</i></a></li>            
             </ol>
          </div>
    </div>
