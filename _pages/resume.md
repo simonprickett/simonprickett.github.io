@@ -29,6 +29,7 @@ permalink: "/resume/"
 <ul>
     <li> I am responsible for delivering high quality technical content, telling the story of Redis through the medium of video, well-documented example repositories on GitHub, blogging, and speaking at conferences and to meetup groups and customers.  Examples of my work:</li>
     <ul>
+        <li>A 2 hour workshop for a Redis Days online event targeting the Indian market. Video with GitHub repository linked in the description: <a href="https://www.youtube.com/watch?v=e4A_k-hFIa4" target="_blank">https://www.youtube.com/watch?v=e4A_k-hFIa4</a>.</li>
         <li>A complete set of resources for a Redis Streams workshop that can be run entirely in the cloud and was delivered at Pycon MEA 2022 in Dubai: <a href="https://simonprickett.dev/redis-streams-workshop/" target="_blank">https://simonprickett.dev/redis-streams-workshop/</a>.</li>
         <li>My weekly live streaming series "Things on Thursdays", where I build projects with hardware and code that use Redis and Internet of Things devices: <a href="https://simonprickett.dev/things-on-thursdays-livestreams/" target="_blank">https://simonprickett.dev/things-on-thursdays-livestreams/</a>.</li>
         <li>Designed, delivered and coded an online workshop for the Redis Days 2022 series of events.  Video: <a href="https://www.youtube.com/watch?v=PPT1FElAS84" target="_blank">https://www.youtube.com/watch?v=PPT1FElAS84</a>.</li>
