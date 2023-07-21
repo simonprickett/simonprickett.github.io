@@ -71,6 +71,12 @@ Episode 6 is the final one for this project.  I use a Pimoroni Badger 2040W and 
   <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/RROQA0QOq0k" allowfullscreen></iframe>
 </div><br/>
 
+In a later bonus episode, I demonstrated how to use both deterministic and probabilistic data structures in Redis to gather statistics about the planes and airlines passing by...
+
+<div class="embed-responsive embed-responsive-16by9">
+  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ttXq_E4Galw" allowfullscreen></iframe>
+</div><br/>
+
 Resources for this project:
 
 * [Source code for this project on GitHub](https://github.com/simonprickett/local-aircraft-tracker)
