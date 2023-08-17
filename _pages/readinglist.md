@@ -11,9 +11,10 @@ permalink: "/readinglist/"
             <p>Support your local library - I've read most of these books thanks to <a href="https://www.nottinghamcitylibraries.co.uk/" target="_blank">Nottingham City Libraries</a>.</p>
             <p>I'm also always looking out for book suggestions - <a href="/contact">get in touch</a> if you have ideas!</p>
             <hr/>
-            <p><i>Last Updated: August 13th 2023.</i></p>
+            <p><i>Last Updated: August 17th 2023.</i></p>
             <hr/>
             <ol>   
+              <li><a href="https://www.goodreads.com/book/show/61271868-quinn" target="_blank"><b>Quinn</b> - <i>Em Strang</i></a></li> 
               <li><a href="https://www.goodreads.com/book/show/123237416-this-ragged-grace" target="_blank"><b>This Ragged Grace: A Memoir of Recovery and Renewal</b> - <i>Octavia Bright</i></a></li>
               <li><a href="https://www.goodreads.com/book/show/55428544-locks" target="_blank"><b>LOCKS: A Story Based on True Events</b> - <i>Ashleigh Nugent</i></a></li>
               <li><a href="https://www.goodreads.com/book/show/61489616-old-babes-in-the-wood" target="_blank"><b>Old Babes in the Wood: Stories</b> - <i>Margaret Atwood</i></a></li>  
@@ -23,7 +24,6 @@ permalink: "/readinglist/"
               <li><a href="https://www.goodreads.com/book/show/36480133-a-lucky-man" target="_blank"><b>A Lucky Man</b> - <i>Jamel Brinkley</i></a></li>   
               <li><a href="https://www.goodreads.com/book/show/7840634-before-you-suffocate-your-own-fool-self" target="_blank"><b>Before You Suffocate Your Own Fool Self</b> - <i>Danielle Evans</i></a></li>   
               <li><a href="https://www.goodreads.com/book/show/53027017-madness" target="_blank"><b>Madness: Stories of Uncertainty and Hope</b> - <i>Sean Baumann</i></a></li>   
-              <li><a href="https://www.goodreads.com/book/show/75382256-now-i-am-here" target="_blank"><b>Now I Am Here</b> - <i>Chidi Ebere</i></a></li> 
             </ol>
          </div>
    </div>
