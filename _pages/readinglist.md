@@ -6,6 +6,12 @@ permalink: "/readinglist/"
 <div class="container">
     <div class="row">
         <div class="col-md-12">
+            <img src="{{site.baseurl}}/assets/images/readinglistbanner.jpg" class="img-fluid" alt="Lots of books!">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <br/>
             <p>This is a rolling list of the last 10 books I've read, with the most recent at the top of the list.  I won't be offering reviews or opinions on these, but will provide links to the <a href="https://www.goodreads.com/" target="_blank">Goodreads</a> page for each book.</p>
             <p>Whilst most of the content on my site is technology / coding related, I don't read many books on these subjects so you should expect the list to be dominated by fiction / biography books.</p>
             <p>Support your local library - I've read most of these books thanks to <a href="https://www.nottinghamcitylibraries.co.uk/" target="_blank">Nottingham City Libraries</a>.</p>
@@ -25,6 +31,8 @@ permalink: "/readinglist/"
               <li><a href="https://www.goodreads.com/book/show/7840634-before-you-suffocate-your-own-fool-self" target="_blank"><b>Before You Suffocate Your Own Fool Self</b> - <i>Danielle Evans</i></a></li>   
               <li><a href="https://www.goodreads.com/book/show/53027017-madness" target="_blank"><b>Madness: Stories of Uncertainty and Hope</b> - <i>Sean Baumann</i></a></li>   
             </ol>
+            <hr/>
+            <p><i>Photo by <a href="https://www.pexels.com/photo/books-on-wooden-shelves-inside-library-2908984/" target="_blank">Stanislav Kondratiev</a> on Pexels.</i></p>
          </div>
    </div>
 </div>
