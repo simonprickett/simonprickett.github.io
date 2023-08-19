@@ -9,3 +9,5 @@ permalink: "/contact/"
         <li class="list-group-item"><strong><i class="fab fa-github"></i></strong> <a href="https://github.com/simonprickett">simonprickett on GitHub</a></li>
     <li class="list-group-item"><strong><i class="fab fa-twitter"></i></strong> <a href="https://twitter.com/simon_prickett">simon_prickett on Twitter</a></li>
 </ul>
+<hr/>
+<p>Image from <a href="https://pxhere.com/en/photo/846889" target="_blank">pxhere.com</a>.</p>
