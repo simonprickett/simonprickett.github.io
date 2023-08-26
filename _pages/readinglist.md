@@ -17,9 +17,10 @@ permalink: "/readinglist/"
             <p>Support your local library - I've read most of these books thanks to <a href="https://www.nottinghamcitylibraries.co.uk/" target="_blank">Nottingham City Libraries</a>.</p>
             <p>I'm also always looking out for book suggestions - <a href="/contact">get in touch</a> if you have ideas!</p>
             <hr/>
-            <p><i>Last Updated: August 17th 2023.</i></p>
+            <p><i>Last Updated: August 26th 2023.</i></p>
             <hr/>
             <ol>   
+              <li><a href="https://www.goodreads.com/book/show/303922.The_Mountain_Lion" target="_blank"><b>The Mountain Lion</b> - <i>Jean Stafford</i></a></li>   
               <li><a href="https://www.goodreads.com/book/show/61271868-quinn" target="_blank"><b>Quinn</b> - <i>Em Strang</i></a></li> 
               <li><a href="https://www.goodreads.com/book/show/123237416-this-ragged-grace" target="_blank"><b>This Ragged Grace: A Memoir of Recovery and Renewal</b> - <i>Octavia Bright</i></a></li>
               <li><a href="https://www.goodreads.com/book/show/55428544-locks" target="_blank"><b>LOCKS: A Story Based on True Events</b> - <i>Ashleigh Nugent</i></a></li>
@@ -29,7 +30,6 @@ permalink: "/readinglist/"
               <li><a href="https://www.goodreads.com/book/show/60741794-wandering-souls" target="_blank"><b>Wandering Souls</b> - <i>Cecile Pin</i></a></li>     
               <li><a href="https://www.goodreads.com/book/show/36480133-a-lucky-man" target="_blank"><b>A Lucky Man</b> - <i>Jamel Brinkley</i></a></li>   
               <li><a href="https://www.goodreads.com/book/show/7840634-before-you-suffocate-your-own-fool-self" target="_blank"><b>Before You Suffocate Your Own Fool Self</b> - <i>Danielle Evans</i></a></li>   
-              <li><a href="https://www.goodreads.com/book/show/53027017-madness" target="_blank"><b>Madness: Stories of Uncertainty and Hope</b> - <i>Sean Baumann</i></a></li>   
             </ol>
             <hr/>
             <p><i>Photo by <a href="https://www.pexels.com/photo/books-on-wooden-shelves-inside-library-2908984/" target="_blank">Stanislav Kondratiev</a> on Pexels.</i></p>
