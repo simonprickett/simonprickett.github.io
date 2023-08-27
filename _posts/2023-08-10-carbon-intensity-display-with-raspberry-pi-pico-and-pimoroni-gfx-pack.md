@@ -14,12 +14,18 @@ TODO make and embed a small video...
 </div><br/>
 
 TODO something with an image...
-
 <figure class="figure">
   <img src="{{ site.baseurl }}/assets/images/flipdot_welcome.gif" alt="Example text display on a flip dot sign">
   <figcaption class="figure-caption text-center">Example text display on a flip dot sign.</figcaption>
 </figure>
 
+TODO embedded API demo...
+
+<div id="api-demo">
+  <p>Loading carbon intensity data from API...</p>
+</div>
+
+TODO more text...
 
 ## Resources
 
@@ -28,3 +34,61 @@ TODO something with an image...
 
 --- 
 Main photograph from pxhere.com ([link](https://pxhere.com/en/photo/1611116)).
+
+<script>
+  window.onload = async function () {
+    const intensityAPIResponse = await fetch('https://api.carbonintensity.org.uk/regional/postcode/NG1');
+    const intensityData = await intensityAPIResponse.json();
+    const regionData = intensityData.data[0];
+    const forecastNum = regionData.data[0].intensity.forecast;
+    const forecastStr = regionData.data[0].intensity.index;
+    const generationMix = regionData.data[0].generationmix;
+    const apiDemoArea = document.getElementById('api-demo');
+
+    // Sort the generation mix by percentage descending: RANT... the API should do this for you.
+    console.log(generationMix);
+    const sortedGenerationMix = generationMix.sort((a, b) => {
+      if (a['perc'] < b['perc']) return 1;
+      if (a['perc'] > b['perc']) return -1;
+      return 0;
+    });
+
+    // Work out the colour for the header area...
+    let intensityColour = '';
+
+    switch(forecastStr) {
+      case 'very low':
+        // Brighter green.
+        intensityColour = '#49FF33';
+        break;
+      case 'low':
+        // Lighter green.
+        intensityColour = '#9FFF33';
+        break;
+      case 'moderate':
+        // Yellow..
+        intensityColour = '#FFE933';
+        break;
+      case 'high':
+        // Orange.
+        intensityColour = '#FF9033';
+        break;
+      case 'very high':
+        // Red.
+        intensityColour = '#FF3333';
+        break;
+    }
+
+    let htmlContent = `<h4 style="text-align:center; padding-top:20px; padding-bottom:20px; color:#FFFFFF; background-color:${intensityColour}">${regionData.shortname} - ${forecastNum} (${forecastStr.split(' ').map(w => `${w[0].toUpperCase()}${w.substring(1)}`).join(' ')})</h4><table class="table table-striped"><thead><tr><th scope="col">Source</th><th scope="col">Percentage</th></tr></thead><tbody>`;
+
+    for (const entry of sortedGenerationMix) {
+      if (entry.perc > 0) {
+        htmlContent = `${htmlContent}<tr><td>${entry.fuel[0].toUpperCase()}${entry.fuel.substring(1)}</td><td>${entry.perc}%</td></tr>`;
+      }
+    }
+
+    htmlContent = `${htmlContent}</tbody></table>`;
+
+    apiDemoArea.innerHTML = htmlContent;
+  };
+</script>
