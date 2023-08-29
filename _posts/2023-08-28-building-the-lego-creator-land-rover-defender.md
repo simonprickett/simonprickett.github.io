@@ -57,7 +57,7 @@ And here's some still pictures of the finished product:
     </div>
 </div>
 
-TODO update text below... and mention stuff about the missing part and customer service.  Add pics of the customer service page (lego_defender_customer_service.png -- already in images folder) and the part when it arrives (need to take the pic).
+TODO update text below... and mention stuff about the missing part and customer service.  Add pics of the customer service page (lego_defender_customer_service.png -- already in images folder) and the part when it arrives (need to take the pic - added as lego_defender_piece_arrives.jpg).
 
 I was pretty impressed with the video results using the front facing camera on my iPhone 7 which was clamped into a tripod.  I used iMovie to edit it together, add some titles and speed it up.  The music was free and it's called "Box" by "Bimbotronic".  It's [available from their page on icons8.com](https://icons8.com/music/author/bimbotronic).
 
