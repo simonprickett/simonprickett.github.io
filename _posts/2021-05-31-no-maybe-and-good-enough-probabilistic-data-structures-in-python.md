@@ -5,7 +5,7 @@ categories: [Python, Redis, Coding ]
 image: assets/images/pycon_main.jpg
 author: simon
 ---
-In this talk that I produced for Pycon USA 2021 I take a look at the Hyperloglog and Bloom Filter probabilistic data structures, using examples with the Python language and [Redis](https://redis.io/) with the [RedisBloom module](https://oss.redislabs.com/redisbloom/).  I also subsequently gave this talk as a pre-recorded video at Pycon Australia 2021.
+In this talk that I produced for Pycon USA 2021 I take a look at the Hyperloglog and Bloom Filter probabilistic data structures, using examples with the Python language and [Redis](https://redis.io/) with the [RedisBloom module](https://oss.redislabs.com/redisbloom/).  I also subsequently gave this talk as a pre-recorded video at Pycon Australia 2021 and in a shorter form in person at Pycon Middle East / Asia, Dubai 2022 (that version's at the bottom of this article).
 
 You can watch the video here, the article that follows is a transcript of the talk:
 
@@ -262,6 +262,14 @@ I subsequently gave a longer version of this talk for the [Developers BR meetup 
 
 <div class="embed-responsive embed-responsive-16by9">
   <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/F_YlClC8aF0" allowfullscreen></iframe>
+</div><br/>
+
+# Shorter Version for Pycon MEA 2022
+
+Here's a shorter, in person, version of this talk that I gave at Pycon MEA 2022 in Dubai.  This was part of the larger GitEx Global event, you can watch it on their YouTube channel:
+
+<div class="embed-responsive embed-responsive-16by9">
+  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/tqy8WtjBe1Q?si=O2HPuEw79JT-ZSkv" allowfullscreen></iframe>
 </div><br/>
 
 ---
