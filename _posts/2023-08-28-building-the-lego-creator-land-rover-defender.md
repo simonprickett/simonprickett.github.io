@@ -10,10 +10,10 @@ TODO text...
 
 Blah some other introduction...
 
-Here's the finished video - TODO link to the right video...:
+Here's the finished video:
 
 <div class="embed-responsive embed-responsive-16by9">
-  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/WaYKTL15rSA" allowfullscreen></iframe>
+  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/PWMyco_-Lgs" allowfullscreen></iframe>
 </div><br/>
 
 And here's some still pictures of the finished product:
