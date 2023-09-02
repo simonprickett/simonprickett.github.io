@@ -32,7 +32,7 @@ TODO more text...
 
 TODO...
 
-TODO GIST...
+<script src="https://gist.github.com/simonprickett/d32fada0023ab8bc357ffdef80bb8dad.js"></script>
 
 ## Resources
 
@@ -43,6 +43,12 @@ Here's some things you'll need to buy / download to run this on your own GFX Pac
 * [USB A to Micro USB power/data cable](https://shop.pimoroni.com/products/usb-a-to-microb-cable-red?variant=32065140746).
 * [Pimoroni MicroPython build](https://github.com/pimoroni/pimoroni-pico/releases) - grab the latest `pimoroni-picow-*-micropython.uf2` file.
 * Carbon Intensity Python Software from Pimoroni's [GFX Pack examples repository](https://github.com/pimoroni/pimoroni-pico/tree/main/micropython/examples/gfx_pack).
+
+And here's some useful reading to learn more about the software parts of this project:
+
+* Documentation for the [National Grid Carbon Intensity API](https://carbon-intensity.github.io/api-definitions/#carbon-intensity-api-v2-0-0) for Great Britain.
+* The official [MicroPython](https://micropython.org/) site - has information and documentation for MicroPython.
+* [The Thonny IDE](https://thonny.org/) - other development environments are available (you can use VSCode with appropriate extensions for example) but Thonny's a nice simple all in one solution for small projects like this.
 
 ## Have Fun
 
@@ -62,7 +68,6 @@ Main photograph from pxhere.com ([link](https://pxhere.com/en/photo/1611116)).
     const apiDemoArea = document.getElementById('api-demo');
 
     // Sort the generation mix by percentage descending: RANT... the API should do this for you.
-    console.log(generationMix);
     const sortedGenerationMix = generationMix.sort((a, b) => {
       if (a['perc'] < b['perc']) return 1;
       if (a['perc'] > b['perc']) return -1;
