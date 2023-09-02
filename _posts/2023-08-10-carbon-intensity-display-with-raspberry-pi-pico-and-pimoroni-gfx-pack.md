@@ -20,6 +20,10 @@ TODO something with an image...
   <figcaption class="figure-caption text-center">The hardware needed to run this example.</figcaption>
 </figure>
 
+TODO text... here's an example response from the API...
+
+<script src="https://gist.github.com/simonprickett/f85870a3c72dc946425c14b0d7c4af55.js"></script>
+
 TODO embedded API demo...
 
 <div id="api-demo">
