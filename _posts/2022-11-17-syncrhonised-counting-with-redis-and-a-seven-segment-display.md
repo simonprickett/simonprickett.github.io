@@ -4,6 +4,7 @@ title:  "Synchronised Counting with Redis and a Seven Segment Display"
 categories: [ IoT, Coding, Raspberry Pi, Python, JavaScript, Redis ]
 image: assets/images/redis_counting_main.png
 author: simon
+tags: [sticky]
 ---
 Counting things seems relatively easy, until it isn't!  In this project, I used Redis to maintain a central count that was displayed on and could be updated from a range of different interfaces.  Each interface needed to stay in sync at all times - an update to the count from any interface should update the value of the count shown on that interface and all others at the same time.
 
