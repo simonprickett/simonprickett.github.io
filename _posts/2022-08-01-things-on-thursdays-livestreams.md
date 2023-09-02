@@ -4,7 +4,6 @@ title:  "Things on Thursdays: A Live Streaming Series"
 categories: [ IoT, Coding, Raspberry Pi, Python, Node.js, JavaScript, Redis ]
 image: assets/images/things_on_thursdays_main.jpg
 author: simon
-tags: [sticky]
 ---
 As part of my job as the Principal Developer Advocate at [Redis](https://redis.io), I've been producing a live stream series in which I take a look at how Redis or related concepts can be used with a variety of Internet of Things devices.  These streams go out most weeks on Thursdays on the Redis YouTube and Twitch channels -- [check out our team's schedule](https://developer.redis.com/redis-live/) for links to future events.
 
