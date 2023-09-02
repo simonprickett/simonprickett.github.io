@@ -6,9 +6,13 @@ image: assets/images/lego_defender_main.jpg
 author: simon
 ---
 
-TODO text...
+I've always admired the industrial simplicity of the classic Land Rover Defender that had an amazing production run stretching from 1983 to 2016 and built on the heritage of the original "Series" Land Rovers.
 
-Blah some other introduction...
+Lego make a couple of classic Defender sets: there's one in the "Icons" range that has amazing detail but is quite expensive ([check it out](https://www.lego.com/en-gb/product/land-rover-classic-defender-90-10317)) and a [simpler version](https://www.lego.com/en-gb/product/land-rover-classic-defender-40650) in the "Creator" range that's probably aimed at younger builders but is much more affordable.  I recently bought the Creator version direct from Lego's online store for a pretty reasonable £13.49 (it's more expensive at other online retailers!) and decided to record myself building it.
+
+The chunky nature of the Defender's design lends itself well to Lego, and doesn't require a lot of decals or other "one off" bricks to make.  I like this a lot.  It's a straightforward build that probably took me about half an hour.
+
+Unusually for Lego, the set was missing one brick - luckily just a 1 x 4 plate in yellow... initially this meant that I was missing a visible part above one of the rear windows, but with some rework I was able to recover one from the inside and use that temporarily.  Lego's excellent online customer service came to the rescue - I reported a missing piece to them and they posted it out to me at no additional cost.
 
 Here's the finished video:
 
@@ -57,10 +61,22 @@ And here's some still pictures of the finished product:
     </div>
 </div>
 
-TODO update text below... and mention stuff about the missing part and customer service.  Add pics of the customer service page (lego_defender_customer_service.png -- already in images folder) and the part when it arrives (need to take the pic - added as lego_defender_piece_arrives.jpg).
+Lego's online missing parts service was easy to use, and I was quickly able to identify the part using their inventory system and place a (free) order for replacement:
 
-I was pretty impressed with the video results using the front facing camera on my iPhone 7 which was clamped into a tripod.  I used iMovie to edit it together, add some titles and speed it up.  The music was free and it's called "Box" by "Bimbotronic".  It's [available from their page on icons8.com](https://icons8.com/music/author/bimbotronic).
+<figure class="figure">
+  <img src="{{ site.baseurl }}/assets/images/lego_defender_customer_service.png" alt="Ordering a replacement piece online.">
+  <figcaption class="figure-caption text-center">Ordering a replacement piece online.</figcaption>
+</figure>
 
-If you'd like to get one yourself, [pick up a kit over at the Lego website](https://www.lego.com/en-gb/product/land-rover-classic-defender-40650)!
+It arrived a few days later with a nice letter and all was good!
 
-Check out my other Lego build... the [Audi Quattro S1](/building-the-lego-audi-quattro).
+<figure class="figure">
+  <img src="{{ site.baseurl }}/assets/images/lego_defender_piece_arrives.jpg" alt="The missing piece arrives, with a nice letter from Lego.">
+  <figcaption class="figure-caption text-center">The missing piece arrives, with a nice letter from Lego.</figcaption>
+</figure>
+
+I used the same recording technique I applied to my previous Lego build video for the Audi Quattro (front facing camera on iPhone 7 clamped to a small tripod on the desk.  I edited the video in iMove and used that to remove the original background noise, add titles, and speed everything up.  The music was free and it's called "Sleepwalking" by "Airtone".  It's [available from their page on ccmixter.org](https://ccmixter.org/files/airtone/65416).
+
+If you'd like to get your own Defender, [pick up a kit over at the Lego website](https://www.lego.com/en-gb/product/land-rover-classic-defender-40650)!  If you're interested in learning more about real Land Rover Defenders, [Wikipedia](https://en.wikipedia.org/wiki/Land_Rover_Defender) has a lot of detail.
+
+Check out my previous Lego build... the [Audi Quattro S1](/building-the-lego-audi-quattro).  Have fun!
