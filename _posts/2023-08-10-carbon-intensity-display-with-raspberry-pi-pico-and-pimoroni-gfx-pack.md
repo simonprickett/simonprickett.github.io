@@ -7,18 +7,26 @@ author: simon
 ---
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo augue, semper quis augue quis, ullamcorper porta ipsum. Aliquam consectetur leo tortor, non tincidunt libero accumsan sit amet. Phasellus at facilisis est, ac porttitor elit. Suspendisse vitae tristique leo. Phasellus varius eu ipsum sit amet iaculis. Nulla commodo, sapien eget sodales tincidunt, ante urna tincidunt purus, in fringilla est lacus a leo. Quisque mollis turpis et neque ultrices, ut volutpat justo cursus. Proin viverra nulla sed libero tempus, a cursus lectus lacinia. Morbi tempus massa in urna feugiat vehicula. Quisque tristique nisl in ornare convallis. Maecenas vel magna at libero semper interdum sit amet ut dolor. Aenean varius vitae ex ut ultrices. Vivamus dui dolor, luctus dignissim scelerisque eu, mollis a nunc. Aenean egestas diam magna.
 
-TODO talk about the video that follows...
+Here's a quick demo of the final MicroPython script running on the GFX Pack.  It wasn't a particularly good day for carbon intensity in the East Midlands region, so the backlight is red!
 
 <div class="embed-responsive embed-responsive-16by9">
   <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/xRejaScBBcU?si=UVZegorOGzDUBo35" allowfullscreen></iframe>
 </div><br/>
 
-TODO something with an image...
+The display updates either automatically when the countdown bar across the bottom reaches the left hand corner, or manually whenever the "E" button the GFX Pack is pressed.
+
+The hardware I used to make this can be seen below.
 
 <figure class="figure">
   <img src="{{ site.baseurl }}/assets/images/carbonintensity_kit.png" alt="The hardware needed to run this example.">
   <figcaption class="figure-caption text-center">The hardware needed to run this example.</figcaption>
 </figure>
+
+The Raspberry Pi Pico W needs to have headers attached to it (I bought mine with this already done - alternatively you can get the headers separately and solder them on yourself).  Then, assembly is simply a matter of lining up the Pico W with the connector on the GFX pack and pressing the two together.  The GFX Pack has a handy outline of the Pico imprinted upon it, showing which way the Pico's Micro USB port needs to face to attach it correctly.
+
+I've included links to each of the items above in the "Resources" section at the end of this article.
+
+TODO what sort of hardware is there.
 
 TODO text... here's an example response from the API...
 
@@ -45,6 +53,7 @@ Here's some things you'll need to buy / download to run this on your own GFX Pac
 * [Raspberry Pi Pico W](https://shop.pimoroni.com/products/raspberry-pi-pico-w?variant=40454061752403) - get the version with headers pre-soldered if you can, otherwise you'll need to buy [appropriate headers](https://shop.pimoroni.com/products/pico-header-pack?variant=32374935715923) and solder them on yourself.
 * [Pimoroni GFX Pack](https://shop.pimoroni.com/products/pico-gfx-pack?variant=40414469062739).
 * [USB A to Micro USB power/data cable](https://shop.pimoroni.com/products/usb-a-to-microb-cable-red?variant=32065140746).
+* Optional: [Large Loot Box](https://shop.pimoroni.com/products/pirate-brand-plastic-loot-box?variant=40286342922) - a nice box to keep your project safely stored in when not using it.
 * [Pimoroni MicroPython build](https://github.com/pimoroni/pimoroni-pico/releases) - grab the latest `pimoroni-picow-*-micropython.uf2` file.
 * Carbon Intensity Python Software from Pimoroni's [GFX Pack examples repository](https://github.com/pimoroni/pimoroni-pico/tree/main/micropython/examples/gfx_pack).
 
