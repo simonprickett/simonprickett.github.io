@@ -14,9 +14,10 @@ TODO talk about the video that follows...
 </div><br/>
 
 TODO something with an image...
+
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/flipdot_welcome.gif" alt="Example text display on a flip dot sign">
-  <figcaption class="figure-caption text-center">Example text display on a flip dot sign.</figcaption>
+  <img src="{{ site.baseurl }}/assets/images/carbonintensity_kit.png" alt="The hardware needed to run this example.">
+  <figcaption class="figure-caption text-center">The hardware needed to run this example.</figcaption>
 </figure>
 
 TODO embedded API demo...
@@ -26,6 +27,12 @@ TODO embedded API demo...
 </div>
 
 TODO more text...
+
+## How Does The Web Demo Work?
+
+TODO...
+
+TODO GIST...
 
 ## Resources
 
