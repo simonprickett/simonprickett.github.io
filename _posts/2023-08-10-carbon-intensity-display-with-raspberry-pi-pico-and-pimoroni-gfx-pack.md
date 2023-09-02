@@ -7,6 +7,8 @@ author: simon
 ---
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo augue, semper quis augue quis, ullamcorper porta ipsum. Aliquam consectetur leo tortor, non tincidunt libero accumsan sit amet. Phasellus at facilisis est, ac porttitor elit. Suspendisse vitae tristique leo. Phasellus varius eu ipsum sit amet iaculis. Nulla commodo, sapien eget sodales tincidunt, ante urna tincidunt purus, in fringilla est lacus a leo. Quisque mollis turpis et neque ultrices, ut volutpat justo cursus. Proin viverra nulla sed libero tempus, a cursus lectus lacinia. Morbi tempus massa in urna feugiat vehicula. Quisque tristique nisl in ornare convallis. Maecenas vel magna at libero semper interdum sit amet ut dolor. Aenean varius vitae ex ut ultrices. Vivamus dui dolor, luctus dignissim scelerisque eu, mollis a nunc. Aenean egestas diam magna.
 
+Pimoroni's excellent GFX Pack is ideal for this task.  It's a 128 x 64 pixel mono LCD display with multicoloured backlight and five buttons all in one unit, that's designed to attach to and be powered/driven by the Raspberry Pi Pico microcontrollers.  By pairing this with a Pi Pico W (built in wifi) I had an all in one unit that could connect to the network, call the API, then interpret and display the results both as a graph and as a glanceable summary using different colours for the backlight.
+
 Here's a quick demo of the final MicroPython script running on the GFX Pack.  It wasn't a particularly good day for carbon intensity in the East Midlands region, so the backlight is red!
 
 <div class="embed-responsive embed-responsive-16by9">
@@ -14,6 +16,36 @@ Here's a quick demo of the final MicroPython script running on the GFX Pack.  It
 </div><br/>
 
 The display updates either automatically when the countdown bar across the bottom reaches the left hand corner, or manually whenever the "E" button the GFX Pack is pressed.
+
+Here's some examples of the script running at different times / for other regions to show off some of the different colours used:
+
+<div class="slick-carousel">
+    <div>
+        <figure class="figure">
+        <img src="{{ site.baseurl }}/assets/images/carbonintensity_north_scotland.jpg" class="figure-img img-fluid" alt="Windy and green in North Scotland.">
+        <figcaption class="figure-caption text-center">Windy and green in North Scotland.</figcaption>
+        </figure>
+    </div>
+    <div>
+        <figure class="figure">
+        <img src="{{ site.baseurl }}/assets/images/carbonintensity_north_wales.jpg" class="figure-img img-fluid" alt="Nuclear, gas and Wind mix in North Wales - slightly less green.">
+        <figcaption class="figure-caption text-center">Nuclear, gas and Wind mix in North Wales - slightly less green.</figcaption>
+        </figure>
+    </div>
+    <div>
+        <figure class="figure">
+        <img src="{{ site.baseurl }}/assets/images/carbonintensity_east_england.jpg" class="figure-img img-fluid" alt="Gas and Nuclear in East England - orange, starting to get concerning!">
+        <figcaption class="figure-caption text-center">Gas and Nuclear in East England - orange, starting to get concerning!</figcaption>
+        </figure>
+    </div>
+    <div>
+        <figure class="figure">
+        <img src="{{ site.baseurl }}/assets/images/carbonintensity_south_wales.jpg" class="figure-img img-fluid" alt="Red alert in South Wales - nearly all gas.">
+        <figcaption class="figure-caption text-center">Red alert in South Wales - nearly all gas.</figcaption>
+        </figure>
+    </div>
+
+</div>
 
 The hardware I used to make this can be seen below.
 
