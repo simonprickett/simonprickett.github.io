@@ -1,13 +1,13 @@
 ---
 layout: post
-title:  "Carbon Intensity Display with Raspberry Pi Pico and Pimoroni GFX Pack"
+title:  "Carbon Intensity Display With Raspberry Pi Pico and Pimoroni Gfx Pack"
 categories: [ IoT, Coding, Raspberry Pi, Python ]
 image: assets/images/carbonintensity_main.jpg
 author: simon
 ---
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo augue, semper quis augue quis, ullamcorper porta ipsum. Aliquam consectetur leo tortor, non tincidunt libero accumsan sit amet. Phasellus at facilisis est, ac porttitor elit. Suspendisse vitae tristique leo. Phasellus varius eu ipsum sit amet iaculis. Nulla commodo, sapien eget sodales tincidunt, ante urna tincidunt purus, in fringilla est lacus a leo. Quisque mollis turpis et neque ultrices, ut volutpat justo cursus. Proin viverra nulla sed libero tempus, a cursus lectus lacinia. Morbi tempus massa in urna feugiat vehicula. Quisque tristique nisl in ornare convallis. Maecenas vel magna at libero semper interdum sit amet ut dolor. Aenean varius vitae ex ut ultrices. Vivamus dui dolor, luctus dignissim scelerisque eu, mollis a nunc. Aenean egestas diam magna.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo augue, semper quis augue quis, ullamcorper porta ipsum. Aliquam consectetur leo tortor, non tincidunt libero accumsan sit amet. Phasellus at facilisis est, ac porttitor elit. Suspendisse vitae tristique leo. Phasellus varius eu ipsum sit amet iaculis. Nulla commodo, sapien eget sodales tincidunt, ante urna tincidunt purus, in fringilla est lacus a leo. Quisque mollis turpis et neque ultrices, ut volutpat justo cursus. Proin viverra nulla sed libero tempus, a cursus lectus lacinia. Morbi tempus massa in urna feugiat vehicula. Quisque tristique nisl in ornare convallis. Maecenas vel magna at libero semper interdum sit amet ut dolor. Aenean varius vitae ex ut ultrices. Vivamus dui dolor, luctus dignissim scelerisque eu, mollis a nunc. Aenean egestas diam magna.  TODO introduction to what the API is about etc...
 
-Pimoroni's excellent GFX Pack is ideal for this task.  It's a 128 x 64 pixel mono LCD display with multicoloured backlight and five buttons all in one unit, that's designed to attach to and be powered/driven by the Raspberry Pi Pico microcontrollers.  By pairing this with a Pi Pico W (built in wifi) I had an all in one unit that could connect to the network, call the API, then interpret and display the results both as a graph and as a glanceable summary using different colours for the backlight.
+Pimoroni's excellent [GFX Pack](https://shop.pimoroni.com/products/pico-gfx-pack?variant=40414469062739) is ideal for this task.  It's a 128 x 64 pixel mono LCD display with multicoloured backlight and five buttons all in one unit, that's designed to attach to and be powered/driven by the Raspberry Pi Pico microcontrollers.  By pairing this with a Pi Pico W (built in wifi) I had an all in one unit that could connect to the network, call the API, then interpret and display the results both as a graph and as a glanceable summary using different colours for the backlight.
 
 Here's a quick demo of the final MicroPython script running on the GFX Pack.  It wasn't a particularly good day for carbon intensity in the East Midlands region, so the backlight is red!
 
@@ -56,13 +56,47 @@ The hardware I used to make this can be seen below.
 
 The Raspberry Pi Pico W needs to have headers attached to it (I bought mine with this already done - alternatively you can get the headers separately and solder them on yourself).  Then, assembly is simply a matter of lining up the Pico W with the connector on the GFX pack and pressing the two together.  The GFX Pack has a handy outline of the Pico imprinted upon it, showing which way the Pico's Micro USB port needs to face to attach it correctly.
 
-I've included links to each of the items above in the "Resources" section at the end of this article.
+I've included links to each of the items above in the "Resources" section at the end of this article.  This includes the source code, which I donated to Pimoroni's examples repository [here](https://github.com/pimoroni/pimoroni-pico/tree/main/micropython/examples/gfx_pack).  In this article, I'll show you how the code works and how to install it on your own hardware.  I'll also demonstrate how to call the API from a web page, in case you want to use it for other purposes.
 
-TODO what sort of hardware is there.
+## Installation and Configuration
+
+Assuming you have built the hardware (attached the headers to the Pi Pico W if needed, attached the headered Pi Pico W to the GFX Pack) here's how to get a copy of the script, configure it for your network and local area then install and run it.
+
+To begin, download the latest MicroPython firmware image from Pimoroni [here](https://github.com/pimoroni/pimoroni-pico/releases).  You want the file named `pimoroni-pico-vX.XX.X-micropython.uf2` where `X.XX.X` is the latest release number.  These files are located in the "Assets" section of the page and at the time of writing the latest version was `1.20.4`.
+
+Once you've downloaded the `.uf2` file, it's time to flash it onto the Pico W.  Plug the Micro USB end of your cable into the Pico W.  Hold down the "BOOTSEL" button on the back of the Pico W and connect the USB A end of your cable to your machine.  
+
+<figure class="figure">
+  <img src="{{ site.baseurl }}/assets/images/carbonintensity_bootsel.jpg" alt="Location of the BOOTSEL button.">
+  <figcaption class="figure-caption text-center">Location of the BOOTSEL button.</figcaption>
+</figure>
+
+The Pico W should appear as a removable drive named "RPI-RP2".  Open this drive and drag and drop the `.uf2` file onto it.  Once the file has copied to the drive, it will unmount itself and you should have MicroPython installed.  We'll check this has worked shortly.  Meantime, leave the Pico W connected to your machine.
+
+Next, get a copy of the Python script and all of the other examples for the GFX Pack and other Pimoroni Pico products by cloning their GitHub repository to your machine.  At the terminal enter this command:
+
+```
+git clone https://github.com/pimoroni/pimoroni-pico.git
+```
+
+If you don't have the git command line tools installed, just grab the repository as a zip file from GitHub [here](https://github.com/pimoroni/pimoroni-pico/archive/refs/heads/main.zip) and unzip it somewhere on your machine.
+
+Now, start up the [Thonny IDE](https://thonny.org/) or download and install it first if you need to.  Once it's running, use it to open the folder `pimoroni-pico/micropython/examples` (located wherever you downloaded / cloned the repository to on your machine).
+
+Then, connect to your Pi Pico's MicroPython runtime by clicking the hamburger menu in the bottom right corner to select a Python interpreter.  Pick the "MicroPython (Raspberry Pi Pico)" option.  You should see the REPL appear in Thonny.  Python code typed here executes immediately on the Pico W:
+
+<figure class="figure">
+  <img src="{{ site.baseurl }}/assets/images/carbonintensity_thonny.png" alt="Selecting the correct Python interpreter in the Thonny IDE.">
+  <figcaption class="figure-caption text-center">Selecting the correct Python interpreter in the Thonny IDE.</figcaption>
+</figure>
+
+## How it Works
 
 TODO text... here's an example response from the API...
 
 <script src="https://gist.github.com/simonprickett/f85870a3c72dc946425c14b0d7c4af55.js"></script>
+
+## Don’t Have the Hardware and Want to Use This on the Web?
 
 TODO embedded API demo...
 
@@ -72,7 +106,7 @@ TODO embedded API demo...
 
 TODO more text...
 
-## How Does The Web Demo Work?
+## How Does the Web Demo Work?
 
 TODO...
 
