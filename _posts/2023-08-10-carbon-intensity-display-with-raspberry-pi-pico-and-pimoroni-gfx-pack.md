@@ -108,9 +108,15 @@ TODO more text...
 
 ## How Does the Web Demo Work?
 
-TODO...
+In short, it uses the browser `fetch` API to call the carbon intensity API for a given postcode area, then performs pretty much the same data transformation on the results as the MicroPython script does.
+
+There's a custom `sort` function in there to sort the results from the API by percentage - again I think it's poor that the API doesn't have a request parameter to tell it to do it for you when you call it, or just do this by default.
+
+The results are then rendered into a `div` element on the HTML page as a table.  Here's the full source that's running on this page and which produced the output above.
 
 <script src="https://gist.github.com/simonprickett/d32fada0023ab8bc357ffdef80bb8dad.js"></script>
+
+It should be fairly easy to change this to your needs and style it with appropriate CSS, use markup that isn't a table as you need to.
 
 ## Resources
 
