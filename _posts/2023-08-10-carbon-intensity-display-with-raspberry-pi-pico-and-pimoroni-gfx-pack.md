@@ -109,11 +109,19 @@ TODO
 
 ### Retrieving Data from the API
 
-TODO text... here's an example response from the API...
+TODO text...
+
+Here's what the JSON document that we receive back from the API looks like:
 
 <script src="https://gist.github.com/simonprickett/f85870a3c72dc946425c14b0d7c4af55.js"></script>
 
-TODO
+I decided to use these data items on the display:
+
+* `data[0].shortname` (e.g. `East Midlands`) - the region that the data is for.
+* `data[0].data[0].intensity.index` - text description of the carbon intensity at the time e.g. `very high`.  I wanted to use this to set the backlight on the display, with lower intensities showing as greens, then moving up to yellow, orange and red as the value gets higher.
+* `data[0].data[0].generationmix` - an array containing objects.  Each object has two keys - `fuel` for the type of fuel e.g. `coal`, `wind` and `perc` for the percentage of the overall mix that the fuel comprises.  The API doesn't sort the array in descending order of percentage, nor does it have an option to make it do so.  This feels like it's missing some baic functionality but we'll fix that in the MicroPython.
+
+TODO Python code for getting the data...
 
 ### Displaying the Data as a Graph
 
