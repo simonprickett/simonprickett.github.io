@@ -96,6 +96,7 @@ TODO renaming files, configuring stuff and copying them to the Pico.
 
 Let's go through the MicroPython script and see how it works.  Here are the distinct pieces of functionality that it implements:
 
+* Managing the screen display and clearing the screen.
 * Connect to the WiFi network.
 * Retrieve data from the API.
 * Display the data as a graph.
@@ -103,13 +104,29 @@ Let's go through the MicroPython script and see how it works.  Here are the dist
 
 We'll look at each of these in turn.
 
+### Managing the Screen Display and Clearing the Screen
+
+TODO
+
 ### Connecting to the WiFi Network
 
 TODO
 
 ### Retrieving Data from the API
 
-TODO text...
+In order to display data, we need to get some from the API first :) I'm using the [`GET /regional/postcode/`](https://carbon-intensity.github.io/api-definitions/#get-regional-postcode-postcode) endpoint that expects a postcode area as the final part of the URL.
+
+If we were at the Pimoroni HQ, our postcode area would be `S9`.  I used a variable to store the URL so that you can easily edit it and swap in your own postcode area:
+
+```
+CARBON_INTENSITY_URL = "https://api.carbonintensity.org.uk/regional/postcode/S9"
+```
+
+The API doesn't require any authentication tokens, sign up or special HTTP headers, so we can use the `urequests` (MicroPython version of Python's `requests` package) to make the call like so:
+
+```
+response_doc = urequests.get(CARBON_INTENSITY_URL).json()
+```
 
 Here's what the JSON document that we receive back from the API looks like:
 
@@ -119,9 +136,43 @@ I decided to use these data items on the display:
 
 * `data[0].shortname` (e.g. `East Midlands`) - the region that the data is for.
 * `data[0].data[0].intensity.index` - text description of the carbon intensity at the time e.g. `very high`.  I wanted to use this to set the backlight on the display, with lower intensities showing as greens, then moving up to yellow, orange and red as the value gets higher.
-* `data[0].data[0].generationmix` - an array containing objects.  Each object has two keys - `fuel` for the type of fuel e.g. `coal`, `wind` and `perc` for the percentage of the overall mix that the fuel comprises.  The API doesn't sort the array in descending order of percentage, nor does it have an option to make it do so.  This feels like it's missing some baic functionality but we'll fix that in the MicroPython.
+* `data[0].data[0].generationmix` - an array containing objects.  Each object has two keys - `fuel` for the type of fuel e.g. `coal`, `wind` and `perc` for the percentage of the overall mix that the fuel comprises.  The API doesn't sort the array in descending order of percentage, nor does it have an option to make it do so.  This feels like it's missing some basic functionality but we'll fix that in the MicroPython.
 
-TODO Python code for getting the data...
+Having retrieved the JSON document, I pull out the region name and intensity index text into their own variables:
+
+```
+region_name = response_doc["data"][0]["shortname"]
+intensity_index = response_doc["data"][0]["data"][0]["intensity"]["index"]
+```
+
+Then all that remains is to pull out the energy source and percentage mix data from the array of objects.  Given the limited space on the display, I decided to show values for solar, wind, nuclear and gas... plus a value for all of the other sources combined:
+
+```
+solar_pct = 0
+wind_pct = 0
+nuclear_pct = 0
+gas_pct = 0
+
+for g in response_doc["data"][0]["data"][0]["generationmix"]:
+    if g["fuel"] == "solar":
+        solar_pct = g["perc"]
+    elif g["fuel"] == "wind":
+        wind_pct = g["perc"]
+    elif g["fuel"] == "gas":
+        gas_pct = g["perc"]
+    elif g["fuel"] == "nuclear":
+        nuclear_pct = g["perc"]
+```
+
+The value for "others" is then 100% minus the total of the the sources we're showing explicitly:
+
+```
+others_pct = 100 - solar_pct - wind_pct - nuclear_pct - gas_pct
+```
+
+Now we have our data, the next step is to work out how to draw it on the display as a graph.
+
+I wrapped all of this code up in a function named `refresh_intensity_display` that also handles clearing the previous results from the screen and displaying an "UPDATING" message while calling the API.
 
 ### Displaying the Data as a Graph
 
