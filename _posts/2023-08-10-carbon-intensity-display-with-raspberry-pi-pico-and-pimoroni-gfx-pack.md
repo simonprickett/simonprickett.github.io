@@ -147,10 +147,10 @@ Once the connection is established, we can assume we are connected to the intern
 
 In order to display data, we need to get some from the API first :) I'm using the [`GET /regional/postcode/`](https://carbon-intensity.github.io/api-definitions/#get-regional-postcode-postcode) endpoint that expects a postcode area as the final part of the URL.
 
-If we were at the Pimoroni HQ, our postcode area would be `S9`.  I used a variable to store the URL so that you can easily edit it and swap in your own postcode area:
+If we were at the Pimoroni HQ, our postcode area would be `S9`.  I used a variable to store the URL so that you can easily edit it and swap in your own postcode area - one in my local area is `NG1`:
 
 ```
-CARBON_INTENSITY_URL = "https://api.carbonintensity.org.uk/regional/postcode/S9"
+CARBON_INTENSITY_URL = "https://api.carbonintensity.org.uk/regional/postcode/NG1"
 ```
 
 The API doesn't require any authentication tokens, sign up or special HTTP headers, so we can use the `urequests` (MicroPython version of Python's `requests` package) to make the call like so:
