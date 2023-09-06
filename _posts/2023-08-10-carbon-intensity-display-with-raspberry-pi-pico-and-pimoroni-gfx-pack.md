@@ -90,21 +90,50 @@ Then, connect to your Pi Pico's MicroPython runtime by clicking the hamburger me
   <figcaption class="figure-caption text-center">Selecting the correct Python interpreter in the Thonny IDE.</figcaption>
 </figure>
 
+TODO renaming files, configuring stuff and copying them to the Pico.
+
 ## How it Works
+
+Let's go through the MicroPython script and see how it works.  Here are the distinct pieces of functionality that it implements:
+
+* Connect to the WiFi network.
+* Retrieve data from the API.
+* Display the data as a graph.
+* Refresh the data after a period of time has elapsed, or immediately when the user presses one of the buttons.
+
+We'll look at each of these in turn.
+
+### Connecting to the WiFi Network
+
+TODO
+
+### Retrieving Data from the API
 
 TODO text... here's an example response from the API...
 
 <script src="https://gist.github.com/simonprickett/f85870a3c72dc946425c14b0d7c4af55.js"></script>
 
+TODO
+
+### Displaying the Data as a Graph
+
+TODO
+
+### Refreshing the Data
+
+TODO
+
 ## Don’t Have the Hardware and Want to Use This on the Web?
 
-TODO embedded API demo...
+Here's an alternative use of the API, embedded in this web page...
 
 <div id="api-demo">
   <p>Loading carbon intensity data from API...</p>
 </div>
 
-TODO more text...
+Having looked at the output for my local region (The East Midlands), it seems we are often in the "high" or "very high" categories, with a lot of gas, biomass and coal making up our electricity supply.  I do wonder whether monitoring the carbon intensity, and offsetting some activities to times when it's low even makes sense.  If everyone monitored this and we all turned on the washing machine or whatever when intensity was low, we'd create a load on the network that might cause extra generation to be needed, and that often comes from the less sustainable sources.
+
+I guess overall we're making slow progress towards more renewables more of the time, but it doesn't seem great at the moment - hence my choice of featured image for this article being a smoky industrial scene rather than a wind or solar farm.
 
 ## How Does the Web Demo Work?
 
