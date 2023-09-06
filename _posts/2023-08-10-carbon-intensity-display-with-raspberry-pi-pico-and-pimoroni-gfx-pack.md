@@ -5,9 +5,19 @@ categories: [ IoT, Coding, Raspberry Pi, Python ]
 image: assets/images/carbonintensity_main.jpg
 author: simon
 ---
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo augue, semper quis augue quis, ullamcorper porta ipsum. Aliquam consectetur leo tortor, non tincidunt libero accumsan sit amet. Phasellus at facilisis est, ac porttitor elit. Suspendisse vitae tristique leo. Phasellus varius eu ipsum sit amet iaculis. Nulla commodo, sapien eget sodales tincidunt, ante urna tincidunt purus, in fringilla est lacus a leo. Quisque mollis turpis et neque ultrices, ut volutpat justo cursus. Proin viverra nulla sed libero tempus, a cursus lectus lacinia. Morbi tempus massa in urna feugiat vehicula. Quisque tristique nisl in ornare convallis. Maecenas vel magna at libero semper interdum sit amet ut dolor. Aenean varius vitae ex ut ultrices. Vivamus dui dolor, luctus dignissim scelerisque eu, mollis a nunc. Aenean egestas diam magna.  TODO introduction to what the API is about etc...
+Global warming is a thing, and we can all do our bit by reducing our carbon footprint.  One way of achieving this would be to move more things that we use electricity for (cooking, charging electric vehicles, washing clothes etc) to times when our electricity generation was as green as possible.  To do this, we'd need a way of knowing when those times are so that we could take manual or automated action.
 
-Pimoroni's excellent [GFX Pack](https://shop.pimoroni.com/products/pico-gfx-pack?variant=40414469062739) is ideal for this task.  It's a 128 x 64 pixel mono LCD display with multicoloured backlight and five buttons all in one unit, that's designed to attach to and be powered/driven by the Raspberry Pi Pico microcontrollers.  By pairing this with a Pi Pico W (built in wifi) I had an all in one unit that could connect to the network, call the API, then interpret and display the results both as a graph and as a glanceable summary using different colours for the backlight.
+In the UK, we have a free API that provides information about current and forecast "carbon intensity" for electricity generation.  I decided to see how easy it would be to build a display that uses this.
+
+Here's the definition of carbon intensity that we'll use here ([source](https://www.carbonintensity.org.uk/)):
+
+> CO<sub>2</sub> emissions related to electricity generation only. This includes emissions from all large metered power stations, interconnector imports, transmission and distribution losses, and accounts for national electricity demand, embedded wind and solar generation.
+
+The API was developed by the UK National Grid ESO, in partnership with the Environmental Defense Fund Europe, University of Oxford Department of Computer Science and WWE.  Read more about it on the [Carbon Intensity API website](https://www.carbonintensity.org.uk/).
+
+I wanted to build something that would display the current carbon intensity for my local area in a way that I could glance at it and know if it's high or low, or take a longer look and see some detail.  I also wanted to have the ability to control other devices if I chose to in future.
+
+Pimoroni's excellent [GFX Pack](https://shop.pimoroni.com/products/pico-gfx-pack?variant=40414469062739) is ideal for this task.  It's a 128 x 64 pixel mono LCD display with multicoloured backlight and five buttons all in one unit, that's designed to attach to and be powered/driven by the Raspberry Pi Pico microcontrollers.  By pairing this with a Pi Pico W (built in wifi) I had an all in one unit that could connect to the network, call the API, then interpret and display the results both as a graph and as a glanceable summary using different colours for the backlight.  The GFX pack also has a Qwiic/STEMMA QT connector that will allow me to connect / control other things in future.  Perfect!
 
 Here's a quick demo of the final MicroPython script running on the GFX Pack.  It wasn't a particularly good day for carbon intensity in the East Midlands region, so the backlight is red!
 
@@ -203,7 +213,7 @@ others_pct = 100 - solar_pct - wind_pct - nuclear_pct - gas_pct
 
 Now we have our data, the next step is to work out how to draw it on the display as a graph.
 
-I wrapped all of this code up in a function named `refresh_intensity_display` that also handles clearing the previous results from the screen and displaying an "UPDATING" message while calling the API.
+I wrapped all of this code up in a function named `refresh_intensity_display` ([view source code on GitHub](https://github.com/pimoroni/pimoroni-pico/blob/3d8f8c9a830bb39b42c0e139bda52f5c4b67dbed/micropython/examples/gfx_pack/carbon_intensity.py#L62)) that also handles clearing the previous results from the screen and displaying an "UPDATING" message while calling the API.
 
 ### Displaying the Data as a Graph
 
@@ -236,6 +246,10 @@ The results are then rendered into a `div` element on the HTML page as a table. 
 <script src="https://gist.github.com/simonprickett/d32fada0023ab8bc357ffdef80bb8dad.js"></script>
 
 It should be fairly easy to change this to your needs and style it with appropriate CSS, use markup that isn't a table as you need to.
+
+## Improvements
+
+TODO more power sensitive display?  Automation of other things...
 
 ## Resources
 
