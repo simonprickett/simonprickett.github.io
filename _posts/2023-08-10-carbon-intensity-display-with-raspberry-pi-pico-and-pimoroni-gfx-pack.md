@@ -110,7 +110,38 @@ TODO
 
 ### Connecting to the WiFi Network
 
-TODO
+As there's no operating system running on the Pi Pico W, we need to handle some tasks that an OS would normally perform for us.  One of those is establishing a connection to the WiFi network so that we can call the API.
+
+I knew I would be donating my code to the Pimoroni examples repository, so I looked at how they handle this common task in their other example code for the GFX Pack.
+
+Pimoroni provide common code for managing WiFi network credentials and connecting to the network.  We copied this code to our Pico earlier (the files [`common/WIFI_CONFIG.py`](https://github.com/pimoroni/pimoroni-pico/blob/main/micropython/examples/common/WIFI_CONFIG.py) and [`common/network_manager.py`](https://github.com/pimoroni/pimoroni-pico/blob/main/micropython/examples/common/network_manager.py) from the Pimoroni repository that we cloned).  We need to import them for use in our MicroPython script:
+
+```
+import WIFI_CONFIG
+from network_manager import NetworkManager
+```
+
+The file `WIFI_CONFIG.py` contains the SSID, password and [country code](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) for the network we're connecting to.  Treat this file like a secret, and don't commit it to GitHub!
+
+```
+SSID = "YOUR_WIFI_SSID"
+PSK = "YOUR_WIFI_PASSWORD"
+COUNTRY = "YOUR_COUNTRY_CODE" 
+```
+
+The network connection is established at the start of the script, by calling Pimoroni's network manager, passing in details from the `WIFI_CONFIG` and the name of a function to handle progress updates (`status_handler`).  I kept the status handler simple, so that it just displays basic update information as the connection is established.  Check out the [source code for that on GitHub](https://github.com/pimoroni/pimoroni-pico/blob/3d8f8c9a830bb39b42c0e139bda52f5c4b67dbed/micropython/examples/gfx_pack/carbon_intensity.py#L154) if you're interested.
+
+```
+network_manager = NetworkManager(WIFI_CONFIG.COUNTRY, status_handler=status_handler)
+uasyncio.get_event_loop().run_until_complete(
+    network_manager.client(
+        WIFI_CONFIG.SSID,
+        WIFI_CONFIG.PSK
+    )
+)
+```
+
+Once the connection is established, we can assume we are connected to the internet and go ahead and do other things.  I didn't add any code to handle the network credentials being incorrect or other network errors - you can just reboot the device if those occur :)
 
 ### Retrieving Data from the API
 
@@ -145,7 +176,7 @@ region_name = response_doc["data"][0]["shortname"]
 intensity_index = response_doc["data"][0]["data"][0]["intensity"]["index"]
 ```
 
-Then all that remains is to pull out the energy source and percentage mix data from the array of objects.  Given the limited space on the display, I decided to show values for solar, wind, nuclear and gas... plus a value for all of the other sources combined:
+Then all that remains is to retrieve the energy source and percentage mix data from the array of objects.  Given the limited space on the display, I decided to show values for solar, wind, nuclear and gas... plus a value for all of the other sources combined:
 
 ```
 solar_pct = 0
