@@ -249,7 +249,20 @@ It should be fairly easy to change this to your needs and style it with appropri
 
 ## Improvements
 
-TODO more power sensitive display?  Automation of other things...
+One thing with this project is that leaving it on all day uses electricity, so it's maybe kind of counterproductive?  There's a few things that could be improved here... with some thought I could probably use the deep sleep capabilities of the Pico W with MicroPython, and/or disconnect from wifi between updates, update less often etc.
+
+A more extreme power saving solution would be to forego colour and use an e-ink display that will retain its state when powered down.  I do have one of these Pimoroni [Badger 2040W](https://shop.pimoroni.com/products/badger-2040-w?variant=40514062188627) devices (I use it in my [aircraft tracking project](/plane-spotting-with-redis-nodejs-micropython/)):
+
+<figure class="figure">
+  <img src="{{ site.baseurl }}/assets/images/carbonintensity_badger.jpg" alt="Badger 2040W (pic by Pimoroni).">
+  <figcaption class="figure-caption text-center">Badger 2040W (pic by Pimoroni).</figcaption>
+</figure>
+
+Porting the code to that should be easy as it also runs MicroPython and the Pimoroni graphics library is the same interface.  For e-ink it would make sense to lose the countdown bar that shows the time to the next update and maybe instead just display the clock time that I expect the next update to happen at.
+
+Another fun improvement would be to have the device connected to a USB battery pack, and have a relay controlling when the battery pack charges.  This would enable the device to run from battery power and charge only when the carbon intensity is low.
+
+Will I do any of this?  We'll see... if you chose to do so, let me know!
 
 ## Resources
 
