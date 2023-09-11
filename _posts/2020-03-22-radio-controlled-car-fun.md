@@ -23,4 +23,4 @@ I had a lot of fun driving on paved and loose surfaces, enjoyed a couple of coff
   <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/THQAsccII28" allowfullscreen></iframe>
 </div><br/>
 
-I'm thinking of doing more cycling / hobbies other than coding and electronics posts here, feel free to let me know what you think in the comments!  Also if anyone wants to get me a RC28, it's on my [Amazon wish list](https://www.amazon.com/hz/wishlist/ls/1L567E8CC1U34?ref_=wl_share) :)
+I'm thinking of doing more cycling / hobbies other than coding and electronics posts here, feel free to let me know what you think ([contact page](/contact))!

@@ -161,4 +161,4 @@ It was good to get out for the day and do some exploring, hopefully I'll get the
 
 ---
 
-Have you been to the Salton Sea?  Let me know in the comments!
+Have you been to the Salton Sea?  Get in touch ([contact page](/contact)), I'd love to hear from you.
