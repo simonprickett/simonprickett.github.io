@@ -128,4 +128,4 @@ We can now go ahead and build the app, and work on adding features to it as norm
 
 ## Conclusion
 
-The ability to manage template Cordova apps using git and/or npm is a welcome addition in Cordova 6 and allows an easier workflow for organizations that build lots of apps using a common base. It should also make Cordova training classes easier to organize and manage. Do you have plans to use this new feature? Let me know in the comments.
+The ability to manage template Cordova apps using git and/or npm is a welcome addition in Cordova 6 and allows an easier workflow for organizations that build lots of apps using a common base. It should also make Cordova training classes easier to organize and manage. Do you have plans to use this new feature? Get in touch ([contact page](/contact)), I'd love to hear from you.
