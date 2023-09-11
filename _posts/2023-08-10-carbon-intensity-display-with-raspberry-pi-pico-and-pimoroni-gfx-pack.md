@@ -262,7 +262,7 @@ Porting the code to that should be easy as it also runs MicroPython and the Pimo
 
 Another fun improvement would be to have the device connected to a USB battery pack, and have a relay controlling when the battery pack charges.  This would enable the device to run from battery power and charge only when the carbon intensity is low.
 
-Will I do any of this?  We'll see... if you chose to do so, let me know!
+Will I do any of this?  We'll see... if you chose to do so, let me know!  What I have done though is made this demo part of a wider MicroPython / Redis workshop that you can [find here](https://github.com/simonprickett/micropython-workshop).
 
 ## Resources
 
