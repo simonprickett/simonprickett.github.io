@@ -286,7 +286,67 @@ I wrapped all of this code up in a function named `refresh_intensity_display` ([
 
 ### Displaying the Data as a Graph
 
-TODO
+The original idea was to show a breakdown of different fuel types as a horizontal bar graph.  I figured it would look best with the fuel making up the greatest percentage having the longest bar and being at the top, then the others displayed in descending order.  I spent a while looking for a way to configure the API to return the result sorted like this, and concluded that it doesn't do it.  This seems like a flaw in the API but we can fix it on the device.
+
+We need to translate the percentages for each energy source into pixel widths so that they can be represented as horizontal bars on the screen.  We want to leave some of the screen width as a border and to display the energy source name in, so we'll define some constants for start and end positions:
+
+```python
+BAR_MIN_X = 50
+BAR_MAX_X = 120
+```
+
+This means that the space we want to display the bars in can take up to 120 - 50 = 70 pixels of screen width.  So an energy source comprising 100% of the generation mix would have a 70 pixel wide bar, and one comprising 50% would have a bar that's 35 pixels wide.
+
+Let's calculate the bar widths by first working out what 1% of the available pixel width is, then using that to calculate each bar's width:
+
+```python
+one_percent_length = (BAR_MAX_X - BAR_MIN_X) / 100
+solar_width = round(one_percent_length * solar_pct)
+wind_width = round(one_percent_length * wind_pct)
+nuclear_width = round(one_percent_length * nuclear_pct)
+gas_width = round(one_percent_length * gas_pct)
+others_width = round(one_percent_length * others_pct)
+```
+
+As we can't have fractional pixel widths, we round the values off.
+
+Sorting the bars by descending order of width can then be done by creating a list of tuples where the first value is the bar width and the second the fuel type then calling the built-in [`sorted`](https://docs.python.org/3/library/functions.html#sorted) function on it:
+
+```python
+sorted_generators = sorted([
+    (solar_width, "SOLAR"),
+    (wind_width, "WIND"),
+    (nuclear_width, "NUCLEAR"),
+    (gas_width, "GAS"),
+    (others_width, "OTHERS")
+], reverse=True)
+```
+
+Drawing the graph is then a case of starting at a given vertical / y co-ordinate position and adding the text and filled rectangles to the display:
+
+```python
+v_pos = 10
+for g in sorted_generators:
+    display.text(g[1], 5, v_pos, DISPLAY_WIDTH, 1)
+    display.line(BAR_MIN_X, v_pos + 3, BAR_MIN_X + g[0], v_pos + 3, BAR_HEIGHT)
+    v_pos += 10
+
+...
+display.update()
+```
+
+Finally, we need to set the backlight to an appropriate colour depending on the overall carbon intensity.  Greener colours are for lower intensity, going up to orange then red as intensity increases (worsens).  We'll just use the intensity index text from the API to determine what to do:
+
+```python
+if intensity_index == "very low":
+    set_backlight(0, 64, 0, 0)
+elif intensity_index == "low":
+    set_backlight(128, 64, 0, 0)
+elif intensity_index == "moderate":
+    set_backlight(128, 16, 0, 0)
+elif intensity_index == "high" or intensity_index == "very high":
+    set_backlight(128, 0, 0, 0)
+```
 
 ### Refreshing the Data
 
