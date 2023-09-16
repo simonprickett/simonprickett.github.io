@@ -225,9 +225,73 @@ I wanted there to be two ways for the screen to periodicially update itself with
 
 The mechanics of the update are the same for both methods: get new data from the API, redraw the graph.  That code's all in or called from the `refresh_intensity_display` function, and is explained in the other sections of this article.
 
-Here, we'll focus on how the button press is detected for a manual update, and how the interval for the automatic update is handled.
+Here, we'll focus on how the button press is detected for a manual update, and how the interval for the automatic update is handled.  Basically what we need to do is call `refresh_intensity_display` whenever Button "E" is pressed or after so many seconds and update a countdown bar across the bottom of the screen until that period has expired.  Let's see how that works by looking at the main body of the code...
 
-TODO.
+Firstly, the number of seconds that needs to pass before the display is automatically updated is defined as a constant:
+
+```
+CARBON_INTENSITY_UPDATE_FREQUENCY = 60
+```
+
+We then use MicroPython's [`time.ticks_ms()`](https://docs.micropython.org/en/latest/library/time.html#time.ticks_ms) to store the current value of an increasing millisecond counter that MicroPython maintains (we aren't using clock time).
+
+In a loop that runs forever, we then look at the current value from `ticks_ms` and if `CARBON_INTENSITY_UPDATE_FREQUENCY` (or more as we might have spent time doing other things) seconds have passed since we entered the loop we'll call `refresh_intensity_display` then reset our stored milliseconds count and keep looping until it's time to update again.
+
+Note that because `ticks_ms` is a counter that may wrap around, we use MicroPython's [`time.ticks_diff(a, b)`](https://docs.micropython.org/en/latest/library/time.html#time.ticks_diff) function to determine the difference between two counter values.  This function handles the potential for wrap around for us.
+
+We determine whether or not button E on the GFX Pack was pressed by polling a Pimoroni library function in the loop:
+
+```python
+from gfx_pack import GfxPack, SWITCH_E
+gp = GfxPack()
+...
+
+while True: 
+    if gp.switch_pressed(SWITCH_E):
+        # Update immediately...
+    
+    ...
+```
+
+When the switch is pressed, we just call `refresh_intensity_display`, and reset our stored milliseconds counter by calling `ticks_ms`.
+
+The final task that needs attending to is the display of a countdown bar across the bottom of the screen.  This should take up the whole width of the screen when the display is first refreshed, and disappear to nothing as the refresh interval specified in seconds in `CARBON_INTENSITY_UPDATE_FREQUENCY` expires.
+
+We'll do this by keeping a variable `bar_width` whose value is the number of pixels that the bar should occupy across the screen.  This starts out with the full width of the screen:
+
+```python
+bar_width = DISPLAY_WIDTH
+```
+
+Every time we draw or re-draw the bar, we'll first want to clear that area of the screen then add a new line and update the display.  This should look familiar from the code that draws the intensity bar graph that we looked at earlier:
+
+```python
+clear_rect(0, 61, DISPLAY_WIDTH, 61, 2)
+display.line(0, 61, bar_width, 61, 2)
+display.update()
+```
+
+The `clear_rect` function simply sets the pen colour to 0 (off) then uses Pimoroni's library to draw a rectangle at the supplied co-ordinates, returns the pen to the normal colour then update the display:
+
+```python
+def clear_rect(start_x, start_y, end_x, end_y, height):
+    display.set_pen(0)
+    display.line(start_x, start_y, end_x, end_y, height)
+    display.set_pen(15)
+    display.update()
+```
+
+Rather than have the bar update on every iteration through the main `while True` loop, I set it up update once every second or so, so that there's an appreciable difference in the size of the bar.  Here's how we check if that time's passed, and calculate a new width for the bar by dividing the overall screen width by the number of seconds between screen refreshes:
+
+```python
+BAR_UPDATE_FREQUENCY = 1000
+
+...
+
+if time.ticks_diff(ticks_now, ticks_before) > BAR_UPDATE_FREQUENCY:
+    bar_width = bar_width - (DISPLAY_WIDTH // CARBON_INTENSITY_UPDATE_FREQUENCY)
+    ticks_before = time.ticks_ms()
+```
 
 An improvement we could make here is to only actually call the API whenever the data we have is out of date.  The API response does contain a validity period (see `from` and `to` below):
 
