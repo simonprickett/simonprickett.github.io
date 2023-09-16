@@ -116,7 +116,76 @@ We'll look at each of these in turn.
 
 ### Managing the Screen Display and Clearing the Screen
 
-TODO
+Pimoroni provide a library called [Pico Graphics](https://github.com/pimoroni/pimoroni-pico/blob/main/micropython/modules/picographics/README.md) to help developers work with the various types of screen / display that they offer for the Raspberry Pi Pico or RP2040 powered devices.
+
+This library presents a set of high level functions for "drawing" on the screens with "pens" that can plot individual pixels, write text, draw "shapes" and many other things.
+
+We'll use a global variable `display` as our entry point to the Pico Graphics library:
+
+```python
+from gfx_pack import GfxPack, SWITCH_E
+
+...
+
+gp = GfxPack()
+display = gp.display
+```
+
+From here, we can ask what size display we're running on:
+
+```python
+DISPLAY_WIDTH, DISPLAY_HEIGHT = display.get_bounds()
+```
+
+These dimensions are is essentially constants as we're always running on the GFX Pack which has a fixed resolution.  I'm using the library function anyway to make it easier to port this code to other Pimoroni displays in future (or if you want to do that yourself).
+
+As the GFX Pack is a monochrome display, Pico Graphics pens work as desribed in the [monochrome mode section of Pimoroni's documentation](https://github.com/pimoroni/pimoroni-pico/blob/main/micropython/modules/picographics/README.md#monochrome-modes).  In short, we'll use pen 15 whenever we want to draw anything, and pen 0 to erase things back to the background colour.
+
+For example, a clear screen function looks like setting the pen to 0, using that to clear the screen with, then going back to pen 15:
+
+```python
+def clear_screen():
+    display.set_pen(0)
+    display.clear()
+    display.set_pen(15)
+```
+
+Drawing a filled rectangle on the screen is handled by the Pico Graphics [`line`](https://github.com/pimoroni/pimoroni-pico/tree/main/micropython/modules/picographics#line) function.  This takes two sets of x,y screen co-ordinates and a height of line / thickness of pen parameter:
+
+```python
+display.line(start_x, start_y, end_x, end_y, height)
+```
+
+We'll be using this to draw bar graphs and countdown timer bars.
+
+Pico Graphics also handles [text and fonts](https://github.com/pimoroni/pimoroni-pico/blob/main/micropython/modules/picographics/README.md#text) for us.  I'm using the default font but you can configure others.
+
+Text can be drawn on the screen using the `text` function, at a given x,y co-ordinate.  It can also be scaled and set to word wrap after so many pixels.  Throughout this example, we'll use a scale of 1 and a word wrap position of the display width. 
+
+Here's the code to draw some text centered on the screen:
+
+```python
+def display_centered(text_to_display, y_pos, scale):
+    width = display.measure_text(text_to_display, scale)
+    x_pos = (DISPLAY_WIDTH - width) // 2
+    display.text(text_to_display, x_pos, y_pos, DISPLAY_WIDTH, scale)
+    return x_pos
+```
+
+The Pico Graphics function `measure_text` is used to determine how many pixels the text to display requires given the current font and scale.  We then use that to work out the x co-ordinate to draw the text at.
+
+Note that no changes appear on the screen until we refresh it using `display.update()` (also a Pico Graphics library function).  In this way, we can compose a set of changes to display on the screen, and show them when we're done.
+
+Pimoroni's GFX Pack library provides a function to set the colour of the backlight. This expects RGBW colour values, and the change takes effect immediately.  Example code:
+
+```python
+from gfx_pack import GfxPack
+
+...
+
+gp = GfxPack()
+gp.set_backlight(r, g, b, w)
+```
 
 ### Connecting to the WiFi Network
 
