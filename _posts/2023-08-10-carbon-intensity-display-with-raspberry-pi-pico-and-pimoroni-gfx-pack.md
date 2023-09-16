@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Carbon Intensity Display With Raspberry Pi Pico and Pimoroni Gfx Pack"
+title:  "Carbon Intensity Display With Raspberry Pi Pico and Pimoroni GFX Pack"
 categories: [ IoT, Coding, Raspberry Pi, Python ]
 image: assets/images/carbonintensity_main.jpg
 author: simon
@@ -17,7 +17,7 @@ The API was developed by the UK National Grid ESO, in partnership with the Envir
 
 I wanted to build something that would display the current carbon intensity for my local area in a way that I could glance at it and know if it's high or low, or take a longer look and see some detail.  I also wanted to have the ability to control other devices if I chose to in future.
 
-Pimoroni's excellent [GFX Pack](https://shop.pimoroni.com/products/pico-gfx-pack?variant=40414469062739) is ideal for this task.  It's a 128 x 64 pixel mono LCD display with multicoloured backlight and five buttons all in one unit, that's designed to attach to and be powered/driven by the Raspberry Pi Pico microcontrollers.  By pairing this with a Pi Pico W (built in wifi) I had an all in one unit that could connect to the network, call the API, then interpret and display the results both as a graph and as a glanceable summary using different colours for the backlight.  The GFX pack also has a Qwiic/STEMMA QT connector that will allow me to connect / control other things in future.  Perfect!
+Pimoroni's excellent [GFX Pack](https://shop.pimoroni.com/products/pico-gfx-pack?variant=40414469062739) is ideal for this task.  It's a 128 x 64 pixel mono LCD display with multicoloured backlight and five buttons all in one unit. It is designed to attach to and be powered/driven by the Raspberry Pi Pico microcontrollers.  By pairing this with a Pi Pico W (built in WiFi) I had an all in one unit that could connect to the network, call the API, then interpret and display the results both as a graph and as a glanceable summary using different colours for the backlight.  The GFX pack also has a Qwiic/STEMMA QT connector that will allow me to connect / control other things in future.  Perfect!
 
 Here's a quick demo of the final MicroPython script running on the GFX Pack.  It wasn't a particularly good day for carbon intensity in the East Midlands region, so the backlight is red!
 
@@ -25,7 +25,7 @@ Here's a quick demo of the final MicroPython script running on the GFX Pack.  It
   <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/xRejaScBBcU?si=UVZegorOGzDUBo35" allowfullscreen></iframe>
 </div><br/>
 
-The display updates either automatically when the countdown bar across the bottom reaches the left hand corner, or manually whenever the "E" button the GFX Pack is pressed.
+The display updates either automatically when the countdown bar across the bottom reaches the left hand corner, or manually whenever the "E" button on the GFX Pack is pressed.
 
 Here's some examples of the script running at different times / for other regions to show off some of the different colours used:
 
@@ -100,7 +100,38 @@ Then, connect to your Pi Pico's MicroPython runtime by clicking the hamburger me
   <figcaption class="figure-caption text-center">Selecting the correct Python interpreter in the Thonny IDE.</figcaption>
 </figure>
 
-TODO renaming files, configuring stuff and copying them to the Pico.
+Install the code by uploading these files to the root or "/" of the Raspberry Pi Pico W:
+
+* `common/network_manager.py`
+* `common/WIFI_CONFIG.py`
+
+<figure class="figure">
+  <img src="{{ site.baseurl }}/assets/images/carbonintensity_filecopy.png" alt="Copying files to the Raspberry Pi Pico W with Thonny.">
+  <figcaption class="figure-caption text-center">Copying files to the Raspberry Pi Pico W with Thonny.</figcaption>
+</figure>
+
+Next, still in Thonny, right click on the file `gfx_pack/carbon_intensity.py` and select "Rename".  Rename the file to `main.py`, then right click that and upload it to "/" on the Raspberry Pi Pico W in the same way as you did with the other files.
+
+Before you can run the code, you'll need to configure it to be able to connect to your WiFi network.  Double click "WIFI_CONFIG.py" in the "Raspberry Pi Pico" section of the Thonny editor.  This opens the file stored on the Pi Pico W for editing.  It will look like this:
+
+```python
+SSID = "YOUR_WIFI_SSID"
+PSK = "YOUR_WIFI_PASSWORD"
+COUNTRY = "YOUR_COUNTRY_CODE"
+```
+
+Replace the values of `SSID` and `PSK` with your WiFi network's ID and password, and set the value of `COUNTRY` to your ISO 3166-1 alpha 2 country code (`GB` for United Kingdom).  If you need to look this up, here's a [table of values on Wikipedia](https://en.wikipedia.org/wiki/List_of_ISO_3166_country_codes).  Save your changes.
+
+All that remains is to press the "RESET" button on the back of the GFX Pack...
+
+<figure class="figure">
+  <img src="{{ site.baseurl }}/assets/images/carbonintensity_reset.jpg" alt="The reset button on the GFX Pack.">
+  <figcaption class="figure-caption text-center">The reset button on the GFX Pack.</figcaption>
+</figure>
+
+The device should restart and if all is well it will connect to your network, call the API and display the results!  If not, reconnect Thonny and try editing the `WIFI_CONFIG.py` file to make sure the correct values for your network are in there.  
+
+If nothing at all happens and the display doesn't even light up, make sure that you renamed `carbon_intensity.py` to `main.py` before copying it across to the Raspberry Pi Pico W.
 
 ## How it Works
 
@@ -137,9 +168,9 @@ From here, we can ask what size display we're running on:
 DISPLAY_WIDTH, DISPLAY_HEIGHT = display.get_bounds()
 ```
 
-These dimensions are is essentially constants as we're always running on the GFX Pack which has a fixed resolution.  I'm using the library function anyway to make it easier to port this code to other Pimoroni displays in future (or if you want to do that yourself).
+These dimensions are essentially constants as we're always running on the GFX Pack which has a fixed resolution.  I'm using the library function anyway to make it easier to port this code to other Pimoroni displays in future (or if you want to do that yourself).
 
-As the GFX Pack is a monochrome display, Pico Graphics pens work as desribed in the [monochrome mode section of Pimoroni's documentation](https://github.com/pimoroni/pimoroni-pico/blob/main/micropython/modules/picographics/README.md#monochrome-modes).  In short, we'll use pen 15 whenever we want to draw anything, and pen 0 to erase things back to the background colour.
+As the GFX Pack is a monochrome display, Pico Graphics pens work as described in the [monochrome mode section of Pimoroni's documentation](https://github.com/pimoroni/pimoroni-pico/blob/main/micropython/modules/picographics/README.md#monochrome-modes).  In short, we'll use pen 15 whenever we want to draw anything, and pen 0 to erase things back to the background colour.
 
 For example, a clear screen function looks like setting the pen to 0, using that to clear the screen with, then going back to pen 15:
 
@@ -160,7 +191,7 @@ We'll be using this to draw bar graphs and countdown timer bars.
 
 Pico Graphics also handles [text and fonts](https://github.com/pimoroni/pimoroni-pico/blob/main/micropython/modules/picographics/README.md#text) for us.  I'm using the default font but you can configure others.
 
-Text can be drawn on the screen using the `text` function, at a given x,y co-ordinate.  It can also be scaled and set to word wrap after so many pixels.  Throughout this example, we'll use a scale of 1 and a word wrap position of the display width. 
+Text is drawn on the screen using the `text` function, at a given x,y co-ordinate.  It can also be scaled and set to word wrap after so many pixels.  Throughout this example, we'll use a scale of 1 and a word wrap position of the display width. 
 
 Here's the code to draw some text centered on the screen:
 
@@ -246,7 +277,7 @@ I decided to use these data items on the display:
 
 * `data[0].shortname` (e.g. `East Midlands`) - the region that the data is for.
 * `data[0].data[0].intensity.index` - text description of the carbon intensity at the time e.g. `very high`.  I wanted to use this to set the backlight on the display, with lower intensities showing as greens, then moving up to yellow, orange and red as the value gets higher.
-* `data[0].data[0].generationmix` - an array containing objects.  Each object has two keys - `fuel` for the type of fuel e.g. `coal`, `wind` and `perc` for the percentage of the overall mix that the fuel comprises.  The API doesn't sort the array in descending order of percentage, nor does it have an option to make it do so.  This feels like it's missing some basic functionality but we'll fix that in the MicroPython.
+* `data[0].data[0].generationmix` - an array containing objects.  Each object has two keys - `fuel` for the energy source e.g. `coal`, `wind` and `perc` for the percentage of the overall mix that the source comprises.  The API doesn't sort the array in descending order of percentage, nor does it have an option to make it do so.  This feels like it's missing some basic functionality but we'll fix that in the MicroPython.
 
 Having retrieved the JSON document, I pull out the region name and intensity index text into their own variables:
 
@@ -286,7 +317,7 @@ I wrapped all of this code up in a function named `refresh_intensity_display` ([
 
 ### Displaying the Data as a Graph
 
-The original idea was to show a breakdown of different fuel types as a horizontal bar graph.  I figured it would look best with the fuel making up the greatest percentage having the longest bar and being at the top, then the others displayed in descending order.  I spent a while looking for a way to configure the API to return the result sorted like this, and concluded that it doesn't do it.  This seems like a flaw in the API but we can fix it on the device.
+The original idea was to show a breakdown of different energy sources as a horizontal bar graph.  I figured it would look best with the source making up the greatest percentage having the longest bar and being at the top, then the others displayed in descending order.  Remember the API doesn't return the energy sources in order, so we'll need to handle that here.
 
 We need to translate the percentages for each energy source into pixel widths so that they can be represented as horizontal bars on the screen.  We want to leave some of the screen width as a border and to display the energy source name in, so we'll define some constants for start and end positions:
 
@@ -310,7 +341,7 @@ others_width = round(one_percent_length * others_pct)
 
 As we can't have fractional pixel widths, we round the values off.
 
-Sorting the bars by descending order of width can then be done by creating a list of tuples where the first value is the bar width and the second the fuel type then calling the built-in [`sorted`](https://docs.python.org/3/library/functions.html#sorted) function on it:
+Sorting the bars by descending order of width can then be done by creating a list of tuples where the first value is the bar width and the second the energy source then calling the built-in [`sorted`](https://docs.python.org/3/library/functions.html#sorted) function on it:
 
 ```python
 sorted_generators = sorted([
@@ -354,7 +385,7 @@ I wanted there to be two ways for the screen to periodicially update itself with
 
 The mechanics of the update are the same for both methods: get new data from the API, redraw the graph.  That code's all in or called from the `refresh_intensity_display` function, and is explained in the other sections of this article.
 
-Here, we'll focus on how the button press is detected for a manual update, and how the interval for the automatic update is handled.  Basically what we need to do is call `refresh_intensity_display` whenever Button "E" is pressed or after so many seconds and update a countdown bar across the bottom of the screen until that period has expired.  Let's see how that works by looking at the main body of the code...
+Here, we'll focus on how the button press is detected for a manual update, and how the interval for the automatic update is handled.  Basically what we need to do is call `refresh_intensity_display` whenever Button "E" is pressed or after so many seconds.  We'll also update a countdown bar across the bottom of the screen until that period has expired.  Let's see how that works by looking at the main body of the code...
 
 Firstly, the number of seconds that needs to pass before the display is automatically updated is defined as a constant:
 
@@ -384,7 +415,7 @@ while True:
 
 When the switch is pressed, we just call `refresh_intensity_display`, and reset our stored milliseconds counter by calling `ticks_ms`.
 
-The final task that needs attending to is the display of a countdown bar across the bottom of the screen.  This should take up the whole width of the screen when the display is first refreshed, and disappear to nothing as the refresh interval specified in seconds in `CARBON_INTENSITY_UPDATE_FREQUENCY` expires.
+The final task that needs attending to is the display of a countdown bar across the bottom of the screen.  This should take up the whole width of the screen when the display is first refreshed, and disappear to nothing as the refresh interval expires (this interval is specified in seconds in `CARBON_INTENSITY_UPDATE_FREQUENCY`).
 
 We'll do this by keeping a variable `bar_width` whose value is the number of pixels that the bar should occupy across the screen.  This starts out with the full width of the screen:
 
@@ -422,7 +453,7 @@ if time.ticks_diff(ticks_now, ticks_before) > BAR_UPDATE_FREQUENCY:
     ticks_before = time.ticks_ms()
 ```
 
-An improvement we could make here is to only actually call the API whenever the data we have is out of date.  The API response does contain a validity period (see `from` and `to` below):
+An improvement we could make here is to only actually call the API whenever the data we have is out of date.  The API response contains a validity period (see `from` and `to` below):
 
 ```json
 "data": [
@@ -470,7 +501,7 @@ It should be fairly easy to change this to your needs and style it with appropri
 
 ## Improvements
 
-One thing with this project is that leaving it on all day uses electricity, so it's maybe kind of counterproductive?  There's a few things that could be improved here... with some thought I could probably use the deep sleep capabilities of the Pico W with MicroPython, and/or disconnect from wifi between updates, update less often etc.
+One thing with this project is that leaving it on all day uses electricity, so it's maybe kind of counterproductive?  There's a few things that could be improved here... with some thought I could probably use the deep sleep capabilities of the Pico W with MicroPython, and/or disconnect from WiFi between updates, update less often etc.
 
 A more extreme power saving solution would be to forego colour and use an e-ink display that will retain its state when powered down.  I do have one of these Pimoroni [Badger 2040W](https://shop.pimoroni.com/products/badger-2040-w?variant=40514062188627) devices (I use it in my [aircraft tracking project](/plane-spotting-with-redis-nodejs-micropython/)):
 
