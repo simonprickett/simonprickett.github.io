@@ -221,7 +221,35 @@ TODO
 
 ### Refreshing the Data
 
-TODO
+I wanted there to be two ways for the screen to periodicially update itself with new data from the API... Automatically every so often and manually when a button is pressed.
+
+The mechanics of the update are the same for both methods: get new data from the API, redraw the graph.  That code's all in or called from the `refresh_intensity_display` function, and is explained in the other sections of this article.
+
+Here, we'll focus on how the button press is detected for a manual update, and how the interval for the automatic update is handled.
+
+TODO.
+
+An improvement we could make here is to only actually call the API whenever the data we have is out of date.  The API response does contain a validity period (see `from` and `to` below):
+
+```json
+"data": [
+  {
+    "regionid": 9,
+    "dnoregion": "WPD East Midlands",
+    "shortname": "East Midlands",
+    "postcode": "NG1",
+    "data": [
+      {
+        "from": "2023-09-16T12:00Z",
+        "to": "2023-09-16T12:30Z",
+        "intensity": {
+          "forecast": 309,
+          "index": "very high"
+        },
+        ...
+```
+
+We could sync the clock on the Pico W to an internet time source, then use the data above to only refresh when the data we have is out of date.  This could be a possible future optimization / another thing to save on power consumption.
 
 ## Don’t Have the Hardware and Want to Use This on the Web?
 
@@ -258,7 +286,7 @@ A more extreme power saving solution would be to forego colour and use an e-ink 
   <figcaption class="figure-caption text-center">Badger 2040W (pic by Pimoroni).</figcaption>
 </figure>
 
-Porting the code to that should be easy as it also runs MicroPython and the Pimoroni graphics library is the same interface.  For e-ink it would make sense to lose the countdown bar that shows the time to the next update and maybe instead just display the clock time that I expect the next update to happen at.
+Porting the code to that should be easy as it also runs MicroPython and the Pimoroni graphics library means that the API for handling the screen is pretty much the same.  For e-ink it would make sense to lose the countdown bar that shows the time to the next update and maybe instead just display the clock time that I expect the next update to happen at.
 
 Another fun improvement would be to have the device connected to a USB battery pack, and have a relay controlling when the battery pack charges.  This would enable the device to run from battery power and charge only when the carbon intensity is low.
 
