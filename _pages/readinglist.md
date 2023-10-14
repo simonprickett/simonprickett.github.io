@@ -17,9 +17,10 @@ permalink: "/readinglist/"
             <p>Support your local library - I've read most of these books thanks to <a href="https://www.nottinghamcitylibraries.co.uk/" target="_blank">Nottingham City Libraries</a>.</p>
             <p>I'm also always looking out for book suggestions - <a href="/contact">get in touch</a> if you have ideas!</p>
             <hr/>
-            <p><i>Last Updated: October 11th 2023.</i></p>
+            <p><i>Last Updated: October 14th 2023.</i></p>
             <hr/>
             <ol>   
+              <li><a href="https://www.goodreads.com/book/show/62874024-gonzo-capitalism" target="_blank"><b>Gonzo Capitalism: How to Make Money in An Economy That Hates You</b> - <i>Chris Guillebeau</i></a></li>  
               <li><a href="https://www.goodreads.com/book/show/122990887-season-of-the-witch" target="_blank"><b>Season of the Witch: The Book of Goth</b> - <i>Cathi Unsworth</i></a></li>  
               <li><a href="https://www.goodreads.com/book/show/63876565-horse-barbie" target="_blank"><b>Horse Barbie</b> - <i>Geena Rocero</i></a></li>  
               <li><a href="https://www.goodreads.com/book/show/9142881-binocular-vision" target="_blank"><b>Binocular Vision: New and Selected Stories</b> - <i>Edith Pearlman</i></a></li>   
@@ -28,8 +29,7 @@ permalink: "/readinglist/"
               <li><a href="https://www.goodreads.com/book/show/123237416-this-ragged-grace" target="_blank"><b>This Ragged Grace: A Memoir of Recovery and Renewal</b> - <i>Octavia Bright</i></a></li>
               <li><a href="https://www.goodreads.com/book/show/55428544-locks" target="_blank"><b>LOCKS: A Story Based on True Events</b> - <i>Ashleigh Nugent</i></a></li>
               <li><a href="https://www.goodreads.com/book/show/61489616-old-babes-in-the-wood" target="_blank"><b>Old Babes in the Wood: Stories</b> - <i>Margaret Atwood</i></a></li>  
-              <li><a href="https://www.goodreads.com/book/show/175740780-really-good-actually" target="_blank"><b>Really Good, Actually</b> - <i>Monica Heisey</i></a></li> 
-              <li><a href="https://www.goodreads.com/book/show/61290136-the-betrayal" target="_blank"><b>The Betrayal: The True Story of My Brush with Death in the World of Narcos, Launderers, and Treason</b> - <i>Robert Mazur</i></a></li>         
+              <li><a href="https://www.goodreads.com/book/show/175740780-really-good-actually" target="_blank"><b>Really Good, Actually</b> - <i>Monica Heisey</i></a></li>        
             </ol>
             <hr/>
             <p><i>Photo by <a href="https://www.pexels.com/photo/books-on-wooden-shelves-inside-library-2908984/" target="_blank">Stanislav Kondratiev</a> on Pexels.</i></p>
