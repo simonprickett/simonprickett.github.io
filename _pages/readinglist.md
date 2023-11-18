@@ -17,9 +17,10 @@ permalink: "/readinglist/"
             <p>Support your local library - I've read most of these books thanks to <a href="https://www.nottinghamcitylibraries.co.uk/" target="_blank">Nottingham City Libraries</a>.</p>
             <p>I'm also always looking out for book suggestions - <a href="/contact">get in touch</a> if you have ideas!</p>
             <hr/>
-            <p><i>Last Updated: November 12th 2023.</i></p>
+            <p><i>Last Updated: November 18th 2023.</i></p>
             <hr/>
             <ol>   
+              <li><a href="https://www.goodreads.com/book/show/44421460-before-the-coffee-gets-cold" target="_blank"><b>Before the Coffee Gets Cold</b> - <i>Toshikazu Kawaguchi</i></a></li>   
               <li><a href="https://www.goodreads.com/book/show/58775894-know-your-place" target="_blank"><b>Know Your Place</b> - <i>Faiza Shaheen</i></a></li>     
               <li><a href="https://www.goodreads.com/book/show/87923222-is-this-ok-one-woman-s-search-for-connection-online" target="_blank"><b>Is This OK? One Woman's Search for Connection Online</b> - <i>Harriet Gibsone</i></a></li>
               <li><a href="https://www.goodreads.com/book/show/128183667-party-lines" target="_blank"><b>Party Lines: Dance Music and the Making of Modern Britain</b> - <i>Ed Gillett</i></a></li>  
@@ -29,7 +30,6 @@ permalink: "/readinglist/"
               <li><a href="https://www.goodreads.com/book/show/9142881-binocular-vision" target="_blank"><b>Binocular Vision: New and Selected Stories</b> - <i>Edith Pearlman</i></a></li>   
               <li><a href="https://www.goodreads.com/book/show/303922.The_Mountain_Lion" target="_blank"><b>The Mountain Lion</b> - <i>Jean Stafford</i></a></li>   
               <li><a href="https://www.goodreads.com/book/show/61271868-quinn" target="_blank"><b>Quinn</b> - <i>Em Strang</i></a></li> 
-              <li><a href="https://www.goodreads.com/book/show/123237416-this-ragged-grace" target="_blank"><b>This Ragged Grace: A Memoir of Recovery and Renewal</b> - <i>Octavia Bright</i></a></li>   
             </ol>
             <hr/>
             <p><i>Photo by <a href="https://www.pexels.com/photo/books-on-wooden-shelves-inside-library-2908984/" target="_blank">Stanislav Kondratiev</a> on Pexels.</i></p>
