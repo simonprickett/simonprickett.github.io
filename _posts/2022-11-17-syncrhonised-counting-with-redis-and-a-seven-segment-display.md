@@ -17,6 +17,8 @@ For this I used Redis keyspace notifications and built a web interface plus a ph
 
 This was the fourth project in my [Things on Thursdays IoT live streaming series](/things-on-thursdays-livestreams/).  
 
+{% include coffee-cta.html %}
+
 In this two week project I demonstrated how to count things using Redis, then synchronise multiple devices to display the current count.  In the first week, I looked at doing this for a web interface with Node.js and Express:
 
 <div class="embed-responsive embed-responsive-16by9">

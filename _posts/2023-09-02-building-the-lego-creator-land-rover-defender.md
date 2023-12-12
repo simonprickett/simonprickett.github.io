@@ -10,6 +10,8 @@ I've always admired the industrial simplicity of the classic Land Rover Defender
 
 Lego make a couple of classic Defender sets: there's one in the "Icons" range that has amazing detail but is quite expensive ([check it out](https://www.lego.com/en-gb/product/land-rover-classic-defender-90-10317)) and a [simpler version](https://www.lego.com/en-gb/product/land-rover-classic-defender-40650) in the "Creator" range that's probably aimed at younger builders but is much more affordable.  I recently bought the Creator version direct from Lego's online store for a pretty reasonable £13.49 (it's more expensive at other online retailers!) and decided to record myself building it.
 
+{% include coffee-cta.html %}
+
 The chunky nature of the Defender's design lends itself well to Lego, and doesn't require a lot of decals or other "one off" bricks to make.  I like this a lot.  It's a straightforward build that probably took me about half an hour.
 
 Unusually for Lego, the set was missing one brick - luckily just a 1 x 4 plate in yellow... initially this meant that I was missing a visible part above one of the rear windows, but with some rework I was able to recover one from the inside and use that temporarily.  Lego's excellent online customer service came to the rescue - I reported a missing piece to them and they posted it out to me at no additional cost.

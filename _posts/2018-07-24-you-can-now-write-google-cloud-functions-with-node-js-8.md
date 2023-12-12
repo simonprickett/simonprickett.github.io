@@ -11,6 +11,8 @@ Let’s take a look at how to use the Node.js 8 environment by deploying a funct
 
 Probably the most significant change between Node.js 6 and 8 is the introduction of support for the `async` and `await` keywords ([see MDN for an explanation of these](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function)). Node.js 8 also adds other useful items such as [object spread syntax](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax).
 
+{% include coffee-cta.html %}
+
 Let’s try out the Node.js 8 runtime with a simple HTTP function that uses `async`, `await` and the object spread syntax to get some data from a public API, amending it slightly before returning it to the caller. We’ll use the [node-fetch](https://www.npmjs.com/package/node-fetch) module, adding the ability to use the same syntax as the `window.fetch` API that the browsers have:
 
 <script src="https://gist.github.com/simonprickett/9f0beb1cde30753b35fa3237b82831d5.js"></script>

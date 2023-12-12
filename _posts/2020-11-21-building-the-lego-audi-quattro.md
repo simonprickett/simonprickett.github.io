@@ -51,6 +51,8 @@ And here's some still pictures of the finished product:
     </div>
 </div>
 
+{% include coffee-cta.html %}
+
 I was pretty impressed with the video results using the front facing camera on my iPhone 7 which was clamped into a tripod.  I used iMovie to edit it together, add some titles and speed it up.  The music was free and it's called "Box" by "Bimbotronic".  It's [available from their page on icons8.com](https://icons8.com/music/author/bimbotronic).
 
 If you'd like to get one yourself, [pick up a kit over at the Lego website](https://www.lego.com/en-us/product/1985-audi-sport-quattro-s1-76897)!

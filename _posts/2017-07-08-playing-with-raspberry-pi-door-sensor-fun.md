@@ -31,6 +31,8 @@ We’ll also need to do a little soldering, so you’re going to want a [solderi
 
 As delivered, the door sensor comes with bare wires... we could solder these directly to the GPIO pins on the Pi, but for a more re-usable solution it’s better to use the jumper wires...
 
+{% include coffee-cta.html %}
+
 One end of the jumper wire provides a female connector that goes onto the pin on the Pi. The other end is a male connector — cut that off and strip the insulation back to expose the cable, then solder it to one of the exposed wires on the door sensor. Repeat with a second jumper, and use some electrical tape to cover the solder. You should end up with something that looks like this:
 
 <figure class="figure">

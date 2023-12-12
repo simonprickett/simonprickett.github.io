@@ -22,6 +22,8 @@ In this first of two episodes, I demonstrate how Redis Streams Consumer Groups w
   <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/NCvHfB7BhfQ?start=24" allowfullscreen></iframe>
 </div><br/>
 
+{% include coffee-cta.html %}
+
 In this second of two episodes for this project, I show you how to display a Redis Streams consumer group lag using MicroPython, a Raspberry Pi Pico W and some LEDs...
 
 <div class="embed-responsive embed-responsive-16by9">

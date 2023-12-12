@@ -13,6 +13,8 @@ Since Cordova is open source, others are free to build upon it and distribute th
 
 Microsoft has been working on tightly integrating the Cordova ecosystem with its Visual Studio product line, including the free and cross platform [Visual Studio Code editor](https://code.visualstudio.com/). As part of this initiative, Microsoft open sourced TACO (Tools for Apache COrdova), an alternative CLI that aims to further improve developer productivity regardless of their choice of JavaScript framework or local development platform.
 
+{% include coffee-cta.html %}
+
 TACO is fully compatible with the regular Cordova CLI, and you can use `taco` and `cordova` commands within the same project without issue. Let’s take a look at what benefits Mac OS based developers can expect from adding TACO to their toolboxes.
 
 ## Installation

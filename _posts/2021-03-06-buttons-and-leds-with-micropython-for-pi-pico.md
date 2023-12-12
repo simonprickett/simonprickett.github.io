@@ -25,6 +25,8 @@ Programming is done by attaching the board to a computer using a micro USB cable
 
 Thonny's OK, but very basic.  I'll do some research into how to use an editor with more features in future... I'd prefer to use Microsoft's [VSCode](https://code.visualstudio.com/) which is my editor of choice at the moment.
 
+{% include coffee-cta.html %}
+
 I decided it would be useful to learn how to control LEDs and detect button presses in MicroPython... this is the basis of a lot of projects you could use the Pi Pico for.  I still love the Adafruit LED arcade buttons that are an input and output in one, so I got a couple of those and set out to write software that toggles the LED each time the button is pressed.  Here's what the buttons look like:
 
 <div class="text-center">

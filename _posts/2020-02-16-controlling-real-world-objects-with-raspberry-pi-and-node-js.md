@@ -9,6 +9,8 @@ Here in San Diego, we have a monthly meetup called Fundamental JS.  This is part
 
 I try and speak at these events periodically, usually about some JavaScript language feature or Node.js basics.  In the past I've spoken about [Server Sent Events](https://simonprickett.dev/a-look-at-server-sent-events/), which eventually became the most popular blog post I've written by a long way!  I had wanted to talk about the Raspberry Pi and physical computing for this group for quite a while, so approached the organizers about a talk where I'd explore building a smart plug type product with a Node.js back end and basic HTML / JavaScript front end.  I got the go ahead to do this, so then had to make it happen!
 
+{% include coffee-cta.html %}
+
 I wanted to demonstrate control of "real world" things, so rather than using low voltage LEDs as I have in [previous projects](https://simonprickett.dev/raspberry-pi-coding-with-node-js-traffic-lights/) I decided to go for regular mains electric lights this time.  Here in the USA, these run on 110v electricity which is obviously way more than the 3.3-5v that the Pi operates with.  Fortunately, there's a range of add on HAT boards available for the Pi that solve this issue by providing a set of relays that the Pi can safely control without being exposed to the higher voltage mains electricity itself.
 
 # Demonstration

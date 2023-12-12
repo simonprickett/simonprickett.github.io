@@ -7,8 +7,6 @@ author: simon
 ---
 At Conectric we recently launched our new IoT Gateway product with an accompanying suite of wireless, battery powered sensors. In this article we’ll take a closer look at how to use our motion sensor and Node.js SDK together. We’ll use out of the box example code that ships with the SDK to create a movement alerting app for popular messaging platform Slack.
 
-(This post was originally published in the [Conectric publication on Medium](https://medium.com/conectric-networks)).
-
 (If you missed it, you may wish to read our [first article]({{ site.baseurl}}/announcing-conectrics-usb-iot-gateway-and-sensor-product/) that provides an overview of all the components in the system).
 
 We also produced a video run through of how to set up the motion sensor with Slack and our Node.js SDK. The video shows this with Mac OS, but the same process applies on Windows and Linux too (including Raspberry Pi with Raspbian OS):
@@ -37,6 +35,8 @@ In this example use case we’ll be using both the USB Router and Motion sensor.
 </figure>
 
 The USB router acts as the gateway to the Conectric mesh network, receiving messages from the sensors and working with the open source Node.js SDK to translate these into JavaScript objects that you can use in your application code. It connects to a regular USB port on any computer and does not require an external power source.
+
+{% include coffee-cta.html %}
 
 Additional USB routers can be used to extend the mesh network’s range. These are powered from regular USB chargers and act as message repeaters. In this example, we’ll use a single router.
 

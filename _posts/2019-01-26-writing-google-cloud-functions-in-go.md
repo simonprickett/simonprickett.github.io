@@ -18,6 +18,8 @@ I’m using the HTTP function model here (as opposed to a background function th
 
 On deployment the function will be bound to a URL. When something requests that URL the function is invoked. It should do whatever work it needs to before returning something back through the `http.ResponseWriter`.
 
+{% include coffee-cta.html %}
+
 In this example the body of the function grabs a JSON document from randomuser.me, unmarshals it then gets the first object from the `results` array. I add an extra key whose name is `generator` and set its value to `google-cloud-function`.
 
 I won’t go into the details of handling arbitrary JSON in Go here. If you’re interested then I suggest you read [this article](https://blog.golang.org/json-and-go) which helped me.

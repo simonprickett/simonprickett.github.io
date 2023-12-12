@@ -18,6 +18,8 @@ This was the first project in my [Things on Thursdays IoT live streaming series]
   <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/1F2nmm2jBjA?start=25" allowfullscreen></iframe>
 </div><br/>
 
+{% include coffee-cta.html %}
+
 * [Visual Bloom Filter article](https://simonprickett.dev/visual-bloom-filter-with-raspberry-pi/).
 * [Source code for the original Visual Bloom Filter](https://github.com/simonprickett/visual-bloom-filter-for-pi).
 * [Redis wire protocol](https://redis.io/docs/reference/protocol-spec/).

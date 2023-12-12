@@ -20,6 +20,8 @@ In the first episode, I got the basic flow up and running...
   <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/byt8jWg6M98?start=30" allowfullscreen></iframe>
 </div><br/>
 
+{% include coffee-cta.html %}
+
 In the second video, I show Node-RED running on a Raspberry Pi, move my Redis instance to the cloud, move connection secrets out of the Node-RED flow into an environment variable and attach an illuminated arcade button to the flow.  The code is in JavaScript.
 
 <div class="embed-responsive embed-responsive-16by9">

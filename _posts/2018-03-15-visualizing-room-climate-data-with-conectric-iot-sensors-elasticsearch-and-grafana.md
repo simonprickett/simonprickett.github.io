@@ -7,8 +7,6 @@ author: simon
 ---
 At Conectric we recently launched our new IoT Gateway product with an accompanying suite of wireless, battery powered sensors.  In this article we’ll take a closer look at how to use our temperature / humidity sensor and [Node.js SDK](https://www.npmjs.com/package/conectric-usb-gateway) to create a [Grafana](https://grafana.com/) dashboard powered by [Elasticsearch](https://www.elastic.co/products/elasticsearch).
 
-(This post was originally published in the [Conectric publication on Medium](https://medium.com/conectric-networks)).
-
 (If you missed it, you may wish to read our [first article]({{ site.baseurl}}/announcing-conectrics-usb-iot-gateway-and-sensor-product/) that provides an overview of all the components in the system).
 
 We also produced a video run through of how to set up the temperature sensor with Elasticsearch and our Node.js SDK. The video shows this with Mac OS, but the same process applies on Windows and Linux too (including Raspberry Pi with Raspbian OS):
@@ -49,6 +47,8 @@ Additional USB routers can be used to extend the mesh network’s range. These a
 </figure>
 
 The temperature / humidity sensor works by periodically sending messages containing the current temperature and relative humidity. The message frequency is configurable. The SDK can be configured to return temperatures in either Fahrenheit or Celsius. It is battery powered and our testing indicates that the battery should last for years of normal usage.
+
+{% include coffee-cta.html %}
 
 The casing allows for straightforward wall mounting of the sensor. For this demonstration we’ll use a single temperature / humidity sensor.
 

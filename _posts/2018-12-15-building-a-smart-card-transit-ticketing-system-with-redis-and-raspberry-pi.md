@@ -14,6 +14,8 @@ Looking around at what I had in my project cupboard, I decided I had just about 
 2. **An entry gate:** the user taps their smart card to the reader and is allowed entry if the card has a valid pass associated with it. If the card doesn’t have a valid pass entry should be denied. The entry gate should show a red flashing light and play a buzzer sound when the user is denied entry. Users with valid passes should see a green light and hear a welcoming chime.
 3. **A system monitor:** this should record a log of all events happening in the system — a pass is sold, a user entered the system to begin a journey, a user was denied entrance to the system because their card didn’t have a valid pass.
 
+{% include coffee-cta.html %}
+
 After some more thinking, I also decided that a good demo should have three different types of transit pass:
 
 1. **Single use pass:** can be used to enter the system once for a single journey. Once purchased, never expires until used.

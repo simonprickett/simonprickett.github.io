@@ -57,6 +57,8 @@ Install the Raspberry Pi OS which can be [downloaded from the official Raspberry
 
 Once you've got the operating system installed, make sure you can login, and have a working wired or wifi internet connection.
 
+{% include coffee-cta.html %}
+
 Now you can go ahead and start turning lights on and off!
 
 ## Installing Dependencies

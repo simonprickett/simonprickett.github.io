@@ -16,6 +16,8 @@ This is especially problematic for headless devices that don't have displays or 
 
 This was the fifth project in my [Things on Thursdays IoT live streaming series](/things-on-thursdays-livestreams/).  
 
+{% include coffee-cta.html %}
+
 <div class="embed-responsive embed-responsive-16by9">
   <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Gzp9nLkqadg?start=33" allowfullscreen></iframe>
 </div><br/>

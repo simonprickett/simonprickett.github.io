@@ -11,6 +11,8 @@ So far, I've mostly focussed on work with the Raspberry Pi family of devices as 
 
 This is an ongoing work in progress, so please check back here for updates!  I'm also always interested in ideas for topics to cover - if I have or can get hold of the hardware, I'll certainly try out your suggestions.  [Get in touch with me](http://localhost:4000/contact/) if you want to share ideas, or even appear as a guest to work on something together.  My only real criteria are that we should be using Redis or talking about data structures that Redis implements.
 
+{% include coffee-cta.html %}
+
 Here's the videos and links to the relevant GitHub repositories and articles.  Enjoy!
 
 ## Projects in this Series

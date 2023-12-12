@@ -61,6 +61,8 @@ Once you've got the operating system installed, make sure you can login, and hav
 
 Now you can go ahead and start turning lights on and off!
 
+{% include coffee-cta.html %}
+
 ## Installing Dependencies
 
 To get started, we'll need to install some dependencies.  These include [git](https://git-scm.com/), plus some libraries that the .NET runtime requires:

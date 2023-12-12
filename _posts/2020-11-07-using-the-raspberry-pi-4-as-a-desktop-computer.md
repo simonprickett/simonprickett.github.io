@@ -33,6 +33,8 @@ I used some older Microsoft products I had on hand.  If you don't have these, pr
 
 The case comes in kit form, and is straightforward to assemble - it even comes with a small screwdriver which is the only tool you need.
 
+{% include coffee-cta.html %}
+
 The instructions are clear and easy to follow.  Check out the slideshow below to see the steps involved.  There's an expansion board that plugs into the Pi to relocate the audio and HDMI ports.  The Pi then slots into the top of the case, connecting with it using the GPIO ports.  The bottom of the case screws on, and helps secure the Pi inside.  Finally, there's a set of rubber feet to stick on the bottom. 
 
 <div class="slick-carousel">

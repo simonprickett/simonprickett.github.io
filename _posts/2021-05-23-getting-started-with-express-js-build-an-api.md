@@ -26,6 +26,8 @@ In this first part of the series, we'll build an Express server that has some AP
 
 Our API will include functionality to set a key to a value, retrieve the value stored at a given key, and ask the database for information about things like the number of keys in use.
 
+{% include coffee-cta.html %}
+
 ## How it Works
 
 The video provides a complete run through of how the code in `server.js` works, so here's a summary...

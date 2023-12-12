@@ -35,6 +35,8 @@ To avoid the need to run a server continuously, we chose AWS Lambda where we onl
 
 We need to be able to run our code periodically at configurable intervals. In the AWS environment, there’s a sufficiently capable solution in the [CloudWatch Events](http://docs.aws.amazon.com/AmazonCloudWatch/latest/events/WhatIsCloudWatchEvents.html) service. Normally this is used to trigger target code when an event happens to some other AWS resource, but it can also be setup to behave like cron ([using a similar notation](http://docs.aws.amazon.com/AmazonCloudWatch/latest/events/ScheduledEvents.html#CronExpressions)) and invoke a Lambda function on a schedule.
 
+{% include coffee-cta.html %}
+
 Our blog posts generally get published during working hours, US Eastern and US Pacific time, so we used a polling schedule that invokes a Lambda function once an hour around these times as shown:
 
 <figure class="figure">

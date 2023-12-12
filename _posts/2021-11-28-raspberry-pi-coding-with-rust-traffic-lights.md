@@ -53,6 +53,8 @@ When you're done it's going to look something like this... (an easy way to make 
 
 Don't turn the Pi on yet, you'll need to prepare an operating system image for it first...
 
+{% include coffee-cta.html %}
+
 ## Operating System Setup
 
 Install the Raspberry Pi OS which can be [downloaded from the official Raspberry Pi site](https://www.raspberrypi.com/software/). You can also find an excellent [installation guide](https://www.raspberrypi.org/documentation/installation/installing-images/README.md) there should you need help.  As I didn't need a full graphical desktop for this project, I went with the Lite version.

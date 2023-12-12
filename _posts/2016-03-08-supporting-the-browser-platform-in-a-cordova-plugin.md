@@ -13,6 +13,8 @@ Whilst plugins allow us to extend the reach of the JavaScript runtime on devices
 
 Adding Cordova’s browser platform to a hybrid app allows us to run and debug apps using the regular web browser without deployment to a device or server. However, if the plugins we’re using don’t support the browser platform, then they won’t be available at runtime and we would have to code around that in our app logic. This isn’t ideal for a cross platform development approach, so it is desirable to always support the browser platform when creating a plugin. Each of the [core Cordova plugins](https://cordova.apache.org/docs/en/latest/cordova/plugins/pluginapis.html) provide some level of support for the browser platform.
 
+{% include coffee-cta.html %}
+
 Often, the functionality that a plugin provides can’t be directly replicated in the browser — that’s why a plugin was needed in the first place: to go beyond the browser’s sandbox capabilities. When implementing a browser platform version of a plugin, we therefore need to consider our options to provide an alternative experience that makes sense within the confines of the browser.
 
 Some plugins may choose to render UI components using HTML in place of native controls when running in the browser, others may return dummy data in place of reading sensors or external accessories that are present on the device but missing from the browser.

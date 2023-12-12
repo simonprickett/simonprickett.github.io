@@ -19,6 +19,8 @@ We access npm through its command line `npm` utility.  If you've [installed Node
 
 We'll build something akin to a utility library that exposes a single function to do one thing...
 
+{% include coffee-cta.html %}
+
 ## Building a wikipediadeadoralive Package
 
 Let's build a package from scratch... naming things is hard, so before spending any time on that, make sure that the package name you want isn't already in use by [searching on npm](https://www.npmjs.com/).  I found that `wikipediadeadoralive` wasn't taken, so ran with that.
