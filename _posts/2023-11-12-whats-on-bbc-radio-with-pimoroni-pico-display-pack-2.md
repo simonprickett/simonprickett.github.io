@@ -40,6 +40,8 @@ I decided this was something I wanted to fix for myself, by adding a small compa
 
 How did I build this and what did I use?  Let's dig in...
 
+{% include coffee-cta.html %}
+
 ## Shopping List
 
 You'll need the following to build and run this project... no soldering required!

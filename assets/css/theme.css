@@ -2,6 +2,29 @@ body {
 	overflow-x:hidden;
 	padding-top:69.75px;
 }
+
+.coffee-cta {
+	padding: 20px;
+	border: #ff8a00;
+	border-radius: 10px;
+	border-width: 1px;
+	background-color: #ff8a00;
+	color: #ffffff;
+	text-align: center;
+	font-weight: bold;
+}
+
+.coffee-cta-link {
+	color: #ffffff;
+	text-decoration: underline;
+}
+
+a.coffee-cta-link:visited, a.coffee-cta-link:hover
+{
+	color: #ffffff;
+	text-decoration: underline;
+}
+
 .site-content {
 	margin-top:30px;
 	min-height:400px;
