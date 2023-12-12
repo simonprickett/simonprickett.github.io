@@ -18,6 +18,8 @@ Here's what my initial Raspberry Pi camera setup looked like.  I used a [Raspber
 
 This was the ninth project in my [Things on Thursdays IoT live streaming series](/things-on-thursdays-livestreams/).  I aim to work on this some more and enhance it with search capabilities, sensors, ability to set time to live on an image and who knows what else!  When I do I'll be sure to make some more videos and update this article and the codebase.
 
+{% include coffee-cta.html %}
+
 Here's the video run through of the project that I did as a live stream in April 2023:
 
 <div class="embed-responsive embed-responsive-16by9">

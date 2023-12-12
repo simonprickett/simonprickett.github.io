@@ -11,6 +11,8 @@ I bought myself a [Team Associated MT28](https://www.associatedelectrics.com/tea
 
 These cars have a recommended retail of $79.99, but you can expect to pay $55 or so for them.  I picked mine up at local hobby store [Ampdraw Hobbies](http://www.ampdraw.com/) in Encinitas, CA a while back.  Amazon has them, or you can buy from Team Associated direct.  Obviously at this price point, the car is pretty simple - rear wheel drive, no differential, no independent suspension.  However, they do have proportional steering which is a bit of a rarity in these cheaper small cars.  There's a reverse gear as well.  Also, being from Team Associated, there's a full range of available spares should you break anything.
 
+{% include coffee-cta.html %}
+
 The car is built for you, all you need to do is put 4 x AA batteries (provided) in the transmitter unit, and charge the rechargable LiPO battery in the car... this charges from the transmitter using a cable provided, or you can get an optional [USB charger](https://www.associatedelectrics.com/teamassociated/parts/details/21420-ASC21420-sc28_usb_charger_cable/) (I have this, and recommend it).
 
 Today, I took mine out for a [bike ride](https://www.strava.com/activities/3208164622) to Liberty Station in San Diego, bought a take out coffee from [Moniker Coffee](https://monikercoffee.com/) there, and had a drive around.  I used a couple of rocks to prop up my iPhone 7, and took some video too.

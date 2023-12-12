@@ -9,6 +9,8 @@ Google’s [Cloud Functions](https://cloud.google.com/functions/) have been arou
 
 One feature that’s been noticeably absent from the Cloud Functions runtime until very recently has been support for [environment variables](https://en.wikipedia.org/wiki/Environment_variable). This omission has made it more difficult than necessary to provide values to functions at runtime without using a database or hard coding. These are not ideal approaches to managing values such as third party API keys. The lack of environment variables has also made it awkward to manage the normal progression of code through development, QA, staging and production environments for example if different keys to the same third party API are required in each.
 
+{% include coffee-cta.html %}
+
 Fortunately Google recently played catchup, adding support for environment variables as a beta feature. This helps to close the gap between Google’s Cloud Functions and Amazon’s AWS Lambda, which had this feature since forever. Let’s take a look at how it works in practice…
 
 ## Modifying Code to Use Environment Variables

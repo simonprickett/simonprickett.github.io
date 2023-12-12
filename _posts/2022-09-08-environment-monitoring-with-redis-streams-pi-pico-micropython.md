@@ -11,6 +11,8 @@ I decided to build an environment monitoring system using a couple of Pi Pico W 
 
 This was the second project in my [Things on Thursdays IoT live streaming series](/things-on-thursdays-livestreams/).  
 
+{% include coffee-cta.html %}
+
 Starting with a box fresh Raspberry Pi Pico W, I demonstrated how to install MicroPython, connect to the device from Visual Studio Code and write Python code on it.  I wrote code to connect to a wireless network, created a Redis database in the cloud and got started with streaming data to Redis.
 
 <div class="embed-responsive embed-responsive-16by9">

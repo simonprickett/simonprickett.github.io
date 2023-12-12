@@ -9,7 +9,10 @@ Node.js (a server side JavaScript runtime) is a popular choice for writing softw
 
 We’ll use a Raspberry Pi 3 with a fresh install of the latest Raspbian "Stretch" Lite operating system and a wireless network connection already configured. If you want to follow along, you can [download Raspberry Pi OS](https://www.raspberrypi.com/software/) and use [Etcher](https://www.balena.io/etcher/) to install it onto your micro SD card.
 
+{% include coffee-cta.html %}
+
 ## Installing Node.js
+
 The "Lite" Raspbian doesn’t have Node.js pre-installed, as it is a minimal distribution. Let’s add an up to date version of Node.js from [NodeSource](https://nodesource.com/):
 
 ```
@@ -39,6 +42,7 @@ $ which node
 ```
 
 ## A Basic Node.js Project
+
 Having installed Node.js it’s time for some sort of project that we want to have run on system boot. Let’s use a basic web server that listens on a configurable port number. It should return the current [UNIX timestamp](https://www.unixtimestamp.com/) and log its actions to standard out.
 
 I’ve made appropriate code available in a [GitHub repo](https://github.com/simonprickett/timestamp-service) (we’ll need to also install git to do this):
@@ -95,9 +99,11 @@ The service should also log to the console:
 Having got our project installed and running it’s time to make sure it starts up automatically with the operating system.
 
 ## systemd Service Setup
+
 To make our timestamp server start with the operating system, we need to create a systemd service file for it. This is where we define a name for it as well as other important information such as when to start it in the boot process and how to invoke it.
 
 ### Installing the Service
+
 Let’s call our service "timestamp", and provide information about it in a file called `timestamp.service`:
 
 <script src="https://gist.github.com/simonprickett/88bcc7aa5db7b02df94362bfb0e32104.js"></script>
@@ -122,6 +128,7 @@ Created symlink /etc/systemd/system/multi-user.target.wants/timestamp.service �
 ```
 
 ### Starting the Service
+
 Now we should be able to start the service manually:
 
 ```

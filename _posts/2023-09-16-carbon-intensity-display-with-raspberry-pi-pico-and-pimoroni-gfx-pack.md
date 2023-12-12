@@ -17,6 +17,8 @@ The API was developed by the UK National Grid ESO, in partnership with the Envir
 
 I wanted to build something that would display the current carbon intensity for my local area in a way that I could glance at it and know if it's high or low, or take a longer look and see some detail.  I also wanted to have the ability to control other devices if I chose to in future.
 
+{% include coffee-cta.html %}
+
 Pimoroni's excellent [GFX Pack](https://shop.pimoroni.com/products/pico-gfx-pack?variant=40414469062739) is ideal for this task.  It's a 128 x 64 pixel mono LCD display with multicoloured backlight and five buttons all in one unit. It is designed to attach to and be powered/driven by the Raspberry Pi Pico microcontrollers.  By pairing this with a Pi Pico W (built in WiFi) I had an all in one unit that could connect to the network, call the API, then interpret and display the results both as a graph and as a glanceable summary using different colours for the backlight.  The GFX pack also has a Qwiic/STEMMA QT connector that will allow me to connect / control other things in future.  Perfect!
 
 Here's a quick demo of the final MicroPython script running on the GFX Pack.  It wasn't a particularly good day for carbon intensity in the East Midlands region, so the backlight is red!

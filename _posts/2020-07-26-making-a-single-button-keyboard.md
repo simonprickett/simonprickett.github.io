@@ -9,6 +9,8 @@ Recently we've all been spending a lot more of our time on video conference call
 
 With the popular video conferencing service Zoom, there's no single "I need privacy now" button that will both mute the microphone and turn off the camera.  You need to become proficient at hitting (on a Macintosh) Command + Shift + A to toggle the microphone and Command + Shift + V to toggle the video camera.  I set out to see if I could build a single button custom keyboard that would do this for me, and to do so in a way that would make it easily customizable for other purposes.  
 
+{% include coffee-cta.html %}
+
 Let's take a look at how to make one, starting with the hardware...
 
 ## Hardware Build

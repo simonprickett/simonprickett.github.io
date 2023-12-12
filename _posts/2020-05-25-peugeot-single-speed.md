@@ -34,6 +34,8 @@ Thankfully, my car's got plenty of room for carrying random large items so I got
 
 What I had planned to retain from the original bike was the frame, fork and headset.  
 
+{% include coffee-cta.html %}
+
 Everything else was to be stripped off and replaced.  I convinced myself of this plan by reminding myself that this would also potentially give me a stock of vintage road bike parts to sell off and recoup some of my costs... provided I was careful with dismantling it!
 
 ## Disassembly

@@ -11,7 +11,9 @@ Sorta like Simone’s, but smaller! One of my favorite [Youtube channels](https:
 
 Anyway, Simone recently launched a [Kickstarter campaign](https://www.kickstarter.com/projects/simonegiertz/the-every-day-calendar) to fund the building of a yearly task tracker board with 365 buttons — press one each day that you complete a task you’ve set yourself, hopefully forming good habits from doing so. You could use it for example to track a daily exercise goal. Update, December 2022... you can now buy Simone's finished product [direct from her online store](https://yetch.store/products/every-day-goal-calendar) - shipping is to the USA only however.
 
-I really liked this idea, and it got me thinking about building something like it on a smaller scale for my younger son who is seven years old. Rather than tracking a whole year’s worth of progress, I figured a week would be a suitable period and set about planning a build…
+I really liked this idea, and it got me thinking about building something like it on a smaller scale for my younger son who is seven years old. Rather than tracking a whole year’s worth of progress, I figured a week would be a suitable period and set about planning a build...
+
+{% include coffee-cta.html %}
 
 Before diving into the build details let’s take a quick look at the finished product:
 

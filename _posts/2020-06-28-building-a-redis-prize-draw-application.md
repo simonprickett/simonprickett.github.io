@@ -25,6 +25,8 @@ The front end is built entirely with vanilla JavaScript (no frameworks).  It use
 
 I wanted to have this application available to demonstrate to different groups, so I built the back end in both Python and Node.js.
 
+{% include coffee-cta.html %}
+
 For Python, I chose the [Flask](https://flask.palletsprojects.com/en/1.1.x/) framework, and used its templating system.  For Node.js, I chose to use [Express](http://expressjs.com/) with [EJS templates](https://ejs.co/).
 
 Both implementations expose the same endpoints and use the same Redis key names.  The front end JavaScript, HTML and CSS are identical for both too.

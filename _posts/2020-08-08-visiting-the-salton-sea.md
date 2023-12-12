@@ -11,6 +11,8 @@ A little background - the [Salton Sea](https://en.wikipedia.org/wiki/Salton_Sea)
 
 The water is very salty, salinity is increasing as more water evaporates exposing more and more dry lake bed.  As the primary sources of water feeding the lake now are agricultural runoff from the Imperial Valley and occasional rainfall, incoming water contains a lot of nitrates and other pesticides.  As the water evaporates and becomes more saline, the oxygen levels in it drop, causing the millions of Tilapia fish that were added to the lake for sport fishing to die off en masse.  This, plus algae blooms, causes bad smells from the Sea that affect the local area and wider Coachella Valley.
 
+{% include coffee-cta.html %}
+
 If you want to see a good documentary about what's happening around the Salton Sea, and meet some of the locals that remember when the area had busy towns and huge volumes of tourists, check out KQED's "Plagues and Pleasures on the Salton Sea" below.  It's a little old now, but still relevant.
 
 <div class="embed-responsive embed-responsive-16by9">

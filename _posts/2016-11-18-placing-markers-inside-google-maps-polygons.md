@@ -101,6 +101,8 @@ To make sure that we find the closest point to the center of our bounding box th
 * Stop when we find the first point that is inside the area of the polygon, and drop the marker there.
 * Wrap this logic up as a function `getApproximateCenter` and add it to the Prototype of `google.maps.Polygon`.
 
+{% include coffee-cta.html %}
+
 The Google Maps API makes this relatively easy to implement this strategy (with minimal math too as we’re using their geometry library).
 
 ```

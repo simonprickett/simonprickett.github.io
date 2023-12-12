@@ -7,8 +7,6 @@ author: simon
 ---
 Here at [Conectric](http://www.conectric.com) we’re excited to announce the launch of our new IoT Gateway product with accompanying suite of sensors. 
 
-(This post was originally published in the [Conectric publication on Medium](https://medium.com/conectric-networks)).
-
 We’ve worked hard to create something that allows you to go from unboxing to a functional mesh network with wireless sensors deployed in a matter of minutes. Our introductory video provides a high level overview of how easy this is to use:
 
 <div class="embed-responsive embed-responsive-16by9">
@@ -34,6 +32,8 @@ The system currently includes three different types of sensor and a USB router. 
 </figure>
 
 The USB router acts as the gateway to the Conectric mesh network, receiving messages from the sensors and, with the open source Node.js SDK, translating these into JSON objects that you can then leverage in your application code. It connects to a regular USB port on any computer and does not require an external power source.
+
+{% include coffee-cta.html %}
 
 Additional USB routers can be used to extend the mesh network’s range. These are powered from regular USB chargers and act as message repeaters.
 

@@ -13,6 +13,8 @@ Here's a demo of the finished article running in the Alexa Developer Console:
   <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/hRaeTzdxrY0" allowfullscreen></iframe>
 </div><br/>
 
+{% include coffee-cta.html %}
+
 ## Game Design
 
 In my simple game, the user plays three rounds.  In each round, they're asked whether a celebrity is dead or alive.  The game checks their answer using my dead or alive package which in turn uses Wikipedia as its data source.  Alexa responds to tell the user whether they were right or not, and to read them a short biographical summary about the celebrity.  Each right answer earns one point, and after three rounds the user finds out their final score.

@@ -22,6 +22,8 @@ When working with Server Sent Events, communications between client and server a
 
 The server receives a regular HTTP request from the client (these should pass through firewalls etc like any other HTTP request which can make this method work in situations where WebSockets may be blocked). The client expects a response with a series of event messages at arbitrary times. The server needs to leave the HTTP response open until it has no more events to send, decides that the connection has been open long enough and can be considered stale, or until the client explicitly closes the initial request.
 
+{% include coffee-cta.html %}
+
 Every time that the server writes an event to the HTTP response, the client will receive it and process it in a listener callback function. The flow of events looks roughly like this:
 
 <figure class="figure">

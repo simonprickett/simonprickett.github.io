@@ -11,6 +11,8 @@ Plugins are used with Apache Cordova / Adobe PhoneGap to extend the platform’s
 
 Way back in 2013, Modus Create published a popular blog post covering how to create your own plugin for Cordova / PhoneGap. Since then, there have been many improvements to the tooling for working with Cordova and the way that plugins are distributed has changed. In our 2013 post, we also only covered plugin creation for iOS.
 
+{% include coffee-cta.html %}
+
 Let’s revisit plugin authoring in 2016, and extend the scope of the exercise to include both Android and iOS. We’ll also take a look at how plugins can be used without writing native code, as a way to package and distribute useful JavaScript to multiple Cordova apps.
 
 ## Prerequisites

@@ -47,6 +47,8 @@ Outside the main room, they had six or so Raspberry Pi stations set up with keyb
 
 While looking at these "have a go" stations, I spotted [Eben Upton](https://en.wikipedia.org/wiki/Eben_Upton) (a founder of the Raspberry Pi Foundation) a couple of times - looked like he was one of the project judges for the day.
 
+{% include coffee-cta.html %}
+
 I wasn't able to stick around and wait for the judging and presentations, so I'm not sure whose projects won awards, or what if anything the prizes were.  I'm sure that will appear online in due course and I'll update this article with a link when it does.
 
 Overall this was a fun time out, and it's really interesting to see what ideas the young makers came up with and how well they executed them and were able to talk about how they worked.  I came away with some ideas, and a few more Raspberry Pi stickers as well :)

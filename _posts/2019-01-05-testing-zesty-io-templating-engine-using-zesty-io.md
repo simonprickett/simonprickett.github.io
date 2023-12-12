@@ -20,6 +20,8 @@ In this example, `{% raw %}{{this.first_name}}{% endraw %}` would be replaced by
 
 As our clients rely on Parsley to build dynamic websites, feed data into mobile apps, and even into video games it is extremely important that its functionality is tested against every update that we make to the Zesty.io platform.
 
+{% include coffee-cta.html %}
+
 In this article we’ll take a look at how we’ve been developing automated tests to ensure Parsley continues to work as we expect it to. We decided to take an approach that combines a standard test tool / test reporting format with the Zesty.io CMS as a headless content repository for both the Parsley code and supporting data for each test.
 
 ## Creating Test Data in Zesty.io

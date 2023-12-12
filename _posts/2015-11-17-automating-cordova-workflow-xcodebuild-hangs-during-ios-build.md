@@ -69,6 +69,8 @@ Information about project "SomeApp":
 
 This is great, but doesn’t help with our goal to have a CI workflow, as a CI server isn’t going to open Xcode interactively, then quit it. We need something that is more scriptable and performed as part of our build process.
 
+{% include coffee-cta.html %}
+
 Thankfully, we can achieve this using some relatively simple scripting, which is our second option.
 
 ### 2. Add Schemes Programmatically Using a Build Hook Script

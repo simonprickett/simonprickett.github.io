@@ -13,6 +13,8 @@ The [Raspberry Pint Meetup Group](https://www.youtube.com/@raspberrypint8669/vid
   <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/xSsINHL9COE?start=12" allowfullscreen></iframe>
 </div><br/>
 
+{% include coffee-cta.html %}
+
 ## Annotated Video Transcript
 
 This talk is about flip dots and managing a flip dot display with a Raspberry Pi.  Before we go any further what we can do is take a look at the thing behind me - it is a flip dot display.  For scale, there's a Raspberry Pi 4 in a box - so it's quite big.  It's also extremely heavy, because each one of these dots it electromechanical.  It's not using LEDs.  It weighs quite a lot, it's difficult to bring to London and navigate the tube, so it's staying up here in Nottingham and we're doing this remotely.
