@@ -17,9 +17,10 @@ permalink: "/readinglist/"
             <p>Support your local library - I've read most of these books thanks to <a href="https://www.nottinghamcitylibraries.co.uk/" target="_blank">Nottingham City Libraries</a>.</p>
             <p>I'm also always looking out for book suggestions - <a href="/contact">get in touch</a> if you have ideas!</p>
             <hr/>
-            <p><i>Last Updated: December 9th 2023.</i></p>
+            <p><i>Last Updated: December 14th 2023.</i></p>
             <hr/>
             <ol>   
+              <li><a href="https://www.goodreads.com/book/show/62802733-i-will-greet-the-sun-again" target="_blank"><b>I Will Greet the Sun Again</b> - <i>Khashayar J. Khabushani</i></a></li>    
               <li><a href="https://www.goodreads.com/book/show/42550681-how-we-disappeared" target="_blank"><b>How We Disappeared</b> - <i>Jing-Jing Lee</i></a></li>  
               <li><a href="https://www.goodreads.com/book/show/58312003-the-unfortunates" target="_blank"><b>The Unfortunates</b> - <i>J.K. Chukwu</i></a></li> 
               <li><a href="https://www.goodreads.com/book/show/44421460-before-the-coffee-gets-cold" target="_blank"><b>Before the Coffee Gets Cold</b> - <i>Toshikazu Kawaguchi</i></a></li>   
@@ -29,7 +30,6 @@ permalink: "/readinglist/"
               <li><a href="https://www.goodreads.com/book/show/62874024-gonzo-capitalism" target="_blank"><b>Gonzo Capitalism: How to Make Money in An Economy That Hates You</b> - <i>Chris Guillebeau</i></a></li>  
               <li><a href="https://www.goodreads.com/book/show/122990887-season-of-the-witch" target="_blank"><b>Season of the Witch: The Book of Goth</b> - <i>Cathi Unsworth</i></a></li>  
               <li><a href="https://www.goodreads.com/book/show/63876565-horse-barbie" target="_blank"><b>Horse Barbie</b> - <i>Geena Rocero</i></a></li>  
-              <li><a href="https://www.goodreads.com/book/show/9142881-binocular-vision" target="_blank"><b>Binocular Vision: New and Selected Stories</b> - <i>Edith Pearlman</i></a></li>    
             </ol>
             <hr/>
             <p><i>Photo by <a href="https://www.pexels.com/photo/books-on-wooden-shelves-inside-library-2908984/" target="_blank">Stanislav Kondratiev</a> on Pexels.</i></p>
