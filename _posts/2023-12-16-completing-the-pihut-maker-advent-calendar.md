@@ -39,6 +39,39 @@ TODO text...
   <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/c19bse5KMwY" allowfullscreen></iframe>
 </div><br/>
 
+## Remaining Schedule
+
+I have a few more days to complete and need to pick up the pace to be done before Christmas without working weekends.  Here's my projected schedule which is of course subject to change.  The best ways of finding out when I'm live would be to [follow me on Twitter](https://twitter.com/simon_prickett), [subscribe on YouTube](https://www.youtube.com/channel/UC1ooXd8WnmkZhEGoKFU4v2g) or just keep coming back to this page!
+
+<table class="table table-striped">
+  <tr>
+    <th>Date/Time</th>
+    <th>Advent Calendar Days</th>
+  </tr>
+  <tr>
+    <td>Mon 18 Dec 2023 10am UTC</td>
+    <td><a href="https://www.youtube.com/watch?v=c19bse5KMwY">Days 4 and 5</a></td>
+  </tr>
+  <tr>
+    <td>Tue 19 Dec 2023 TBD</td>
+    <td>Days 6 and 7</td>
+  </tr>
+  <tr>
+    <td>Wed 20 Dec 2023</td>
+    <td>No stream</td>
+  </tr>
+  <tr>
+    <td>Thu 21 Dec 2023</td>
+    <td>Days 8, 9 and 10</td>
+  </tr>
+  <tr>
+    <td>Fri 22 Dec 2023 TBD</td>
+    <td>Days 11 and 12</td>
+  </tr>
+</table>
+<br/>
+I'll update the above as I know what times I'll be able to start each stream.
+
 ## Current Live Streaming Setup
 
 I got asked on Twitter how I was making these live streams... here's the ever evolving setup I use with links to each product / item.  
