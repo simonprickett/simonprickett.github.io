@@ -1,0 +1,71 @@
+---
+layout: post
+title:  "Building the Lego Creator Shuttle"
+categories: [ Lego, Hobbies ]
+image: assets/images/creator_shuttle_main.jpg
+author: simon
+---
+
+TODO text TODO text TODO text TODO text TODO text TODO text TODO text TODO text TODO text TODO text TODO text TODO text TODO text TODO text TODO text TODO text TODO text TODO text TODO text TODO text TODO text TODO text TODO text TODO text TODO text TODO text TODO text TODO text TODO text TODO text TODO text TODO text TODO text TODO text TODO text TODO text TODO text TODO text TODO text TODO text TODO text TODO text TODO text TODO text TODO text TODO text TODO text TODO text TODO text TODO text TODO text TODO text TODO text TODO text TODO text TODO text TODO text TODO text TODO text TODO text TODO text TODO text TODO text TODO text TODO text TODO text TODO text TODO text TODO text TODO text TODO text TODO text TODO text TODO text TODO text TODO text.
+
+{% include coffee-cta.html %}
+
+TODO text
+
+Here's the finished video:
+
+<div class="embed-responsive embed-responsive-16by9">
+  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/PWMyco_-Lgs" allowfullscreen></iframe>
+</div><br/>
+
+And here's some still pictures of the finished product:
+
+<div class="slick-carousel">
+    <div>
+        <figure class="figure">
+        <img src="{{ site.baseurl }}/assets/images/lego_defender_1.jpg" class="figure-img img-fluid" alt="Side view - hard to say which side is the driver side as she sits in the middle!">
+        <figcaption class="figure-caption text-center">Side view - hard to say which side is the driver side as she sits in the middle!</figcaption>
+        </figure>
+    </div>
+    <div>
+        <figure class="figure">
+        <img src="{{ site.baseurl }}/assets/images/lego_defender_2.jpg" class="figure-img img-fluid" alt="Front view of Lego Land Rover Defender.">
+        <figcaption class="figure-caption text-center">Front view.</figcaption>
+        </figure>
+    </div>
+    <div>
+        <figure class="figure">
+        <img src="{{ site.baseurl }}/assets/images/lego_defender_3.jpg" class="figure-img img-fluid" alt="The other side view.">
+        <figcaption class="figure-caption text-center">The other side view.</figcaption>
+        </figure>
+    </div>
+    <div>
+        <figure class="figure">
+        <img src="{{ site.baseurl }}/assets/images/lego_defender_4.jpg" class="figure-img img-fluid" alt="Rear view with spare wheel.">
+        <figcaption class="figure-caption text-center">Rear view with spare wheel.</figcaption>
+        </figure>
+    </div>
+    <div>
+        <figure class="figure">
+        <img src="{{ site.baseurl }}/assets/images/lego_defender_5.jpg" class="figure-img img-fluid" alt="Straight on side view.">
+        <figcaption class="figure-caption text-center">Straight on side view.</figcaption>
+        </figure>
+    </div>
+    <div>
+        <figure class="figure">
+        <img src="{{ site.baseurl }}/assets/images/lego_defender_6.jpg" class="figure-img img-fluid" alt="The box for the Defender kit.">
+        <figcaption class="figure-caption text-center">The box for the Defender kit.</figcaption>
+        </figure>
+    </div>
+</div>
+
+TODO update this... I used the same recording technique I applied to my previous Lego build video for the Audi Quattro (front facing camera on iPhone 7 clamped to a small tripod on the desk.  I edited the video in iMove and used that to remove the original background noise, add titles, and speed everything up.  The music was free and it's called "Sleepwalking" by "Airtone".  It's [available from their page on ccmixter.org](https://ccmixter.org/files/airtone/65416).
+
+TODO update this... If you'd like to get your own Defender, [pick up a kit over at the Lego website](https://www.lego.com/en-gb/product/land-rover-classic-defender-40650)!  If you're interested in learning more about real Land Rover Defenders, [Wikipedia](https://en.wikipedia.org/wiki/Land_Rover_Defender) has a lot of detail.
+
+Check out my previous Lego builds... 
+
+* [Audi Quattro S1](/building-the-lego-audi-quattro).  
+* [Creator Land Rover Defender](/building-the-lego-creator-land-rover-defender).
+
+Have fun!
