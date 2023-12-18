@@ -36,7 +36,7 @@ TODO text...
 </div><br/>
 
 <div class="embed-responsive embed-responsive-16by9">
-  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/c19bse5KMwY" allowfullscreen></iframe>
+  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/c19bse5KMwY?si=FQ035eMD6jTInWGg&start=22" allowfullscreen></iframe>
 </div><br/>
 
 ## Remaining Schedule
@@ -49,28 +49,23 @@ I have a few more days to complete and need to pick up the pace to be done befor
     <th>Advent Calendar Days</th>
   </tr>
   <tr>
-    <td>Mon 18 Dec 2023 10am UTC</td>
-    <td><a href="https://www.youtube.com/watch?v=c19bse5KMwY">Days 4 and 5</a></td>
-  </tr>
-  <tr>
-    <td>Tue 19 Dec 2023 TBD</td>
-    <td>Days 6 and 7</td>
+    <td>Tue 19 Dec 2023 10am UTC</td>
+    <td><a href="https://www.youtube.com/watch?v=7_OI6ltq6Ks" target="_blank">Days 6 and 7</a></td>
   </tr>
   <tr>
     <td>Wed 20 Dec 2023</td>
     <td>No stream</td>
   </tr>
   <tr>
-    <td>Thu 21 Dec 2023 TBD</td>
+    <td>Thu 21 Dec 2023 2pm UTC</td>
     <td>Days 8, 9 and 10</td>
   </tr>
   <tr>
-    <td>Fri 22 Dec 2023 TBD</td>
+    <td>Fri 22 Dec 2023 10am UTC</td>
     <td>Days 11 and 12</td>
   </tr>
 </table>
 <br/>
-I'll update the above as I know what times I'll be able to start each stream.
 
 ## Current Live Streaming Setup
 
