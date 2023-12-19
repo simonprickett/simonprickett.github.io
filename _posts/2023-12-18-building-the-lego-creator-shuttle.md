@@ -18,43 +18,43 @@ Here's the finished video:
   <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/PWMyco_-Lgs" allowfullscreen></iframe>
 </div><br/>
 
-And here's some still pictures of the finished product:
+And here's some still pictures of this kit:
 
 <div class="slick-carousel">
     <div>
         <figure class="figure">
-        <img src="{{ site.baseurl }}/assets/images/lego_defender_1.jpg" class="figure-img img-fluid" alt="Side view - hard to say which side is the driver side as she sits in the middle!">
-        <figcaption class="figure-caption text-center">Side view - hard to say which side is the driver side as she sits in the middle!</figcaption>
+        <img src="{{ site.baseurl }}/assets/images/creator_shuttle_box_shipping_ship.jpg" class="figure-img img-fluid" alt="The box on the shipping ship.">
+        <figcaption class="figure-caption text-center">The box on the shipping ship.</figcaption>
         </figure>
     </div>
     <div>
         <figure class="figure">
-        <img src="{{ site.baseurl }}/assets/images/lego_defender_2.jpg" class="figure-img img-fluid" alt="Front view of Lego Land Rover Defender.">
-        <figcaption class="figure-caption text-center">Front view.</figcaption>
+        <img src="{{ site.baseurl }}/assets/images/creator_shuttle_shipping_ship_doors_closed.jpg" class="figure-img img-fluid" alt="Completed Shuttle on the shipping ship with the payload doors closed.">
+        <figcaption class="figure-caption text-center">Completed Shuttle on the shipping ship with the payload doors closed.</figcaption>
         </figure>
     </div>
     <div>
         <figure class="figure">
-        <img src="{{ site.baseurl }}/assets/images/lego_defender_3.jpg" class="figure-img img-fluid" alt="The other side view.">
-        <figcaption class="figure-caption text-center">The other side view.</figcaption>
+        <img src="{{ site.baseurl }}/assets/images/creator_shuttle_shipping_ship_doors_open.jpg" class="figure-img img-fluid" alt="Completed Shuttle on the shipping ship with the payload doors open and satellite raised on the arm.">
+        <figcaption class="figure-caption text-center">Completed Shuttle on the shipping ship with the payload doors open and satellite raised on the arm.</figcaption>
         </figure>
     </div>
     <div>
         <figure class="figure">
-        <img src="{{ site.baseurl }}/assets/images/lego_defender_4.jpg" class="figure-img img-fluid" alt="Rear view with spare wheel.">
-        <figcaption class="figure-caption text-center">Rear view with spare wheel.</figcaption>
+        <img src="{{ site.baseurl }}/assets/images/creator_shuttle_mat_instructions_1.jpg" class="figure-img img-fluid" alt="Completed Shuttle on the project mat with the instruction book.">
+        <figcaption class="figure-caption text-center">Completed Shuttle on the project mat with the instruction book.</figcaption>
         </figure>
     </div>
     <div>
         <figure class="figure">
-        <img src="{{ site.baseurl }}/assets/images/lego_defender_5.jpg" class="figure-img img-fluid" alt="Straight on side view.">
-        <figcaption class="figure-caption text-center">Straight on side view.</figcaption>
+        <img src="{{ site.baseurl }}/assets/images/creator_shuttle_mat_instructions_2.jpg" class="figure-img img-fluid" alt="Completed Shuttle on the project mat with the instruction book.">
+        <figcaption class="figure-caption text-center">Completed Shuttle on the project mat with the instruction book.</figcaption>
         </figure>
     </div>
     <div>
         <figure class="figure">
-        <img src="{{ site.baseurl }}/assets/images/lego_defender_6.jpg" class="figure-img img-fluid" alt="The box for the Defender kit.">
-        <figcaption class="figure-caption text-center">The box for the Defender kit.</figcaption>
+        <img src="{{ site.baseurl }}/assets/images/creator_shuttle_mat_doors_open.jpg" class="figure-img img-fluid" alt="Completed Shuttle on the project mat with the payload doors open and satellite raised on the arm.">
+        <figcaption class="figure-caption text-center">Completed Shuttle on the project mat with the payload doors open and satellite raised on the arm.</figcaption>
         </figure>
     </div>
 </div>
@@ -69,3 +69,6 @@ Check out my previous Lego builds...
 * [Creator Land Rover Defender](/building-the-lego-creator-land-rover-defender).
 
 Have fun!
+
+---
+Main photograph from [The Energia-Buran Archive](https://buranarchive.space/picture?/596/category/24-ok_ks_003).
