@@ -64,6 +64,12 @@ Thank you!!
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Sorry about your potentiometer issues. It&#39;s tricky to see, but I think you may have its signal wire connected to the Pico&#39;s pin 33, which is GND. It should be connected to pin 32 (GP27). Hope this helps. Good luck!</p>&mdash; v.edgy (the dot is silent) (@vdotedgy) <a href="https://twitter.com/vdotedgy/status/1736717420247519486?ref_src=twsrc%5Etfw">December 18, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+While completing days six and seven I revisited day four to show the potentiometer working properly.  For day six we learned about a light sensor and in day seven we created a motion alarm with a mini PIR sensor...  sadly this video suffers from some stalling of the cameras and desktop sharing that I'm putting down to experimenting with using the Firefox browser for StreamYard... I won't do that again, it's back to Chrome for future streams.  This is partly why I'm doing this series - shake down and refine the streaming setup.
+
+<div class="embed-responsive embed-responsive-16by9">
+  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/7_OI6ltq6Ks?si=jQ8lYmw5PKyKHVFC&start=24" allowfullscreen></iframe>
+</div><br/>
+
 ## Remaining Schedule
 
 I have a few more days to complete and need to pick up the pace to be done before Christmas without working weekends.  Here's my projected schedule which is of course subject to change.  The best ways of finding out when I'm live would be to [follow me on Twitter](https://twitter.com/simon_prickett), [subscribe on YouTube](https://www.youtube.com/channel/UC1ooXd8WnmkZhEGoKFU4v2g) or just keep coming back to this page!
@@ -74,16 +80,12 @@ I have a few more days to complete and need to pick up the pace to be done befor
     <th>Advent Calendar Days</th>
   </tr>
   <tr>
-    <td>Tue 19 Dec 2023 10am UTC</td>
-    <td><a href="https://www.youtube.com/watch?v=7_OI6ltq6Ks" target="_blank">Days 6 and 7</a></td>
-  </tr>
-  <tr>
     <td>Wed 20 Dec 2023</td>
     <td>No stream</td>
   </tr>
   <tr>
     <td>Thu 21 Dec 2023 2pm UTC</td>
-    <td>Days 8, 9 and 10</td>
+    <td><a href="https://www.youtube.com/watch?v=N_1iCx3V7Nw" target="_blank">Days 8, 9 and 10</a></td>
   </tr>
   <tr>
     <td>Fri 22 Dec 2023 10am UTC</td>
