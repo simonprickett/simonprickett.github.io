@@ -12,6 +12,17 @@ TODO text TODO text TODO text TODO text TODO text TODO text TODO text TODO text 
 
 TODO text
 
+<figure class="figure">
+  <img src="{{ site.baseurl }}/assets/images/creator_shuttle_receipt.jpg" alt="Unexpected item in the bagging area!">
+  <figcaption class="figure-caption text-center">Unexpected item in the bagging area!</figcaption>
+</figure>
+
+<figure class="figure">
+  <img src="{{ site.baseurl }}/assets/images/creator_shuttle_breakfast_items.jpg" alt="One of these items isn't for breakfast!">
+  <figcaption class="figure-caption text-center">One of these items isn't for breakfast!</figcaption>
+</figure>
+
+
 Here's the finished video:
 
 <div class="embed-responsive embed-responsive-16by9">
