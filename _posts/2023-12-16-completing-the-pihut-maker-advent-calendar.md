@@ -70,6 +70,12 @@ While completing days six and seven I revisited day four to show the potentiomet
   <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/7_OI6ltq6Ks?si=jQ8lYmw5PKyKHVFC&start=24" allowfullscreen></iframe>
 </div><br/>
 
+I tackled days eight, nine and ten in the same stream so that I could finish all twelve projects by Christmas.  On these days, we looked at a temperature sensor, a tilt sensor and made a game with a break beam sensor.
+
+<div class="embed-responsive embed-responsive-16by9">
+  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/N_1iCx3V7Nw?si=VnklMw-jjUWERmnj&start=23" allowfullscreen></iframe>
+</div><br/>
+
 ## Remaining Schedule
 
 I have a few more days to complete and need to pick up the pace to be done before Christmas without working weekends.  Here's my projected schedule which is of course subject to change.  The best ways of finding out when I'm live would be to [follow me on Twitter](https://twitter.com/simon_prickett), [subscribe on YouTube](https://www.youtube.com/channel/UC1ooXd8WnmkZhEGoKFU4v2g) or just keep coming back to this page!
@@ -80,16 +86,8 @@ I have a few more days to complete and need to pick up the pace to be done befor
     <th>Advent Calendar Days</th>
   </tr>
   <tr>
-    <td>Wed 20 Dec 2023</td>
-    <td>No stream</td>
-  </tr>
-  <tr>
-    <td>Thu 21 Dec 2023 2pm UTC</td>
-    <td><a href="https://www.youtube.com/watch?v=N_1iCx3V7Nw" target="_blank">Days 8, 9 and 10</a></td>
-  </tr>
-  <tr>
     <td>Fri 22 Dec 2023 10am UTC</td>
-    <td>Days 11 and 12</td>
+    <td><a href="https://www.youtube.com/watch?v=FaHv7xBI2Og" target="_blank">Days 11 and 12</a></td>
   </tr>
 </table>
 <br/>
