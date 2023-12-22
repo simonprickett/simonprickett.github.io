@@ -76,21 +76,13 @@ I tackled days eight, nine and ten in the same stream so that I could finish all
   <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/N_1iCx3V7Nw?si=VnklMw-jjUWERmnj&start=23" allowfullscreen></iframe>
 </div><br/>
 
-## Remaining Schedule
+In day 11 we introduced an OLED display and made a game with it. Day 12 was all about Neopixel addressable LEDs.
 
-I have a few more days to complete and need to pick up the pace to be done before Christmas without working weekends.  Here's my projected schedule which is of course subject to change.  The best ways of finding out when I'm live would be to [follow me on Twitter](https://twitter.com/simon_prickett), [subscribe on YouTube](https://www.youtube.com/channel/UC1ooXd8WnmkZhEGoKFU4v2g) or just keep coming back to this page!
+<div class="embed-responsive embed-responsive-16by9">
+  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/FaHv7xBI2Og?si=NIdmrOZYfUNOE4WP&start=20" allowfullscreen></iframe>
+</div><br/>
 
-<table class="table table-striped">
-  <tr>
-    <th>Date/Time</th>
-    <th>Advent Calendar Days</th>
-  </tr>
-  <tr>
-    <td>Fri 22 Dec 2023 10am UTC</td>
-    <td><a href="https://www.youtube.com/watch?v=FaHv7xBI2Og" target="_blank">Days 11 and 12</a></td>
-  </tr>
-</table>
-<br/>
+This was a really fun project to do and I think the Maker Advent Calendar represents good value for money with well written instructions and a nicely planned story arc as you go from day to day.  I bought this with my own money, I wasn't sponsored by The PiHut or anyone else to endorse this.
 
 ## Current Live Streaming Setup
 
@@ -106,11 +98,11 @@ The main camera (the one you see me through) is a [Logitech Brio 4K Stream](http
 
 I use a [Blue Yeti Nano](https://www.logitech.com/en-gb/products/streaming-gear/yeti-nano-usb-microphone.988-000205.html) microphone.  It's on a boom arm and attaches to the iMac via yet another USB cable (so I use a USB hub as there's so many things - my mouse and keyboard are also USB and I usually need a USB to Micro USB cable to power the Pico / other IoT thing I am working with on stream).  The microphone has got a foam pop filter over it, and I run it in cardioid mode to try and control the direction that it picks up sounds from.  I feel the microphone is the weak part of the current setup - either the product or the placement of it.  In early videos for this series you'll notice my sound trailing off when I'm looking over at the second camera to the side of me.  I've changed the microphone placement and input gain settings to try and help with this and will continue to work on it.
 
-I also have a [Stream Deck Mini](https://www.elgato.com/uk/en/p/stream-deck-mini) which is an 8 key programmable macro pad.  I haven't used it on these streams so far, but intend to once I've reprogrammed it to handle some of the layout transitions in StreamYard - for example when I go from full screen me to sharing a desktop and the second camera.  I've had a lot of success using this before to switch between applications when sharing desktop (for example the terminal, VSCode, browser, full-screen Keynote slides) and highly recommend it.  They make larger versions with basically more buttons, but I'm happy with this cheapest one.  It connects to the iMac by yet another USB cable.
+I also have a [Stream Deck Mini](https://www.elgato.com/uk/en/p/stream-deck-mini) which is an 8 key programmable macro pad.  I had some issues using this to control StreamYard, mostly related to switching to the Firefox browser for one stream to try it out.  I'll get this working with Chrome in the near future. I've had a lot of success using this before to switch between applications when sharing desktop (for example the terminal, VSCode, browser, full-screen Keynote slides) and highly recommend it.  They make larger versions with basically more buttons, but I'm happy with this cheapest one.  It connects to the iMac by yet another USB cable.
 
 I'll add some pictures / screenshots of my setup as I revisit this page to add the remaining live stream video embeds.  I'll also add details of the freestanding lights and second monitor that I use.
 
-Hope you enjoyed this - if you'd like to see more of this sort of thing or want to share your projects with me I'd love to hear from you.  ([Contact me here](/contact))
+Hope you enjoyed this - if you'd like to see more of this sort of thing or want to share your projects with me I'd love to hear from you  ([Contact me here](/contact)).
 
 --- 
 Main photograph from [pxhere.com](https://pxhere.com/en/photo/1069156).
