@@ -17,7 +17,7 @@ permalink: "/readinglist/"
             <p>Support your local library - I've read most of these books thanks to <a href="https://www.nottinghamcitylibraries.co.uk/" target="_blank">Nottingham City Libraries</a>.</p>
             <p>I'm also always looking out for book suggestions - <a href="/contact">get in touch</a> if you have ideas!</p>
             <hr/>
-            <p><i>Last Updated: December 20th 2023.</i></p>
+            <p><i>Last Updated: December 24th 2023.</i></p>
             <hr/>
             <ol>   
               <li><a href="https://www.goodreads.com/book/show/62047984-yellowface" target="_blank"><b>Yellowface</b> - <i>R.F. Kuang</i></a></li>  
