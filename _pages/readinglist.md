@@ -17,9 +17,10 @@ permalink: "/readinglist/"
             <p>Support your local library - I've read most of these books thanks to <a href="https://www.nottinghamcitylibraries.co.uk/" target="_blank">Nottingham City Libraries</a>.</p>
             <p>I'm also always looking out for book suggestions - <a href="/contact">get in touch</a> if you have ideas!</p>
             <hr/>
-            <p><i>Last Updated: December 24th 2023.</i></p>
+            <p><i>Last Updated: December 26th 2023.</i></p>
             <hr/>
             <ol>   
+              <li><a href="https://www.goodreads.com/book/show/167582092-lola-in-the-mirror" target="_blank"><b>Lola in the Mirror</b> - <i>Trent Dalton</i></a></li>  
               <li><a href="https://www.goodreads.com/book/show/62047984-yellowface" target="_blank"><b>Yellowface</b> - <i>R.F. Kuang</i></a></li>  
               <li><a href="https://www.goodreads.com/book/show/43706466-10-minutes-38-seconds-in-this-strange-world" target="_blank"><b>10 Minutes 38 Seconds in This Strange World</b> - <i>Elif Shafak</i></a></li>  
               <li><a href="https://www.goodreads.com/book/show/62802733-i-will-greet-the-sun-again" target="_blank"><b>I Will Greet the Sun Again</b> - <i>Khashayar J. Khabushani</i></a></li>    
@@ -29,7 +30,6 @@ permalink: "/readinglist/"
               <li><a href="https://www.goodreads.com/book/show/58775894-know-your-place" target="_blank"><b>Know Your Place</b> - <i>Faiza Shaheen</i></a></li>     
               <li><a href="https://www.goodreads.com/book/show/87923222-is-this-ok-one-woman-s-search-for-connection-online" target="_blank"><b>Is This OK? One Woman's Search for Connection Online</b> - <i>Harriet Gibsone</i></a></li>
               <li><a href="https://www.goodreads.com/book/show/128183667-party-lines" target="_blank"><b>Party Lines: Dance Music and the Making of Modern Britain</b> - <i>Ed Gillett</i></a></li>  
-              <li><a href="https://www.goodreads.com/book/show/62874024-gonzo-capitalism" target="_blank"><b>Gonzo Capitalism: How to Make Money in An Economy That Hates You</b> - <i>Chris Guillebeau</i></a></li>  
             </ol>
             <hr/>
             <p><i>Photo by <a href="https://www.pexels.com/photo/books-on-wooden-shelves-inside-library-2908984/" target="_blank">Stanislav Kondratiev</a> on Pexels.</i></p>
