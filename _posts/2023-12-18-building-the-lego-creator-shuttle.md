@@ -22,11 +22,10 @@ TODO text
   <figcaption class="figure-caption text-center">One of these items isn't for breakfast!</figcaption>
 </figure>
 
-
 Here's the finished video:
 
 <div class="embed-responsive embed-responsive-16by9">
-  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/PWMyco_-Lgs" allowfullscreen></iframe>
+  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/oNYa7CJxuRA?si=Z6Jwt1s3ZM94a2MC" allowfullscreen></iframe>
 </div><br/>
 
 And here's some still pictures of this kit:
