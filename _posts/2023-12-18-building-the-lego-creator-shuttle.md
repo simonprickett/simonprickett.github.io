@@ -70,11 +70,25 @@ And here's some still pictures of this kit:
     </div>
 </div>
 
-TODO update this... I used the same recording technique I applied to my previous Lego build video for the Audi Quattro (front facing camera on iPhone 7 clamped to a small tripod on the desk.  I edited the video in iMove and used that to remove the original background noise, add titles, and speed everything up.  The music was free and it's called "Sleepwalking" by "Airtone".  It's [available from their page on ccmixter.org](https://ccmixter.org/files/airtone/65416).
+I tried a different recording technique for this video.  Previously I'd used the front facing camera on my iPhone 7 and a small desktop tripod.  This time I recorded with the Logitech webcam that sits on top of my iMac.  As with previous Lego build videos, I edited the video in iMovie using it to remove the original background noise, add titles and speed things up.  TODO information on the music.
 
-TODO update this... If you'd like to get your own Defender, [pick up a kit over at the Lego website](https://www.lego.com/en-gb/product/land-rover-classic-defender-40650)!  If you're interested in learning more about real Land Rover Defenders, [Wikipedia](https://en.wikipedia.org/wiki/Land_Rover_Defender) has a lot of detail.
+If you'd like to get your own Creator Shuttle, [pick up a kit over at the Lego website](https://www.lego.com/en-gb/product/space-shuttle-31134)!  If you're interested in learning more about real Space Shuttles, check out the [Smithsonian's page for Discovery](https://airandspace.si.edu/collection-objects/space-shuttle-discovery/nasm_A20120325000).  I've been lucky to visit all of the remaining Shuttles in retirement, as well as Enterprise (the Shuttle programme atmospheric flight test vehicle - [details](https://en.wikipedia.org/wiki/Space_Shuttle_Enterprise)).  Here's a pic I took at the Smithsonian Air and Space Museum at Dulles Airport in Virginia when they received Discovery and sent Enterprise up to New York City for display there.
 
-Check out my previous Lego builds... 
+<figure class="figure">
+  <img src="{{ site.baseurl }}/assets/images/creator_shuttle_discovery_enterprise.jpg" alt="Shuttles Discovery and Enterprise at the Smithsonian Air and Space Museum, Dulles Airport Virginia.">
+  <figcaption class="figure-caption text-center">Shuttles Discovery and Enterprise at the Smithsonian Air and Space Museum, Dulles Airport Virginia.</figcaption>
+</figure>
+
+You can also visit the Buran aerodynamic analogue (known as [OK-GLI](https://en.wikipedia.org/wiki/OK-GLI)) at the technical museum in Speyer Germany.  I was lucky enough to be able to go there whilst on a business trip, here's a photo I took...
+
+<figure class="figure">
+  <img src="{{ site.baseurl }}/assets/images/creator_shuttle_buran_okgli.jpg" alt="Buran aerodynamic analogue in a museum in Speyer, Germany.">
+  <figcaption class="figure-caption text-center">Buran aerodynamic analogue in a museum in Speyer, Germany.</figcaption>
+</figure>
+
+If you'd like to learn more about the Buran programme, check out the [Wikipedia page for it](https://en.wikipedia.org/wiki/Buran_programme).
+
+Here are my previous Lego builds... 
 
 * [Audi Quattro S1](/building-the-lego-audi-quattro).  
 * [Creator Land Rover Defender](/building-the-lego-creator-land-rover-defender).
