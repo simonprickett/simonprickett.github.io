@@ -81,4 +81,4 @@ I used the same recording technique I applied to my previous Lego build video fo
 
 If you'd like to get your own Defender, [pick up a kit over at the Lego website](https://www.lego.com/en-gb/product/land-rover-classic-defender-40650)!  If you're interested in learning more about real Land Rover Defenders, [Wikipedia](https://en.wikipedia.org/wiki/Land_Rover_Defender) has a lot of detail.
 
-Check out my previous Lego build... the [Audi Quattro S1](/building-the-lego-audi-quattro).  Have fun!
+Check out my previous Lego build... the [Audi Quattro S1](/building-the-lego-audi-quattro).  I've also subsequently documented my experience building the Lego [Creator Shuttle](/building-the-lego-creator-shuttle).  Have fun!
