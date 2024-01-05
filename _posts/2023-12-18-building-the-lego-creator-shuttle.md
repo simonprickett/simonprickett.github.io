@@ -69,7 +69,7 @@ And here's some still pictures of this kit:
     </div>
 </div>
 
-I tried a different recording technique for this video.  Previously I'd used the front facing camera on my iPhone 7 and a small desktop tripod.  This time I recorded with the Logitech webcam that sits on top of my iMac.  As with previous Lego build videos, I edited the video in iMovie using it to remove the original background noise, add titles and speed things up.  TODO information on the music.
+I tried a different recording technique for this video.  Previously I'd used the front facing camera on my iPhone 7 and a small desktop tripod.  This time I recorded with the Logitech webcam that sits on top of my iMac.  As with previous Lego build videos, I edited the video in iMovie using it to remove the original background noise, add titles and speed things up.  The music is called ["Coffee on the Patio"](https://uppbeat.io/track/avbe/coffee-on-the-patio) and is by AVBE.  I got it from uppbeat.
 
 If you'd like to get your own Creator Shuttle, [pick up a kit over at the Lego website](https://www.lego.com/en-gb/product/space-shuttle-31134)!  If you're interested in learning more about real Space Shuttles, check out the [Smithsonian's page for Discovery](https://airandspace.si.edu/collection-objects/space-shuttle-discovery/nasm_A20120325000).  I've been lucky to visit all of the remaining Shuttles in retirement, as well as Enterprise (the Shuttle programme atmospheric flight test vehicle - [details](https://en.wikipedia.org/wiki/Space_Shuttle_Enterprise)).  Here's a pic I took at the Smithsonian Air and Space Museum at Dulles Airport in Virginia when they received Discovery and sent Enterprise up to New York City for display there.
 
