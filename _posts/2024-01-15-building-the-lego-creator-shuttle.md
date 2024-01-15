@@ -6,11 +6,11 @@ image: assets/images/creator_shuttle_main.jpg
 author: simon
 ---
 
-I was minding my own business in the local Lidl, shopping for some breakfast items.  As I turned a corner into the infamous "Middle of Lidl" aisle, I spotted a Lego Shuttle set that I wasn't aware existed... of course I had to get it (it was the only one left too) so here's a short article about my experience building it.
+I was minding my own business in the local Lidl, shopping for some breakfast items.  As I turned a corner into the infamous "Middle of Lidl" aisle, I spotted a Lego Shuttle set that I wasn't aware existed... of course I had to get it (it was the only one left too). Here's a short article about my experience building it.
 
 I already have the much larger Shuttle Discovery Lego set to build (probably in February when it's really cold, dark and snowy) but I thought this "Creator" series one would go nicely with my Creator Land Rover Defender that I acquired a few months ago.
 
-Lego have actually made a few Creator Shuttle kits... this particular one is the 31134 version.  It includes instructions for a couple of other builds, but of course you're only going to want to make a Shuttle from it!  The styling of this one reminds me of the Soviet Buran programme orbiter.
+Lego have actually made a few Shuttle kits in the Creator and City series... this particular one is the 31134 version.  It includes instructions for a couple of other builds, but of course you're only going to want to make a Shuttle from it!  The styling of this one reminds me of the Soviet Buran programme orbiter.
 
 {% include coffee-cta.html %}
 
