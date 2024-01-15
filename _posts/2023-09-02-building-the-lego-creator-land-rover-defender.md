@@ -77,8 +77,8 @@ It arrived a few days later with a nice letter and all was good!
   <figcaption class="figure-caption text-center">The missing piece arrives, with a nice letter from Lego.</figcaption>
 </figure>
 
-I used the same recording technique I applied to my previous Lego build video for the Audi Quattro (front facing camera on iPhone 7 clamped to a small tripod on the desk.  I edited the video in iMove and used that to remove the original background noise, add titles, and speed everything up.  The music was free and it's called "Sleepwalking" by "Airtone".  It's [available from their page on ccmixter.org](https://ccmixter.org/files/airtone/65416).
+I used the same recording technique I applied to my previous Lego build video for the Audi Quattro (front facing camera on iPhone 7 clamped to a small tripod on the desk.  I edited the video in iMovie and used that to remove the original background noise, add titles, and speed everything up.  The music was free and it's called "Sleepwalking" by "Airtone".  It's [available from their page on ccmixter.org](https://ccmixter.org/files/airtone/65416).
 
 If you'd like to get your own Defender, [pick up a kit over at the Lego website](https://www.lego.com/en-gb/product/land-rover-classic-defender-40650)!  If you're interested in learning more about real Land Rover Defenders, [Wikipedia](https://en.wikipedia.org/wiki/Land_Rover_Defender) has a lot of detail.
 
-Check out my previous Lego build... the [Audi Quattro S1](/building-the-lego-audi-quattro).  Have fun!
+Check out my previous Lego build... the [Audi Quattro S1](/building-the-lego-audi-quattro).  I've also subsequently documented my experience building the Lego [Creator Shuttle](/building-the-lego-creator-shuttle).  Have fun!
