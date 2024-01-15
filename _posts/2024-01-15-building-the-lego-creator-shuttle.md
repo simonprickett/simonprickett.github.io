@@ -100,15 +100,15 @@ Here are my previous Lego builds...
 
 Other Lego Shuttle kits that are or have been available:
 
-* [Creator 31134 Shuttle](https://www.lego.com/en-gb/product/space-shuttle-31134) (the one I built in this article)
-* [Space Shuttle Discovery 10283](https://www.lego.com/en-gb/product/nasa-space-shuttle-discovery-10283) (big set)
-* [Creator 31117 Space Shuttle Adventure](https://www.lego.com/en-gb/product/space-shuttle-adventure-31117) (this one is retired now, would love to get one as it reminds me even more of Buran)
-* [Space Shuttle Launch 1682](https://brickset.com/sets/1682-1/Space-Shuttle-Launch) (retired)
-* [Space Shuttle 3367](https://brickset.com/sets/3367-1/Space-Shuttle) (retired)
-* [Shuttle Launch Pad 6339](https://brickset.com/sets/6339-1/Shuttle-Launch-Pad) (retired)
-* [Shuttle Launching Crew 6346](https://brickset.com/sets/6346-1/Shuttle-Launching-Crew) (retired)
-* [Shuttle Trascon 6544](https://brickset.com/sets/6544-1/Shuttle-Transcon-2) (retired)
-* [Space Shuttle Discovery STS-31](https://brickset.com/sets/7470-1/Space-Shuttle-Discovery-STS-31) (retired)
+* [Creator 31134 Shuttle](https://www.lego.com/en-gb/product/space-shuttle-31134) (the one I built in this article).
+* [Space Shuttle Discovery 10283](https://www.lego.com/en-gb/product/nasa-space-shuttle-discovery-10283) (big set).
+* [Creator 31117 Space Shuttle Adventure](https://www.lego.com/en-gb/product/space-shuttle-adventure-31117) (this one is retired now, would love to get one as it reminds me even more of Buran).
+* [Space Shuttle Launch 1682](https://brickset.com/sets/1682-1/Space-Shuttle-Launch) (retired).
+* [Space Shuttle 3367](https://brickset.com/sets/3367-1/Space-Shuttle) (retired).
+* [Shuttle Launch Pad 6339](https://brickset.com/sets/6339-1/Shuttle-Launch-Pad) (retired).
+* [Shuttle Launching Crew 6346](https://brickset.com/sets/6346-1/Shuttle-Launching-Crew) (retired).
+* [Shuttle Trascon 6544](https://brickset.com/sets/6544-1/Shuttle-Transcon-2) (retired).
+* [Space Shuttle Discovery STS-31](https://brickset.com/sets/7470-1/Space-Shuttle-Discovery-STS-31) (retired).
 
 Have fun and thanks for reading!
 
