@@ -4,6 +4,7 @@ title:  "Wifi Setup with the Raspberry Pi Pico W"
 categories: [ IoT, Coding, Raspberry Pi, Python ]
 image: assets/images/pico_wifi_main.jpg
 author: simon
+tags: [featured]
 ---
 One of the problems associated with making and distributing IoT devices to consumers is dealing with having the consumer connect the device to their own wifi network when they first receive it. 
 
