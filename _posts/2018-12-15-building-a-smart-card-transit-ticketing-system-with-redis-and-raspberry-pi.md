@@ -4,7 +4,6 @@ title:  "Building a Smart Card Transit Ticketing System with Redis and Raspberry
 categories: [ Python, Redis, IoT, Raspberry Pi, Node.js, Coding ]
 image: assets/images/redis_transit_main.jpg
 author: simon
-tags: [featured]
 ---
 Recently I was looking for an excuse to try out the [hosted Redis database service](https://redislabs.com/redis-enterprise-deployment/) from Redis Labs. I co-incidentally found out that Monk Makes produce a [smart card kit](https://www.monkmakes.com/cck/) for the Raspberry Pi at a really nice price. This got me thinking about how I might get to play around with both of these things together. It didn’t take me long to cook up the idea of building out a smart card ticket vending and checking system such as you might find employed by various railways around the world.
 
