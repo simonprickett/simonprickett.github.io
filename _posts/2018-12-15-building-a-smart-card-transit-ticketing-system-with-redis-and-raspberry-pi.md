@@ -4,7 +4,6 @@ title:  "Building a Smart Card Transit Ticketing System with Redis and Raspberry
 categories: [ Python, Redis, IoT, Raspberry Pi, Node.js, Coding ]
 image: assets/images/redis_transit_main.jpg
 author: simon
-tags: [featured]
 ---
 Recently I was looking for an excuse to try out the [hosted Redis database service](https://redislabs.com/redis-enterprise-deployment/) from Redis Labs. I co-incidentally found out that Monk Makes produce a [smart card kit](https://www.monkmakes.com/cck/) for the Raspberry Pi at a really nice price. This got me thinking about how I might get to play around with both of these things together. It didn’t take me long to cook up the idea of building out a smart card ticket vending and checking system such as you might find employed by various railways around the world.
 
@@ -13,6 +12,8 @@ Looking around at what I had in my project cupboard, I decided I had just about 
 1. **A ticket (pass) sales terminal:** the user taps their smart card to the reader, presses the button for the type of pass that they want to buy then taps the card to the reader again to finish the transaction. The sales terminal should play audio samples that guide the user through the process.
 2. **An entry gate:** the user taps their smart card to the reader and is allowed entry if the card has a valid pass associated with it. If the card doesn’t have a valid pass entry should be denied. The entry gate should show a red flashing light and play a buzzer sound when the user is denied entry. Users with valid passes should see a green light and hear a welcoming chime.
 3. **A system monitor:** this should record a log of all events happening in the system — a pass is sold, a user entered the system to begin a journey, a user was denied entrance to the system because their card didn’t have a valid pass.
+
+{% include coffee-cta.html %}
 
 After some more thinking, I also decided that a good demo should have three different types of transit pass:
 

@@ -48,6 +48,8 @@ class TrafficLightLEDs:
 
 There are many ways we could implement a Finite State Machine, and there are even libraries for Python and many other languages specifically designed to help with this. For example, [Transitions](https://github.com/pytransitions/transitions) is a Finite State Machine framework for Python.
 
+{% include coffee-cta.html %}
+
 In this case, we have a very simple set of states and transitions, so we can just use an `if` / `elif` / `else` statement to build out the Finite State Machine. This wouldn’t scale well for more complex models, but is fine for traffic lights.
 
 First up, we need to keep track of which state the machine is in at any given time… we’ll do that with a variable `currentState`. At the beginning, this is set to the first state that the machine enters when "booted":

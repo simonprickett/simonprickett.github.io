@@ -36,6 +36,8 @@ As you can see in the video, my version of the timer works like this...
 * At any point, pressing the top button again resets the timer to the idle state.
 * Pressing the power button displays a goodbye message and turns the device off.
 
+{% include coffee-cta.html %}
+
 ## Coding a Pomodoro Timer with the Arduino IDE
 
 How does this work?  At a high level, the code has the same two entry points as any other Arduino sketch:

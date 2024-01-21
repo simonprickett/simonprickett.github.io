@@ -63,6 +63,8 @@ The Cloud Functions console also shows that the function is using the Python run
 
 And that’s all there is to it!
 
+{% include coffee-cta.html %}
+
 ---
 
 If you’d like to use or study the code from this article feel free: I’ve [put it on GitHub](https://github.com/simonprickett/google-cloud-functions-python) for you. Google’s documentation for the Python Cloud Functions runtime can be [read here](https://cloud.google.com/functions/docs/concepts/python-runtime).

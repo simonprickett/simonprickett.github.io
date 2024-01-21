@@ -4,12 +4,15 @@ title:  "Environment Monitoring with Redis Streams, Raspberry Pi Pico W and Micr
 categories: [ IoT, Coding, Raspberry Pi, Python, Node.js, JavaScript, Redis ]
 image: assets/images/pico_env_streams_main.jpg
 author: simon
+tags: [sticky]
 ---
 The Raspberry Pi Pico W is an extremely capable microcontroller device from the Raspberry Pi Foundation.  The W variant has on board support for wifi networking.  This and the ability to run MicroPython makes it an excellent choice for projects that need to gather data from sensors and report it to a cloud server.
 
 I decided to build an environment monitoring system using a couple of Pi Pico W devices, Redis and some server side logic.  I used temperature, humidity and light sensors plus a fan to simulate an air conditioning unit.
 
 This was the second project in my [Things on Thursdays IoT live streaming series](/things-on-thursdays-livestreams/).  
+
+{% include coffee-cta.html %}
 
 Starting with a box fresh Raspberry Pi Pico W, I demonstrated how to install MicroPython, connect to the device from Visual Studio Code and write Python code on it.  I wrote code to connect to a wireless network, created a Redis database in the cloud and got started with streaming data to Redis.
 

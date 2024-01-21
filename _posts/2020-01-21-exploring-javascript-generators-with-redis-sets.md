@@ -22,6 +22,8 @@ Generator functions are identified by a `*` before their names.  When called, a 
 
 Every time the `next()` function is called, the generator runs until it hits a `yield` expression.  This returns a value from the generator function, and suspends its execution until `next()` is called again.  The internal state of the generator function is maintained between executions.
 
+{% include coffee-cta.html %}
+
 The value returned by the generator function is an object containing two keys: `value` and `done`.  `value` contains the actual value returned by the generator function, and `done` will be set to `false` if the generator function has more values to yield on subsequent calls to `next()`, or `true` if the generator function is out of new values and should not be called again.
 
 ## A Simple Example

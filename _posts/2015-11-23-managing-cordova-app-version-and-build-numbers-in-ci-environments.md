@@ -47,6 +47,8 @@ mv $WORKSPACE/MyApp/platforms/android/ant-build/MyApp.apk \
 
 However, what this doesn’t do is set the version or build number of the app itself (the thing that shows up in the App Store / Google Play, or which you may also want to show in your application).
 
+{% include coffee-cta.html %}
+
 In Cordova, these values are set in the app’s `config.xml` file as attributes of the `widget` element:
 
 ```

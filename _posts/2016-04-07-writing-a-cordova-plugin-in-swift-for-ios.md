@@ -106,6 +106,8 @@ Add the following to `plugin.xml` as a child of the `<plugin>` element:
 
 Note that because we’re using Swift, we only need one source file: `ModusEchoSwift.swift`. When working with Objective-C we would normally require at least one source (`.m`) file and one header (`.h`) file.
 
+{% include coffee-cta.html %}
+
 We now need to create `src/ios/ModusEchoSwift.swift` which should contain the following code to implement the plugin’s native `echo` method:
 
 ```

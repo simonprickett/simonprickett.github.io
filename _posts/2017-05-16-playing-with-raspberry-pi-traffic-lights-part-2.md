@@ -58,6 +58,8 @@ TRAFFIC_LIGHT_COUNTRY should be set to UK or USA
 
 The basic structure of the code remains unchanged from the [previous post]({{ site.baseurl }}/playing-with-raspberry-pi-traffic-lights): set up the GPIO pins, clean up on exit, sit in an infinite while loop that turns the lights on and off in a pattern with sleeps after each step.
 
+{% include coffee-cta.html %}
+
 We now check to see if there’s an environment variable called `TRAFFIC_LIGHT_COUNTRY` set, and if so that its’ value is one of `UK` or `USA`. If it is, the variable `pattern` is set to `uk` or `usa`. If it isn’t, we error and quit:
 
 ```python

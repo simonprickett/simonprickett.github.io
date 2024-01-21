@@ -17,6 +17,7 @@ permalink: "/redis-streams-workshop/"
                <li>Join the Redis Discord <a href="https://discord.gg/redis" target="_blank">here</a>.</li>
                <li>Check out my weekly "Things on Thursdays" live stream series where I work on Redis / Internet of Things projects that often use streams.  Read all about it and see past episodes <a href="https://simonprickett.dev/things-on-thursdays-livestreams/">here</a>.</li>
             </ul>
+            {% include coffee-cta.html %}
             <p>And here's a video version of the workshop for your enjoyment!</p>
             <div class="embed-responsive embed-responsive-16by9">
                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/q2UOkQmIo9Q" allowfullscreen></iframe>

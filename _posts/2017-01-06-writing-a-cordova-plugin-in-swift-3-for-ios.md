@@ -13,6 +13,8 @@ Since then Apple has continued to evolve the Swift language, releasing versions 
 
 The Cordova hybrid application developer can continue to make use of the excellent off the shelf device API plugins that the platform ecosystem provides, but often the need arises to write a plugin that is project specific. Whilst the core app code that Cordova’s CLI generates continues to use Objective-C, developers can now choose between Objective-C or Swift when crafting their own plugins.
 
+{% include coffee-cta.html %}
+
 Let’s take a look at what’s involved in replicating the “ModusEcho” plugin that we built using Objective-C in a [previous blog post](https://simonprickett.dev/plugin-authoring-for-ios-and-android-in-cordova-6/). This time, we’ll use Swift for the native code.
 
 To recap, this plugin borrows from the [“echo” example in the Cordova documentation](https://cordova.apache.org/docs/en/latest/guide/hybrid/plugins/index.html), and has two functions:

@@ -75,6 +75,8 @@ We're assuming here that the Feather is powered from a micro USB cable not from 
 
 We'll need the [Arduino IDE](https://www.arduino.cc/en/Main/Software)... I found on Mac OS Catalina I had to get the latest beta version to avoid issues compiling code later on.  This is related to the 64 bit nature of newer Mac OS releases.
 
+{% include coffee-cta.html %}
+
 ### Setup for the Arduino Uno
 
 There should be nothing more needed for the Arduino Uno... if you connect it to your maching using a USB A<->B cable and choose "Arduino Uno" as your board and the appropriate USB port as your port that's all you need to do.

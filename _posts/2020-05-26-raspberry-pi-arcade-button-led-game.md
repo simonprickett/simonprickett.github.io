@@ -22,6 +22,8 @@ After one Get on With It session, I had a truly pointless object... if you press
 
 I'd also learned that the red and green versions of these buttons don't work with a Pi as they really need 5v power, and Pi GPIO pins are 3.3v.  Blue and yellow buttons work well though - so I'll save the red and green ones for future Arduino projects.
 
+{% include coffee-cta.html %}
+
 During a subsequent weekend session, I decided to get the soldering iron out again and add a piezo buzzer and make some sort of game out of this.  The idea was it would be some sort of Russian Roulette type thing... pressing the arcade button would cause it to flash and if you were unlucky, the buzzer would sound and you'd be the loser.  Here's a second video I made with a code walkthrough showing how that worked:
 
 <div class="embed-responsive embed-responsive-16by9">

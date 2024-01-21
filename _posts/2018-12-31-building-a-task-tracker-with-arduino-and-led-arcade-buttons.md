@@ -9,9 +9,11 @@ tags: [featured]
 Sorta like Simone’s, but smaller! One of my favorite [Youtube channels](https://www.youtube.com/channel/UC3KEoMzNz8eYnwBC34RaKCQ) is Simone Giertz’s — she documents her attempts to build robotic helpers to assist with everyday tasks. Part of the point of the channel is that these often fail to perform as intended but fun and learning comes from the building process. If you want to hear more from Simone about why you should build useless things then I’d suggest 
 [watching her TED Talk](https://www.ted.com/talks/simone_giertz_why_you_should_make_useless_things?language=en) on the subject.
 
-Anyway, Simone recently launched a [Kickstarter campaign](https://www.kickstarter.com/projects/simonegiertz/the-every-day-calendar) to fund the building of a yearly task tracker board with 365 buttons — press one each day that you complete a task you’ve set yourself, hopefully forming good habits from doing so. You could use it for example to track a daily exercise goal. Update, December 2022... you can now buy Simone's finished product [direct from her online store](https://yetch.store/products/every-day-goal-calendar) - shipping is to the USA only however.
+Anyway, Simone recently launched a [Kickstarter campaign](https://www.kickstarter.com/projects/simonegiertz/the-every-day-calendar) to fund the building of a yearly task tracker board with 365 buttons — press one each day that you complete a task you’ve set yourself, hopefully forming good habits from doing so. You could use it for example to track a daily exercise goal. Update, December 2022... you can now buy Simone's finished product [direct from her online store](https://yetch.store/products/every-day-goal-calendar) - this was initially only for sale to the USA, but now has international shipping as of late 2023!
 
-I really liked this idea, and it got me thinking about building something like it on a smaller scale for my younger son who is seven years old. Rather than tracking a whole year’s worth of progress, I figured a week would be a suitable period and set about planning a build…
+I really liked this idea, and it got me thinking about building something like it on a smaller scale for my younger son who is seven years old. Rather than tracking a whole year’s worth of progress, I figured a week would be a suitable period and set about planning a build...
+
+{% include coffee-cta.html %}
 
 Before diving into the build details let’s take a quick look at the finished product:
 

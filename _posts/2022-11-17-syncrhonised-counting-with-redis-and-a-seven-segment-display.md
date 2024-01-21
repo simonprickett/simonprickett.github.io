@@ -4,7 +4,7 @@ title:  "Synchronised Counting with Redis and a Seven Segment Display"
 categories: [ IoT, Coding, Raspberry Pi, Python, JavaScript, Redis ]
 image: assets/images/redis_counting_main.png
 author: simon
-tags: [sticky]
+tags: [featured]
 ---
 Counting things seems relatively easy, until it isn't!  In this project, I used Redis to maintain a central count that was displayed on and could be updated from a range of different interfaces.  Each interface needed to stay in sync at all times - an update to the count from any interface should update the value of the count shown on that interface and all others at the same time.
 
@@ -16,6 +16,8 @@ For this I used Redis keyspace notifications and built a web interface plus a ph
 </figure>
 
 This was the fourth project in my [Things on Thursdays IoT live streaming series](/things-on-thursdays-livestreams/).  
+
+{% include coffee-cta.html %}
 
 In this two week project I demonstrated how to count things using Redis, then synchronise multiple devices to display the current count.  In the first week, I looked at doing this for a web interface with Node.js and Express:
 

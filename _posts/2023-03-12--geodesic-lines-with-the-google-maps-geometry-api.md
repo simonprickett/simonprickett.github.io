@@ -27,6 +27,8 @@ Notice how these maps a curved line to representing the route between two airpor
 
 The Google Maps API makes it very easy to plot these routes on a map as we'll see here.
 
+{% include coffee-cta.html %}
+
 ## Route Map Data
 
 This seemed like the perfect data source to try out the geodesic lines feature with, so I made a JSON file containing data about all of the airports I've visited, and the flights I've taken between them.  The format of the file looks like this:

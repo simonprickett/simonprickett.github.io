@@ -31,6 +31,8 @@ The overall flow looks roughly like this:
 
 For this example, we’re going to use an AWS Lambda function for our Custom Skill logic, and we’ll implement that logic in Python. This saves us the overhead of setting up our own server to host and run the skill, avoids the requirement to obtain an SSL certificate for our server, and allows us to benefit from the auto scaling features of AWS Lambda should our skill become popular and receive a lot of traffic from Echo owners. Python is an arbitrary choice here, we could also have chosen Java or JavaScript (Node.js).
 
+{% include coffee-cta.html %}
+
 First, let’s look at configuring the Alexa service, which is handled within the Amazon Developer portal.
 
 ## Alexa Service Setup

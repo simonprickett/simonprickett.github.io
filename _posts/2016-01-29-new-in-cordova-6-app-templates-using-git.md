@@ -11,6 +11,8 @@ author: simon
 
 The ability to use a git URL or npm as the source for template applications should make sharing sample applications much easier. It could also be used, for example, to have a best practices boilerplate app that an organization can use as a start point, or for training purposes to keep copies of a demo app at different stages of development.
 
+{% include coffee-cta.html %}
+
 Let’s take a look at how to make and use a couple of template applications using a Github repo with branches as our repository.
 
 ## Creating a Template Cordova Application Git Repo

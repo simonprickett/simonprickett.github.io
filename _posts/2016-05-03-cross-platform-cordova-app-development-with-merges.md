@@ -17,6 +17,8 @@ The Cordova CLI provides an often overlooked mechanism to help here, called [mer
 
 Let’s take a look at how this works, by modifying the Cordova boilerplate / “Hello World” app to specialize it for different platforms.
 
+{% include coffee-cta.html %}
+
 For this example, we’ll be using Cordova 6 on a Mac with the latest Xcode and Android SDKs installed. If you want to follow along and need to set these up on your machine, the [Cordova documentation](https://cordova.apache.org/docs/en/latest/guide/cli/index.html) has excellent instructions for this.
 
 ## Creating a Boilerplate Cordova App

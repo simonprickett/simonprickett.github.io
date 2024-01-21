@@ -23,6 +23,8 @@ The emitter and receiver work together so that when something passes between the
 
 These sensors are pretty cheap, I got mine from Adafruit ([product page here](https://www.adafruit.com/product/2167)) for a couple of Dollars each.  They sell them in various sizes - basically the bigger the size, the further apart you can place them and still expect them to work.  I'd imagine that the larger ones also really do need 5v power rather than 3.3v, but I haven't tried them.
 
+{% include coffee-cta.html %}
+
 I'm going to use several of these sensors in a larger project in the future.  For this post I'll just run through how to wire one up to a Pi and how to write a basic Python script that fires events whenever the sensor state changes.
 
 ## Wiring

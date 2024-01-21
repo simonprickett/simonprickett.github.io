@@ -15,6 +15,8 @@ You can watch the video here, the article that follows is a transcript of the ta
 
 I also recently did an extended version of this talk for the Developers BR Meetup group in Brazil.  Scroll down to the bottom of the page to see that version.
 
+{% include coffee-cta.html %}
+
 My slides are available as a PDF document [here](/no_maybe_and_close_enough_slides.pdf).  If you'd like to try this out for yourself, [get my code from Github](https://github.com/simonprickett/python-probabilistic-data-structures).
 
 ---

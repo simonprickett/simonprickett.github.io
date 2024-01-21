@@ -45,6 +45,8 @@ This gets us a generic Cordova boilerplate application that simply responds to t
 
 Let’s update the boilerplate app that the Cordova CLI created for us, and change that “Device is Ready” message to something more interesting. Suppose we want to display the current value of the Euro in US Dollars.
 
+{% include coffee-cta.html %}
+
 Fixer.io provides a really simple JSON API for this, that can be called with a straightforward GET request to:
 
 ```

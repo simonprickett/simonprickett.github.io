@@ -13,6 +13,8 @@ A while back I was looking for a mosaic type project to decorate my workspace (w
 
 Getting hold of the required 256 3.5" floppy disks (remember those, from when we used to ship software on physical media?) turned out to be pretty easy and cheap thanks to eBay. I bought a box of new, but non-working black colored disks (all of which had duplication or read errors — kept the cost down as they were essentially junk).
 
+{% include coffee-cta.html %}
+
 Buying "new" meant not having to remove labels from all the disks as they had never had these attached — I would imagine soaking labels off older disks in water would work but might take some time and get tedious pretty quickly.
 
 As I tend to be better at buying things I need to undertake a project than I am at actually doing the project, the disks sat around for a while. Some of them eventually got used in a smaller Space Invader mosaic, again to break up large expanses of blank wall in my workspace.

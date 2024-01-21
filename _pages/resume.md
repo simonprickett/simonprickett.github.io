@@ -4,7 +4,7 @@ permalink: "/resume/"
 ---
 <h2>Summary</h2>
 <p>I am a skilled Developer Relations practitioner with over 25 years of technical training, software architecture, team and product management and software development experience.</p>
-<p>Currently working as the Principal Developer Advocate for <a href="https://redis.com" target="_blank">Redis</a>, I enjoy technical storytelling through coding, writing and presenting: both on video and in person.  My role also means I am amongst the first developers to use our products - using my application development expertise to help shape and fine-tune the developer experience.</p>
+<p>My most recent employment was as the Principal Developer Advocate for <a href="https://redis.com" target="_blank">Redis</a>, where I enjoyed technical storytelling through coding, writing and presenting: both on video and in person.  My role also meant I was amongst the first developers to use Redis products - using my application development expertise to help shape and fine-tune the developer experience.</p>
 <p>I regularly create software and hardware projects, and write and publish videos about them on my personal website at <a href="https://simonprickett.dev" target="_blank">https://simonprickett.dev</a>.  I am particularly interested in APIs and the Internet of Things.</p>
 <p>You'll also find my coding projects on GitHub at <a href="https://github.com/simonprickett" target="_blank">https://github.com/simonprickett</a>.  My work has been featured in the Arduino, Adafruit and Cloudflare blogs as well as The MagPi - Raspberry Pi's official magazine.</p>
 <hr/>
@@ -24,10 +24,10 @@ permalink: "/resume/"
 <hr/>
 <h2>Work Experience</h2>
 <h4>Principal Developer Advocate</h4>
-<p><strong><a href="http://redis.com" target="_blank">Redis</a> | 2021-present | San Diego California USA and Nottingham England (Fully Remote)</strong></p>
+<p><strong><a href="http://redis.com" target="_blank">Redis</a> | 2021-Nov 2023 | San Diego California USA and Nottingham England (Fully Remote)</strong></p>
 <p>Redis is the company that develops the popular open source <a href="https://redis.io/" target="_blank">Redis</a> database and provides a cloud hosting platform for Redis Enterprise.  Redis is used by millions of developers as a cache, streaming engine and database.</p>
 <ul>
-    <li> I am responsible for delivering high quality technical content, telling the story of Redis through the medium of video, well-documented example repositories on GitHub, blogging, and speaking at conferences and to meetup groups and customers.  Examples of my work:</li>
+    <li> I was responsible for delivering high quality technical content, telling the story of Redis through the medium of video, well-documented example repositories on GitHub, blogging, and speaking and delivering workshops at conferences and to meetup groups and customers.  Examples of my work:</li>
     <ul>
         <li>A 2 hour workshop for a Redis Days online event targeting the Indian market. Video with GitHub repository linked in the description: <a href="https://www.youtube.com/watch?v=e4A_k-hFIa4" target="_blank">https://www.youtube.com/watch?v=e4A_k-hFIa4</a>.</li>
         <li>A complete set of resources for a Redis Streams workshop that can be run entirely in the cloud and was delivered at Pycon MEA 2022 in Dubai: <a href="https://simonprickett.dev/redis-streams-workshop/" target="_blank">https://simonprickett.dev/redis-streams-workshop/</a>.</li>
@@ -49,7 +49,7 @@ permalink: "/resume/"
     </ul>
     <li>Acted as Developer Advocacy Manager for a nine-month period, managing a team of four developer advocates.</li>
     <li>Acted as interim maintainer and developer advocate for the open source Redis OM Python client, writing code, merging community pull requests and giving talks and demonstrations of the client at meetups and on the Redis Twitch and YouTube channels.  Example video: <a href="https://www.youtube.com/watch?v=gi6jugJsKS4" target="_blank">https://www.youtube.com/watch?v=gi6jugJsKS4</a></li>
-    <li>I lead the operation and development of Redis University - providing ten continuously available online courses and a certification exam to thousands of students with support in Discord, creating new courses and amending existing offerings.  I am currently developing a new course covering probabilistic data structures.</li>
+    <li>I led the operation and development of Redis University - providing ten continuously available online courses and a certification exam to thousands of students with support in Discord, creating new courses and amending existing offerings.</li>
     <li>Reviewed and edited code, blog posts, presentations and conference talks for other developer advocates on the team.</li>
     <li>Worked with our Developer Community Manager to secure and deliver collaborations with developer relations teams at other tech companies.</li>
     <li>Regular code, documentation and example code contributor to multiple Redis projects including the Node Redis client, RediSearch, the Redis OM clients and the official Redis and Redis Enterprise documentation.</li>

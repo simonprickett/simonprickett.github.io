@@ -24,6 +24,8 @@ I've also been meaning to write this post for some time, as I made a video versi
 
 Node RED is a "low code" programming environment for event driven applications.  Rather than writing all of your logic in a series of source files before running them through a compiler or interpreter, you build a Node RED application as a flowchart of connected "nodes".  Built on top of the Node.js runtime, Node RED provides a graphical environment to build these flows in the browser.  Some nodes in the flow have a fixed purpose, others can be configured using property forms, and you can also write regular JavaScript / Node.js logic to implement a node's behavior. Nodes pass data between them as JSON messages.
 
+{% include coffee-cta.html %}
+
 You can use Node RED on a regular computer, but I wanted to try it on the Raspberry Pi to see what it offers for developing applications that use the Pi's GPIO pins.  
 
 ## Project Overview

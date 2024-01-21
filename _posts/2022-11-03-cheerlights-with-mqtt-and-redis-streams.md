@@ -16,6 +16,8 @@ I decided to write my own small CheerLights display using the Pimoroni Unicorn H
 
 This was the third project in my [Things on Thursdays IoT live streaming series](/things-on-thursdays-livestreams/).  
 
+{% include coffee-cta.html %}
+
 In this project, I showed how to show and track the current CheerLights colour on a Pimoroni Unicorn Hat connected to a Raspberry Pi.  I subscribed to a topic on the CheerLights MQTT server, put the latest colour into a Redis Stream and consumed it on the Pi.  The code is all in Python.
 
 <div class="embed-responsive embed-responsive-16by9">
