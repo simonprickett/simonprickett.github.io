@@ -7,6 +7,14 @@ author: simon
 ---
 TODO this will need to be the initial introduction and all that stuff and we'll probably want to have a GIF or make a video about this project so people can see it, as well as link to the live version.
 
+Play the game links:
+
+* [Nottingham Express Transit Trams](https://tramgame.simonprickett.dev/)
+* [Glasgow Subway](https://glasubgame.simonprickett.dev/)
+* [Edinburgh Trams](https://edtramgame.simonprickett.dev/)
+* [Austin MetoRail](https://austingame.simonprickett.dev/)
+* [Bay Area Rapid Transit (BART)](https://bartgame.simonprickett.dev/)
+
 TODO this is what a video would look like..
 
 <div class="embed-responsive embed-responsive-16by9">
@@ -38,8 +46,8 @@ Here's some more text and an image carousel.
     </div>
     <div>
         <figure class="figure" style="width:100%;">
-        <img src="{{ site.baseurl }}/assets/images/lightrail_austin_map.png" class="figure-img img-fluid" style="margin:auto;" alt="Map for the austin MetroRail game.">
-        <figcaption class="figure-caption text-center">Map for the austin MetroRail game.</figcaption>
+        <img src="{{ site.baseurl }}/assets/images/lightrail_austin_map.png" class="figure-img img-fluid" style="margin:auto;" alt="Map for the Austin MetroRail game.">
+        <figcaption class="figure-caption text-center">Map for the Austin MetroRail game.</figcaption>
         </figure>
     </div>
     <div>
