@@ -13,34 +13,41 @@ TODO this is what a video would look like..
   <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/xRejaScBBcU?si=UVZegorOGzDUBo35" allowfullscreen></iframe>
 </div><br/>
 
+{% include coffee-cta.html %}
+
 Here's some more text and an image carousel.
 
 <div class="slick-carousel">
     <div>
-        <figure class="figure">
-        <img src="{{ site.baseurl }}/assets/images/carbonintensity_north_scotland.jpg" class="figure-img img-fluid" alt="Windy and green in North Scotland.">
-        <figcaption class="figure-caption text-center">Windy and green in North Scotland.</figcaption>
+        <figure class="figure" style="width:100%;">
+        <img src="{{ site.baseurl }}/assets/images/lightrail_sfbay_map.png" class="figure-img img-fluid" style="margin:auto;" alt="Map for the Bay Area Rapid Transit (BART) game.">
+        <figcaption class="figure-caption text-center">Map for the Bay Area Rapid Transit (BART) game.</figcaption>
         </figure>
     </div>
     <div>
-        <figure class="figure">
-        <img src="{{ site.baseurl }}/assets/images/carbonintensity_north_wales.jpg" class="figure-img img-fluid" alt="Nuclear, gas and Wind mix in North Wales - slightly less green.">
-        <figcaption class="figure-caption text-center">Nuclear, gas and Wind mix in North Wales - slightly less green.</figcaption>
+        <figure class="figure" style="width:100%;">
+        <img src="{{ site.baseurl }}/assets/images/lightrail_glasgow_map.png" class="figure-img img-fluid" style="margin:auto;" alt="Map for the Glasgow Subway game.">
+        <figcaption class="figure-caption text-center">Map for the Glasgow Subway game.</figcaption>
         </figure>
     </div>
     <div>
-        <figure class="figure">
-        <img src="{{ site.baseurl }}/assets/images/carbonintensity_east_england.jpg" class="figure-img img-fluid" alt="Gas and Nuclear in East England - orange, starting to get concerning!">
-        <figcaption class="figure-caption text-center">Gas and Nuclear in East England - orange, starting to get concerning!</figcaption>
+        <figure class="figure" style="width:100%;">
+        <img src="{{ site.baseurl }}/assets/images/lightrail_nottingham_map.png" class="figure-img img-fluid" style="margin:auto;" alt="Map for the Nottingham Express Transit game.">
+        <figcaption class="figure-caption text-center">Map for the Nottingham Express Transit game.</figcaption>
         </figure>
     </div>
     <div>
-        <figure class="figure">
-        <img src="{{ site.baseurl }}/assets/images/carbonintensity_south_wales.jpg" class="figure-img img-fluid" alt="Red alert in South Wales - nearly all gas.">
-        <figcaption class="figure-caption text-center">Red alert in South Wales - nearly all gas.</figcaption>
+        <figure class="figure" style="width:100%;">
+        <img src="{{ site.baseurl }}/assets/images/lightrail_austin_map.png" class="figure-img img-fluid" style="margin:auto;" alt="Map for the austin MetroRail game.">
+        <figcaption class="figure-caption text-center">Map for the austin MetroRail game.</figcaption>
         </figure>
     </div>
-
+    <div>
+        <figure class="figure" style="width:100%;">
+        <img src="{{ site.baseurl }}/assets/images/lightrail_edinburgh_map.png" class="figure-img img-fluid" style="margin:auto;" alt="Map for the Edinburgh Tram game.">
+        <figcaption class="figure-caption text-center">Map for the Edinburgh Tram game.</figcaption>
+        </figure>
+    </div>
 </div>
 
 And here's a single still picture:
