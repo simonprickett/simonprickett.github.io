@@ -17,9 +17,10 @@ permalink: "/readinglist/"
             <p>Support your local library - I've read most of these books thanks to <a href="https://www.nottinghamcitylibraries.co.uk/" target="_blank">Nottingham City Libraries</a>.</p>
             <p>I'm also always looking out for book suggestions - <a href="/contact">get in touch</a> if you have ideas!</p>
             <hr/>
-            <p><i>Last Updated: January 28th 2024.</i></p>
+            <p><i>Last Updated: January 29th 2024.</i></p>
             <hr/>
             <ol> 
+              <li><a href="https://www.goodreads.com/book/show/134116823-black-boys-like-me" target="_blank"><b>Black Boys Like Me: Confrontations with Race, Identity, and Belonging</b> - <i>Matthew R. Morris</i></a></li> 
               <li><a href="https://www.goodreads.com/book/show/67228173-weirdo" target="_blank"><b>Weirdo</b> - <i>Sara Pascoe</i></a></li>  
               <li><a href="https://www.goodreads.com/book/show/60528635-the-hostage" target="_blank"><b>The Hostage</b> - <i>A.F. Carter</i></a></li>  
               <li><a href="https://www.goodreads.com/book/show/353679.Foot_of_Clive" target="_blank"><b>The Foot of Clive</b> - <i>John Berger</i></a></li>  
@@ -28,8 +29,7 @@ permalink: "/readinglist/"
               <li><a href="https://www.goodreads.com/book/show/6546549-we-can-t-all-be-astronauts" target="_blank"><b>We Can't All Be Astronauts</b> - <i>Tim Clare</i></a></li> 
               <li><a href="https://www.goodreads.com/book/show/63885982-cheri" target="_blank"><b>Cheri</b> - <i>Jo Ann Beard</i></a></li>   
               <li><a href="https://www.goodreads.com/book/show/52741293-shuggie-bain" target="_blank"><b>Shuggie Bain</b> - <i>Douglas Stuart</i></a></li>
-              <li><a href="https://www.goodreads.com/en/book/show/62918267" target="_blank"><b>Three Fires</b> - <i>Denise Mina</i></a></li>  
-              <li><a href="https://www.goodreads.com/book/show/6996514-hunger" target="_blank"><b>Hunger: A Novella and Stories</b> - <i>Lan Samantha Chang</i></a></li>  
+              <li><a href="https://www.goodreads.com/en/book/show/62918267" target="_blank"><b>Three Fires</b> - <i>Denise Mina</i></a></li>   
             </ol>
             <hr/>
             <p><i>Photo by <a href="https://www.pexels.com/photo/books-on-wooden-shelves-inside-library-2908984/" target="_blank">Stanislav Kondratiev</a> on Pexels.</i></p>
