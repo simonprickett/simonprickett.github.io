@@ -17,9 +17,10 @@ permalink: "/readinglist/"
             <p>Support your local library - I've read most of these books thanks to <a href="https://www.nottinghamcitylibraries.co.uk/" target="_blank">Nottingham City Libraries</a>.</p>
             <p>I'm also always looking out for book suggestions - <a href="/contact">get in touch</a> if you have ideas!</p>
             <hr/>
-            <p><i>Last Updated: February 3rd 2024.</i></p>
+            <p><i>Last Updated: February 8th 2024.</i></p>
             <hr/>
             <ol> 
+              <li><a href="https://www.goodreads.com/book/show/76171.We" target="_blank"><b>We</b> - <i>Yevgeny Zamyatin</i></a></li> 
               <li><a href="https://www.goodreads.com/en/book/show/61439654" target="_blank"><b>We Come With This Place</b> - <i>Debra Dank</i></a></li>   
               <li><a href="https://www.goodreads.com/book/show/122782866-fans" target="_blank"><b>Fans: A Journey Into the Psychology of Belonging</b> - <i>Michael Bond</i></a></li>
               <li><a href="https://www.goodreads.com/book/show/63216160-burning-angel-and-other-stories" target="_blank"><b>Burning Angel and Other Stories</b> - <i>Lawrence Osborne</i></a></li>   
@@ -29,7 +30,6 @@ permalink: "/readinglist/"
               <li><a href="https://www.goodreads.com/book/show/353679.Foot_of_Clive" target="_blank"><b>The Foot of Clive</b> - <i>John Berger</i></a></li>  
               <li><a href="https://www.goodreads.com/book/show/122494787-boomtown" target="_blank"><b>Boomtown</b> - <i>A.F. Carter</i></a></li>    
               <li><a href="https://www.goodreads.com/en/book/show/202484357" target="_blank"><b>The Roadmap of Loss</b> - <i>Liam Murphy</i></a></li>  
-              <li><a href="https://www.goodreads.com/book/show/6546549-we-can-t-all-be-astronauts" target="_blank"><b>We Can't All Be Astronauts</b> - <i>Tim Clare</i></a></li> 
             </ol>
             <hr/>
             <p><i>Photo by <a href="https://www.pexels.com/photo/books-on-wooden-shelves-inside-library-2908984/" target="_blank">Stanislav Kondratiev</a> on Pexels.</i></p>
