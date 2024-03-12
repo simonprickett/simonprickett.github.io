@@ -17,9 +17,11 @@ permalink: "/readinglist/"
             <p>Support your local library - I've read most of these books thanks to <a href="https://www.nottinghamcitylibraries.co.uk/" target="_blank">Nottingham City Libraries</a>.</p>
             <p>I'm also always looking out for book suggestions - <a href="/contact">get in touch</a> if you have ideas!</p>
             <hr/>
-            <p><i>Last Updated: March 9th 2024.</i></p>
+            <p><i>Last Updated: March 12th 2024.</i></p>
             <hr/>
             <ol> 
+              <li><a href="https://www.goodreads.com/book/show/43317482-in-the-dream-house" target="_blank"><b>In the Dream House</b> - <i>Carmen Maria Machado</i></a></li> 
+              <li><a href="https://www.goodreads.com/book/show/60003006-hex" target="_blank"><b>Hex</b> - <i>Jenni Fagan</i></a></li> 
               <li><a href="https://www.goodreads.com/book/show/2421373.Hellish_Nell" target="_blank"><b>Hellish Nell: Last of Britain's Witches</b> - <i>Malcolm Gaskill</i></a></li>
               <li><a href="https://www.goodreads.com/book/show/123025358-anam" target="_blank"><b>Anam</b> - <i>André Dao</i></a></li>   
               <li><a href="https://www.goodreads.com/book/show/202125211-cocaine-cowboys" target="_blank"><b>Cocaine Cowboys</b> - <i>Nicola Tallant</i></a></li> 
@@ -28,8 +30,6 @@ permalink: "/readinglist/"
               <li><a href="https://www.goodreads.com/book/show/182867414-jaq" target="_blank"><b>Jaq: A Top Boy Story</b> - <i>Ronan Bennett</i></a></li>  
               <li><a href="https://www.goodreads.com/book/show/201338866-sterile-sky" target="_blank"><b>Sterile Sky</b> - <i>E. E. Sule</i></a></li>    
               <li><a href="https://www.goodreads.com/book/show/60001558-the-sister" target="_blank"><b>The Sister: The Extraordinary Story of Kim Yo Jong, The Most Powerful Woman in North Korea</b> - <i>Sung-Yoon Lee</i></a></li>  
-              <li><a href="https://www.goodreads.com/book/show/76171.We" target="_blank"><b>We</b> - <i>Yevgeny Zamyatin</i></a></li> 
-              <li><a href="https://www.goodreads.com/en/book/show/61439654" target="_blank"><b>We Come With This Place</b> - <i>Debra Dank</i></a></li>   
             </ol>
             <hr/>
             <p><i>Photo by <a href="https://www.pexels.com/photo/books-on-wooden-shelves-inside-library-2908984/" target="_blank">Stanislav Kondratiev</a> on Pexels.</i></p>
