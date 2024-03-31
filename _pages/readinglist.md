@@ -17,9 +17,10 @@ permalink: "/readinglist/"
             <p>Support your local library - I've read most of these books thanks to <a href="https://www.nottinghamcitylibraries.co.uk/" target="_blank">Nottingham City Libraries</a>.</p>
             <p>I'm also always looking out for book suggestions - <a href="/contact">get in touch</a> if you have ideas!</p>
             <hr/>
-            <p><i>Last Updated: March 24th 2024.</i></p>
+            <p><i>Last Updated: March 31st 2024.</i></p>
             <hr/>
             <ol> 
+              <li><a href="https://www.goodreads.com/book/show/61387972-sea-change" target="_blank"><b>Sea Change</b> - <i>Gina Chung</i></a></li> 
               <li><a href="https://www.goodreads.com/book/show/6452798-command-and-control" target="_blank"><b>Command and Control: Nuclear Weapons, the Damascus Accident, and the Illusion of Safety</b> - <i>Eric Schlosser</i></a></li>  
               <li><a href="https://www.goodreads.com/book/show/43317482-in-the-dream-house" target="_blank"><b>In the Dream House</b> - <i>Carmen Maria Machado</i></a></li> 
               <li><a href="https://www.goodreads.com/book/show/60003006-hex" target="_blank"><b>Hex</b> - <i>Jenni Fagan</i></a></li> 
@@ -28,8 +29,7 @@ permalink: "/readinglist/"
               <li><a href="https://www.goodreads.com/book/show/202125211-cocaine-cowboys" target="_blank"><b>Cocaine Cowboys</b> - <i>Nicola Tallant</i></a></li> 
               <li><a href="https://www.goodreads.com/book/show/56185905-killing-jericho" target="_blank"><b>Killing Jericho</b> - <i>Will Harker</i></a></li>  
               <li><a href="https://www.goodreads.com/book/show/60151826-i-m-a-fan" target="_blank"><b>I'm a Fan</b> - <i>Sheena Patel</i></a></li>  
-              <li><a href="https://www.goodreads.com/book/show/182867414-jaq" target="_blank"><b>Jaq: A Top Boy Story</b> - <i>Ronan Bennett</i></a></li>  
-              <li><a href="https://www.goodreads.com/book/show/201338866-sterile-sky" target="_blank"><b>Sterile Sky</b> - <i>E. E. Sule</i></a></li>    
+              <li><a href="https://www.goodreads.com/book/show/182867414-jaq" target="_blank"><b>Jaq: A Top Boy Story</b> - <i>Ronan Bennett</i></a></li>     
             </ol>
             <hr/>
             <p><i>Photo by <a href="https://www.pexels.com/photo/books-on-wooden-shelves-inside-library-2908984/" target="_blank">Stanislav Kondratiev</a> on Pexels.</i></p>
