@@ -17,9 +17,11 @@ permalink: "/readinglist/"
             <p>Support your local library - I've read most of these books thanks to <a href="https://www.nottinghamcitylibraries.co.uk/" target="_blank">Nottingham City Libraries</a>.</p>
             <p>I'm also always looking out for book suggestions - <a href="/contact">get in touch</a> if you have ideas!</p>
             <hr/>
-            <p><i>Last Updated: April 11th 2024.</i></p>
+            <p><i>Last Updated: April 20th 2024.</i></p>
             <hr/>
             <ol> 
+              <li><a href="https://www.goodreads.com/book/show/136357007-jericho-s-dead" target="_blank"><b>Jericho's Dead</b> - <i>William Hussey</i></a></li>     
+              <li><a href="https://www.goodreads.com/book/show/121472993-black-ghosts" target="_blank"><b>Black Ghosts: A Journey Into the Lives of Africans in China</b> - <i>Noo Saro-Wiwa</i></a></li>     
               <li><a href="https://www.goodreads.com/en/book/show/62802741" target="_blank"><b>Wifedom: Mrs. Orwell's Invisible Life</b> - <i>Anna Funder</i></a></li>  
               <li><a href="https://www.goodreads.com/book/show/61387972-sea-change" target="_blank"><b>Sea Change</b> - <i>Gina Chung</i></a></li> 
               <li><a href="https://www.goodreads.com/book/show/6452798-command-and-control" target="_blank"><b>Command and Control: Nuclear Weapons, the Damascus Accident, and the Illusion of Safety</b> - <i>Eric Schlosser</i></a></li>  
@@ -28,8 +30,6 @@ permalink: "/readinglist/"
               <li><a href="https://www.goodreads.com/book/show/2421373.Hellish_Nell" target="_blank"><b>Hellish Nell: Last of Britain's Witches</b> - <i>Malcolm Gaskill</i></a></li>
               <li><a href="https://www.goodreads.com/book/show/123025358-anam" target="_blank"><b>Anam</b> - <i>André Dao</i></a></li>   
               <li><a href="https://www.goodreads.com/book/show/202125211-cocaine-cowboys" target="_blank"><b>Cocaine Cowboys</b> - <i>Nicola Tallant</i></a></li> 
-              <li><a href="https://www.goodreads.com/book/show/56185905-killing-jericho" target="_blank"><b>Killing Jericho</b> - <i>Will Harker</i></a></li>  
-              <li><a href="https://www.goodreads.com/book/show/60151826-i-m-a-fan" target="_blank"><b>I'm a Fan</b> - <i>Sheena Patel</i></a></li>     
             </ol>
             <hr/>
             <p><i>Photo by <a href="https://www.pexels.com/photo/books-on-wooden-shelves-inside-library-2908984/" target="_blank">Stanislav Kondratiev</a> on Pexels.</i></p>
