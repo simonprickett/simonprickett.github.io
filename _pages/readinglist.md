@@ -17,9 +17,10 @@ permalink: "/readinglist/"
             <p>Support your local library - I've read most of these books thanks to <a href="https://www.nottinghamcitylibraries.co.uk/" target="_blank">Nottingham City Libraries</a>.</p>
             <p>I'm also always looking out for book suggestions - <a href="/contact">get in touch</a> if you have ideas!</p>
             <hr/>
-            <p><i>Last Updated: September 1st 2024.</i></p>
+            <p><i>Last Updated: September 2nd 2024.</i></p>
             <hr/>
             <ol>
+              <li><a href="https://www.goodreads.com/book/show/195083767-the-glass-box" target="_blank"><b>The Glass Box</b> - <i>J. Michael Straczynski</i></a></li>  
               <li><a href="https://www.goodreads.com/book/show/101145361-the-hive-and-the-honey" target="_blank"><b>The Hive and the Honey: Stories</b> - <i>Paul Yoon</i></a></li>  
               <li><a href="https://www.goodreads.com/book/show/63946932-excavations" target="_blank"><b>Excavations</b> - <i>Hannah Michell</i></a></li> 
               <li><a href="https://www.goodreads.com/book/show/55919294-ramadan-ramsey" target="_blank"><b>Ramadan Ramsey</b> - <i>Louis Edwards</i></a></li> 
@@ -28,8 +29,7 @@ permalink: "/readinglist/"
               <li><a href="https://www.goodreads.com/book/show/61884813-the-first-bright-thing" target="_blank"><b>The First Bright Thing</b> - <i>J.R. Dawson</i></a></li>  
               <li><a href="https://www.goodreads.com/book/show/199798785-challenger" target="_blank"><b>Challenger: A True Story of Heroism and Disaster on the Edge of Space</b> - <i>Adam Higginbotham</i></a></li> 
               <li><a href="https://www.goodreads.com/book/show/1648317.Iced" target="_blank"><b>Iced</b> - <i>Ray Shell</i></a></li>  
-              <li><a href="https://www.goodreads.com/book/show/35280682-top-dogg" target="_blank"><b>Top Dog</b> - <i>Jens Lapidus</i></a></li>  
-              <li><a href="https://www.goodreads.com/book/show/192793483-the-invisible-hotel" target="_blank"><b>The Invisible Hotel</b> - <i>Yeji Y. Ham</i></a></li>    
+              <li><a href="https://www.goodreads.com/book/show/35280682-top-dogg" target="_blank"><b>Top Dog</b> - <i>Jens Lapidus</i></a></li>    
             </ol>
             <hr/>
             <p><i>Photo by <a href="https://www.pexels.com/photo/books-on-wooden-shelves-inside-library-2908984/" target="_blank">Stanislav Kondratiev</a> on Pexels.</i></p>
