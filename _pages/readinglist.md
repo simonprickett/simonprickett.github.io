@@ -17,9 +17,10 @@ permalink: "/readinglist/"
             <p>Support your local library - I've read most of these books thanks to <a href="https://www.nottinghamcitylibraries.co.uk/" target="_blank">Nottingham City Libraries</a>.</p>
             <p>I'm also always looking out for book suggestions - <a href="/contact">get in touch</a> if you have ideas!</p>
             <hr/>
-            <p><i>Last Updated: October 17th 2024.</i></p>
+            <p><i>Last Updated: October 30th 2024.</i></p>
             <hr/>
             <ol>
+              <li><a href="https://www.goodreads.com/book/show/211166248-the-heat-and-the-fury" target="_blank"><b>The Heat and the Fury: On the Frontlines of Climate Violence</b> - <i>Peter Schwartzstein</i></a></li>  
               <li><a href="https://www.goodreads.com/book/show/198123559-i-will-ruin-you" target="_blank"><b>I Will Ruin You</b> - <i>Linwood Barclay</i></a></li>  
               <li><a href="https://www.goodreads.com/book/show/61419657-carmen-and-grace" target="_blank"><b>Carmen and Grace</b> - <i>Melissa Coss Aquino</i></a></li>  
               <li><a href="https://www.goodreads.com/book/show/123151793-this-plague-of-souls" target="_blank"><b>This Plague of Souls</b> - <i>Mike McCormack</i></a></li>              
@@ -29,7 +30,6 @@ permalink: "/readinglist/"
               <li><a href="https://www.goodreads.com/book/show/86508927-julia" target="_blank"><b>Julia</b> - <i>Sandra Newman</i></a></li> 
               <li><a href="https://www.goodreads.com/book/show/14185.The_Three_Stigmata_of_Palmer_Eldritch" target="_blank"><b>The Three Stigmata of Palmer Eldritch</b> - <i>Philip K. Dick</i></a></li>  
               <li><a href="https://www.goodreads.com/book/show/182733784-nuclear-war" target="_blank"><b>Nuclear War: A Scenario</b> - <i>Annie Jacobsen</i></a></li>  
-              <li><a href="https://www.goodreads.com/book/show/62919434-pulling-the-chariot-of-the-sun" target="_blank"><b>Pulling the Chariot of the Sun</b> - <i>Shane McCrae</i></a></li>  
             </ol>
             <hr/>
             <p><i>Photo by <a href="https://www.pexels.com/photo/books-on-wooden-shelves-inside-library-2908984/" target="_blank">Stanislav Kondratiev</a> on Pexels.</i></p>
