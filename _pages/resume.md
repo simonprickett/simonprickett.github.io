@@ -4,7 +4,8 @@ permalink: "/resume/"
 ---
 <h2>Summary</h2>
 <p>I am a skilled Developer Relations practitioner with over 25 years of technical training, software architecture, team and product management and software development experience.</p>
-<p>My most recent employment was as the Principal Developer Advocate for <a href="https://redis.com" target="_blank">Redis</a>, where I enjoyed technical storytelling through coding, writing and presenting: both on video and in person.  My role also meant I was amongst the first developers to use Redis products - using my application development expertise to help shape and fine-tune the developer experience.</p>
+<p>In my current employment, I'm solely responsible for all things Developer Relations at CrateDB.</p>
+<p>Prior to that I was the Principal Developer Advocate for <a href="https://redis.com" target="_blank">Redis</a>, where I enjoyed technical storytelling through coding, writing and presenting: both on video and in person.  My role also meant I was amongst the first developers to use Redis products - using my application development expertise to help shape and fine-tune the developer experience.</p>
 <p>I regularly create software and hardware projects, and write and publish videos about them on my personal website at <a href="https://simonprickett.dev" target="_blank">https://simonprickett.dev</a>.  I am particularly interested in APIs and the Internet of Things.</p>
 <p>You'll also find my coding projects on GitHub at <a href="https://github.com/simonprickett" target="_blank">https://github.com/simonprickett</a>.  My work has been featured in the Arduino, Adafruit and Cloudflare blogs as well as The MagPi - Raspberry Pi's official magazine.</p>
 <hr/>
@@ -23,11 +24,29 @@ permalink: "/resume/"
 </ul>
 <hr/>
 <h2>Work Experience</h2>
+<h4>Senior Developer Advocate</h4>
+<p><strong><a href="https://cratedb.com" taget="_blank">CrateDB</a> | Apr 2024-present | Nottingham England (Fully Remote)</strong></p>
+<p>CrateDB is a hyper-fast database for real-time analytics and hybrid search. It handles multiple types of data and combines the simplicity of SQL with the scalability of a distributed architecture.  I am the sole member of the Developer Relations team. My responsbilities include:</p>
+<ul>
+    <li>Creation and maintenance of the CrateDB Academy, an online learning resource.  I wrote, recorded, edited and produced all of the visual materials for the <a href="https://cratedb.com/academy/fundamentals/up-and-running-with-cratedb/what-is-cratedb" target="_blank">CrateDB Fundamentals</a> online course (https://cratedb.com/academy/fundamentals/up-and-running-with-cratedb/what-is-cratedb). I am currently working on a "CrateDB for Developers" course.</li>
+    <li>Speaking at conferences, developer meetups and online panels.  I build fun and engaging demonstrations that showcase the database product and speak about them in person and online.  Examples include:</li>
+    <ul>
+        <li>Conference Talk from Big Data and AI Amsterdam 2024: "Smart Cities, Smart Transport" (<a href="https://www.youtube.com/watch?v=CahNbiWLuO8" target="_blank">YouTube</a> - https://www.youtube.com/watch?v=CahNbiWLuO8)</li>
+        <li>Pre-Recorded Talk: "Modeling and Analyzing Renewable Energy Data" (<a href="https://www.youtube.com/watch?v=xqiLGjaTlBk" target="_blank">YouTube</a> - https://www.youtube.com/watch?v=xqiLGjaTlBk)</li>
+        <li>Meetup: Notts IoT "Raspberry Pi, Sensors and CrateDB" (<a href="https://www.youtube.com/watch?v=8_rirCsCqac" target="_blank">YouTube</a> - https://www.youtube.com/watch?v=8_rirCsCqac)</li>
+        <li>Meetup: AIoT Hub "Let's Go Plane Spotting with Software Defined Radio, CrateDB and Node.js!" (<a href="https://www.youtube.com/watch?v=YIUJTbrwlAs" target="_blank">YouTube</a> - https://www.youtube.com/watch?v=YIUJTbrwlAs)</li>
+    </ul>
+    <li>Creation and delivery of online and in-person workshops, training of sales engineering staff to also deliver these.  I also sourse the example datasets for these.  Jupyter notebook examples: <a href="https://github.com/crate/academy-fundamentals-course/tree/main/notebooks" target="_blank">GitHub</a> (https://github.com/crate/academy-fundamentals-course/tree/main/notebooks)</li>
+    <li>Creation and maintenance of the <a href="https://github.com/crate/micropython-cratedb" target="_blank">CrateDB MicroPython driver</a> (https://github.com/crate/micropython-cratedb).</li>
+    <li>Maintaining a presence in many online communities on Slack, Discord, Reddit, StackOverflow and others... I represent the company in these communities and offer help and advice on database topics.</li>
+    <li>Writing blog posts on the company's blog and for other publications (example: <a href="https://cratedb.com/blog/unifying-data-for-real-time-ai" target="_blank">Unifying Data for Real-Time AI</a> - https://cratedb.com/blog/unifying-data-for-real-time-ai).</li>
+    <li>Developer experience: I act as user zero for new product features and drivers, and work closely with the product and developer experience teams to ensure that features are delivered along with supporting developer relations materials, and that they make sense to the developer audience.  I also run internal education and awareness sessions online for staff.</li>
+</ul>
 <h4>Principal Developer Advocate</h4>
-<p><strong><a href="http://redis.com" target="_blank">Redis</a> | 2021-Nov 2023 | San Diego California USA and Nottingham England (Fully Remote)</strong></p>
+<p><strong><a href="https://redis.com" target="_blank">Redis</a> | 2021-Nov 2023 | San Diego California USA and Nottingham England (Fully Remote)</strong></p>
 <p>Redis is the company that develops the popular open source <a href="https://redis.io/" target="_blank">Redis</a> database and provides a cloud hosting platform for Redis Enterprise.  Redis is used by millions of developers as a cache, streaming engine and database.</p>
 <ul>
-    <li> I was responsible for delivering high quality technical content, telling the story of Redis through the medium of video, well-documented example repositories on GitHub, blogging, and speaking and delivering workshops at conferences and to meetup groups and customers.  Examples of my work:</li>
+    <li>I was responsible for delivering high quality technical content, telling the story of Redis through the medium of video, well-documented example repositories on GitHub, blogging, and speaking and delivering workshops at conferences and to meetup groups and customers.  Examples of my work:</li>
     <ul>
         <li>A 2 hour workshop for a Redis Days online event targeting the Indian market. Video with GitHub repository linked in the description: <a href="https://www.youtube.com/watch?v=e4A_k-hFIa4" target="_blank">https://www.youtube.com/watch?v=e4A_k-hFIa4</a>.</li>
         <li>A complete set of resources for a Redis Streams workshop that can be run entirely in the cloud and was delivered at Pycon MEA 2022 in Dubai: <a href="https://simonprickett.dev/redis-streams-workshop/" target="_blank">https://simonprickett.dev/redis-streams-workshop/</a>.</li>
@@ -55,7 +74,6 @@ permalink: "/resume/"
     <li>Regular code, documentation and example code contributor to multiple Redis projects including the Node Redis client, RediSearch, the Redis OM clients and the official Redis and Redis Enterprise documentation.</li>
     <li>Represented the developer relations team at meetings with other departments, all-hands calls and sales kick-off events.</li>
     <li>Manage the relationship between Redis and our online training platform provider.</li>
-
 </ul>
 <h4>Senior Curriculum Engineer</h4>
 <p><strong><a href="http://redis.com" target="_blank">Redis</a> | 2019-2021 | San Diego California USA (Fully Remote)</strong></p>
