@@ -17,9 +17,10 @@ permalink: "/readinglist/"
             <p>Support your local library - I've read most of these books thanks to <a href="https://www.nottinghamcitylibraries.co.uk/" target="_blank">Nottingham City Libraries</a>.</p>
             <p>I'm also always looking out for book suggestions - <a href="/contact">get in touch</a> if you have ideas!</p>
             <hr/>
-            <p><i>Last Updated: December 12th 2024.</i></p>
+            <p><i>Last Updated: December 15th 2024.</i></p>
             <hr/>
             <ol>
+              <li><a href="https://www.goodreads.com/book/show/33837404-moonrise" target="_blank"><b>Moonrise</b> - <i>Sarah Crossan</i></a></li>  
               <li><a href="https://www.goodreads.com/book/show/203516112-hold-back-the-night" target="_blank"><b>Hold Back the Night</b> - <i>Jessica Moor</i></a></li>  
               <li><a href="https://www.goodreads.com/book/show/203579122-the-amendments" target="_blank"><b>The Amendments</b> - <i>Niamh Mulvey</i></a></li>            
               <li><a href="https://www.goodreads.com/book/show/53402132-liftoff" target="_blank"><b>Liftoff: Elon Musk and the Desperate Early Days That Launched SpaceX</b> - <i>Eric Berger</i></a></li>    
@@ -29,7 +30,6 @@ permalink: "/readinglist/"
               <li><a href="https://www.goodreads.com/book/show/200209486-the-umbrella-murder" target="_blank"><b>The Umbrella Murder: The Hunt for the Cold War's Most Notorious Killer</b> - <i>Ulrik Skotte</i></a></li> 
               <li><a href="https://www.goodreads.com/book/show/35020361-number-one-chinese-restaurant" target="_blank"><b>Number One Chinese Restaurant</b> - <i>Lillian Li</i></a></li>  
               <li><a href="https://www.goodreads.com/book/show/40988961-the-other-americans" target="_blank"><b>The Other Americans</b> - <i>Laila Lalami</i></a></li>  
-              <li><a href="https://www.goodreads.com/book/show/211166248-the-heat-and-the-fury" target="_blank"><b>The Heat and the Fury: On the Frontlines of Climate Violence</b> - <i>Peter Schwartzstein</i></a></li>  
             </ol>
             <hr/>
             <p><i>Photo by <a href="https://www.pexels.com/photo/books-on-wooden-shelves-inside-library-2908984/" target="_blank">Stanislav Kondratiev</a> on Pexels.</i></p>
