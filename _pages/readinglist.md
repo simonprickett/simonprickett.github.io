@@ -17,9 +17,11 @@ permalink: "/readinglist/"
             <p>Support your local library - I've read most of these books thanks to <a href="https://www.nottinghamcitylibraries.co.uk/" target="_blank">Nottingham City Libraries</a>.</p>
             <p>I'm also always looking out for book suggestions - <a href="/contact">get in touch</a> if you have ideas!</p>
             <hr/>
-            <p><i>Last Updated: December 17th 2024.</i></p>
+            <p><i>Last Updated: December 23rd 2024.</i></p>
             <hr/>
             <ol>
+              <li><a href="https://www.goodreads.com/book/show/199471077-the-night-of-baba-yaga" target="_blank"><b>The Night of Baba Yaga</b> - <i>Akira Otani</i></a></li> 
+              <li><a href="https://www.goodreads.com/book/show/209362466-the-fists-of-the-father" target="_blank"><b>The Fists of the Father</b> - <i>Daniel Tamone</i></a></li> 
               <li><a href="https://www.goodreads.com/book/show/62047992-days-at-the-morisaki-bookshop" target="_blank"><b>Days at the Morisaki Bookshop</b> - <i>Satoshi Yagisawa</i></a></li> 
               <li><a href="https://www.goodreads.com/book/show/59788339-none-of-the-above" target="_blank"><b>None of the Above: Reflections on Life Beyond the Binary</b> - <i>Travis Alabanza</i></a></li> 
               <li><a href="https://www.goodreads.com/book/show/33837404-moonrise" target="_blank"><b>Moonrise</b> - <i>Sarah Crossan</i></a></li>  
@@ -28,8 +30,6 @@ permalink: "/readinglist/"
               <li><a href="https://www.goodreads.com/book/show/53402132-liftoff" target="_blank"><b>Liftoff: Elon Musk and the Desperate Early Days That Launched SpaceX</b> - <i>Eric Berger</i></a></li>    
               <li><a href="https://www.goodreads.com/book/show/209891170-we-ll-prescribe-you-a-cat" target="_blank"><b>We'll Prescribe You a Cat</b> - <i>Syou Ishida</i></a></li>  
               <li><a href="https://www.goodreads.com/book/show/58884738-last-summer-on-state-street" target="_blank"><b>Last Summer on State Street</b> - <i>Toya Wolfe</i></a></li>  
-              <li><a href="https://www.goodreads.com/book/show/59892213-dead-end-memories" target="_blank"><b>Dead-End Memories: Stories</b> - <i>Banana Yoshimoto</i></a></li> 
-              <li><a href="https://www.goodreads.com/book/show/200209486-the-umbrella-murder" target="_blank"><b>The Umbrella Murder: The Hunt for the Cold War's Most Notorious Killer</b> - <i>Ulrik Skotte</i></a></li> 
             </ol>
             <hr/>
             <p><i>Photo by <a href="https://www.pexels.com/photo/books-on-wooden-shelves-inside-library-2908984/" target="_blank">Stanislav Kondratiev</a> on Pexels.</i></p>
