@@ -17,9 +17,10 @@ permalink: "/readinglist/"
             <p>Support your local library - I've read most of these books thanks to <a href="https://www.nottinghamcitylibraries.co.uk/" target="_blank">Nottingham City Libraries</a>.</p>
             <p>I'm also always looking out for book suggestions - <a href="/contact">get in touch</a> if you have ideas!</p>
             <hr/>
-            <p><i>Last Updated: January 2nd 2025.</i></p>
+            <p><i>Last Updated: January 20th 2025.</i></p>
             <hr/>
             <ol>
+              <li><a href="https://www.goodreads.com/book/show/979470.Stig_of_the_Dump" target="_blank"><b>Stig of the Dump</b> - <i>Clive King</i></a></li>   
               <li><a href="https://www.goodreads.com/book/show/213742830-street-level-superstar" target="_blank"><b>Street-Level Superstar: A Year With Lawrence</b> - <i>Will Hodgkinson</i></a></li>  
               <li><a href="https://www.goodreads.com/book/show/199349912-the-coin" target="_blank"><b>The Coin</b> - <i>Yasmin Zaher</i></a></li>  
               <li><a href="https://www.goodreads.com/book/show/199471077-the-night-of-baba-yaga" target="_blank"><b>The Night of Baba Yaga</b> - <i>Akira Otani</i></a></li> 
@@ -29,7 +30,6 @@ permalink: "/readinglist/"
               <li><a href="https://www.goodreads.com/book/show/33837404-moonrise" target="_blank"><b>Moonrise</b> - <i>Sarah Crossan</i></a></li>  
               <li><a href="https://www.goodreads.com/book/show/203516112-hold-back-the-night" target="_blank"><b>Hold Back the Night</b> - <i>Jessica Moor</i></a></li>  
               <li><a href="https://www.goodreads.com/book/show/203579122-the-amendments" target="_blank"><b>The Amendments</b> - <i>Niamh Mulvey</i></a></li>            
-              <li><a href="https://www.goodreads.com/book/show/53402132-liftoff" target="_blank"><b>Liftoff: Elon Musk and the Desperate Early Days That Launched SpaceX</b> - <i>Eric Berger</i></a></li>    
             </ol>
             <hr/>
             <p><i>Photo by <a href="https://www.pexels.com/photo/books-on-wooden-shelves-inside-library-2908984/" target="_blank">Stanislav Kondratiev</a> on Pexels.</i></p>
