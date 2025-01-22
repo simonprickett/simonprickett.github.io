@@ -28,7 +28,7 @@ permalink: "/resume/"
 <p><strong><a href="https://cratedb.com" taget="_blank">CrateDB</a> | Apr 2024-present | Nottingham England (Fully Remote)</strong></p>
 <p>CrateDB is a hyper-fast database for real-time analytics and hybrid search. It handles multiple types of data and combines the simplicity of SQL with the scalability of a distributed architecture.  I am the sole member of the Developer Relations team. My responsbilities include:</p>
 <ul>
-    <li>Creation and maintenance of the CrateDB Academy, an online learning resource.  I wrote, recorded, edited and produced all of the visual materials for the <a href="https://cratedb.com/academy/fundamentals/up-and-running-with-cratedb/what-is-cratedb" target="_blank">CrateDB Fundamentals</a> online course (https://cratedb.com/academy/fundamentals/up-and-running-with-cratedb/what-is-cratedb). I am currently working on a "CrateDB for Developers" course.</li>
+    <li>Creation and maintenance of the CrateDB Academy, an online learning resource.  I wrote, recorded, edited and produced all of the visual materials for the <a href="https://cratedb.com/academy/fundamentals/" target="_blank">CrateDB Fundamentals</a> online course (https://cratedb.com/academy/fundamentals/). I am currently working on a "CrateDB for Developers" course.</li>
     <li>Speaking at conferences, developer meetups and online panels.  I build fun and engaging demonstrations that showcase the database product and speak about them in person and online.  Examples include:</li>
     <ul>
         <li>Conference Talk from Big Data and AI Amsterdam 2024: "Smart Cities, Smart Transport" (<a href="https://www.youtube.com/watch?v=CahNbiWLuO8" target="_blank">YouTube</a> - https://www.youtube.com/watch?v=CahNbiWLuO8)</li>
@@ -41,6 +41,7 @@ permalink: "/resume/"
     <li>Maintaining a presence in many online communities on Slack, Discord, Reddit, StackOverflow and others... I represent the company in these communities and offer help and advice on database topics.</li>
     <li>Writing blog posts on the company's blog and for other publications (example: <a href="https://cratedb.com/blog/unifying-data-for-real-time-ai" target="_blank">Unifying Data for Real-Time AI</a> - https://cratedb.com/blog/unifying-data-for-real-time-ai).</li>
     <li>Developer experience: I act as user zero for new product features and drivers, and work closely with the product and developer experience teams to ensure that features are delivered along with supporting developer relations materials, and that they make sense to the developer audience.  I also run internal education and awareness sessions online for staff.</li>
+    <li>My CrateDB playlist on YouTube: <a href="https://www.youtube.com/playlist?list=PL3cZtICBssphXl5rHgsgG9vTNAVTw_Veq" target="_blank">https://www.youtube.com/playlist?list=PL83Wfqi-zYZFCjAZZTB9UaBARIvH9YsC1</a>.</li>
 </ul>
 <h4>Principal Developer Advocate</h4>
 <p><strong><a href="https://redis.com" target="_blank">Redis</a> | 2021-Nov 2023 | San Diego California USA and Nottingham England (Fully Remote)</strong></p>
@@ -55,6 +56,7 @@ permalink: "/resume/"
         <li>I wrote and delivered a conference talk about Probabilistic Data Structures for Pycon USA and Pycon Australia in 2021 and Pycon MEA 2022: <a href="https://www.youtube.com/watch?v=VjFS-_H10bw" target="_blank">https://www.youtube.com/watch?v=VjFS-_H10bw</a>.</li>
         <li>An example GitHub repository containing demo code for using Redis keyspace notifications from Node.js: <a href="https://github.com/redis-developer/keyspace-notifications-node-redis" target="_blank">https://github.com/redis-developer/keyspace-notifications-node-redis</a>.</li>
         <li>A video demonstrating how to use Redis with mapping / geospatial technologies: <a href="https://www.youtube.com/watch?v=ZmzuIsWwAzM" target="_blank">https://www.youtube.com/watch?v=ZmzuIsWwAzM</a>.</li>
+
     </ul>
     <li>As Principal Developer Advocate I found new and innovative ways to engage the developer community:</li>
     <ul>
