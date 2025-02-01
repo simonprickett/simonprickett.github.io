@@ -17,9 +17,10 @@ permalink: "/readinglist/"
             <p>Support your local library - I've read most of these books thanks to <a href="https://www.nottinghamcitylibraries.co.uk/" target="_blank">Nottingham City Libraries</a>.</p>
             <p>I'm also always looking out for book suggestions - <a href="/contact">get in touch</a> if you have ideas!</p>
             <hr/>
-            <p><i>Last Updated: January 27th 2025.</i></p>
+            <p><i>Last Updated: February 1st 2025.</i></p>
             <hr/>
             <ol>
+              <li><a href="https://www.goodreads.com/book/show/21969786-more-than-this" target="_blank"><b>More Than This</b> - <i>Patrick Ness</i></a></li>  
               <li><a href="https://www.goodreads.com/en/book/show/600349.Dangerous_Visions" target="_blank"><b>Dangerous Visions (Anthology)</b> - <i>Harlan Ellison (editor)</i></a></li>            
               <li><a href="https://www.goodreads.com/book/show/979470.Stig_of_the_Dump" target="_blank"><b>Stig of the Dump</b> - <i>Clive King</i></a></li>   
               <li><a href="https://www.goodreads.com/book/show/213742830-street-level-superstar" target="_blank"><b>Street-Level Superstar: A Year With Lawrence</b> - <i>Will Hodgkinson</i></a></li>  
@@ -29,7 +30,6 @@ permalink: "/readinglist/"
               <li><a href="https://www.goodreads.com/book/show/62047992-days-at-the-morisaki-bookshop" target="_blank"><b>Days at the Morisaki Bookshop</b> - <i>Satoshi Yagisawa</i></a></li> 
               <li><a href="https://www.goodreads.com/book/show/59788339-none-of-the-above" target="_blank"><b>None of the Above: Reflections on Life Beyond the Binary</b> - <i>Travis Alabanza</i></a></li> 
               <li><a href="https://www.goodreads.com/book/show/33837404-moonrise" target="_blank"><b>Moonrise</b> - <i>Sarah Crossan</i></a></li>  
-              <li><a href="https://www.goodreads.com/book/show/203516112-hold-back-the-night" target="_blank"><b>Hold Back the Night</b> - <i>Jessica Moor</i></a></li>  
             </ol>
             <hr/>
             <p><i>Photo by <a href="https://www.pexels.com/photo/books-on-wooden-shelves-inside-library-2908984/" target="_blank">Stanislav Kondratiev</a> on Pexels.</i></p>
