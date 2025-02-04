@@ -3,7 +3,7 @@ title: "Simon Prickett, Experienced Developer Relations Leader"
 permalink: "/resume/"
 ---
 <h2>Summary</h2>
-<p>I am a skilled Developer Relations practitioner with over 25 years of technical training, software architecture, team and product management and software development experience.</p>
+<p>I am a skilled Developer Relations practitioner with over 30 years of technical training, software architecture, team and product management and software development experience.</p>
 <p>In my current employment, I'm solely responsible for all things Developer Relations at CrateDB.</p>
 <p>Prior to that I was the Principal Developer Advocate for <a href="https://redis.com" target="_blank">Redis</a>, where I enjoyed technical storytelling through coding, writing and presenting: both on video and in person.  My role also meant I was amongst the first developers to use Redis products - using my application development expertise to help shape and fine-tune the developer experience.</p>
 <p>I regularly create software and hardware projects, and write and publish videos about them on my personal website at <a href="https://simonprickett.dev" target="_blank">https://simonprickett.dev</a>.  I am particularly interested in APIs and the Internet of Things.</p>
