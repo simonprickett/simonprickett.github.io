@@ -17,9 +17,10 @@ permalink: "/readinglist/"
             <p>Support your local library - I've read most of these books thanks to <a href="https://www.nottinghamcitylibraries.co.uk/" target="_blank">Nottingham City Libraries</a>.</p>
             <p>I'm also always looking out for book suggestions - <a href="/contact">get in touch</a> if you have ideas!</p>
             <hr/>
-            <p><i>Last Updated: March 12th 2025.</i></p>
+            <p><i>Last Updated: March 16th 2025.</i></p>
             <hr/>
             <ol>
+              <li><a href="https://www.goodreads.com/book/show/1902241.The_Adoration_of_Jenna_Fox" target="_blank"><b>The Adoration of Jenna Fox</b> - <i>Mary E. Pearson</i></a></li>   
               <li><a href="https://www.goodreads.com/book/show/61065982-the-bandit-queens" target="_blank"><b>The Bandit Queens</b> - <i>Parini Shroff</i></a></li>   
               <li><a href="https://www.goodreads.com/book/show/30239581-after-the-bloom" target="_blank"><b>After the Bloom</b> - <i>Leslie Shimotakahara</i></a></li>  
               <li><a href="https://www.goodreads.com/book/show/202569615-junction-of-earth-and-sky" target="_blank"><b>Junction of Earth and Sky</b> - <i>Susan Buttenwieser</i></a></li>  
@@ -28,8 +29,7 @@ permalink: "/readinglist/"
               <li><a href="https://www.goodreads.com/en/book/show/200998630-before-we-forget-kindness" target="_blank"><b>Before We Forget Kindness</b> - <i>Toshikazu Kawaguchi</i></a></li> 
               <li><a href="https://www.goodreads.com/book/show/199795387-the-heart-in-winter" target="_blank"><b>The Heart in Winter</b> - <i>Kevin Barry</i></a></li> 
               <li><a href="https://www.goodreads.com/book/show/25893698-dodgers" target="_blank"><b>Dodgers</b> - <i>Bill Beverly</i></a></li>  
-              <li><a href="https://www.goodreads.com/book/show/21969786-more-than-this" target="_blank"><b>More Than This</b> - <i>Patrick Ness</i></a></li>  
-              <li><a href="https://www.goodreads.com/en/book/show/600349.Dangerous_Visions" target="_blank"><b>Dangerous Visions (Anthology)</b> - <i>Harlan Ellison (editor)</i></a></li>            
+              <li><a href="https://www.goodreads.com/book/show/21969786-more-than-this" target="_blank"><b>More Than This</b> - <i>Patrick Ness</i></a></li>           
             </ol>
             <hr/>
             <p><i>Photo by <a href="https://www.pexels.com/photo/books-on-wooden-shelves-inside-library-2908984/" target="_blank">Stanislav Kondratiev</a> on Pexels.</i></p>
