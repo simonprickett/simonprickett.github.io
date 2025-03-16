@@ -17,4 +17,4 @@ simonprickettgithubio-jekyll-1  |   Server running... press ctrl-c to stop.
 
 The site should then be available at [`http://localhost:4000`](http://localhost:4000).
 
-Jekyll watches for changes and will restart whenever you save an existing file or add new ones.
+Jekyll watches for changes and will restart whenever you save an existing file or add new ones. 
