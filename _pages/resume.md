@@ -25,10 +25,10 @@ permalink: "/resume/"
 <hr/>
 <h2>Work Experience</h2>
 <h4>Senior Developer Advocate</h4>
-<p><strong><a href="https://cratedb.com" taget="_blank">CrateDB</a> | Apr 2024-present | Nottingham England (Fully Remote)</strong></p>
-<p>CrateDB is a hyper-fast database for real-time analytics and hybrid search. It handles multiple types of data and combines the simplicity of SQL with the scalability of a distributed architecture.  I am the sole member of the Developer Relations team. My responsbilities include:</p>
+<p><strong><a href="https://cratedb.com" taget="_blank">CrateDB</a> | Apr 2024-Mar 2025 | Nottingham England (Fully Remote)</strong></p>
+<p>CrateDB is a hyper-fast database for real-time analytics and hybrid search. It handles multiple types of data and combines the simplicity of SQL with the scalability of a distributed architecture.  I was the sole member of the Developer Relations team. My responsbilities included:</p>
 <ul>
-    <li>Creation and maintenance of the CrateDB Academy, an online learning resource.  I wrote, recorded, edited and produced all of the visual materials for the <a href="https://cratedb.com/academy/fundamentals/" target="_blank">CrateDB Fundamentals</a> online course (https://cratedb.com/academy/fundamentals/). I am currently working on a "CrateDB for Developers" course.</li>
+    <li>Creation and maintenance of the CrateDB Academy, an online learning resource.  I wrote, recorded, edited and produced all of the visual materials for the <a href="https://cratedb.com/academy/fundamentals/" target="_blank">CrateDB Fundamentals</a> online course (https://cratedb.com/academy/fundamentals/).</li>
     <li>Speaking at conferences, developer meetups and online panels.  I build fun and engaging demonstrations that showcase the database product and speak about them in person and online.  Examples include:</li>
     <ul>
         <li>Conference Talk from Big Data and AI Amsterdam 2024: "Smart Cities, Smart Transport" (<a href="https://www.youtube.com/watch?v=CahNbiWLuO8" target="_blank">YouTube</a> - https://www.youtube.com/watch?v=CahNbiWLuO8)</li>
@@ -36,7 +36,7 @@ permalink: "/resume/"
         <li>Meetup: Notts IoT "Raspberry Pi, Sensors and CrateDB" (<a href="https://www.youtube.com/watch?v=8_rirCsCqac" target="_blank">YouTube</a> - https://www.youtube.com/watch?v=8_rirCsCqac)</li>
         <li>Meetup: AIoT Hub "Let's Go Plane Spotting with Software Defined Radio, CrateDB and Node.js!" (<a href="https://www.youtube.com/watch?v=YIUJTbrwlAs" target="_blank">YouTube</a> - https://www.youtube.com/watch?v=YIUJTbrwlAs)</li>
     </ul>
-    <li>Creation and delivery of online and in-person workshops, training of sales engineering staff to also deliver these.  I also sourse the example datasets for these.  Jupyter notebook examples: <a href="https://github.com/crate/academy-fundamentals-course/tree/main/notebooks" target="_blank">GitHub</a> (https://github.com/crate/academy-fundamentals-course/tree/main/notebooks)</li>
+    <li>Creation and delivery of online and in-person workshops, training of sales engineering staff to also deliver these.  I also source the example datasets for these.  Jupyter notebook examples: <a href="https://github.com/crate/academy-fundamentals-course/tree/main/notebooks" target="_blank">GitHub</a> (https://github.com/crate/academy-fundamentals-course/tree/main/notebooks)</li>
     <li>Creation and maintenance of the <a href="https://github.com/crate/micropython-cratedb" target="_blank">CrateDB MicroPython driver</a> (https://github.com/crate/micropython-cratedb).</li>
     <li>Maintaining a presence in many online communities on Slack, Discord, Reddit, StackOverflow and others... I represent the company in these communities and offer help and advice on database topics.</li>
     <li>Writing blog posts on the company's blog and for other publications (example: <a href="https://cratedb.com/blog/unifying-data-for-real-time-ai" target="_blank">Unifying Data for Real-Time AI</a> - https://cratedb.com/blog/unifying-data-for-real-time-ai).</li>
