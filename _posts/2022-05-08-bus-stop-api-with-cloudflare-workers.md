@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Making a Bus Stop API with Cloudflare Workers"
-categories: [ JavaScript, Coding ]
+categories: [ JavaScript, Coding, Cloudflare, Serverless ]
 image: assets/images/bus_api_main.jpg
 author: simon
 tags: [featured]
