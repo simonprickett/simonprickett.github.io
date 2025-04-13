@@ -17,9 +17,10 @@ permalink: "/readinglist/"
             <p>Support your local library - I've read most of these books thanks to <a href="https://www.nottinghamcitylibraries.co.uk/" target="_blank">Nottingham City Libraries</a>.</p>
             <p>I'm also always looking out for book suggestions - <a href="/contact">get in touch</a> if you have ideas!</p>
             <hr/>
-            <p><i>Last Updated: April 10th 2025.</i></p>
+            <p><i>Last Updated: April 13th 2025.</i></p>
             <hr/>
             <ol>
+              <li><a href="https://www.goodreads.com/book/show/62972519-the-memory-of-animals" target="_blank"><b>The Memory of Animals</b> - <i>Claire Fuller</i></a></li> 
               <li><a href="https://www.goodreads.com/book/show/57693457-mickey7" target="_blank"><b>Mickey 7</b> - <i>Edward Ashton</i></a></li> 
               <li><a href="https://www.goodreads.com/book/show/158875813-prophet-song" target="_blank"><b>Prophet Song</b> - <i>Paul Lynch</i></a></li> 
               <li><a href="https://www.goodreads.com/book/show/195888522-whale-fall" target="_blank"><b>Whale Fall</b> - <i>Elizabeth O'Connor</i></a></li> 
@@ -29,7 +30,6 @@ permalink: "/readinglist/"
               <li><a href="https://www.goodreads.com/book/show/61065982-the-bandit-queens" target="_blank"><b>The Bandit Queens</b> - <i>Parini Shroff</i></a></li>   
               <li><a href="https://www.goodreads.com/book/show/30239581-after-the-bloom" target="_blank"><b>After the Bloom</b> - <i>Leslie Shimotakahara</i></a></li>  
               <li><a href="https://www.goodreads.com/book/show/202569615-junction-of-earth-and-sky" target="_blank"><b>Junction of Earth and Sky</b> - <i>Susan Buttenwieser</i></a></li>  
-              <li><a href="https://www.goodreads.com/book/show/217260138-glass-bottom" target="_blank"><b>Glass Bottom</b> - <i>Sonali Prasad</i></a></li> 
             </ol>
             <hr/>
             <p><i>Photo by <a href="https://www.pexels.com/photo/books-on-wooden-shelves-inside-library-2908984/" target="_blank">Stanislav Kondratiev</a> on Pexels.</i></p>
