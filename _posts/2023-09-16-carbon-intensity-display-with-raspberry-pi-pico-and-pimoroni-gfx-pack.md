@@ -279,7 +279,7 @@ I decided to use these data items on the display:
 
 * `data[0].shortname` (e.g. `East Midlands`) - the region that the data is for.
 * `data[0].data[0].intensity.index` - text description of the carbon intensity at the time e.g. `very high`.  I wanted to use this to set the backlight on the display, with lower intensities showing as greens, then moving up to yellow, orange and red as the value gets higher.
-* `data[0].data[0].generationmix` - an array containing objects.  Each object has two keys - `fuel` for the energy source e.g. `coal`, `wind` and `perc` for the percentage of the overall mix that the source comprises.  The API doesn't sort the array in descending order of percentage, nor does it have an option to make it do so.  This feels like it's missing some basic functionality but we'll fix that in the MicroPython.
+* `data[0].data[0].generationmix` - an array containing objects.  Each object has two keys - `fuel` for the energy source e.g. `coal`, `wind` and `perc` for the percentage of the overall mix that the source comprises.  The API doesn't sort the array in descending order of percentage, nor does it have an option to make it do so.  This feels like it's missing some basic functionality but we'll fix that in the MicroPython. (2025 note - [we're done with coal in the UK now](https://www.bbc.co.uk/news/articles/c5y35qz73n8o) so don't expect to see that any more!)
 
 Having retrieved the JSON document, I pull out the region name and intensity index text into their own variables:
 
@@ -485,7 +485,7 @@ Here's an alternative use of the API, embedded in this web page...
   <p>Loading carbon intensity data from API...</p>
 </div>
 
-Having looked at the output for my local region (The East Midlands), it seems we are often in the "high" or "very high" categories, with a lot of gas, biomass and coal making up our electricity supply.  I do wonder whether monitoring the carbon intensity, and offsetting some activities to times when it's low even makes sense.  If everyone monitored this and we all turned on the washing machine or whatever when intensity was low, we'd create a load on the network that might cause extra generation to be needed, and that often comes from the less sustainable sources.
+Having looked at the output for my local region (The East Midlands), it seems we are often in the "high" or "very high" categories, with a lot of gas, biomass and coal (2025 update - [there's no more coal](https://www.bbc.co.uk/news/articles/c5y35qz73n8o)!) making up our electricity supply.  I do wonder whether monitoring the carbon intensity, and offsetting some activities to times when it's low even makes sense.  If everyone monitored this and we all turned on the washing machine or whatever when intensity was low, we'd create a load on the network that might cause extra generation to be needed, and that often comes from the less sustainable sources.
 
 I guess overall we're making slow progress towards more renewables more of the time, but it doesn't seem great at the moment - hence my choice of featured image for this article being a smoky industrial scene rather than a wind or solar farm.
 
