@@ -17,9 +17,10 @@ permalink: "/readinglist/"
             <p>Support your local library - I've read most of these books thanks to <a href="https://www.nottinghamcitylibraries.co.uk/" target="_blank">Nottingham City Libraries</a>.</p>
             <p>I'm also always looking out for book suggestions - <a href="/contact">get in touch</a> if you have ideas!</p>
             <hr/>
-            <p><i>Last Updated: May 5th 2025.</i></p>
+            <p><i>Last Updated: May 6th 2025.</i></p>
             <hr/>
             <ol>
+              <li><a href="https://www.goodreads.com/book/show/123125162-o-brother" target="_blank"><b>O Brother</b> - <i>John Niven</i></a></li>   
               <li><a href="https://www.goodreads.com/book/show/208433854-toto" target="_blank"><b>Toto</b> - <i>A.J. Hackwith</i></a></li>  
               <li><a href="https://www.goodreads.com/book/show/61987700-brother-do-you-love-me" target="_blank"><b>brother. do. you. love. me.</b> - <i>Reuben and Manni Coe</i></a></li>  
               <li><a href="https://www.goodreads.com/book/show/62972519-the-memory-of-animals" target="_blank"><b>The Memory of Animals</b> - <i>Claire Fuller</i></a></li> 
@@ -29,7 +30,6 @@ permalink: "/readinglist/"
               <li><a href="https://www.goodreads.com/book/show/61255214-the-eternal-return-of-clara-hart" target="_blank"><b>The Eternal Return of Clara Hart</b> - <i>Louise Finch</i></a></li>  
               <li><a href="https://www.goodreads.com/book/show/205363938-small-rain" target="_blank"><b>Small Rain</b> - <i>Garth Greenwell</i></a></li>           
               <li><a href="https://www.goodreads.com/book/show/1902241.The_Adoration_of_Jenna_Fox" target="_blank"><b>The Adoration of Jenna Fox</b> - <i>Mary E. Pearson</i></a></li>   
-              <li><a href="https://www.goodreads.com/book/show/61065982-the-bandit-queens" target="_blank"><b>The Bandit Queens</b> - <i>Parini Shroff</i></a></li>   
             </ol>
             <hr/>
             <p><i>Photo by <a href="https://www.pexels.com/photo/books-on-wooden-shelves-inside-library-2908984/" target="_blank">Stanislav Kondratiev</a> on Pexels.</i></p>
