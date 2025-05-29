@@ -17,9 +17,10 @@ permalink: "/readinglist/"
             <p>Support your local library - I've read most of these books thanks to <a href="https://www.nottinghamcitylibraries.co.uk/" target="_blank">Nottingham City Libraries</a>.</p>
             <p>I'm also always looking out for book suggestions - <a href="/contact">get in touch</a> if you have ideas!</p>
             <hr/>
-            <p><i>Last Updated: May 20th 2025.</i></p>
+            <p><i>Last Updated: May 29th 2025.</i></p>
             <hr/>
             <ol>
+              <li><a href="https://www.goodreads.com/book/show/213812663-connection-is-a-song" target="_blank"><b>Connection is a Song: Coming Up and Coming Out Through the Music of the 90s</b> - <i>Anna Doble</i></a></li> 
               <li><a href="https://www.goodreads.com/en/book/show/209164745-the-quiet" target="_blank"><b>The Quiet</b> - <i>Barnaby Martin</i></a></li>  
               <li><a href="https://www.goodreads.com/book/show/61273860-cold-people" target="_blank"><b>Cold People</b> - <i>Tom Rob Smith</i></a></li>           
               <li><a href="https://www.goodreads.com/book/show/25733573-reasons-to-stay-alive" target="_blank"><b>Reasons to Stay Alive</b> - <i>Matt Haig</i></a></li>   
@@ -29,7 +30,6 @@ permalink: "/readinglist/"
               <li><a href="https://www.goodreads.com/book/show/62972519-the-memory-of-animals" target="_blank"><b>The Memory of Animals</b> - <i>Claire Fuller</i></a></li> 
               <li><a href="https://www.goodreads.com/book/show/57693457-mickey7" target="_blank"><b>Mickey 7</b> - <i>Edward Ashton</i></a></li> 
               <li><a href="https://www.goodreads.com/book/show/158875813-prophet-song" target="_blank"><b>Prophet Song</b> - <i>Paul Lynch</i></a></li> 
-              <li><a href="https://www.goodreads.com/book/show/195888522-whale-fall" target="_blank"><b>Whale Fall</b> - <i>Elizabeth O'Connor</i></a></li> 
             </ol>
             <hr/>
             <p><i>Photo by <a href="https://www.pexels.com/photo/books-on-wooden-shelves-inside-library-2908984/" target="_blank">Stanislav Kondratiev</a> on Pexels.</i></p>
