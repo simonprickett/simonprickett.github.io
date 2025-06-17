@@ -17,9 +17,10 @@ permalink: "/readinglist/"
             <p>Support your local library - I've read most of these books thanks to <a href="https://www.nottinghamcitylibraries.co.uk/" target="_blank">Nottingham City Libraries</a>.</p>
             <p>I'm also always looking out for book suggestions - <a href="/contact">get in touch</a> if you have ideas!</p>
             <hr/>
-            <p><i>Last Updated: June 11th 2025.</i></p>
+            <p><i>Last Updated: June 17th 2025.</i></p>
             <hr/>
             <ol>
+                <li><a href="https://www.goodreads.com/book/show/226389056-murray-hall" target="_blank"><b>Murray Hall</b> - <i>Milo Allan</i></a></li>  
                 <li><a href="https://www.goodreads.com/book/show/63837558-i-m-not-lazy-i-m-on-energy-saving-mode" target="_blank"><b>I'm Not Lazy. I'm On Energy Saving Mode.</b> - <i>Dancing Snail</i></a></li>  
                 <li><a href="https://www.goodreads.com/book/show/101124639-bright-young-women" target="_blank"><b>Bright Young Women</b> - <i>Jessica Knoll</i></a></li> 
                 <li><a href="https://www.goodreads.com/book/show/220307488-misfit" target="_blank"><b>Misfit: The Unravelling of Samantha X</b> - <i>Amanda Goff</i></a></li> 
@@ -29,7 +30,6 @@ permalink: "/readinglist/"
                 <li><a href="https://www.goodreads.com/book/show/61273860-cold-people" target="_blank"><b>Cold People</b> - <i>Tom Rob Smith</i></a></li>           
                 <li><a href="https://www.goodreads.com/book/show/25733573-reasons-to-stay-alive" target="_blank"><b>Reasons to Stay Alive</b> - <i>Matt Haig</i></a></li>   
                 <li><a href="https://www.goodreads.com/book/show/123125162-o-brother" target="_blank"><b>O Brother</b> - <i>John Niven</i></a></li>   
-                <li><a href="https://www.goodreads.com/book/show/208433854-toto" target="_blank"><b>Toto</b> - <i>A.J. Hackwith</i></a></li>  
             </ol>
             <hr/>
             <p><i>Photo by <a href="https://www.pexels.com/photo/books-on-wooden-shelves-inside-library-2908984/" target="_blank">Stanislav Kondratiev</a> on Pexels.</i></p>
