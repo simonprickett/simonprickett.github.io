@@ -185,7 +185,7 @@ In Python the interface is slightly different: they took a different approach an
 
 <script src="https://gist.github.com/simonprickett/8689217928e1e2100fe348cc237d5de1.js"></script>
 
-Then what we do is create an image inside the driver.  This is just a big array of bytes.  We plot into it as if it was a bitmap.  I've got random x,y co-ordinates generated herem then I'm just setting the bit in that position to `True` or `False` for on or off.  It's a much lower level driver.
+Then what we do is create an image inside the driver.  This is just a big array of bytes.  We plot into it as if it was a bitmap.  I've got random x,y co-ordinates generated here then I'm just setting the bit in that position to `True` or `False` for on or off.  It's a much lower level driver.
 
 This is not as great for text, but it's really good for writing games or something like that.  If you want to do something else with one of these, we'll also take a look at examples of what you can do...
 
