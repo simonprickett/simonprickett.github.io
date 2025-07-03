@@ -24,6 +24,9 @@ Pellentesque scelerisque lacinia sollicitudin. Mauris suscipit ligula ipsum, a t
   <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/oNYa7CJxuRA?si=Z6Jwt1s3ZM94a2MC" allowfullscreen></iframe>
 </div><br/>
 
+Here's a gist for a single gauge:
+
+<script src="https://gist.github.com/simonprickett/f7ccff18563b52d6769c5aff07e2b4e7.js"></script>
 
 Here's a list of things...
 
