@@ -28,6 +28,10 @@ Here's a gist for a single gauge:
 
 <script src="https://gist.github.com/simonprickett/f7ccff18563b52d6769c5aff07e2b4e7.js"></script>
 
+And here's a gist for three gauges:
+
+<script src="https://gist.github.com/simonprickett/bd32119e7d7c74a0d7abe175848f3f11.js"></script>
+
 Here's a list of things...
 
 * [Audi Quattro S1](/building-the-lego-audi-quattro).  
