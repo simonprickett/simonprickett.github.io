@@ -13,6 +13,35 @@ If you want to check out the original article, you can ([read it here]({{ site.b
 
 To make this a standalone guide, there will be some re-use of content from the prior article here. Since writing this article, I've also written up the same exercise using Swift ([Swift version]({{ site.baseurl }}/raspberry-pi-coding-in-swift-traffic-lights)), Node.js ([read about that here]({{ site.baseurl }}/raspberry-pi-coding-with-node-js-traffic-lights)), Node RED ([try here]({{ site.baseurl }}/raspberry-pi-coding-with-node-red-traffic-lights/)), Java ([try here]({{ site.baseurl }}/playing-with-raspberry-pi-gpio-pins-and-traffic-lights-in-java)), Bash scripting ([Bash article]({{ site.baseurl}}/controlling-raspberry-pi-gpio-pins-from-bash-scripts-traffic-lights)), C ([check it out here]({{ site.baseurl }}/gpio-access-in-c-with-raspberry-pi-traffic-lights)), [Go]({{ site.baseurl}}/raspberry-pi-coding-in-go-traffic-lights/), [.NET/C#]({{ site.baseurl }}/raspberry-pi-coding-with-dotnet-traffic-lights/) and also for [Arduino]({{ site.baseurl}}/traffic-lights-with-arduino/).
 
+TODO this is the right carousel for this post...
+
+<div class="slick-carousel">
+    <div>
+        <figure class="figure">
+        <img src="{{ site.baseurl }}/assets/images/pico_traffic_lights_hardware_1.jpg" class="figure-img img-fluid" alt="The traffic light LEDs connected to the GPIO headers on a Raspberry Pi Pico W.">
+        <figcaption class="figure-caption text-center">The traffic light LEDs connected to the GPIO headers on a Raspberry Pi Pico W.</figcaption>
+        </figure>
+    </div>
+    <div>
+        <figure class="figure">
+        <img src="{{ site.baseurl }}/assets/images/pico_traffic_lights_hardware_2.jpg" class="figure-img img-fluid" alt="The traffic light LEDs connected to the GPIO headers on a Raspberry Pi Pico W.">
+        <figcaption class="figure-caption text-center">The traffic light LEDs connected to the GPIO headers on a Raspberry Pi Pico W.</figcaption>
+        </figure>
+    </div>
+    <div>
+        <figure class="figure">
+        <img src="{{ site.baseurl }}/assets/images/pico_traffic_lights_hardware_3.jpg" class="figure-img img-fluid" alt="The traffic light LEDs connected to the GPIO headers on a Raspberry Pi Pico W.">
+        <figcaption class="figure-caption text-center">The traffic light LEDs connected to the GPIO headers on a Raspberry Pi Pico W.</figcaption>
+        </figure>
+    </div>
+    <div>
+        <figure class="figure">
+        <img src="{{ site.baseurl }}/assets/images/pico_traffic_lights_hardware_4.jpg" class="figure-img img-fluid" alt="The traffic light LEDs connected to the GPIO headers on a Raspberry Pi Pico W.">
+        <figcaption class="figure-caption text-center">The traffic light LEDs connected to the GPIO headers on a Raspberry Pi Pico W.</figcaption>
+        </figure>
+    </div>
+</div>
+
 ## Shopping List
 
 To try this out, you will need the following (links here mostly go to [Adafruit](https://www.adafruit.com/), UK customers may want to consider [Pimoroni](https://shop.pimoroni.com/) as a UK based alternative.  Amazon has most if not all of this stuff too):
