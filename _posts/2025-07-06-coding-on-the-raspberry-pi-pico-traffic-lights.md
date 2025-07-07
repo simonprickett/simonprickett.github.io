@@ -100,13 +100,19 @@ TODO notes about the three different languages.
 
 TODO
 
+<script src="https://gist.github.com/simonprickett/17dfc46c0ee8d497ef1bd228a606608b.js"></script>
+
 ### CircuitPython
 
 TODO
 
+<script src="https://gist.github.com/simonprickett/fa6ffc704be7110543cb816818e54a41.js"></script>
+
 ### C
 
 TODO
+
+<script src="https://gist.github.com/simonprickett/e29bf25d7a5a556227221b9b6628b1f4.js"></script>
 
 ## Wrapping Up
 
