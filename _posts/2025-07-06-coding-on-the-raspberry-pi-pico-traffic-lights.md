@@ -35,10 +35,10 @@ Before powering up the Pico, attach the traffic lights so that the pins connect 
 
 <figure class="figure">
   <img src="{{ site.baseurl }}/assets/images/pico_traffic_lights_pico_pinout.png" class="figure-img img-fluid" alt="GPIO Pin Diagram">
-  <figcaption class="figure-caption text-center">GPIO Pin Diagram.</figcaption>
+  <figcaption class="figure-caption text-center">GPIO Pin Diagram from [pico.pinout.xyz](https://pico.pinout.xyz/) (used here after donating to the creator's ko-fi).</figcaption>
 </figure>
 
-When you're done it's going to look something like this... (an easy way to make sure you have it right is TODO update for Pico).
+When you're done it's going to look something like this... (an easy way to make sure you have it right is to hold the Pico with the micro USB port to the right and the header pins pointing up, then count 5 pins from the right and locate the rightmost side of the lights on that pin with the lights facing you).
 
 <div class="slick-carousel">
     <div>
@@ -89,13 +89,12 @@ git version 2.50.0
 
 ## Programming the Traffic Lights
 
+TODO notes about the three different languages.
+
 <figure class="figure">
   <img src="{{ site.baseurl }}/assets/images/pico_traffic_lights_lights_working.gif" class="figure-img img-fluid" alt="Operational traffic lights!">
   <figcaption class="figure-caption text-center">Operational traffic lights!</figcaption>
 </figure>
-
-
-
 
 ### MicroPython
 
@@ -117,6 +116,6 @@ I’ve put the [full source code on GitHub](https://github.com/simonprickett/pi-
 
 ---
 
-TODO UPDATE THIS I’d love to hear what you’re up to with the Raspberry Pi — get in touch via the [Contact page](https://simonprickett.dev/contact/). If you enjoyed this article, please share it far and wide!
+I’d love to hear what you’re up to with the Raspberry Pi Pico, and how you choose to program it — get in touch via the [Contact page](https://simonprickett.dev/contact/). If you enjoyed this article, please share it far and wide!
 
 Main picture: [Misty Traffic Lights](https://www.deviantart.com/dhtbrowne/art/Misty-traffic-lights-149851701) by [dhtbrowne](https://www.deviantart.com/dhtbrowne) on DeviantArt. License: [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/)
