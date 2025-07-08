@@ -15,12 +15,20 @@ To make this a standalone guide, there will be some re-use of content from the p
 
 ## Shopping List
 
-To try this out, you will need the following (I've added links for UK and USA shoppers, to minimize shipping costs):
+To try this out, you will need the following (I've added links for UK and USA shoppers as well as a reseller in Kenya, to minimize shipping costs for as many readers as possible):
 
-* A [Raspberry Pi Pico](TODO) (I'll use the Pi 3 Model B here, but any model with GPIO pins will work — if you want to use the Pi Zero you’ll need to solder some headers onto it or buy one with those pre-attached). I'm going to assume you have a Pi 2, 3 or 4 with 40 pins
-* A [USB to micro USB data cable](TODO). TODO explanation... any length, make sure it's for data.
-* A set of [traffic lights from Low Voltage Labs](http://lowvoltagelabs.com/products/pi-traffic/) (the two pack is good value).
-* TODO laptop or similar.
+* A Raspberry Pi Pico Microcontroller. There are many options here... this project doesn't need wifi, but I'd recommend getting a Pico WH (wifi and headers) because it'll be more useful for other projects you might want to do in future and already has the headers soldered to it. This also saves you the fiddly job of buying headers separately and soldering them to the board manually.  If you want to spend a little more and get a microcontroller with more memory and a faster processor, grab a Pico 2 WH. Either works fine with this project. Buy from:
+  * UK: Pimoroni, [Pico WH](https://shop.pimoroni.com/products/raspberry-pi-pico-w?variant=40059369652307) or [Pico 2 WH](https://shop.pimoroni.com/products/raspberry-pi-pico-2-w?variant=54852253024635).
+  * UK: The Pi Hut, [Pico WH](https://thepihut.com/products/raspberry-pi-pico-w?variant=41952994787523) or [Pico 2 WH](https://thepihut.com/products/raspberry-pi-pico-2-w?variant=54063378760065).
+  * USA: Adafruit, [Pico WH](https://www.adafruit.com/product/5544) or [Pico 2 WH](https://www.adafruit.com/product/6315).
+  * Kenya: Ivyliam Gadgets, [Pico WH]() or [Pico 2 WH]().
+* A USB to micro USB data cable. Any length or colour will do. This is to power your Pico and to connect to it to copy your code to it.  You may already have one of these already, make sure it's a data cable not just a charging one.  If you need to buy one, they're available from the resellers below (links are for USB A -> micro USB, you can also choose a USB C -> micro USB if that works better with the computer you're using):
+  * UK: [Pimoroni](https://shop.pimoroni.com/products/usb-a-to-microb-cable-black?variant=31241639562).
+  * UK: [The Pi Hut](https://thepihut.com/products/usb-to-micro-usb-cable-0-5m?variant=37979679293635).
+  * USA: [Adafruit](https://www.adafruit.com/product/592).
+  * Kenya: [Ivyliam Gadgets](https://shop.ivyliam.com/product/usb-a-to-micro-usb-cable/).
+* A set of [traffic lights from Low Voltage Labs](http://lowvoltagelabs.com/products/pi-traffic/) (the two pack is good value).  These can also be [purchased from Amazon](https://a.co/d/aZspNII) in two or five packs.
+* You'll also need a computer to program the Pico from... any Windows, macOS or Linux machine that you can plug your USB cable into should be fine.  I'm using a Mac for the examples below, and coding with [Visual Studio Code](https://code.visualstudio.com/).  I'll point out any additional / recommended software as we go along, but don't worry it's all available free of charge!
 
 ## Attaching the Traffic Lights
 
