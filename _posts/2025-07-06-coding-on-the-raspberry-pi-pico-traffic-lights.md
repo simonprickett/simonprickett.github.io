@@ -90,36 +90,47 @@ When you're done it's going to look something like this... (an easy way to make 
 
 {% include coffee-cta.html %}
 
-## Operating System Setup
-
-TODO replace this section.
-
 Now you can go ahead and start turning lights on and off!
 
-## Installing Dependencies
+## Setting up your Development Machine
 
-To get started, we'll need to install [git](https://git-scm.com/) so that we can get the project code later:
+I'll cover dependencies specific to C, MicroPython or CircuitPython in their respective sections.  There's a couple of things you'll need whichever languages you choose to try out.
 
+First up, you'll want to get a copy of the code that controls the traffic lights.  I've included it inline in this article later, but it's also available in a git repository that you can get either by cloning it...
+
+```bash
+git clone https://github.com/simonprickett/pi-pico-traffic-lights.git
 ```
-$ sudo apt-get install git
-$ git --version
-git version 2.50.0
-```
 
-(Version number was correct at the time of writing). Alternatively you can just download a zip file containing the source code from GitHub [here](TODO).
+...or by downloading it as a zip file from GitHub ([click here for that](https://github.com/simonprickett/pi-pico-traffic-lights/archive/refs/heads/main.zip)).  Unzip the file wherever you like to store source code on your machine.
+
+Next, you'll want some sort of code editor or IDE.  I'd recommend [Visual Studio Code](https://code.visualstudio.com/) as it's got some nice integrations that'll be especially helpful with C.  It's also free!
 
 ## Programming the Traffic Lights
 
-TODO notes about the three different languages.
+Whether you choose one, two or all three of the languages covered in this article, here's what success looks like:
 
 <figure class="figure">
   <img src="{{ site.baseurl }}/assets/images/pico_traffic_lights_lights_working.gif" class="figure-img img-fluid" alt="Operational traffic lights!">
   <figcaption class="figure-caption text-center">Operational traffic lights!</figcaption>
 </figure>
 
+The lights should cycle indefinitely in the [UK traffic light pattern](https://www.gov.uk/guidance/the-highway-code/light-signals-controlling-traffic):
+
+* Red (stop)
+* Red + amber (also stop)
+* Green (go if the way is clear)
+* Amber (stop, unless you're already so close to the line that pulling up might cause an accident)
+* Red (stop)
+* ...repeat...
+
+Let's try each language in turn...
+
 ### MicroPython
 
 TODO
+
+Here's the complete MicroPython code:
 
 <script src="https://gist.github.com/simonprickett/17dfc46c0ee8d497ef1bd228a606608b.js"></script>
 
@@ -127,11 +138,15 @@ TODO
 
 TODO
 
+Putting it all together, the finished CircuitPython code looks like this:
+
 <script src="https://gist.github.com/simonprickett/fa6ffc704be7110543cb816818e54a41.js"></script>
 
 ### C
 
 TODO
+
+Here's the final program in full:
 
 <script src="https://gist.github.com/simonprickett/e29bf25d7a5a556227221b9b6628b1f4.js"></script>
 
