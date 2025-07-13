@@ -17,9 +17,10 @@ permalink: "/readinglist/"
             <p>Support your local library - I've read most of these books thanks to <a href="https://www.nottinghamcitylibraries.co.uk/" target="_blank">Nottingham City Libraries</a>.</p>
             <p>I'm also always looking out for book suggestions - <a href="/contact">get in touch</a> if you have ideas!</p>
             <hr/>
-            <p><i>Last Updated: July 5th 2025.</i></p>
+            <p><i>Last Updated: July 13th 2025.</i></p>
             <hr/>
             <ol>
+                <li><a href="https://www.goodreads.com/book/show/197798168-all-fours" target="_blank"><b>All Fours</b> - <i>Miranda July</i></a></li> 
                 <li><a href="https://www.goodreads.com/en/book/show/206998235-downstream" target="_blank"><b>Downstream</b> - <i>Annika Johansson</i></a></li>  
                 <li><a href="https://www.goodreads.com/book/show/200174139-zero-stars-do-not-recommend" target="_blank"><b>Zero Stars, Do Not Recommend</b> - <i>M.J. Wassmer</i></a></li>   
                 <li><a href="https://www.goodreads.com/book/show/195790675-parade" target="_blank"><b>Parade</b> - <i>Rachel Cusk</i></a></li>   
@@ -29,7 +30,6 @@ permalink: "/readinglist/"
                 <li><a href="https://www.goodreads.com/book/show/101124639-bright-young-women" target="_blank"><b>Bright Young Women</b> - <i>Jessica Knoll</i></a></li> 
                 <li><a href="https://www.goodreads.com/book/show/220307488-misfit" target="_blank"><b>Misfit: The Unravelling of Samantha X</b> - <i>Amanda Goff</i></a></li> 
                 <li><a href="https://www.goodreads.com/book/show/202775002-bright-i-burn" target="_blank"><b>Bright I Burn</b> - <i>Molly Aitken</i></a></li> 
-                <li><a href="https://www.goodreads.com/book/show/213812663-connection-is-a-song" target="_blank"><b>Connection is a Song: Coming Up and Coming Out Through the Music of the 90s</b> - <i>Anna Doble</i></a></li> 
             </ol>
             <hr/>
             <p><i>Photo by <a href="https://www.pexels.com/photo/books-on-wooden-shelves-inside-library-2908984/" target="_blank">Stanislav Kondratiev</a> on Pexels.</i></p>
