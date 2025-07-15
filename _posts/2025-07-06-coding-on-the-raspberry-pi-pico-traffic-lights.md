@@ -124,7 +124,14 @@ The lights should cycle indefinitely in the [UK traffic light pattern](https://w
 * Red (stop)
 * ...repeat...
 
-Let's try each language in turn...
+To achieve this, we'll need to write a program in each of the three languages that basically sits in a loop forever, turning lights on and off in the above sequence and with appropriate timed waits at each state.  Each language achieves this in its own way, but all of them will do this by turning the pins that the traffic lights are connected to on and off (sometimes referred to as setting them high or low).  When on, or high, voltage passes through the pin and the LED attached to it turns on.  Each pin has a number associated with it.  As you can see from the diagram above, the traffic lights connect to 4 pins:
+
+* **Ground**: Used to complete the electrical circuit, by providing a path for current to flow back to the power source.
+* **GP3**: This is the amber LED (not the red one, due to the way the LEDs are wired).
+* **GP4**: This is the red LED.
+* **GP5**: This is the green LED.
+
+Let's try implementing this using each language in turn...
 
 ### MicroPython
 
