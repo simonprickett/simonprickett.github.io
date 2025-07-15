@@ -5,7 +5,7 @@ categories: [ Raspberry Pi, Technology, C, Python, Coding, IoT ]
 image: assets/images/pico_traffic_lights_main.jpg
 author: simon
 ---
-If you're a long time reader here, you'll know that my favourite way to compare and contrast support for different programming languages on the Rasperry Pi single board computers has been to attach a set of Low Voltage Labs traffic lights to the GPIO pins and write a small program that runs them through the UK traffic light sequence.
+If you're a long time reader here, you'll know that my favourite way to compare and contrast support for different programming languages on the Raspberry Pi single board computers has been to attach a set of Low Voltage Labs traffic lights to the GPIO pins and write a small program that runs them through the UK traffic light sequence.
 
 I've been a big fan of the Raspberry Pi Pico board ever since its first release back in 2021.  Rather than being a single board computer that you install an operating system on, the Pico is a microcontroller akin to the Arduino series of boards.  Raspberry Pi did a great job of writing documentation and SDKs for programming the Pico in C (and subsequent W version that added wifi/bluetooth, then more recently the more powerful Pico 2 and 2W) and the MicroPython project was also quick to make a MicroPython runtime available for it.  Adafruit also ported their CircuitPython fork to the Pico.  
 
