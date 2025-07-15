@@ -152,9 +152,7 @@ Here's the final program in full:
 
 ## Wrapping Up
 
-TODO
-
-I’ve put the [full source code on GitHub](https://github.com/simonprickett/pi-pico-traffic-lights) for your enjoyment.
+And that's the end of our little three-in-one tour of different ways to program the traffic lights on the Raspberry Pi Pico.  I’ve put the [full source code on GitHub](https://github.com/simonprickett/pi-pico-traffic-lights) for your enjoyment.  If C or Python aren't your thing, you might want to try the [Kaluma](https://kalumajs.org/) runtime to code in JavaScript or you could give [Rust](https://www.raspberrypi.com/news/rust-on-rp2350/) a go.  Maybe I'll look at these alternatives here in future too!
 
 ---
 
