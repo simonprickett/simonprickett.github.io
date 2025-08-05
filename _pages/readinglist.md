@@ -17,7 +17,7 @@ permalink: "/readinglist/"
             <p>Support your local library - I've read most of these books thanks to <a href="https://www.nottinghamcitylibraries.co.uk/" target="_blank">Nottingham City Libraries</a>.</p>
             <p>I'm also always looking out for book suggestions - <a href="/contact">get in touch</a> if you have ideas!</p>
             <hr/>
-            <p><i>Last Updated: August ??th 2025.</i></p>
+            <p><i>Last Updated: August 5th 2025.</i></p>
             <hr/>
             <ol>
                 <li><a href="https://www.goodreads.com/book/show/60417483-trespasses" target="_blank"><b>Trespasses</b> - <i>Louise Kennedy</i></a></li>  
