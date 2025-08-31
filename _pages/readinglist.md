@@ -17,9 +17,10 @@ permalink: "/readinglist/"
             <p>Support your local library - I've read most of these books thanks to <a href="https://www.nottinghamcitylibraries.co.uk/" target="_blank">Nottingham City Libraries</a>.</p>
             <p>I'm also always looking out for book suggestions - <a href="/contact">get in touch</a> if you have ideas!</p>
             <hr/>
-            <p><i>Last Updated: August 28th 2025.</i></p>
+            <p><i>Last Updated: August 31st 2025.</i></p>
             <hr/>
             <ol>
+                <li><a href="https://www.goodreads.com/book/show/6288.The_Road" target="_blank"><b>The Road</b> - <i>Cormac McCarthy</i></a></li> 
                 <li><a href="https://www.goodreads.com/book/show/57566620-the-broch" target="_blank"><b>The Broch</b> - <i>Graham Bullen</i></a></li> 
                 <li><a href="https://www.goodreads.com/book/show/43406797-the-pine-islands" target="_blank"><b>The Pine Islands</b> - <i>Marion Poschmann</i></a></li>  
                 <li><a href="https://www.goodreads.com/book/show/22822858-a-little-life" target="_blank"><b>A Little Life</b> - <i>Hanya Yanagihara</i></a></li>   
@@ -29,7 +30,6 @@ permalink: "/readinglist/"
                 <li><a href="https://www.goodreads.com/book/show/126033230-pity" target="_blank"><b>Pity</b> - <i>Andrew McMillan</i></a></li>  
                 <li><a href="https://www.goodreads.com/en/book/show/181386271-to-the-dogs" target="_blank"><b>To The Dogs</b> - <i>Louise Welsh</i></a></li> 
                 <li><a href="https://www.goodreads.com/book/show/217163697-my-friends" target="_blank"><b>My Friends</b> - <i>Fredrik Backman</i></a></li> 
-                <li><a href="https://www.goodreads.com/book/show/219520685-a-beautiful-family" target="_blank"><b>A Beautiful Family</b> - <i>Jennifer Trevelyan</i></a></li> 
             </ol>
             <hr/>
             <p><i>Photo by <a href="https://www.pexels.com/photo/books-on-wooden-shelves-inside-library-2908984/" target="_blank">Stanislav Kondratiev</a> on Pexels.</i></p>
