@@ -17,9 +17,10 @@ permalink: "/readinglist/"
             <p>Support your local library - I've read most of these books thanks to <a href="https://www.nottinghamcitylibraries.co.uk/" target="_blank">Nottingham City Libraries</a>.</p>
             <p>I'm also always looking out for book suggestions - <a href="/contact">get in touch</a> if you have ideas!</p>
             <hr/>
-            <p><i>Last Updated: September 5th 2025.</i></p>
+            <p><i>Last Updated: September 10th 2025.</i></p>
             <hr/>
             <ol>
+                <li><a href="https://www.goodreads.com/book/show/52397.Parable_of_the_Sower" target="_blank"><b>Parable of the Sower</b> - <i>Octavia E. Butler</i></a></li> 
                 <li><a href="https://www.goodreads.com/book/show/204640265-wake-up-and-open-your-eyes" target="_blank"><b>Wake Up and Open Your Eyes</b> - <i>Clay McLeod Chapman</i></a></li> 
                 <li><a href="https://www.goodreads.com/book/show/6288.The_Road" target="_blank"><b>The Road</b> - <i>Cormac McCarthy</i></a></li> 
                 <li><a href="https://www.goodreads.com/book/show/57566620-the-broch" target="_blank"><b>The Broch</b> - <i>Graham Bullen</i></a></li> 
@@ -29,7 +30,6 @@ permalink: "/readinglist/"
                 <li><a href="https://www.goodreads.com/book/show/495358.The_Warmest_December" target="_blank"><b>The Warmest December</b> - <i>Bernice L. McFadden</i></a></li>   
                 <li><a href="https://www.goodreads.com/book/show/60417483-trespasses" target="_blank"><b>Trespasses</b> - <i>Louise Kennedy</i></a></li>  
                 <li><a href="https://www.goodreads.com/book/show/126033230-pity" target="_blank"><b>Pity</b> - <i>Andrew McMillan</i></a></li>  
-                <li><a href="https://www.goodreads.com/en/book/show/181386271-to-the-dogs" target="_blank"><b>To The Dogs</b> - <i>Louise Welsh</i></a></li> 
             </ol>
             <hr/>
             <p><i>Photo by <a href="https://www.pexels.com/photo/books-on-wooden-shelves-inside-library-2908984/" target="_blank">Stanislav Kondratiev</a> on Pexels.</i></p>
