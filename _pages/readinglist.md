@@ -17,9 +17,10 @@ permalink: "/readinglist/"
             <p>Support your local library - I've read most of these books thanks to <a href="https://www.nottinghamcitylibraries.co.uk/" target="_blank">Nottingham City Libraries</a>.</p>
             <p>I'm also always looking out for book suggestions - <a href="/contact">get in touch</a> if you have ideas!</p>
             <hr/>
-            <p><i>Last Updated: September 23rd 2025.</i></p>
+            <p><i>Last Updated: September 25th 2025.</i></p>
             <hr/>
             <ol>
+                <li><a href="https://www.goodreads.com/book/show/199295788-more-days-at-the-morisaki-bookshop" target="_blank"><b>More Days at the Morisaki Bookshop</b> - <i>Satoshi Yagisawa</i></a></li>  
                 <li><a href="https://www.goodreads.com/book/show/208931300-intermezzo" target="_blank"><b>Intermezzo</b> - <i>Sally Rooney</i></a></li>  
                 <li><a href="https://www.goodreads.com/book/show/52397.Parable_of_the_Sower" target="_blank"><b>Parable of the Sower</b> - <i>Octavia E. Butler</i></a></li> 
                 <li><a href="https://www.goodreads.com/book/show/204640265-wake-up-and-open-your-eyes" target="_blank"><b>Wake Up and Open Your Eyes</b> - <i>Clay McLeod Chapman</i></a></li> 
@@ -29,7 +30,6 @@ permalink: "/readinglist/"
                 <li><a href="https://www.goodreads.com/book/show/22822858-a-little-life" target="_blank"><b>A Little Life</b> - <i>Hanya Yanagihara</i></a></li>   
                 <li><a href="https://www.goodreads.com/book/show/11225026-gathering-of-waters" target="_blank"><b>Gathering of Waters</b> - <i>Bernice L. McFadden</i></a></li>   
                 <li><a href="https://www.goodreads.com/book/show/495358.The_Warmest_December" target="_blank"><b>The Warmest December</b> - <i>Bernice L. McFadden</i></a></li>   
-                <li><a href="https://www.goodreads.com/book/show/60417483-trespasses" target="_blank"><b>Trespasses</b> - <i>Louise Kennedy</i></a></li>  
             </ol>
             <hr/>
             <p><i>Photo by <a href="https://www.pexels.com/photo/books-on-wooden-shelves-inside-library-2908984/" target="_blank">Stanislav Kondratiev</a> on Pexels.</i></p>
