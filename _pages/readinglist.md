@@ -17,9 +17,11 @@ permalink: "/readinglist/"
             <p>Support your local library - I've read most of these books thanks to <a href="https://www.nottinghamcitylibraries.co.uk/" target="_blank">Nottingham City Libraries</a>.</p>
             <p>I'm also always looking out for book suggestions - <a href="/contact">get in touch</a> if you have ideas!</p>
             <hr/>
-            <p><i>Last Updated: October 24th 2025.</i></p>
+            <p><i>Last Updated: October 31st 2025.</i></p>
             <hr/>
             <ol>
+                 <li><a href="https://www.goodreads.com/book/show/223238642-analog-days" target="_blank"><b>Analog Days</b> - <i>Damion Searls</i></a></li>
+                <li><a href="https://www.goodreads.com/book/show/60784757-birnam-wood" target="_blank"><b>Birnham Wood</b> - <i>Eleanor Catton</i></a></li>
                 <li><a href="https://www.goodreads.com/book/show/223361732-the-night-that-finds-us-all" target="_blank"><b>The Night That Finds Us All</b> - <i>John Hornor Jacobs</i></a></li>
                 <li><a href="https://www.goodreads.com/book/show/207571131-diet-soda-club" target="_blank"><b>Diet Soda Club</b> - <i>Chaz Hayden</i></a></li> 
                 <li><a href="https://www.goodreads.com/book/show/12700353-me-and-earl-and-the-dying-girl" target="_blank"><b>Me and Earl and the Dying Girl</b> - <i>Jesse Andrews</i></a></li> 
@@ -27,9 +29,7 @@ permalink: "/readinglist/"
                 <li><a href="https://www.goodreads.com/book/show/217387673-the-nimbus" target="_blank"><b>The Nimbus</b> - <i>Robert P. Baird</i></a></li>  
                 <li><a href="https://www.goodreads.com/book/show/35489159-lawn-boy" target="_blank"><b>Lawn Boy</b> - <i>Jonathan Evison</i></a></li>   
                 <li><a href="https://www.goodreads.com/book/show/217388015-automatic-noodle" target="_blank"><b>Automatic Noodle</b> - <i>Annalee Newitz</i></a></li>   
-                <li><a href="https://www.goodreads.com/book/show/199295788-more-days-at-the-morisaki-bookshop" target="_blank"><b>More Days at the Morisaki Bookshop</b> - <i>Satoshi Yagisawa</i></a></li>  
-                <li><a href="https://www.goodreads.com/book/show/208931300-intermezzo" target="_blank"><b>Intermezzo</b> - <i>Sally Rooney</i></a></li>  
-                <li><a href="https://www.goodreads.com/book/show/52397.Parable_of_the_Sower" target="_blank"><b>Parable of the Sower</b> - <i>Octavia E. Butler</i></a></li>  
+                <li><a href="https://www.goodreads.com/book/show/199295788-more-days-at-the-morisaki-bookshop" target="_blank"><b>More Days at the Morisaki Bookshop</b> - <i>Satoshi Yagisawa</i></a></li>      
             </ol>
             <hr/>
             <p><i>Photo by <a href="https://www.pexels.com/photo/books-on-wooden-shelves-inside-library-2908984/" target="_blank">Stanislav Kondratiev</a> on Pexels.</i></p>
