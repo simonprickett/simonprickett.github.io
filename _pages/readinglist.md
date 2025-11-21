@@ -17,9 +17,10 @@ permalink: "/readinglist/"
             <p>Support your local library - I've read most of these books thanks to <a href="https://www.nottinghamcitylibraries.co.uk/" target="_blank">Nottingham City Libraries</a>.</p>
             <p>I'm also always looking out for book suggestions - <a href="/contact">get in touch</a> if you have ideas!</p>
             <hr/>
-            <p><i>Last Updated: November 16th 2025.</i></p>
+            <p><i>Last Updated: November 21st 2025.</i></p>
             <hr/>
             <ol>
+                <li><a href="https://www.goodreads.com/en/book/show/43565369-the-topeka-school" target="_blank"><b>The Topeka School</b> - <i>Ben Lerner</i></a></li>  
                 <li><a href="https://www.goodreads.com/book/show/216948295-the-boy-from-the-sea" target="_blank"><b>The Boy From The Sea</b> - <i>Garrett Carr</i></a></li>     
                 <li><a href="https://www.goodreads.com/book/show/219343464-slags" target="_blank"><b>Slags</b> - <i>Emma Jane Unsworth</i></a></li> 
                 <li><a href="https://www.goodreads.com/book/show/225819299-and-i-ll-take-out-your-eyes" target="_blank"><b>And I'll Take Out Your Eyes</b> - <i>A. M. Sosa</i></a></li>      
@@ -29,7 +30,6 @@ permalink: "/readinglist/"
                 <li><a href="https://www.goodreads.com/book/show/207571131-diet-soda-club" target="_blank"><b>Diet Soda Club</b> - <i>Chaz Hayden</i></a></li> 
                 <li><a href="https://www.goodreads.com/book/show/12700353-me-and-earl-and-the-dying-girl" target="_blank"><b>Me and Earl and the Dying Girl</b> - <i>Jesse Andrews</i></a></li> 
                 <li><a href="https://www.goodreads.com/book/show/18075234-challenger-deep" target="_blank"><b>Challenger Deep</b> - <i>Neal Shusterman</i></a></li>   
-                <li><a href="https://www.goodreads.com/book/show/217387673-the-nimbus" target="_blank"><b>The Nimbus</b> - <i>Robert P. Baird</i></a></li>  
             </ol>
             <hr/>
             <p><i>Photo by <a href="https://www.pexels.com/photo/books-on-wooden-shelves-inside-library-2908984/" target="_blank">Stanislav Kondratiev</a> on Pexels.</i></p>
