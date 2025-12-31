@@ -2,7 +2,7 @@
 layout: post
 title:  "Building the Lego Creator Land Rover Defender Set"
 categories: [ Lego, Hobbies ]
-image: assets/images/lego_defender_main.jpg
+image: assets/images/lego_defender_main.webp
 author: simon
 ---
 
@@ -27,37 +27,37 @@ And here's some still pictures of the finished product:
 <div class="slick-carousel">
     <div>
         <figure class="figure">
-        <img src="{{ site.baseurl }}/assets/images/lego_defender_1.jpg" class="figure-img img-fluid" alt="Side view - hard to say which side is the driver side as she sits in the middle!">
+        <img src="{{ site.baseurl }}/assets/images/lego_defender_1.webp" class="figure-img img-fluid" alt="Side view - hard to say which side is the driver side as she sits in the middle!">
         <figcaption class="figure-caption text-center">Side view - hard to say which side is the driver side as she sits in the middle!</figcaption>
         </figure>
     </div>
     <div>
         <figure class="figure">
-        <img src="{{ site.baseurl }}/assets/images/lego_defender_2.jpg" class="figure-img img-fluid" alt="Front view of Lego Land Rover Defender.">
+        <img src="{{ site.baseurl }}/assets/images/lego_defender_2.webp" class="figure-img img-fluid" alt="Front view of Lego Land Rover Defender.">
         <figcaption class="figure-caption text-center">Front view.</figcaption>
         </figure>
     </div>
     <div>
         <figure class="figure">
-        <img src="{{ site.baseurl }}/assets/images/lego_defender_3.jpg" class="figure-img img-fluid" alt="The other side view.">
+        <img src="{{ site.baseurl }}/assets/images/lego_defender_3.webp" class="figure-img img-fluid" alt="The other side view.">
         <figcaption class="figure-caption text-center">The other side view.</figcaption>
         </figure>
     </div>
     <div>
         <figure class="figure">
-        <img src="{{ site.baseurl }}/assets/images/lego_defender_4.jpg" class="figure-img img-fluid" alt="Rear view with spare wheel.">
+        <img src="{{ site.baseurl }}/assets/images/lego_defender_4.webp" class="figure-img img-fluid" alt="Rear view with spare wheel.">
         <figcaption class="figure-caption text-center">Rear view with spare wheel.</figcaption>
         </figure>
     </div>
     <div>
         <figure class="figure">
-        <img src="{{ site.baseurl }}/assets/images/lego_defender_5.jpg" class="figure-img img-fluid" alt="Straight on side view.">
+        <img src="{{ site.baseurl }}/assets/images/lego_defender_5.webp" class="figure-img img-fluid" alt="Straight on side view.">
         <figcaption class="figure-caption text-center">Straight on side view.</figcaption>
         </figure>
     </div>
     <div>
         <figure class="figure">
-        <img src="{{ site.baseurl }}/assets/images/lego_defender_6.jpg" class="figure-img img-fluid" alt="The box for the Defender kit.">
+        <img src="{{ site.baseurl }}/assets/images/lego_defender_6.webp" class="figure-img img-fluid" alt="The box for the Defender kit.">
         <figcaption class="figure-caption text-center">The box for the Defender kit.</figcaption>
         </figure>
     </div>
@@ -66,14 +66,14 @@ And here's some still pictures of the finished product:
 Lego's online missing parts service was easy to use, and I was quickly able to identify the part using their inventory system and place a (free) order for replacement:
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/lego_defender_customer_service.png" alt="Ordering a replacement piece online.">
+  <img src="{{ site.baseurl }}/assets/images/lego_defender_customer_service.webp" alt="Ordering a replacement piece online.">
   <figcaption class="figure-caption text-center">Ordering a replacement piece online.</figcaption>
 </figure>
 
 It arrived a few days later with a nice letter and all was good!
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/lego_defender_piece_arrives.jpg" alt="The missing piece arrives, with a nice letter from Lego.">
+  <img src="{{ site.baseurl }}/assets/images/lego_defender_piece_arrives.webp" alt="The missing piece arrives, with a nice letter from Lego.">
   <figcaption class="figure-caption text-center">The missing piece arrives, with a nice letter from Lego.</figcaption>
 </figure>
 

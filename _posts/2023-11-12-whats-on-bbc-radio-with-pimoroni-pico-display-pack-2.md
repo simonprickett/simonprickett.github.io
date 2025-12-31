@@ -2,7 +2,7 @@
 layout: post
 title:  "What's on BBC Radio with Pimoroni Pico Display Pack 2"
 categories: [ IoT, Coding, Raspberry Pi, Python ]
-image: assets/images/bbcradio_main.jpg
+image: assets/images/bbcradio_main.webp
 author: simon
 ---
 At home in our kitchen we have an Amazon Echo Show device that we use for a few things.  When cooking, it's handy to be able to yell out "Alexa, set timer 15 minutes" so that we can keep track of how long something needs.  The primary thing we use the Echo Show for is accessing digital / online radio stations.  
@@ -14,21 +14,21 @@ Something that really annoys me about this otherwise excellent way of listening 
 This seems like a big omission that should be easy for the BBC to fix.  They have the information available, as I can see it on the BBC Sounds desktop web browser implementation.  Here's what it looks like on the Echo Show:
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/bbcradio_echo_six_music.jpg" alt="What's playing on BBC 6 Music?  Who knows!">
+  <img src="{{ site.baseurl }}/assets/images/bbcradio_echo_six_music.webp" alt="What's playing on BBC 6 Music?  Who knows!">
   <figcaption class="figure-caption text-center">What's playing on BBC 6 Music?  Who knows!</figcaption>
 </figure>
 
 But you have the data BBC, so this just seems like really lazy coding for the Echo...
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/bbcradio_sounds_web.png" alt="BBC Sounds web showing the current artist and track information.">
+  <img src="{{ site.baseurl }}/assets/images/bbcradio_sounds_web.webp" alt="BBC Sounds web showing the current artist and track information.">
   <figcaption class="figure-caption text-center">Hmmm, we have the data...</figcaption>
 </figure>
 
 Other radio stations can get this right, for example when we're listening to an Absolute Radio station they almost always display the current song title and artist:
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/bbcradio_echo_absolute.jpg" alt="Absolute Radio 00's manages to show what's playing just fine!">
+  <img src="{{ site.baseurl }}/assets/images/bbcradio_echo_absolute.webp" alt="Absolute Radio 00's manages to show what's playing just fine!">
   <figcaption class="figure-caption text-center">Absolute Radio 00's manages to show what's playing just fine!</figcaption>
 </figure>
 

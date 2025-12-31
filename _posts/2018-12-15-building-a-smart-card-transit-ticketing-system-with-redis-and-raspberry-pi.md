@@ -2,7 +2,7 @@
 layout: post
 title:  "Building a Smart Card Transit Ticketing System with Redis and Raspberry Pi"
 categories: [ Python, Redis, IoT, Raspberry Pi, Node.js, Coding ]
-image: assets/images/redis_transit_main.jpg
+image: assets/images/redis_transit_main.webp
 author: simon
 ---
 Recently I was looking for an excuse to try out the [hosted Redis database service](https://redislabs.com/redis-enterprise-deployment/) from Redis Labs. I co-incidentally found out that Monk Makes produce a [smart card kit](https://www.monkmakes.com/cck/) for the Raspberry Pi at a really nice price. This got me thinking about how I might get to play around with both of these things together. It didn’t take me long to cook up the idea of building out a smart card ticket vending and checking system such as you might find employed by various railways around the world.
@@ -40,7 +40,7 @@ Let’s take a look at each component of the system in turn.
 7. The system monitor consumes messages from the various pub/sub topics and outputs information about the state of the system based on the data in the messages. It does not use the database part of Redis at all.
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/redis_transit_architecture.jpg" class="figure-img img-fluid" alt="High Level System Architecture.">
+  <img src="{{ site.baseurl }}/assets/images/redis_transit_architecture.webp" class="figure-img img-fluid" alt="High Level System Architecture.">
   <figcaption class="figure-caption text-center">High Level System Architecture.</figcaption>
 </figure>
 
@@ -49,7 +49,7 @@ So that I didn’t have to run or provision extra hardware for my project, I cho
 For this project I used the Redis clients for Python and Node.js as well as the graphical [Redis Commander](https://www.npmjs.com/package/redis-commander) to view the state of the database more easily.  2019 update - you could also now use Redis Labs [RedisInsight](https://redislabs.com/redisinsight/) graphical tool too.
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/redis_transit_commander.png" class="figure-img img-fluid" alt="Redis Commander.">
+  <img src="{{ site.baseurl }}/assets/images/redis_transit_commander.webp" class="figure-img img-fluid" alt="Redis Commander.">
   <figcaption class="figure-caption text-center">Redis Commander viewing Redis Labs Cloud Redis Database.</figcaption>
 </figure>
 
@@ -67,14 +67,14 @@ For this project I used the Redis clients for Python and Node.js as well as the 
 The final product looks like this (the Raspberry Pi is taped onto the rear of the foam board):
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/redis_transit_sales_terminal.jpg" class="figure-img img-fluid" alt="Sales Terminal Component.">
+  <img src="{{ site.baseurl }}/assets/images/redis_transit_sales_terminal.webp" class="figure-img img-fluid" alt="Sales Terminal Component.">
   <figcaption class="figure-caption text-center">Sales Terminal Component.</figcaption>
 </figure>
 
 Here’s a rough diagram of how it is wired together... I don’t have a yellow pen, so used blue to represent the yellow button :)
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/redis_transit_sales_wiring.jpg" class="figure-img img-fluid" alt="Sales Terminal Component Wiring.">
+  <img src="{{ site.baseurl }}/assets/images/redis_transit_sales_wiring.webp" class="figure-img img-fluid" alt="Sales Terminal Component Wiring.">
   <figcaption class="figure-caption text-center">Ticket Sales component high level wiring diagram (blue doesn’t show up particularly well :/).</figcaption>
 </figure>
 
@@ -83,7 +83,7 @@ The three arcade buttons share a common ground connection to the Pi’s GPIO hea
 Here’s some of the cards that came with the kit. I wrote numbers on them for easy identification. The longer numbers written next to each are their ID numbers — I used Python software from the Monk Makes kit to read these values before writing my own software for the sales terminal.
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/redis_transit_smart_cards.jpg" class="figure-img img-fluid" alt="Smart Cards, identified by their serial numbers.">
+  <img src="{{ site.baseurl }}/assets/images/redis_transit_smart_cards.webp" class="figure-img img-fluid" alt="Smart Cards, identified by their serial numbers.">
   <figcaption class="figure-caption text-center">Smart Cards, identified by their serial numbers.</figcaption>
 </figure>
 
@@ -306,14 +306,14 @@ The entry gate uses similar components to the sales terminal with a couple of di
 The completed entry gate looks like this:
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/redis_transit_entry_gate.jpg" class="figure-img img-fluid" alt="The Entry Gate component.">
+  <img src="{{ site.baseurl }}/assets/images/redis_transit_entry_gate.webp" class="figure-img img-fluid" alt="The Entry Gate component.">
   <figcaption class="figure-caption text-center">The Entry Gate component.</figcaption>
 </figure>
 
 The wiring for the card reader is the same seven connection arrangement as used in the sales terminal component and documented in the kit. The traffic lights come pre-assembled with a common ground and just press onto a row of four GPIO pins, so long as the bottom one of the four is a ground pin. There’s no soldering required for this component.
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/redis_transit_gate_wiring.jpg" class="figure-img img-fluid" alt="Entry gate component high level wiring diagram.">
+  <img src="{{ site.baseurl }}/assets/images/redis_transit_gate_wiring.webp" class="figure-img img-fluid" alt="Entry gate component high level wiring diagram.">
   <figcaption class="figure-caption text-center">Entry gate component high level wiring diagram (blue doesn’t show up particularly well :/).</figcaption>
 </figure>
 
@@ -462,7 +462,7 @@ The system monitor is very simple and uses a couple of modules from npm:
 When running it looks like this:
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/redis_transit_monitor.png" class="figure-img img-fluid" alt="The System Monitor component running.">
+  <img src="{{ site.baseurl }}/assets/images/redis_transit_monitor.webp" class="figure-img img-fluid" alt="The System Monitor component running.">
   <figcaption class="figure-caption text-center">The System Monitor component running.</figcaption>
 </figure>
 

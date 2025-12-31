@@ -2,7 +2,7 @@
 layout: post
 title:  "A Look at Server Sent Events"
 categories: [ JavaScript, Node.js, HTML5, Front End, Coding ]
-image: assets/images/sse_main.jpg
+image: assets/images/sse_main.webp
 author: simon
 tags: [featured]
 ---
@@ -27,7 +27,7 @@ The server receives a regular HTTP request from the client (these should pass th
 Every time that the server writes an event to the HTTP response, the client will receive it and process it in a listener callback function. The flow of events looks roughly like this:
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/sse_arch.png" class="figure-img img-fluid" alt="Flow of events between Client and Server.">
+  <img src="{{ site.baseurl }}/assets/images/sse_arch.webp" class="figure-img img-fluid" alt="Flow of events between Client and Server.">
   <figcaption class="figure-caption text-center">Flow of events between Client and Server.</figcaption>
 </figure>
 
@@ -192,7 +192,7 @@ Server Sent Events are supported in the major browsers (Chrome, Firefox, Safari)
 Chrome currently appears to have the best debugging support — if you select an XHR request that is receiving Server Sent Events in the Network tab, it will format the messages for you and display them in a table:
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/sse_debugging.png" class="figure-img img-fluid" alt="Debugging Server Sent Events in the Chrome Browser.">
+  <img src="{{ site.baseurl }}/assets/images/sse_debugging.webp" class="figure-img img-fluid" alt="Debugging Server Sent Events in the Chrome Browser.">
   <figcaption class="figure-caption text-center">Debugging Server Sent Events in the Chrome Browser.</figcaption>
 </figure>
 

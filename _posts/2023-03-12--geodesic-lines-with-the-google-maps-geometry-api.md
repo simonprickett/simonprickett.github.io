@@ -2,7 +2,7 @@
 layout: post
 title:  "Geodesic Lines with the Google Maps Geometry API"
 categories: [ JavaScript, Coding, Front End, Google Maps ]
-image: assets/images/geodesic_maps_main.jpg
+image: assets/images/geodesic_maps_main.webp
 author: simon
 ---
 Who doesn't like a good map?  I've always enjoyed working with data that lends itself to mapping, and have built a few interactive things with the Google Maps API before.  I'm also pretty interested in aviation and, as part of that, I keep a note of which airports I've flown between, which airlines and what type of aircraft I've travelled on.
@@ -10,7 +10,7 @@ Who doesn't like a good map?  I've always enjoyed working with data that lends i
 I thought it would be fun to use this as a data set to experiment with the [Google Maps Geometry API](https://developers.google.com/maps/documentation/javascript/geometry) and put a picture of my [favourite aircraft](https://en.wikipedia.org/wiki/Airbus_A340) on my website, so here we go...
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/geodesic_maps_a340_300.jpg" class="figure-img img-fluid" alt="An Airbus A340-300 aircraft.">
+  <img src="{{ site.baseurl }}/assets/images/geodesic_maps_a340_300.webp" class="figure-img img-fluid" alt="An Airbus A340-300 aircraft.">
   <figcaption class="figure-caption text-center">An Airbus A340-300 aircraft.</figcaption>
 </figure>
 
@@ -19,7 +19,7 @@ Side note: If you want to try an A340-300 flight these days, [Lufthansa](https:/
 Airlines generally have maps of their route networks towards the back of the in flight magazine, or as posters in travel agencies (remember those?!).  I wanted to make something like this to maintain and share a record of places I've flown from/to as if I were an airline myself.  For example here's a classic map for Pan American airlines:
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/geodesic_maps_route_network.jpg" class="figure-img img-fluid" alt="Map of part of Pan American Airlines Route Network.">
+  <img src="{{ site.baseurl }}/assets/images/geodesic_maps_route_network.webp" class="figure-img img-fluid" alt="Map of part of Pan American Airlines Route Network.">
   <figcaption class="figure-caption text-center">Map of part of Pan American Airlines Route Network.</figcaption>
 </figure>
 
@@ -88,7 +88,7 @@ Try moving around the map and clicking on different airports.  Clicking on an ai
 I love the way this looks as you zoom in and move around it.  Here's the view of "my United States network":
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/geodesic_maps_usa_network.png" class="figure-img img-fluid" alt="A view of the USA network.">
+  <img src="{{ site.baseurl }}/assets/images/geodesic_maps_usa_network.webp" class="figure-img img-fluid" alt="A view of the USA network.">
   <figcaption class="figure-caption text-center">A view of the USA network.</figcaption>
 </figure>
 
@@ -129,7 +129,7 @@ Your key is a secret, but it's going to have to be shared - you'll need to put i
 To stop others from misusing your key for their own purposes, you should give the key a meaningful name in your Google account so that you know what it's for, then also restrict the key's scope:
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/geodesic_maps_api_key.png" class="figure-img img-fluid" alt="Restricting the Google Maps API key.">
+  <img src="{{ site.baseurl }}/assets/images/geodesic_maps_api_key.webp" class="figure-img img-fluid" alt="Restricting the Google Maps API key.">
   <figcaption class="figure-caption text-center">Restricting the Google Maps API key.</figcaption>
 </figure>
 

@@ -2,7 +2,7 @@
 layout: post
 title:  "Exploring JavaScript Generators with Redis Sets"
 categories: [ JavaScript, Node.js, Redis, Coding ]
-image: assets/images/jsgenerator_main.jpg
+image: assets/images/jsgenerator_main.webp
 author: simon
 ---
 Back in October 2019, I attended the [San Diego JS](https://www.sandiegojs.org/) "Fundamental JS" meetup where one of the talks was about generator functions.  After the talk I decided to see if I could use a generator function to iterate over the members of a set stored in Redis.  I wrote some code in Node.js, and never quite got around to writing about it until now...
@@ -31,14 +31,14 @@ The value returned by the generator function is an object containing two keys: `
 Let's quickly look at a simple example of a generator function that yields a number each time it runs, until it has nothing new to yield.  The code below will yield the numbers 0-5 inclusive, before falling off the end of the function and returning rather than yielding:
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/jsgenerator_generatenumbers.png" class="figure-img img-fluid" alt="Code for a simple generator example.">
+  <img src="{{ site.baseurl }}/assets/images/jsgenerator_generatenumbers.webp" class="figure-img img-fluid" alt="Code for a simple generator example.">
   <figcaption class="figure-caption text-center">A simple generator example.</figcaption>
 </figure>
 
 Each call to the generator's iterator - `next()` causes the code to run until a `yield` statement.  The first five times this happens, the value of `n` is yielded, and on the sixth iteration the code falls out of the `for` loop and returns like a normal function.  This causes the object returned from the generator function to have `done` set to `false`, and the code to exit.  Here's what happens when we run this simple generator script:
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/jsgenerator_running_generate_numbers.png" class="figure-img img-fluid" alt="Example generator code.">
+  <img src="{{ site.baseurl }}/assets/images/jsgenerator_running_generate_numbers.webp" class="figure-img img-fluid" alt="Example generator code.">
   <figcaption class="figure-caption text-center">Output from running the example code.</figcaption>
 </figure>
 
@@ -51,7 +51,7 @@ A use case that I immediately saw generators being a good fit for was retrieval 
 Redis supports sets as a data type, which models the mathematical concept of a set.  New member values can be added to a set with the `SADD` command, and any duplicates will be removed.  Here's a basic demo of this using `redis-cli` to store and retrieve a set of candy bar names:
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/jsgenerator_candybars.png" class="figure-img img-fluid" alt="Set example in Redis.">
+  <img src="{{ site.baseurl }}/assets/images/jsgenerator_candybars.webp" class="figure-img img-fluid" alt="Set example in Redis.">
   <figcaption class="figure-caption text-center">Creating a set in Redis.</figcaption>
 </figure>
 
@@ -72,7 +72,7 @@ To provide a more performant solution for large sets, Redis provides the `SSCAN`
 Let's look at this with a slightly larger set example.  This time we'll add a few more members to a set called `usernames` and use the `SSCAN` command to retrieve them all.  Starting with cursor value 0, we then use the cursor value returned by Redis in the next `SSCAN` call, until we receive 0 back again:
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/jsgenerator_sscan.png" class="figure-img img-fluid" alt="SSCAN example with Redis.">
+  <img src="{{ site.baseurl }}/assets/images/jsgenerator_sscan.webp" class="figure-img img-fluid" alt="SSCAN example with Redis.">
   <figcaption class="figure-caption text-center">SSCAN example with Redis.</figcaption>
 </figure>
 
@@ -85,7 +85,7 @@ I figured that implementing a Redis set scan as a generator was a good idea beca
 Running this script will create an example set in Redis and populate it with some sample data values.  It then repeatedly calls the generator's iterator (`next()`), receiving multiple set members back from Redis on each call then terminating when no more remain:
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/jsgenerator_redis_output.png" class="figure-img img-fluid" alt="Output from the Redis set generator example.">
+  <img src="{{ site.baseurl }}/assets/images/jsgenerator_redis_output.webp" class="figure-img img-fluid" alt="Output from the Redis set generator example.">
   <figcaption class="figure-caption text-center">Output from running the Redis set scanning generator.</figcaption>
 </figure>
 

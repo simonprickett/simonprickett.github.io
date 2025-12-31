@@ -2,7 +2,7 @@
 layout: post
 title:  "New in Cordova 6: App Templates Using Git"
 categories: [ JavaScript, Cordova, GitHub ]
-image: assets/images/cordova_git_main.png
+image: assets/images/cordova_git_main.webp
 author: simon
 ---
 [Apache Cordova version 6.0.0](https://cordova.apache.org/news/2016/01/28/tools-release.html) was released today at [PhoneGap Day 2016 in Utah](http://pgday.phonegap.com/us2016/). Along with the usual bug fixes, platform and plugin upgrades, a new feature was added to the Cordova CLI allowing users to create new apps based from templates hosted at git URLs, on npm or on the local filesystem.
@@ -54,7 +54,7 @@ You can view the template apps here:
 When built and run on iOS, the apps look like this (template 1 to the left, template 2 on the right):
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/cordova_git_compass.png" class="figure-img img-fluid" alt="Example Template App">
+  <img src="{{ site.baseurl }}/assets/images/cordova_git_compass.webp" class="figure-img img-fluid" alt="Example Template App">
 </figure>
 
 ## Using the Template Apps as the Basis of New Apps

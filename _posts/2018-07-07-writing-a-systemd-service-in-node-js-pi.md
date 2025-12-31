@@ -2,7 +2,7 @@
 layout: post
 title:  "Writing a systemd Service in Node.js on Raspberry Pi"
 categories: [ Raspberry Pi, Linux, Node.js, Coding ]
-image: assets/images/systemd_node_pi_main.jpg
+image: assets/images/systemd_node_pi_main.webp
 author: simon
 ---
 Node.js (a server side JavaScript runtime) is a popular choice for writing software on the Raspberry Pi single board computers that run Raspbian (a variant of Debian Linux). Developers often need to have their project’s code start when the operating system boots and stop when it shuts down. Some projects may not be able to run successfully if started too early in the boot process, for example prior to a network connection being established. In this article we’ll look at how to use the Linux System and Service Manager systemd to start a Node.js project automatically at boot.
@@ -83,14 +83,14 @@ http://192.168.1.12:8000
 If the timestamp service is working, you should see a UNIX timestamp in the browser:
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/systemd_node_pi_testing_browser.png" class="figure-img img-fluid" alt="Testing in the browser.">
+  <img src="{{ site.baseurl }}/assets/images/systemd_node_pi_testing_browser.webp" class="figure-img img-fluid" alt="Testing in the browser.">
   <figcaption class="figure-caption text-center">Testing in the browser.</figcaption>
 </figure>
 
 The service should also log to the console:
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/systemd_node_pi_timestamp_console.png" class="figure-img img-fluid" alt="Console output from test.">
+  <img src="{{ site.baseurl }}/assets/images/systemd_node_pi_timestamp_console.webp" class="figure-img img-fluid" alt="Console output from test.">
   <figcaption class="figure-caption text-center">Console output from test.</figcaption>
 </figure>
 
@@ -193,6 +193,6 @@ I’d love to hear what you’re up to with the Raspberry Pi, Node.js or a combi
 **Quiz answer:** The service logs twice because it responds to all requests sent to it. When the browser requests a page it also requests "favicon.ico" and our simple service responds to both requests with a UNIX timestamp. We can see this using the browser’s developer tools...
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/systemd_node_pi_network_tools.png" class="figure-img img-fluid" alt="Two requests are made per page.">
+  <img src="{{ site.baseurl }}/assets/images/systemd_node_pi_network_tools.webp" class="figure-img img-fluid" alt="Two requests are made per page.">
   <figcaption class="figure-caption text-center">Two requests are made per page.</figcaption>
 </figure>

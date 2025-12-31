@@ -2,7 +2,7 @@
 layout: post
 title:  "Writing Google Cloud Functions with Python 3"
 categories: [ Cloud, GCP, Python, Serverless, Coding ]
-image: assets/images/python3_cloud_functions_main.jpg
+image: assets/images/python3_cloud_functions_main.webp
 author: simon
 ---
 This is my third and final article looking at new features in Google Cloud functions as Google starts to narrow the gap to Amazon’s AWS Lambda product. Until recently Node.js 6 was the only option for writing Google Cloud functions. That’s changed now with the addition of Node.js 8 ([read my article]({{ site.baseurl }}/you-can-now-write-google-cloud-functions-with-node-js-8)) and Python 3 runtimes available in public beta. (Later update: you can also now write Cloud functions in Go -- [see my article]({{ site.baseurl }}/writing-google-cloud-functions-in-go)).
@@ -50,14 +50,14 @@ https://<region>-<projectId>.cloudfunctions.net/getUserDetails
 The output looks like this:
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/python3_cloud_functions_output.png" class="figure-img img-fluid" alt="Function output">
+  <img src="{{ site.baseurl }}/assets/images/python3_cloud_functions_output.webp" class="figure-img img-fluid" alt="Function output">
   <figcaption class="figure-caption text-center">Function output.</figcaption>
 </figure>
 
 The Cloud Functions console also shows that the function is using the Python runtime:
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/python3_cloud_functions_console.png" class="figure-img img-fluid" alt="Cloud Functions console">
+  <img src="{{ site.baseurl }}/assets/images/python3_cloud_functions_console.webp" class="figure-img img-fluid" alt="Cloud Functions console">
   <figcaption class="figure-caption text-center">Google Cloud Functions Console.</figcaption>
 </figure>
 

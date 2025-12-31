@@ -2,7 +2,7 @@
 layout: post
 title:  "Plugin Authoring for iOS and Android in Cordova 6"
 categories: [ JavaScript, Cordova, Android, iOS, Coding ]
-image: assets/images/cordova_plugin_main.png
+image: assets/images/cordova_plugin_main.webp
 author: simon
 ---
 Plugins are used with Apache Cordova / Adobe PhoneGap to extend the platform’s functionality so that it can communicate with native device APIs not normally accessible through a web view. There are many plugins available “off the shelf”, however sometimes a new one is needed when nothing suitable can be found. The Cordova platform provides an interface to its JavaScript to native bridge, and a set of classes allowing developers to build their own plugins.
@@ -280,7 +280,7 @@ onDeviceReady: function() {
 Now when we run the test app, we should see “Plugin Ready!”, and a toast pops up for a few seconds if the native code in the plugin is working. We should also expect to see “Hello Plugin” if the pure JavaScript function in the plugin works. A successful test of the plugin looks like this:
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/cordova_plugin_android_working.png" class="figure-img img-fluid" alt="Plugin working on Android.">
+  <img src="{{ site.baseurl }}/assets/images/cordova_plugin_android_working.webp" class="figure-img img-fluid" alt="Plugin working on Android.">
 </figure>
 
 Once we’re satisfied that the Android implementation of our plugin is working properly, we can move on to looking at iOS.
@@ -409,7 +409,7 @@ $ cordova emulate ios
 We should see the same results as we did for Android, the native Toast for iOS looks and behaves slightly differently, but the “Plugin Ready!” and “Hello Plugin” texts should be the same. A successful test for iOS looks like this:
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/cordova_plugin_ios_working.png" class="figure-img img-fluid" alt="Plugin working on iOS.">
+  <img src="{{ site.baseurl }}/assets/images/cordova_plugin_ios_working.webp" class="figure-img img-fluid" alt="Plugin working on iOS.">
 </figure>
 
 ## Extra Plugin Configuration

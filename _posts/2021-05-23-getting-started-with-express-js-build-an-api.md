@@ -2,7 +2,7 @@
 layout: post
 title:  "Getting Started with Express - Building an API: Part 1"
 categories: [Node.js, JavaScript, Coding ]
-image: assets/images/express1_main.jpg
+image: assets/images/express1_main.webp
 author: simon
 ---
 Express is a popular framework for Node.js, intended for use in building web applications and APIs.  In this article and the accompanying video, I'll show you how to get started with it and we'll build a server that mimics some behaviors of a key/value store.  If you're interested in learning more about Express, [check out its website](http://expressjs.com/).
@@ -19,7 +19,7 @@ In this first part of the series, we'll build an Express server that has some AP
 
 <div class="text-center">
   <figure class="figure">
-    <img src="{{ site.baseurl }}/assets/images/express1_kvtable.png" class="figure-img img-fluid" alt="Key Value Table">
+    <img src="{{ site.baseurl }}/assets/images/express1_kvtable.webp" class="figure-img img-fluid" alt="Key Value Table">
     <figcaption class="figure-caption text-center">Key Value Table.</figcaption>
   </figure>
 </div>
@@ -195,14 +195,14 @@ You can try the `GET` routes in a browser, but for the `POST` route you'll need 
 Let's start by setting a key.  With Postman, you'll create a `POST` request, set the URL to `http://localhost:3000/set` and set the body to be "Raw" and "JSON".  The screenshot below shows where these settings are, as well as the content of the JSON body for the request:
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/express1_postman_set1.png" class="figure-img img-fluid" alt="Set operation with Postman">
+  <img src="{{ site.baseurl }}/assets/images/express1_postman_set1.webp" class="figure-img img-fluid" alt="Set operation with Postman">
   <figcaption class="figure-caption text-center">Set operation with Postman.</figcaption>
 </figure>
 
 Click "Send" to submit the request and you should expect to see a 201 Created status code and JSON OK response:
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/express1_postman_set2.png" class="figure-img img-fluid" alt="Results of set operation with Postman">
+  <img src="{{ site.baseurl }}/assets/images/express1_postman_set2.webp" class="figure-img img-fluid" alt="Results of set operation with Postman">
   <figcaption class="figure-caption text-center">Results of set operation with Postman.</figcaption>
 </figure>
 
@@ -221,7 +221,7 @@ $ curl --location --request POST 'http://localhost:3000/set' \
 Now we've set a value, let's try getting it back.  As this is a `GET` request you can use a browser for it:
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/express1_browser_get.png" class="figure-img img-fluid" alt="Get operation with a browser">
+  <img src="{{ site.baseurl }}/assets/images/express1_browser_get.webp" class="figure-img img-fluid" alt="Get operation with a browser">
   <figcaption class="figure-caption text-center">Get operation with a browser.</figcaption>
 </figure>
 
@@ -235,14 +235,14 @@ $ curl --location --request GET 'http://localhost:3000/get/favoritecolor'
 The third and final endpoint allows us to see information about the state of the database.  This is a `GET` request, so let's use the browser.  There are two ways we can call this... first to get basic information:
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/express1_browser_dbinfo1.png" class="figure-img img-fluid" alt="Basic DB information with a browser">
+  <img src="{{ site.baseurl }}/assets/images/express1_browser_dbinfo1.webp" class="figure-img img-fluid" alt="Basic DB information with a browser">
   <figcaption class="figure-caption text-center">Basic DB information with a browser.</figcaption>
 </figure>
 
 And again, with the optional query parameter `details=true` to get more information:
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/express1_browser_dbinfo2.png" class="figure-img img-fluid" alt="Detailed DB information with a browser">
+  <img src="{{ site.baseurl }}/assets/images/express1_browser_dbinfo2.webp" class="figure-img img-fluid" alt="Detailed DB information with a browser">
   <figcaption class="figure-caption text-center">Detailed DB information with a browser.</figcaption>
 </figure>
 

@@ -2,7 +2,7 @@
 layout: post
 title:  "Visiting the Salton Sea"
 categories: [ Travel ]
-image: assets/images/salton_main.jpg
+image: assets/images/salton_main.webp
 author: simon
 ---
 I got in the car, and did a 375 mile round trip to the Salton Sea and back!  To break the monotony of being in the same place since March, I decided to take a day trip East to the Salton Sea - somewhere that I've been to many times before, but not recently.  Normally, I would avoid the area in the May-September timeframe due to the heat out there but given the way things are going this year, it seemed best to live in the moment and just go rather than wait for the cooler part of the year as who knows where we'll be by then...
@@ -42,31 +42,31 @@ The "beach" area is now a dusty dry lakebed, a lot of which is made up of ground
 <div class="slick-carousel">
     <div>
         <figure class="figure">
-        <img src="{{ site.baseurl }}/assets/images/salton_bombay_beach_water_1_swing.jpg" class="figure-img img-fluid" alt="Swing and mailbox in the Sea (for now...)">
+        <img src="{{ site.baseurl }}/assets/images/salton_bombay_beach_water_1_swing.webp" class="figure-img img-fluid" alt="Swing and mailbox in the Sea (for now...)">
         <figcaption class="figure-caption text-center">Swing and mailbox in the Sea (for now...)</figcaption>
         </figure>
     </div>
     <div>
         <figure class="figure">
-        <img src="{{ site.baseurl }}/assets/images/salton_bombay_beach_water_2_waterfront.jpg" class="figure-img img-fluid" alt="Sea shore at Bombay Beach">
+        <img src="{{ site.baseurl }}/assets/images/salton_bombay_beach_water_2_waterfront.webp" class="figure-img img-fluid" alt="Sea shore at Bombay Beach">
         <figcaption class="figure-caption text-center">Sea shore at Bombay Beach.</figcaption>
         </figure>
     </div>
     <div>
         <figure class="figure">
-        <img src="{{ site.baseurl }}/assets/images/salton_bombay_beach_water_3_looking_back.jpg" class="figure-img img-fluid" alt="Looking back from the shore. In 2016 the water was up to the raised area... lots of evaporation">
+        <img src="{{ site.baseurl }}/assets/images/salton_bombay_beach_water_3_looking_back.webp" class="figure-img img-fluid" alt="Looking back from the shore. In 2016 the water was up to the raised area... lots of evaporation">
         <figcaption class="figure-caption text-center">Looking back from the shore. In 2016 the water was up to the raised area... lots of evaporation :(</figcaption>
         </figure>
     </div>
     <div>
         <figure class="figure">
-        <img src="{{ site.baseurl }}/assets/images/salton_bombay_beach_water_4_photoshoot.jpg" class="figure-img img-fluid" alt="Photoshoot on the beach">
+        <img src="{{ site.baseurl }}/assets/images/salton_bombay_beach_water_4_photoshoot.webp" class="figure-img img-fluid" alt="Photoshoot on the beach">
         <figcaption class="figure-caption text-center">Photoshoot on the beach.</figcaption>
         </figure>
     </div>
     <div>
         <figure class="figure">
-        <img src="{{ site.baseurl }}/assets/images/salton_bombay_beach_water_5_all_a_dream.jpg" class="figure-img img-fluid" alt="Sit a while?">
+        <img src="{{ site.baseurl }}/assets/images/salton_bombay_beach_water_5_all_a_dream.webp" class="figure-img img-fluid" alt="Sit a while?">
         <figcaption class="figure-caption text-center">Sit a while?</figcaption>
         </figure>
     </div>
@@ -79,37 +79,37 @@ I hadn't visited for almost a year, so I took a drive around town and shot some 
 <div class="slick-carousel">
     <div>
         <figure class="figure">
-        <img src="{{ site.baseurl }}/assets/images/salton_bombay_beach_art_1_last_stop_billboard.jpg" class="figure-img img-fluid" alt="Billboard as you enter town, glory days!">
+        <img src="{{ site.baseurl }}/assets/images/salton_bombay_beach_art_1_last_stop_billboard.webp" class="figure-img img-fluid" alt="Billboard as you enter town, glory days!">
         <figcaption class="figure-caption text-center">Billboard as you enter town, glory days!</figcaption>
         </figure>
     </div>
     <div>
         <figure class="figure">
-        <img src="{{ site.baseurl }}/assets/images/salton_bombay_beach_art_2_drive_in.jpg" class="figure-img img-fluid" alt="Come visit the drive in movies...">
+        <img src="{{ site.baseurl }}/assets/images/salton_bombay_beach_art_2_drive_in.webp" class="figure-img img-fluid" alt="Come visit the drive in movies...">
         <figcaption class="figure-caption text-center">Come visit the drive in movies...</figcaption>
         </figure>
     </div>
     <div>
         <figure class="figure">
-        <img src="{{ site.baseurl }}/assets/images/salton_bombay_beach_art_3_lodestar.jpg" class="figure-img img-fluid" alt="The Lodestar - first time I've seen this one.">
+        <img src="{{ site.baseurl }}/assets/images/salton_bombay_beach_art_3_lodestar.webp" class="figure-img img-fluid" alt="The Lodestar - first time I've seen this one.">
         <figcaption class="figure-caption text-center">The Lodestar - first time I've seen this one.</figcaption>
         </figure>
     </div>
     <div>
         <figure class="figure">
-        <img src="{{ site.baseurl }}/assets/images/salton_bombay_beach_art_4_metro.jpg" class="figure-img img-fluid" alt="Bombay Beach now conveniently on the Metro system!">
+        <img src="{{ site.baseurl }}/assets/images/salton_bombay_beach_art_4_metro.webp" class="figure-img img-fluid" alt="Bombay Beach now conveniently on the Metro system!">
         <figcaption class="figure-caption text-center">Bombay Beach now conveniently on the Metro system!</figcaption>
         </figure>
     </div>
     <div>
         <figure class="figure">
-        <img src="{{ site.baseurl }}/assets/images/salton_bombay_beach_art_5_beach_star.jpg" class="figure-img img-fluid" alt="Big concrete star on the beach.">
+        <img src="{{ site.baseurl }}/assets/images/salton_bombay_beach_art_5_beach_star.webp" class="figure-img img-fluid" alt="Big concrete star on the beach.">
         <figcaption class="figure-caption text-center">Big concrete(?) star on the beach.</figcaption>
         </figure>
     </div>
     <div>
         <figure class="figure">
-        <img src="{{ site.baseurl }}/assets/images/salton_bombay_beach_art_6_televisions.jpg" class="figure-img img-fluid" alt="Televisions!">
+        <img src="{{ site.baseurl }}/assets/images/salton_bombay_beach_art_6_televisions.webp" class="figure-img img-fluid" alt="Televisions!">
         <figcaption class="figure-caption text-center">Televisions!</figcaption>
         </figure>
     </div>
@@ -122,19 +122,19 @@ After spending a while looking at the art installations of Bombay Beach, I got b
 <div class="slick-carousel">
     <div>
         <figure class="figure">
-        <img src="{{ site.baseurl }}/assets/images/salton_mecca_beach_hotdog.jpg" class="figure-img img-fluid" alt="Hotdogs and Aeropress Coffee at Mecca Beach">
+        <img src="{{ site.baseurl }}/assets/images/salton_mecca_beach_hotdog.webp" class="figure-img img-fluid" alt="Hotdogs and Aeropress Coffee at Mecca Beach">
         <figcaption class="figure-caption text-center">Hotdogs and Aeropress Coffee at Mecca Beach.</figcaption>
         </figure>
     </div>
     <div>
         <figure class="figure">
-        <img src="{{ site.baseurl }}/assets/images/salton_mecca_beach_shore.jpg" class="figure-img img-fluid" alt="Salton Sea Shore, Mecca Beach">
+        <img src="{{ site.baseurl }}/assets/images/salton_mecca_beach_shore.webp" class="figure-img img-fluid" alt="Salton Sea Shore, Mecca Beach">
         <figcaption class="figure-caption text-center">Salton Sea Shore, Mecca Beach.</figcaption>
         </figure>
     </div>
     <div>
         <figure class="figure">
-        <img src="{{ site.baseurl }}/assets/images/salton_mecca_beach_bones.jpg" class="figure-img img-fluid" alt="Mecca Beach, it's not sand it's fish bone">
+        <img src="{{ site.baseurl }}/assets/images/salton_mecca_beach_bones.webp" class="figure-img img-fluid" alt="Mecca Beach, it's not sand it's fish bone">
         <figcaption class="figure-caption text-center">Mecca Beach, it's not sand it's fish bone...</figcaption>
         </figure>
     </div>
@@ -147,7 +147,7 @@ In order to get home to San Diego before it got too hot in the Imperial Valley, 
 On the way home, I realized that I'd done a few more miles than anticipated, and that the car would reach the 200,000 mile milestone on the way home.  My 2003 Honda Element is the highest miles car I've ever owned and this is the first time I have taken a car across the 200,000 mile boundary (I've taken several through the 100,000 mile mark).  Luckily this happened close to an exit on Interstate 8 near Mount Laguna so I was able to pull off and take a picture :)
 
 <figure class="figure">
-    <img src="{{ site.baseurl }}/assets/images/salton_car_200k.jpg" class="figure-img img-fluid" alt="200k miles milestone for the car">
+    <img src="{{ site.baseurl }}/assets/images/salton_car_200k.webp" class="figure-img img-fluid" alt="200k miles milestone for the car">
     <figcaption class="figure-caption text-center">200,000 mile milestone for the 2003 Honda Element.</figcaption>
 </figure>
 

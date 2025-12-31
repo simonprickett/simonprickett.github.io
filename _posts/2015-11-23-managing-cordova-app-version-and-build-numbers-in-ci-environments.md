@@ -2,7 +2,7 @@
 layout: post
 title:  "Managing Cordova App Version and Build Numbers in CI Environments"
 categories: [ DevOps, Cordova, iOS ]
-image: assets/images/cordova_ci_main.png
+image: assets/images/cordova_ci_main.webp
 author: simon
 ---
 As the Cordova CLI tooling has matured, I’ve been using it more and more on projects in a Continuous Integration environment. I’ve mostly been using the Jenkins Continuous Integration server, but the same principles would apply to others such as Hudson, Circle CI or Bamboo.

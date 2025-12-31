@@ -2,7 +2,7 @@
 layout: post
 title:  "Controlling Real World Objects with Raspberry Pi and Node.js"
 categories: [ Raspberry Pi, Node.js, IoT, Coding ]
-image: assets/images/pi_controlling_objects_main.jpg
+image: assets/images/pi_controlling_objects_main.webp
 author: simon
 ---
 Here in San Diego, we have a monthly meetup called Fundamental JS.  This is part of the wider [San Diego JS](https://www.sandiegojs.org/) family of meetups and is a favorite of mine because it focusses on core JavaScript rather than the framework du jour.  It's also held very close by to where I live downtown, so is very convenient to get to.
@@ -28,7 +28,7 @@ Thanks to [Suze Shardlow](https://suze.dev) for capturing the video from the Mee
 I did some Googling and ended up picking this HAT which has 3 independently controllable relays on it.  It's made by Electronics Salon and can be [bought from Amazon](https://www.amazon.com/gp/product/B07CZL2SKN).
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/pi_controlling_objects_hat.jpg" class="figure-img img-fluid" alt="The Electronics Salon Relay Hat for Raspberry Pi.">
+  <img src="{{ site.baseurl }}/assets/images/pi_controlling_objects_hat.webp" class="figure-img img-fluid" alt="The Electronics Salon Relay Hat for Raspberry Pi.">
   <figcaption class="figure-caption text-center">The Electronics Salon Relay Hat for Raspberry Pi.</figcaption>
 </figure>
 
@@ -37,7 +37,7 @@ I liked this one because it also has pass through pins for the GPIOs... a lot of
 I own several Raspberry Pi 3 from previous projects, so using one of those made a lot of sense.  The relay hat fits on any Pi with 40 pin GPIO, so you could use a 2, 3, 4, Zero, Zero W if that's what you have.  There's nothing special about the operating system setup required.  I used the latest Raspberry Pi OS Lite ([download here](https://www.raspberrypi.com/software/)).  Also, fitting a HAT to the Pi is really simple - just push it onto the 40 pin GPIO and you're done.  The relay hat came with some stand offs for stacking other hats on top of it - I used a couple of these to make some legs for the side of it that wasn't connected to the GPIO pins:
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/pi_controlling_objects_standoffs.jpg" class="figure-img img-fluid" alt="Using standoffs to better support the Relay HAT on the Pi.">
+  <img src="{{ site.baseurl }}/assets/images/pi_controlling_objects_standoffs.webp" class="figure-img img-fluid" alt="Using standoffs to better support the Relay HAT on the Pi.">
   <figcaption class="figure-caption text-center">Using standoffs to better support the Relay HAT on the Pi.</figcaption>
 </figure>
 
@@ -63,14 +63,14 @@ The neutral wire from the wall plug then goes into the terminal block, is also s
 Here's a poorly drawn sketch of the wiring arrangements:
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/pi_controlling_objects_wiring.jpg" class="figure-img img-fluid" alt="Hand drawn wiring diagram.">
+  <img src="{{ site.baseurl }}/assets/images/pi_controlling_objects_wiring.webp" class="figure-img img-fluid" alt="Hand drawn wiring diagram.">
   <figcaption class="figure-caption text-center">Hand drawn wiring diagram.</figcaption>
 </figure>
 
 After I'd connected all the wires up and screwed the various components to the wooden base, the hardware side looked like this:
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/pi_controlling_objects_hardware_complete.jpg" class="figure-img img-fluid" alt="Completed hardware setup for the project.">
+  <img src="{{ site.baseurl }}/assets/images/pi_controlling_objects_hardware_complete.webp" class="figure-img img-fluid" alt="Completed hardware setup for the project.">
   <figcaption class="figure-caption text-center">Completed hardware setup for the project.</figcaption>
 </figure>
 

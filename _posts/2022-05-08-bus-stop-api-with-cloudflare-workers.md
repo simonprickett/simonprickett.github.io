@@ -2,7 +2,7 @@
 layout: post
 title:  "Making a Bus Stop API with Cloudflare Workers"
 categories: [ JavaScript, Coding ]
-image: assets/images/bus_api_main.jpg
+image: assets/images/bus_api_main.webp
 author: simon
 tags: [featured]
 ---
@@ -11,12 +11,12 @@ Public transport services can be great sources of live or near-live data to use 
 I decided I wanteed to build some projects out that used a more local data source, so I took a look at what the local tram company [Nottingham Express Transit](https://www.thetram.net/) and bus company [Nottingham City Transport](https://www.nctx.co.uk/) offer in the way of data services.  All of the tram stops and many of the bus stops have live departure screens.  Here's my local bus stop and its display:
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/bus_api_bus_stop.jpg" class="figure-img img-fluid" alt="A bus at my local bus stop">
+  <img src="{{ site.baseurl }}/assets/images/bus_api_bus_stop.webp" class="figure-img img-fluid" alt="A bus at my local bus stop">
   <figcaption class="figure-caption text-center">A bus at my local bus stop.</figcaption>
 </figure>
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/bus_api_live_display.jpg" class="figure-img img-fluid" alt="Live display board at my local bus stop (shows other operators too)">
+  <img src="{{ site.baseurl }}/assets/images/bus_api_live_display.webp" class="figure-img img-fluid" alt="Live display board at my local bus stop (shows other operators too)">
   <figcaption class="figure-caption text-center">Live display board at my local bus stop (shows other operators too).</figcaption>
 </figure>
 

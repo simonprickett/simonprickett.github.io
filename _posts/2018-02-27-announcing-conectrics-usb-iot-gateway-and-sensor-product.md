@@ -2,7 +2,7 @@
 layout: post
 title:  "Announcing Conectric's USB IoT Gateway & Sensor Product"
 categories: [ Node.js, JavaScript, IoT, Coding ]
-image: assets/images/conectric_announce_main.jpg
+image: assets/images/conectric_announce_main.webp
 author: simon
 ---
 Here at [Conectric](http://www.conectric.com) we’re excited to announce the launch of our new IoT Gateway product with accompanying suite of sensors. 
@@ -18,7 +18,7 @@ In this article, we’ll take a look at the product’s hardware and software co
 ## Hardware
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/conectric_announce_hardware.png" class="figure-img img-fluid" alt="The Conectric sensors and router.">
+  <img src="{{ site.baseurl }}/assets/images/conectric_announce_hardware.webp" class="figure-img img-fluid" alt="The Conectric sensors and router.">
   <figcaption class="figure-caption text-center">The Conectric sensors and router.</figcaption>
 </figure>
 
@@ -27,7 +27,7 @@ The system currently includes three different types of sensor and a USB router. 
 ### USB Router
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/conectric_announce_router.jpg" class="figure-img img-fluid" alt="The Conectric USB router.">
+  <img src="{{ site.baseurl }}/assets/images/conectric_announce_router.webp" class="figure-img img-fluid" alt="The Conectric USB router.">
   <figcaption class="figure-caption text-center">The Conectric USB router.</figcaption>
 </figure>
 
@@ -40,7 +40,7 @@ Additional USB routers can be used to extend the mesh network’s range. These a
 ### Temperature/Humidity Sensor
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/conectric_announce_temphumidity.jpg" class="figure-img img-fluid" alt="The Conectric Temperature/Humidity sensor.">
+  <img src="{{ site.baseurl }}/assets/images/conectric_announce_temphumidity.webp" class="figure-img img-fluid" alt="The Conectric Temperature/Humidity sensor.">
   <figcaption class="figure-caption text-center">The Conectric Temperature/Humidity sensor.</figcaption>
 </figure>
 
@@ -51,7 +51,7 @@ This sensor is also supplied in a tough plastic enclosure that can be wall mount
 ### Motion Detection Sensor
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/conectric_announce_motion.jpg" class="figure-img img-fluid" alt="The Conectric Motion sensor.">
+  <img src="{{ site.baseurl }}/assets/images/conectric_announce_motion.webp" class="figure-img img-fluid" alt="The Conectric Motion sensor.">
   <figcaption class="figure-caption text-center">The Conectric Motio  sensor.</figcaption>
 </figure>
 
@@ -62,7 +62,7 @@ This sensor sends a `motion` message whenever it detects movement in its surroun
 ### Door / Switch Sensor
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/conectric_announce_switch.jpg" class="figure-img img-fluid" alt="The Conectric Switch sensor.">
+  <img src="{{ site.baseurl }}/assets/images/conectric_announce_switch.webp" class="figure-img img-fluid" alt="The Conectric Switch sensor.">
   <figcaption class="figure-caption text-center">The Conectric Switch sensor.</figcaption>
 </figure>
 

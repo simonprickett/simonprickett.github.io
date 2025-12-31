@@ -2,7 +2,7 @@
 layout: post
 title:  "Synchronised Counting with Redis and a Seven Segment Display"
 categories: [ IoT, Coding, Raspberry Pi, Python, JavaScript, Redis ]
-image: assets/images/redis_counting_main.png
+image: assets/images/redis_counting_main.webp
 author: simon
 tags: [featured]
 ---
@@ -11,7 +11,7 @@ Counting things seems relatively easy, until it isn't!  In this project, I used 
 For this I used Redis keyspace notifications and built a web interface plus a physical display with a Raspberry Pi, 7 segment display and arcade button.  The code was written in a mix of Python and Node.js.
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/redis_counting_screenshot.png" class="figure-img img-fluid" alt="Screenshot from my live stream showing synchronised counting with Redis">
+  <img src="{{ site.baseurl }}/assets/images/redis_counting_screenshot.webp" class="figure-img img-fluid" alt="Screenshot from my live stream showing synchronised counting with Redis">
   <figcaption class="figure-caption text-center">Synchronised counting with Redis.</figcaption>
 </figure>
 

@@ -2,7 +2,7 @@
 layout: post
 title:  "Building a Redis Prize Draw Application with Flask or Express"
 categories: [ Python, Redis, Node.js, JavaScript, Coding ]
-image: assets/images/prizedraw_main.jpg
+image: assets/images/prizedraw_main.webp
 author: simon
 ---
 I decided to build a small application that would demonstrate some features of Redis in a fun and engaging way.  I quickly hit upon the idea of a prize draw web application that would serve as the basis of a Meetup talk during which we'd actually use the application to give away some prizes.
@@ -38,28 +38,28 @@ Both require you to have access to a Redis instance, this can be local or remote
 ## Prize Draw Process Walkthrough
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/prizedraw_admin_configure_draw.png" class="figure-img img-fluid" alt="Configuring the Prize Draw">
+  <img src="{{ site.baseurl }}/assets/images/prizedraw_admin_configure_draw.webp" class="figure-img img-fluid" alt="Configuring the Prize Draw">
   <figcaption class="figure-caption text-center">Configuring the Prize Draw.</figcaption>
 </figure>
 
 Once a draw has been configured, anyone with a GitHub account can enter it.  GitHub accounts are used to ensure unique entry names without collecting email addresses, and because GitHub allows access to basic profile details such as name and profile picture without having to authenticate to an API.  Here, a user enters the draw:
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/prizedraw_enter_draw.png" class="figure-img img-fluid" alt="Entering the Prize Draw">
+  <img src="{{ site.baseurl }}/assets/images/prizedraw_enter_draw.webp" class="figure-img img-fluid" alt="Entering the Prize Draw">
   <figcaption class="figure-caption text-center">Entering the Prize Draw.</figcaption>
 </figure>
 
 Once the draw has closed, the administrator presses the button to randomly pick winners.  The administrator can also choose to close the draw at any time, then pick winners.
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/prizedraw_admin_draw_open.png" class="figure-img img-fluid" alt="Closing the Prize Draw">
+  <img src="{{ site.baseurl }}/assets/images/prizedraw_admin_draw_open.webp" class="figure-img img-fluid" alt="Closing the Prize Draw">
   <figcaption class="figure-caption text-center">Closing the Prize Draw.</figcaption>
 </figure>
 
 Once winners have been picked, they are displayed on the home page:
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/prizedraw_winners.png" class="figure-img img-fluid" alt="Winners!">
+  <img src="{{ site.baseurl }}/assets/images/prizedraw_winners.webp" class="figure-img img-fluid" alt="Winners!">
   <figcaption class="figure-caption text-center">Winners!</figcaption>
 </figure>
 

@@ -2,7 +2,7 @@
 layout: post
 title:  "Cross Platform Cordova App Development with Merges"
 categories: [ JavaScript, Cordova, DevOps, Android, iOS, Coding ]
-image: assets/images/cordova_merges_main.png
+image: assets/images/cordova_merges_main.webp
 author: simon
 ---
 A major benefit of using Apache Cordova to build apps is that it provides a “write once, run many” solution to reusing application logic and design across the mobile platforms that it supports.
@@ -53,7 +53,7 @@ drwxr-xr-x 6 simon staff  204 Mar 17 21:47 www/
 If we were to immediately build the boilerplate app that the Cordova CLI created for us, it would look like this on both iOS and Android:
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/cordova_merges_scope.png" class="figure-img img-fluid" alt="Scope of the demo app">
+  <img src="{{ site.baseurl }}/assets/images/cordova_merges_scope.webp" class="figure-img img-fluid" alt="Scope of the demo app">
 </figure>
 
 To demonstrate how to use merges in Cordova, we’ll change the boilerplate app by making the following changes:
@@ -156,7 +156,7 @@ var platformConstants = {
 Then finally, we’ll introduce a new image to replace the boilerplate `logo.png`, by saving the following to `merges/android/img/logo.png`:
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/cordova_merges_android_image.png" class="figure-img img-fluid" alt="Image for the Android platform">
+  <img src="{{ site.baseurl }}/assets/images/cordova_merges_android_image.webp" class="figure-img img-fluid" alt="Image for the Android platform">
 </figure>
 
 ## Merges for the iOS Platform
@@ -182,7 +182,7 @@ var platformConstants = {
 Finally, we’ll add an iOS specific logo image as `merges/ios/img/logo.png`:
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/cordova_merges_ios_image.png" class="figure-img img-fluid" alt="Image for the iOS platform">
+  <img src="{{ site.baseurl }}/assets/images/cordova_merges_ios_image.webp" class="figure-img img-fluid" alt="Image for the iOS platform">
 </figure>
 
 This completes the setup of the `merges` directory tree. Our directory structure should now look like this:
@@ -349,7 +349,7 @@ $ cordova emulate android
 If everything has worked correctly, we should see customized “DEVICE READY” coloring, text string and image for each platform as shown below.
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/cordova_merges_emulators.png" class="figure-img img-fluid" alt="App running in Android and iOS emulators.">
+  <img src="{{ site.baseurl }}/assets/images/cordova_merges_emulators.webp" class="figure-img img-fluid" alt="App running in Android and iOS emulators.">
 </figure>
 
 To test the browser implementation, we use the command:
@@ -361,7 +361,7 @@ $ cordova run browser
 Which should open up the browser implementation at `localhost:8000/index.html` and display:
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/cordova_merges_browser.png" class="figure-img img-fluid" alt="App running in the browser.">
+  <img src="{{ site.baseurl }}/assets/images/cordova_merges_browser.webp" class="figure-img img-fluid" alt="App running in the browser.">
 </figure>
 
 ## Conclusion

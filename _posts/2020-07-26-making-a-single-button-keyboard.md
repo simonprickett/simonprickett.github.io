@@ -2,7 +2,7 @@
 layout: post
 title:  "Making a Zoom Panic Switch with the Adafruit Trinket M0"
 categories: [ Arduino, C, IoT, Coding ]
-image: assets/images/arcade_keyboard_main.jpg
+image: assets/images/arcade_keyboard_main.webp
 author: simon
 ---
 Recently we've all been spending a lot more of our time on video conference calls from home.  I'm sure that, like me, you find yourself needing to mute your microphone and turn off the camera frequently.  Perhaps something you can't control is going on in the background, or someone needs your attention for a moment.  Perhaps you are having a sneezing fit or something's boiling over on the hob.
@@ -18,7 +18,7 @@ Let's take a look at how to make one, starting with the hardware...
 I really enjoy building things that use arcade buttons, as they're very satisfying to press, super durable and some even have LEDs inside them so you can use them as an input and an output.  I've previously built a [weekly task tracker box with Arduino](https://simonprickett.dev/building-a-task-tracker-with-arduino-and-led-arcade-buttons/) using these, as well as a [game with a Raspberry Pi](https://simonprickett.dev/raspberry-pi-arcade-button-led-game/).  For this project I decided that something with a really good click sound when pressed was better than a flashy LED, so I reached for a pile of older arcade buttons that I had kicking around.  These use a microswitch so make a very satisfying mechanical noise when pressed.  Here's the one I had on hand:
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/arcade_keyboard_button_microswitch.jpg" class="figure-img img-fluid" alt="Arcade button with microswitch">
+  <img src="{{ site.baseurl }}/assets/images/arcade_keyboard_button_microswitch.webp" class="figure-img img-fluid" alt="Arcade button with microswitch">
   <figcaption class="figure-caption text-center">Arcade button with microswitch - needs a clean!</figcaption>
 </figure>
 
@@ -27,7 +27,7 @@ If you don't have one of these, you can get them from eBay or many other online 
 On its own, a microswitch or arcade button isn't going to be understood by a computer as a keypress... we need to trick the computer into thinking it's got an external keyboard attached, then have the button press send the right sequence of key codes to trigger the desired action.  Luckily, we don't need to build our own keyboard logic board type thing, as Adafruit makes something called the [Trinket M0](https://www.adafruit.com/product/3500) which costs $8.95 and can handle all of that for us.  Here's what one looks like (they're very small, this image from Adafruit is magnified):
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/arcade_keyboard_trinket_m0.jpg" class="figure-img img-fluid" alt="Adafruit Trinket M0">
+  <img src="{{ site.baseurl }}/assets/images/arcade_keyboard_trinket_m0.webp" class="figure-img img-fluid" alt="Adafruit Trinket M0">
   <figcaption class="figure-caption text-center">Adafruit Trinket M0 (photo: <a href="https://learn.adafruit.com/assets/45708">Adafruit</a>)</figcaption>
 </figure>
 
@@ -47,14 +47,14 @@ We'll need to wire the arcade button (in my case the microswitch that attaches t
 Here's my wiring diagram:
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/arcade_keyboard_wiring.png" class="figure-img img-fluid" alt="Wiring">
+  <img src="{{ site.baseurl }}/assets/images/arcade_keyboard_wiring.webp" class="figure-img img-fluid" alt="Wiring">
   <figcaption class="figure-caption text-center">Wiring diagram.</figcaption>
 </figure>
 
 Soldering this up is a little tricky as the Trinket is very small, but take your time and don't forget you can always remove the solder and try again!  Here's what it looks like when done... I used black for the ground connection and red for the live one, but it's the same single core wire inside both.
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/arcade_keyboard_soldered.jpg" class="figure-img img-fluid" alt="Soldering completed">
+  <img src="{{ site.baseurl }}/assets/images/arcade_keyboard_soldered.webp" class="figure-img img-fluid" alt="Soldering completed">
   <figcaption class="figure-caption text-center">Soldering completed, button in the enclosure...</figcaption>
 </figure>
 
@@ -67,7 +67,7 @@ Finally on the hardware side, we'll want to put the button and the Trinket in a 
 Looking around at what I had handy, I figured a reusable Starbucks hot cup (available at any Starbucks) would do.  I drilled a hole in the top with a forstner drill bit, and attached the arcade button using its screw collar.  I then drilled a smaller hole in the bottom to allow the USB cable to enter...
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/arcade_keyboard_enclosure.jpg" class="figure-img img-fluid" alt="Completed enclosure">
+  <img src="{{ site.baseurl }}/assets/images/arcade_keyboard_enclosure.webp" class="figure-img img-fluid" alt="Completed enclosure">
   <figcaption class="figure-caption text-center">Completed enclosure.</figcaption>
 </figure>
 
@@ -156,7 +156,7 @@ There's a couple of distinct pieces here... an AppleScript and some operating sy
 The first thing I worked on was the AppleScript. It's easy to test this without the arcade button hardware as you can just run it from the Mac OS Script Editor application.  The hardest part of this was working out what the "name" for the Zoom application is, turns out it is "zoom.us" which is what it shows up as next to the Apple icon at the top of the screen when it's running:
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/arcade_keyboard_zoom_app.png" class="figure-img img-fluid" alt="Finding the Zoom application name">
+  <img src="{{ site.baseurl }}/assets/images/arcade_keyboard_zoom_app.webp" class="figure-img img-fluid" alt="Finding the Zoom application name">
   <figcaption class="figure-caption text-center">Finding the Zoom application name.</figcaption>
 </figure>
 

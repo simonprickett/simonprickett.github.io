@@ -2,7 +2,7 @@
 layout: post
 title:  "Door Open Alerts with Twilio and Conectric's IoT Sensor Product for Node.js"
 categories: [ Twilio, Node.js, JavaScript, IoT, Coding ]
-image: assets/images/conectric_twilio_main.jpg
+image: assets/images/conectric_twilio_main.webp
 author: simon
 ---
 At Conectric we recently launched our new IoT Gateway product with an accompanying suite of wireless, battery powered sensors. In this article we'll take a closer look at how to use our Switch sensor, [Node.js SDK](https://www.npmjs.com/package/conectric-usb-gateway) and the [Twilio API](https://www.twilio.com/) to send SMS alerts whenever a door is opened.
@@ -30,7 +30,7 @@ In this example use case we’ll be using both the USB Router and Switch sensor.
 ### USB Router
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/conectric_twilio_router.jpg" class="figure-img img-fluid" alt="The Conectric USB router.">
+  <img src="{{ site.baseurl }}/assets/images/conectric_twilio_router.webp" class="figure-img img-fluid" alt="The Conectric USB router.">
   <figcaption class="figure-caption text-center">The Conectric USB router.</figcaption>
 </figure>
 
@@ -43,7 +43,7 @@ Additional USB routers can be used to extend the mesh network’s range. These a
 ### Switch Sensor
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/conectric_twilio_switch_sensor.jpg" class="figure-img img-fluid" alt="The Conectric switch sensor.">
+  <img src="{{ site.baseurl }}/assets/images/conectric_twilio_switch_sensor.webp" class="figure-img img-fluid" alt="The Conectric switch sensor.">
   <figcaption class="figure-caption text-center">The Conectric switch sensor.</figcaption>
 </figure>
 
@@ -52,7 +52,7 @@ The switch sensor works by sending messages whenever its pair of magnets are mov
 The switch sensor can be installed with or without without the optional wired magnet, as the sensor enclosure also contains a second magnet. Additionally, the wired magnet can be replaced with one that can be embedded in a door frame with the entire sensor being hidden inside the frame.
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/conectric_twilio_door_frame.jpg" class="figure-img img-fluid" alt="Switch sensor mounted to a door frame.">
+  <img src="{{ site.baseurl }}/assets/images/conectric_twilio_door_frame.webp" class="figure-img img-fluid" alt="Switch sensor mounted to a door frame.">
   <figcaption class="figure-caption text-center">Switch sensor mounted to a door frame.</figcaption>
 </figure>
 
@@ -69,7 +69,7 @@ Twilio is a wildly popular product that allows you to build software that sends 
 Twilio setup is as simple as creating a trial account with them, logging in and grabbing some information that we’ll need later from their developer portal.
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/conectric_twilio_twilio_setup.png" class="figure-img img-fluid" alt="Twilio setup.">
+  <img src="{{ site.baseurl }}/assets/images/conectric_twilio_twilio_setup.webp" class="figure-img img-fluid" alt="Twilio setup.">
   <figcaption class="figure-caption text-center">Twilio setup.</figcaption>
 </figure>
 

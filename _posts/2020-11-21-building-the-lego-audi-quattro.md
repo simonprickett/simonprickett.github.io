@@ -2,7 +2,7 @@
 layout: post
 title:  "Building the Lego Audi Quattro S1 Set"
 categories: [ Lego, Hobbies ]
-image: assets/images/lego_audi_main.jpg
+image: assets/images/lego_audi_main.webp
 author: simon
 ---
 
@@ -21,31 +21,31 @@ And here's some still pictures of the finished product:
 <div class="slick-carousel">
     <div>
         <figure class="figure">
-        <img src="{{ site.baseurl }}/assets/images/lego_audi_1.jpg" class="figure-img img-fluid" alt="Driver side view">
+        <img src="{{ site.baseurl }}/assets/images/lego_audi_1.webp" class="figure-img img-fluid" alt="Driver side view">
         <figcaption class="figure-caption text-center">Driver side view.</figcaption>
         </figure>
     </div>
     <div>
         <figure class="figure">
-        <img src="{{ site.baseurl }}/assets/images/lego_audi_2.jpg" class="figure-img img-fluid" alt="Passenger side view">
+        <img src="{{ site.baseurl }}/assets/images/lego_audi_2.webp" class="figure-img img-fluid" alt="Passenger side view">
         <figcaption class="figure-caption text-center">Passenger side view.</figcaption>
         </figure>
     </div>
     <div>
         <figure class="figure">
-        <img src="{{ site.baseurl }}/assets/images/lego_audi_3.jpg" class="figure-img img-fluid" alt="Overhead view">
+        <img src="{{ site.baseurl }}/assets/images/lego_audi_3.webp" class="figure-img img-fluid" alt="Overhead view">
         <figcaption class="figure-caption text-center">Overhead view.</figcaption>
         </figure>
     </div>
     <div>
         <figure class="figure">
-        <img src="{{ site.baseurl }}/assets/images/lego_audi_4.jpg" class="figure-img img-fluid" alt="Front view">
+        <img src="{{ site.baseurl }}/assets/images/lego_audi_4.webp" class="figure-img img-fluid" alt="Front view">
         <figcaption class="figure-caption text-center">Front view.</figcaption>
         </figure>
     </div>
     <div>
         <figure class="figure">
-        <img src="{{ site.baseurl }}/assets/images/lego_audi_5.jpg" class="figure-img img-fluid" alt="Rear view">
+        <img src="{{ site.baseurl }}/assets/images/lego_audi_5.webp" class="figure-img img-fluid" alt="Rear view">
         <figcaption class="figure-caption text-center">Rear view.</figcaption>
         </figure>
     </div>

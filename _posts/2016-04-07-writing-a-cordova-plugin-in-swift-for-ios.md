@@ -2,7 +2,7 @@
 layout: post
 title:  "Writing a Cordova Plugin in Swift for iOS"
 categories: [ JavaScript, Cordova, iOS, Swift, Coding ]
-image: assets/images/cordova_swift_main.jpg
+image: assets/images/cordova_swift_main.webp
 author: simon
 ---
 Since the App Store first opened in 2008, developers wishing to build iOS apps have been required to learn Objective-C. This includes those choosing the hybrid model with Apache Cordova, as plugins that extend Cordova’s reach to include native APIs were also authored in Objective-C. For a long time this was the only language available for iOS development. Things changed in 2014, when Apple launched the Swift programming language at that year’s Worldwide Developer Conference.
@@ -382,7 +382,7 @@ $ cordova emulate ios
 We should see “Plugin Ready!”, and a “toast” dialog pops up for a few seconds if the native code in the plugin is working. We should also expect to see “Hello Plugin” if the pure JavaScript function in the plugin works. A successful test of the plugin looks like this:
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/cordova_swift_ready.png" class="figure-img img-fluid" alt="Plugin running on iOS emulator.">
+  <img src="{{ site.baseurl }}/assets/images/cordova_swift_ready.webp" class="figure-img img-fluid" alt="Plugin running on iOS emulator.">
 </figure>
 
 ## Conclusion

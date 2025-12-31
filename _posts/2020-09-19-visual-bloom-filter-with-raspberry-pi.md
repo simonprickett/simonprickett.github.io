@@ -2,7 +2,7 @@
 layout: post
 title:  "Building a Visual Bloom Filter with Raspberry Pi, Python and Unicorn Hat"
 categories: [ Python, Raspberry Pi, IoT, Coding ]
-image: assets/images/bloom_main.jpg
+image: assets/images/bloom_main.webp
 author: simon
 ---
 Bloom filters are a [probabilistic data structure](https://www.geeksforgeeks.org/introduction-to-the-probabilistic-data-structure/) that I've wanted to learn more about for a while.  When I started reading up on them, I found a lot of the material to be quite dry and theoretical, so I thought I'd try and implement one in hardware somehow and make my own visual learning aid.
@@ -45,7 +45,7 @@ All of the software's free, but you will need to buy a Raspberry Pi of some sort
 The hardware build for this project is pretty simple, with no soldering required!  The Unicorn Hat comes ready built from Pimoroni and looks like this:
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/bloom_unicorn.jpg" class="figure-img img-fluid" alt="Pimoroni Unicorn Hat">
+  <img src="{{ site.baseurl }}/assets/images/bloom_unicorn.webp" class="figure-img img-fluid" alt="Pimoroni Unicorn Hat">
   <figcaption class="figure-caption text-center">Pimoroni Unicorn Hat (image: Pimoroni)</figcaption>
 </figure>
 
