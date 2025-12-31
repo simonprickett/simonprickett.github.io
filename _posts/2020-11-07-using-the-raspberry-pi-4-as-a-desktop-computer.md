@@ -2,7 +2,7 @@
 layout: post
 title:  "Using the Raspberry Pi 4 as a Desktop Computer"
 categories: [ Raspberry Pi ]
-image: assets/images/pi_desktop_main.jpg
+image: assets/images/pi_desktop_main.webp
 author: simon
 ---
 Launched in 2019, the Raspberry Pi 4 was a significant upgrade over previous models.  With USB 3, gigabit ethernet, a faster processor, dual 4K HDMI display support and options for 2, 4 or 8Gb RAM it seemed to be breaking into the low end desktop computer space.
@@ -40,43 +40,43 @@ The instructions are clear and easy to follow.  Check out the slideshow below to
 <div class="slick-carousel">
     <div>
         <figure class="figure">
-        <img src="{{ site.baseurl }}/assets/images/pi_desktop_1_case_parts.jpg" class="figure-img img-fluid" alt="Pi 4 Desktop Case parts">
+        <img src="{{ site.baseurl }}/assets/images/pi_desktop_1_case_parts.webp" class="figure-img img-fluid" alt="Pi 4 Desktop Case parts">
         <figcaption class="figure-caption text-center">Pi 4 Desktop Case parts.</figcaption>
         </figure>
     </div>
     <div>
         <figure class="figure">
-        <img src="{{ site.baseurl }}/assets/images/pi_desktop_2_case_fan_with_pi.jpg" class="figure-img img-fluid" alt="Built in fan with Raspberry Pi 4 board">
+        <img src="{{ site.baseurl }}/assets/images/pi_desktop_2_case_fan_with_pi.webp" class="figure-img img-fluid" alt="Built in fan with Raspberry Pi 4 board">
         <figcaption class="figure-caption text-center">Built in fan with Raspberry Pi 4 board.</figcaption>
         </figure>
     </div>
     <div>
         <figure class="figure">
-        <img src="{{ site.baseurl }}/assets/images/pi_desktop_3_case_port_extender_fitted.jpg" class="figure-img img-fluid" alt="Raspberry Pi 4 with the case's port extender fitted">
+        <img src="{{ site.baseurl }}/assets/images/pi_desktop_3_case_port_extender_fitted.webp" class="figure-img img-fluid" alt="Raspberry Pi 4 with the case's port extender fitted">
         <figcaption class="figure-caption text-center">Raspberry Pi 4 with the case's port extender fitted.</figcaption>
         </figure>
     </div>
     <div>
         <figure class="figure">
-        <img src="{{ site.baseurl }}/assets/images/pi_desktop_4_pi_in_top_of_case.jpg" class="figure-img img-fluid" alt="Raspberry Pi 4 with port extender mounted in the case">
+        <img src="{{ site.baseurl }}/assets/images/pi_desktop_4_pi_in_top_of_case.webp" class="figure-img img-fluid" alt="Raspberry Pi 4 with port extender mounted in the case">
         <figcaption class="figure-caption text-center">Raspberry Pi 4 with port extender mounted in the case.</figcaption>
         </figure>
     </div>
     <div>
         <figure class="figure">
-        <img src="{{ site.baseurl }}/assets/images/pi_desktop_5_case_ports.jpg" class="figure-img img-fluid" alt="Arrangement of ports and power button">
+        <img src="{{ site.baseurl }}/assets/images/pi_desktop_5_case_ports.webp" class="figure-img img-fluid" alt="Arrangement of ports and power button">
         <figcaption class="figure-caption text-center">Arrangement of ports and power button.</figcaption>
         </figure>
     </div>
     <div>
         <figure class="figure">
-        <img src="{{ site.baseurl }}/assets/images/pi_desktop_6_case_gpio.jpg" class="figure-img img-fluid" alt="Access to GPIO ports via removable magnetic cover">
+        <img src="{{ site.baseurl }}/assets/images/pi_desktop_6_case_gpio.webp" class="figure-img img-fluid" alt="Access to GPIO ports via removable magnetic cover">
         <figcaption class="figure-caption text-center">Access to GPIO ports via removable magnetic cover.</figcaption>
         </figure>
     </div>
     <div>
         <figure class="figure">
-        <img src="{{ site.baseurl }}/assets/images/pi_desktop_7_case_instructions.jpg" class="figure-img img-fluid" alt="Example of the case assembly instructions">
+        <img src="{{ site.baseurl }}/assets/images/pi_desktop_7_case_instructions.webp" class="figure-img img-fluid" alt="Example of the case assembly instructions">
         <figcaption class="figure-caption text-center">Example of the case assembly instructions.</figcaption>
         </figure>
     </div>
@@ -93,7 +93,7 @@ If you need to connect the Pi camera while using this case, you can route its ri
 There's nothing special to do here, just flash an operating system image onto your micro SD card and insert the card into to the Pi.  The Argon case exposes the card slot underneath, making it easy to change cards as needed:
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/pi_desktop_case_sd_card.jpg" class="figure-img img-fluid" alt="Easy access to the Micro SD card">
+  <img src="{{ site.baseurl }}/assets/images/pi_desktop_case_sd_card.webp" class="figure-img img-fluid" alt="Easy access to the Micro SD card">
   <figcaption class="figure-caption text-center">Easy access to the Micro SD card.</figcaption>
 </figure>
 
@@ -104,7 +104,7 @@ I used the official Raspberry Pi Imager to flash Raspberry Pi OS (Desktop versio
 Once you're up and running with Raspberry Pi OS, it's time to install Argon's software that manages the fan and power button.  Installation is really simple - a single `curl` command downloads the software and installs it.  The default fan settings start with it running at 10% when the temperature hits 55 Celsius, stepping it up to 100% at 65 Celsius.  I didn't feel the need to change these, but several alternatives are available:
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/pi_desktop_case_configuration.jpg" class="figure-img img-fluid" alt="Fan configuration software">
+  <img src="{{ site.baseurl }}/assets/images/pi_desktop_case_configuration.webp" class="figure-img img-fluid" alt="Fan configuration software">
   <figcaption class="figure-caption text-center">Fan configuration software.</figcaption>
 </figure>
 
@@ -117,7 +117,7 @@ I don't know if this package works on other operating systems that you could ins
 Here's my Pi 4 in its new case, up and running as a desktop:
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/pi_desktop_with_monitor.jpg" class="figure-img img-fluid" alt="Raspberry Pi 4 desktop up and running">
+  <img src="{{ site.baseurl }}/assets/images/pi_desktop_with_monitor.webp" class="figure-img img-fluid" alt="Raspberry Pi 4 desktop up and running">
   <figcaption class="figure-caption text-center">Raspberry Pi 4 desktop up and running!</figcaption>
 </figure>
 

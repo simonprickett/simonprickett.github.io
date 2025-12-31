@@ -6,7 +6,7 @@ permalink: "/readinglist/"
 <div class="container">
     <div class="row">
         <div class="col-md-12">
-            <img src="{{site.baseurl}}/assets/images/readinglistbanner.jpg" class="img-fluid" alt="Lots of books!">
+            <img src="{{site.baseurl}}/assets/images/readinglistbanner.webp" class="img-fluid" alt="Lots of books!">
         </div>
     </div>
     <div class="row">

@@ -1,8 +1,8 @@
 # Site
 name: 'simonprickett.dev'
 description: 'The personal website of Simon Prickett.'
-logo: 'assets/images/logo.png'
-favicon: 'assets/images/favicon.png'
+logo: 'assets/images/logo.webp'
+favicon: 'assets/images/favicon.webp'
 baseurl: ''
 disqus: 'simonprickett-dev'
 email: 'simon@crudworks.org'
@@ -20,7 +20,7 @@ authors:
     simon:
       name:           Simon Prickett
       site:           https://simonprickett.dev
-      avatar:         assets/images/simon.jpg
+      avatar:         assets/images/simon.webp
       bio:            "Hugely Experienced Developer Relations Leader."
       email:          simon@crudworks.org
  
@@ -33,7 +33,7 @@ defaults:
     values:
       layout: post
       author: simon
-      avatar: assets/images/avatar1.jpg
+      avatar: assets/images/avatar1.webp
       
   # all pages
   - scope:

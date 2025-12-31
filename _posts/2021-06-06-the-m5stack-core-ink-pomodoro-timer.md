@@ -2,7 +2,7 @@
 layout: post
 title:  "The M5Stack Core Ink Pomodoro Timer"
 categories: [Arduino, M5Stack, C, IoT, Coding ]
-image: assets/images/m5stack_pomodoro_main.jpg
+image: assets/images/m5stack_pomodoro_main.webp
 author: simon
 ---
 The Pomodoro Technique is a time management method developed by Italian Francesco Cirillo in which a timer is used to break work into time periods separated by breaks.  Each time period is called a pomodoro - Cirillo used a tomato shaped kitchen timer, and "tomato" in Italian is "pomodoro".
@@ -13,7 +13,7 @@ This is a really nice self-contained unit with some buttons, an e-ink screen, a 
 
 <div class="text-center">
   <figure class="figure">
-    <img src="{{ site.baseurl }}/assets/images/m5stack_pomodoro_eink.png" class="figure-img img-fluid" alt="The M5Stack Core Ink Device">
+    <img src="{{ site.baseurl }}/assets/images/m5stack_pomodoro_eink.webp" class="figure-img img-fluid" alt="The M5Stack Core Ink Device">
     <figcaption class="figure-caption text-center">The M5Stack Core Ink Device.</figcaption>
   </figure>
 </div>

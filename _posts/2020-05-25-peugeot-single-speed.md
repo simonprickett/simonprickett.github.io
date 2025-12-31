@@ -2,7 +2,7 @@
 layout: post
 title:  "Converting an 80s Peugeot Bicycle to Single Speed"
 categories: [ Cycling, Hobbies ]
-image: assets/images/peugeot_main.jpg
+image: assets/images/peugeot_main.webp
 author: simon
 ---
 I grew up in Nottingham, England in the 1980s-90s.  At the time this was the home of the Raleigh bicycles HQ and factory, so almost everyone rode a Raleigh.  They were solid bikes, and everybody had a relative who worked for the company or knew someone who did.  I had a Raleigh Commando, then an Ultra Burner BMX before swapping to the Raleigh Équipe 12 speed road bike.  At that time, I had a regular cycle route of around 16 miles through a few local villages and I would ride with a friend.  He had a Peugeot road bike with Reynolds 501 tubing and indexed gears.  This was something totally different for me, and I always fancied getting one myself but it never happened.
@@ -10,7 +10,7 @@ I grew up in Nottingham, England in the 1980s-90s.  At the time this was the hom
 Fast forward some 28 or so years and I found myself walking around a flea market near home in San Diego when I came across... an 80s Peugeot road bike in the right colour scheme, and with the 501 tubing.  The frame size wasn't perfect - a little small, but I could definitely ride it comfortably enough.  I initially thought "oh that's cool, I always wanted one of those" and within an hour or so having walked around some more, I'd returned to take another look, haggle a bit and hand over some cash.  So, I'd sort of impulse bought another bike (I already had and still own a very nice Specialized cyclocross bike).  Here's what it looked like when I first saw it:
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/peugeot_first.jpg" class="figure-img img-fluid" alt="Peugeot bike at flea market">
+  <img src="{{ site.baseurl }}/assets/images/peugeot_first.webp" class="figure-img img-fluid" alt="Peugeot bike at flea market">
   <figcaption class="figure-caption text-center">Peugeot bike at flea market.</figcaption>
 </figure>
 
@@ -43,7 +43,7 @@ Everything else was to be stripped off and replaced.  I convinced myself of this
 Taking things apart is usually the easy part of any project!  I soon realized that the tyres and inner tubes were old, brittle and had been patched a few times - no problem as I didn't plan on reusing them.  I removed those and sold the original wheels on Craigslist.
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/peugeot_disassembly.jpg" class="figure-img img-fluid" alt="Disassembling the bike">
+  <img src="{{ site.baseurl }}/assets/images/peugeot_disassembly.webp" class="figure-img img-fluid" alt="Disassembling the bike">
   <figcaption class="figure-caption text-center">Disassembling the bike - I temporarily tried a 700c front wheel from my Specialized.</figcaption>
 </figure>
 
@@ -82,7 +82,7 @@ I found a deal on a complete fixie / single speed wheelset with tyres, tubes and
 I decided to go black with the wheels, and a mix of bright green and orange for everything else... not quite to everyone's taste perhaps but works for me!
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/peugeot_parts.jpg" class="figure-img img-fluid" alt="New parts">
+  <img src="{{ site.baseurl }}/assets/images/peugeot_parts.webp" class="figure-img img-fluid" alt="New parts">
   <figcaption class="figure-caption text-center">New parts!</figcaption>
 </figure>
 
@@ -93,7 +93,7 @@ Attaching the new wheels was easy as they came pre built, with the tyres on and 
 I faced some challenges with finding out what the correct chain tension should be, and making the chain the right length.  I got all sorts of conflicting information from YouTube and in the end took what I thought was a good average and have a little vertical play in the chain and it hasn't slipped to date.  Getting the cog to line up with the cranks was surprisingly easy, and using the chain tool to get the chain just right was a little frustrating without an extra pair of hands, but I got there in the end.
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/peugeot_reassembly.jpg" class="figure-img img-fluid" alt="Rebuilt as a single speed">
+  <img src="{{ site.baseurl }}/assets/images/peugeot_reassembly.webp" class="figure-img img-fluid" alt="Rebuilt as a single speed">
   <figcaption class="figure-caption text-center">Rebuilt as a single speed.</figcaption>
 </figure>
 
@@ -108,7 +108,7 @@ The frame's nowhere near as rigid as my modern Specialized cyclocross, which is 
 Do I enjoy riding it?  Yes, loads!  I also like that I can chain it up with a single lock and not worry about it, as it doesn't look like much and it doesn't have any quick release (a.k.a. easy to steal) parts.  It's been almost 2 years since I got this bike and converted it to single speed, and Strava says that in that time it's covered 850km or 528 miles.  A friend used it while visiting from England too.  I take it out for probably just over half of my rides, as most involve going to a coffee shop or parking up and walking around a bit.  I also still love my Specialized cyclocross which I mostly now use for longer point to point riding.
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/peugeot_finished.jpg" class="figure-img img-fluid" alt="Rebuilt bike on a coffee run">
+  <img src="{{ site.baseurl }}/assets/images/peugeot_finished.webp" class="figure-img img-fluid" alt="Rebuilt bike on a coffee run">
   <figcaption class="figure-caption text-center">Rebuilt bike on a coffee run.</figcaption>
 </figure>
 

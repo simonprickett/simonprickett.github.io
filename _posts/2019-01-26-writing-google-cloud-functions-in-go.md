@@ -2,7 +2,7 @@
 layout: post
 title:  "Writing Google Cloud Functions in Go"
 categories: [ Cloud, GCP, Go, Serverless, Coding ]
-image: assets/images/go_cloud_functions_main.jpg
+image: assets/images/go_cloud_functions_main.webp
 author: simon
 ---
 Let’s try building and deploying a Google Cloud Function using Go!  Google Cloud recently added the Go language to its list of runtimes for the Cloud Functions serverless compute platform. The Go runtime uses version 1.11 and is currently in beta but available to everyone. If it follows the path of the Python and Node.js 8 runtimes I expect it to spend a short time in beta before being moved to general availability.
@@ -49,14 +49,14 @@ https://<region>-<projectId>.cloudfunctions.net/getUserDetails
 The output looks like this:
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/go_cloud_functions_output.png" class="figure-img img-fluid" alt="Function output">
+  <img src="{{ site.baseurl }}/assets/images/go_cloud_functions_output.webp" class="figure-img img-fluid" alt="Function output">
   <figcaption class="figure-caption text-center">Function output.</figcaption>
 </figure>
 
 The Cloud Functions console also shows that the function is using the Go runtime:
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/go_cloud_functions_console.png" class="figure-img img-fluid" alt="Cloud Functions console">
+  <img src="{{ site.baseurl }}/assets/images/go_cloud_functions_console.webp" class="figure-img img-fluid" alt="Cloud Functions console">
   <figcaption class="figure-caption text-center">Google Cloud Functions Console.</figcaption>
 </figure>
 

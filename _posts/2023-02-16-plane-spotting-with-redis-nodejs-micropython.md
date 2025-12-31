@@ -2,7 +2,7 @@
 layout: post
 title:  "Plane Spotting with Redis, Node.js and MicroPython"
 categories: [ IoT, Coding, Raspberry Pi, Redis, JavaScript, Python ]
-image: assets/images/plane_tracking_main.jpg
+image: assets/images/plane_tracking_main.webp
 author: simon
 ---
 I've always been interested to watch planes pass by, so I decided to build a plane tracking system... For this I used some existing software called [dump1090](https://github.com/antirez/dump1090) - it receives data broadcast from passing aircraft.  This works by using a software defined radio USB stick with an antenna, decoding messages to usable data that can be read with Node.js (or other languages with a suitable library for it).
@@ -23,7 +23,7 @@ Here's the flip dot sign working:
 Here's a diagram showing the architecture for this project, watch the videos for a full explanation...
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/plane_tracking_architecture.png" class="figure-img img-fluid" alt="Architecture of the plane tracking system">
+  <img src="{{ site.baseurl }}/assets/images/plane_tracking_architecture.webp" class="figure-img img-fluid" alt="Architecture of the plane tracking system">
   <figcaption class="figure-caption text-center">Architecture of the plane tracking system.</figcaption>
 </figure>
 

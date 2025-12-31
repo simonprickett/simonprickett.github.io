@@ -2,13 +2,13 @@
 layout: post
 title:  "Building a Redis Compatible Visual Bloom Filter"
 categories: [ IoT, Coding, Raspberry Pi, Python, Node.js, JavaScript, Redis ]
-image: assets/images/redis_bloom_filter_main.jpg
+image: assets/images/redis_bloom_filter_main.webp
 author: simon
 ---
 I wanted to take my previous Visual Bloom Filter project and enhance it so that, instead of a web front end and REST like API, it could instead use the Redis wire protocol.  This would make it usable from any existing Redis client package or directly with the Redis CLI.
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/redis_bloom_filter_screenshot.png" class="figure-img img-fluid" alt="Screenshot from my live stream showing the Visual Bloom Filter working">
+  <img src="{{ site.baseurl }}/assets/images/redis_bloom_filter_screenshot.webp" class="figure-img img-fluid" alt="Screenshot from my live stream showing the Visual Bloom Filter working">
   <figcaption class="figure-caption text-center">Controlling the Visual Bloom Filter using redis-cli.</figcaption>
 </figure>
 

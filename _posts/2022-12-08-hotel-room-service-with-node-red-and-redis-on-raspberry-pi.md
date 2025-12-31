@@ -2,13 +2,13 @@
 layout: post
 title:  "Hotel Room Service with Node RED and Redis on the Raspberry Pi"
 categories: [ IoT, Coding, Raspberry Pi, Redis, JavaScript ]
-image: assets/images/node_red_redis_main.jpg
+image: assets/images/node_red_redis_main.webp
 author: simon
 ---
 Node-RED is a low code graphical programming environment, often used to describe event driven IoT systems.  In this project, I show how to build a flow that uses Redis Pub/Sub to model requests for room service at a hotel.  The code is in JavaScript.
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/node_red_redis_stream.png" class="figure-img img-fluid" alt="Screenshot from my live stream showing the Node RED project flow">
+  <img src="{{ site.baseurl }}/assets/images/node_red_redis_stream.webp" class="figure-img img-fluid" alt="Screenshot from my live stream showing the Node RED project flow">
   <figcaption class="figure-caption text-center">The Node RED flow as seen on the live stream videos.</figcaption>
 </figure>
 

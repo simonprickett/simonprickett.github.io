@@ -2,7 +2,7 @@
 layout: post
 title:  "Building a Task Tracker with Arduino and LED Arcade Buttons"
 categories: [ Arduino, IoT, Coding, C ]
-image: assets/images/task_tracker_main.jpg
+image: assets/images/task_tracker_main.webp
 author: simon
 tags: [featured]
 ---
@@ -47,7 +47,7 @@ Next up I had to find an appropriate enclosure that I could mount the buttons to
 I took a walk around my local Home Depot store to see if they had anything that might be a good fit. I’ve always found Home Depot employees to be really helpful with the random things I’ve asked their advice about. They came good yet again, directing me to the electrical junction boxes. They have a range of these in different sizes that are basically empty boxes made of PVC that are easy to drill holes in and come with a screw mounted lid. I got one that was 6" x 6" x 4" deep which allowed enough space to lay out my seven buttons. Here’s what it looked like on my workbench after I’d drawn some guide lines on it for drilling:
 
 <figure class="figure">
-<img src="{{ site.baseurl }}/assets/images/task_tracker_enclosure.jpg" class="figure-img img-fluid" alt="Task tracker enclosure.">
+<img src="{{ site.baseurl }}/assets/images/task_tracker_enclosure.webp" class="figure-img img-fluid" alt="Task tracker enclosure.">
   <figcaption class="figure-caption text-center">Home Depot Electrical Junction Box — it’s just a big old empty box inside... hopefully you can find one without a logo on the lid!</figcaption>
 </figure>
 
@@ -62,7 +62,7 @@ The usual method for wiring up these buttons would be by soldering hook up wires
 To minimize soldering I used Adafruit’s [arcade quick connect wires](https://www.adafruit.com/product/1152) for the data connections. These simply press onto the terminals on the buttons using a spade type connector, no soldering required. I did solder all of the ground connections for reasons we’ll get to at assembly time. Here’s what one of the buttons looks like with the quick connect wires attached to its data terminals:
 
 <figure class="figure">
-<img src="{{ site.baseurl }}/assets/images/task_tracker_red_button.jpg" class="figure-img img-fluid" alt="Task tracker red button.">
+<img src="{{ site.baseurl }}/assets/images/task_tracker_red_button.webp" class="figure-img img-fluid" alt="Task tracker red button.">
 </figure>
 
 ### Logic Board
@@ -78,7 +78,7 @@ There are many single board computer or microprocessor board options here, I dec
 * Crucially, it has 14 digital data pins… this project needs all of these as we have 7 buttons to read the status of and 7 LEDs to toggle. Each of these will need a unique digital pin.
 
 <figure class="figure">
-<img src="{{ site.baseurl }}/assets/images/task_tracker_uno.jpg" class="figure-img img-fluid" alt="Arduino Uno R3.">
+<img src="{{ site.baseurl }}/assets/images/task_tracker_uno.webp" class="figure-img img-fluid" alt="Arduino Uno R3.">
   <figcaption class="figure-caption text-center">Arduino Uno R3 (Photo credit arduino.cc)</figcaption>
 </figure>
 
@@ -87,7 +87,7 @@ With all fourteen digital pins taken up with the buttons representing the seven 
 I also didn’t fancy doing lots of soldering to connect fourteen data wires, plus ground and the reset wiring to the Arduino. To avoid that, I added a [screw shield](https://www.amazon.com/gp/product/B01JFQQXRS), which sits over the Arduino headers and allows you to connect wires by clamping them with screws rather than solder. These are also great for prototyping things as you can rewire things easily.
 
 <figure class="figure">
-<img src="{{ site.baseurl }}/assets/images/task_tracker_screw_shield.jpg" class="figure-img img-fluid" alt="Arduino screw shield.">
+<img src="{{ site.baseurl }}/assets/images/task_tracker_screw_shield.webp" class="figure-img img-fluid" alt="Arduino screw shield.">
   <figcaption class="figure-caption text-center">Arduino Screw Shield</figcaption>
 </figure>
 
@@ -96,7 +96,7 @@ I also didn’t fancy doing lots of soldering to connect fourteen data wires, pl
 I wanted a single power supply system that would be capable of powering the Arduino and illuminating all seven of the green LED buttons simultaneously. This turned out to be an easily met requirement as Adafruit sells a [12v / 1A power adapter](https://www.adafruit.com/product/798) with the right sort of barrel jack for the Arduino. To make things neat and tidy. All in all, the power supply system parts look like this (before some cutting and soldering during assembly):
 
 <figure class="figure">
-<img src="{{ site.baseurl }}/assets/images/task_tracker_power_supply.jpg" class="figure-img img-fluid" alt="Power supply.">
+<img src="{{ site.baseurl }}/assets/images/task_tracker_power_supply.webp" class="figure-img img-fluid" alt="Power supply.">
   <figcaption class="figure-caption text-center">Power supply.</figcaption>
 </figure>
 
@@ -105,7 +105,7 @@ I wanted a single power supply system that would be capable of powering the Ardu
 Assembling the hardware was a pretty satisfying phase of the project although it did involve soldering a lot of ground wires together! I measured where I wanted to place the buttons, then used [Forstner drill bits](https://en.wikipedia.org/wiki/Drill_bit#Forstner_bits) to cut precise circles in the PVC junction box — these are designed for this specific job and do it really well!
 
 <figure class="figure">
-<img src="{{ site.baseurl }}/assets/images/task_tracker_assembly.jpg" class="figure-img img-fluid" alt="Assembly - drilling holes.">
+<img src="{{ site.baseurl }}/assets/images/task_tracker_assembly.webp" class="figure-img img-fluid" alt="Assembly - drilling holes.">
   <figcaption class="figure-caption text-center">Assembly - drilling holes.</figcaption>
 </figure>
 
@@ -114,28 +114,28 @@ The drilling process did make quite a mess which, although easy to sweep up, cou
 Attaching the arcade buttons is then very simple as they just screw into place with the fitting that Adafruit ships them with:
 
 <figure class="figure">
-<img src="{{ site.baseurl }}/assets/images/task_tracker_attach_buttons.jpg" class="figure-img img-fluid" alt="Assembly - attaching buttons.">
+<img src="{{ site.baseurl }}/assets/images/task_tracker_attach_buttons.webp" class="figure-img img-fluid" alt="Assembly - attaching buttons.">
   <figcaption class="figure-caption text-center">Assembly - attaching buttons.</figcaption>
 </figure>
 
 When fitting the arcade buttons I made sure that the terminal with the red paint mark on it was in the top right position for each one, meaning that the wiring setup for each would be as follows:
 
 <figure class="figure">
-<img src="{{ site.baseurl }}/assets/images/task_tracker_wiring.jpg" class="figure-img img-fluid" alt="Wiring diagram for each button.">
+<img src="{{ site.baseurl }}/assets/images/task_tracker_wiring.webp" class="figure-img img-fluid" alt="Wiring diagram for each button.">
   <figcaption class="figure-caption text-center">Wiring diagram for each button.</figcaption>
 </figure>
 
 Each of the ground terminals on the buttons needed wiring together so that they were all linked to one to two wires that could be attached to the Arduino’s ground pins (it doesn’t have enough of them otherwise). This involved a lot of messy (as I’m not very good at it) soldering. I then used the quick connect arcade wires for each data terminal on the arcade buttons and ended up with this spaghetti!:
 
 <figure class="figure">
-<img src="{{ site.baseurl }}/assets/images/task_tracker_wiring_spaghetti.jpg" class="figure-img img-fluid" alt="Wiring spaghetti!">
+<img src="{{ site.baseurl }}/assets/images/task_tracker_wiring_spaghetti.webp" class="figure-img img-fluid" alt="Wiring spaghetti!">
   <figcaption class="figure-caption text-center">Black wires are ground, white are LED and button press data (plastic connectors get cut off the white wires later for screwing to the Arduino screw shield).</figcaption>
 </figure>
 
 After connecting all the wires to the Arduino (pro tip: making notes on which wire links which digital pin on the Arduino to which function on each button is essential), things looked like this:
 
 <figure class="figure">
-<img src="{{ site.baseurl }}/assets/images/task_tracker_wired_to_shield.jpg" class="figure-img img-fluid" alt="Wires attached to Arduino screw shield.">
+<img src="{{ site.baseurl }}/assets/images/task_tracker_wired_to_shield.webp" class="figure-img img-fluid" alt="Wires attached to Arduino screw shield.">
   <figcaption class="figure-caption text-center">At this point the dog had given up and fallen asleep.</figcaption>
 </figure>
 
@@ -144,7 +144,7 @@ Note the slightly different wiring on the red button: only two wires are connect
 I screwed the flush fit barrel jack power mount into place and soldered the wires from the barrel jack extension cable to it (center = positive for the Arduino). This provided a clean looking power plug from the outside of the box:
 
 <figure class="figure">
-<img src="{{ site.baseurl }}/assets/images/task_tracker_power_setup.jpg" class="figure-img img-fluid" alt="Power wired in.">
+<img src="{{ site.baseurl }}/assets/images/task_tracker_power_setup.webp" class="figure-img img-fluid" alt="Power wired in.">
   <figcaption class="figure-caption text-center">Power wired in.</figcaption>
 </figure>
 

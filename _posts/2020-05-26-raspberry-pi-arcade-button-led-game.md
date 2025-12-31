@@ -2,7 +2,7 @@
 layout: post
 title:  "Making a Game with a Raspberry Pi, LED Arcade Button, Buzzer and Python"
 categories: [ Raspberry Pi, Python, Technology, Coding ]
-image: assets/images/pi_led_arcade_main.jpg
+image: assets/images/pi_led_arcade_main.webp
 author: simon
 ---
 This is a project I'd wanted to do for a while, and finally got motivation and time to make headway with!  As the current social distancing measures have made in person Meetups impossible to organize, I've benefitted greatly from being able to virtually attend sessions that I would normally be unable to.  My favourite of these has been the [Ladies of Code London](https://www.meetup.com/Ladies-of-Code-UK/) "Get on With It" project sessions... these are a bring your own project format organized through Zoom calls, Google meet and Slack.  Basically we get together, talk about what we're going to do, get on with it for a bit and check back in.  It's a fun, supportive environment and has been well worth some seriously early weekend wake ups to join at 6 and 7am Pacific time.  If you want to read more about how this works, Suze [wrote a blog post about it here](https://suze.dev/blog/2020/05/10/get-on-with-it/).
@@ -10,7 +10,7 @@ This is a project I'd wanted to do for a while, and finally got motivation and t
 At one of these sessions, I said I was going to build a pointless object using a Raspberry Pi, an Adafruit LED arcade button that I had left over from my [Arduino Task Tracker project](https://simonprickett.dev/building-a-task-tracker-with-arduino-and-led-arcade-buttons/), and a buzzer that I also had in my parts cupboard.  Over the course of two sessions, I did some soldering to attach wires to the button and buzzer, connected them up to the Pi and mounted the button on top of a plastic soup container that I had.  Here's what the end result looked like:
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/pi_led_arcade_assembled.jpg" class="figure-img img-fluid" alt="Assembled Pi Project">
+  <img src="{{ site.baseurl }}/assets/images/pi_led_arcade_assembled.webp" class="figure-img img-fluid" alt="Assembled Pi Project">
   <figcaption class="figure-caption text-center">Assembled Pi Project.</figcaption>
 </figure>
 

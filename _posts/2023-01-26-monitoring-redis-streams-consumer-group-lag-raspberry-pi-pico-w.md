@@ -2,7 +2,7 @@
 layout: post
 title:  "Monitoring Redis Streams Consumer Group Lag with a Raspberry Pi Pico W"
 categories: [ IoT, Coding, Raspberry Pi, Redis, JavaScript, Python ]
-image: assets/images/redis_streams_lag_main.jpg
+image: assets/images/redis_streams_lag_main.webp
 author: simon
 ---
 When working with streaming data or any sort of system where a data structure acts as a buffer or queue betwen producers and consumers, we often want to know how far behind the consumers are with processing the data stream.  This is commonly referred to as the consumer lag.  
@@ -10,7 +10,7 @@ When working with streaming data or any sort of system where a data structure ac
 In this project, I build a visual representation of the lag for a Redis stream using new features of the `XINFO GROUPS` command added in Redis 7.
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/redis_streams_lag_screenshot.png" class="figure-img img-fluid" alt="Screenshot from my live stream demonstrating Redis Consumer Groups">
+  <img src="{{ site.baseurl }}/assets/images/redis_streams_lag_screenshot.webp" class="figure-img img-fluid" alt="Screenshot from my live stream demonstrating Redis Consumer Groups">
   <figcaption class="figure-caption text-center">Redis Consumer Group overview from my live stream.</figcaption>
 </figure>
 

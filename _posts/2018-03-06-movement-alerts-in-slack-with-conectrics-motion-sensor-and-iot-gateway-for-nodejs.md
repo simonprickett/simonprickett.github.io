@@ -2,7 +2,7 @@
 layout: post
 title:  "Movement Alerts in Slack with Conectric's Motion Sensor & IoT Gateway for Node.js"
 categories: [ Slack, Node.js, JavaScript, IoT, Coding ]
-image: assets/images/conectric_motion_slack_main.jpg
+image: assets/images/conectric_motion_slack_main.webp
 author: simon
 ---
 At Conectric we recently launched our new IoT Gateway product with an accompanying suite of wireless, battery powered sensors. In this article we’ll take a closer look at how to use our motion sensor and Node.js SDK together. We’ll use out of the box example code that ships with the SDK to create a movement alerting app for popular messaging platform Slack.
@@ -30,7 +30,7 @@ In this example use case we’ll be using both the USB Router and Motion sensor.
 ### USB Router
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/conectric_motion_slack_router.jpg" class="figure-img img-fluid" alt="The Conectric USB router.">
+  <img src="{{ site.baseurl }}/assets/images/conectric_motion_slack_router.webp" class="figure-img img-fluid" alt="The Conectric USB router.">
   <figcaption class="figure-caption text-center">The Conectric USB router.</figcaption>
 </figure>
 
@@ -43,7 +43,7 @@ Additional USB routers can be used to extend the mesh network’s range. These a
 ### Motion Sensor
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/conectric_motion_slack_motion_sensor.jpg" class="figure-img img-fluid" alt="The Conectric motion sensor.">
+  <img src="{{ site.baseurl }}/assets/images/conectric_motion_slack_motion_sensor.webp" class="figure-img img-fluid" alt="The Conectric motion sensor.">
   <figcaption class="figure-caption text-center">The Conectric motion sensor.</figcaption>
 </figure>
 
@@ -64,7 +64,7 @@ If you're familiar with Slack, you'll know that external integrations can post m
 In Slack we set up an incoming webhook and keep a copy of the URL that their portal generates for us to post data to. Later, we’ll require that URL in our Node.js callback function:
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/conectric_motion_slack_slack_setup.png" class="figure-img img-fluid" alt="Slack setup.">
+  <img src="{{ site.baseurl }}/assets/images/conectric_motion_slack_slack_setup.webp" class="figure-img img-fluid" alt="Slack setup.">
   <figcaption class="figure-caption text-center">Slack setup.</figcaption>
 </figure>
 

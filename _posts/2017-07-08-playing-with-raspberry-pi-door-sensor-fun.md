@@ -2,7 +2,7 @@
 layout: post
 title:  "Playing with Raspberry Pi: Door Sensor Fun"
 categories: [ Raspberry Pi, Technology, IoT, Python, Coding ]
-image: assets/images/pi_door_sensor_main.jpg
+image: assets/images/pi_door_sensor_main.webp
 author: simon
 ---
 I recently noticed that Adafruit sells low cost ($3.95) wired door sensors that basically act as a switch — if the magnet from one part of the sensor is placed in close proximity to the other part, the switch circuit closes. As the magnet in the part that you’d normally attach to a door moves away (because the door swings open), the switch circuit opens. If you’ve read my [previous Raspberry Pi post]({{ site.baseurl}}/playing-with-raspberry-pi-traffic-lights), you’ll know I have a few sets of traffic light LEDs, so I thought I’d see if I could do something with these and a door sensor...
@@ -12,7 +12,7 @@ I recently noticed that Adafruit sells low cost ($3.95) wired door sensors that 
 We’ll need a few things to build this out, which are...
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/pi_door_sensor_ingredients.jpg" class="figure-img img-fluid" alt="Shopping list.">
+  <img src="{{ site.baseurl }}/assets/images/pi_door_sensor_ingredients.webp" class="figure-img img-fluid" alt="Shopping list.">
   <figcaption class="figure-caption text-center">Ingredients you will need!</figcaption>
 </figure>
 
@@ -36,7 +36,7 @@ As delivered, the door sensor comes with bare wires... we could solder these dir
 One end of the jumper wire provides a female connector that goes onto the pin on the Pi. The other end is a male connector — cut that off and strip the insulation back to expose the cable, then solder it to one of the exposed wires on the door sensor. Repeat with a second jumper, and use some electrical tape to cover the solder. You should end up with something that looks like this:
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/pi_door_sensor_jumper_cables.jpg" class="figure-img img-fluid" alt="Jumper cables with female connector on one end, soldered to the door sensor wires on the other end.">
+  <img src="{{ site.baseurl }}/assets/images/pi_door_sensor_jumper_cables.webp" class="figure-img img-fluid" alt="Jumper cables with female connector on one end, soldered to the door sensor wires on the other end.">
   <figcaption class="figure-caption text-center">Jumper cables with female connector on one end, soldered to the door sensor wires on the other end.</figcaption>
 </figure>
 
@@ -45,14 +45,14 @@ Next, we can attach the traffic lights and door sensor wires to the GPIO pins on
 The code sample I’ll be using will need you to connect the lights and door sensor to the pins shown below (red = traffic lights, yellow = door sensor).
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/pi_door_sensor_pinout.png" class="figure-img img-fluid" alt="Pins circled in yellow = door switch sensor, pins circled in red = traffic lights, arrow indicates direction of lights.">
+  <img src="{{ site.baseurl }}/assets/images/pi_door_sensor_pinout.webp" class="figure-img img-fluid" alt="Pins circled in yellow = door switch sensor, pins circled in red = traffic lights, arrow indicates direction of lights.">
   <figcaption class="figure-caption text-center">Pins circled in yellow = door switch sensor, pins circled in red = traffic lights, arrow indicates direction of lights. Pinout image by pinout.xyz.</figcaption>
 </figure>
 
 Having got everything wired together, use the Fun Tak to hold the door sensor down to the desk in front of the Raspberry Pi and the door sensor magnet to the front of the car like so:
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/pi_door_sensor_single_car.jpg" class="figure-img img-fluid" alt="Car with door sensor magnet attached.">
+  <img src="{{ site.baseurl }}/assets/images/pi_door_sensor_single_car.webp" class="figure-img img-fluid" alt="Car with door sensor magnet attached.">
   <figcaption class="figure-caption text-center">Car with door sensor magnet attached.</figcaption>
 </figure>
 
@@ -163,7 +163,7 @@ Adding another traffic light requires a sequence of one ground pin followed by t
 Moving things around from the single switch demo, we can fit two sensors and two lights onto the Pi using the following arrangement (again, yellow highlighting shows where the door sensor pins go, and red is for the traffic lights with the arrows showing the direction in which the lights face):
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/pi_door_sensor_two_sets_pinout.png" class="figure-img img-fluid" alt="Pins circled in yellow = door sensor, pins circled in red = traffic lights, arrows show direction of lights.">
+  <img src="{{ site.baseurl }}/assets/images/pi_door_sensor_two_sets_pinout.webp" class="figure-img img-fluid" alt="Pins circled in yellow = door sensor, pins circled in red = traffic lights, arrows show direction of lights.">
   <figcaption class="figure-caption text-center">Pins circled in yellow = door sensor, pins circled in red = traffic lights, arrows show direction of lights. Pinout image by pinout.xyz</figcaption>
 </figure>
 

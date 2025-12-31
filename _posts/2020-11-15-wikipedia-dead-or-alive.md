@@ -2,7 +2,7 @@
 layout: post
 title:  "Releasing a Dead or Alive Wikipedia Package on npm"
 categories: [ Node.js, JavaScript, Coding ]
-image: assets/images/doa_main.jpg
+image: assets/images/doa_main.webp
 author: simon
 ---
 A long time ago, I used to be a regular listener to [Simon Mayo](https://en.wikipedia.org/wiki/Simon_Mayo)'s Radio 1 show.  He ran a "Dead or Alive" segment where a listener would call in, and he'd challenge them to tell him whether a series of celebrities were dead or still alive.
@@ -204,7 +204,7 @@ Publishing packages publicly, so that anyone can use them, is free.
 Once published, npm will use the `README.md` file as the basis of the package's page.  Here's what it looks like:
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/doa_published.png" class="figure-img img-fluid" alt="npm Page for my package">
+  <img src="{{ site.baseurl }}/assets/images/doa_published.webp" class="figure-img img-fluid" alt="npm Page for my package">
   <figcaption class="figure-caption text-center">npm page for my package</figcaption>
 </figure>
 

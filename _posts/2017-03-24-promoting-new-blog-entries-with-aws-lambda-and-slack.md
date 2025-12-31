@@ -2,7 +2,7 @@
 layout: post
 title:  "Promoting New Blog Entries with AWS Lambda and Slack"
 categories: [ AWS, Serverless, Slack, JavaScript, DevOps, Coding ]
-image: assets/images/lambda_slack_main.jpg
+image: assets/images/lambda_slack_main.webp
 author: simon
 canonical_url: https://moduscreate.com/blog/aws-lambda-and-slack-promoting-new-blog-entries/
 ---
@@ -40,7 +40,7 @@ We need to be able to run our code periodically at configurable intervals. In th
 Our blog posts generally get published during working hours, US Eastern and US Pacific time, so we used a polling schedule that invokes a Lambda function once an hour around these times as shown:
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/lambda_slack_cloudwatch.png" class="figure-img img-fluid" alt="Configuring CloudWatch Events">
+  <img src="{{ site.baseurl }}/assets/images/lambda_slack_cloudwatch.webp" class="figure-img img-fluid" alt="Configuring CloudWatch Events">
 </figure>
 
 Note that CloudWatch Events run in UTC, hence the "early" and "late" hours. The "Resource name" maps to the Lambda function that will perform the next two steps in the process for us.
@@ -133,7 +133,7 @@ request.post({
 When Slack’s API receives the message payload at the webhook URL, it publishes a message to the channel associated with that URL. As our payload contain links, and we asked Slack to [unfurl links](https://medium.com/slack-developer-blog/everything-you-ever-wanted-to-know-about-unfurling-but-were-afraid-to-ask-or-how-to-make-your-e64b4bb9254), it will attempt to create a preview view, resulting in a message that looks like this (screenshot from the Slack client for Mac OS):
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/lambda_slack_end_result.png" class="figure-img img-fluid" alt="A new blog post announced in Slack">
+  <img src="{{ site.baseurl }}/assets/images/lambda_slack_end_result.webp" class="figure-img img-fluid" alt="A new blog post announced in Slack">
 </figure>
 
 ## Try it Out

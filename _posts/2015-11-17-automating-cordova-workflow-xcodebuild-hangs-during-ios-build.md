@@ -2,7 +2,7 @@
 layout: post
 title:  "Automating Cordova Workflow: xcodebuild Hangs During iOS Build"
 categories: [ Cordova, iOS, Continuous Integration ]
-image: assets/images/cordova_automating_main.jpg
+image: assets/images/cordova_automating_main.webp
 author: simon
 ---
 The Cordova Command Line Interface (CLI) has come a long way since it was introduced with Cordova 3.0 back in the summer of 2013. Developers can use this to create, configure, and build apps — greatly reducing the need to directly use “traditional” tools such as Xcode for iOS and Eclipse for Android.

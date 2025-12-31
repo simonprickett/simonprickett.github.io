@@ -2,7 +2,7 @@
 layout: post
 title:  "Taking Pictures with Raspberry Pi and Redis"
 categories: [ Redis, Raspberry Pi, Python ]
-image: assets/images/pi_photos_redis_main.jpg
+image: assets/images/pi_photos_redis_main.webp
 author: simon
 ---
 "How can you store images in Redis from a Python script?" - I was asked this by someone looking to build an IoT project that used Redis as the data store for image classification.  The really short answer is "Well, Redis Strings are binary safe, so any data structure in Redis that uses those can hold your image data safely".  That's a bit boring though, and I'm always on the lookout for ideas for the Internet of Things live streams...
@@ -12,7 +12,7 @@ So I thought I'd build something that demonstrates how to get image data in and 
 Here's what my initial Raspberry Pi camera setup looked like.  I used a [Raspberry Pi 3B](https://www.raspberrypi.com/products/raspberry-pi-3-model-b/) (I had one around, any model with the camera interface will work), the [Raspberry Pi Camera Module 2.1](https://www.raspberrypi.com/products/camera-module-v2/) and a [case from Adafruit](https://www.adafruit.com/product/2256).  I held the camera onto the case using electrical tape.  I've subsequently updated the code to use the newer [Raspberry Pi Camera Module 3](https://www.raspberrypi.com/products/camera-module-3/) which has autofocus and a higher resolution.
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/pi_photos_camera_setup.jpg" class="figure-img img-fluid" alt="The camera set up on the Raspberry Pi.">
+  <img src="{{ site.baseurl }}/assets/images/pi_photos_camera_setup.webp" class="figure-img img-fluid" alt="The camera set up on the Raspberry Pi.">
   <figcaption class="figure-caption text-center">The camera set up on the Raspberry Pi.</figcaption>
 </figure>
 
@@ -82,12 +82,12 @@ There are two components to the "front end" - a HTML/CSS/JavaScript interface to
 Here's a couple of screenshots of the finished front end showing a few images captured from the Pi.  These show the difference between the v2.1 and v3 camera modules.
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/pi_photos_server_component_running.png" class="figure-img img-fluid" alt="The front end showing a few captured images (v2.1 camera - no autofocus).">
+  <img src="{{ site.baseurl }}/assets/images/pi_photos_server_component_running.webp" class="figure-img img-fluid" alt="The front end showing a few captured images (v2.1 camera - no autofocus).">
   <figcaption class="figure-caption text-center">The front end showing a few captured images (v2.1 camera - no autofocus).</figcaption>
 </figure>
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/pi_photos_server_component_running_v3.png" class="figure-img img-fluid" alt="The front end showing a few captured images (v3 camera - with autofocus).">
+  <img src="{{ site.baseurl }}/assets/images/pi_photos_server_component_running_v3.webp" class="figure-img img-fluid" alt="The front end showing a few captured images (v3 camera - with autofocus).">
   <figcaption class="figure-caption text-center">The front end showing a few captured images (v3 camera - with autofocus).</figcaption>
 </figure>
 

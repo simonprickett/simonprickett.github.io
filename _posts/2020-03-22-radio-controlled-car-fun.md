@@ -2,7 +2,7 @@
 layout: post
 title:  "Radio Controlled Car and Coffee Fun"
 categories: [ Radio Control, Video, Hobbies ]
-image: assets/images/radio_control_car_fun_main.jpg
+image: assets/images/radio_control_car_fun_main.webp
 author: simon
 ---
 I've long been interested in radio controlled cars, and have built and raced them to quite a high level several times before although not recently.  Today I decided to take one out on a bike ride to try and capture some footage of me driving it just for fun, and to have something to edit later to pass some time.
