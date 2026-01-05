@@ -2,7 +2,7 @@
 layout: post
 title:  "Raspberry Pi Coding in Swift: Traffic Lights"
 categories: [ Raspberry Pi, Technology, IoT, Swift, Coding ]
-image: assets/images/pi_traffic_lights_swift_main.jpg
+image: assets/images/pi_traffic_lights_swift_main.webp
 author: simon
 ---
 As long time readers know, I've written a series of articles each describing how to get up and running with controlling the Raspberry Pi GPIO pins using different programming languages.  In each article, I use the same example of a set of traffic light LEDs so that you can compare and contrast the different language implementations.  With the possible exception of a future ARM assembler post (steep learning curve for me there - but I do like working at such a low level!), I thought I'd run out of languages to try.  Recently, I stumbled across [this blog post](https://lickability.com/blog/swift-on-raspberry-pi/) which describes how to install Swift on the Pi so I thought I'd try it out... 
@@ -39,26 +39,26 @@ To try this out, you will need the following (links here mostly go to [Adafruit]
 The Low Voltage Labs traffic lights connect to the Pi using four pins. One of these needs to be ground, the other three being actual GPIO pins used to control each of the individual LEDs.
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/pi_traffic_lights_swift_lights_stock.jpg" class="figure-img img-fluid" alt="Low Voltage Labs Traffic Lights">
+  <img src="{{ site.baseurl }}/assets/images/pi_traffic_lights_swift_lights_stock.webp" class="figure-img img-fluid" alt="Low Voltage Labs Traffic Lights">
   <figcaption class="figure-caption text-center">Low Voltage Labs Traffic Lights.</figcaption>
 </figure>
 
 Before powering up the Pi, attach the traffic lights so that the pins connect to the GPIO pins highlighted in red:
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/pi_traffic_lights_swift_gpio_diagram.png" class="figure-img img-fluid" alt="GPIO Pin Diagram">
+  <img src="{{ site.baseurl }}/assets/images/pi_traffic_lights_swift_gpio_diagram.webp" class="figure-img img-fluid" alt="GPIO Pin Diagram">
   <figcaption class="figure-caption text-center">GPIO Pin Diagram.</figcaption>
 </figure>
 
 When you're done it's going to look something like this... (an easy way to make sure you have it right is to locate the lights on the left hand row of pins as you look at the Pi with the USB ports to the bottom, then count 8 pins up and attach the lights there).
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/pi_traffic_lights_swift_lights_attached_1.jpg" class="figure-img img-fluid" alt="GPIO pins with lights attached.">
+  <img src="{{ site.baseurl }}/assets/images/pi_traffic_lights_swift_lights_attached_1.webp" class="figure-img img-fluid" alt="GPIO pins with lights attached.">
   <figcaption class="figure-caption text-center">GPIO pins with lights attached.</figcaption>
 </figure>
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/pi_traffic_lights_swift_lights_attached_2.jpg" class="figure-img img-fluid" alt="GPIO pins with lights attached.">
+  <img src="{{ site.baseurl }}/assets/images/pi_traffic_lights_swift_lights_attached_2.webp" class="figure-img img-fluid" alt="GPIO pins with lights attached.">
   <figcaption class="figure-caption text-center">GPIO pins with lights attached.</figcaption>
 </figure>
 

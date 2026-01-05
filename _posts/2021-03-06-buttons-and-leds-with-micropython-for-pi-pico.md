@@ -2,7 +2,7 @@
 layout: post
 title:  "Buttons and LEDs with MicroPython for the Raspberry Pi Pico"
 categories: [Python, Raspberry Pi, IoT, Coding ]
-image: assets/images/pi_pico_main.jpg
+image: assets/images/pi_pico_main.webp
 author: simon
 ---
 Raspberry Pi recently released the Pico, their first microcontoller.  This is a bit of a departure from their previous single board computers that cost a bit more, and run a full operating system.  Think of the Pico more like an Arduino... you can program it in C or MicroPython and it runs your code and nothing else.  
@@ -12,14 +12,14 @@ The [Pi Pico](https://www.raspberrypi.org/products/raspberry-pi-pico/) has sever
 Here's what the Pi Pico looks like:
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/pi_pico_pi_pico_board.jpg" class="figure-img img-fluid" alt="The Raspberry Pi Pico Microcontroller Board">
+  <img src="{{ site.baseurl }}/assets/images/pi_pico_pi_pico_board.webp" class="figure-img img-fluid" alt="The Raspberry Pi Pico Microcontroller Board">
   <figcaption class="figure-caption text-center">The Raspberry Pi Pico Microcontroller Board.</figcaption>
 </figure>
 
 Programming is done by attaching the board to a computer using a micro USB cable.  [Thonny](https://thonny.org/) is the recommended editor - it can detect the Pi Pico and save code to it, as well as interface to the Python REPL on the board.  Here's what it looks like running on a Mac:
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/pi_pico_thonny.png" class="figure-img img-fluid" alt="Thonny running on a Mac">
+  <img src="{{ site.baseurl }}/assets/images/pi_pico_thonny.webp" class="figure-img img-fluid" alt="Thonny running on a Mac">
   <figcaption class="figure-caption text-center">Thonny running on a Mac.</figcaption>
 </figure>
 
@@ -62,14 +62,14 @@ Here's everything I used to build this project:
 The buttons each have four connections... one is for the button feature, one powers the LED and the other two are ground.  I needed to connect the button and LED connections to GPIO pins on the Pi Pico, and both grounds can be connected together than to the same ground pin on the Pico.  Something like this:
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/pi_pico_button_wiring.png" class="figure-img img-fluid" alt="LED Button wiring diagram">
+  <img src="{{ site.baseurl }}/assets/images/pi_pico_button_wiring.webp" class="figure-img img-fluid" alt="LED Button wiring diagram">
   <figcaption class="figure-caption text-center">LED Button wiring diagram.</figcaption>
 </figure>
 
 The overall wiring diagram looks like this... my choice of GPIO pins is pretty arbitrary, just remember to note down what's wired to which pin as you'll need that to make the code work :)
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/pi_pico_wiring_diagram.png" class="figure-img img-fluid" alt="Project wiring diagram">
+  <img src="{{ site.baseurl }}/assets/images/pi_pico_wiring_diagram.webp" class="figure-img img-fluid" alt="Project wiring diagram">
   <figcaption class="figure-caption text-center">Project wiring diagram.</figcaption>
 </figure>
 

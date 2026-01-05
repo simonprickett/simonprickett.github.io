@@ -2,7 +2,7 @@
 layout: post
 title:  "You Can Now Write Google Cloud Functions with Node.js 8"
 categories: [ Cloud, GCP, Node.js, JavaScript, Serverless, Coding ]
-image: assets/images/node_8_cloud_functions_main.jpg
+image: assets/images/node_8_cloud_functions_main.webp
 author: simon
 ---
 In my [previous article]({{ site.baseurl}}/using-environment-variables-with-google-cloud-functions) looking at environment variables with Google Cloud Functions I noted that one of the downsides of using them is the relatively old Node.js 6 runtime that Google provides. As the environment is fully managed there was no option to use a newer Node.js version. Things changed recently, as Google has now added beta runtimes for Node 8 and Python 3. This is a welcome move towards catching up on Amazon’s lead in this space — AWS Lambda has had these features for a while (and supports other languages too). The old Node.js 6 runtime remains the default and will be used unless you explicitly specify that you want Node.js 8 when deploying your functions.
@@ -41,14 +41,14 @@ https://<region>-<projectId>.cloudfunctions.net/getUserDetails
 `<region>` and `<projectId>` will depend on your Google Cloud project setup. The output looks like this:
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/node_8_cloud_functions_output.png" class="figure-img img-fluid" alt="Function output">
+  <img src="{{ site.baseurl }}/assets/images/node_8_cloud_functions_output.webp" class="figure-img img-fluid" alt="Function output">
   <figcaption class="figure-caption text-center">Function output.</figcaption>
 </figure>
 
 The Cloud Functions console also shows that the function is using the Node.js 8 runtime:
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/node_8_cloud_functions_console.png" class="figure-img img-fluid" alt="Cloud Functions console">
+  <img src="{{ site.baseurl }}/assets/images/node_8_cloud_functions_console.webp" class="figure-img img-fluid" alt="Cloud Functions console">
   <figcaption class="figure-caption text-center">Google Cloud Functions Console.</figcaption>
 </figure>
 

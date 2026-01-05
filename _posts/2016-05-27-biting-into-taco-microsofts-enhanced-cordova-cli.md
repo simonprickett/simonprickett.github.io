@@ -2,7 +2,7 @@
 layout: post
 title:  "Biting into TACO, Microsoft's Enhanced Cordova CLI"
 categories: [ JavaScript, Microsoft, Cordova ]
-image: assets/images/taco_main.jpg
+image: assets/images/taco_main.webp
 author: simon
 ---
 Tools to streamline developer workflow when building Apache Cordova hybrid apps have been improving steadily since the introduction of the Cordova Command Line Interface (CLI) a few years ago. The CLI greatly improved, automated and standardized common development tasks that previously relied on manual processes to create or modify configuration files, or direct manipulation of native code.
@@ -147,7 +147,7 @@ $ taco emulate android
 The boilerplate app that TACO generates is visually different from the one that the regular Cordova CLI delivers, but has the same `deviceready` event detection logic. TACO’s boilerplate looks like this:
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/taco_boilerplate.png" class="figure-img img-fluid" alt="TACO Cordova boilerplate app.">
+  <img src="{{ site.baseurl }}/assets/images/taco_boilerplate.webp" class="figure-img img-fluid" alt="TACO Cordova boilerplate app.">
 </figure>
 
 TACO also allows developers to run their apps on devices connected to their machine, or to a configured remote Mac build server for Windows developers wanting to run an iOS app.

@@ -2,7 +2,7 @@
 layout: post
 title:  "Cheerlights with MQTT and Redis Streams"
 categories: [ IoT, Coding, Raspberry Pi, Python, Redis ]
-image: assets/images/cheerlights_main.jpg
+image: assets/images/cheerlights_main.webp
 author: simon
 ---
 CheerLights is a global network of synchronised lights that can be controlled by anyone.  Tweeting a colour to the CheerLights Twitter account and talking to a bot on its Discord server are a couple of examples of ways that anyone can change the colour of all CheerLights installations globally to one of the several supported colours.
@@ -10,7 +10,7 @@ CheerLights is a global network of synchronised lights that can be controlled by
 I decided to write my own small CheerLights display using the Pimoroni Unicorn Hat LED matrix connected to a Raspberry Pi.  CheerLights provides different methods to get the latest colour information - I chose to use their MQTT server and store colour history in a Redis Stream.
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/cheerlights_screenshot.png" class="figure-img img-fluid" alt="Screenshot from my live stream showing the Cheerlights project working">
+  <img src="{{ site.baseurl }}/assets/images/cheerlights_screenshot.webp" class="figure-img img-fluid" alt="Screenshot from my live stream showing the Cheerlights project working">
   <figcaption class="figure-caption text-center">Cheerlights via MQTT and Redis Streams displaying on a Pimoroni Unicorn Hat.</figcaption>
 </figure>
 

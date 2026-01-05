@@ -2,7 +2,7 @@
 layout: post
 title:  "Placing Markers Inside Google Maps"
 categories: [ Google Maps, JavaScript, Front End, Coding ]
-image: assets/images/google_maps_main.jpg
+image: assets/images/google_maps_main.webp
 author: simon
 canonical_url: https://moduscreate.com/blog/placing-markers-inside-polygons-with-google-maps/
 ---
@@ -86,7 +86,7 @@ new google.maps.Marker({
 This gives us an approximation of the polygon’s [centroid](https://en.wikipedia.org/wiki/Centroid) point. However, trying this out on a map shows we have a problem...
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/google_maps_problem.png" class="figure-img img-fluid" alt="Google Map">
+  <img src="{{ site.baseurl }}/assets/images/google_maps_problem.webp" class="figure-img img-fluid" alt="Google Map">
 </figure>
 
 In this case, the exact center point of the bounding box (shown as the black rectangle) is outside the polygon. Whilst this won’t always be the case, we clearly need to do some more work here...
@@ -220,14 +220,14 @@ which tells us whether that point is inside the polygon or not.
 The image in figure 1 shows a test polygon with the bounding box also drawn on the map for debugging. The blue marker is the center point of the bounding box, and the algorithm chose to place the marker below that as the point due South is the closest inside the polygon.
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/google_maps_figure_1.png" class="figure-img img-fluid" alt="Figure 1: Example Polygon with Bounding Box">
+  <img src="{{ site.baseurl }}/assets/images/google_maps_figure_1.webp" class="figure-img img-fluid" alt="Figure 1: Example Polygon with Bounding Box">
   <figcaption class="figure-caption text-center">Figure 1: Example Polygon with Bounding Box.</figcaption>
 </figure>
 
 Figure 2 demonstrates that the marker lands to the right because the polygon is much wider than it is tall, so in this case we use proportionally larger gaps when looking East/West than we look North/South.
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/google_maps_figure_2.png" class="figure-img img-fluid" alt="Figure 2: A Wider, Narrower Polygon">
+  <img src="{{ site.baseurl }}/assets/images/google_maps_figure_2.webp" class="figure-img img-fluid" alt="Figure 2: A Wider, Narrower Polygon">
   <figcaption class="figure-caption text-center">Figure 2: A Wider, Narrower Polygon.</figcaption>
 </figure>
 
@@ -245,7 +245,7 @@ new google.maps.Marker({
 With this done, we then tried out a range of polygons to make sure that we’re always dropping markers in reasonably sensible places regardless of whether the center of the bounding box is inside or outside the polygon.
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/google_maps_figure_2.png" class="figure-img img-fluid" alt="Figure 3: A Selection of Test Polygons">
+  <img src="{{ site.baseurl }}/assets/images/google_maps_figure_2.webp" class="figure-img img-fluid" alt="Figure 3: A Selection of Test Polygons">
   <figcaption class="figure-caption text-center">Figure 3: A Selection of Test Polygons.</figcaption>
 </figure>
 

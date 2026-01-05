@@ -2,7 +2,7 @@
 layout: post
 title:  "Visualizing Room Climate Data with Conectric’s IoT Sensors, Elasticsearch & Grafana"
 categories: [ Grafana, Node.js, JavaScript, IoT, Elasticsearch, Coding ]
-image: assets/images/conectric_elastic_main.jpg
+image: assets/images/conectric_elastic_main.webp
 author: simon
 ---
 At Conectric we recently launched our new IoT Gateway product with an accompanying suite of wireless, battery powered sensors.  In this article we’ll take a closer look at how to use our temperature / humidity sensor and [Node.js SDK](https://www.npmjs.com/package/conectric-usb-gateway) to create a [Grafana](https://grafana.com/) dashboard powered by [Elasticsearch](https://www.elastic.co/products/elasticsearch).
@@ -31,7 +31,7 @@ In this example use case we’ll be using both the USB Router and temperature / 
 ### USB Router
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/conectric_elastic_router.jpg" class="figure-img img-fluid" alt="The Conectric USB router.">
+  <img src="{{ site.baseurl }}/assets/images/conectric_elastic_router.webp" class="figure-img img-fluid" alt="The Conectric USB router.">
   <figcaption class="figure-caption text-center">The Conectric USB router.</figcaption>
 </figure>
 
@@ -42,7 +42,7 @@ Additional USB routers can be used to extend the mesh network’s range. These a
 ### Temperature / Humidity Sensor
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/conectric_elastic_temphumidity.jpg" class="figure-img img-fluid" alt="The Conectric Temperature/Humidity sensor.">
+  <img src="{{ site.baseurl }}/assets/images/conectric_elastic_temphumidity.webp" class="figure-img img-fluid" alt="The Conectric Temperature/Humidity sensor.">
   <figcaption class="figure-caption text-center">The Conectric Temperature/Humidity sensor.</figcaption>
 </figure>
 
@@ -67,7 +67,7 @@ Elastic provides a fully managed cloud service for their product stack, includin
 Having [signed up for the trial](https://www.elastic.co/cloud/as-a-service/signup), we simply create an Elasticsearch cluster using the default values:
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/conectric_elastic_elastic_setup.png" class="figure-img img-fluid" alt="Elasticsearch setup.">
+  <img src="{{ site.baseurl }}/assets/images/conectric_elastic_elastic_setup.webp" class="figure-img img-fluid" alt="Elasticsearch setup.">
   <figcaption class="figure-caption text-center">Elasticsearch setup.</figcaption>
 </figure>
 
@@ -200,7 +200,7 @@ sensorId:a946
 For example to plot temperature over time, a graph control to show temperature over time in Grafana would be configured as shown:
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/conectric_elastic_grafana_setup.png" class="figure-img img-fluid" alt="Grafana setup.">
+  <img src="{{ site.baseurl }}/assets/images/conectric_elastic_grafana_setup.webp" class="figure-img img-fluid" alt="Grafana setup.">
   <figcaption class="figure-caption text-center">Grafana setup.</figcaption>
 </figure>
 
@@ -231,7 +231,7 @@ The sensor periodically sends a `tempHumidity` message which is picked up by the
 After a period of time to gather data, the dashboard will show trend and peak information:
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/conectric_elastic_grafana_populated.png" class="figure-img img-fluid" alt="Grafana dashboard with data.">
+  <img src="{{ site.baseurl }}/assets/images/conectric_elastic_grafana_populated.webp" class="figure-img img-fluid" alt="Grafana dashboard with data.">
   <figcaption class="figure-caption text-center">Grafana dashboard with data.</figcaption>
 </figure>
 

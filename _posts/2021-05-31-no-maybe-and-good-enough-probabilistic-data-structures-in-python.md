@@ -2,7 +2,7 @@
 layout: post
 title:  "No, Maybe and Close Enough! Probabilistic Data Structures with Python"
 categories: [Python, Redis, Coding ]
-image: assets/images/pycon_main.jpg
+image: assets/images/pycon_main.webp
 author: simon
 ---
 In this talk that I produced for Pycon USA 2021 I take a look at the Hyperloglog and Bloom Filter probabilistic data structures, using examples with the Python language and [Redis](https://redis.io/) with the [RedisBloom module](https://oss.redislabs.com/redisbloom/).  I also subsequently gave this talk as a pre-recorded video at Pycon Australia 2021 and in a shorter form in person at Pycon Middle East / Asia, Dubai 2022 (that version's at the bottom of this article).
@@ -32,7 +32,7 @@ So, the problem we're going to look at today is related to counting things. So c
 So, let's assume we want to count sheep.  So, I want to count sheep, and I'm doing that in Python.  So I have here a very simple Python program that does exactly that:
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/pycon_python_set_count.png" class="figure-img img-fluid" alt="Counting sheep with a set in Python">
+  <img src="{{ site.baseurl }}/assets/images/pycon_python_set_count.webp" class="figure-img img-fluid" alt="Counting sheep with a set in Python">
   <figcaption class="figure-caption text-center">Counting sheep with a set in Python.</figcaption>
 </figure>
 
@@ -45,7 +45,7 @@ Here, I'm declaring a set and then adding some sheep ear ID tags to it, so 1934,
 So that's perfect!  We've got an exact number of how many sheep we've seen.  Another question that I might want to ask when I'm counting things is not just how many sheep have I seen, but have I seen this particular sheep?  In this case, I need to be able to retrieve data from my set or data structure that I'm using to determine if we've seen this before, so it's a sort of set membership query.  Is sheep 1934 in the set of sheep that we've seen, for example.  Here, again, I'm using a Python set and this seems to be a great fit for this problem:
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/pycon_python_have_i_seen_this_sheep.png" class="figure-img img-fluid" alt="Checking set membership in Python">
+  <img src="{{ site.baseurl }}/assets/images/pycon_python_have_i_seen_this_sheep.webp" class="figure-img img-fluid" alt="Checking set membership in Python">
   <figcaption class="figure-caption text-center">Checking set membership in Python.</figcaption>
 </figure>
 
@@ -66,7 +66,7 @@ Once we get to scale, counting things exactly starts to get very expensive in te
 Here, I'm using the Redis database for the reason that it has a set data structure so we can take the set that we were using in Python and we can move that out of the Python code and into Redis:
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/pycon_redis_set_count.png" class="figure-img img-fluid" alt="Counting sheep with Redis">
+  <img src="{{ site.baseurl }}/assets/images/pycon_redis_set_count.webp" class="figure-img img-fluid" alt="Counting sheep with Redis">
   <figcaption class="figure-caption text-center">Counting sheep with Redis.</figcaption>
 </figure>
 
@@ -79,7 +79,7 @@ But, we've still got the problem here of overall size. As we add more and more a
 Let's have a look at how we can determine if we've seen this sheep before when using a database as well.  So, here we're again using Redis, so imagine we'd put all of our data into that set and we've now got shared counters and lots of people can go out and count sheep.  To know if we've seen this sheep before we then basically have a new `have_i_seen` function and some pre-amble before it that clears out any old set in Redis, and sets up some sample data:
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/pycon_redis_have_i_seen_this_sheep.png" class="figure-img img-fluid" alt="Checking set membership with Redis">
+  <img src="{{ site.baseurl }}/assets/images/pycon_redis_have_i_seen_this_sheep.webp" class="figure-img img-fluid" alt="Checking set membership with Redis">
   <figcaption class="figure-caption text-center">Checking set membership with Redis.</figcaption>
 </figure>
 
@@ -92,7 +92,7 @@ As we'd expect, that works exactly the same as it does in Python with an in-memo
 To solve that, and to enable counting at really large scale without chewing through a lot of memory we're going to need to make some tradeoffs.  Tradeoffs basically involve giving up one thing in exchange for another, so our sheep on the left there has its fleece, our sheep on the right has given up its fleece in exchange for being a little bit cooler but we can determine that both are sheep. 
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/pycon_before_and_after_shearing.jpg" class="figure-img img-fluid" alt="Sheep at different resolutions :)">
+  <img src="{{ site.baseurl }}/assets/images/pycon_before_and_after_shearing.webp" class="figure-img img-fluid" alt="Sheep at different resolutions :)">
   <figcaption class="figure-caption text-center">Sheep at different resolutions :) (<a href="https://flickr.com/photos/cotaro70s/8670036813">Image by contaro70s</a>)</figcaption>
 </figure>
 
@@ -121,7 +121,7 @@ The other tradeoff involved here is that it's not built into the Python language
 Here are the algorithms for Hyperloglog:
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/pycon_hll_algorithms.png" class="figure-img img-fluid" alt="Hyperloglog algorithms">
+  <img src="{{ site.baseurl }}/assets/images/pycon_hll_algorithms.webp" class="figure-img img-fluid" alt="Hyperloglog algorithms">
   <figcaption class="figure-caption text-center">Hyperloglog algorithms.</figcaption>
 </figure>
 
@@ -132,7 +132,7 @@ The Hyperloglog doesn't actually answer the question "how many sheep have I seen
 So here in a Python program, I'm using the "hyperloglog" module and I am declaring a set as well for comparison, so we're going to see how a set compares with a Hyperloglog.
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/pycon_python_hll_library.png" class="figure-img img-fluid" alt="Hyperloglog with a Python module">
+  <img src="{{ site.baseurl }}/assets/images/pycon_python_hll_library.webp" class="figure-img img-fluid" alt="Hyperloglog with a Python module">
   <figcaption class="figure-caption text-center">Hyperloglog with a Python module.</figcaption>
 </figure>
 
@@ -143,7 +143,7 @@ We've then got a loop - we're going to add 100,000 sheep to both the Hyperloglog
 When we do that, what we'll see is that, as we expect, the set absolutely 100% correct: we've got 100,000 sheep in our set and the Hyperloglog has slightly overcounted... so 100,075:
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/pycon_python_result_hll_library.png" class="figure-img img-fluid" alt="Comparing Python set and Hyperloglog module counts">
+  <img src="{{ site.baseurl }}/assets/images/pycon_python_result_hll_library.webp" class="figure-img img-fluid" alt="Comparing Python set and Hyperloglog module counts">
   <figcaption class="figure-caption text-center">Comparing Python set and Hyperloglog module counts.</figcaption>
 </figure>
 
@@ -152,7 +152,7 @@ It's within a good margin of error and the tradeoff here is that the set has tak
 One of the reasons that I picked Redis as the data store for this is because it has sets and it also has Hyperloglog as a data type.  Here I have a small Python program, it's going to do the same thing - it's going to store sheep in a Redis set and in a Redis Hyperloglog:
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/pycon_redis_hll.png" class="figure-img img-fluid" alt="Comparing Redis set and Hyperloglog counts">
+  <img src="{{ site.baseurl }}/assets/images/pycon_redis_hll.webp" class="figure-img img-fluid" alt="Comparing Redis set and Hyperloglog counts">
   <figcaption class="figure-caption text-center">Comparing Redis set and Hyperloglog counts.</figcaption>
 </figure>
 
@@ -161,7 +161,7 @@ We begin by deleting those, and loop over our 100,000 sheep and add IDs to Redis
 So here we can see that in the Redis set implementation, we got 100,000 sheep as we'd expect and it took about 4.6Mb of memory to store that.  With the Hyperloglog, we got 99,565 sheep so we got pretty close to the 100,000 but it only used 12k of memory.  
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/pycon_redis_hll_run.png" class="figure-img img-fluid" alt="Comparing Redis set and Hyperloglog counts">
+  <img src="{{ site.baseurl }}/assets/images/pycon_redis_hll_run.webp" class="figure-img img-fluid" alt="Comparing Redis set and Hyperloglog counts">
   <figcaption class="figure-caption text-center">Comparing Redis set and Hyperloglog counts.</figcaption>
 </figure>
 
@@ -176,7 +176,7 @@ That uncertainty comes from us not storing the data in the Bloom Filter.  So, we
 So the way the Bloom Filter works, and I have one laid out here:
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/pycon_bloom_filter_example.png" class="figure-img img-fluid" alt="Bloom Filter">
+  <img src="{{ site.baseurl }}/assets/images/pycon_bloom_filter_example.webp" class="figure-img img-fluid" alt="Bloom Filter">
   <figcaption class="figure-caption text-center">Bloom Filter.</figcaption>
 </figure>
 
@@ -209,7 +209,7 @@ Here, we're trading off a lot of memory use because we're getting down to just t
 Here's some Python code that uses this, so we're going to use again some library code for a Bloom Filter - using "pyprobables":
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/pycon_python_bloom_code.png" class="figure-img img-fluid" alt="Bloom Filter with Pyprobables">
+  <img src="{{ site.baseurl }}/assets/images/pycon_python_bloom_code.webp" class="figure-img img-fluid" alt="Bloom Filter with Pyprobables">
   <figcaption class="figure-caption text-center">Bloom Filter with Pyprobables.</figcaption>
 </figure>
 
@@ -220,21 +220,21 @@ Then we basically just add 100,000 sheep to the Bloom Filter in much the same wa
 This is a good drop in for a set, the interface is very very similar, but we're saving a lot of memory.  And when we run this, you get the answers we expect, so we might have seen "9018" and it hasn't seen "454991".
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/pycon_python_bloom_run.png" class="figure-img img-fluid" alt="Using a Bloom Filter with Pyprobables">
+  <img src="{{ site.baseurl }}/assets/images/pycon_python_bloom_run.webp" class="figure-img img-fluid" alt="Using a Bloom Filter with Pyprobables">
   <figcaption class="figure-caption text-center">Using a Bloom Filter with Pyprobables.</figcaption>
 </figure>
 
 We can also do this in data stores, so again I picked Redis as a data store for this talk because it has, via an installable module, an implementation of a Bloom Filter.  Similarly I can create a Redis Bloom Filter, the `BF.RESERVE` command says I want to store about 200,000 items with about that accuracy.
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/pycon_redis_bloom_code.png" class="figure-img img-fluid" alt="Bloom Filters with RedisBloom">
+  <img src="{{ site.baseurl }}/assets/images/pycon_redis_bloom_code.webp" class="figure-img img-fluid" alt="Bloom Filters with RedisBloom">
   <figcaption class="figure-caption text-center">Bloom Filters with RedisBloom.</figcaption>
 </figure>
 
 I can add sheep into the Bloom Filter and I can ask it, "does this sheep exist in the Bloom Filter?".  And we'll get the same sort of results as we did before:
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/pycon_bloom_run_redis.png" class="figure-img img-fluid" alt="Using a Bloom Filter with RedisBloom">
+  <img src="{{ site.baseurl }}/assets/images/pycon_bloom_run_redis.webp" class="figure-img img-fluid" alt="Using a Bloom Filter with RedisBloom">
   <figcaption class="figure-caption text-center">Using a Bloom Filter with RedisBloom.</figcaption>
 </figure>
 

@@ -2,7 +2,7 @@
 layout: post
 title:  "Dead or Alive - an Alexa Skill using Redis"
 categories: [ Node.js, JavaScript, Redis, Alexa, Coding, Serverless ]
-image: assets/images/alexa_doa_main.jpg
+image: assets/images/alexa_doa_main.webp
 author: simon
 ---
 I often find that I build an Alexa skill whenever I want to play around with an API. The voice interface is easy to get started with and I can create something without worrying about visual design or CSS :) A while ago I created a [Dead or Alive package](https://simonprickett.dev/wikipedia-dead-or-alive/) that's on [npm](https://www.npmjs.com/package/wikipediadeadoralive)... let's see what it takes to turn that into a game for Alexa where the user has to determine whether a few celebrities are dead or alive...
@@ -57,7 +57,7 @@ As I needed a Redis Instance that my skill's backend would be able to connect to
 I picked Node.js to build my skill in, but could have also chosen Python. Here's what the development environment looks like:
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/alexa_doa_dev_console.png" class="figure-img img-fluid" alt="Coding in the Alexa Developer Console">
+  <img src="{{ site.baseurl }}/assets/images/alexa_doa_dev_console.webp" class="figure-img img-fluid" alt="Coding in the Alexa Developer Console">
   <figcaption class="figure-caption text-center">Coding in the Alexa Developer Console.</figcaption>
 </figure>
 
@@ -76,7 +76,7 @@ The voice interaction model works in the same was as any other Alexa Skill - I s
 Intents and sample utterances (words that should trigger the intent) can be configured in the Alexa Developer Console by filling out forms in the browser:
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/alexa_doa_interaction_model.png" class="figure-img img-fluid" alt="Creating the Interaction Model.">
+  <img src="{{ site.baseurl }}/assets/images/alexa_doa_interaction_model.webp" class="figure-img img-fluid" alt="Creating the Interaction Model.">
   <figcaption class="figure-caption text-center">Creating the Interaction Model</figcaption>
 </figure>
 
@@ -151,7 +151,7 @@ This ensures that, if the user tries invoking the answer handler again, they'll 
 The skill code can be tested directly in the Alexa Developer Console, you don't need an Echo or other Alexa hardware device. In the "Test" tab, you can either type or speak to Alexa and see the exchange between the Alexa platform and the Lambda function code:
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/alexa_doa_testing.png" class="figure-img img-fluid" alt="Testing the skill">
+  <img src="{{ site.baseurl }}/assets/images/alexa_doa_testing.webp" class="figure-img img-fluid" alt="Testing the skill">
   <figcaption class="figure-caption text-center">Testing the skill.</figcaption>
 </figure>
 

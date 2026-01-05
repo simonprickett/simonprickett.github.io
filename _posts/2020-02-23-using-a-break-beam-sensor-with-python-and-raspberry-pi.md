@@ -2,13 +2,13 @@
 layout: post
 title:  "Using a Break Beam Sensor with Python and Raspberry Pi"
 categories: [ Raspberry Pi, Python, IoT, Coding ]
-image: assets/images/pi_break_beam_main.jpg
+image: assets/images/pi_break_beam_main.webp
 author: simon
 ---
 Let's take a look at how to use a break beam sensor in a Python script on a Raspberry Pi!  I've had a few of these kicking around for a while now, and finally got around to unboxing one the other day.
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/pi_break_beam_sensor_pic.jpg" class="figure-img img-fluid" alt="A picture of the break beam sensor from Adafruit.">
+  <img src="{{ site.baseurl }}/assets/images/pi_break_beam_sensor_pic.webp" class="figure-img img-fluid" alt="A picture of the break beam sensor from Adafruit.">
   <figcaption class="figure-caption text-center">A break beam sensor (pic: <a href="https://adafruit.com">Adafruit</a>).</figcaption>
 </figure>
 
@@ -32,7 +32,7 @@ I'm going to use several of these sensors in a larger project in the future.  Fo
 I used a breadboard to wire the sensor to the Pi as follows:
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/pi_break_beam_wiring.png" class="figure-img img-fluid" alt="Wiring diagram for the break beam sensor.">
+  <img src="{{ site.baseurl }}/assets/images/pi_break_beam_wiring.webp" class="figure-img img-fluid" alt="Wiring diagram for the break beam sensor.">
   <figcaption class="figure-caption text-center">Wiring diagram for the break beam sensor.</figcaption>
 </figure>
 

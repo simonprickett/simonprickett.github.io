@@ -2,7 +2,7 @@
 layout: post
 title:  "Raspberry Pi Coding in Go: Traffic Lights"
 categories: [ Raspberry Pi, Technology, IoT, Golang, Coding ]
-image: assets/images/pi_traffic_lights_go_main.jpg
+image: assets/images/pi_traffic_lights_go_main.webp
 author: simon
 ---
 I've been learning the [Go programming language](https://golang.org/) recently. As an exercise, I decided to revisit a [past article]({{ site.baseurl }}/playing-with-raspberry-pi-traffic-lights/) that looked at working with traffic lights on the Raspberry Pi in Python in order to rewrite it in Go. To make this a standalone guide, there will be some re-use of content from the prior article here. Since writing this article, I've also written up the same exercise using Swift ([Swift version]({{ site.baseurl }}/raspberry-pi-coding-in-swift-traffic-lights)), Node.js ([read about that here]({{ site.baseurl }}/raspberry-pi-coding-with-node-js-traffic-lights)), Node RED ([try here]({{ site.baseurl }}/raspberry-pi-coding-with-node-red-traffic-lights/)), Java ([try here]({{ site.baseurl }}/playing-with-raspberry-pi-gpio-pins-and-traffic-lights-in-java)), Bash scripting ([Bash article]({{ site.baseurl}}/controlling-raspberry-pi-gpio-pins-from-bash-scripts-traffic-lights)), C ([check it out here]({{ site.baseurl }}/gpio-access-in-c-with-raspberry-pi-traffic-lights)), [Rust]({{ site.baseurl }}/raspberry-pi-coding-with-rust-traffic-lights/), [.NET/C#]({{ site.baseurl }}/raspberry-pi-coding-with-dotnet-traffic-lights/) and also for [Arduino]({{ site.baseurl}}/traffic-lights-with-arduino/).
@@ -24,26 +24,26 @@ To try this out, you will need the following (links here mostly go to [Adafruit]
 The Low Voltage Labs traffic lights connect to the Pi using four pins. One of these needs to be ground, the other three being actual GPIO pins used to control each of the individual LEDs.
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/pi_traffic_lights_go_lights_stock.jpg" class="figure-img img-fluid" alt="Low Voltage Labs Traffic Lights">
+  <img src="{{ site.baseurl }}/assets/images/pi_traffic_lights_go_lights_stock.webp" class="figure-img img-fluid" alt="Low Voltage Labs Traffic Lights">
   <figcaption class="figure-caption text-center">Low Voltage Labs Traffic Lights.</figcaption>
 </figure>
 
 Before powering up the Pi, attach the traffic lights so that the pins connect to the GPIO pins highlighted in red:
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/pi_traffic_lights_go_gpio_diagram.png" class="figure-img img-fluid" alt="GPIO Pin Diagram">
+  <img src="{{ site.baseurl }}/assets/images/pi_traffic_lights_go_gpio_diagram.webp" class="figure-img img-fluid" alt="GPIO Pin Diagram">
   <figcaption class="figure-caption text-center">GPIO Pin Diagram.</figcaption>
 </figure>
 
 When you're done it's going to look something like this... (an easy way to make sure you have it right is to locate the lights on the left hand row of pins as you look at the Pi with the USB ports to the bottom, then count 8 pins up and attach the lights there).
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/pi_traffic_lights_go_lights_attached_1.jpg" class="figure-img img-fluid" alt="GPIO pins with lights attached.">
+  <img src="{{ site.baseurl }}/assets/images/pi_traffic_lights_go_lights_attached_1.webp" class="figure-img img-fluid" alt="GPIO pins with lights attached.">
   <figcaption class="figure-caption text-center">GPIO pins with lights attached.</figcaption>
 </figure>
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/pi_traffic_lights_go_lights_attached_2.jpg" class="figure-img img-fluid" alt="GPIO pins with lights attached.">
+  <img src="{{ site.baseurl }}/assets/images/pi_traffic_lights_go_lights_attached_2.webp" class="figure-img img-fluid" alt="GPIO pins with lights attached.">
   <figcaption class="figure-caption text-center">GPIO pins with lights attached.</figcaption>
 </figure>
 

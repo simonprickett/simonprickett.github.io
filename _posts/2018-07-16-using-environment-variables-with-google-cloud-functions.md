@@ -2,7 +2,7 @@
 layout: post
 title:  "Using Environment Variables with Google Cloud Functions"
 categories: [ Cloud, GCP, Node.js, JavaScript, Serverless, Coding ]
-image: assets/images/cloud_functions_env_vars_main.jpg
+image: assets/images/cloud_functions_env_vars_main.webp
 author: simon
 ---
 Google’s [Cloud Functions](https://cloud.google.com/functions/) have been around for a little while now. The product works well with other Google Cloud Platform offerings and provides a scalable, event-driven runtime for serverless applications or microservices. Developers can write functions using (a relatively old version of `¯\_(ツ)_/¯`) Node.js (other language runtimes aren’t available at this point `¯\_(ツ)_/¯`) and attach them to events. Supported event triggers include a HTTP request, a message being published to a pub/sub topic or changes to an object in a cloud storage bucket.
@@ -35,7 +35,7 @@ $ gcloud functions deploy helloEnvVars --trigger-http --project <projectID>
 We can then point a browser at the URL that appears in the `gcloud` command’s output and see that none of these environment variables are currently set...
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/cloud_functions_env_vars_unset_all.png" class="figure-img img-fluid" alt="No environment variables set yet...">
+  <img src="{{ site.baseurl }}/assets/images/cloud_functions_env_vars_unset_all.webp" class="figure-img img-fluid" alt="No environment variables set yet...">
   <figcaption class="figure-caption text-center">No environment variables set yet...</figcaption>
 </figure>
 
@@ -70,7 +70,7 @@ $ gcloud beta functions deploy helloEnvVars --trigger-http --set-env-vars SUCH_S
 Revisiting the function’s URL shows that the code is able to access the values:
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/cloud_functions_env_vars_set_two.png" class="figure-img img-fluid" alt="Some environment variables now have values set.">
+  <img src="{{ site.baseurl }}/assets/images/cloud_functions_env_vars_set_two.webp" class="figure-img img-fluid" alt="Some environment variables now have values set.">
   <figcaption class="figure-caption text-center">Some environment variables now have values set.</figcaption>
 </figure>
 

@@ -2,7 +2,7 @@
 layout: post
 title:  "Supporting the Browser Platform in a Cordova Plugin"
 categories: [ JavaScript, Cordova, Coding ]
-image: assets/images/cordova_browser_main.jpg
+image: assets/images/cordova_browser_main.webp
 author: simon
 ---
 When building a Cordova hybrid app, the most common use case for adding or developing plugins is to access native device functionality not normally available to the JavaScript runtime environment.
@@ -198,7 +198,7 @@ The system’s default browser will open at a URL such as `localhost:8000/index.
 If the plugin works, we should see “Plugin Ready!”, and a toast pops up for a few seconds if the browser Platform “native” code is installed and working properly. We should also expect to see “Hello Plugin” if the pure JavaScript function in the plugin works. A successful test of the plugin looks like this:
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/cordova_browser_running.png" class="figure-img img-fluid" alt="Example Plugin running in the browser.">
+  <img src="{{ site.baseurl }}/assets/images/cordova_browser_running.webp" class="figure-img img-fluid" alt="Example Plugin running in the browser.">
 </figure>
 
 The darker “PLUGIN READY!” area is the `<div>` that serves as a toast implementation, and will be dismissed automatically after approximately 3 seconds.

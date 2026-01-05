@@ -2,7 +2,7 @@
 layout: post
 title:  "MicroPython on the M5Stack Atom Matrix: A Live Streaming Series"
 categories: [ IoT, Coding, Python ]
-image: assets/images/m5atom_main.jpg
+image: assets/images/m5atom_main.webp
 author: simon
 ---
 The Atom Matrix is a tiny (24mm x 24mm x 14mm) ESP32 based device from M5Stack.  For such a small thing at a nice price (around US$ 15 at the time of writing) it has a lot to offer.  I've owned a couple of these devices for a year or so and hadn't had time to use them for anything, so I decided to get them out, install MicroPython on them, and see how easy or not it would be to use all of the features from the MicroPython language.
@@ -12,7 +12,7 @@ I thought I'd undertake this project as a series of live streams where I'd get t
 Here's what the Atom Matrix looks like, including an overview of its features:
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/m5atom_overview.png" alt="Overview of the M5Stack Atom Matrix.">
+  <img src="{{ site.baseurl }}/assets/images/m5atom_overview.webp" alt="Overview of the M5Stack Atom Matrix.">
   <figcaption class="figure-caption text-center">Overview of the M5Stack Atom Matrix.</figcaption>
 </figure>
 

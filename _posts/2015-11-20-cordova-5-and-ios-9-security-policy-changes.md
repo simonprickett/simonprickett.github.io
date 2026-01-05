@@ -2,7 +2,7 @@
 layout: post
 title:  "Cordova 5 & iOS 9 Security Policy Changes"
 categories: [ JavaScript, Cordova, iOS ]
-image: assets/images/cordova_security_main.png
+image: assets/images/cordova_security_main.webp
 author: simon
 ---
 Cordova 5 was introduced earlier this year, and we’d recommend using it for any new Cordova app development as it contains improvements to developer workflow, bug fixes, performance enhancements and new functionality.
@@ -38,7 +38,7 @@ Plugin [cordova-plugin-whitelist](https://github.com/apache/cordova-plugin-white
 This gets us a generic Cordova boilerplate application that simply responds to the `deviceReady` event and updates a status message. When run on a device or in an emulator, we expect the output to look like this:
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/cordova_security_ready.png" class="figure-img img-fluid" alt="Cordova boilerplate application.">
+  <img src="{{ site.baseurl }}/assets/images/cordova_security_ready.webp" class="figure-img img-fluid" alt="Cordova boilerplate application.">
 </figure>
 
 ## Step 1: Setting up our App to Make an Ajax Call
@@ -100,7 +100,7 @@ Open up the iOS project with Xcode and hit play. In previous versions of Cordova
 However, in Cordova 5 we never see the app get out of the “Initializing...” state; it gets stuck here:
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/cordova_security_initializing.png" class="figure-img img-fluid" alt="App stuck at initializing status.">
+  <img src="{{ site.baseurl }}/assets/images/cordova_security_initializing.webp" class="figure-img img-fluid" alt="App stuck at initializing status.">
 </figure>
 
 Additionally, we don’t see anything useful in the console output in Xcode. Android devices will show similar results.
@@ -168,7 +168,7 @@ The default Cordova Content Security Policy had nothing specified for this direc
 Having rebuilt the app (cordova build ios), we can run it again... this now works for Android devices (and iOS 8 / Xcode 6 users). On iOS 9 / Xcode 7 we now have a different problem.
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/cordova_security_android_ok.png" class="figure-img img-fluid" alt="App running on Android.">
+  <img src="{{ site.baseurl }}/assets/images/cordova_security_android_ok.webp" class="figure-img img-fluid" alt="App running on Android.">
 </figure>
 
 Android on the left is working fine now, iOS 9 on the right is behaving differently... our Ajax request seems to have been executed, but returned with a non 200 (OK) status message, so our error message has been displayed.
@@ -253,7 +253,7 @@ The `ios_ats.sh` script will run prior to the build step, and the plist file wil
 Once we have done that, we can run the application in the iOS 9 simulator and... Success!
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/cordova_security_success.png" class="figure-img img-fluid" alt="App running successfully on iOS 9.">
+  <img src="{{ site.baseurl }}/assets/images/cordova_security_success.webp" class="figure-img img-fluid" alt="App running successfully on iOS 9.">
 </figure>
 
 ## Try it Yourself

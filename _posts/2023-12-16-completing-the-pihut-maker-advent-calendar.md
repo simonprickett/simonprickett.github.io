@@ -2,7 +2,7 @@
 layout: post
 title:  "Completing the PiHut Maker Advent Calendar"
 categories: [ IoT, Coding, Raspberry Pi, Python ]
-image: assets/images/advent_main.jpg
+image: assets/images/advent_main.webp
 author: simon
 ---
 Last year I noticed that UK Raspberry Pi reseller The Pi Hut had made a really nice looking "12 Projects of Codemas" maker advent calendar.  It was a large box containing 12 smaller ones, each containing parts that built up various Raspberry Pi Pico projects.  I missed out on this last year, so got organized this time around and bought one relatively early in the seasonal shopping window.
@@ -14,14 +14,14 @@ If you'd like to buy your own box, The Pi Hut do two versions... the "Maker" one
 Here's what the box looks like with the sleeve on.
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/advent_kit_1.jpg" alt="The PiHut Maker Advent Calendar in its box">
+  <img src="{{ site.baseurl }}/assets/images/advent_kit_1.webp" alt="The PiHut Maker Advent Calendar in its box">
   <figcaption class="figure-caption text-center">The PiHut Maker Advent Calendar in its box.</figcaption>
 </figure>
 
 Removing the sleeve reveals a really nice arrangement of numbered boxes:
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/advent_kit_2.jpg" alt="The 12 Projects of Codemas!">
+  <img src="{{ site.baseurl }}/assets/images/advent_kit_2.webp" alt="The 12 Projects of Codemas!">
   <figcaption class="figure-caption text-center">The 12 Projects of Codemas!</figcaption>
 </figure>
 
@@ -30,7 +30,7 @@ There are no printed materials provided, comprehensive instructions can be found
 This is what the project looked like at the end of day five... we had a Raspberry Pi Pico H connected to a breadboard and running MicroPython.  It's currently got three LEDs attached to it as well as a potentiometer and buzzer.  The three buttons added as part of day two had been removed at this point.
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/advent_project_day_five.jpg" alt="The project state at the end of day five">
+  <img src="{{ site.baseurl }}/assets/images/advent_project_day_five.webp" alt="The project state at the end of day five">
   <figcaption class="figure-caption text-center">The project state at the end of day five.</figcaption>
 </figure>
 

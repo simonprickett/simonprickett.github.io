@@ -2,7 +2,7 @@
 layout: post
 title:  "Arduino Coding: Traffic Lights"
 categories: [ Arduino, IoT, Coding, C ]
-image: assets/images/arduino_traffic_main.jpg
+image: assets/images/arduino_traffic_main.webp
 author: simon
 ---
 I've written several articles before using Low Voltage Labs Traffic Light LEDs for Raspberry Pi, but never tried this with Arduino before.  A little while back I noticed that they also make [Traffic Lights for Arduino and Breadboards](https://www.amazon.com/dp/B07N7V3VWS) so I decided to try these out using a couple of different types of Arduino board that I had on hand:
@@ -40,7 +40,7 @@ Hardware setup for the Arduino Uno is straightforward... it's already set for wo
 The lights need to be attached to a ground pin followed by three digital pins that we'll use as outputs.
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/arduino_traffic_arduino_uno.jpg" class="figure-img img-fluid" alt="Arduino Uno">
+  <img src="{{ site.baseurl }}/assets/images/arduino_traffic_arduino_uno.webp" class="figure-img img-fluid" alt="Arduino Uno">
   <figcaption class="figure-caption text-center">Arduino Uno</figcaption>
 </figure>
 
@@ -58,14 +58,14 @@ The Feather Huzzah differs from the Arduino Uno in a few ways...
 Here's a pinout for the Huzzah showing where the pins we'll need are:
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/arduino_traffic_adafruit_feather_huzzah.jpg" class="figure-img img-fluid" alt="Arduino Feather Huzzah">
+  <img src="{{ site.baseurl }}/assets/images/arduino_traffic_adafruit_feather_huzzah.webp" class="figure-img img-fluid" alt="Arduino Feather Huzzah">
   <figcaption class="figure-caption text-center">Arduino Feather Huzzah</figcaption>
 </figure>
 
 Here's how we'd wire up the breadboard, the blue rectangle here represents where you'd plug the traffic lights into.
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/arduino_traffic_breadboard_sketch.png" class="figure-img img-fluid" alt="Breadboard sketch">
+  <img src="{{ site.baseurl }}/assets/images/arduino_traffic_breadboard_sketch.webp" class="figure-img img-fluid" alt="Breadboard sketch">
   <figcaption class="figure-caption text-center">Breadboard sketch</figcaption>
 </figure>
 
@@ -121,14 +121,14 @@ To deploy to the Arduino boards, connect one of them using a USB data cable, the
 Arduino Uno:
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/arduino_traffic_select_board_uno.png" class="figure-img img-fluid" alt="Selecting the Arduino Uno board">
+  <img src="{{ site.baseurl }}/assets/images/arduino_traffic_select_board_uno.webp" class="figure-img img-fluid" alt="Selecting the Arduino Uno board">
   <figcaption class="figure-caption text-center">Selecting the Arduino Uno board</figcaption>
 </figure>
 
 Adafruit Feather Huzzah:
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/arduino_traffic_select_board_feather.png" class="figure-img img-fluid" alt="Selecting the Adafruit Feather Huzzah board">
+  <img src="{{ site.baseurl }}/assets/images/arduino_traffic_select_board_feather.webp" class="figure-img img-fluid" alt="Selecting the Adafruit Feather Huzzah board">
   <figcaption class="figure-caption text-center">Selecting the AdaFruit Feather Huzzah board</figcaption>
 </figure>
 
@@ -137,7 +137,7 @@ Note the Adafruit Feather Huzzah is under ESP9266 Boards rather than the Adadfru
 In both cases, don't forget to also choose the right USB port which should be the one that appears when you plug the board in.  Here's an example with the Uno...
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/arduino_traffic_arduino_uno_port.png" class="figure-img img-fluid" alt="Selecting the port for the Arduino Uno">
+  <img src="{{ site.baseurl }}/assets/images/arduino_traffic_arduino_uno_port.webp" class="figure-img img-fluid" alt="Selecting the port for the Arduino Uno">
   <figcaption class="figure-caption text-center">Selecting the port for the Arduino Uno</figcaption>
 </figure>
 

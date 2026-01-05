@@ -2,7 +2,7 @@
 layout: post
 title:  "Raspberry Pi Coding with Node Red: Traffic Lights"
 categories: [ Raspberry Pi, IoT,  JavaScript, Node.js, Node RED, Coding ]
-image: assets/images/pi_traffic_lights_node_red_main.jpg
+image: assets/images/pi_traffic_lights_node_red_main.webp
 author: simon
 ---
 Node RED is a tool that has interested me for some time - specifically when used on the Raspberry Pi to control or receive input from hardware devices.  As part of my series of posts demonstrating how to control GPIO pins on the Raspberry Pi using the excellent [Low Voltage Labs traffic lights](https://lowvoltagelabs.com/products/pi-traffic/), I decided to check out how to do this with [Node RED](https://nodered.org/).
@@ -83,7 +83,7 @@ Where `<IP Address of Raspberry Pi>` is the Pi's IP address that you used to SSH
 When you first start Node RED, you'll see a blank flow workspace which looks like this:
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/pi_traffic_lights_node_red_blank_flow.png" class="figure-img img-fluid" alt="Node RED blank flow">
+  <img src="{{ site.baseurl }}/assets/images/pi_traffic_lights_node_red_blank_flow.webp" class="figure-img img-fluid" alt="Node RED blank flow">
   <figcaption class="figure-caption text-center">A blank flow in Node RED.</figcaption>
 </figure>
 
@@ -94,21 +94,21 @@ This is a drag and drop interface, you select nodes for your flow from the avail
 We already know what the states for our application are - a traffic light can be in either the red, red + yellow, green, or yellow states.  We'll model each of these in Node RED using a "function" Node.  The function node allows us to write arbitrary JavaScript code for the step in the flow that it represents and we'll want to do that later.  So, we'll drag a function node from the area on the left into the flow for each of our states:
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/pi_traffic_lights_node_red_function_node.png" class="figure-img img-fluid" alt="Adding function nodes for states.">
+  <img src="{{ site.baseurl }}/assets/images/pi_traffic_lights_node_red_function_node.webp" class="figure-img img-fluid" alt="Adding function nodes for states.">
   <figcaption class="figure-caption text-center">Adding a function node for each state.</figcaption>
 </figure>
 
 As you can see, I've named these nodes to show which lights should be on in each state.  To do that, click on the node and set the name in the dialog that appears.  We won't worry about adding code in the "function" part of the dialog just yet.
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/pi_traffic_lights_node_red_naming_function_node.png" class="figure-img img-fluid" alt="Naming a function node.">
+  <img src="{{ site.baseurl }}/assets/images/pi_traffic_lights_node_red_naming_function_node.webp" class="figure-img img-fluid" alt="Naming a function node.">
   <figcaption class="figure-caption text-center">Naming a function node.</figcaption>
 </figure>
 
 Traffic lights don't just transition from one state to another immediately... they generally have variable delays between states.  The red light stays on for a few seconds before transitioning to the red and yellow state and quickly onto green etc.  Node RED has a "delay" node that we can use to model this.  Here, I've dragged a delay node into the flow after each state:
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/pi_traffic_lights_node_red_delay_nodes.png" class="figure-img img-fluid" alt="Adding delay nodes.">
+  <img src="{{ site.baseurl }}/assets/images/pi_traffic_lights_node_red_delay_nodes.webp" class="figure-img img-fluid" alt="Adding delay nodes.">
   <figcaption class="figure-caption text-center">Adding delay nodes.</figcaption>
 </figure>
 
@@ -122,7 +122,7 @@ nodes on the screen is totally arbitrary.
 To tell Node RED how each node relates to the others, we'll need to add "connectors" between them.  Connectors are added by clicking the circular icons to the right of each node and dragging a connector line to the circular icon to the left of the next node.  The right side is for output, the left for input.  Here I've connected everything together and you can follow the flow from the red state by moving right and keep going until you eventually arrive back at red:
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/pi_traffic_lights_node_red_connectors.png" class="figure-img img-fluid" alt="Adding connectors.">
+  <img src="{{ site.baseurl }}/assets/images/pi_traffic_lights_node_red_connectors.webp" class="figure-img img-fluid" alt="Adding connectors.">
   <figcaption class="figure-caption text-center">Adding connectors.</figcaption>
 </figure>
 
@@ -133,7 +133,7 @@ We now have an infinite loop, but for once that's actually what we wanted to ach
 Let's fix those delays so they're not all equal length... clicking a delay node shows its properties dialog.  Here, we can change the delay time:
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/pi_traffic_lights_node_red_set_delay.png" class="figure-img img-fluid" alt="Configuring delays.">
+  <img src="{{ site.baseurl }}/assets/images/pi_traffic_lights_node_red_set_delay.webp" class="figure-img img-fluid" alt="Configuring delays.">
   <figcaption class="figure-caption text-center">Configuring delays.</figcaption>
 </figure>
 
@@ -144,7 +144,7 @@ I went with a 3 second delay between red and red & yellow, a 1 second delay befo
 Everything's connected and we have our delays configured how we'd like them, so when we run the flow we should get a realistic set of transitions that behave like a traffic light.  However, there's nothing telling Node RED where the flow actually starts - we know the light starts with the red state, but it needs to be told that.  To do this, we'll add an "inject" node and connect that to the red state:
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/pi_traffic_lights_node_red_inject_node.png" class="figure-img img-fluid" alt="Adding an inject node.">
+  <img src="{{ site.baseurl }}/assets/images/pi_traffic_lights_node_red_inject_node.webp" class="figure-img img-fluid" alt="Adding an inject node.">
   <figcaption class="figure-caption text-center">Adding an inject node.</figcaption>
 </figure>
 
@@ -157,14 +157,14 @@ We've now essentially built a [finite state machine](https://en.wikipedia.org/wi
 Each of the three lights that make up a set of Low Voltage Labs traffic light LEDs is connected to the Pi using a GPIO pin.  Pi GPIO pins can be used either for input (think a button or switch) or output (think a buzzer or light).  In this case, we have three outputs.  When installed on the Pi, Node RED comes with nodes for both GPIO inputs and outputs.  We'll want to drag three output nodes into our workspace:
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/pi_traffic_lights_node_red_gpio_nodes.png" class="figure-img img-fluid" alt="Adding GPIO output nodes.">
+  <img src="{{ site.baseurl }}/assets/images/pi_traffic_lights_node_red_gpio_nodes.webp" class="figure-img img-fluid" alt="Adding GPIO output nodes.">
   <figcaption class="figure-caption text-center">Adding GPIO output nodes.</figcaption>
 </figure>
 
 Then click on each one to configure their properties:
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/pi_traffic_lights_node_red_configure_gpio.png" class="figure-img img-fluid" alt="Configuring GPIO output nodes.">
+  <img src="{{ site.baseurl }}/assets/images/pi_traffic_lights_node_red_configure_gpio.webp" class="figure-img img-fluid" alt="Configuring GPIO output nodes.">
   <figcaption class="figure-caption text-center">Configuring GPIO output nodes.</figcaption>
 </figure>
 
@@ -175,7 +175,7 @@ At this point, there's no connection between our state machine nodes on the left
 Clicking one of the function nodes displays its properties.  Selecting the "Red" function node, we'll add some code to set `msg.payload` to an object describing the state that each of the three LEDs needs to be in when we're in the "red" state.  (Node RED expects nodes to communicate by returning a message object containing a `payload` key):
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/pi_traffic_lights_node_red_configure_function_payload.png" class="figure-img img-fluid" alt="Configuring function node payloads">
+  <img src="{{ site.baseurl }}/assets/images/pi_traffic_lights_node_red_configure_function_payload.webp" class="figure-img img-fluid" alt="Configuring function node payloads">
   <figcaption class="figure-caption text-center">Configuring function node payloads.</figcaption>
 </figure>
 
@@ -198,21 +198,21 @@ We could now connect each function node to all three GPIO output nodes, and the 
 What we need "in front of" each GPIO output node is another function node, that will receive the object describing the overall state of the lights, and pass on only one of the values to the GPIO output node.  So, we'll add three function nodes placed between our state machine nodes and the GPIO nodes.  One of these will pull out the `red` value from `msg.payload`, another then `yellow` and the third the `green`.  Each will then return a message whose payload is simply that value, which we can then connect directly to the relevant GPIO output node.  Here, we're configuring the function node that will pass on the red value to the red GPIO output node:
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/pi_traffic_lights_node_red_get_red.png" class="figure-img img-fluid" alt="Passing on just the red value.">
+  <img src="{{ site.baseurl }}/assets/images/pi_traffic_lights_node_red_get_red.webp" class="figure-img img-fluid" alt="Passing on just the red value.">
   <figcaption class="figure-caption text-center">Passing on just the red value.</figcaption>
 </figure>
 
 Having added similar function nodes to get the yellow and green values from the state object, then connected their outputs to the inputs of the GPIO output nodes, we have:
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/pi_traffic_lights_node_red_added_get_nodes.png" class="figure-img img-fluid" alt="Added nodes to read state for each LED.">
+  <img src="{{ site.baseurl }}/assets/images/pi_traffic_lights_node_red_added_get_nodes.webp" class="figure-img img-fluid" alt="Added nodes to read state for each LED.">
   <figcaption class="figure-caption text-center">Added nodes to read state for each LED.</figcaption>
 </figure>
 
 Next up we need to make the final connections!  Each state over on the left needs to be connected to each of the "Get Red", "Get Yellow" and "Get Green" nodes, so that the message containing the overall state of the LEDs is sent to each.  We do this by adding a connector from the right side of each state function node to each of the three "Get ..." function nodes.  The diagram gets a little messy, but when done it looks like this:
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/pi_traffic_lights_node_red_all_connected.png" class="figure-img img-fluid" alt="Everything is now connected up!">
+  <img src="{{ site.baseurl }}/assets/images/pi_traffic_lights_node_red_all_connected.webp" class="figure-img img-fluid" alt="Everything is now connected up!">
   <figcaption class="figure-caption text-center">Everything is now connected up!</figcaption>
 </figure>
 
@@ -223,14 +223,14 @@ We're all set, but how do we get it up and running so we can see some LED light 
 It's finally time to run the flow!  To do this we click the "Deploy" button:
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/pi_traffic_lights_node_red_deploy_flow.png" class="figure-img img-fluid" alt="Deploying the flow.">
+  <img src="{{ site.baseurl }}/assets/images/pi_traffic_lights_node_red_deploy_flow.webp" class="figure-img img-fluid" alt="Deploying the flow.">
   <figcaption class="figure-caption text-center">Deploying the flow.</figcaption>
 </figure>
 
 Node RED will then start at the ingest node, wait the 0.1 seconds we configured, then run the red state node, and follow the connectors.  The red state node emits a message object having just the red light set to 1, and this goes to all three "Get ..." nodes.  They read the part of the message that's for the LED they represent, and convert it to a 0 or 1 that is send to the relevant GPIO output node.  Meantime, the state machine part of the flow sits in a delay node for the configured number of seconds before moving to the next state.  Node RED shows which nodes are active at any given time using blue squares, and we can see whether the GPIO pins are set to 0 (off) or 1 (on) as the status is shown next to each.
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/pi_traffic_lights_node_red_final.png" class="figure-img img-fluid" alt="It works!">
+  <img src="{{ site.baseurl }}/assets/images/pi_traffic_lights_node_red_final.webp" class="figure-img img-fluid" alt="It works!">
   <figcaption class="figure-caption text-center">It works!</figcaption>
 </figure>
 

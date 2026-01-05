@@ -2,7 +2,7 @@
 layout: post
 title:  "Carbon Intensity Display With Raspberry Pi Pico and Pimoroni GFX Pack"
 categories: [ IoT, Coding, Raspberry Pi, Python ]
-image: assets/images/carbonintensity_main.jpg
+image: assets/images/carbonintensity_main.webp
 author: simon
 ---
 Global warming is a thing, and we can all do our bit by reducing our carbon footprint.  One way of achieving this would be to move more things that we use electricity for (cooking, charging electric vehicles, washing clothes etc) to times when our electricity generation was as green as possible.  To do this, we'd need a way of knowing when those times are so that we could take manual or automated action.
@@ -34,25 +34,25 @@ Here's some examples of the script running at different times / for other region
 <div class="slick-carousel">
     <div>
         <figure class="figure">
-        <img src="{{ site.baseurl }}/assets/images/carbonintensity_north_scotland.jpg" class="figure-img img-fluid" alt="Windy and green in North Scotland.">
+        <img src="{{ site.baseurl }}/assets/images/carbonintensity_north_scotland.webp" class="figure-img img-fluid" alt="Windy and green in North Scotland.">
         <figcaption class="figure-caption text-center">Windy and green in North Scotland.</figcaption>
         </figure>
     </div>
     <div>
         <figure class="figure">
-        <img src="{{ site.baseurl }}/assets/images/carbonintensity_north_wales.jpg" class="figure-img img-fluid" alt="Nuclear, gas and Wind mix in North Wales - slightly less green.">
+        <img src="{{ site.baseurl }}/assets/images/carbonintensity_north_wales.webp" class="figure-img img-fluid" alt="Nuclear, gas and Wind mix in North Wales - slightly less green.">
         <figcaption class="figure-caption text-center">Nuclear, gas and Wind mix in North Wales - slightly less green.</figcaption>
         </figure>
     </div>
     <div>
         <figure class="figure">
-        <img src="{{ site.baseurl }}/assets/images/carbonintensity_east_england.jpg" class="figure-img img-fluid" alt="Gas and Nuclear in East England - orange, starting to get concerning!">
+        <img src="{{ site.baseurl }}/assets/images/carbonintensity_east_england.webp" class="figure-img img-fluid" alt="Gas and Nuclear in East England - orange, starting to get concerning!">
         <figcaption class="figure-caption text-center">Gas and Nuclear in East England - orange, starting to get concerning!</figcaption>
         </figure>
     </div>
     <div>
         <figure class="figure">
-        <img src="{{ site.baseurl }}/assets/images/carbonintensity_south_wales.jpg" class="figure-img img-fluid" alt="Red alert in South Wales - nearly all gas.">
+        <img src="{{ site.baseurl }}/assets/images/carbonintensity_south_wales.webp" class="figure-img img-fluid" alt="Red alert in South Wales - nearly all gas.">
         <figcaption class="figure-caption text-center">Red alert in South Wales - nearly all gas.</figcaption>
         </figure>
     </div>
@@ -62,7 +62,7 @@ Here's some examples of the script running at different times / for other region
 The hardware I used to make this can be seen below.
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/carbonintensity_kit.png" alt="The hardware needed to run this example.">
+  <img src="{{ site.baseurl }}/assets/images/carbonintensity_kit.webp" alt="The hardware needed to run this example.">
   <figcaption class="figure-caption text-center">The hardware needed to run this example.</figcaption>
 </figure>
 
@@ -79,7 +79,7 @@ To begin, download the latest MicroPython firmware image from Pimoroni [here](ht
 Once you've downloaded the `.uf2` file, it's time to flash it onto the Pico W.  Plug the Micro USB end of your cable into the Pico W.  Hold down the "BOOTSEL" button on the back of the Pico W and connect the USB A end of your cable to your machine.  
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/carbonintensity_bootsel.jpg" alt="Location of the BOOTSEL button.">
+  <img src="{{ site.baseurl }}/assets/images/carbonintensity_bootsel.webp" alt="Location of the BOOTSEL button.">
   <figcaption class="figure-caption text-center">Location of the BOOTSEL button.</figcaption>
 </figure>
 
@@ -98,7 +98,7 @@ Now, start up the [Thonny IDE](https://thonny.org/) or download and install it f
 Then, connect to your Pi Pico's MicroPython runtime by clicking the hamburger menu in the bottom right corner to select a Python interpreter.  Pick the "MicroPython (Raspberry Pi Pico)" option.  You should see the REPL appear in Thonny.  Python code typed here executes immediately on the Pico W:
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/carbonintensity_thonny.png" alt="Selecting the correct Python interpreter in the Thonny IDE.">
+  <img src="{{ site.baseurl }}/assets/images/carbonintensity_thonny.webp" alt="Selecting the correct Python interpreter in the Thonny IDE.">
   <figcaption class="figure-caption text-center">Selecting the correct Python interpreter in the Thonny IDE.</figcaption>
 </figure>
 
@@ -108,7 +108,7 @@ Install the code by uploading these files to the root or "/" of the Raspberry Pi
 * `common/WIFI_CONFIG.py`
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/carbonintensity_filecopy.png" alt="Copying files to the Raspberry Pi Pico W with Thonny.">
+  <img src="{{ site.baseurl }}/assets/images/carbonintensity_filecopy.webp" alt="Copying files to the Raspberry Pi Pico W with Thonny.">
   <figcaption class="figure-caption text-center">Copying files to the Raspberry Pi Pico W with Thonny.</figcaption>
 </figure>
 
@@ -127,7 +127,7 @@ Replace the values of `SSID` and `PSK` with your WiFi network's ID and password,
 All that remains is to press the "RESET" button on the back of the GFX Pack...
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/carbonintensity_reset.jpg" alt="The reset button on the GFX Pack.">
+  <img src="{{ site.baseurl }}/assets/images/carbonintensity_reset.webp" alt="The reset button on the GFX Pack.">
   <figcaption class="figure-caption text-center">The reset button on the GFX Pack.</figcaption>
 </figure>
 
@@ -508,7 +508,7 @@ One thing with this project is that leaving it on all day uses electricity, so i
 A more extreme power saving solution would be to forego colour and use an e-ink display that will retain its state when powered down.  I do have one of these Pimoroni [Badger 2040W](https://shop.pimoroni.com/products/badger-2040-w?variant=40514062188627) devices (I use it in my [aircraft tracking project](/plane-spotting-with-redis-nodejs-micropython/)):
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/carbonintensity_badger.jpg" alt="Badger 2040W (pic by Pimoroni).">
+  <img src="{{ site.baseurl }}/assets/images/carbonintensity_badger.webp" alt="Badger 2040W (pic by Pimoroni).">
   <figcaption class="figure-caption text-center">Badger 2040W (pic by Pimoroni).</figcaption>
 </figure>
 

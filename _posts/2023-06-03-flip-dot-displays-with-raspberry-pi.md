@@ -2,7 +2,7 @@
 layout: post
 title:  "Flip Dot Displays with Raspberry Pi"
 categories: [ IoT, Coding, Raspberry Pi, JavaScript, Python ]
-image: assets/images/flipdot_main.jpg
+image: assets/images/flipdot_main.webp
 author: simon
 ---
 Flip dot displays were a popular way of displaying destination information on buses and other forms of public transport.  A flip dot sign is a matrix of individual dots, each having a brightly coloured and a dark side.  Each dot can be controlled individually using magnets - when the state changes, the dot flips sides and makes a very satisfying sound.  I bought an old flip dot display that had been used in a bus and worked with existing software drivers for it to make it a fun display piece for my office and livestreaming setup.
@@ -35,7 +35,7 @@ To answer this, we need to talk about buses a little bit because this thing behi
 They were popular for a while because they have a couple of properties we'll look at in a minute, but historically these were just blinds...
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/flipdot_buses_destination_blinds.png" alt="Bus with destination blind">
+  <img src="{{ site.baseurl }}/assets/images/flipdot_buses_destination_blinds.webp" alt="Bus with destination blind">
   <figcaption class="figure-caption text-center">A bus with a destination blind.</figcaption>
 </figure>
 
@@ -44,7 +44,7 @@ They were just bits of fabric with the destinations written on, and the driver w
 Buses that you see these days don't have flip dot displays....
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/flipdot_buses_led_matrices.png" alt="Buses with LED matrix destination displays">
+  <img src="{{ site.baseurl }}/assets/images/flipdot_buses_led_matrices.webp" alt="Buses with LED matrix destination displays">
   <figcaption class="figure-caption text-center">Buses with LED matrix destination displays.</figcaption>
 </figure>
 
@@ -53,7 +53,7 @@ What you see on buses now is LED matrices which are essentially like the sort of
 Somewhere in between destination blinds and LEDs we had a period where things were a bit cooler... and we had what was called a split flap display:
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/flipdot_split_flap_display.png" alt="A split flap display">
+  <img src="{{ site.baseurl }}/assets/images/flipdot_split_flap_display.webp" alt="A split flap display">
   <figcaption class="figure-caption text-center">A split flap display.</figcaption>
 </figure>
 
@@ -62,7 +62,7 @@ You might have seen these in Waterloo Station sometime ago although they're long
 Split flap displays were kind of fun and expensive, and also had the property of no power consumption when they aren't updating.  Inbetween split flap displays and LEDs there were these flip dot things that had their day.
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/flipdot_flipdot_nyc_bus.png" alt="Bus with flip dot display in New York City">
+  <img src="{{ site.baseurl }}/assets/images/flipdot_flipdot_nyc_bus.webp" alt="Bus with flip dot display in New York City">
   <figcaption class="figure-caption text-center">Bus with flip dot display in New York City.</figcaption>
 </figure>
 
@@ -92,7 +92,7 @@ This is also why it's "object permanent" if you like.  You can turn it off and i
 That's how it works, and this is a blown up diagram that I made of what they look like:
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/flipdot_mechanics.png" alt="Diagram showing flip dots">
+  <img src="{{ site.baseurl }}/assets/images/flipdot_mechanics.webp" alt="Diagram showing flip dots">
   <figcaption class="figure-caption text-center">Flip dots.</figcaption>
 </figure>
 
@@ -101,7 +101,7 @@ Each one is just this two coloured thing and it sits on a rod and behind there t
 Basically, the sign presents to the programmer as a giant bit array:
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/flipdot_bit_array.png" alt="Diagram showing numbers on a flip dot display represented as a bit array">
+  <img src="{{ site.baseurl }}/assets/images/flipdot_bit_array.webp" alt="Diagram showing numbers on a flip dot display represented as a bit array">
   <figcaption class="figure-caption text-center">Numbers on a flip dot display represented as a bit array.</figcaption>
 </figure>
 
@@ -112,7 +112,7 @@ Like Mark (the previous speaker on the night) was saying earlier, a lot of us gr
 So how do we control the thing?
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/flipdot_controller.png" alt="A Hanover DERIC flip dot display controller">
+  <img src="{{ site.baseurl }}/assets/images/flipdot_controller.webp" alt="A Hanover DERIC flip dot display controller">
   <figcaption class="figure-caption text-center">A Hanover DERIC flip dot display controller.</figcaption>
 </figure>
 
@@ -127,7 +127,7 @@ People who are better than me at electronics looked at this and started looking 
 The bus sign protocol for controlling the signs is really quite strange:
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/flipdot_protocol.png" alt="Flip dot protocol explained">
+  <img src="{{ site.baseurl }}/assets/images/flipdot_protocol.webp" alt="Flip dot protocol explained">
   <figcaption class="figure-caption text-center">Flip dot protocol explained.</figcaption>
 </figure>
 
@@ -150,7 +150,7 @@ All of this data is sent across the USB/RS485 modem and the sign updates.  What 
 It's essentially a one frame per communication type of broadcast TV thing.  Luckily, most people won't need to worry about this because people went ahead and wrote drivers for these signs which make them a lot more accessible to those just wanting to get on with doing projects...
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/flipdot_drivers.png" alt="Flip dot driver packages for Node.js and Python">
+  <img src="{{ site.baseurl }}/assets/images/flipdot_drivers.webp" alt="Flip dot driver packages for Node.js and Python">
   <figcaption class="figure-caption text-center">Flip dot driver packages for Node.js and Python.</figcaption>
 </figure>
 
@@ -165,7 +165,7 @@ Those are the main two drivers that are out there.  You can of course write your
 What does any of this have to do with Raspberry Pi?  Well - anything and nothing really as we are plugging a USB/RS485 in... the main advantages of using a Raspberry Pi here are that it's got a USB port... but so do most things... I could plug this into my Macintosh.  The Pi can however also be mounted in the back of the sign.  I've got a Pi 3 stuck in the back of the sign here with some stick on velcro from B&Q:
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/flipdot_back_of_sign.png" alt="Inside the flip dot sign showing the Raspberry Pi and RS485 USB modem">
+  <img src="{{ site.baseurl }}/assets/images/flipdot_back_of_sign.webp" alt="Inside the flip dot sign showing the Raspberry Pi and RS485 USB modem">
   <figcaption class="figure-caption text-center">Inside the flip dot sign showing the Raspberry Pi and RS485 USB modem.</figcaption>
 </figure>
 
@@ -190,14 +190,14 @@ Then what we do is create an image inside the driver.  This is just a big array 
 This is not as great for text, but it's really good for writing games or something like that.  If you want to do something else with one of these, we'll also take a look at examples of what you can do...
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/flipdot_practical_application.png" alt="Are there any practical uses for this?">
+  <img src="{{ site.baseurl }}/assets/images/flipdot_practical_application.webp" alt="Are there any practical uses for this?">
   <figcaption class="figure-caption text-center">Are there any practical uses for this?</figcaption>
 </figure>
 
 What's a practical application of one of these displays?  Really there isn't one, it's kind of just for fun.  I took something that I would have been doing anyway and which also involves a lot of other Raspberry Pi stuff and I started doing aircraft tracking with the display I have here.  Let's look at a very complicated diagram:
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/flipdot_flight_tracker.png" alt="Flight tracking project architecture">
+  <img src="{{ site.baseurl }}/assets/images/flipdot_flight_tracker.webp" alt="Flight tracking project architecture">
   <figcaption class="figure-caption text-center">Flight tracking project architecture.</figcaption>
 </figure>
 
@@ -259,7 +259,7 @@ There's no reason why we can't do something more interesting with the Pi in the 
 The other thing that I wanted to show quickly was that these things get out and about elsewhere...
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/flipdot_family_fortunes.png" alt="Family Fortunes - a TV game show">
+  <img src="{{ site.baseurl }}/assets/images/flipdot_family_fortunes.webp" alt="Family Fortunes - a TV game show">
   <figcaption class="figure-caption text-center">Family Fortunes - a TV game show.</figcaption>
 </figure>
 
@@ -272,7 +272,7 @@ Like with anything else, stuff crops up on eBay from time to time.  I know from 
 There's also a company [PSV Automobilia dot com](https://psvautomobilia.com/?product_cat=hanover-flip-dots).  I don't know anything about them other than a couple of people have bought signs from them and said they've been great.
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/flipdot_vendors.png" alt="Places to buy a flip dot sign">
+  <img src="{{ site.baseurl }}/assets/images/flipdot_vendors.webp" alt="Places to buy a flip dot sign">
   <figcaption class="figure-caption text-center">Places to buy a flip dot sign.</figcaption>
 </figure>
 
@@ -285,7 +285,7 @@ What else do you need to make it work?  I'm using a laptop power supply that put
 The other thing that's cool, like these displays, and maybe the future is something called a mechanical seven segment display.
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/flipdot_alfa_zeta.png" alt="Mechanical seven segment display matrix">
+  <img src="{{ site.baseurl }}/assets/images/flipdot_alfa_zeta.webp" alt="Mechanical seven segment display matrix">
   <figcaption class="figure-caption text-center">Mechanical seven segment display matrix.</figcaption>
 </figure>
 

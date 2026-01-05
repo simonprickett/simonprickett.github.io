@@ -2,7 +2,7 @@
 layout: post
 title:  "Creating an Interactive Voice Experience with Amazon Alexa"
 categories: [ AWS, Serverless, IoT, Alexa, Python, Coding ]
-image: assets/images/alexa_main.jpg
+image: assets/images/alexa_main.webp
 author: simon
 ---
 Introduced in 2015, [Amazon Echo](https://www.amazon.com/Amazon-Echo-Bluetooth-Speaker-with-WiFi-Alexa/dp/B00X4WHP5E) is a wireless speaker and microphone device that allows users to interact with online services by voice. Alexa is the name of the speech service that powers Echo (and other devices), as well as a companion smartphone app for Android and iOS. It has a wide range of capabilities out of the box, which developers can extend using the “Alexa Skills Kit” SDK. The Skills Kit runs in the cloud, handling a lot of the heavy lifting traditionally associated with voice interfaces such as speech recognition and text-to-speech encoding.
@@ -18,7 +18,7 @@ In order to develop a Custom Skill, we need to understand how Alexa receives spo
 The overall flow looks roughly like this:
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/alexa_architecture.png" class="figure-img img-fluid" alt="Alexa skill architecture overview.">
+  <img src="{{ site.baseurl }}/assets/images/alexa_architecture.webp" class="figure-img img-fluid" alt="Alexa skill architecture overview.">
 </figure>
 
 * The user speaks to Echo, using trigger words so that Echo knows that it is being addressed, and identifies the Skill that the user wishes to interact with. For example, “Alexa, ask BART when are the trains from Balboa Park”. In this case, “Alexa” is the trigger word to make the Echo listen, and “BART” identifies the skill that the user wants to direct their enquiry to.
@@ -44,7 +44,7 @@ To configure a Custom Skill for Alexa, we begin at developer.amazon.com and logi
 Here, we need to select “Custom Interaction Model” for our Skill Type, and set Name and Invocation Name to “BART” and “bart” respectively. “BART” will be the name that is displayed in the Alexa companion app when it renders response from our Skill, and “bart” is the trigger word to tell Alexa to route requests to our Skill’s backend code.
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/alexa_custom_skill_setup.png" class="figure-img img-fluid" alt="Alexa custom skill setup.">
+  <img src="{{ site.baseurl }}/assets/images/alexa_custom_skill_setup.webp" class="figure-img img-fluid" alt="Alexa custom skill setup.">
 </figure>
 
 At this step, our new Skill is also assigned an application ID, which looks something like this:
@@ -107,7 +107,7 @@ Our completed Intent Schema looks like this:
 To associate this schema with our Custom Skill we simply paste it into the “Intent Schema” field:
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/alexa_intent_schema.png" class="figure-img img-fluid" alt="Alexa intent schema.">
+  <img src="{{ site.baseurl }}/assets/images/alexa_intent_schema.webp" class="figure-img img-fluid" alt="Alexa intent schema.">
 </figure>
 
 Next up we need to define what `LIST_OF_STATIONS` represents.
@@ -119,7 +119,7 @@ One of our intents, `GetTrainTimes`, requires a set of valid values for its para
 In order to populate this list, we simply paste a newline separated list of all of the BART station names into the “Custom Slot Types” field, and name the type `LIST_OF_STATIONS`, which matches the name we used in our `GetTrainTimes` intent:
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/alexa_custom_slot_types.png" class="figure-img img-fluid" alt="Alexa custom slot types.">
+  <img src="{{ site.baseurl }}/assets/images/alexa_custom_slot_types.webp" class="figure-img img-fluid" alt="Alexa custom slot types.">
 </figure>
 
 Having fully configured our interaction model, we then need to associate these with phrases.
@@ -168,7 +168,7 @@ Note also that we don’t need to provide sample utterances for the stop, cancel
 Pasting the above into the “Sample Utterances” box completes the interaction model which now looks something like this:
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/alexa_sample_utterances.png" class="figure-img img-fluid" alt="Alexa sample utterances.">
+  <img src="{{ site.baseurl }}/assets/images/alexa_sample_utterances.webp" class="figure-img img-fluid" alt="Alexa sample utterances.">
 </figure>
 
 We can now click “Next” to configure the endpoint that our Custom Skill’s code will reside at.
@@ -182,7 +182,7 @@ This code needs to reside either on AWS as a Lambda function, or anywhere that t
 For our example, we’ll use AWS Lambda, so we’ll need to create a Lambda function as described in the next section, then enter the ARN for that function into the “Endpoint” field in the configuration form:
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/alexa_endpoint_config.png" class="figure-img img-fluid" alt="Alexa endpoint configuration.">
+  <img src="{{ site.baseurl }}/assets/images/alexa_endpoint_config.webp" class="figure-img img-fluid" alt="Alexa endpoint configuration.">
 </figure>
 
 Alexa will then send all requests to this endpoint, and expect an appropriate JSON response back from it. To make that happen, we’ll need to write some code...
@@ -296,7 +296,7 @@ The Custom Skill can be tested using the Service Simulator within the Amazon Dev
 For example, to get train times from Balboa Park:
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/alexa_balboa_times.png" class="figure-img img-fluid" alt="Alexa example train times from Balboa Park.">
+  <img src="{{ site.baseurl }}/assets/images/alexa_balboa_times.webp" class="figure-img img-fluid" alt="Alexa example train times from Balboa Park.">
 </figure>
 
 Here we can see that Alexa determined that this request related to the `GetTrainTimes` intent (because we used a phrase from our sample utterances that are associated with that intent). Alexa also determined that Balboa Park was the value of the station slot.
@@ -318,7 +318,7 @@ On a real Echo device, we would need to use the trigger word, and the word that 
 Along with each audio response that users hear via their Echo device, we’re also sending a written response which appears in the Alexa companion smartphone app. Here’s an example response for our enquiry about train times from Balboa Park:
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/alexa_companion.png" class="figure-img img-fluid" alt="Alexa compantion app.">
+  <img src="{{ site.baseurl }}/assets/images/alexa_companion.webp" class="figure-img img-fluid" alt="Alexa compantion app.">
 </figure>
 
 ## Wrap Up

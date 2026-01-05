@@ -2,7 +2,7 @@
 layout: post
 title:  "Raspberry Pi Coolest Projects USA 2020"
 categories: [ Raspberry Pi ]
-image: assets/images/pi_coolest_projects_main.jpg
+image: assets/images/pi_coolest_projects_main.webp
 author: simon
 ---
 Today I traveled from San Diego to the Discovery Cube in Santa Ana, California to check out this year's Raspberry Pi [Coolest Projects USA event](http://coolestprojects.org/).  This is a one day Raspberry Pi Foundation event that they describe as follows:
@@ -15,31 +15,31 @@ Today I traveled from San Diego to the Discovery Cube in Santa Ana, California t
 Tickets were free on Eventbrite, and as with the previous year, the event was held upstairs in the Discovery Cube's Theater / Exhibition Hall.  This is a large single room with a stage and cinema style projection screen.
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/pi_coolest_projects_room_overview.jpg" class="figure-img img-fluid" alt="Coolest Projects USA 2020 Event Space">
+  <img src="{{ site.baseurl }}/assets/images/pi_coolest_projects_room_overview.webp" class="figure-img img-fluid" alt="Coolest Projects USA 2020 Event Space">
   <figcaption class="figure-caption text-center">Coolest Projects USA 2020 Event Space.</figcaption>
 </figure>
 
 The room was organized into rows of tables, with projects organized by type - for example Visual Programming for those using tools like Scratch, Games projects, and Mobile.  Many of the young creators had undertaken projects that used both hardware and software.  I saw several with various sensors and LEDs as well as some robotics ones including a really well done accessible chess board game that moved the pieces for players who weren't able to do it for themselves.  One group showed me how they code patterns for embroidery machines to work with, and another had wearable augmented vests that they'd built and added sensors and LEDs to.  As expected, most projects were using the Raspberry Pi but I did also see a number that included Arduino and BBC micro:bit too.
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/pi_coolest_projects_project_1.jpg" class="figure-img img-fluid" alt="Hydration reminders!">
+  <img src="{{ site.baseurl }}/assets/images/pi_coolest_projects_project_1.webp" class="figure-img img-fluid" alt="Hydration reminders!">
   <figcaption class="figure-caption text-center">Hydration reminders!</figcaption>
 </figure>
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/pi_coolest_projects_project_2.jpg" class="figure-img img-fluid" alt="An accessible chess board.">
+  <img src="{{ site.baseurl }}/assets/images/pi_coolest_projects_project_2.webp" class="figure-img img-fluid" alt="An accessible chess board.">
   <figcaption class="figure-caption text-center">An accessible chess board.</figcaption>
 </figure>
 
 As well as building and coding their projects, the kids had produced leaflets and display boards showing how they worked.  I watched the judges go around talking to each competitor or group in turn.
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/pi_coolest_projects_talking_to_judge.jpg" class="figure-img img-fluid" alt="A visit from the judge...">
+  <img src="{{ site.baseurl }}/assets/images/pi_coolest_projects_talking_to_judge.webp" class="figure-img img-fluid" alt="A visit from the judge...">
   <figcaption class="figure-caption text-center">A visit from the judge...</figcaption>
 </figure>
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/pi_coolest_projects_trial_station.jpg" class="figure-img img-fluid" alt="Raspberry Pi Getting Started Stations">
+  <img src="{{ site.baseurl }}/assets/images/pi_coolest_projects_trial_station.webp" class="figure-img img-fluid" alt="Raspberry Pi Getting Started Stations">
   <figcaption class="figure-caption text-center">Raspberry Pi Getting Started Stations.</figcaption>
 </figure>
 

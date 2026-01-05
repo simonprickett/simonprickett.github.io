@@ -2,7 +2,7 @@
 layout: post
 title:  "Playing with Raspberry Pi and Python: Traffic lights, Part 2"
 categories: [ Raspberry Pi, Technology, IoT, Python, Coding ]
-image: assets/images/pi_traffic_lights_python_2_main.jpg
+image: assets/images/pi_traffic_lights_python_2_main.webp
 author: simon
 ---
 In a [previous post in this series]({{ site.baseurl}}/playing-with-raspberry-pi-traffic-lights), we looked at writing Python code to control a set of Low Voltage Labs Traffic Light LEDs for the Raspberry Pi. If you haven’t read that article yet, now would be a good time to do so as this one builds on what we achieved there.

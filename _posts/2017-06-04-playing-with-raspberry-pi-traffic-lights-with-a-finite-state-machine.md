@@ -2,7 +2,7 @@
 layout: post
 title:  "Playing with Raspberry Pi: Traffic Lights with a Finite State Machine"
 categories: [ Raspberry Pi, Technology, IoT, Python, Coding ]
-image: assets/images/pi_traffic_lights_fsm_main.jpg
+image: assets/images/pi_traffic_lights_fsm_main.webp
 author: simon
 ---
 This is the third of our articles in a series where we’re playing with the [Low Voltage Labs LED Traffic Lights](http://lowvoltagelabs.com/products/pi-traffic/) using Python on the Raspberry Pi. In the [first article]({{ site.baseurl }}/playing-with-raspberry-pi-traffic-lights), we set up a basic traffic light pattern, then enhanced this in the [second article]({{ site.baseurl }}/playing-with-raspberry-pi-traffic-lights-part-2) to run the lights in either the UK or USA patterns according to the value of an environment variable.
@@ -14,7 +14,7 @@ A Finite State Machine (sometimes known as a Finite State Automaton) is a comput
 In order to figure out what our states and transitions are, we can draw out a basic [state diagram](https://en.wikipedia.org/wiki/State_diagram) to visualize them:
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/pi_traffic_lights_fsm_state_diagram.jpg" class="figure-img img-fluid" alt="State diagram.">
+  <img src="{{ site.baseurl }}/assets/images/pi_traffic_lights_fsm_state_diagram.webp" class="figure-img img-fluid" alt="State diagram.">
   <figcaption class="figure-caption text-center">State diagram.</figcaption>
 </figure>
 

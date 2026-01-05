@@ -2,7 +2,7 @@
 layout: post
 title:  "Testing Zesty.io's Templating Engine using... Zesty.io!"
 categories: [ Node.js, JavaScript, CMS, Testing, Coding ]
-image: assets/images/zesty_testing_main.jpg
+image: assets/images/zesty_testing_main.webp
 author: simon
 ---
 Parsley is a major component of the Zesty.io Content Management platform. It is a server side templating engine which can be used to inject dynamic content into web pages or many other output formats such as API endpoints, RSS feeds or SVG images.
@@ -12,7 +12,7 @@ Parsley works by reading a template and evaluating code statements contained in 
 A quick example of some Parsley code to insert a dynamic value into a HTML document looks like this:
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/zesty_testing_parsley_hug.png" class="figure-img img-fluid" alt="A Parsley hug.">
+  <img src="{{ site.baseurl }}/assets/images/zesty_testing_parsley_hug.webp" class="figure-img img-fluid" alt="A Parsley hug.">
   <figcaption class="figure-caption text-center">A Parsley hug.</figcaption>
 </figure>
 
@@ -39,7 +39,7 @@ We made a group content model called "Parsley Tests". Each item in the group wil
 Here’s a simple example test using this content model as seen in the Zesty.io Manager interface:
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/zesty_testing_manager_app.png" class="figure-img img-fluid" alt="A simple test.">
+  <img src="{{ site.baseurl }}/assets/images/zesty_testing_manager_app.webp" class="figure-img img-fluid" alt="A simple test.">
   <figcaption class="figure-caption text-center">A simple test.</figcaption>
 </figure>
 
@@ -57,14 +57,14 @@ Once we’ve got all of our tests defined and grouped in Zesty.io, we need a way
 Using the Instant API is as simple as turning it on in the Zesty.io Manager’s "Schema (Config)" setting then looking up the URL for the content that we want to access. In this case we want every content item in the "Parsley Tests" content model group. The URL for this can be found by viewing the appropriate content model in the Manager and clicking the URL fragment beginning `/-/instant...`:
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/zesty_testing_instant_api_endpoint.png" class="figure-img img-fluid" alt="Instant API endpoint.">
+  <img src="{{ site.baseurl }}/assets/images/zesty_testing_instant_api_endpoint.webp" class="figure-img img-fluid" alt="Instant API endpoint.">
   <figcaption class="figure-caption text-center">Instant API endpoint.</figcaption>
 </figure>
 
 Looking at the structure of the JSON returned, we see that each content item (a test definition in our case) appears in the "data" array (JSON edited for brevity):
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/zesty_testing_api_response_example.png" class="figure-img img-fluid" alt="Example JSON from the instant API.">
+  <img src="{{ site.baseurl }}/assets/images/zesty_testing_api_response_example.webp" class="figure-img img-fluid" alt="Example JSON from the instant API.">
   <figcaption class="figure-caption text-center">Example JSON from the instant API.</figcaption>
 </figure>
 
@@ -83,7 +83,7 @@ For each of these test suites, the code then needs to get the JSON for items in 
 Assuming we have the ZUID for a suite of tests in `groupZuid` and the ZUID for the content item containing data items for those tests in `dataZuid`, then code to dynamically build and run a test looks like this:
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/zesty_testing_test_code.png" class="figure-img img-fluid" alt="Code to build and run a test.">
+  <img src="{{ site.baseurl }}/assets/images/zesty_testing_test_code.webp" class="figure-img img-fluid" alt="Code to build and run a test.">
   <figcaption class="figure-caption text-center">Code to build and run a test.</figcaption>
 </figure>
 
