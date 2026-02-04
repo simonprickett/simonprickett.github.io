@@ -17,9 +17,10 @@ permalink: "/readinglist/"
             <p>Support your local library - I've read most of these books thanks to <a href="https://www.nottinghamcitylibraries.co.uk/" target="_blank">Nottingham City Libraries</a>.</p>
             <p>I'm also always looking out for book suggestions - <a href="/contact">get in touch</a> if you have ideas!</p>
             <hr/>
-            <p><i>Last Updated: February 2nd 2026.</i></p>
+            <p><i>Last Updated: February 4th 2026.</i></p>
             <hr/>
             <ol>
+                <li><a href="https://www.goodreads.com/book/show/204593511-the-lantern-of-lost-memories" target="_blank"><b>The Lantern of Lost Memories</b> - <i>Sanaka Hiiragi</i></a></li>  
                 <li><a href="https://www.goodreads.com/book/show/2483355.The_Suicide_Index" target="_blank"><b>The Suicide Index: Putting My Father's Death in Order</b> - <i>Joan Wickersham</i></a></li>  
                 <li><a href="https://www.goodreads.com/book/show/223640990-we-ll-prescribe-you-another-cat" target="_blank"><b>We'll Prescribe You Another Cat</b> - <i>Syou Ishida</i></a></li> 
                 <li><a href="https://www.goodreads.com/book/show/233877728-the-tomorrow-project" target="_blank"><b>The Tomorrow Project</b> - <i>H. Critchlow</i></a></li>   
@@ -28,8 +29,7 @@ permalink: "/readinglist/"
                 <li><a href="https://www.goodreads.com/book/show/48616787-the-lying-life-of-adults" target="_blank"><b>The Lying Life of Adults</b> - <i>Elena Ferrante</i></a></li>
                 <li><a href="https://www.goodreads.com/book/show/42379216-the-truants" target="_blank"><b>The Truants</b> - <i>Kate Weinberg</i></a></li> 
                 <li><a href="https://www.goodreads.com/book/show/214151232-luminous" target="_blank"><b>Luminous</b> - <i>Silvia Park</i></a></li>  
-                <li><a href="https://www.goodreads.com/book/show/209891406-our-evenings" target="_blank"><b>Our Evenings</b> - <i>Alan Hollinghurst</i></a></li>  
-                <li><a href="https://www.goodreads.com/en/book/show/43565369-the-topeka-school" target="_blank"><b>The Topeka School</b> - <i>Ben Lerner</i></a></li>       
+                <li><a href="https://www.goodreads.com/book/show/209891406-our-evenings" target="_blank"><b>Our Evenings</b> - <i>Alan Hollinghurst</i></a></li>       
             </ol>
             <hr/>
             <p><i>Photo by <a href="https://www.pexels.com/photo/books-on-wooden-shelves-inside-library-2908984/" target="_blank">Stanislav Kondratiev</a> on Pexels.</i></p>
