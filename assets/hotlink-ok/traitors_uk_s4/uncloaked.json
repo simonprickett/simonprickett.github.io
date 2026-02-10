@@ -1,0 +1,16 @@
+{ 
+  "uncloacked_appearances": [
+    { "episode": 1, "celebs": [ "Jack Remmington", "Lucy Beaumont" ], "players": [] },
+    { "episode": 2, "celebs": [ "Joe Marler" ], "players": [ "Judy", "Netty" ] },
+    { "episode": 3, "celebs": [ "Cat Burns" ], "players": [ "Hugo", "Ben" ] },
+    { "episode": 4, "celebs": [ "Angela Scanlon", "Max Balegde" ], "players": [ "Ross" ] },
+    { "episode": 5, "celebs": [ "Mark Bonnar" ], "players": [ "Maz", "Amanda" ] },
+    { "episode": 6, "celebs": [ "Charlotte Church" ], "players": [ "Reece", "Fiona" ] },
+    { "episode": 7, "celebs": [ "Clare Balding" ], "players": [ "Harriet" ] },
+    { "episode": 8, "celebs": [ "La Voix" ], "players": [ "Adam", "Sam" ] },
+    { "episode": 9, "celebs": [ "Chris Ramsey" ], "players": [ "Ellie", "Jessie" ] },
+    { "episode": 10, "celebs": [ "Kate Garraway" ], "players": [ "Matthew" ] },
+    { "episode": 11, "celebs": [ "Joe Marler" ], "players": [ "Roxy" ] },
+    { "episode": 12, "celebs": [ "Claudia Winkleman" ], "players": [ "James", "Jade", "Faraaz", "Jack", "Rachel", "Stephen" ] }
+  ]
+}
