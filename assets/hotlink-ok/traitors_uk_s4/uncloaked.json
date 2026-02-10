@@ -1,5 +1,5 @@
 { 
-  "uncloacked_appearances": [
+  "uncloaked_appearances": [
     { "episode": 1, "celebs": [ "Jack Remmington", "Lucy Beaumont" ], "players": [] },
     { "episode": 2, "celebs": [ "Joe Marler" ], "players": [ "Judy", "Netty" ] },
     { "episode": 3, "celebs": [ "Cat Burns" ], "players": [ "Hugo", "Ben" ] },
