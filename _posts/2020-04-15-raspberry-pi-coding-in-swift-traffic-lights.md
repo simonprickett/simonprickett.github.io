@@ -17,8 +17,9 @@ If you're interested in my other articles that show how to write the same code i
 * [Go]({{ site.baseurl}}/raspberry-pi-coding-in-go-traffic-lights)
 * [Bash scripting]({{ site.baseurl}}/controlling-raspberry-pi-gpio-pins-from-bash-scripts-traffic-lights)
 * [Rust]({{ site.baseurl }}/raspberry-pi-coding-with-rust-traffic-lights/)
+* [.NET/C#]({{ site.baseurl }}/raspberry-pi-coding-with-dotnet-traffic-lights/)
 * also... [Arduino]({{ site.baseurl}}/traffic-lights-with-arduino/)
-* and [.NET/C#]({{ site.baseurl }}/raspberry-pi-coding-with-dotnet-traffic-lights/)
+* and, most recently, [Raspberry Pi Pico]({{ site.baseurl }}/coding-on-the-raspberry-pi-pico-traffic-lights/) in C, MicroPython and CircuitPython
 
 To make this a standalone guide, there will be some re-use of content from the prior articles here.
 
