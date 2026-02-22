@@ -14,32 +14,20 @@ description: "Simon Prickett's personal website."
     
     
 <!-- Begin post excerpts, let's highlight the first 4 posts on top -->
-<div class="row remove-site-content-margin">
+<div class="row remove-site-content-margin align-items-stretch">
     
     <!-- latest post -->
     {% assign latest_post = site.posts[0] %}
     <div class="col-md-6">
-    <div class="card border-0 mb-4 box-shadow">   
-    <a href="{{site.baseurl}}{{latest_post.url}}">
-    <div class="topfirstimage" style="background-image: url({% if latest_post.image contains "://" %}{{ latest_post.image }}{% else %} {{site.baseurl}}/{{ latest_post.image}}{% endif %}); height: 200px;    background-size: cover;    background-repeat: no-repeat;"></div>     
+    <div class="card border-0 mb-4 box-shadow h-100">   
+    <a href="{{site.baseurl}}{{latest_post.url}}" style="position: relative; display: block; height: 100%;">
+    <div class="topfirstimage" style="background-image: url({% if latest_post.image contains "://" %}{{ latest_post.image }}{% else %} {{site.baseurl}}/{{ latest_post.image}}{% endif %}); height: 100%;    background-size: cover;    background-repeat: no-repeat; background-position: center;"></div>
+    <div style="position: absolute; bottom: 0; left: 0; right: 0; padding: 2rem; background: linear-gradient(to top, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.4) 70%, rgba(0,0,0,0) 100%);">
+        <h2 class="h4 font-weight-bold" style="color: white; margin: 0;">
+        {{ latest_post.title }}
+        </h2>
+    </div>
     </a>
-    <div class="card-body px-0 pb-0 d-flex flex-column align-items-start">
-    <h2 class="h4 font-weight-bold">
-    <a class="text-dark" href="{{site.baseurl}}{{latest_post.url}}">{{ latest_post.title }}</a>
-    </h2>
-    <p class="excerpt">
-        {{ latest_post.excerpt | strip_html | strip_newlines | truncate: 136 }}
-    </p>
-    <div>
-        <small class="d-block text-muted">
-            In <span class="catlist">
-                {% for category in latest_post.categories %}
-                <a class="text-capitalize text-muted smoothscroll" href="{{site.baseurl}}/categories.html#{{ category | downcase }}">{{ category }}</a><span class="sep">, </span>
-                {% endfor %}
-                </span>                   
-        </small>
-    </div>
-    </div>
     </div>
     </div>
     
