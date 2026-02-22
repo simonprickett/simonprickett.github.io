@@ -18,7 +18,7 @@ description: "Simon Prickett's personal website."
     
     <!-- latest post -->
     {% assign latest_post = site.posts[0] %}
-    <div class="col-md-6">
+    <div class="col-md-6" style="margin-bottom: 2rem;">
     <div class="card border-0 mb-4 box-shadow h-100">   
     <a href="{{site.baseurl}}{{latest_post.url}}" style="position: relative; display: block; height: 100%;">
     <div class="topfirstimage" style="background-image: url({% if latest_post.image contains "://" %}{{ latest_post.image }}{% else %} {{site.baseurl}}/{{ latest_post.image}}{% endif %}); height: 100%;    background-size: cover;    background-repeat: no-repeat; background-position: center;"></div>
