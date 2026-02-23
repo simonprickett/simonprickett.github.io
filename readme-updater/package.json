@@ -10,7 +10,7 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "glob": "^7.1.6",
+    "glob": "^13.0.6",
     "handlebars": "^4.7.7"
   }
 }
