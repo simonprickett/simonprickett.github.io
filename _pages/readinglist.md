@@ -17,9 +17,10 @@ permalink: "/readinglist/"
             <p>Support your local library - I've read most of these books thanks to <a href="https://www.nottinghamcitylibraries.co.uk/" target="_blank">Nottingham City Libraries</a>.</p>
             <p>I'm also always looking out for book suggestions - <a href="/contact">get in touch</a> if you have ideas!</p>
             <hr/>
-            <p><i>Last Updated: February 24th 2026.</i></p>
+            <p><i>Last Updated: March 1st 2026.</i></p>
             <hr/>
             <ol>
+                <li><a href="https://www.goodreads.com/book/show/222919794-terry-dactyl" target="_blank"><b>Terry Dactyl</b> - <i>Mattilda Bernstein Sycamore</i></a></li>
                 <li><a href="https://www.goodreads.com/book/show/161846.The_Midwich_Cuckoos" target="_blank"><b>The Midwich Cuckoos</b> - <i>John Wyndham</i></a></li>
                 <li><a href="https://www.goodreads.com/book/show/229279734-darker-days" target="_blank"><b>Darker Days</b> - <i>Thomas Olde Heuvelt</i></a></li>    
                 <li><a href="https://www.goodreads.com/book/show/234352794-greedy?ref=nav_sb_ss_2_6" target="_blank"><b>Greedy</b> - <i>Callie Kazumi</i></a></li>    
@@ -29,7 +30,6 @@ permalink: "/readinglist/"
                 <li><a href="https://www.goodreads.com/book/show/223640990-we-ll-prescribe-you-another-cat" target="_blank"><b>We'll Prescribe You Another Cat</b> - <i>Syou Ishida</i></a></li> 
                 <li><a href="https://www.goodreads.com/book/show/233877728-the-tomorrow-project" target="_blank"><b>The Tomorrow Project</b> - <i>H. Critchlow</i></a></li>   
                 <li><a href="https://www.goodreads.com/book/show/216522745-the-seven-o-clock-club" target="_blank"><b>The Seven O'Clock Club</b> - <i>Amelia Ireland</i></a></li>
-                <li><a href="https://www.goodreads.com/book/show/55782301-people-like-them" target="_blank"><b>People Like Them</b> - <i>Samira Sedira</i></a></li>
             </ol>
             <hr/>
             <p><i>Photo by <a href="https://www.pexels.com/photo/books-on-wooden-shelves-inside-library-2908984/" target="_blank">Stanislav Kondratiev</a> on Pexels.</i></p>
