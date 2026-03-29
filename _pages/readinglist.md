@@ -17,9 +17,10 @@ permalink: "/readinglist/"
             <p>Support your local library - I've read most of these books thanks to <a href="https://www.nottinghamcitylibraries.co.uk/" target="_blank">Nottingham City Libraries</a>.</p>
             <p>I'm also always looking out for book suggestions - <a href="/contact">get in touch</a> if you have ideas!</p>
             <hr/>
-            <p><i>Last Updated: March 20th 2026.</i></p>
+            <p><i>Last Updated: March 29th 2026.</i></p>
             <hr/>
             <ol>
+                <li><a href="https://www.goodreads.com/book/show/226381619-days-at-the-torunka-caf" target="_blank"><b>Days at the Torunka Café</b> - <i>Satoshi Yagisawa</i></a></li>  
                 <li><a href="https://www.goodreads.com/book/show/233717135-eradication" target="_blank"><b>Eradication: A Fable</b> - <i>Jonathan Miles</i></a></li>  
                 <li><a href="https://www.goodreads.com/en/book/show/58438623-the-high-house" target="_blank"><b>The High House</b> - <i>Jessie Greengrass</i></a></li> 
                 <li><a href="https://www.goodreads.com/book/show/229154786-the-hunger-we-pass-down" target="_blank"><b>The Hunger We Pass Down</b> - <i>Jen Sookfong Lee</i></a></li>  
@@ -29,7 +30,6 @@ permalink: "/readinglist/"
                 <li><a href="https://www.goodreads.com/book/show/229279734-darker-days" target="_blank"><b>Darker Days</b> - <i>Thomas Olde Heuvelt</i></a></li>    
                 <li><a href="https://www.goodreads.com/book/show/234352794-greedy?ref=nav_sb_ss_2_6" target="_blank"><b>Greedy</b> - <i>Callie Kazumi</i></a></li>    
                 <li><a href="https://www.goodreads.com/book/show/216684962-on-earth-as-it-is-beneath" target="_blank"><b>On Earth As It Is Beneath</b> - <i>Ana Paula Maia</i></a></li> 
-                <li><a href="https://www.goodreads.com/book/show/204593511-the-lantern-of-lost-memories" target="_blank"><b>The Lantern of Lost Memories</b> - <i>Sanaka Hiiragi</i></a></li>  
             </ol>
             <hr/>
             <p><i>Photo by <a href="https://www.pexels.com/photo/books-on-wooden-shelves-inside-library-2908984/" target="_blank">Stanislav Kondratiev</a> on Pexels.</i></p>
