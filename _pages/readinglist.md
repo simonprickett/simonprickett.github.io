@@ -20,6 +20,7 @@ permalink: "/readinglist/"
             <p><i>Last Updated: April 27th 2026.</i></p>
             <hr/>
             <ol>
+                <li><a href="https://www.goodreads.com/book/show/222376809-one-of-us" target="_blank"><b>One of Us</b> - <i>Dan Chaon</i></a></li>
                 <li><a href="https://www.goodreads.com/book/show/229094337-borderline-fiction" target="_blank"><b>Borderline Fiction</b> - <i>Derek Owusu</i></a></li>    
                 <li><a href="https://www.goodreads.com/book/show/236773462-the-monroe-girls" target="_blank"><b>The Monroe Girls</b> - <i>Antoine Volodine</i></a></li> 
                 <li><a href="https://www.goodreads.com/book/show/222758650-who-will-remain" target="_blank"><b>Who Will Remain</b> - <i>Kasim Ali</i></a></li>  
@@ -29,8 +30,7 @@ permalink: "/readinglist/"
                 <li><a href="https://www.goodreads.com/en/book/show/58438623-the-high-house" target="_blank"><b>The High House</b> - <i>Jessie Greengrass</i></a></li> 
                 <li><a href="https://www.goodreads.com/book/show/229154786-the-hunger-we-pass-down" target="_blank"><b>The Hunger We Pass Down</b> - <i>Jen Sookfong Lee</i></a></li>  
                 <li><a href="https://www.goodreads.com/book/show/220372340-the-man-who-died-seven-times" target="_blank"><b>The Man Who Died Seven Times</b> - <i>Yasuhiko Nishizawa</i></a></li>
-                <li><a href="https://www.goodreads.com/book/show/222919794-terry-dactyl" target="_blank"><b>Terry Dactyl</b> - <i>Mattilda Bernstein Sycamore</i></a></li>
-q            </ol>
+            </ol>
             <hr/>
             <p><i>Photo by <a href="https://www.pexels.com/photo/books-on-wooden-shelves-inside-library-2908984/" target="_blank">Stanislav Kondratiev</a> on Pexels.</i></p>
          </div>
