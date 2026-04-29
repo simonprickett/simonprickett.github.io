@@ -17,9 +17,10 @@ permalink: "/readinglist/"
             <p>Support your local library - I've read most of these books thanks to <a href="https://www.nottinghamcitylibraries.co.uk/" target="_blank">Nottingham City Libraries</a>.</p>
             <p>I'm also always looking out for book suggestions - <a href="/contact">get in touch</a> if you have ideas!</p>
             <hr/>
-            <p><i>Last Updated: April 27th 2026.</i></p>
+            <p><i>Last Updated: April 29th 2026.</i></p>
             <hr/>
             <ol>
+                <li><a href="https://www.goodreads.com/book/show/231388861-a-midnight-pastry-shop-called-hwawoldang" target="_blank"><b>A Midnight Pastry Shop Called Hwawoldang</b> - <i>Lee Onhwa</i></a></li>
                 <li><a href="https://www.goodreads.com/book/show/222376809-one-of-us" target="_blank"><b>One of Us</b> - <i>Dan Chaon</i></a></li>
                 <li><a href="https://www.goodreads.com/book/show/229094337-borderline-fiction" target="_blank"><b>Borderline Fiction</b> - <i>Derek Owusu</i></a></li>    
                 <li><a href="https://www.goodreads.com/book/show/236773462-the-monroe-girls" target="_blank"><b>The Monroe Girls</b> - <i>Antoine Volodine</i></a></li> 
@@ -29,7 +30,6 @@ permalink: "/readinglist/"
                 <li><a href="https://www.goodreads.com/book/show/233717135-eradication" target="_blank"><b>Eradication: A Fable</b> - <i>Jonathan Miles</i></a></li>  
                 <li><a href="https://www.goodreads.com/en/book/show/58438623-the-high-house" target="_blank"><b>The High House</b> - <i>Jessie Greengrass</i></a></li> 
                 <li><a href="https://www.goodreads.com/book/show/229154786-the-hunger-we-pass-down" target="_blank"><b>The Hunger We Pass Down</b> - <i>Jen Sookfong Lee</i></a></li>  
-                <li><a href="https://www.goodreads.com/book/show/220372340-the-man-who-died-seven-times" target="_blank"><b>The Man Who Died Seven Times</b> - <i>Yasuhiko Nishizawa</i></a></li>
             </ol>
             <hr/>
             <p><i>Photo by <a href="https://www.pexels.com/photo/books-on-wooden-shelves-inside-library-2908984/" target="_blank">Stanislav Kondratiev</a> on Pexels.</i></p>
