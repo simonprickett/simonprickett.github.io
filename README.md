@@ -8,6 +8,8 @@ Jekyll and the Ruby ecosystem are pretty brittle and hard to manage, so just use
 docker compose up
 ```
 
+The first run will build the local Docker image, which takes a minute or two. If you change the `Gemfile` later, rebuild with `docker compose up --build`.
+
 Then wait until you see:
 
 ```
