@@ -17,9 +17,10 @@ permalink: "/readinglist/"
             <p>Support your local library - I've read most of these books thanks to <a href="https://www.nottinghamcitylibraries.co.uk/" target="_blank">Nottingham City Libraries</a>.</p>
             <p>I'm also always looking out for book suggestions - <a href="/contact">get in touch</a> if you have ideas!</p>
             <hr/>
-            <p><i>Last Updated: May 8th 2026.</i></p>
+            <p><i>Last Updated: May 11th 2026.</i></p>
             <hr/>
             <ol>
+                <li><a href="https://www.goodreads.com/en/book/show/211934946-wildcat-dome" target="_blank"><b>Wildcat Dome</b> - <i>Yūko Tsushima</i></a></li> 
                 <li><a href="https://www.goodreads.com/en/book/show/57771224-good-intentions" target="_blank"><b>Good Intentions</b> - <i>Kasim Ali</i></a></li> 
                 <li><a href="https://www.goodreads.com/book/show/22367843-here-are-the-young-men" target="_blank"><b>Here Are the Young Men</b> - <i>Rob Doyle</i></a></li>  
                 <li><a href="https://www.goodreads.com/book/show/231388861-a-midnight-pastry-shop-called-hwawoldang" target="_blank"><b>A Midnight Pastry Shop Called Hwawoldang</b> - <i>Lee Onhwa</i></a></li>
@@ -28,8 +29,7 @@ permalink: "/readinglist/"
                 <li><a href="https://www.goodreads.com/book/show/236773462-the-monroe-girls" target="_blank"><b>The Monroe Girls</b> - <i>Antoine Volodine</i></a></li> 
                 <li><a href="https://www.goodreads.com/book/show/222758650-who-will-remain" target="_blank"><b>Who Will Remain</b> - <i>Kasim Ali</i></a></li>  
                 <li><a href="https://www.goodreads.com/book/show/222558518-there-s-no-point-in-dying" target="_blank"><b>There's No Point in Dying</b> - <i>Francisco Maciel</i></a></li> 
-                <li><a href="https://www.goodreads.com/book/show/226381619-days-at-the-torunka-caf" target="_blank"><b>Days at the Torunka Café</b> - <i>Satoshi Yagisawa</i></a></li>  
-                <li><a href="https://www.goodreads.com/book/show/233717135-eradication" target="_blank"><b>Eradication: A Fable</b> - <i>Jonathan Miles</i></a></li>  
+                <li><a href="https://www.goodreads.com/book/show/226381619-days-at-the-torunka-caf" target="_blank"><b>Days at the Torunka Café</b> - <i>Satoshi Yagisawa</i></a></li>   
             </ol>
             <hr/>
             <p><i>Photo by <a href="https://www.pexels.com/photo/books-on-wooden-shelves-inside-library-2908984/" target="_blank">Stanislav Kondratiev</a> on Pexels.</i></p>
