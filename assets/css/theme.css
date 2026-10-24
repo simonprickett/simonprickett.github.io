@@ -676,6 +676,12 @@ article {
 	line-height:1.86;
     font-family:Lora;
 }
+@media (min-width: 992px) {
+	.article-content-column {
+		flex: 0 0 80%;
+		max-width: 80%;
+	}
+}
 .article-headline {
     font-family: Georgia,Times,"Times New Roman",serif;
     font-size: 3.2rem;
