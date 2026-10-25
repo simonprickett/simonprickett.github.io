@@ -11,16 +11,94 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vel consectetur mi. 
 Vestibulum metus lorem, tincidunt id porttitor eget, dapibus in est. Integer nec erat tincidunt, egestas ante vel, congue nulla. Vestibulum vitae ullamcorper est, sit amet blandit arcu. Donec et posuere dui. Phasellus tincidunt turpis et turpis feugiat interdum. Sed lacinia sapien at nibh ultricies, non laoreet tellus faucibus. In bibendum orci arcu.
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/lego_4x4_TODO.webp" alt="TODO ALT TEXT">
+  <img src="{{ site.baseurl }}/assets/images/lego_4x4_10.webp" alt="TODO ALT TEXT">
   <figcaption class="figure-caption text-center">TODO CAPTION.</figcaption>
 </figure>
 
 <div class="slick-carousel">
     <div>
-        <figure class="figure">
-        <img src="{{ site.baseurl }}/assets/lego_4x4_TODO.webp" class="figure-img img-fluid" alt="TODO ALT TEXT">
-        <figcaption class="figure-caption text-center">TODO CAPTION.</figcaption>
-        </figure>
+      <figure class="figure">
+      <img src="{{ site.baseurl }}/assets/images/lego_4x4_main.webp" class="figure-img img-fluid" alt="TODO ALT TEXT">
+      <figcaption class="figure-caption text-center">TODO CAPTION.</figcaption>
+      </figure>
+    </div>
+    <div>
+      <figure class="figure">
+      <img src="{{ site.baseurl }}/assets/images/lego_4x4_01.webp" class="figure-img img-fluid" alt="TODO ALT TEXT">
+      <figcaption class="figure-caption text-center">TODO CAPTION.</figcaption>
+      </figure>
+    </div>
+    <div>
+      <figure class="figure">
+      <img src="{{ site.baseurl }}/assets/images/lego_4x4_02.webp" class="figure-img img-fluid" alt="TODO ALT TEXT">
+      <figcaption class="figure-caption text-center">TODO CAPTION.</figcaption>
+      </figure>
+    </div>
+    <div>
+      <figure class="figure">
+      <img src="{{ site.baseurl }}/assets/images/lego_4x4_03.webp" class="figure-img img-fluid" alt="TODO ALT TEXT">
+      <figcaption class="figure-caption text-center">TODO CAPTION.</figcaption>
+      </figure>
+    </div>
+    <div>
+      <figure class="figure">
+      <img src="{{ site.baseurl }}/assets/images/lego_4x4_04.webp" class="figure-img img-fluid" alt="TODO ALT TEXT">
+      <figcaption class="figure-caption text-center">TODO CAPTION.</figcaption>
+      </figure>
+    </div>
+    <div>
+      <figure class="figure">
+      <img src="{{ site.baseurl }}/assets/images/lego_4x4_05.webp" class="figure-img img-fluid" alt="TODO ALT TEXT">
+      <figcaption class="figure-caption text-center">TODO CAPTION.</figcaption>
+      </figure>
+    </div>
+    <div>
+      <figure class="figure">
+      <img src="{{ site.baseurl }}/assets/images/lego_4x4_06.webp" class="figure-img img-fluid" alt="TODO ALT TEXT">
+      <figcaption class="figure-caption text-center">TODO CAPTION.</figcaption>
+      </figure>
+    </div>
+    <div>
+      <figure class="figure">
+      <img src="{{ site.baseurl }}/assets/images/lego_4x4_07.webp" class="figure-img img-fluid" alt="TODO ALT TEXT">
+      <figcaption class="figure-caption text-center">TODO CAPTION.</figcaption>
+      </figure>
+    </div>
+    <div>
+      <figure class="figure">
+      <img src="{{ site.baseurl }}/assets/images/lego_4x4_08.webp" class="figure-img img-fluid" alt="TODO ALT TEXT">
+      <figcaption class="figure-caption text-center">TODO CAPTION.</figcaption>
+      </figure>
+    </div>
+    <div>
+      <figure class="figure">
+      <img src="{{ site.baseurl }}/assets/images/lego_4x4_09.webp" class="figure-img img-fluid" alt="TODO ALT TEXT">
+      <figcaption class="figure-caption text-center">TODO CAPTION.</figcaption>
+      </figure>
+    </div>
+    <div>
+      <figure class="figure">
+      <img src="{{ site.baseurl }}/assets/images/lego_4x4_10.webp" class="figure-img img-fluid" alt="TODO ALT TEXT">
+      <figcaption class="figure-caption text-center">TODO CAPTION.</figcaption>
+      </figure>
+    </div>
+    <div>
+      <figure class="figure">
+      <img src="{{ site.baseurl }}/assets/images/lego_4x4_11.webp" class="figure-img img-fluid" alt="TODO ALT TEXT">
+      <figcaption class="figure-caption text-center">TODO CAPTION.</figcaption>
+      </figure>
+    </div>
+    <div>
+      <figure class="figure">
+      <img src="{{ site.baseurl }}/assets/images/lego_4x4_12.webp" class="figure-img img-fluid" alt="TODO ALT TEXT">
+      <figcaption class="figure-caption text-center">TODO CAPTION.</figcaption>
+      </figure>
+    </div>
+    <div>
+      <figure class="figure">
+      <img src="{{ site.baseurl }}/assets/images/lego_4x4_13.webp" class="figure-img img-fluid" alt="TODO ALT TEXT">
+      <figcaption class="figure-caption text-center">TODO CAPTION.</figcaption>
+      </figure>
     </div>
 </div>
 
