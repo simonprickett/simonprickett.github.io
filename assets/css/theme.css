@@ -692,6 +692,9 @@ article {
 article p,article pre,article figure,article img,article blockquote,article iframed,article embed {
 	margin-bottom:2rem;
 }
+article figure img {
+	margin-bottom:.5rem;
+}
 article blockquote {
 	padding-left:40px;
 	margin-left:0px;
