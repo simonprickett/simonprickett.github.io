@@ -97,6 +97,7 @@ Here are my previous Lego builds...
 
 * [Audi Quattro S1](/building-the-lego-audi-quattro).  
 * [Creator Land Rover Defender](/building-the-lego-creator-land-rover-defender).
+* [City Off Road 4x4 Mountain Truck](/another-lego-4x4-joins-the-fleet).
 
 Other Lego Shuttle kits that are or have been available:
 

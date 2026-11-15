@@ -60,4 +60,5 @@ If you'd like to get one yourself, [pick up a kit over at the Lego website](http
 I've subsequently built a couple of other Lego sets, have a look at my build articles for each:
 
 * [Creator Land Rover Defender](/building-the-lego-creator-land-rover-defender).
+* [City Off Road 4x4 Mountain Truck](/another-lego-4x4-joins-the-fleet).
 * [Creator Shuttle](/building-the-lego-creator-shuttle).
