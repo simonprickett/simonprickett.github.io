@@ -11,51 +11,51 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vel consectetur mi. 
 Vestibulum metus lorem, tincidunt id porttitor eget, dapibus in est. Integer nec erat tincidunt, egestas ante vel, congue nulla. Vestibulum vitae ullamcorper est, sit amet blandit arcu. Donec et posuere dui. Phasellus tincidunt turpis et turpis feugiat interdum. Sed lacinia sapien at nibh ultricies, non laoreet tellus faucibus. In bibendum orci arcu.
 
 <figure class="figure">
-  <img src="{{ site.baseurl }}/assets/images/lego_4x4_10.webp" alt="TODO ALT TEXT">
-  <figcaption class="figure-caption text-center">TODO CAPTION.</figcaption>
+  <img src="{{ site.baseurl }}/assets/images/lego_4x4_10.webp" alt="The completed build shown with the bonnet/hood lifted.">
+  <figcaption class="figure-caption text-center">The completed build shown with the bonnet/hood lifted.</figcaption>
 </figure>
 
 <div class="slick-carousel">
     <div>
       <figure class="figure">
-      <img src="{{ site.baseurl }}/assets/images/lego_4x4_main.webp" class="figure-img img-fluid" alt="TODO ALT TEXT">
-      <figcaption class="figure-caption text-center">TODO CAPTION.</figcaption>
+      <img src="{{ site.baseurl }}/assets/images/lego_4x4_main.webp" class="figure-img img-fluid" alt="The completed build.">
+      <figcaption class="figure-caption text-center">The completed build.</figcaption>
       </figure>
     </div>
     <div>
       <figure class="figure">
-      <img src="{{ site.baseurl }}/assets/images/lego_4x4_01.webp" class="figure-img img-fluid" alt="TODO ALT TEXT">
-      <figcaption class="figure-caption text-center">TODO CAPTION.</figcaption>
+      <img src="{{ site.baseurl }}/assets/images/lego_4x4_01.webp" class="figure-img img-fluid" alt="Instruction book.">
+      <figcaption class="figure-caption text-center">Instruction book.</figcaption>
       </figure>
     </div>
     <div>
       <figure class="figure">
-      <img src="{{ site.baseurl }}/assets/images/lego_4x4_02.webp" class="figure-img img-fluid" alt="TODO ALT TEXT">
-      <figcaption class="figure-caption text-center">TODO CAPTION.</figcaption>
+      <img src="{{ site.baseurl }}/assets/images/lego_4x4_02.webp" class="figure-img img-fluid" alt="I like a bit of knolling when building with Lego.">
+      <figcaption class="figure-caption text-center">I like a bit of knolling when building with Lego.</figcaption>
       </figure>
     </div>
     <div>
       <figure class="figure">
-      <img src="{{ site.baseurl }}/assets/images/lego_4x4_03.webp" class="figure-img img-fluid" alt="TODO ALT TEXT">
-      <figcaption class="figure-caption text-center">TODO CAPTION.</figcaption>
+      <img src="{{ site.baseurl }}/assets/images/lego_4x4_03.webp" class="figure-img img-fluid" alt="Overhead view, part way through the build.">
+      <figcaption class="figure-caption text-center">Overhead view, part way through the build.</figcaption>
       </figure>
     </div>
     <div>
       <figure class="figure">
-      <img src="{{ site.baseurl }}/assets/images/lego_4x4_04.webp" class="figure-img img-fluid" alt="TODO ALT TEXT">
-      <figcaption class="figure-caption text-center">TODO CAPTION.</figcaption>
+      <img src="{{ site.baseurl }}/assets/images/lego_4x4_04.webp" class="figure-img img-fluid" alt="I like that you can open and close the bonnet / hood with this set.">
+      <figcaption class="figure-caption text-center">I like that you can open and close the bonnet / hood with this set.</figcaption>
       </figure>
     </div>
     <div>
       <figure class="figure">
-      <img src="{{ site.baseurl }}/assets/images/lego_4x4_05.webp" class="figure-img img-fluid" alt="TODO ALT TEXT">
-      <figcaption class="figure-caption text-center">TODO CAPTION.</figcaption>
+      <img src="{{ site.baseurl }}/assets/images/lego_4x4_05.webp" class="figure-img img-fluid" alt="Adding the windows.">
+      <figcaption class="figure-caption text-center">Adding the windows.</figcaption>
       </figure>
     </div>
     <div>
       <figure class="figure">
-      <img src="{{ site.baseurl }}/assets/images/lego_4x4_06.webp" class="figure-img img-fluid" alt="TODO ALT TEXT">
-      <figcaption class="figure-caption text-center">TODO CAPTION.</figcaption>
+      <img src="{{ site.baseurl }}/assets/images/lego_4x4_06.webp" class="figure-img img-fluid" alt="Further parts knolling as we near completion.">
+      <figcaption class="figure-caption text-center">Further parts knolling as we near completion.</figcaption>
       </figure>
     </div>
     <div>
@@ -102,15 +102,13 @@ Vestibulum metus lorem, tincidunt id porttitor eget, dapibus in est. Integer nec
     </div>
 </div>
 
-TODO CALL TO ACTION
-
-Here are my other Lego builds... 
+If you enjoyed seeing this one, here are some links to my other Lego builds... 
 
 * [Creator Land Rover Defender](/building-the-lego-creator-land-rover-defender).
 * [Audi Quattro S1](/building-the-lego-audi-quattro).  
 * [Creator Shuttle](/building-the-lego-creator-shuttle).
 
-One day I'd love to tackle the big Lego [Land Rover Defender 90 set](https://shop.landrover.co.uk/classic-defender-90-lego-set).  At over £200 I'll need some donations first though, so let's end with a gentle request for support :) 
+I've got a couple of other larger scale Lego projects to complete and document, which will appear here when done. One day I'd love to tackle the big Lego [Land Rover Defender 90 set](https://shop.landrover.co.uk/classic-defender-90-lego-set).  At over £200 I'll need some donations first though, so let's end with a gentle request for support :) 
 
 {% include coffee-cta.html %}
 
